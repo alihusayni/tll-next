@@ -3,7 +3,6 @@
  import { useState } from 'react';
 import Logo from '../atoms/logo';
 import MainNav from '../molecules/main-nav';
-import MobileMenuToggle from '../molecules/mobile-menu-toggle';
 import UiButton from '../atoms/ui-button';
 
 interface SiteHeaderProps {
@@ -11,7 +10,7 @@ interface SiteHeaderProps {
 }
 
 export default function SiteHeader({ className = '' }: SiteHeaderProps) {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMobileMenuOpen] = useState(false);
 
   return (
     <header className={`bg-transparent ${className}`}>
@@ -19,14 +18,9 @@ export default function SiteHeader({ className = '' }: SiteHeaderProps) {
         <Logo />
         <MainNav className="hidden lg:flex" />
         <div className="flex items-center gap-4">
-          <UiButton variant="outline" size="md" className="hidden md:flex">
+          <UiButton variant="outline" size="md" className="hidden md:flex whitespace-nowrap">
             Contact us
           </UiButton>
-          <MobileMenuToggle
-            isOpen={isMobileMenuOpen}
-            onToggle={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden"
-          />
         </div>
       </div>
       {isMobileMenuOpen && (
