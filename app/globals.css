@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --background: #ffffff;
@@ -9,8 +8,9 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: 'Inter Tight', var(--font-geist-sans);
+  --font-sans: var(--font-inter-tight), var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-inter-tight: var(--font-inter-tight);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,5 +23,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans);
+  font-family: var(--font-inter-tight);
 }
