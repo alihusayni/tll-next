@@ -2,7 +2,7 @@ import ContactForm from '../molecules/contact-form';
 
 export default function ContactSection() {
   return (
-    <section className="bg-[#F7F9FC] py-16 px-4 md:py-24 md:px-8 lg:py-32 lg:px-16">
+    <section className="bg-[#F7F9FC] py-16 px-4 md:py-24 md:px-8 lg:py-32 lg:px-16 m-0">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-16">
           <div className="flex-1">

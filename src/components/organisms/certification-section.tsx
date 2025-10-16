@@ -4,7 +4,7 @@ import CertificationBadge from '../molecules/certification-badge';
 
 export default function CertificationSection() {
   return (
-    <section className="bg-[#00356E] py-16 px-4 md:py-24 md:px-8 lg:py-32 lg:px-16">
+    <section className="bg-[#00356E] py-16 px-4 md:py-24 md:px-8 lg:py-32 lg:px-16 m-0">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-5xl lg:text-[62px] text-[#9199B9] text-center font-normal leading-[1.16] mb-32">
           Your Chances Are Stronger Than You Think &mdash; Protection and Guidance through Complexity

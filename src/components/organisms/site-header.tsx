@@ -15,7 +15,7 @@ export default function SiteHeader({ className = '' }: SiteHeaderProps) {
   return (
     <header className={`bg-transparent ${className}`}>
       <div className="flex justify-between items-center py-8 px-4 md:px-8 lg:px-16">
-        <Logo />
+        <Logo variant="blue" />
         <MainNav className="hidden lg:flex" />
         <div className="flex items-center gap-4">
           <UiButton variant="outline" size="md" className="hidden md:flex whitespace-nowrap">

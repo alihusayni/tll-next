@@ -7,7 +7,7 @@ interface HeroSectionProps {
 
 export default function HeroSection({ className = '' }: HeroSectionProps) {
   return (
-    <section className={`relative min-h-screen flex flex-col justify-start items-center bg-[#E8EDF2] ${className}`}>
+    <section className={`relative min-h-screen flex flex-col justify-start items-center bg-[#E8EDF2] m-0 ${className}`}>
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image

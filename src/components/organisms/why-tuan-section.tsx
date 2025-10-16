@@ -48,7 +48,7 @@ const WhyTuanSection: React.FC = () => {
   };
 
   return (
-    <section className="bg-[#E8EDF2] py-32 px-16 md:py-24 md:px-8 lg:py-32 lg:px-16">
+    <section className="bg-[#E8EDF2] py-32 px-16 md:py-24 md:px-8 lg:py-32 lg:px-16 m-0">
       <div className="max-w-[1512px] mx-auto">
         <div className="flex flex-col gap-16 md:gap-8 lg:gap-16">
           <div className="flex flex-col gap-12.5">
