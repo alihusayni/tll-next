@@ -1,4 +1,11 @@
 import ArticleHero from '../components/organisms/article-hero';
+import ArticleBody from '../components/organisms/article-body';
+
+interface TocItem {
+  href: string;
+  label: string;
+  isActive?: boolean;
+}
 
 interface Content {
   title: string;
@@ -8,6 +15,8 @@ interface Content {
   breadcrumb: string;
   date: string;
   readTime: string;
+  tocItems: TocItem[];
+  bodyContent: string;
 }
 
 interface ArticleTemplateProps {
@@ -18,12 +27,7 @@ export default function ArticleTemplate({ content }: ArticleTemplateProps) {
   return (
     <div>
       <ArticleHero {...content} />
-      {/* Placeholder for TOC and Body - to be implemented in Phase 11 */}
-      <div className="py-16">
-        <div className="max-w-4xl mx-auto px-4 md:px-8 lg:px-16">
-          <p>Article content will be rendered here in Phase 11.</p>
-        </div>
-      </div>
+      <ArticleBody tocItems={content.tocItems} content={content.bodyContent} />
     </div>
   );
 }

@@ -11,6 +11,7 @@
   --font-sans: var(--font-inter-tight), var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-inter-tight: var(--font-inter-tight);
+  --font-inter: 'Inter', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +25,58 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-inter-tight);
+}
+
+/* Markdown body typography */
+.markdown-body {
+  @apply text-[#071C32];
+}
+
+.markdown-body h2 {
+  @apply text-4xl font-inter-tight font-semibold text-[#091C32] mt-16 mb-8 leading-tight scroll-mt-20;
+}
+
+.markdown-body h3 {
+  @apply text-3xl font-inter-tight font-semibold text-[#091C32] mt-12 mb-6 leading-tight scroll-mt-20;
+}
+
+.markdown-body h4 {
+  @apply text-2xl font-inter-tight font-semibold text-[#091C32] mt-10 mb-4 leading-tight scroll-mt-20;
+}
+
+.markdown-body h5 {
+  @apply text-xl font-inter-tight font-semibold text-[#091C32] mt-8 mb-4 leading-tight scroll-mt-20;
+}
+
+.markdown-body h6 {
+  @apply text-lg font-inter-tight font-semibold text-[#091C32] mt-6 mb-4 leading-tight scroll-mt-20;
+}
+
+.markdown-body p {
+  @apply text-lg font-inter leading-relaxed mb-6 text-[#071C32];
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  @apply text-lg font-inter leading-relaxed mb-6 text-[#071C32] pl-6;
+}
+
+.markdown-body ul {
+  @apply list-disc;
+}
+
+.markdown-body ol {
+  @apply list-decimal;
+}
+
+.markdown-body li {
+  @apply mb-2;
+}
+
+.markdown-body a {
+  @apply text-[#E55B1E] hover:text-[#d44a1a] underline;
+}
+
+.markdown-body blockquote {
+  @apply bg-[#E1E6EB] border-l-4 border-[#E55B1E] pl-6 py-4 my-8 text-xl font-inter leading-relaxed text-[#071C32] italic;
 }
