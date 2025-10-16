@@ -3,6 +3,7 @@ import AboutSection from '@/components/organisms/about-section';
 import CertificationSection from '@/components/organisms/certification-section';
 import TestimonialSection from '@/components/organisms/testimonial-section';
 import WhyTuanSection from '@/components/organisms/why-tuan-section';
+import ContactSection from '@/components/organisms/contact-section';
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             <AboutSection/>
             <TestimonialSection/>
             <WhyTuanSection/>
+            <ContactSection/>
         </>
     );
 }
