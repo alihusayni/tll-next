@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 
 interface UiButtonProps {
-  variant: 'outline' | 'primary';
+  variant: 'outline' | 'primary' | 'dark-outline';
   size: 'md' | 'lg';
   children: ReactNode;
   onClick?: () => void;
@@ -21,6 +21,7 @@ export default function UiButton({
 
   const variantClasses = {
     outline: 'bg-transparent border-2 border-white text-white hover:bg-[#E55B1E] hover:border-[#E55B1E] hover:text-white',
+    'dark-outline': 'bg-transparent border-2 border-[#071C32] text-[#071C32] hover:bg-[#E55B1E] hover:border-[#E55B1E] hover:text-white',
     primary: 'bg-[#E55B1E] text-white hover:bg-[#d44a1a]'
   };
 

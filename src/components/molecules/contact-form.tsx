@@ -94,12 +94,11 @@ export default function ContactForm() {
         </div>
       </div>
 
-      <UiButton
-        variant="outline"
-        size="lg"
-        type="submit"
-        className="border-[#071C32]! text-[#071C32]! hover:bg-orange-500 hover:border-orange-500! hover:text-white!"
-      >
+       <UiButton
+         variant="dark-outline"
+         size="lg"
+         type="submit"
+       >
         Schedule Free Consultation
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="hover:rotate-45 transition-transform">
           <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
