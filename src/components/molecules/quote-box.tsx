@@ -9,7 +9,7 @@ export default function QuoteBox({ quote, author }: QuoteBoxProps) {
       <div className="flex gap-6">
         {/* Quote Mark */}
         <div className="flex-shrink-0">
-          <span className="text-[62px] font-inter text-[#071C32] leading-none">"</span>
+          <span className="text-[62px] font-inter text-[#071C32] leading-none">&quot;</span>
         </div>
 
         {/* Content */}

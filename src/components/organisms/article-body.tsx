@@ -1,6 +1,7 @@
 import TableOfContents from '../molecules/table-of-contents';
 import CtaBox from './cta-box';
 import QuoteBox from '../molecules/quote-box';
+import { ReactNode } from 'react';
 
 interface TocItem {
   href: string;
@@ -10,7 +11,7 @@ interface TocItem {
 
 interface ArticleBodyProps {
   tocItems: TocItem[];
-  content: string; // Placeholder for HTML content
+  content: ReactNode;
 }
 
 export default function ArticleBody({ tocItems, content }: ArticleBodyProps) {
@@ -25,10 +26,9 @@ export default function ArticleBody({ tocItems, content }: ArticleBodyProps) {
 
           {/* Content */}
           <div className="lg:col-span-2">
-            <div
-              className="markdown-body prose prose-lg max-w-none"
-              dangerouslySetInnerHTML={{ __html: content }}
-            />
+            <div className="markdown-body prose prose-lg max-w-none">
+              {content}
+            </div>
 
             {/* Demo components */}
             <div className="my-16">
