@@ -54,7 +54,7 @@ const TestimonialSection: React.FC = () => {
 
   return (
     <section className="bg-[#E8EDF2] py-32 px-16 m-0">
-      <div className="max-w-[1512px] mx-auto">
+      <div className="max-w-[90rem] mx-auto">
         <div className="bg-white rounded-[32px] p-16 flex flex-col gap-28">
           <TestimonialCard
             {...testimonials[currentIndex]}
