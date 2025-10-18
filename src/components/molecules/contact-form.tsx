@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, FormEvent } from 'react';
+import ReCAPTCHA from 'react-google-recaptcha';
 import TextInput from '../atoms/text-input';
 import TextArea from '../atoms/text-area';
 import UiButton from '../atoms/ui-button';
@@ -10,6 +11,7 @@ interface FormData {
   email: string;
   phone: string;
   message: string;
+  captcha: string;
 }
 
 export default function ContactForm() {
@@ -17,7 +19,8 @@ export default function ContactForm() {
     name: '',
     email: '',
     phone: '',
-    message: ''
+    message: '',
+    captcha: ''
   });
 
   const [errors, setErrors] = useState<Partial<FormData>>({});
@@ -29,6 +32,13 @@ export default function ContactForm() {
     }
   };
 
+  const handleCaptchaChange = (value: string | null) => {
+    setFormData(prev => ({ ...prev, captcha: value || '' }));
+    if (errors.captcha) {
+      setErrors(prev => ({ ...prev, captcha: undefined }));
+    }
+  };
+
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     const newErrors: Partial<FormData> = {};
@@ -36,12 +46,13 @@ export default function ContactForm() {
     if (!formData.email.trim()) newErrors.email = 'Required';
     if (!formData.phone.trim()) newErrors.phone = 'Required';
     if (!formData.message.trim()) newErrors.message = 'Required';
+    if (!formData.captcha.trim()) newErrors.captcha = 'Required';
     setErrors(newErrors);
     if (Object.keys(newErrors).length === 0) {
       // Since no API, just log
       console.log('Form submitted', formData);
       // Reset form
-      setFormData({ name: '', email: '', phone: '', message: '' });
+      setFormData({ name: '', email: '', phone: '', message: '', captcha: '' });
     }
   };
 
@@ -85,25 +96,21 @@ export default function ContactForm() {
       />
       {errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
 
-      {/* reCAPTCHA placeholder */}
-      <div className="flex items-center gap-2 p-3 border border-gray-300 rounded bg-white">
-        <div className="w-6 h-6 border border-gray-400 rounded"></div>
-        <span className="text-sm text-gray-700">I&apos;m not a robot</span>
-        <div className="ml-auto">
-          <div className="w-16 h-6 bg-blue-600 rounded text-white text-xs flex items-center justify-center">reCAPTCHA</div>
-        </div>
-      </div>
+      <ReCAPTCHA
+        sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" // Test key
+        onChange={handleCaptchaChange}
+      />
+      {errors.captcha && <p className="text-red-500 text-sm">{errors.captcha}</p>}
 
-       <UiButton
-         variant="dark-outline"
-         size="lg"
-         type="submit"
-       >
-        Schedule Free Consultation
-        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="hover:rotate-45 transition-transform">
-          <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-        </svg>
-      </UiButton>
+       <button type="submit" className="group self-start bg-transparent border-2 border-[#071C32] text-[#071C32] font-inter-tight font-semibold text-[18px] uppercase rounded-md hover:bg-[#FF7031] hover:border-[#FF7031] hover:text-white transition-all w-[23.563rem] h-[3.25rem] hover:w-[24.5rem] flex items-center justify-start gap-4 pl-6">
+         Schedule Free Consultation
+         <svg
+             width="14"
+             height="14"
+             viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" className="transition-transform group-hover:rotate-45 ml-5 stroke-[#071C32] group-hover:stroke-white">
+           <path d="M1 13L13 1M13 1H4M13 1V10" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+         </svg>
+       </button>
     </form>
   );
 }
