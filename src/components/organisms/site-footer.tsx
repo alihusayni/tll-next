@@ -8,11 +8,11 @@ interface SiteFooterProps {
 
 export default function SiteFooter({ className = '' }: SiteFooterProps) {
   const practicesItems = [
-    { text: 'Criminal Immigration Issues' },
-    { text: 'Removal/Deportation Defense' },
-    { text: 'Citizenship & Naturalization Support' },
-    { text: 'Family-based Immigration' },
-    { text: 'Business & Employment Immigration' },
+    { text: 'Criminal Immigration Issues', href: '#' },
+    { text: 'Removal/Deportation Defense', href: '#' },
+    { text: 'Citizenship & Naturalization Support', href: '#' },
+    { text: 'Family-based Immigration', href: '#' },
+    { text: 'Business & Employment Immigration', href: '#' },
   ];
 
   const addressItems = [
@@ -21,14 +21,14 @@ export default function SiteFooter({ className = '' }: SiteFooterProps) {
   ];
 
   return (
-    <footer className={`bg-[#F7F9FC] m-0 ${className}`}>
-      <div className="max-w-[90rem] mx-auto py-24 px-16 pb-8">
-        <div className="flex flex-wrap justify-between gap-8 mb-8">
-          <div className="flex flex-col gap-6 max-w-xs">
+    <footer className={`bg-[#F7F9FC] m-0 border-t-2 border-[#E1E3E5] ${className}`}>
+      <div className="max-w-[90rem] mx-auto py-24 px-4 sm:px-8 lg:px-16 pb-8">
+        <div className="flex flex-wrap justify-between mr-25 mb-8">
+          <div className="flex flex-col gap-6 self-start max-w-xs">
             <Logo variant="Blue" />
-            <p className="font-inter text-lg text-[#071C32]">We are the Employment Law Center of Orange County CA.</p>
+            <p className="font-inter text-lg text-[#071C32] leading-[22px] max-w-[18rem] pb-5">We are the Employment Law Center of Orange County CA.</p>
           </div>
-          <div className="flex flex-wrap gap-8">
+          <div className="flex flex-wrap gap-12">
             <FooterNavColumn title="Practices" items={practicesItems} />
             <FooterNavColumn title="" items={addressItems} />
           </div>

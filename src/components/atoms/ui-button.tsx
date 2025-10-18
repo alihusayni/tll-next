@@ -20,9 +20,9 @@ export default function UiButton({
   const baseClasses = 'inline-flex items-center justify-center gap-4 font-inter-tight font-semibold uppercase transition-colors rounded-md';
 
   const variantClasses = {
-    outline: 'bg-transparent border-2 border-white text-white hover:bg-[#E55B1E] hover:border-[#E55B1E] hover:text-white',
-    'dark-outline': 'bg-transparent border-2 border-[#071C32] text-[#071C32] hover:bg-[#E55B1E] hover:border-[#E55B1E] hover:text-white',
-    primary: 'bg-[#E55B1E] text-white hover:bg-[#d44a1a]'
+    outline: 'bg-transparent border-2 border-white text-white hover:bg-[#E55B1E] active:bg-[#E55B1E] hover:border-[#E55B1E] active:border-[#E55B1E] hover:text-white active:text-white',
+    'dark-outline': 'bg-transparent border-2 border-[#071C32] text-[#071C32] hover:bg-[#E55B1E] active:bg-[#E55B1E] hover:border-[#E55B1E] active:border-[#E55B1E] hover:text-white active:text-white',
+    primary: 'bg-[#E55B1E] text-white hover:bg-[#d44a1a] active:bg-[#d44a1a]'
   };
 
   const sizeClasses = {
