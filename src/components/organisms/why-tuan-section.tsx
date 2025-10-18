@@ -34,53 +34,76 @@ const features: FeatureData[] = [
 
 const WhyTuanSection: React.FC = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = React.useState(false);
+  const [canScrollRight, setCanScrollRight] = React.useState(true);
+
+  const checkScroll = () => {
+    if (scrollRef.current) {
+      const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
+      setCanScrollLeft(scrollLeft > 0);
+      setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 1);
+    }
+  };
+
+  React.useEffect(() => {
+    checkScroll();
+    const ref = scrollRef.current;
+    if (ref) {
+      ref.addEventListener('scroll', checkScroll);
+      return () => ref.removeEventListener('scroll', checkScroll);
+    }
+  }, []);
 
   const scrollLeft = () => {
-    if (scrollRef.current) {
+    if (scrollRef.current && canScrollLeft) {
       scrollRef.current.scrollBy({ left: -400, behavior: 'smooth' });
     }
   };
 
   const scrollRight = () => {
-    if (scrollRef.current) {
+    if (scrollRef.current && canScrollRight) {
       scrollRef.current.scrollBy({ left: 400, behavior: 'smooth' });
     }
   };
 
   return (
-    <section id="why-tuan-le" className="bg-[#E8EDF2] py-32 px-16 md:py-24 md:px-8 lg:py-32 lg:px-16 m-0 scroll-mt-24">
+    <section id="why-tuan-le" className="bg-[#E8EDF2] py-25 px-4 md:py-24 md:px-8 lg:py-32 lg:px-16 m-0 scroll-mt-24 overflow-x-clip">
       <div className="max-w-[90rem] mx-auto">
-        <div className="flex flex-col gap-16 md:gap-8 lg:gap-16">
-          <div className="flex flex-col gap-12.5">
+        <div className="flex flex-col gap-12 md:gap-16 lg:gap-16">
+          <div className="flex flex-col gap-8 lg:gap-12.5">
             <p className="font-['Inter_Tight'] font-semibold text-lg leading-[1.222] uppercase text-[#747D85]">
               Our Values
             </p>
-            <h2 className="font-['Inter_Tight'] font-semibold text-[34px] md:text-[52px] leading-[1.235] md:leading-[1.154] tracking-[-0.02em] text-[#071C32]">
-              Why The Office of Tuan Le?
-            </h2>
-          </div>
-          <div className="flex flex-col gap-8">
-            <div className="flex justify-end gap-4">
-              <button
-                onClick={scrollLeft}
-                className="w-14 h-14 rounded-[30px] border-2 border-gray-300 flex items-center justify-center hover:bg-gray-50"
-              >
-                <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M15 6L1 6M1 6L6 11M1 6L6 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </button>
-              <button
-                onClick={scrollRight}
-                className="w-14 h-14 rounded-[30px] border-2 border-gray-400 flex items-center justify-center hover:bg-gray-50"
-              >
-                <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 6L15 6M15 6L10 1M15 6L10 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </button>
+            <div className="flex flex-col gap-16 sm:flex-row sm:justify-between md:items-end">
+              <h2 className="font-['Inter_Tight'] font-semibold text-[34px] lg:text-[52px] leading-[42px] md:leading-[1.154] tracking-[-0.68px] text-[#071C32] max-w-[31rem]">
+                Why The Office of Tuan Le?
+              </h2>
+              <div className="flex gap-4 self-end">
+                <button
+                  onClick={scrollLeft}
+                  disabled={!canScrollLeft}
+                  className="w-14 h-14 rounded-[30px] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-transparent hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
+                >
+                  <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 6L1 6M1 6L6 11M1 6L6 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </button>
+                <button
+                  onClick={scrollRight}
+                  disabled={!canScrollRight}
+                  className="w-14 h-14 rounded-[30px] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-transparent hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
+                >
+                  <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 6L15 6M15 6L10 1M15 6L10 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </button>
+              </div>
             </div>
+          </div>
+          <div>
             <div
               ref={scrollRef}
-              className="flex gap-8 overflow-x-auto scrollbar-hide"
+              className="flex gap-4 sm:gap-8 overflow-x-auto scrollbar-hide"
               style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
             >
               {features.map((feature, index) => (

@@ -13,8 +13,8 @@ const ValueCard: React.FC<ValueCardProps> = ({
   description,
 }) => {
   return (
-    <div className="flex flex-col gap-8 w-[384px] overflow-hidden">
-      <div className="relative w-[384px] rounded h-[332px]">
+    <div className="flex flex-col gap-8 overflow-hidden flex-shrink-0 w-[384px]">
+      <div className="relative w-[384px] h-[332px]">
         <Image
           src={iconSrc}
           alt={title}
@@ -22,11 +22,11 @@ const ValueCard: React.FC<ValueCardProps> = ({
           className="object-cover"
         />
       </div>
-      <div className="flex flex-col gap-5 p-5">
-        <h3 className="font-['Inter_Tight'] font-semibold text-2xl leading-[1.375] tracking-[-0.02em] text-[#49535D]">
+      <div className="flex flex-col gap-5">
+        <h3 className="font-['Inter_Tight'] font-semibold text-2xl lg:text-[32px] leading-[38px] sm:leading-[35px] lg:leading-[44px] tracking-[-0.48px] lg:tracking-[-0.64px] text-[#49535D]">
           {title}
         </h3>
-        <p className="font-['Inter'] font-normal text-lg leading-[1.222] text-[#071C32]">
+        <p className="font-['Inter_Tight'] font-normal text-lg leading-[1.222] text-[#071C32]">
           {description}
         </p>
       </div>
