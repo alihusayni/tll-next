@@ -11,13 +11,13 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/assets/hero/bg.png"
+          src="/assets/hero/bg.webp"
           alt="Hero background"
           fill
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-[rgba(9,44,81,0.6)]" />
+        <div className="absolute inset-0 bg-[rgba(9,44,81,0.60)]" />
       </div>
 
       {/* Header */}

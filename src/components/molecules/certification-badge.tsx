@@ -2,7 +2,7 @@ import BadgeIcon from '../atoms/badge-icon';
 
 export default function CertificationBadge() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[26px] justify-items-center lg:justify-items-start">
+    <div className="grid grid-cols-3 gap-[26px] justify-items-center lg:justify-items-start">
       <BadgeIcon
         src="/assets/certifications/logo-1.svg"
         alt=""

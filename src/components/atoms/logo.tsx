@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
 interface LogoProps {
-  variant?: 'blue' | 'Blue';
+  variant?: 'White' | 'Blue';
   className?: string;
 }
 
-export default function Logo({ variant = 'blue', className = '' }: LogoProps) {
-  const src = variant === 'Blue' ? '/assets/logo/Logo-Blue.png' : '/assets/logo/Logo-blue.png';
+export default function Logo({ variant = 'White', className = '' }: LogoProps) {
+  const src = variant === 'Blue' ? '/assets/logo/Logo-Blue.png' : '/assets/logo/Logo-White.svg';
   return (
     <Image
       src={src}

@@ -16,15 +16,15 @@ export default function LinkButton({
   return (
     <a
       href={href}
-      className={`inline-flex items-center gap-2 font-inter font-medium text-base text-white hover:text-[#E55B1E] transition-colors ${className}`}
+      className={`inline-flex items-center font-inter font-medium text-base text-white hover:text-[#E55B1E] transition-colors group ${className}`}
     >
       {text}
       <svg
-        width="18"
-        height="18"
-        viewBox="0 0 18 18"
+        width="28"
+        height="28"
+        viewBox="0 0 20 20"
         fill="none"
-        className="ml-1"
+        className="group-hover:rotate-45 transition-transform"
       >
         <path
           d="M7.5 12.75L12.75 7.5M12.75 7.5H9M12.75 7.5V11.25"
