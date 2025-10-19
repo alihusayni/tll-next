@@ -17,7 +17,7 @@ export default function SiteFooter({ className = '' }: SiteFooterProps) {
 
   const addressItems = [
     { label: 'Address', text: '333 City Blvd West Suite 1700 Orange, CA 92868' },
-    { label: 'Phone No', text: '(714) 584-6741' },
+    { label: 'Phone No', text: '(714) 584-6741', href: 'tel:(714) 877 5840' },
   ];
 
   return (

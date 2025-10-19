@@ -1,3 +1,5 @@
+"use client";
+
 import CtaButton from '../atoms/cta-button';
 import ProfileStats from '../molecules/profile-stats';
 import ProfileImages from '../molecules/profile-images';
@@ -18,7 +20,7 @@ export default function AboutSection() {
                                 <br/>
                                 He has worked as a law clerk, legal assistant, and associate attorney.
                             </p>
-                            <CtaButton text="Get in touch"/>
+                             <CtaButton text="Get in touch" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}/>
                         </div>
                     </div>
                     <ProfileImages/>

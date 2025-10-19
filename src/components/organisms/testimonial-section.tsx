@@ -53,7 +53,7 @@ const TestimonialSection: React.FC = () => {
   const canNext = currentIndex < testimonials.length - 1;
 
   return (
-    <section id="testimonials" className="bg-[#E8EDF2] lg:py-32 lg:px-16 sm:py-15 sm:px-10 py-10 px-5 m-0 scroll-mt-24">
+    <section id="testimonials" className="bg-[#E8EDF2] lg:py-32 lg:px-16 sm:py-15 sm:px-10 py-10 px-5 m-0 -scroll-mt-12">
       <div className="max-w-[90rem] mx-auto">
         <div className="bg-white rounded-[32px] lg:py-25 lg:px-47 sm:py-18 sm:px-10 py-16 px-5 flex flex-col gap-10 lg:gap-15 2xl:gap-28">
           <TestimonialCard

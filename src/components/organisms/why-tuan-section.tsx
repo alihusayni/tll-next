@@ -67,7 +67,7 @@ const WhyTuanSection: React.FC = () => {
   };
 
   return (
-    <section id="why-tuan-le" className="bg-[#E8EDF2] py-15 px-4 md:py-24 md:px-8 lg:py-32 lg:px-16 m-0 scroll-mt-24 overflow-x-clip">
+    <section id="why-tuan-le" className="bg-[#E8EDF2] py-15 px-4 md:py-24 md:px-8 lg:py-32 lg:px-16 m-0 -scroll-mt-10 overflow-x-clip">
       <div className="max-w-[90rem] mx-auto">
         <div className="flex flex-col gap-12 md:gap-16 lg:gap-16">
           <div className="flex flex-col gap-8 lg:gap-12.5">

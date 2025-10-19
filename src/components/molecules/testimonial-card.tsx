@@ -1,4 +1,8 @@
-import React from 'react';
+'use client';
+
+'use client';
+
+import React, { useState } from 'react';
 import Image from 'next/image';
 import RatingStar from '../atoms/rating-star';
 
@@ -23,8 +27,52 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
   canPrev,
   canNext,
 }) => {
+  const [dragStart, setDragStart] = useState<number | null>(null);
+
+  const handleMouseDown = (e: React.MouseEvent) => {
+    setDragStart(e.clientX);
+  };
+
+  const handleMouseUp = (e: React.MouseEvent) => {
+    if (dragStart !== null) {
+      const delta = e.clientX - dragStart;
+      if (Math.abs(delta) > 50) {
+        if (delta > 0 && canPrev) {
+          onPrev();
+        } else if (delta < 0 && canNext) {
+          onNext();
+        }
+      }
+      setDragStart(null);
+    }
+  };
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setDragStart(e.touches[0].clientX);
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (dragStart !== null) {
+      const delta = e.changedTouches[0].clientX - dragStart;
+      if (Math.abs(delta) > 50) {
+        if (delta > 0 && canPrev) {
+          onPrev();
+        } else if (delta < 0 && canNext) {
+          onNext();
+        }
+      }
+      setDragStart(null);
+    }
+  };
+
   return (
-    <div className="flex flex-col gap-16">
+    <div
+      className="flex flex-col gap-16 select-none"
+      onMouseDown={handleMouseDown}
+      onMouseUp={handleMouseUp}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+    >
       <div className="flex justify-between items-center">
         <RatingStar rating={rating} />
         <div className="flex gap-4">
