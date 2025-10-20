@@ -27,10 +27,10 @@ export default function ArticleHero({
     <section className="bg-[#E8EDF2] flex flex-col items-center gap-8 px-4 md:px-8 lg:px-16 pb-16">
       {/* Page Header */}
       <header className="bg-transparent w-full py-8 pb-6">
-        <div className="flex justify-between items-center px-4 md:px-8 lg:px-16">
+        <div className="flex justify-between items-center max-w-[86.5rem] mx-auto">
           <Logo variant="Blue" />
           <UiButton variant="dark-outline" size="md">
-            Contact us
+            Talk to Us
           </UiButton>
         </div>
       </header>
@@ -38,11 +38,11 @@ export default function ArticleHero({
       {/* Article Header */}
       <div className="flex flex-col items-center gap-6 w-full max-w-6xl">
         <Breadcrumb path={breadcrumb} />
-        <div className="flex flex-col items-center gap-6">
-          <h1 className="text-4xl md:text-5xl lg:text-[62px] font-inter-tight font-semibold text-center text-[#091C32] leading-tight">
+        <div className="flex flex-col items-center gap-8">
+          <h1 className="text-4xl md:text-5xl lg:text-[62px] font-inter-tight font-semibold text-center text-[#091C32] leading-tight max-w-[71.5rem]">
             {title}
           </h1>
-          <p className="text-lg text-center text-[#071C32] max-w-6xl">
+          <p className="text-lg text-center text-[#071C32] max-w-[71.5rem]">
             {subtitle}
           </p>
           <ArticleMeta date={date} readTime={readTime} />
