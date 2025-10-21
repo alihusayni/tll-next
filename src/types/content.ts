@@ -10,17 +10,36 @@ export interface Heading {
 }
 
 export interface ContentMeta {
-  title: string;
-  description: string;
-  date: string;
-  readTime: string;
-  imageSrc: string;
-  imageAlt: string;
+  // Basic content metadata
+  h1?: string;
+  summary?: string;
+  
+  // SEO metadata
+  metaTitle?: string;
+  metaDescription?: string;
+  keywords?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  robots?: string;
+  
+  // Article metadata
+  author?: string;
+  publishedTime?: string;
+  modifiedTime?: string;
+  
+  // Legacy compatibility (for existing templates)
+  title?: string;
+  description?: string;
+  date?: string;
+  readTime?: string;
+  imageSrc?: string;
+  imageAlt?: string;
 }
 
 export interface Content {
   meta: ContentMeta;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  content: any; // Serialized MDX source
+  content: string; // Raw markdown content
   headings: Heading[];
+  slug: string;
 }

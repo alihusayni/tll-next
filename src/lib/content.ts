@@ -1,0 +1,187 @@
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import { Content, ContentMeta, Heading } from '@/types/content';
+import { slugify } from '@/utils/slugify';
+
+const contentDirectory = path.join(process.cwd(), 'content');
+
+// Static file extensions to filter out from routing
+const staticFileExtensions = [
+  '.js', '.jsx', '.ts', '.tsx', '.css', '.scss', '.sass', '.less',
+  '.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp', '.ico',
+  '.pdf', '.doc', '.docx', '.xls', '.xlsx', '.zip', '.tar', '.gz'
+];
+
+function isStaticFile(path: string): boolean {
+  const ext = path.substring(path.lastIndexOf('.'));
+  return staticFileExtensions.includes(ext);
+}
+
+export 
+
+function extractHeadingsFromMarkdown(content: string): Heading[] {
+  const headings: Heading[] = [];
+  const lines = content.split('\n');
+
+  lines.forEach((line) => {
+    const match = line.match(/^(#{1,6})\s+(.+)$/);
+    if (match) {
+      const level = match[1].length;
+      const text = match[2].replace(/\{#([^}]+)\}$/, '').trim(); // Remove explicit IDs
+      // Clean text for ID generation (remove markdown formatting)
+      const cleanText = text.replace(/\*\*/g, '').replace(/&nbsp;/g, ' ').replace(/&bull;/g, '').trim();
+      const id = slugify(cleanText);
+
+      headings.push({
+        id,
+        text,
+        level
+      });
+    }
+  });
+
+  return headings;
+}
+
+export function getContentPaths(): string[] {
+  if (!fs.existsSync(contentDirectory)) {
+    return [];
+  }
+
+  const paths: string[] = [];
+  
+  function scanDirectory(dir: string, relativePath: string = ''): void {
+    const items = fs.readdirSync(dir);
+    
+    for (const item of items) {
+      const fullPath = path.join(dir, item);
+      const itemRelativePath = relativePath ? `${relativePath}/${item}` : item;
+      
+      const stat = fs.statSync(fullPath);
+      
+      if (stat.isDirectory()) {
+        scanDirectory(fullPath, itemRelativePath);
+      } else if (item.endsWith('.md')) {
+        const slug = itemRelativePath.replace(/\.md$/, '');
+        paths.push(slug);
+      }
+    }
+  }
+  
+  scanDirectory(contentDirectory);
+  return paths.sort();
+}
+
+export function getContentBySlug(slug: string): Content | null {
+  if (!slug) return null;
+  
+  const fullPath = path.join(contentDirectory, `${slug}.md`);
+  
+  if (!fs.existsSync(fullPath)) {
+    return null;
+  }
+  
+  try {
+    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const { data: frontmatter, content } = matter(fileContents);
+    
+    // Extract headings from markdown content
+    const headings = extractHeadingsFromMarkdown(content);
+    
+    // Add H1 from frontmatter if it exists
+    if (frontmatter.h1) {
+      const h1Id = slugify(frontmatter.h1);
+      headings.unshift({
+        id: h1Id,
+        text: frontmatter.h1,
+        level: 1
+      });
+    }
+    
+    // Build content meta with fallbacks for compatibility
+    const meta: ContentMeta = {
+      // New structured fields
+      h1: frontmatter.h1 || frontmatter.title,
+      summary: frontmatter.summary || frontmatter.description,
+      metaTitle: frontmatter.metaTitle || frontmatter.title,
+      metaDescription: frontmatter.metaDescription || frontmatter.description,
+      keywords: frontmatter.keywords,
+      ogTitle: frontmatter.ogTitle || frontmatter.title,
+      ogDescription: frontmatter.ogDescription || frontmatter.description,
+      ogImage: frontmatter.ogImage || frontmatter.imageSrc,
+      robots: frontmatter.robots,
+      author: frontmatter.author,
+      publishedTime: frontmatter.publishedTime || frontmatter.date,
+      modifiedTime: frontmatter.modifiedTime,
+      
+      // Legacy compatibility fields
+      title: frontmatter.title,
+      description: frontmatter.description,
+      date: frontmatter.date,
+      readTime: frontmatter.readTime,
+      imageSrc: frontmatter.imageSrc,
+      imageAlt: frontmatter.imageAlt,
+      
+      // Include any additional frontmatter fields
+      ...Object.fromEntries(
+        Object.entries(frontmatter).filter(([key]) => 
+          ![
+            'h1', 'summary', 'metaTitle', 'metaDescription', 'keywords',
+            'ogTitle', 'ogDescription', 'ogImage', 'robots', 'author',
+            'publishedTime', 'modifiedTime', 'title', 'description',
+            'date', 'readTime', 'imageSrc', 'imageAlt'
+          ].includes(key)
+        )
+      )
+    };
+    
+    return {
+      meta,
+      content,
+      headings,
+      slug
+    };
+  } catch (error) {
+    console.error(`Error reading content for slug: ${slug}`, error);
+    return null;
+  }
+}
+
+export function getAllContent(): Content[] {
+  const paths = getContentPaths();
+  const allContent: Content[] = [];
+  
+  for (const slug of paths) {
+    const content = getContentBySlug(slug);
+    if (content) {
+      allContent.push(content);
+    }
+  }
+  
+  return allContent;
+}
+
+export function generateStaticParams() {
+  const paths = getContentPaths();
+  return paths
+    .filter(path => path !== 'index' && !isStaticFile(path))
+    .map(path => ({ slug: path.split('/') }));
+}
+
+export function generateBreadcrumbs(slug: string): Array<{ label: string; href: string }> {
+  if (!slug || slug === 'index') {
+    return [];
+  }
+  
+  const parts = slug.split('/');
+  const breadcrumbs: Array<{ label: string; href: string }> = [];
+  
+  parts.forEach((part, index) => {
+    const href = '/' + parts.slice(0, index + 1).join('/');
+    const label = part.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+    breadcrumbs.push({ label, href });
+  });
+  
+  return breadcrumbs;
+}

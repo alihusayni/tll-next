@@ -1,11 +1,9 @@
-'use client';
-
 import ArticleHero from '../components/organisms/article-hero';
 import ArticleBody from '../components/organisms/article-body';
 import ContactSection from "@/components/organisms/contact-section";
 import SiteFooter from "@/components/organisms/site-footer";
 import MarkdownRenderer from '../lib/markdown-renderer';
-import { Content, Heading } from '@/types/content';
+import { Content } from '@/types/content';
 
 interface ArticleTemplateProps {
     content: Content;
@@ -25,30 +23,21 @@ function generateBreadcrumb(slug: string): string {
     return 'Home / ' + parts.join(' ');
 }
 
-function headingsToTocItems(headings: Heading[]): { href: string; label: string; isActive?: boolean }[] {
-    return headings.map((heading, index) => ({
-        href: `#${heading.id}`,
-        label: heading.text,
-        isActive: index === 0,
-    }));
-}
-
 export default function ArticleTemplate({ content, slug }: ArticleTemplateProps) {
     const breadcrumb = generateBreadcrumb(slug);
-    const tocItems = headingsToTocItems(content.headings);
 
     return (
         <div>
             <ArticleHero
-                title={content.meta.title}
-                subtitle={content.meta.description}
-                imageSrc={content.meta.imageSrc}
-                imageAlt={content.meta.imageAlt}
+                title={content.meta.title || content.meta.h1 || 'Untitled'}
+                subtitle={content.meta.description || content.meta.summary || ''}
+                imageSrc={content.meta.imageSrc || '/assets/blog/blog_post.png'}
+                imageAlt={content.meta.imageAlt || 'Article image'}
                 breadcrumb={breadcrumb}
-                date={content.meta.date}
-                readTime={content.meta.readTime}
+                date={content.meta.date || content.meta.publishedTime || ''}
+                readTime={content.meta.readTime || ''}
             />
-            <ArticleBody tocItems={tocItems} content={<MarkdownRenderer source={content.content} />} />
+            <ArticleBody headings={content.headings} content={<MarkdownRenderer content={content.content} />} />
             <ContactSection/>
             <SiteFooter/>
         </div>

@@ -3,13 +3,14 @@ import Logo from '../atoms/logo';
 import UiButton from '../atoms/ui-button';
 import Breadcrumb from '../atoms/breadcrumb';
 import ArticleMeta from '../molecules/article-meta';
+import { slugify } from '@/utils/slugify';
 
 interface ArticleHeroProps {
   title: string;
   subtitle: string;
   imageSrc: string;
   imageAlt: string;
-  breadcrumb: string;
+  breadcrumb: { display: string; slugs: string[] };
   date: string;
   readTime: string;
 }
@@ -25,21 +26,14 @@ export default function ArticleHero({
 }: ArticleHeroProps) {
   return (
     <section className="bg-[#E8EDF2] flex flex-col items-center gap-8 px-4 md:px-8 lg:px-16 pb-16">
-      {/* Page Header */}
-      <header className="bg-transparent w-full py-8 pb-6">
-        <div className="flex justify-between items-center max-w-[86.5rem] mx-auto">
-          <Logo variant="Blue" />
-          <UiButton variant="dark-outline" size="md">
-            Talk to Us
-          </UiButton>
-        </div>
-      </header>
-
       {/* Article Header */}
       <div className="flex flex-col items-center gap-6 w-full max-w-6xl">
-        <Breadcrumb path={breadcrumb} />
+        <Breadcrumb display={breadcrumb.display} slugs={breadcrumb.slugs} />
         <div className="flex flex-col items-center gap-8">
-          <h1 className="text-4xl md:text-5xl lg:text-[62px] font-inter-tight font-semibold text-center text-[#091C32] leading-tight max-w-[71.5rem]">
+          <h1 
+            id={slugify(title)}
+            className="text-4xl md:text-5xl lg:text-[62px] font-inter-tight font-semibold text-center text-[#091C32] leading-tight max-w-[71.5rem] scroll-mt-20"
+          >
             {title}
           </h1>
           <p className="text-lg text-center text-[#071C32] max-w-[71.5rem]">

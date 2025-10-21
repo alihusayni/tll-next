@@ -8,10 +8,10 @@ export default function TocLink({ href, children, isActive = false }: TocLinkPro
   return (
     <a
       href={href}
-      className={`text-sm font-medium leading-tight tracking-tight transition-colors ${
+      className={`font-inter-tight leading-[20px] tracking-[-0.28px] transition-colors ${
         isActive
           ? 'text-[#E55B1E] font-semibold'
-          : 'text-[#49535D] hover:text-[#071C32]'
+          : 'text-[#49535D] hover:text-[#E55B1E] font-medium'
       }`}
     >
       {children}
