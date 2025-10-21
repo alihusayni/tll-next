@@ -139,7 +139,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
           </blockquote>
         ),
         ul: ({ children, ...props }) => (
-          <ul className="list-disc list-inside mb-4 space-y-2 text-[#071C32] font-inter" {...props}>
+          <ul className="mb-4 text-[#071C32] font-inter" style={{ listStyle: 'none' }} {...props}>
             {children}
           </ul>
         ),
@@ -149,8 +149,9 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
           </ol>
         ),
         li: ({ children, ...props }) => (
-          <li className="text-[#071C32] font-inter" {...props}>
-            {children}
+          <li className="relative mb-3 text-[#071C32] font-inter" {...props}>
+            <span className="absolute left-0 top-3 w-8 h-0.5 bg-[#E55B1E]"></span>
+            <span className="pl-10 block">{children}</span>
           </li>
         ),
         strong: ({ children, ...props }) => (
