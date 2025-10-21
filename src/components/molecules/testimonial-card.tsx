@@ -96,7 +96,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
           </button>
         </div>
       </div>
-      <p className="font-['Inter_Tight'] font-normal text-[30px] lg:text-[40px] leading-[1.1] tracking-[-0.02em] text-[#071C32]">
+      <p className="font-inter-tight font-normal text-[30px] lg:text-[40px] leading-[1.1] tracking-[-0.02em] text-[#071C32]">
         {quote}
       </p>
       <div className="flex items-center gap-5">
@@ -111,7 +111,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
         )}
         <div className="flex items-center gap-5">
           <div className="w-[60px] h-[1.4px] bg-[#E55B1E]"></div>
-          <span className="font-['Inter_Tight'] font-medium text-lg leading-[1.222] uppercase text-[#969799]">
+          <span className="font-inter-tight font-medium text-lg leading-[1.222] uppercase text-[#969799]">
             {author}
           </span>
         </div>

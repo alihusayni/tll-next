@@ -70,7 +70,7 @@ export default function TableOfContents({ headings }: TableOfContentsProps) {
   };
 
   return (
-    <div className="bg-[#F5F7FA] rounded-2xl px-4 py-8 w-full lg:w-80 sticky top-8 border border-[#E1E6EB]">
+    <div className="bg-[#E1E6EB] rounded-2xl px-4 py-8 w-full lg:w-80 sticky top-8 border border-[#E1E6EB]">
       <h3 className="text-[24px] font-inter-tight font-semibold text-[#49535D] leading-[32px] mb-6">
         Table of content
       </h3>

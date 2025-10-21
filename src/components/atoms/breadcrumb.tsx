@@ -12,7 +12,7 @@ export default function Breadcrumb({ display, slugs }: BreadcrumbProps) {
 
   parts.forEach((part, index) => {
     if (index > 0) {
-      links.push(<span key={`sep-${index}`} className="mx-2 text-[#49535D]">/</span>);
+      links.push(<span key={`sep-${index}`} className="mx-2 text-[#49535D] font-inter">/</span>);
     }
 
     let href = '/';
@@ -29,12 +29,12 @@ export default function Breadcrumb({ display, slugs }: BreadcrumbProps) {
       <Link
         key={index}
         href={href}
-        className="text-base leading-6 text-[#49535D] hover:text-[#E55B1E] transition-colors capitalize"
+        className="text-base leading-6 text-[#49535D] hover:text-[#E55B1E] transition-colors capitalize font-inter"
       >
         {part}
       </Link>
     );
   });
 
-  return <div className="text-center text-base">{links}</div>;
+  return <div className="text-center text-base font-inter">{links}</div>;
 }

@@ -3,7 +3,7 @@ import ContactForm from '../molecules/contact-form';
 export default function ContactSection() {
     return (
         <section id="contact" className="bg-[#F7F9FC] py-25 px-8 sm:py-38 sm:px-16 lg:py-32 lg:px-16 m-0 -scroll-mt-20">
-            <div className="max-w-[90rem] mx-auto">
+            <div className="max-w-[95rem] mx-auto">
                 <div className="flex flex-col lg:px-16 lg:py-32 lg:flex-row gap-18 lg:gap-16">
                     <div className="flex-1 max-w-[36.25rem]">
                         <h2 className="text-[40px] lg:text-[62px] font-inter-tight font-semibold text-gray-900 mb-8 leading-tight">

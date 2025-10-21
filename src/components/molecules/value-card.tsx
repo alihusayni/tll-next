@@ -23,10 +23,10 @@ const ValueCard: React.FC<ValueCardProps> = ({
         />
       </div>
       <div className="flex flex-col gap-5">
-        <h3 className="font-['Inter_Tight'] font-semibold text-2xl lg:text-[32px] leading-[38px] sm:leading-[35px] lg:leading-[44px] tracking-[-0.48px] lg:tracking-[-0.64px] text-[#49535D]">
+        <h3 className="font-inter-tight font-semibold text-2xl lg:text-[32px] leading-[38px] sm:leading-[35px] lg:leading-[44px] tracking-[-0.48px] lg:tracking-[-0.64px] text-[#49535D]">
           {title}
         </h3>
-        <p className="font-['Inter_Tight'] font-normal text-lg leading-[1.222] text-[#071C32]">
+        <p className="font-inter font-normal text-lg leading-[1.222] text-[#071C32]">
           {description}
         </p>
       </div>

@@ -44,7 +44,7 @@ export default function StickyHeader({className = ''}: StickyHeaderProps) {
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-50 bg-[#091C32] shadow-md transition-opacity ${show ? 'opacity-100' : 'opacity-0 pointer-events-none'} ${className}`}>
-            <div className="w-full max-w-[90rem] mx-auto">
+            <div className="w-full max-w-[95rem] mx-auto">
                 <div className="flex justify-between items-center py-8 px-4 md:px-8 lg:px-16">
                     <Link href="/"><Logo variant="White"/></Link>
                     <MainNav className="hidden lg:flex"/>

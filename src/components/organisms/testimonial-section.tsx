@@ -54,7 +54,7 @@ const TestimonialSection: React.FC = () => {
 
   return (
     <section id="testimonials" className="bg-[#E8EDF2] lg:py-32 lg:px-16 sm:py-15 sm:px-10 py-10 px-5 m-0 -scroll-mt-12">
-      <div className="max-w-[90rem] mx-auto">
+      <div className="max-w-[95rem] mx-auto">
         <div className="bg-white rounded-[32px] lg:py-25 lg:px-47 sm:py-18 sm:px-10 py-16 px-5 flex flex-col gap-10 lg:gap-15 2xl:gap-28">
           <TestimonialCard
             {...testimonials[currentIndex]}
@@ -67,10 +67,10 @@ const TestimonialSection: React.FC = () => {
             <div className="flex justify-center gap-4 sm:gap-8 md:gap-12 lg:gap-20">
               {statistics.map((stat, index) => (
                 <div key={index} className="flex flex-col items-center gap-1.5 p-2">
-                  <span className="font-['Inter_Tight'] font-semibold text-[30px] lg:text-[40px] leading-[1.1] tracking-[-0.02em] text-[#49535D]">
+                  <span className="font-inter-tight font-semibold text-[30px] lg:text-[40px] leading-[1.1] tracking-[-0.02em] text-[#49535D]">
                     {stat.value}
                   </span>
-                  <span className="font-['Inter_Tight'] font-normal text-base leading-[1.375] text-[#969799]">
+                    <span className="font-inter-tight font-normal text-base leading-[1.375] text-[#969799]">
                     {stat.description}
                   </span>
                 </div>
@@ -82,10 +82,10 @@ const TestimonialSection: React.FC = () => {
               <div className="flex justify-between">
                 {statistics.slice(0, 2).map((stat, index) => (
                   <div key={index} className="flex flex-col items-center gap-1.5 p-2">
-                    <span className="font-['Inter_Tight'] font-semibold text-[30px] leading-[1.1] tracking-[-0.02em] text-[#49535D]">
+                    <span className="font-inter-tight font-semibold text-[30px] leading-[1.1] tracking-[-0.02em] text-[#49535D]">
                       {stat.value}
                     </span>
-                    <span className="font-['Inter_Tight'] font-normal text-base leading-[1.375] text-[#969799]">
+                  <span className="font-inter-tight font-normal text-base leading-[1.375] text-[#969799]">
                       {stat.description}
                     </span>
                   </div>

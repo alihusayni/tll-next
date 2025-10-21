@@ -117,49 +117,49 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
 
            if (hasBlockElement) {
              // If paragraph contains block element, render as div to avoid invalid HTML
-             return (
-               <div className="text-[18px] leading-[24px] mb-4 text-[#071C32] font-inter-tight" {...props}>
-                 {children}
-               </div>
-             );
+              return (
+                <div className="text-[18px] leading-[24px] mb-4 text-[#071C32] font-inter" {...props}>
+                  {children}
+                </div>
+              );
            }
 
-           return (
-             <p className="text-[18px] leading-[24px] mb-4 text-[#071C32] font-inter-tight" {...props}>
-               {children}
-             </p>
-           );
+            return (
+              <p className="text-[18px] leading-[24px] mb-4 text-[#071C32] font-inter" {...props}>
+                {children}
+              </p>
+            );
          },
         blockquote: ({ children, ...props }) => (
-          <blockquote 
-            className="border-l-4 border-[#E6EAF0] pl-4 italic my-6 text-[#071C32] bg-[#F5F7FA] py-2 font-inter-tight"
+          <blockquote
+            className="border-l-4 border-[#E6EAF0] pl-4 italic my-6 text-[#071C32] bg-[#F5F7FA] py-2 font-inter"
             {...props}
           >
             {children}
           </blockquote>
         ),
         ul: ({ children, ...props }) => (
-          <ul className="list-disc list-inside mb-4 space-y-2 text-[#071C32] font-inter-tight" {...props}>
+          <ul className="list-disc list-inside mb-4 space-y-2 text-[#071C32] font-inter" {...props}>
             {children}
           </ul>
         ),
         ol: ({ children, ...props }) => (
-          <ol className="list-decimal list-inside mb-4 space-y-2 text-[#071C32] font-inter-tight" {...props}>
+          <ol className="list-decimal list-inside mb-4 space-y-2 text-[#071C32] font-inter" {...props}>
             {children}
           </ol>
         ),
         li: ({ children, ...props }) => (
-          <li className="text-[#071C32] font-inter-tight" {...props}>
+          <li className="text-[#071C32] font-inter" {...props}>
             {children}
           </li>
         ),
         strong: ({ children, ...props }) => (
-          <strong className="font-semibold text-[#091C32] font-inter-tight" {...props}>
+          <strong className="font-semibold text-[#091C32] font-inter" {...props}>
             {children}
           </strong>
         ),
         em: ({ children, ...props }) => (
-          <em className="italic text-[#071C32] font-inter-tight" {...props}>
+          <em className="italic text-[#071C32] font-inter" {...props}>
             {children}
           </em>
         ),
@@ -167,26 +167,26 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
           const isInline = !className?.includes('language-');
           if (isInline) {
             return (
-              <code className="bg-[#F5F7FA] px-2 py-1 rounded text-sm text-[#091C32] font-inter-tight" {...props}>
+              <code className="bg-[#F5F7FA] px-2 py-1 rounded text-sm text-[#091C32] font-inter" {...props}>
                 {children}
               </code>
             );
           }
           return (
-            <code className="block bg-[#F5F7FA] p-4 rounded-lg overflow-x-auto text-sm text-[#091C32] font-inter-tight" {...props}>
+            <code className="block bg-[#F5F7FA] p-4 rounded-lg overflow-x-auto text-sm text-[#091C32] font-inter" {...props}>
               {children}
             </code>
           );
         },
         pre: ({ children, ...props }) => (
-          <pre className="bg-[#F5F7FA] p-4 rounded-lg overflow-x-auto mb-4 font-inter-tight" {...props}>
+          <pre className="bg-[#F5F7FA] p-4 rounded-lg overflow-x-auto mb-4 font-inter" {...props}>
             {children}
           </pre>
         ),
         a: ({ children, href, ...props }) => (
           <a 
             href={href} 
-            className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter-tight"
+            className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
             {...props}
           >
             {children}
@@ -196,7 +196,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
            if (!src || typeof src !== 'string') return null;
 
            return (
-             <img src={src} alt={alt || ''} className="my-6" />
+              <img src={src} alt={alt || ''} className="my-6 rounded-xl block mx-auto" />
            );
          },
         table: ({ children, ...props }) => (
@@ -212,12 +212,12 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
           </thead>
         ),
         th: ({ children, ...props }) => (
-          <th className="border border-[#E6EAF0] px-4 py-2 text-left font-semibold text-[#091C32] font-['Inter_Tight']" {...props}>
+          <th className="border border-[#E6EAF0] px-4 py-2 text-left font-semibold text-[#091C32] font-inter-tight" {...props}>
             {children}
           </th>
         ),
         td: ({ children, ...props }) => (
-          <td className="border border-[#E6EAF0] px-4 py-2 text-[#071C32] font-['Inter']" {...props}>
+          <td className="border border-[#E6EAF0] px-4 py-2 text-[#071C32] font-inter" {...props}>
             {children}
           </td>
         ),

@@ -23,12 +23,12 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
       </div>
 
       {/* Header */}
-      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10 w-full max-w-[90rem]">
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10 w-full max-w-[95rem]">
         <SiteHeader className="w-full" />
       </div>
 
       {/* Text Container */}
-      <div className="relative z-10 w-full max-w-[90rem] mx-auto flex flex-col gap-12 px-4 md:px-8 lg:px-16 pb-16 mt-auto">
+      <div className="relative z-10 w-full max-w-[95rem] mx-auto flex flex-col gap-12 px-4 md:px-8 lg:px-16 pb-16 mt-auto">
         {/* Header Container */}
         <div className="flex flex-col gap-4">
           {/* Name */}
