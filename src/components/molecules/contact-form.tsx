@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, FormEvent } from 'react';
+import { useState, FormEvent, useRef } from 'react';
+import ReCAPTCHA from 'react-google-recaptcha';
 import TextInput from '../atoms/text-input';
 import TextArea from '../atoms/text-area';
 
@@ -32,6 +33,7 @@ export default function ContactForm() {
   const [successMessage, setSuccessMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [showSuccessPopup, setShowSuccessPopup] = useState(false);
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   const handleChange = (field: keyof FormData) => (value: string) => {
     let processedValue = value;
@@ -56,6 +58,12 @@ export default function ContactForm() {
     setErrors(newErrors);
     if (Object.keys(newErrors).length > 0) return;
 
+    const captchaToken = recaptchaRef.current?.getValue();
+    if (!captchaToken) {
+      setErrorMessage('Please complete the CAPTCHA');
+      return;
+    }
+
     setLoading(true);
     try {
       const response = await fetch(tolFormSettings.action, {
@@ -66,7 +74,7 @@ export default function ContactForm() {
           'X-FORM-KEY': tolFormSettings.formKey,
           'X-REQUEST-ID': tolFormRequestId
         },
-        body: JSON.stringify({ data: { ...formData, requestId: tolFormRequestId } })
+        body: JSON.stringify({ data: { ...formData, requestId: tolFormRequestId, captchaToken } })
       });
 
       if (!response.ok) {
@@ -80,6 +88,7 @@ export default function ContactForm() {
       if (data.message) {
         setShowSuccessPopup(true);
         setFormData({ name: '', email: '', phone: '', message: '' });
+        recaptchaRef.current?.reset();
         // Hide popup after 3 seconds
         setTimeout(() => setShowSuccessPopup(false), 100000);
       } else {
@@ -146,6 +155,12 @@ export default function ContactForm() {
         />
         {errors.message && <p className="mt-2 text-[#D93644] font-inter-tight text-[14px] font-medium leading-[20px] capitalize">{errors.message}</p>}
       </div>
+
+      <ReCAPTCHA
+        ref={recaptchaRef}
+        sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" // Test site key
+        size="invisible"
+      />
 
       <button
         type="submit"

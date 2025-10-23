@@ -8,11 +8,12 @@ interface SiteFooterProps {
 
 export default function SiteFooter({ className = '' }: SiteFooterProps) {
   const practicesItems = [
-    { text: 'Criminal Immigration Issues', href: '#' },
-    { text: 'Removal/Deportation Defense', href: '#' },
-    { text: 'Citizenship & Naturalization Support', href: '#' },
-    { text: 'Family-based Immigration', href: '#' },
-    { text: 'Business & Employment Immigration', href: '#' },
+    // { text: 'Criminal Immigration Issues', href: '/family-based-immigration' },
+    { text: 'Asylum & Humanitarian Relief', href: '/asylum-humanitarian-relief/undocumented-immigrants-u-s-immigration-challenges' },
+    { text: 'Removal/Deportation Defense', href: '/deportation-defense/deportation-defense-strategies-to-fight-removal-proceedings' },
+    { text: 'Citizenship & Naturalization Support', href: '/citizenship-naturalization/become-u-s-citizen-explained-citizenship-lawyer' },
+    { text: 'Family-based Immigration', href: '/family-based-immigration' },
+    { text: 'Business & Employment Immigration', href: '/employment-based-immigration/eb-2-employment-based-visas-whatever-you-need-to-know' },
   ];
 
   const addressItems = [
