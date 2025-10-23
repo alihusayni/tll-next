@@ -10,7 +10,7 @@ interface ArticleTemplateProps {
     slug: string;
 }
 
-function generateBreadcrumb(slug: string): string {
+function generateBreadcrumb(slug: string): { display: string; slugs: string[] } {
     const parts = slug.split('-').map(part => {
         // Handle acronyms
         if (part.toUpperCase() === 'SEO' || part.toUpperCase() === 'GBP') {
@@ -20,7 +20,10 @@ function generateBreadcrumb(slug: string): string {
         return part.charAt(0).toUpperCase() + part.slice(1);
     });
 
-    return 'Home / ' + parts.join(' ');
+    return {
+        display: 'Home / ' + parts.join(' '),
+        slugs: [slug]
+    };
 }
 
 export default function ArticleTemplate({ content, slug }: ArticleTemplateProps) {
