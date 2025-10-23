@@ -22,10 +22,9 @@ export default function CtaBox() {
 
       {/* Content */}
       <div style={{ position: 'relative', zIndex: 10, display: 'flex', alignItems: 'center', padding: '4.5rem 0 4.5rem 5rem' }}>
-        <div className="flex-1 max-w-[515px]">
+        <div className="flex-1 !max-w-[515px]">
           <h2 style={{ fontSize: '36px', fontFamily: 'var(--font-inter-tight)', fontWeight: 600, color: 'white', lineHeight: 1.25, marginBottom: '2rem', marginTop: '0', letterSpacing: '-0.025em' }}>
-            Mr. Le Grants You a <br />
-            30-Minutes Free Consultation for Legal Advice
+            Mr. Le Grants You a 30-Minutes Free Consultation for Legal Advice
           </h2>
             <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="group bg-[#E55B1E] text-white font-inter-tight font-semibold text-[18px] uppercase rounded-md hover:bg-[#FF7031] active:bg-[#FF7031] transition-all w-[13.25rem] h-[3.25rem] hover:w-[14.375rem] active:w-[14.375rem] flex items-center justify-start gap-4 pl-6">
              schedule now
