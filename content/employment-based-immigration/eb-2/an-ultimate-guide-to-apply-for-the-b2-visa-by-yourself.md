@@ -15,11 +15,14 @@ twitterDescription: "Are you planning to visit the U.S.? You may need to apply f
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2023-06-01T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
-readTime: "29 minutes"
+readTime: "7 min read"
 ---
 Applying for a visa, even nonimmigrant visitor visas, can be a time-consuming and overwhelming process. More often than not, you have no choice but to seek professional help from an immigration lawyer or a nonimmigrant visa attorney. However, it is possible to apply for the B2 visa by yourself if you know each step of the process. This complete but straightforward guide will show you the way.
 Read on to learn what a B-2 tourist visa is, who is eligible, how long it lasts, how much it will cost you, the required documents, how to apply for it by yourself, and much more.
 ## What Is B2 Tourist Visa?
+
+[[cta]]
+
 When it comes to the United States, there are various visa types that can number up to 185 different visas. All of them can be mainly categorized into immigrant and nonimmigrant visa types. Nonimmigrant visas are temporary, while immigrant visas last long and are used for those who want to live permanently in the US.
 The B2 tourist visa is a nonimmigrant visa that is mostly used for those who wish to travel to the US and spend a short while there. It covers non-business purposes including tourism/vacation and visiting a family member or a friend.&nbsp;
 ### Are You Eligible for the B2 Visa?
@@ -35,6 +38,9 @@ If you do not meet the above-mentioned criteria or you are still in doubt, give 
 ### B2 Visa Application Costs and Fees
 To file for a B2 visa, you will be required to pay $160 as the standard application fee. However, there can be some other costs, such as visa issuance fees, which depend on your country and its relationships with the U.S. Besides, there are the costs of the documents and photos you need to prepare for the application process.
 ## How to Apply for the B2 Visa by Yourself?
+
+[[cta]]
+
 You can apply for the B2 visa online by going through a few steps.
 ### Step 1: Complete Form DS-160 Online
 Fill out the Online Non-immigrant Application, called Form DS-160. You can file it&nbsp;[here](https://ceac.state.gov/GenNIV/Default.aspx)&nbsp;but before you do, it is strongly recommended to finish reading this whole guide.
@@ -83,6 +89,9 @@ A U.S. Tourist Visa interview does not take a long time and usually includes que
 * Your family and household conditions.
 * If you intend to stay in the U.S. for long and how you can guarantee you are going to return?&nbsp;
 ## Common Questions and Concerns Regarding the B2 Visa
+
+[[cta]]
+
 Due to various laws and regulations, traveling to another country can make us overwhelmed. Here are the answers to some of the common questions asked by B2 visa applicants.
 ### How Long Does It Take to Get Your B2 Visa?
 The B2 visa processing time can differ for each country. That is because the appointment wait time for each embassy or consulate is different. You can visit&nbsp;[this page](https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html)&nbsp;to check the average wait time for different U.S. embassies and consulates around the world. As mentioned above, it can take longer if you want to have your interview in another country.
@@ -108,5 +117,8 @@ Yes. You can apply for a GC while you are in the U.S. under the B2 visa. However
 ### Is It Necessary to Get a Visitor&rsquo;s Health Insurance?
 Absolutely. It is not a law, but healthcare in the U.S. is too expensive. If you have to be hospitalized even for one night, you will have to pay an average of $10000. Other treatments are also very costly. So, it is strongly recommended to get this insurance.
 ## Do You Need Help with Your B2 Visa Application?
+
+[[cta]]
+
 The Law Office of Tuan Le, Orange County, California, is here to help you with your visa needs. Our experienced team is ready to give you legal advice and consultation regarding the B2 visa application and extension. Moreover, no matter at which U.S. embassy or consulate you need to apply for the B2 visa interview, our accomplished immigration attorney can handle your case professionally to make this path easy and stress-free for you.
 Call us at&nbsp;[(714) 877 5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;to schedule an appointment or get a 30-minute free consultation.

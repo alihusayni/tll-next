@@ -15,14 +15,20 @@ twitterDescription: "Learn how to file Form I-765, Application for Employment Au
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2023-06-01T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
-readTime: "29 minutes"
+readTime: "8 min read"
 ---
 Some non-immigrants living in the U.S. can ask for work authorization (work permit) and an EAD (Employment Authorization Document) by filing&nbsp;**Form I-765, Application for Employment Authorization**.
 Who is eligible to file it, how to do it, its costs and processing time, and the required documents are clearly explained by our immigration attorney.
 ## What Is Form I-765, Application for Employment Authorization?
+
+[[cta]]
+
 Except for permanent residents and employment based visa holders, other non-citizens must get authorization to work in the U.S. Therefore, if you are already in the U.S. but do not have a permit to work, it may be possible, if you are eligible, to get your work permit (also known as EAD) to present to employers as an official document to show you are authorized to work in this country. This can happen by filing Form I-765, Application for Employment Authorization, whether online or by mail.
 Before applying for an EAD, you should know if you are eligible to avoid wasting time and money. Read on to find out or simply give us a call at&nbsp;[(714) 877 5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;for a free consultation with an immigration attorney.
 ## Eligibility for Filing Form I-765
+
+[[cta]]
+
 Different groups of non-immigrants are considered qualified to file a Form I-765. See if you belong to any of the following categories.
 ### Students
 Students&rsquo; visas do not usually allow them to work while studying . Although, there are some exceptions.
@@ -67,6 +73,9 @@ In addition to all the above-mentioned categories, there are certain other eligi
 * Deferred Action for Childhood Arrivals recipients; (learn more about this&nbsp;[here.](https://www.uscis.gov/archive/deferred-action-for-childhood-arrivals-response-to-january-2018-preliminary-injunction))
 * Individuals who entered the U.S. as public interest parolees.
 ## Form I-765 Application Costs
+
+[[cta]]
+
 You are required to pay&nbsp;**$410**&nbsp;when apply for an EAD with Form I-765. However, certain groups are exempt from this filing fee if it is their first time. This includes:
 * Refugees, Asylees, and parolees (individuals paroled as a refugee)
 * Asylum applicants (except for ABC applicants)
@@ -78,6 +87,9 @@ You are required to pay&nbsp;**$410**&nbsp;when apply for an EAD with Form I-765
 * Some individuals who are applicants for or have pending applications for adjustment of status
 Except for the filing fee, some applicants, such as Childhood Arrivals applicants, will be required to attend an interview at a USCIS Application Support Center, otherwise, their application would be denied. For the biometrics services during the interview, which include recording your fingerprints, signature, and photograph, you will need to pay an additional&nbsp;**$85**. No one is exempt from this fee and you cannot waive it.
 ## Form I-765 Required Documents
+
+[[cta]]
+
 The required documents to request an EAD include:
 * Two passport-style photos with your full name and Alien Registration Number printed on the back;
 * Copies of your passport photo page and your U.S. visa;
@@ -91,6 +103,9 @@ The required documents to request an EAD include:
 Based on your status, you might need some of these documents. However, individuals from Guatemala and El Salvador, asylum applicants, and CNMI-only investors&rsquo; spouses may be needed to present additional documents.
 Check out the&nbsp;[USCIS website](https://www.uscis.gov/i-765)&nbsp;for more details or pick up your phone and consult with our immigration attorney at&nbsp;[(714) 877 5840](https://tuanlelaw.com/tel:+1-714-877-5840).
 ## How to Apply for Employment Authorization Using Form I-765?
+
+[[cta]]
+
 The form can be filed online or by mail. However, before any of this, you should fill out the form. The latest update of the form is&nbsp;[here](https://www.tuanlelaw.com/wp-content/uploads/doc/i-765.pdf)&nbsp;for you to download (This version expires on 10/31/2025. For the newest version, you should visit the&nbsp;[USCIS website](https://www.uscis.gov/i-765)).&nbsp;
 Some parts and terminologies can be confusing. To help the applicants, USCIS has published thorough instructions on how to complete Form I-765.
 Download the 27-page PDF instructions to Form I-765&nbsp;[here.](https://www.tuanlelaw.com/wp-content/uploads/doc/i-765instr.pdf)
@@ -121,5 +136,8 @@ In the event that you lose your EAD or there is incorrect information on the car
 If the error is made by USCIS, then you do not pay the filing fee again. Neither do some of the categories that are exempt from the fee.
 However, if the error is made by you, you will have to submit a new Form I-765 and pay the filing fee.
 ## Do You Need Help with Form I-765?
+
+[[cta]]
+
 If you need to file form I-765, Application for Employment Authorization, you can count on our immigration lawyer to guide you throughout the process. Our law office has handled numerous immigration cases is fully experienced in such matters.
 Although our office is located in Orange County, California, our office can take your case no matter where you are in the United States. Call us at&nbsp;[(714) 877 5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;to schedule an appointment or get half an hour of free consultation.

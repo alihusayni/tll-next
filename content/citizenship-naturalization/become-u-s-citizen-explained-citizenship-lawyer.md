@@ -15,12 +15,15 @@ twitterDescription: "An immigration lawyer shows you the ways to become a U.S. c
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2023-06-01T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
-readTime: "29 minutes"
+readTime: "7 min read"
 ---
 There are a couple of paths that lead you to become a U.S. citizen, but they are not quick and easy. Some green card holders, who are lawful permanent residents of the U.S., do not see the point in going through this process, however, U.S. citizenship has some benefits.
 In what follows, an experienced immigration lawyer helps you understand the benefits of becoming a U.S. citizen, what paths you can take, how much time it will take, the costs, etc.
 And, if you are in a hurry and do not have the time to read,&nbsp;call now&nbsp;for a free consultation with our immigration attorney.
 ## Why Get U.S. Citizenship?
+
+[[cta]]
+
 Non-native people who are allowed to stay and work in the U.S. permanently are either&nbsp;**citizens**&nbsp;or&nbsp;**green card holders**, also called LPRs, short for lawful permanent residents. However, people who cannot get their citizenship by birth, have to get their green card first and then apply for naturalization.
 But it is not that easy, and green card holders must usually wait a few years to become eligible to file for citizenship. Still, becoming a citizen is worth the wait and trouble.
 ### Green Card Holders vs. U.S. Citizens
@@ -46,6 +49,9 @@ Of course, these new benefits come with some responsibilities. If you become a U
 * might be selected for jury duty.
 Besides, if your home country does not allow dual citizenship, after becoming a U.S. citizen you will need to relinquish your citizenship in your home country. Some countries, such as the United States, Canada, and Australia, allow dual citizenship.
 ## How to Become a U.S. Citizen?
+
+[[cta]]
+
 There are two main ways to become a U.S. citizen.
 * By birth
 * By naturalization
@@ -98,6 +104,9 @@ This makes it a total of $725. But
 * Senior applicants, above the age of 75, are not required to pay the biometrics fee.
 And, if you are not able to afford the application fee due to your annual household income, you can request a reduction by filing&nbsp;[*Form I-942, Request for Reduced Fee*](https://www.uscis.gov/i-942)*.*&nbsp;If you are considered qualified, you will have to pay only the biometrics fee and a percentage of the application fee.
 ## How Can Our Naturalization Attorney Help You?
+
+[[cta]]
+
 To apply for naturalization and go through its steps, you are not required to hire a US visa attorney. However, many opt to have a visa lawyer by their side, because
 * the naturalization process is complicated and confusing,
 * a citizenship lawyer knows how to file your application and manage your case to not get denied,

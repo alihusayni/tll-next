@@ -15,13 +15,16 @@ twitterDescription: "Applying for a National Interest Waiver (NIW) is complicate
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2023-06-01T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
-readTime: "29 minutes"
+readTime: "7 min read"
 ---
 Applying for an employment-based green card can be tiresome and time-consuming, mostly due to the intricate labor certification process. However, you might be able to bypass it if you can prove your admission to the United States is in the national interest. This provision is known as the National Interest Waiver (NIW).
 Under NIW, you can self-petition for a US permanent residency (green card) if you are found eligible. So, in this article, we will review EB-2 NIW requirements, eligibility criteria, the application process, documentation and evidence, costs, tips, and anything else you should know to help you achieve your NIW green card.
 Do you need legal advice regarding your green card application? Consult with our experienced immigration attorney in Orange County, California for free.
 [Get Started](https://tuanlelaw.com/tel:+1-714-877-5840)
 ## What Is the National Interest Waiver or NIW?
+
+[[cta]]
+
 The US National Interest Waiver is a provision in the employment-based immigration system that makes it easier to achieve a US green card for those who are qualified. These foreigners can become U.S. lawful permanent residents (LPR) without the need for a labor certification or an employer sponsorship. This kind of green card is usually referred to as EB-2 green card.
 Read on to find out if you are qualified for an EB-2 NIW or not.
 ### EB-2 Visa Types
@@ -54,6 +57,9 @@ The NIW specific requirements include
 * You can carry out your plan or project.
 * Your project and your expertise will benefit the US and therefore you are qualified for a job offer waiver.
 ## NIW Application Process: How to Self-Petition for an EB-2 NIW
+
+[[cta]]
+
 To apply for an EB-2 NIW, you need to fill out&nbsp;[Form I-140](https://www.uscis.gov/i-140)&nbsp;and file with the USCIS. You have to send all the evidence and documents to the addresses provided&nbsp;[here](https://www.uscis.gov/forms/all-forms/direct-filing-addresses-for-form-i-140-immigrant-petition-for-alien-worker#Alone)&nbsp;by the USCIS.
 If your application is approved, then you can apply for an adjustment of status to get your green card. To see when you can apply for permanent residency, you can check your I-140 submission date in the&nbsp;[Visa Bulletin](https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html).
 If you are applying from abroad, you must also file Form DS-260 (learn more about this form&nbsp;[here](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/forms/online-immigrant-visa-forms/ds-260-faqs.html)) to the US Consulate or Embassy you are applying from.
@@ -94,6 +100,9 @@ The average EB-2 NIW processing time at the USCIS is 3 to 9 months. However, if 
 ### The National Interest Waiver Approval Rate
 On average, the NIW success rate is about 93%. The number of applications that are approved every year depends on the total number of applications filed that year. So, the approval rate can vary slightly every year. According to the USCIS, it ranges from 83% to 96%.
 ## NIW Challenges and Pitfalls
+
+[[cta]]
+
 Although you can guarantee an expedited process of your green card application under the National Interest Waiver, some complexities can lead to an unsuccessful application. To make a compelling case and increase your chance of approval, you should know about the potential issues below.
 * You should be able to make a convincing argument that states how exactly your work is going to be of national interest.
 * Providing strong and comprehensive evidence to support your case or prove that you meet the EB-2 NIW eligibility criteria can be demanding.
@@ -101,6 +110,9 @@ Although you can guarantee an expedited process of your green card application u
 * Any incorrect information, inconsistencies, inaccuracies, and lack of evidence usually lead to denial or RFE.
 Therefore, one thing that is certain in this process is that you will need professional assistance in pursuing an EB-2 National Interest Waiver green card.
 ## NIW FAQs
+
+[[cta]]
+
 Let&rsquo;s go over some of the main concerns and questions regarding the National Interest Waiver.
 ### Can I Self-Petition for a National Interest Waiver Green Card?
 Yes. Under EB-2 NIW, you do not need an employer to petition on your behalf. You can file it yourself.
@@ -116,6 +128,9 @@ Yes. The application and all the documentation are sent via mail to the USCIS. Y
 Do you need legal advice regarding your green card application? Consult with our experienced immigration attorney in Orange County, California for free.
 <a href="tel:+1-714-877-5840" target="_self">Get Started</a>
 ## Hire an NIW Lawyer to Increase Your Chance of Approval
+
+[[cta]]
+
 We tried to discuss the NIW evaluation factors, application, and requirements as simply as possible to help you gain a sufficient understanding of the whole process. Still, to ensure you are eligible, your argument is compelling, and your evidence is strong enough to support your case you are highly recommended to consult with an experienced immigration attorney.
 The Law Office of Tuan Le in Orange, CA not only offers you great professional help in every step of your National Interest Waiver application, but also a 30-minute free consultation to discuss your case or ask your questions. Give us a call&nbsp;at&nbsp;[(714) 877-5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;or fill in&nbsp;the form below, and we will get back to you.
 &nbsp;

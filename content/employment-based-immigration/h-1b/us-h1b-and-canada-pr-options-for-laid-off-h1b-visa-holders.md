@@ -15,7 +15,7 @@ twitterDescription: "We compare the benefits of US H1B and Canada PR, plus other
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2023-06-01T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
-readTime: "30 minutes"
+readTime: "8 min read"
 ---
 The recent layoffs of H1B holders in the United States have caused many expert foreigners to start comparing the US H1B and Canada PR (Permanent Resident) visas to see which can bring about more benefits for them.
 Every year, thousands of eligible foreign experts are granted H1B visas to enter the US and work as highly-skilled employees in different fields and positions. Many of these H-1B recipients are working in tech companies. However, since 2022, some high-profile tech companies have been laying off a lot of their H1B workers, leading to a legion of unemployed H1B holders facing deportation.
@@ -133,6 +133,9 @@ Yes. You can take your spouse and children (your dependents) to Canada on OWP. T
 Applying for Canada PR and getting the final result can take around six months.
 **Get any information about US visa types and their requirements by consulting with our immigration attorney.**
 ## Hire an Immigration Lawyer to Make the Best of Your H1B Grace Period
+
+[[cta]]
+
 We have discussed the different paths in front of an unemployed H1B worker, including finding a new position during the 60-day H1B grace period, change of status, and considering moving to Canada. However, the best decision depends on your preferences and circumstances.
 An experienced immigration attorney knows all the possibilities and options you have and can guide you in making the right choice based on your case. Besides, you can save a lot of time because your immigration lawyer knows the procedure well and you do not have to worry about the documents and forms you need to prepare.
 The Law Office of Tuan Le can provide you with such services in Orange County, California. You can also get a free 30-minute consultation with our accomplished visa lawyer.

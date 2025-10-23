@@ -15,13 +15,16 @@ twitterDescription: "EB-2 employment-based visas are very popular because you ca
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2023-06-01T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
-readTime: "29 minutes"
+readTime: "8 min read"
 ---
 Non-US citizens with exceptional abilities or an advanced degree can immigrate to the United States of America through EB-2 employment-based visas. These immigrant employment-based second preference visas fall into three different categories, including EB2 advanced degree visa, EB2 exceptional ability visa, and National Interest Waiver.
 In this article, we will discuss the EB-2 visa requirements and eligibility, and application process. At the end, we will answer some of your FAQs about EB-2 visas.
 Filing for a US employment visa can be a complicated and frustrating process. Have an experienced immigration lawyer by your side.**
 <a href="tel:+1-714-877-5840">Call for a 30-minute free consultation with our accomplished immigration attorney.</a>
 ## What Are EB-2 Employment-Based Visas?
+
+[[cta]]
+
 There are various kinds of U.S. employment-based visas, such as&nbsp;[H1-B visa](https://www.tuanlelaw.com/guide-to-h1b-visa-requirements-and-application-by-an-immigration-lawyer/),&nbsp;[EB-1 visas](https://www.tuanlelaw.com/eb-1-visas-requirements-eligibility-and-application/), L-1 visa, O-1, EB-2 visas, etc. Some of them are non-immigrant visas, such as H1-B, L-1, and O-1 visas but others are immigrant visas, like EB-1 and EB-2 visa categories. These immigrant visas are granted to those who are highly qualified, for example, outstanding professors, individuals with exceptional abilities or advanced degrees, or multinational managers.
 Here, we focus on EB-2 employment-based visas, which can be divided into three different visas with an annual cap of 40,000 slots. EB-2 advanced degree and EB-2 exceptional ability visas both require a labor certification.
 ### 1. Advanced Degree Requirement for EB-2 Visas
@@ -52,6 +55,9 @@ In some cases, individuals with advanced degrees or exceptional abilities can pr
 To learn more, read &lsquo;[Our Step-by-Step Guide to National Interest Waiver](https://www.tuanlelaw.com/national-interest-waiver-everything-you-should-know-in-simple-words/)&rsquo;.
 **To find out if you are eligible for any of the EB-2 visa categories, discuss your case with our accomplished immigration visa lawyer.**
 ## EB-2 Visa Application Process; Applying for EB-2 Advanced Degree and Exceptional Ability
+
+[[cta]]
+
 The application process for EB-2 PERM visas includes three main steps that must be done by the employer and the applicant.
 * Obtaining a PERM certification (a labor certification).
 * Filing Form I-140.
@@ -96,6 +102,9 @@ It is a good idea to
 #### Are Eb-2 Employment-Based Visas and US Green Card the Same?
 No. They are not the same thing. Eb-2 visa categories are granted to qualified foreigners to live and work in the US unconditionally, but it is not a permanent residency (a green card). However, an EB-2 visa holder can apply for a green card to become a permanent resident.
 ## Hire a Top Immigration Lawyer for Your EB-2 Visa Renewal or Application
+
+[[cta]]
+
 We have explored different possibilities to get EB-2 employment-based visas. Whether you think you are qualified for EB-2A, EB-2B, or EB-2 NIW, the Law Office of Tuan Le can help you through every step of the process.
 Our team specializes in immigration matters and with our experience you do not have to worry about what to do next and how to prepare yourself for each step of the application or EB-2 visa extension.
 To talk to our accomplished visa attorney, call us at&nbsp;[714-877-5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;or fill in the form below.

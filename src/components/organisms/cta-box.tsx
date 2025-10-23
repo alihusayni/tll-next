@@ -2,27 +2,28 @@ import Image from 'next/image';
 
 export default function CtaBox() {
   return (
-    <div className="relative bg-[#000B1A] rounded-2xl overflow-hidden w-full max-w-[914px] mx-auto">
+    <div style={{ position: 'relative', backgroundColor: '#000B1A', borderRadius: '1rem', overflow: 'hidden', width: '100%', maxWidth: '57.125rem', maxHeight: '23.5rem', margin: '0 auto' }} className="not-prose">
       {/* Glow effect */}
-      <div className="absolute bottom-[-4rem] left-[-16rem]">
-        <div className="w-[494px] h-[302px] bg-gray-900 rounded-full blur-[143px]"></div>
+      <div className="not-prose" style={{ position: 'absolute', bottom: '-4rem', left: '-16rem' }}>
+        <div className="not-prose" style={{ width: '30.875rem', height: '18.875rem', backgroundColor: '#111827', borderRadius: '50%', filter: 'blur(143px)' }}></div>
       </div>
 
-       {/* Background Image */}
-       <div className="absolute right-0 top-0 w-[389px] h-[364px] bg-red-400">
+        {/* Background Image */}
+        <div className="not-prose bg-red-400" style={{ position: 'absolute', right: 0, top: 0, width: '24.3125rem', height: '23.5rem' }}>
         <Image
           src="/assets/blog/CTA_box_img.png"
           alt="CTA background"
           fill
-          className="object-cover object-top"
+          className="not-prose"
+          style={{ objectFit: 'cover', objectPosition: 'top' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#000B1A] via-transparent to-transparent"></div>
+        <div className="not-prose" style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, #000B1A, transparent, transparent)' }}></div>
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex items-center py-18 pl-20 pr-0">
+      <div style={{ position: 'relative', zIndex: 10, display: 'flex', alignItems: 'center', padding: '4.5rem 0 4.5rem 5rem' }}>
         <div className="flex-1 max-w-[515px]">
-          <h2 className="text-4xl font-inter-tight font-semibold text-white leading-tight mb-8 tracking-tight">
+          <h2 style={{ fontSize: '36px', fontFamily: 'var(--font-inter-tight)', fontWeight: 600, color: 'white', lineHeight: 1.25, marginBottom: '2rem', marginTop: '0', letterSpacing: '-0.025em' }}>
             Mr. Le Grants You a <br />
             30-Minutes Free Consultation for Legal Advice
           </h2>

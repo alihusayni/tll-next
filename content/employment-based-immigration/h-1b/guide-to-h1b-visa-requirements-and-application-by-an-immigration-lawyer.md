@@ -15,14 +15,20 @@ twitterDescription: "Need help with the H1B visa requirements and application? O
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2023-06-01T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
-readTime: "29 minutes"
+readTime: "8 min read"
 ---
 If you are a specialist in some field and just got a job offer to work in the U.S., you will need an H1B visa to be allowed to start your job in this country. Your employer will need to apply for this type of non-immigrant visa on your behalf. In what follows, the&nbsp;**H1B visa requirements and application**&nbsp;are fully discussed to help you get your dream job in the land of opportunity.
 ## H1B Visa in Simple Terms
+
+[[cta]]
+
 Foreigners cannot simply come to the U.S. and take up a job. They need to have a kind of working permission. The H1B visa is a non-immigrant visa for non-American workers that allow them to work in this country. According to&nbsp;[the U.S. Department of Labor](https://www.dol.gov/agencies/whd/immigration/h1b)&nbsp;(DOL), by this program, companies and employers that could not find their expected qualities among Americans or legal immigrants, can hire qualified specialists from overseas for specialty occupations.
 As the H1B visa process takes less time than a Green Card, it is a faster way to acquire working permissions. Employers submit the petition for this kind of visa for their potential employee. Since the company is sponsoring the foreign specialist, the H1B visa is sometimes called &lsquo;Person in Specialty Occupation Visa&rsquo;.
 Specialty occupations means any job that requires highly skilled and qualified people with technical and/or theoretical knowledge. This means jobs in science, medicine, engineering, and other specialized fields.
 ## H1B Visa Requirements and Eligibility
+
+[[cta]]
+
 Both the job and the applicant must meet some criteria to be eligible for an H1B visa. Otherwise, you need to consider other visa types. An experienced immigration attorney can help you in these situations.
 Call us at&nbsp;[(714) 877-5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;for&nbsp;a free consultation&nbsp;with an H1B visa lawyer.
 ### H1B Visa Requirements for the Applicant
@@ -37,6 +43,9 @@ The job offer you receive must be a specialty occupation and have the following 
 * The employer cannot find a qualified American for the job.
 According to USCIS ([U.S. Citizenship and Immigration Services](https://www.uscis.gov/)), some common cases of specialty workers that have been approved in recent years for the H1B visa include accountants and auditors, chemists, biologists, architects, teachers, etc.
 ## H1B Visa Process Guide and Application
+
+[[cta]]
+
 You, as an employee, do not file for an H1B visa personally. This is something your employer must do on your behalf with USCIS. If it is selected, then you need to start applying for the visa and request a visa interview. There are fees to pay, forms to fill out, and documents to prepare. Read on this H1B visa process guide to fully understand what needs to be done step by step.
 ### Step 1: Registering for an H1B Visa
 * The employer needs to file for an H1B visa registration with USCIS electronically during the registration window. This window usually lasts for two weeks in March. The registration fee must be paid for each employee that is being registered.
@@ -64,6 +73,9 @@ If the petition is approved, you will get a form I-797 from USCIS. Now is the em
 Getting a visa interview can take a while; from a few weeks to a few months. That is why you need to submit your request as soon as possible.
 For more details on H1B visa requirements and application process,&nbsp;[visit this page](https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations)&nbsp;on USCIS website.
 ## Common Questions and Concerns about the H1B Visa
+
+[[cta]]
+
 The process of applying for a visa is complicated and time-consuming. Consulting an immigration lawyer can save you from frustration. Here, with the help of our citizenship attorney, we are going to discuss some of the main concerns and common questions regarding H1B visa requirements and application.
 ### What Are the Key Dates for the H1B Visa in 2023 (for 2024 FY)?
 Generally speaking, if you are supposed to start working from October 1 (the beginning of the fiscal year), your visa must be approved before this date. Otherwise, you cannot enter the country to begin your job. That is why in the process of applying for an H1B visa, you need to pay attention to some key dates.
@@ -96,6 +108,9 @@ An H-4 visa is granted to the H1B visa holder&rsquo;s spouse and children (only 
 During your first 3 years, you can apply for a Green Card to obtain permanent residency. If you cannot get it until the end of your H1B visa, then you will have to extend it. The extension process is almost the same as the original petition filing. Your employer will have to submit the forms and documents to USCIS. If approved, your visa will be extended for 3 years.
 As discussed above, if you are a seasonal worker, just commute to the U.S. for your part-time job, or any similar case, you may be able to extend your H1B visa even after the first 6 years.
 ## The H1B Visa and What the Law Office of Tuan Le Can Do for You
+
+[[cta]]
+
 Whether you are an applicant or an employer, the H1B visa process can be confusing and you need a law expert to help you with it. In this way, you will avoid getting rejected for technical reasons. Our accomplished H1B visa lawyer Orange County, CA can help you at any stage of the process or for the extension. If you are not in the region, you can always call us at&nbsp;[(714) 877-5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;for a free consultation about the H1B visa requirements and application.
 &nbsp;Check out our&nbsp;[other blog here](https://www.tuanlelaw.com/business-and-employment-immigration/)&nbsp;to learn more about other types of visas suitable for employees.
 &nbsp;

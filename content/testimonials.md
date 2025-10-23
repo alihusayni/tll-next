@@ -15,7 +15,7 @@ twitterDescription: "Read our customers' testimonials about our services in Oran
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2023-06-01T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
-readTime: "5 minutes"
+readTime: "4 min read"
 ---
 # We Care about Our Clients! Here Is The Proof
 <!----><!---->[Home](https://tuanlelaw.com/)/<!---->Testimonials

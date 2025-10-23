@@ -15,13 +15,16 @@ twitterDescription: "This comprehensive guide to EB-1 visas teaches you how to g
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2023-06-01T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
-readTime: "29 minutes"
+readTime: "8 min read"
 ---
 U.S. employment-based visas, such as EB-1 visas and EB-2 visas, are offered to foreigners who have found a job in the United States and are qualified to immigrate to the US. The U.S. Immigration Law has laid down certain requirements and eligibility criteria for each group of these immigrant work visas. As a result, the country can only select foreign individuals with the right skills, talents, and knowledge.
 There are 5 different types of work visas in the US. The first one, and the most respected one, is the EB-1 visa. This type of visa includes a few categories. Each of these subcategories sets out a few EB-1 visa criteria for specific groups of candidates.
 In this EB-1 visas guide, you will learn about its categories, requirements, EB-1 visa eligibility, its benefits, how to apply for an EB-1 visa, and more. Read on to find out if you are eligible for this highly regarded immigrant visa.
 **[Have an immigration consultation](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;with our accomplished immigration attorney. You will find out which type of US work visa is suitable for you.**
 ## Different Categories and Qualifications of EB-1 Visas
+
+[[cta]]
+
 The first priority workers Eb-1 visa is only available to those foreign individuals with Extraordinary Ability, Outstanding Professor or Researcher, Multinational Executive or Manager. In other words, you can obtain this type of visa only if you have astonishing work or academic achievements.
 There are different requirements and eligibility criteria for each of these EB-1 visa categories. Those who are found eligible for this type of visa will not need an Employment Authorization Document to live and work in the US.
 We will discuss each EB-1 visa category one by one.
@@ -42,6 +45,9 @@ The minimum period required for working for the international U.S. company is on
 Therefore, their US employer must be willing to petition for them to transfer their foreign managers or executives to their U.S.-based branches. To learn more about this petition requirements see&nbsp;[here](https://www.uscis.gov/policy-manual/volume-6-part-f-chapter-4).
 **Preparing your EB-1 visa evidence and documentation to conform with the USCIS requirements might require some experience. Ask a competent immigration lawyer for some help and&nbsp;[advice by phone call](https://tuanlelaw.com/tel:+1-714-877-5840).**
 ## EB-1 Visa Application Proces
+
+[[cta]]
+
 There are some differences between applying for an EB-1A visa and the two other subcategories of EB-1 visas. As mentioned above, for the EB-1A visa you can apply for yourself. But for the EB-1B and EB-1C visas a qualified US employer, who is offering you a job, has to file the petition for you.
 In any case, the application process includes a few steps. Upon completion, you might receive your visa to immigrate to the US. Or, if you are already in the country, you can adjust your status. However, your application/petition may get rejected. This means you are not qualified to receive an EB-1 visa according to the USCIS.
 ### Applying for EB-1 Visa by Yourself
@@ -94,6 +100,9 @@ You can see the average processing time for each step of the EB-1 application pr
 * Processing Form I-845 by the USCIS: 17.5 months.
 * The waiting time for the consular processing step depends on each US Embassy or Consulate. Check with the Embassy you are applying from to know the average processing time.
 ## EB-1 Visa Benefits
+
+[[cta]]
+
 Despite the difficulty to prove your qualifications and eligibility for the EB-1 visas, there are quite a few benefits. Some of the EB-1 visa advantages include
 * There is no need for a labor certification.
 * You can work in the United States permanently.
@@ -101,6 +110,9 @@ Despite the difficulty to prove your qualifications and eligibility for the EB-1
 * There are no limitations or restrictions for traveling inside or outside the country.
 * You can apply for your dependents&rsquo; visas (spouse and children under 21).
 ## Our Law Office Can Help You with Your Visa Planning
+
+[[cta]]
+
 To work in the United States as an immigrant, you have to choose and apply for a type of US working visa. The choice is usually made based on your line of work and qualifications. In this article, you got familiar with EB-1 visas and their requirements. We also reviewed EB 1 visa benefits, concerns, and the application process.
 However, hiring an immigration attorney can be a great asset. Immigration lawyers know the US immigration laws very well, and through experience have learned how to present visa evidence to make you look even more eligible. They can also speed up the process.
 The Law Office of Tuan Le is located in Orange County, CA. With years of experience, we are ready to help you with any type of visa planning, naturalization process, immigration consultation, green card application, and other immigration services.**

@@ -15,7 +15,7 @@ twitterDescription: "All you green card holders hoping to become US citizens, re
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2023-06-01T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
-readTime: "29 minutes"
+readTime: "8 min read"
 ---
 In our previous article,&nbsp;[Paths to Become a US Citizen](https://www.tuanlelaw.com/become-u-s-citizen-explained-citizenship-lawyer/), we discussed the two main ways of becoming a US citizen; through birth or naturalization process. Today, we are going through the naturalization process step by step to guide you on your way to becoming a US citizen.
 Generally, those who have been green card holders for at least 5 years (3 years for those applicants who are married to a US citizen) can apply for naturalization and complete each required step (to know more about naturalization eligibility and exceptions read our previous article).
@@ -23,6 +23,9 @@ To successfully pass each step and get your citizenship, you should learn about 
 Aspiring US citizens are recommended to consult with a citizenship lawyer to make sure their application will be approved. Call for a free consultation.&nbsp;here.
 [Get Started!](https://tuanlelaw.com/tel:+1-714-877-5840)
 ## Naturalization Process, a Step-by-Step Explanation
+
+[[cta]]
+
 The naturalization process is a series of steps through which an adult foreign green card holder becomes a permanent resident; an American citizen. This status is granted by the United States Citizenship and Immigration Services (USCIS). The whole process takes 8 to 14 months to complete.
 If you are not still sure whether you are eligible for naturalization or not, you can use&nbsp;[this online tool](https://www.uscis.gov/citizenship-resource-center/learn-about-citizenship/naturalization-eligibility-tool)&nbsp;to see your eligibility status. Or simply call your immigration lawyer.
 The whole process of naturalization can be divided into four main steps:
@@ -107,5 +110,8 @@ These two usually take place on the same day, around 14 months after Form N-400 
 This can happen on the same day of the interview and exam (of course if your application is approved), or you will get a notice a few days later to attend your Oath of Allegiance Ceremony.
 If your case is denied, a letter will be sent to inform you. You can appeal within 30 days. It is also possible to file your request again.
 ## Our Naturalization Attorney Is Here to Guide You
+
+[[cta]]
+
 The law office of Tuan Le, Orange County, CA, offers you a step-by-step guide throughout the whole naturalization process. Going through all these complicated steps with our experienced citizenship attorney on your side will make you feel relaxed and confident. He knows what it takes to pass these steps and become a US citizen.
 There is no need to be worried about the documents, filling out forms, the interview, the tests, etc., just give us a call at&nbsp;[(714) 877-5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;&nbsp;and schedule an appointment. We will celebrate your citizenship together!

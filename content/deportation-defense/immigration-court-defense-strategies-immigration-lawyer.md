@@ -15,18 +15,24 @@ twitterDescription: "Expert immigration law advice and services from Tuan Le."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2023-06-01T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
-readTime: "29 minutes"
+readTime: "7 min read"
 ---
 If a foreigner, who is residing in the U.S., violates any immigration law, he or she will receive a notice to attend an immigration court hearing.&nbsp;[The Department of Homeland Security (DHS](https://www.dhs.gov/)) can charge foreign-born individuals with this kind of accusation. To prepare for your hearing, you are strongly recommended to ask an immigration lawyer to represent you. Otherwise, you will have a difficult time understanding the procedure, the steps that should be taken, immigration court defense strategies, and even what the immigration judge (IJ) says.
 Even if the accusations are false, if you do not prepare for your hearing in advance and do not have a good defense strategy, you will probably lose the case. That is why getting help from an immigration law firm or an independent immigration attorney is necessary to save the day.
 To make you more familiar with defense strategies in immigration court and help you understand what is required of you in a court session, we are reviewing the most practical immigration court defense strategies that can help you win in simple words.
 **Are you trying to prepare for your upcoming immigration court hearing? Get free advice from an experienced immigration lawyer with a&nbsp;[phone call](https://tuanlelaw.com/tel:+1-714-877-5840).**
 ## Immigration Court System in the United States
+
+[[cta]]
+
 Simply put, the U.S. immigration court system works under the&nbsp;[Executive Office for Immigration Review](https://www.justice.gov/eoir/about-office), also called the EOIR. It interprets and administers the immigration laws. When DHS charges you (as a foreign-born individual) with a violation of law and makes a legal case against you, you have to appear before the court to fight it by putting forward a good defense.
 In this case, you will receive a notice that gives the details of the hearing, like the date and time, also called the Return Date. If you receive the notice and do not appear in court, the judge might order your removal. So, even if you still do not have an attorney to represent you, you must attend the first hearing, also referred to as the Master Hearing.
 In such courts, you are actually fighting with the government that is represented by the opposing attorneys. Also, there is no jury, and an immigration judge decides and issues a judgment at the end. The decision is usually about if you can stay in the U.S. or must be deported (removed). (Learn more about the deportation process&nbsp;[here](https://www.usa.gov/deportation-process).)
 Now that you know about the system and what it means to be in an immigration court, let&rsquo;s go over the immigration court defense strategies and tactics.
 ## A Simple Guide to Immigration Court Defense Strategies
+
+[[cta]]
+
 A defense strategy at court means that you (as the defendant) and your lawyer (as the defense attorney) try to present the truth in a way that can win you the case, or you can get a better verdict with a lesser charge, or a good plea bargain.
 Some practical immigration court tactics you can use are discussed below.
 ### Challenging Government Evidence in Immigration Court
@@ -81,6 +87,9 @@ You should pay 110$ for an immigration appeal to the BIA and the process can tak
 If you decide to waive your right to appeal, you must leave the US immediately. So, consult with your immigration lawyer about your options before the judgment is issued.
 **Are you looking for a highly-skilled lawyer in immigration court proceedings? Mr. Tuan Le is our accomplished immigration attorney in Orange County, CA.&nbsp;[Call to schedule an appointment](https://tuanlelaw.com/tel:+1-714-877-5840).**
 ## Get Help with Your Immigration Court Hearings
+
+[[cta]]
+
 In this blog, we tried to depict a simple picture of removal proceedings in immigration court and how to defend yourself against the charges. The above-mentioned immigration court defense strategies and tactics are useful and practical ways to help you fight deportation and win. Of course, one cannot do this without the help of an immigration lawyer.
 If you are an undocumented immigrant dealing with deportation in Orange County, CA, our Law Office can defend you in immigration court hearings and assist you in understanding the procedure, the options you have, the documents you need, and planning a strong defense strategy.
 You may also need advice about the naturalization process, family-based immigration, employment-based immigration, and other types of immigration and visas. Whatever you need, our professional team is here for you.
