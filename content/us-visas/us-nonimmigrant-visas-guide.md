@@ -36,7 +36,7 @@ Each visa type serves a unique purpose, and choosing the wrong one can result in
 Selecting the right visa ensures your plans align with U.S. immigration laws and avoids unnecessary complications during your application process. Whether you&#39;re planning a short trip or pursuing educational or professional opportunities, understanding visa requirements and eligibility criteria is essential for success.
 Get Personalized Help from an Immigration Expert
 Determining which U.S. visa is best for your needs doesn&rsquo;t have to be stressful. Our team at **The Law Office of Tuan Le** specializes in assisting clients with all types of visa applications, extensions, and changes of status.
-[Contact us](https://tuanlelaw.com/tel:+1-714-877-5840) today for a free 30-minute consultation and let our experienced immigration lawyer in Orange County, CA, guide you through your U.S. visa application journey.
+[Contact us](tel:+1-714-877-5840) today for a free 30-minute consultation and let our experienced immigration lawyer in Orange County, CA, guide you through your U.S. visa application journey.
 ## Understanding U.S. Visa Categories: Immigrant vs. Nonimmigrant Visas
 
 [[cta]]
@@ -79,7 +79,7 @@ Determining the right visa type begins with clearly identifying your goals:
 By answering these questions and understanding the requirements for each visa type, you can confidently move forward with the application process. Consulting with an experienced immigration attorney can help you avoid costly mistakes and delays.
 Expert Help for Your U.S. Visa Application
 At **The Law Office of Tuan Le**, we specialize in providing personalized assistance for all visa categories. Whether you&rsquo;re applying for a nonimmigrant visa to visit, study, or work, or an immigrant visa to reunite with family or secure permanent residency, we are here to guide you every step of the way.
-[Contact us ](https://tuanlelaw.com/tel:+1-714-877-5840)today for a free consultation and take the first step toward achieving your U.S. immigration goals.
+[Contact us ](tel:+1-714-877-5840)today for a free consultation and take the first step toward achieving your U.S. immigration goals.
 ## Overview of U.S. Nonimmigrant Visas: Finding the Right Fit for Your Journey
 
 [[cta]]
@@ -150,7 +150,7 @@ Certain visa types are available for family members or individuals needing prote
 
 Each U.S. nonimmigrant visa comes with specific eligibility criteria and restrictions. Choosing the right visa is critical to ensure your purpose aligns with U.S. immigration laws and to avoid unnecessary delays or complications.
 At **The Law Office of Tuan Le**, we offer personalized assistance to help you navigate the complexities of U.S. visa applications.
-[Call now](https://tuanlelaw.com/tel:+1-714-877-5840) for a free 30-minute consultation with our experienced immigration attorney in Orange County, CA, and take the first step toward your U.S. visa journey!
+[Call now](tel:+1-714-877-5840) for a free 30-minute consultation with our experienced immigration attorney in Orange County, CA, and take the first step toward your U.S. visa journey!
 ## Call Now for Expert Assistance with Your U.S. Visa Application
 
 [[cta]]
@@ -179,7 +179,7 @@ Thinking about transitioning from a nonimmigrant visa to a Green Card? We&rsquo;
 With years of experience in immigration law, **The Law Office of Tuan Le** has helped countless clients navigate the visa application process successfully. Our office is conveniently located in Orange County, California, making it easy for you to access professional legal services when you need them most.
 Contact Us Today for a Free Consultation
 Don&rsquo;t let the complexities of U.S. visa applications hold you back. Whether you&rsquo;re applying for the first time, extending your visa, or exploring new opportunities, we&rsquo;re here to guide you every step of the way.
-Call us now at [(714) 877 5840](https://tuanlelaw.com/tel:+1-714-877-5840) or fill out our online contact form to schedule your free 30-minute consultation with an experienced immigration attorney.
+Call us now at [(714) 877 5840](tel:+1-714-877-5840) or fill out our online contact form to schedule your free 30-minute consultation with an experienced immigration attorney.
 ## FAQs About U.S. Visa Assistance
 
 [[cta]]
@@ -207,5 +207,5 @@ No, the B-2 tourist visa does not allow you to work in the U.S. If you intend to
 [[cta]]
 
 ***At **The Law Office of Tuan Le**, we&rsquo;re dedicated to helping you achieve your U.S. immigration goals with confidence and clarity. With our expert guidance, you can navigate the visa process seamlessly and focus on your plans for the future.***
-***[Call now](https://tuanlelaw.com/tel:+1-714-877-5840) or schedule your consultation online to get started on your U.S. visa journey today!***
+***[Call now](tel:+1-714-877-5840) or schedule your consultation online to get started on your U.S. visa journey today!***
 ***&nbsp;***

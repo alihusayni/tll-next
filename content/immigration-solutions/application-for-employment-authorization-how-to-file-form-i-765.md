@@ -24,7 +24,7 @@ Who is eligible to file it, how to do it, its costs and processing time, and the
 [[cta]]
 
 Except for permanent residents and employment based visa holders, other non-citizens must get authorization to work in the U.S. Therefore, if you are already in the U.S. but do not have a permit to work, it may be possible, if you are eligible, to get your work permit (also known as EAD) to present to employers as an official document to show you are authorized to work in this country. This can happen by filing Form I-765, Application for Employment Authorization, whether online or by mail.
-Before applying for an EAD, you should know if you are eligible to avoid wasting time and money. Read on to find out or simply give us a call at&nbsp;[(714) 877 5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;for a free consultation with an immigration attorney.
+Before applying for an EAD, you should know if you are eligible to avoid wasting time and money. Read on to find out or simply give us a call at&nbsp;[(714) 877 5840](tel:+1-714-877-5840)&nbsp;for a free consultation with an immigration attorney.
 ## Eligibility for Filing Form I-765
 
 [[cta]]
@@ -37,7 +37,7 @@ Students&rsquo; visas do not usually allow them to work while studying . Althoug
 * If a student has been studying in the U.S. for a minimum of 1 year and is facing financial difficulties, they might be granted a work permit.
 * J1 visa holders&rsquo; dependents (spouses and children) are also qualified for application for employment authorization.
 * Individuals who study at vocational schools can get an EAD to get more training.
-For more details call us at&nbsp;[(714) 877 5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;for a consultation.
+For more details call us at&nbsp;[(714) 877 5840](tel:+1-714-877-5840)&nbsp;for a consultation.
 &nbsp;
 ### Asylees and Refugees and Their Dependents
 All asylees and refugees, who do not have employment authorization, and their dependents, are allowed to file Form I-765 after a minimum of 150 days following the filing of their asylum claim application. So, to apply for a work permit, you will need legal proof to show your asylee/refugee status or the fact that your asylum application is pending.
@@ -101,7 +101,7 @@ The required documents to request an EAD include:
 * A copy of your visa which was issued by any other country;
 * A copy of your national photo/fingerprint ident document.
 Based on your status, you might need some of these documents. However, individuals from Guatemala and El Salvador, asylum applicants, and CNMI-only investors&rsquo; spouses may be needed to present additional documents.
-Check out the&nbsp;[USCIS website](https://www.uscis.gov/i-765)&nbsp;for more details or pick up your phone and consult with our immigration attorney at&nbsp;[(714) 877 5840](https://tuanlelaw.com/tel:+1-714-877-5840).
+Check out the&nbsp;[USCIS website](https://www.uscis.gov/i-765)&nbsp;for more details or pick up your phone and consult with our immigration attorney at&nbsp;[(714) 877 5840](tel:+1-714-877-5840).
 ## How to Apply for Employment Authorization Using Form I-765?
 
 [[cta]]
@@ -140,4 +140,4 @@ However, if the error is made by you, you will have to submit a new Form I-765 a
 [[cta]]
 
 If you need to file form I-765, Application for Employment Authorization, you can count on our immigration lawyer to guide you throughout the process. Our law office has handled numerous immigration cases is fully experienced in such matters.
-Although our office is located in Orange County, California, our office can take your case no matter where you are in the United States. Call us at&nbsp;[(714) 877 5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;to schedule an appointment or get half an hour of free consultation.
+Although our office is located in Orange County, California, our office can take your case no matter where you are in the United States. Call us at&nbsp;[(714) 877 5840](tel:+1-714-877-5840)&nbsp;to schedule an appointment or get half an hour of free consultation.

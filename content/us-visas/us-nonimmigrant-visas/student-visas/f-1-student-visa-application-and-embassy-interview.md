@@ -20,7 +20,7 @@ readTime: "7 min read"
 If you wish to study in the U.S., you will have to obtain a kind of student visa; M-1, J-1, or F-1 visa. The process of applying for a student visa can be time-consuming, complicated, and stressful. You will also be required to have an embassy interview. With the help of our immigration lawyer, we walk you through every step you will have to take for an F-1 student visa application.
 Our reputable law office has solid experience in such cases.
 Schedule an appointment&nbsp;here.
-[Get Started!](https://tuanlelaw.com/tel:+1-714-877-5840)
+[Get Started!](tel:+1-714-877-5840)
 ## Who Needs an F-1 Visa?
 
 [[cta]]
@@ -108,7 +108,7 @@ Besides preparing the documents and your answers, you should follow the advice b
 * Stay calm and confident (but avoid drinking alcohol).
 * Sometimes interviews start a bit later than the scheduled time, so be prepared for a possible delay.
 Still not sure how to apply? Get your free 30-minute consultation with an experienced immigration lawyer now&nbsp;
-[Get Started!](https://tuanlelaw.com/tel:+1-714-877-5840)
+[Get Started!](tel:+1-714-877-5840)
 ## Other Questions and Concerns Regarding the F-1 Visa
 
 [[cta]]
@@ -133,4 +133,4 @@ An F1 student visa is valid for up to 5 years, and the student can enter the U.S
 [[cta]]
 
 Completing Form DS-160, preparing for the embassy interview, and gathering the documents required can be confusing and frustrating. You should also know what proofs are good enough to convince the consular officers that you are tied to your home country and you genuinely intend to leave the U.S. after your course is over, or the proof of your financial sufficiency. But you can put your mind at ease by getting advice from our accomplished immigration attorney who has helped numerous students with their F-1 student visa application process.
-The Law Office of Tuan Le, in Orange County, is always here for you. Contact us at&nbsp;[(714) 877-5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;to make an appointment with our immigration lawyer.
+The Law Office of Tuan Le, in Orange County, is always here for you. Contact us at&nbsp;[(714) 877-5840](tel:+1-714-877-5840)&nbsp;to make an appointment with our immigration lawyer.

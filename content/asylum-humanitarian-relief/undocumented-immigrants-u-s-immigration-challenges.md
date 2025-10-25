@@ -76,7 +76,7 @@ In the current environment, where sanctuary cities may provide a haven, the inte
 Gathering proof of your integration into the community, such as tax returns and employment records, is crucial. This evidence can strengthen your position when seeking future opportunities.
 #### **&bull;&nbsp; Policy Awareness:&nbsp;**
 With immigration policies in a state of flux, staying informed about changes is imperative. Understanding your options will equip you to adapt to new scenarios, ensuring you&rsquo;re ready for whatever comes next.
-At Tuan Le Law Office, your journey towards a brighter future begins today. Cast off the weight of worry and call us at&nbsp;[714-877-5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;for a consultation. Together, we&rsquo;ll set sail toward a future filled with hope and security.
+At Tuan Le Law Office, your journey towards a brighter future begins today. Cast off the weight of worry and call us at&nbsp;[714-877-5840](tel:+1-714-877-5840)&nbsp;for a consultation. Together, we&rsquo;ll set sail toward a future filled with hope and security.
 ## **Advocating for Change: Empowering Undocumented Immigrants**
 
 [[cta]]

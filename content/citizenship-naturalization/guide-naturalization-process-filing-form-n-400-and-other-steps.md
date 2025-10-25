@@ -21,7 +21,7 @@ In our previous article,&nbsp;[Paths to Become a US Citizen](https://www.tuanlel
 Generally, those who have been green card holders for at least 5 years (3 years for those applicants who are married to a US citizen) can apply for naturalization and complete each required step (to know more about naturalization eligibility and exceptions read our previous article).
 To successfully pass each step and get your citizenship, you should learn about the procedure and the required documents and knowledge. Read on to get more familiar with the path ahead of you.
 Aspiring US citizens are recommended to consult with a citizenship lawyer to make sure their application will be approved. Call for a free consultation.&nbsp;here.
-[Get Started!](https://tuanlelaw.com/tel:+1-714-877-5840)
+[Get Started!](tel:+1-714-877-5840)
 ## Naturalization Process, a Step-by-Step Explanation
 
 [[cta]]
@@ -62,7 +62,7 @@ If you have decided to fill out the Form N-400 by yourself, keep the following t
 * Do not submit documents that are not required.
 * Review your form before submission and make sure you have signed the form.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
 A naturalization lawyer knows how to fill out the form and gather the required documents in the way the USCIS prefers. Schedule an appointment to visit our citizenship lawyer in Orange County, CA.here.
-[Get Started!](https://tuanlelaw.com/tel:+1-714-877-5840)
+[Get Started!](tel:+1-714-877-5840)
 ### Biometrics Requirement&nbsp;
 After 5 to 11 weeks of your application submission to the USCIS, you will receive a notice to attend a biometrics appointment. This is done in your local USCIS field office.
 This is perhaps the simplest step of the naturalization process. It is basically taking your fingerprints to check your background. The fingerprinting itself takes only 10 to 15 minutes, but you might have to wait in line.
@@ -114,4 +114,4 @@ If your case is denied, a letter will be sent to inform you. You can appeal with
 [[cta]]
 
 The law office of Tuan Le, Orange County, CA, offers you a step-by-step guide throughout the whole naturalization process. Going through all these complicated steps with our experienced citizenship attorney on your side will make you feel relaxed and confident. He knows what it takes to pass these steps and become a US citizen.
-There is no need to be worried about the documents, filling out forms, the interview, the tests, etc., just give us a call at&nbsp;[(714) 877-5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;&nbsp;and schedule an appointment. We will celebrate your citizenship together!
+There is no need to be worried about the documents, filling out forms, the interview, the tests, etc., just give us a call at&nbsp;[(714) 877-5840](tel:+1-714-877-5840)&nbsp;&nbsp;and schedule an appointment. We will celebrate your citizenship together!

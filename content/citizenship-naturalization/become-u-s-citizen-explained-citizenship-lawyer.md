@@ -64,7 +64,7 @@ The same rule might apply to those with only one U.S. citizen parent. If they we
 Those born to a U.S. citizen parent between October 10, 1952, to November 14, 1986, should also meet the above-mentioned criteria but there is a difference. The citizen parent must have lived in the U.S. for a minimum of 10 years, 5 years of which must have been after the age of 14.
 If you meet these requirements, you can apply for the U.S. citizenship certificate by filing&nbsp;*Form N-600, Application for Certificate of Citizenship.*&nbsp;The fee for filing this form is currently $1170. Those who are serving in the U.S. military are exempt from it. Click&nbsp;[here](https://www.uscis.gov/n-600)&nbsp;to submit it online.&nbsp;
 Need help with filling out Form N-600? Schedule an appointment to meet our citizenship attorney in Orange County, CA.
-[Get Started!](https://tuanlelaw.com/tel:+1-714-877-5840)
+[Get Started!](tel:+1-714-877-5840)
 &nbsp;
 ### What Is Naturalization in Becoming a U.S. Citizen?
 Eligible immigrants living in the U.S. can apply for U.S. citizenship through the naturalization process. The process can take a minimum of a year and a half up to two years depending on your location. During this time, you have to go through different steps, including filing Form N-400, a civics test, an English test, an interview, the oath of allegiance, etc.
@@ -113,4 +113,4 @@ To apply for naturalization and go through its steps, you are not required to hi
 * you can save time,
 * you do not have to worry about the language barrier if you are not fluent in English or are not familiar with legal terms.
 *The Law Office of Tuan Lee*&nbsp;in Orange County is here to help you become a U.S. citizen. Our experienced naturalization attorney provides you legal assistance in knowing if you are eligible or not, how and when to apply, what kind of proof and documentation you need for each step, how to pass the exams and the interview successfully if you can be exempt from the exam or fees, and any other help you will need on this long journey.
-Give us a call at&nbsp;[(714) 877-5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;or fill out&nbsp;the form below&nbsp;so we contact you.
+Give us a call at&nbsp;[(714) 877-5840](tel:+1-714-877-5840)&nbsp;or fill out&nbsp;the form below&nbsp;so we contact you.

@@ -30,7 +30,7 @@ Specialty occupations means any job that requires highly skilled and qualified p
 [[cta]]
 
 Both the job and the applicant must meet some criteria to be eligible for an H1B visa. Otherwise, you need to consider other visa types. An experienced immigration attorney can help you in these situations.
-Call us at&nbsp;[(714) 877-5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;for&nbsp;a free consultation&nbsp;with an H1B visa lawyer.
+Call us at&nbsp;[(714) 877-5840](tel:+1-714-877-5840)&nbsp;for&nbsp;a free consultation&nbsp;with an H1B visa lawyer.
 ### H1B Visa Requirements for the Applicant
 If you have a job offer and you wish to get an H1B visa for that, you should meet all the requirements below to be qualified for one.
 * The position must be an H1B eligible job (more on it in the next section).
@@ -86,7 +86,7 @@ Generally speaking, if you are supposed to start working from October 1 (the beg
 So, those who wish to start working in 2024 must be registered in March 2023 by their sponsors to prepare for their H1B visa requirements and application.
 ### How Long Does an H1B Visa Last?
 An H1B visa initially lasts for 3 years with the option to extend it for another 3 years. However, it can be extended under some conditions even after the first 6 years. For example, when an H1B visa holder works only seasonally or lives abroad for more than half of the year.
-If you think you are exempt, call our H1B visa lawyer at&nbsp;[(714) 877-5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;to learn what you need to do to get your visa extended.
+If you think you are exempt, call our H1B visa lawyer at&nbsp;[(714) 877-5840](tel:+1-714-877-5840)&nbsp;to learn what you need to do to get your visa extended.
 ### How Much Does Registering and Applying for the H1B Visa Cost?
 In different stages of the H1B process, there are fees to be paid but most of them are paid by the employer. The main fees based on 2022 include:
 * Registration fee: $10
@@ -111,6 +111,6 @@ As discussed above, if you are a seasonal worker, just commute to the U.S. for y
 
 [[cta]]
 
-Whether you are an applicant or an employer, the H1B visa process can be confusing and you need a law expert to help you with it. In this way, you will avoid getting rejected for technical reasons. Our accomplished H1B visa lawyer Orange County, CA can help you at any stage of the process or for the extension. If you are not in the region, you can always call us at&nbsp;[(714) 877-5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;for a free consultation about the H1B visa requirements and application.
+Whether you are an applicant or an employer, the H1B visa process can be confusing and you need a law expert to help you with it. In this way, you will avoid getting rejected for technical reasons. Our accomplished H1B visa lawyer Orange County, CA can help you at any stage of the process or for the extension. If you are not in the region, you can always call us at&nbsp;[(714) 877-5840](tel:+1-714-877-5840)&nbsp;for a free consultation about the H1B visa requirements and application.
 &nbsp;Check out our&nbsp;[other blog here](https://www.tuanlelaw.com/business-and-employment-immigration/)&nbsp;to learn more about other types of visas suitable for employees.
 &nbsp;

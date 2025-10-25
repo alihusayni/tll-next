@@ -27,7 +27,7 @@ Choosing the right visa can feel overwhelming due to the variety of options avai
 
 [[cta]]
 
-If you&rsquo;re looking to apply for an immigrant visa or change your current status, our skilled immigration attorney in Orange, CA, is here to guide you every step of the way. [Call today](https://tuanlelaw.com/tel:+1-714-877-5840) for a free consultation and take the first step toward making your American dream a reality.
+If you&rsquo;re looking to apply for an immigrant visa or change your current status, our skilled immigration attorney in Orange, CA, is here to guide you every step of the way. [Call today](tel:+1-714-877-5840) for a free consultation and take the first step toward making your American dream a reality.
 ## Overview of U.S. Immigrant Visas: Your Path to Permanent Residency
 
 [[cta]]
@@ -93,7 +93,7 @@ For individuals who invest significantly in a U.S. business that creates jobs fo
 ### &nbsp;
 Take the Next Step in Your U.S. Career
 The employment-based visa process requires careful planning, proper documentation, and often, employer sponsorship. Small errors can lead to unnecessary delays or denials. Ensure your application is handled professionally by contacting our experienced <a href="https://www.tuanlelaw.com/about-us/">immigration attorney in Orange County, CA.</a>
-[Call today](https://tuanlelaw.com/tel:+1-714-877-5840) to schedule a free consultation and get expert guidance tailored to your situation.
+[Call today](tel:+1-714-877-5840) to schedule a free consultation and get expert guidance tailored to your situation.
 ### Diversity Visa Lottery: Your Chance to Win a Green Card
 #### Who Can Apply for the Diversity Visa?
 &nbsp;
@@ -193,4 +193,4 @@ Consulting with an immigration attorney can help you determine the best course o
 
 **Applying for a U.S. immigrant visa involves detailed documentation, accurate form submissions, and adherence to strict timelines. Mistakes can lead to significant delays or denials.**
 **At the <a href="https://www.tuanlelaw.com/contact-us/">Law Office of Tuan Le</a> in Orange County, CA, we specialize in guiding individuals and families through the visa process. Whether you&rsquo;re applying for the first time, seeking a renewal, or need help with complex cases, we&rsquo;re here to help.**
-[Call us today](https://tuanlelaw.com/tel:+1-714-877-5840) for a free consultation and take the first step toward securing your U.S. visa.
+[Call us today](tel:+1-714-877-5840) for a free consultation and take the first step toward securing your U.S. visa.

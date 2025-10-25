@@ -20,7 +20,7 @@ readTime: "7 min read"
 Applying for an employment-based green card can be tiresome and time-consuming, mostly due to the intricate labor certification process. However, you might be able to bypass it if you can prove your admission to the United States is in the national interest. This provision is known as the National Interest Waiver (NIW).
 Under NIW, you can self-petition for a US permanent residency (green card) if you are found eligible. So, in this article, we will review EB-2 NIW requirements, eligibility criteria, the application process, documentation and evidence, costs, tips, and anything else you should know to help you achieve your NIW green card.
 Do you need legal advice regarding your green card application? Consult with our experienced immigration attorney in Orange County, California for free.
-[Get Started](https://tuanlelaw.com/tel:+1-714-877-5840)
+[Get Started](tel:+1-714-877-5840)
 ## What Is the National Interest Waiver or NIW?
 
 [[cta]]
@@ -132,5 +132,5 @@ Do you need legal advice regarding your green card application? Consult with our
 [[cta]]
 
 We tried to discuss the NIW evaluation factors, application, and requirements as simply as possible to help you gain a sufficient understanding of the whole process. Still, to ensure you are eligible, your argument is compelling, and your evidence is strong enough to support your case you are highly recommended to consult with an experienced immigration attorney.
-The Law Office of Tuan Le in Orange, CA not only offers you great professional help in every step of your National Interest Waiver application, but also a 30-minute free consultation to discuss your case or ask your questions. Give us a call&nbsp;at&nbsp;[(714) 877-5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;or fill in&nbsp;the form below, and we will get back to you.
+The Law Office of Tuan Le in Orange, CA not only offers you great professional help in every step of your National Interest Waiver application, but also a 30-minute free consultation to discuss your case or ask your questions. Give us a call&nbsp;at&nbsp;[(714) 877-5840](tel:+1-714-877-5840)&nbsp;or fill in&nbsp;the form below, and we will get back to you.
 &nbsp;

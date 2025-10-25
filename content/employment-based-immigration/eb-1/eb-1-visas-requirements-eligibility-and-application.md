@@ -20,7 +20,7 @@ readTime: "8 min read"
 U.S. employment-based visas, such as EB-1 visas and EB-2 visas, are offered to foreigners who have found a job in the United States and are qualified to immigrate to the US. The U.S. Immigration Law has laid down certain requirements and eligibility criteria for each group of these immigrant work visas. As a result, the country can only select foreign individuals with the right skills, talents, and knowledge.
 There are 5 different types of work visas in the US. The first one, and the most respected one, is the EB-1 visa. This type of visa includes a few categories. Each of these subcategories sets out a few EB-1 visa criteria for specific groups of candidates.
 In this EB-1 visas guide, you will learn about its categories, requirements, EB-1 visa eligibility, its benefits, how to apply for an EB-1 visa, and more. Read on to find out if you are eligible for this highly regarded immigrant visa.
-**[Have an immigration consultation](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;with our accomplished immigration attorney. You will find out which type of US work visa is suitable for you.**
+**[Have an immigration consultation](tel:+1-714-877-5840)&nbsp;with our accomplished immigration attorney. You will find out which type of US work visa is suitable for you.**
 ## Different Categories and Qualifications of EB-1 Visas
 
 [[cta]]
@@ -43,7 +43,7 @@ For example, professors who are internationally recognized in their field can co
 Eligible candidates for EB-1C visa or multinational executive or manager EB-1 visa are those who have worked in a US company&rsquo;s foreign branch.
 The minimum period required for working for the international U.S. company is one year, which must have been in the last 3 years. The candidates must be able to prove that they are going to resume their job in the same company in the US. And, they should be working in the same position or a higher one.
 Therefore, their US employer must be willing to petition for them to transfer their foreign managers or executives to their U.S.-based branches. To learn more about this petition requirements see&nbsp;[here](https://www.uscis.gov/policy-manual/volume-6-part-f-chapter-4).
-**Preparing your EB-1 visa evidence and documentation to conform with the USCIS requirements might require some experience. Ask a competent immigration lawyer for some help and&nbsp;[advice by phone call](https://tuanlelaw.com/tel:+1-714-877-5840).**
+**Preparing your EB-1 visa evidence and documentation to conform with the USCIS requirements might require some experience. Ask a competent immigration lawyer for some help and&nbsp;[advice by phone call](tel:+1-714-877-5840).**
 ## EB-1 Visa Application Proces
 
 [[cta]]
@@ -85,7 +85,7 @@ The documents needed for the EB-1 application process include
 * Your previous employers&rsquo; letters.
 * Any records of criminal background.
 Also, keep in mind that you might be required to provide more documents.
-**Ask your questions about EB-1 visa green card sponsorship right now. Our full-service law office is here to assist you with [a free 30-minute consultation.](https://tuanlelaw.com/tel:+1-714-877-5840)**
+**Ask your questions about EB-1 visa green card sponsorship right now. Our full-service law office is here to assist you with [a free 30-minute consultation.](tel:+1-714-877-5840)**
 ### EB-1 Visa Application Fees
 Except for the fees you will need to pay for the supporting documents and translations, there are some other fees that the applicant or the company must pay.
 * Filing Form I-140 fee: $700.
@@ -116,4 +116,4 @@ Despite the difficulty to prove your qualifications and eligibility for the EB-1
 To work in the United States as an immigrant, you have to choose and apply for a type of US working visa. The choice is usually made based on your line of work and qualifications. In this article, you got familiar with EB-1 visas and their requirements. We also reviewed EB 1 visa benefits, concerns, and the application process.
 However, hiring an immigration attorney can be a great asset. Immigration lawyers know the US immigration laws very well, and through experience have learned how to present visa evidence to make you look even more eligible. They can also speed up the process.
 The Law Office of Tuan Le is located in Orange County, CA. With years of experience, we are ready to help you with any type of visa planning, naturalization process, immigration consultation, green card application, and other immigration services.**
-Contact us with a&nbsp;[phone call](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;or through the&nbsp;[form below](https://www.tuanlelaw.com/contact-us/).
+Contact us with a&nbsp;[phone call](tel:+1-714-877-5840)&nbsp;or through the&nbsp;[form below](https://www.tuanlelaw.com/contact-us/).

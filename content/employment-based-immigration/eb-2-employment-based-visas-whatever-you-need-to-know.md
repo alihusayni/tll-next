@@ -107,4 +107,4 @@ No. They are not the same thing. Eb-2 visa categories are granted to qualified f
 
 We have explored different possibilities to get EB-2 employment-based visas. Whether you think you are qualified for EB-2A, EB-2B, or EB-2 NIW, the Law Office of Tuan Le can help you through every step of the process.
 Our team specializes in immigration matters and with our experience you do not have to worry about what to do next and how to prepare yourself for each step of the application or EB-2 visa extension.
-To talk to our accomplished visa attorney, call us at&nbsp;[714-877-5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;or fill in the form below.
+To talk to our accomplished visa attorney, call us at&nbsp;[714-877-5840](tel:+1-714-877-5840)&nbsp;or fill in the form below.

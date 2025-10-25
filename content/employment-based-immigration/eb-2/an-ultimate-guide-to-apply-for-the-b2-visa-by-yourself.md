@@ -54,7 +54,7 @@ To complete this form, you will need the following information and documents:
 * Your family members&rsquo; simple biographical information
 * A recent photo (digital format). Your photo should comply with U.S. government standards. Read the guideline&nbsp;[here](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos.html).
 The U.S. Bureau of Consular Affairs has published an exemplar as a detailed step-by-step guide for how to fill out Form DS-160. You can download the PDF file by clicking&nbsp;[here](https://www.tuanlelaw.com/wp-content/uploads/doc/DS-160-Example_11012019.pdf).
-If you still need help with this form, we are here for you. Contact us at&nbsp;[(714) 877 5840](https://tuanlelaw.com/tel:+1-714-877-5840).
+If you still need help with this form, we are here for you. Contact us at&nbsp;[(714) 877 5840](tel:+1-714-877-5840).
 ### Step 2: Pay the Fees
 Although filling out Form DS-160 is free, you have to pay the B2 visa application fee. As mentioned earlier, it is $160. You should also pay the visa issuance fees if required.
 ### Step 3: Schedule the B2 Visa Interview
@@ -121,4 +121,4 @@ Absolutely. It is not a law, but healthcare in the U.S. is too expensive. If you
 [[cta]]
 
 The Law Office of Tuan Le, Orange County, California, is here to help you with your visa needs. Our experienced team is ready to give you legal advice and consultation regarding the B2 visa application and extension. Moreover, no matter at which U.S. embassy or consulate you need to apply for the B2 visa interview, our accomplished immigration attorney can handle your case professionally to make this path easy and stress-free for you.
-Call us at&nbsp;[(714) 877 5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;to schedule an appointment or get a 30-minute free consultation.
+Call us at&nbsp;[(714) 877 5840](tel:+1-714-877-5840)&nbsp;to schedule an appointment or get a 30-minute free consultation.

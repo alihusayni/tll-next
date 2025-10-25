@@ -132,4 +132,4 @@ For more information see &lsquo;[Paths to Become a US Citizen](https://www.tuanl
 [[cta]]
 
 We have discussed the intricate process of the application for asylum in the US. Dealing with legal issues can be daunting even for residents, let alone asylum seekers who are not completely familiar with legal procedures and even the English language.
-To make sure all the difficulties you are going through to achieve refugee status will pay off, hire Mr. Tuan Le, an experienced immigration lawyer in Orange, CA, to guide you through every step of the process. Call&nbsp;[(714) 877-5840](https://tuanlelaw.com/tel:+1-714-877-5840)&nbsp;to schedule an appointment.
+To make sure all the difficulties you are going through to achieve refugee status will pay off, hire Mr. Tuan Le, an experienced immigration lawyer in Orange, CA, to guide you through every step of the process. Call&nbsp;[(714) 877-5840](tel:+1-714-877-5840)&nbsp;to schedule an appointment.
