@@ -77,11 +77,11 @@ The DHS usually tries to prove deportability and the charges by using the source
 
 Some practical tactics to use when challenging government evidence in immigration court are:
 
-* **Attack the credibility of witnesses:** This is also called impeachment. It means you try to convince the immigration
+* Attack the credibility of witnesses: This is also called impeachment. It means you try to convince the immigration
   judge that the witnesses testimony is false, partially or completely.
-* **Challenge the authenticity of the evidence:** This means that you try to convince the judge that the documents
+* Challenge the authenticity of the evidence: This means that you try to convince the judge that the documents
   presented as evidence by the government are not what they claim to be.
-* **Obtain a favorable expert testimony:** If applicable, you can ask an expert to testify in your favor in court.
+* Obtain a favorable expert testimony: If applicable, you can ask an expert to testify in your favor in court.
   When considering the governments evidence, you can consider the questions below to find the best way to challenge it.
 * Have you seen the evidence?
 * Is the evidence relevant?
@@ -134,13 +134,13 @@ illegitimate. This means you try to prove that you are not liable for the claims
 process is actually unlawful.
 Some examples of challenging the procedure are:
 
-* **Lack of jurisdiction:** Jurisdiction refers to the fact that the court has the authority to enforce a judgment on
+* Lack of jurisdiction: Jurisdiction refers to the fact that the court has the authority to enforce a judgment on
   your case. So, asserting a lack of jurisdiction means you believe this court cannot help your case because it does not
   have the power over this lawsuit, It's subjective, or even personal.
-* **Statute of limitations defense:** Statute of limitations means the maximum time (according to law) that a party has
+* Statute of limitations defense: Statute of limitations means the maximum time (according to law) that a party has
   to file charges against the other. By raising a statute of limitations defense, you actually try to convince the court
   that the charges against you were filed too late.
-* **Judicial authority:** You might even be able to challenge the authority of the immigration judge over the case. For
+* Judicial authority: You might even be able to challenge the authority of the immigration judge over the case. For
   instance, if a judge is not accountable to legal standards, you can contest their authority.
 
   So, by focusing on technicalities you might be able to put forward an undisputable defense. An experienced deportation

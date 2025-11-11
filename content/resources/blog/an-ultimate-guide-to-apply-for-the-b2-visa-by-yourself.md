@@ -43,7 +43,7 @@ To file for a B2 visa, you will be required to pay $160 as the standard applicat
 
 You can apply for the B2 visa online by going through a few steps.
 ### Step 1: Complete Form DS-160 Online
-Fill out the Online Non-immigrant Application, called Form DS-160. You can file it [here](https://ceac.state.gov/GenNIV/Default.aspx) but before you do, it is strongly recommended to finish reading this whole guide.
+Fill out the Online Non-immigrant Application, called Form DS-160. You can file it [here,](https://ceac.state.gov/GenNIV/Default.aspx) but before you do, it is strongly recommended to finish reading this whole guide.
 As it is an important step, you need to complete it carefully to avoid future complications and troubles. Filing Form DS-160 is free. Once you fill it out completely, you will receive a confirmation. You must print this confirmation page to take it to your visa interview. You do not need the whole form.
 To complete this form, you will need the following information and documents:
 * Your passport

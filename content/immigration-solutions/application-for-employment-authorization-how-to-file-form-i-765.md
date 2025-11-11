@@ -19,13 +19,11 @@ readTime: "8 min read"
 ---
 
 Some non-immigrants living in the U.S. can ask for work authorization (work permit) and an EAD (Employment Authorization
-Document) by filing **Form I-765, Application for Employment Authorization**.
+Document) by filing Form I-765, Application for Employment Authorization.
 Who is eligible to file it, how to do it, It's costs and processing time, and the required documents are clearly
 explained by our immigration attorney.
 
 ## What Is Form I-765, Application for Employment Authorization?
-
-[[cta]]
 
 Except for permanent residents and employment based visa holders, other non-citizens must get authorization to work in
 the U.S. Therefore, if you are already in the U.S. but do not have a permit to work, it may be possible, if you are
@@ -36,8 +34,6 @@ Before applying for an EAD, you should know if you are eligible to avoid wasting
 simply give us a call at [(714) 877 5840](tel:+1-714-877-5840) for a free consultation with an immigration attorney.
 
 ## Eligibility for Filing Form I-765
-
-[[cta]]
 
 Different groups of non-immigrants are considered qualified to file a Form I-765. See if you belong to any of the
 following categories.
@@ -127,7 +123,7 @@ I-765.
 
 [[cta]]
 
-You are required to pay **$410** when apply for an EAD with Form I-765. However, certain groups are exempt from this
+You are required to pay $410 when apply for an EAD with Form I-765. However, certain groups are exempt from this
 filing fee if it is their first time. This includes:
 
 * Refugees, Asylees, and parolees (individuals paroled as a refugee)
@@ -141,11 +137,9 @@ filing fee if it is their first time. This includes:
   Except for the filing fee, some applicants, such as Childhood Arrivals applicants, will be required to attend an
   interview at a USCIS Application Support Center, otherwise, their application would be denied. For the biometrics
   services during the interview, which include recording your fingerprints, signature, and photograph, you will need to
-  pay an additional **$85**. No one is exempt from this fee, and you cannot waive it.
+  pay an additional $85. No one is exempt from this fee, and you cannot waive it.
 
 ## Form I-765 Required Documents
-
-[[cta]]
 
 The required documents to request an EAD include:
 
@@ -237,7 +231,6 @@ However, if the error is made by you, you will have to submit a new Form I-765 a
 
 ## Do You Need Help with Form I-765?
 
-[[cta]]
 
 If you need to file form I-765, Application for Employment Authorization, you can count on our immigration lawyer to
 guide you throughout the process. Our law office has handled numerous immigration cases is fully experienced in such

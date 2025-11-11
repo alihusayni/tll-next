@@ -159,9 +159,9 @@ your citizenship responsibilities, including
 
 #### *Documents to Take and Receive*
 
-When you go for the ceremony, make sure you have**your green card**(if it has been issued for you), the **notice of
-Naturalization Oath Ceremony** ,**a photo ID** (issued by the US government, such as a driving license), your **travel
-documents** issued by the USCIS, and **other documents you submitted** when filing your application.
+When you go for the ceremony, make sure you have your green card (if it has been issued for you), the notice of
+Naturalization Oath Ceremony, a photo ID (issued by the US government, such as a driving license), your travel
+documents issued by the USCIS, and other documents you submitted when filing your application.
 After completing this step, you will receive your Certificate of Naturalization. This is your proof of being a US
 citizen. If you lose it, you will have to pay for the replacement and go through some application process.
 

@@ -83,7 +83,7 @@ the requirements, eligibility, and the application process see
 our [Ultimate Guide to Apply for the B2 Visa](https://www.tuanlelaw.com/an-ultimate-guide-to-apply-for-the-b2-visa-by-yourself/)
 Another possibility to change your status is by filing for dependent status. This means applying for an H4 visa or a TD
 visa.
-**Are you worried about deportation? Hire our deportation lawyer to guide you on this difficult path.**
+Are you worried about deportation? Hire our deportation lawyer to guide you on this difficult path.
 
 #### Move to Canada Instead!
 
@@ -136,38 +136,38 @@ below, we compare the US H1B visa with Canadian work visas to explore work visa 
 
 Now you can make an informed decision about your immigration path according to your preferences.
 
-### **Frequently Asked Questions about US H1B and Canada PR**
+### Frequently Asked Questions about US H1B and Canada PR
 
 There are some commonly-asked questions and concerns about the US H1B and Canada PR. We address them below.
 
-#### **How Many Times You Can Extend or Renew Your H1B Visa?**
+#### How Many Times You Can Extend or Renew Your H1B Visa?
 
 The H1B visa is valid for three years. If your employer agrees, you can extend it for three more years. For those cases
 that are present in the US for some months every year, they can extend it for the third time as well.
 
-#### **Can You Apply for a US Green Card on H1B Visa?**
+#### Can You Apply for a US Green Card on H1B Visa?
 
 Yes. If you meet the eligibility requirements, you can apply for your green card. Just keep in mind that the processing
 time is usually around two years.
 
-#### **Can You Extend the H1B Grace Period?**
+#### Can You Extend the H1B Grace Period?
 
 No. The grace period is 60 days from the last day of your employment or the expiration date of your visa. It cannot be
 extended.
 
-#### **Can You Change Your Job on H1B Visa?**
+#### Can You Change Your Job on H1B Visa?
 
 Yes. If you find a new position that is related to your expertise and the employer is eligible, you can change your job.
 You should ask your new employer to file for an H1B change of employer with the USCIS.
 
-#### **Can You Take Your Family to Canada on OWP?**
+#### Can You Take Your Family to Canada on OWP?
 
 Yes. You can take your spouse and children (your dependents) to Canada on OWP. They can work and study there, as well.
 
-#### **How Long Is the Processing Time for Canada PR?**
+#### How Long Is the Processing Time for Canada PR?
 
 Applying for Canada PR and getting the final result can take around six months.
-**Get any information about US visa types and their requirements by consulting with our immigration attorney.**
+Get any information about US visa types and their requirements by consulting with our immigration attorney.
 
 ## Hire an Immigration Lawyer to Make the Best of Your H1B Grace Period
 

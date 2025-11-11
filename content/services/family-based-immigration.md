@@ -33,8 +33,6 @@ in the U.S. legally and with ease.[Contact](tel:+1-714-877-5840)Tuan Le Law Offi
 
 ## **What Is Family-based immigration?**
 
-[[cta]]
-
 Family-based immigration stands as the most prevalent form of legal entry into the United States, representing the
 essence of the nations immigration policy. It is a process that enables U.S. citizens
 and [lawful permanent residents](https://www.dhs.gov/ohss/topics/immigration/lpr-afr) (LPRs) to sponsor their relatives,
@@ -42,8 +40,6 @@ affirming the country's dedication to family unity and the well-being of immigra
 emotional and financial stability of families but also enriches the social and cultural mosaic of American society.
 
 ## **The Significance of Family-based immigration**
-
-[[cta]]
 
 It represents a major share, accounting for two-thirds of all immigration to the U.S. This underscores It's role as a
 key element in preserving connections across borders. The system enables immediate family members and those within
@@ -78,8 +74,6 @@ Here are the key principles and eligibility criteria that form the foundation of
 
 ## **Understanding Family-based Immigration Categories**
 
-[[cta]]
-
 Family-based immigration categories are divided into two main groups:**Immediate Relative Immigrant Visas**and**Family
 Preference Immigrant Visas**. Here is a breakdown of each:
 
@@ -100,15 +94,15 @@ Preference Immigrant Visas**. Here is a breakdown of each:
 
 * [F1](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants#:~:text=Other%20family%20members%20eligible%20to%20apply%20for%20a,and%20daughters%20of%20U.S.%20citizens%3B%20and%20More%20items)
   Family First Preference  :  Unmarried sons and daughters of U.S. citizens, and their minor children, if any.
-* [F2](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants): Family
+* [F2](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants) Family
   Second Preference  :  Spouses, minor children, and unmarried sons and daughters (age 21 and over) of LPRs.
-* [F2A**:](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants)Spouses
+* [F2A](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants) Spouses
   and minor children of LPRs
-* [F2B](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants):
+* [F2B](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants)
   Unmarried sons and daughters (21 years of age and older) of LPRs
-* [F3](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants): Family
+* [F3](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants) Family
   Third Preference  :  Married sons and daughters of U.S. citizens, and their spouses and minor children.
-* [F4:](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants)Family
+* [F4](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants) Family
   Fourth Preference  :  Brothers and sisters of U.S. citizens, and their spouses and minor children, provided the U.S.
   citizens are at least 21 years of age.
 
@@ -179,8 +173,6 @@ indicating when an applicant may secure a visa number.
 
 ## **Adjusting Status and Obtaining Permanent Residency**
 
-[[cta]]
-
 Adjusting status to become a lawful permanent resident in the United States is a pivotal step in Family-based
 immigration. This process is available to individuals who are already in the U.S. and have an approved family-sponsored
 visa. The filing of family-based petitions is the initial step, followed by submitting an application to adjust status.
@@ -188,8 +180,6 @@ And as we mentioned, the affidavit of support for Family-based immigration is a 
 immigrant will not become a public charge.
 
 ## **Conditional Residency and Removal of Conditions**
-
-[[cta]]
 
 Conditional green card for spouses is granted to couples whose marriage is less than two years old at the time of
 approval. This status requires the couple to apply for the removal of conditions on their residency within 90 days
@@ -230,7 +220,7 @@ options and understanding the sibling immigration process can provide alternativ
 ### Q:**How Can I Obtain A Green Card for My Family Members Through Sponsorship?**
 
 **A:** Family sponsorship offers a pathway to U.S. green cards for immediate relatives, including parents, spouses,
-siblings, and fiancé(e)s. Each relationship type follows a distinct visa process, ultimately leading to permanent
+siblings, and fiancé. Each relationship type follows a distinct visa process, ultimately leading to permanent
 residency. Engaged couples have a specific fiancé visa that allows entry and marriage in the U.S. within 90 days.
 
 ### Q:**What Should I Consider Beyond The Basic Requirements When Applying For Family-Based Immigration?**

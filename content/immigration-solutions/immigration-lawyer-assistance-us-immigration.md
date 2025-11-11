@@ -67,7 +67,6 @@ Immigration and Customs Enforcement (ICE). They fight tenaciously for your right
 tacticians in the legal field. In other words, they ensure that every potential pathway to stay is explored and
 utilized.
 
-*
 
 ### **Immigration Lawyer Advisory Ace:**
 
@@ -202,6 +201,8 @@ and Customs Enforcement (ICE) steps into the picture. These legal eagles swoop i
 chasing political asylum, shielding their rights and ensuring their stories are heard loud and clear. Armed with a
 wealth of knowledge in both criminal and immigration statutes, these attorneys are the unsung heroes for many, lighting
 the way to a new life in the U.S. with unwavering commitment.
+
+
 **Facilitating Family and Marriage Immigration with the Aid of an Immigration Lawyer**
 Marriage visa attorneys, renowned as some of the best immigration attorneys, deftly navigate the complexities of uniting
 couples across borders. Furthermore, they streamline the paperwork for American tourist visas and B2 visas and provide

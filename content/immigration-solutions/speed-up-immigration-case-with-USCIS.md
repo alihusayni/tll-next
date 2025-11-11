@@ -71,9 +71,9 @@ Approval isn't guaranteed, and USCIS may ask for more documentation. But catchin
 ### Tip 5: Stay Informed on Policy Changes
 Immigration rules aren't set in stone - new laws, regulations, or executive orders can shift the landscape overnight. A policy tweak might mean longer waIt's, new requirements, or even program cancellations. Staying informed is a proactive way to speed up your immigration case by ensuring you're not caught off guard.
 Where do you get updates? Reliable sources include:
-* [USCIS Newsroom](https://www.uscis.gov/newsroom)**:** Announcements on processing changes or fee hikes.
-* [Department of Homeland Security](https://www.dhs.gov/)**:** Broader immigration policy shifts.
-* [Federal Register](https://www.federalregister.gov/)**:** Official notices of regulatory updates.
+* [USCIS Newsroom](https://www.uscis.gov/newsroom) : Announcements on processing changes or fee hikes.
+* [Department of Homeland Security](https://www.dhs.gov/) : Broader immigration policy shifts.
+* [Federal Register](https://www.federalregister.gov/) :  Official notices of regulatory updates.
 For example, a 2023 rule change increased scrutiny on certain visa categories, slowing approvals for unprepared applicants. By keeping tabs on these shifts, you can adjust your application, meet new standards, and avoid delays. Pair this with regular case status checks, and you'll stay one step ahead of surprises.
 Not a policy wonk? An immigration lawyer can monitor changes for you, ensuring your case stays compliant and moves forward smoothly.
 ### Tip 6: Hire an Immigration Lawyer

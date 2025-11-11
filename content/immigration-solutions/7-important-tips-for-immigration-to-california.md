@@ -73,8 +73,6 @@ than the national average.
 
 ## 4. Health Insurance is Expensive
 
-[[cta]]
-
 ![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/Health-Insurance-is-Expensive-2.webp)
 Taking care of your health in California is expensive. Even if it is only a doctors visit, you will need to shell
 out $200 or more. If you have an emergency medical situation, the cost of treatment can be several thousand dollars. That is why you should plan to buy health insurance with proper coverage.
@@ -84,8 +82,6 @@ to California, you should consider yourself lucky. Living in this state without 
 Once you are in California, buying a health insurance plan should be one of your topmost priorities.
 
 ## 5. Use Ways to Cut Down Your Living Cost
-
-[[cta]]
 
 While living in California can be expensive, there are always many ways that you can use to bring down the cost of
 living.
@@ -98,8 +94,6 @@ financially, and you will also be able to save more money in the process.
 
 ## 6. Get an Immigration Visa
 
-[[cta]]
-
 Before you step into the United States, you will require a visa as an endorsement of your passport. There are several
 categories of visas, each of which has Its own set rules and application guidelines for approval. If you plan to live
 permanently in the state of California, you will need an immigrant visa. Non-immigrant visas provide stay on just a
@@ -111,8 +105,6 @@ will need to furnish the required documents to complete the entire procedure and
 you complete all the steps in an effective and error-free manner.
 
 ## 7. You will Need the Help of an Immigration Attorney
-
-[[cta]]
 
 ![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/You-will-Need-the-Help-of-an-Immigration-Attorney-2.webp)
 You may have visited California multiple times before. But immigration to California is a totally different case. To

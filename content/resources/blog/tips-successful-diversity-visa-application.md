@@ -134,7 +134,7 @@ Thousands of applicants are disqualified every year due to simple, avoidable mis
 * Providing False or Incomplete Information  :  All details, including name, birthdate, education, and work experience, must be 100% accurate. Even a small typo could lead to disqualification.
 * Missing the Application Deadline  :  The DV Lottery registration period is strictly limited. Late submissions are not accepted, and last-minute system crashes can prevent your entry from going through. Failure to Include All Family Members  :  If you're married or have children under 21, you must list them on your application - even if they Don't plan to immigrate. Failing to do so will result in automatic rejection.
 
-**Pro Tip**: Double-check all information before submitting! If you're unsure about eligibility or requirements, consult an immigration expert at Tuan Le Law Office for professional assistance.
+Pro Tip: Double-check all information before submitting! If you're unsure about eligibility or requirements, consult an immigration expert at Tuan Le Law Office for professional assistance.
 ## Proven Tips to Improve Your Chances of Winning the Green Card Lottery
 
 [[cta]]

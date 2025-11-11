@@ -1,6 +1,8 @@
 'use client';
 
 import { useState, FormEvent, useRef, useEffect } from 'react';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import TextInput from '../atoms/text-input';
 import TextArea from '../atoms/text-area';
 
@@ -29,8 +31,6 @@ export default function ContactForm() {
 
   const [errors, setErrors] = useState<Partial<FormData>>({});
   const [loading, setLoading] = useState(false);
-  const [successMessage, setSuccessMessage] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
   const [showSuccessPopup, setShowSuccessPopup] = useState(false);
   const [formStartTime, setFormStartTime] = useState<number>(Date.now());
   const honeypotRef = useRef<HTMLInputElement>(null);
@@ -52,8 +52,6 @@ export default function ContactForm() {
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    setErrorMessage('');
-    setSuccessMessage('');
     const newErrors: Partial<FormData> = {};
     if (!formData.name.trim()) newErrors.name = 'This field is required';
     if (!formData.email.trim()) newErrors.email = 'This field is required';
@@ -64,14 +62,14 @@ export default function ContactForm() {
 
     // Honeypot check - if honeypot field is filled, it's likely a bot
     if (honeypotRef.current?.value) {
-      setErrorMessage('Invalid submission');
+      toast.error('Invalid submission');
       return;
     }
 
     // Timing check - form submitted too quickly (less than 3 seconds) indicates bot
     const timeElapsed = Date.now() - formStartTime;
     if (timeElapsed < 3000) {
-      setErrorMessage('Please slow down and try again');
+      toast.error('Please slow down and try again');
       return;
     }
 
@@ -91,7 +89,7 @@ export default function ContactForm() {
       if (!response.ok) {
         const text = await response.text();
         console.error('Form submission error:', text);
-        setErrorMessage('Error submitting form');
+        toast.error('Error submitting form');
         return;
       }
 
@@ -103,11 +101,11 @@ export default function ContactForm() {
         // Hide popup after 3 seconds
         setTimeout(() => setShowSuccessPopup(false), 100000);
       } else {
-        setErrorMessage(data.snackbar?.message || 'Submission failed');
+        toast.error(data.snackbar?.message || 'Submission failed');
       }
     } catch (error) {
       console.error('Network error:', error);
-      setErrorMessage('Network error: ' + (error instanceof Error ? error.message : 'Unknown error'));
+      toast.error('Network error: ' + (error instanceof Error ? error.message : 'Unknown error'));
     } finally {
       setLoading(false);
     }
@@ -115,6 +113,7 @@ export default function ContactForm() {
 
   return (
     <>
+    <ToastContainer />
     <form onSubmit={handleSubmit} className="flex flex-col gap-6">
       <div>
         <TextInput
@@ -204,7 +203,7 @@ export default function ContactForm() {
         </svg>
       </button>
 
-      {errorMessage && <p className="text-red-500 text-sm mt-4">{errorMessage}</p>}
+
     </form>
 
     {showSuccessPopup && (

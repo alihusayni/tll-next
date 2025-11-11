@@ -24,7 +24,7 @@ And, if you are in a hurry and do not have the time to read,call now for a free 
 
 [[cta]]
 
-Non-native people who are allowed to stay and work in the U.S. permanently are either A **citizens** or **green cardholders**, also called LPRs, short for lawful permanent residents. However, people who cannot get their citizenship by birth, have to get their green card first and then apply for naturalization.
+Non-native people who are allowed to stay and work in the U.S. permanently are either A citizens or green cardholders, also called LPRs, short for lawful permanent residents. However, people who cannot get their citizenship by birth, have to get their green card first and then apply for naturalization.
 But it is not that easy, and green card holders must usually wait a few years to become eligible to file for citizenship. Still, becoming a citizen is worth the wait and trouble.
 ### Green Card Holders vs. U.S. Citizens
 Although there are many similarities between being a citizen and being an LRP, citizens enjoy more benefits, including

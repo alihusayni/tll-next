@@ -154,13 +154,13 @@ Given the uncertainty surrounding the implementation of Project 2025, preparatio
 
 [[cta]]
 
-**At Tuan Le Law, we understand the challenges posed by shifting immigration policies. Whether you're concerned about
+At Tuan Le Law, we understand the challenges posed by shifting immigration policies. Whether you're concerned about
 deportations, visa applications, or asylum eligibility, our experienced immigration attorney is here to provide
-personalized legal assistance.**
-**[Call us](tel:+1-714-877-5840) today or fill out our online form to schedule a free consultation. With the right
-support, you can navigate the complexities of U.S. immigration law in 2025 with confidence and clarity.**
-**Staying prepared and seeking professional legal help can make all the difference as these anticipated changes unfold.
-**
+personalized legal assistance.
+[Call us](tel:+1-714-877-5840) today or fill out our online form to schedule a free consultation. With the right
+support, you can navigate the complexities of U.S. immigration law in 2025 with confidence and clarity.
+Staying prepared and seeking professional legal help can make all the difference as these anticipated changes unfold.
+
 
 ## FAQs About U.S. Immigration Policy in 2025
 
@@ -227,8 +227,8 @@ as [Tuan Le Law](#contact), can also keep you ahead of potential changes.
 
 ## Need Help with U.S. Immigration in 2025? Were Here for You
 
-**At Tuan Le Law, we specialize in helping individuals, families, and businesses navigate the complexities of U.S.
+At Tuan Le Law, we specialize in helping individuals, families, and businesses navigate the complexities of U.S.
 immigration law. Whether you're concerned about changes to visa requirements, asylum applications, or family
-sponsorships, our experienced attorney is here to provide personalized guidance.**
-**[Call us](tel:+1-714-877-5840) today for a free consultation and ensure you're fully prepared for the upcoming shifts
-in U.S. immigration policy. Let us help you achieve your immigration goals with clarity and confidence.**
+sponsorships, our experienced attorney is here to provide personalized guidance.
+[Call us](tel:+1-714-877-5840) today for a free consultation and ensure you're fully prepared for the upcoming shifts
+in U.S. immigration policy. Let us help you achieve your immigration goals with clarity and confidence.

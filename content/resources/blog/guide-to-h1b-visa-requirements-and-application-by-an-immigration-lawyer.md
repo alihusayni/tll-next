@@ -20,7 +20,7 @@ readTime: "8 min read"
 
 If you are a specialist in some field and just got a job offer to work in the U.S., you will need an H1B visa to be
 allowed to start your job in this country. Your employer will need to apply for this type of non-immigrant visa on your
-behalf. In what follows, the **H1B visa requirements and application** are fully discussed to help you get your dream
+behalf. In what follows, the H1B visa requirements and application are fully discussed to help you get your dream
 job in the land of opportunity.
 
 ## H1B Visa in Simple Terms
@@ -140,13 +140,13 @@ Generally speaking, if you are supposed to start working from October 1 (the beg
 must be approved before this date. Otherwise, you cannot enter the country to begin your job. That is why in the process
 of applying for an H1B visa, you need to pay attention to some key dates.
 
-* **H1B visa registration window**: As before, registrations can be submitted in March 2023. This window will open some
+* H1B visa registration window: As before, registrations can be submitted in March 2023. This window will open some
   day between March 1 to March 18 and will last for two weeks.
-* **H1B lottery**: The lottery starts as soon as the registration window closes. The results are usually announced one
+* H1B lottery: The lottery starts as soon as the registration window closes. The results are usually announced one
   week later.
-* **Filing an LCA**: The sponsors can file an LCA with DOL from April 1 to June 15. It usually takes a week to get the
+* Filing an LCA: The sponsors can file an LCA with DOL from April 1 to June 15. It usually takes a week to get the
   certification.
-* **Mailing the H1B petition**: The forms and other documents needed for the H1B petition must be received by USCIS
+* Mailing the H1B petition: The forms and other documents needed for the H1B petition must be received by USCIS
   before June 30.
   So, those who wish to start working in 2024 must be registered in March 2023 by their sponsors to prepare for their
   H1B visa requirements and application.
