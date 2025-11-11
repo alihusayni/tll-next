@@ -1,7 +1,6 @@
 'use client';
 
-import { useState, FormEvent, useRef } from 'react';
-import ReCAPTCHA from 'react-google-recaptcha';
+import { useState, FormEvent, useRef, useEffect } from 'react';
 import TextInput from '../atoms/text-input';
 import TextArea from '../atoms/text-area';
 
@@ -33,7 +32,8 @@ export default function ContactForm() {
   const [successMessage, setSuccessMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [showSuccessPopup, setShowSuccessPopup] = useState(false);
-  const recaptchaRef = useRef<ReCAPTCHA>(null);
+  const [formStartTime, setFormStartTime] = useState<number>(Date.now());
+  const honeypotRef = useRef<HTMLInputElement>(null);
 
   const handleChange = (field: keyof FormData) => (value: string) => {
     let processedValue = value;
@@ -45,6 +45,10 @@ export default function ContactForm() {
       setErrors(prev => ({ ...prev, [field]: undefined }));
     }
   };
+
+  useEffect(() => {
+    setFormStartTime(Date.now());
+  }, []);
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
@@ -58,9 +62,16 @@ export default function ContactForm() {
     setErrors(newErrors);
     if (Object.keys(newErrors).length > 0) return;
 
-    const captchaToken = recaptchaRef.current?.getValue();
-    if (!captchaToken) {
-      setErrorMessage('Please complete the CAPTCHA');
+    // Honeypot check - if honeypot field is filled, it's likely a bot
+    if (honeypotRef.current?.value) {
+      setErrorMessage('Invalid submission');
+      return;
+    }
+
+    // Timing check - form submitted too quickly (less than 3 seconds) indicates bot
+    const timeElapsed = Date.now() - formStartTime;
+    if (timeElapsed < 3000) {
+      setErrorMessage('Please slow down and try again');
       return;
     }
 
@@ -74,7 +85,7 @@ export default function ContactForm() {
           'X-FORM-KEY': tolFormSettings.formKey,
           'X-REQUEST-ID': tolFormRequestId
         },
-        body: JSON.stringify({ data: { ...formData, requestId: tolFormRequestId, captchaToken } })
+        body: JSON.stringify({ data: { ...formData, requestId: tolFormRequestId } })
       });
 
       if (!response.ok) {
@@ -88,7 +99,7 @@ export default function ContactForm() {
       if (data.message) {
         setShowSuccessPopup(true);
         setFormData({ name: '', email: '', phone: '', message: '' });
-        recaptchaRef.current?.reset();
+        setFormStartTime(Date.now());
         // Hide popup after 3 seconds
         setTimeout(() => setShowSuccessPopup(false), 100000);
       } else {
@@ -156,10 +167,23 @@ export default function ContactForm() {
         {errors.message && <p className="mt-2 text-[#D93644] font-inter-tight text-[14px] font-medium leading-[20px] capitalize">{errors.message}</p>}
       </div>
 
-      <ReCAPTCHA
-        ref={recaptchaRef}
-        sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" // Test site key
-        size="invisible"
+      {/* Honeypot field - hidden from users but visible to bots */}
+      <input
+        ref={honeypotRef}
+        type="text"
+        name="website"
+        autoComplete="off"
+        tabIndex={-1}
+        style={{ 
+          position: 'absolute', 
+          left: '-5000px', 
+          top: '-5000px',
+          width: '1px',
+          height: '1px',
+          opacity: 0,
+          overflow: 'hidden'
+        }}
+        aria-hidden="true"
       />
 
       <button
