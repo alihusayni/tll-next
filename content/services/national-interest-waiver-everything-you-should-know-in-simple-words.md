@@ -28,7 +28,7 @@ Do you need legal advice regarding your green card application? Consult with our
 The US National Interest Waiver is a provision in the employment-based immigration system that makes it easier to achieve a US green card for those who are qualified. These foreigners can become U.S. lawful permanent residents (LPR) without the need for a labor certification or an employer sponsorship. This kind of green card is usually referred to as EB-2 green card.
 Read on to find out if you are qualified for an EB-2 NIW or not.
 ### EB-2 Visa Types
-[Like](https://tuanlelaw.com/tel:+1714-877-5840)[EB-1 Visas,](https://www.tuanlelaw.com/eb-1-visas-requirements-eligibility-and-application/)EB-2 visas are also available for foreigners who wish to work in the United States. They are considered second preference workers (EB-1 visa holders are the first priority) and they need to be professionals with advanced degrees or exceptional abilities.
+[Like](tel:+1714-877-5840)[EB-1 Visas,](https://www.tuanlelaw.com/eb-1-visas-requirements-eligibility-and-application/)EB-2 visas are also available for foreigners who wish to work in the United States. They are considered second preference workers (EB-1 visa holders are the first priority) and they need to be professionals with advanced degrees or exceptional abilities.
 There are three types of EB2 visas.
 *
 #### *EB-2A Visa*

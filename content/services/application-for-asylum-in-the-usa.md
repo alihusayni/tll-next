@@ -27,7 +27,7 @@ So, we are going to explain every step of the asylum seeker application process,
 [[cta]]
 
 People might flee their home country to seek asylum in a foreign country for various reasons, for example, political asylum. Regardless of why and where they come from, asylum seekers in the United States are dealt with equally based on the asylum law and legal framework in this country.
-In addition, asylum seekers benefits and rights are different in each country according to It's domestic laws and regulations.
+In addition, asylum seekers benefits and rights are different in each country according to Its domestic laws and regulations.
 We have already discussed[the Legal Rights and benefits for Asylum Seekers in the USA](https://www.tuanlelaw.com/asylum-seekers-legal-rights-and-challenges-faced-in-the-u-s/), now we will go over the steps one will need to take when applying for asylum in the US.
 ### Step 1: Initiation of Asylum Seeking
 Upon their arrival, asylum seekers must ask to visit a US immigration officer to express their intention of seeking asylum. The initiation usually happens by:
