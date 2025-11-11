@@ -30,7 +30,7 @@ To get a certain type of visa, one must meet some criteria and specifications to
 * Your purpose of traveling to the US must be one of these:*going on a vacation; going on visiting tours in different cities; visiting someone, such as a family member or a friend; taking part in some social events (like a concert); medical purposes; take part in an unpaid sport or music event, such as a contest, as an athlete or a musician; participate in short-term learning courses for which you will not get any credit.*
 * You have to be able to prove the fact that you can support yourself financially while staying in the US.
 * You have to be able to prove that you WILL leave the US as soon as your visa expires.
-If you do not meet the above-mentioned criteria, or you are still in doubt, give us a call for a free consultation at[(714) 877 5840](http://+1-714-877-5840) to see which type of visa you need to apply for Some common purposes for which you cannot use a B2 visa include:
+If you do not meet the above-mentioned criteria, or you are still in doubt, give us a call for a free consultation at [(714) 877 5840](http://+1-714-877-5840) to see which type of visa you need to apply for Some common purposes for which you cannot use a B2 visa include:
 * Study
 * Work, whether long-term or paid professional performances
 * Airplanes or ship crewmember
@@ -43,7 +43,7 @@ To file for a B2 visa, you will be required to pay $160 as the standard applicat
 
 You can apply for the B2 visa online by going through a few steps.
 ### Step 1: Complete Form DS-160 Online
-Fill out the Online Non-immigrant Application, called Form DS-160. You can file it[here](https://ceac.state.gov/GenNIV/Default.aspx)but before you do, it is strongly recommended to finish reading this whole guide.
+Fill out the Online Non-immigrant Application, called Form DS-160. You can file it [here](https://ceac.state.gov/GenNIV/Default.aspx) but before you do, it is strongly recommended to finish reading this whole guide.
 As it is an important step, you need to complete it carefully to avoid future complications and troubles. Filing Form DS-160 is free. Once you fill it out completely, you will receive a confirmation. You must print this confirmation page to take it to your visa interview. You do not need the whole form.
 To complete this form, you will need the following information and documents:
 * Your passport
@@ -52,9 +52,9 @@ To complete this form, you will need the following information and documents:
 * If you have a Social Security number or U.S. Taxpayer ID.
 * Your employment and travel history
 * Your family members simple biographical information
-* A recent photo (digital format). Your photo should comply with U.S. government standards. Read the guideline[here](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos.html).
-The U.S. Bureau of Consular Affairs has published an exemplar as a detailed step-by-step guide for how to fill out Form DS-160. You can download the PDF file by clicking[here](https://www.tuanlelaw.com/wp-content/uploads/doc/DS-160-Example_11012019.pdf).
-If you still need help with this form, we are here for you. Contact us at[(714) 877 5840](tel:+1-714-877-5840).
+* A recent photo (digital format). Your photo should comply with U.S. government standards. Read the guideline [here](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos.html).
+The U.S. Bureau of Consular Affairs has published an exemplar as a detailed step-by-step guide for how to fill out Form DS-160. You can download the PDF file by clicking [here](https://www.tuanlelaw.com/wp-content/uploads/doc/DS-160-Example_11012019.pdf).
+If you still need help with this form, we are here for you. Contact us at [(714) 877 5840](tel:+1-714-877-5840).
 ### Step 2: Pay the Fees
 Although filling out Form DS-160 is free, you have to pay the B2 visa application fee. As mentioned earlier, it is $160. You should also pay the visa issuance fees if required.
 ### Step 3: Schedule the B2 Visa Interview
@@ -94,14 +94,14 @@ A U.S. Tourist Visa interview does not take a long time and usually includes que
 
 Due to various laws and regulations, traveling to another country can make us overwhelmed. Here are the answers to some of the common questions asked by B2 visa applicants.
 ### How Long Does It Take to Get Your B2 Visa?
-The B2 visa processing time can differ for each country. That is because the appointment wait time for each embassy or consulate is different. You can visit[this page](https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html)to check the average wait time for different U.S. embassies and consulates around the world. As mentioned above, it can take longer if you want to have your interview in another country.
+The B2 visa processing time can differ for each country. That is because the appointment wait time for each embassy or consulate is different. You can visit [this page](https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html) to check the average wait time for different U.S. embassies and consulates around the world. As mentioned above, it can take longer if you want to have your interview in another country.
 Therefore, the B2 visa processing time can range between a few weeks to a few months.
 ### How Long Your B2 Visa Will Last?
 The B2 visa can be valid for a long time, up to 10 years. However, the maximum time you can stay in the U.S. each time you visit is 180 days or six months. So, this kind of visa can be used for multiple entries.
 ### Is It Possible to Extend the B2 Visa?
 Yes. You can get an extension for another 180 days. You need to apply for the extension at least 6 weeks before your I-94 card expires.
 To file for a B2 visa extension, you have to
-* Fill out Form I-539. (Find this form[here](https://www.uscis.gov/i-539).)
+* Fill out Form I-539. (Find this form [here](https://www.uscis.gov/i-539).)
 * Pay $370 as the application fee.
 * Write a letter to state your reasons for the extension.
 * Prove that you have enough financial means to support yourself.
@@ -121,4 +121,4 @@ Absolutely. It is not a law, but healthcare in the U.S. is too expensive. If you
 [[cta]]
 
 The Law Office of Tuan Le, Orange County, California, is here to help you with your visa needs. Our experienced team is ready to give you legal advice and consultation regarding the B2 visa application and extension. Moreover, no matter at which U.S. embassy or consulate you need to apply for the B2 visa interview, our accomplished immigration attorney can handle your case professionally to make this path easy and stress-free for you.
-Call us at[(714) 877 5840](tel:+1-714-877-5840)to schedule an appointment or get a 30-minute free consultation.
+Call us at [(714) 877 5840](tel:+1-714-877-5840) to schedule an appointment or get a 30-minute free consultation.

@@ -21,25 +21,25 @@ For many years, the United States has been one of the most popular destinations 
 Many asylum seekers prefer to have an immigration lawyer by their side to guide them through the asylum application process and help them understand the US asylum law and asylum seekers rights. This professional help greatly improves their chance of getting approved.
 But, even if you hire an immigration attorney, it is crucial for you to know how the asylum process in the USA works.
 So, we are going to explain every step of the asylum seeker application process, asylum eligibility, the documentation and evidence, the asylum interview and screening process, and more. We will also answer some of your frequently asked questions about the asylum process in the US.
-**Are you seeking asylum in the USA? Consult with an experienced immigration lawyer in Orange, CA for free.[Call to schedule an appointment](tel:+1-714-877-5840).**
+**Are you seeking asylum in the USA? Consult with an experienced immigration lawyer in Orange, CA for free. [Call to schedule an appointment](tel:+1-714-877-5840) .**
 ## Breaking Down the Application for Asylum Process
 
-[[cta]]
+ [[cta]]
 
 People might flee their home country to seek asylum in a foreign country for various reasons, for example, political asylum. Regardless of why and where they come from, asylum seekers in the United States are dealt with equally based on the asylum law and legal framework in this country.
 In addition, asylum seekers benefits and rights are different in each country according to Its domestic laws and regulations.
-We have already discussed[the Legal Rights and benefits for Asylum Seekers in the USA](https://www.tuanlelaw.com/asylum-seekers-legal-rights-and-challenges-faced-in-the-u-s/), now we will go over the steps one will need to take when applying for asylum in the US.
+We have already discussed [the Legal Rights and benefits for Asylum Seekers in the USA](https://www.tuanlelaw.com/asylum-seekers-legal-rights-and-challenges-faced-in-the-u-s/) , now we will go over the steps one will need to take when applying for asylum in the US.
 ### Step 1: Initiation of Asylum Seeking
 Upon their arrival, asylum seekers must ask to visit a US immigration officer to express their intention of seeking asylum. The initiation usually happens by:
 * seeking asylum at a port of entry in the USA,
-* applying for asylum at the border (an official land crossing),
+* applying for asylum at the border (an official land crossing) ,
 * filing the application for asylum while residing in the US.
 You cannot apply for asylum if you are in another country.
 After the initiation, some asylum seekers have to establish a credible fear of persecution during an interview. They might:
 * be released and allowed to live in the US while their asylum application is being processed.
 * be detained if they are considered a threat to society or a flight risk.
 ### Step 2: Filing the Application for Asylum with the USCIS
-Asylum seekers must file[Form I-589](https://www.uscis.gov/sites/default/files/document/forms/i-589.pdf), Application for Asylum and for Withholding of Removal, with the USCIS, within 1 year of their arrival.
+Asylum seekers must file [Form I-589](https://www.uscis.gov/sites/default/files/document/forms/i-589.pdf) , Application for Asylum and for Withholding of Removal, with the USCIS, within 1 year of their arrival.
 #### Asylum Eligibility Requirements: Who Qualifies for Asylum in the United States?
 Individuals who can prove they cannot go back to their home country because of fear of persecution due to their:
 * religious beliefs,
@@ -48,9 +48,9 @@ Individuals who can prove they cannot go back to their home country because of f
 * membership in a specific social group,
 * nationality, etc.
 These applicants, who are present in the US, might have faced persecution in the past or are afraid of being persecuted in the future if they return home.
-To make sure you are eligible to apply for asylum, you can use this[USCIS Tool](https://www.uscis.gov/humanitarian/form-i-589-filing-instructions-tool).
+To make sure you are eligible to apply for asylum, you can use this  [USCIS Tool](https://www.uscis.gov/humanitarian/form-i-589-filing-instructions-tool) .
 #### Submitting Form I-589
-Before anything, read[the Form I-589 instructions](https://www.uscis.gov/sites/default/files/document/forms/i-589instr.pdf)and ensure you can complete the form correctly.
+Before anything, read [the Form I-589 instructions](https://www.uscis.gov/sites/default/files/document/forms/i-589instr.pdf) and ensure you can complete the form correctly.
 Except for the form, you have to attach the supporting documentation. This includes:
 * the applicants personal statement about why they are seeking asylum. This statement should be detailed and explain the reasons and experiences of the applicant.
 * a report on the applicants home country's political, social, and economic conditions.
@@ -73,19 +73,19 @@ After careful consideration, the decision about your application for asylum will
 * The case is referred to an immigration court to be reviewed by an immigration judge.
 ### Step 6: Immigration Court Proceedings
 If the asylum application is referred to the immigration court, the applicant has the chance to present the evidence and testimonies to an immigration judge who will make the final decision about the asylum eligibility.
-In this stage, although applicants can represent themselves, having a legal representative can pave the way towards becoming a refugee. Read [Immigration Court Defense Strategies](https://www.tuanlelaw.com/immigration-court-defense-strategies-immigration-lawyer/) to learn what happens during an immigration court hearing.
+In this stage, although applicants can represent themselves, having a legal representative can pave the way towards becoming a refugee. Read  [Immigration Court Defense Strategies](https://www.tuanlelaw.com/immigration-court-defense-strategies-immigration-lawyer/)  to learn what happens during an immigration court hearing.
 ### Step 7: Appeals and Review
-In some cases, if the application is denied, it is possible to appeal to the Board of Immigration Appeals (BIA). This should be done soon after the rejection. The case will be reviewed to make a decision if the denial is to be overturned or upheld.
+In some cases, if the application is denied, it is possible to appeal to the Board of Immigration Appeals (BIA) . This should be done soon after the rejection. The case will be reviewed to make a decision if the denial is to be overturned or upheld.
 In a few cases, if the BIA also denies the application, the applicant can request a judicial review by filing a petition to the federal court for another review of the case.
 If the case is denied and the decision is final, the applicant:
 * must leave the country voluntarily within a specified period,
 * or is deported/removed by the authorities.
 **Let us represent you in the immigration court to make sure the evidence and testimonies are compelling enough.**
 
-[Call to discuss your case more](tel:+1-714-877-5840)
+ [Call to discuss your case more](tel:+1-714-877-5840) 
 ## FAQs Regarding Asylum Application in the US
 
-[[cta]]
+ [[cta]]
 
 As the legal framework is complicated, there are so many questions and worries regarding the application for asylum process. We have asked our immigration lawyer to answer some of the most common questions briefly.
 ### What Is the Main Difference Between Refugees and Asylum Seekers?
@@ -103,12 +103,12 @@ Each country has It's own domestic asylum law based on which the asylum seekers 
 * hire a lawyer,
 * present their case before an asylum officer or an immigration judge,
 * be protected while the asylum application is being processed,
-* request legal permission to work by applying for an Employment Authorization Document (EAD)
+* request legal permission to work by applying for an Employment Authorization Document (EAD) 
 * and access medical and social services, such as training courses, which can be different in each state.
 ### What benefits Do Asylum Seekers Get in the USA?
 Asylum seekers can benefit from:
-* a work permission (an EAD),
-* Refugee Cash Assistance (RCA), which is available to some qualified applicants,
+* a work permission (an EAD) ,
+* Refugee Cash Assistance (RCA) , which is available to some qualified applicants,
 * low-cost legal services,
 * training and education,
 * low-cost housing services.
@@ -119,18 +119,18 @@ There are a few main differences between refugees and immigrants.
 * Refugees are usually eligible for legal protection and certain benefits, such as education and medical services. However, immigrants are not legally protected and do not have access to free or low-cost services.
 * Immigrants enter with different types of visas that define their legal rights, such as education or employment.
 ### Can You Include Your Spouse and Children in Your Own Asylum Application Form or Do They Have to File Their Own Applications?
-Applicants can include their spouse and children (under 21) in their asylum application form. However, it is possible for them to file a separate application if they are eligible for asylum.
+Applicants can include their spouse and children (under 21)  in their asylum application form. However, it is possible for them to file a separate application if they are eligible for asylum.
 ### Can You Apply for Asylum in the U.S. from Outside?
 No. The individual must be physically present in the US when applying for asylum. This is one of the main requirements for the asylum application.
 ### Can Refugees Become US Citizens?
 Yes. After residing in the United States for a certain period of time and meeting some other requirements, refugees can obtain their green card or permanent residency. Then, after a period of time, they can obtain their US citizenship through the naturalization process.
-For more information see [Paths to Become a US Citizen](https://www.tuanlelaw.com/become-u-s-citizen-explained-citizenship-lawyer/) and [A Guide to Naturalization Process](https://www.tuanlelaw.com/guide-naturalization-process-filing-form-n-400-and-other-steps/).
+For more information see  [Paths to Become a US Citizen](https://www.tuanlelaw.com/become-u-s-citizen-explained-citizenship-lawyer/)  and  [A Guide to Naturalization Process](https://www.tuanlelaw.com/guide-naturalization-process-filing-form-n-400-and-other-steps/) .
 **The Law Office of Tuan Le offers a 30-minute free legal consultation to asylum seekers in the United States.**
-**[Call for more information.](tel:+1-714-877-5840)Call for more information.**
+[Call for more information.](tel:+1-714-877-5840)
 
 ## Hire Our Accomplished Asylum Lawyer in Orange, CA
 
-[[cta]]
+ [[cta]]
 
 We have discussed the intricate process of the application for asylum in the US. Dealing with legal issues can be daunting even for residents, let alone asylum seekers who are not completely familiar with legal procedures and even the English language.
-To make sure all the difficulties you are going through to achieve refugee status will pay off, hire Mr. Tuan Le, an experienced immigration lawyer in Orange, CA, to guide you through every step of the process. Call[(714) 877-5840](tel:+1-714-877-5840)to schedule an appointment.
+To make sure all the difficulties you are going through to achieve refugee status will pay off, hire Mr. Tuan Le, an experienced immigration lawyer in Orange, CA, to guide you through every step of the process. Call [(714) 877-5840](tel:+1-714-877-5840) to schedule an appointment.

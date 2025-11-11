@@ -24,7 +24,7 @@ And, if you are in a hurry and do not have the time to read,call now for a free 
 
 [[cta]]
 
-Non-native people who are allowed to stay and work in the U.S. permanently are either**citizens**or**green cardholders**, also called LPRs, short for lawful permanent residents. However, people who cannot get their citizenship by birth, have to get their green card first and then apply for naturalization.
+Non-native people who are allowed to stay and work in the U.S. permanently are either A **citizens** or **green cardholders**, also called LPRs, short for lawful permanent residents. However, people who cannot get their citizenship by birth, have to get their green card first and then apply for naturalization.
 But it is not that easy, and green card holders must usually wait a few years to become eligible to file for citizenship. Still, becoming a citizen is worth the wait and trouble.
 ### Green Card Holders vs. U.S. Citizens
 Although there are many similarities between being a citizen and being an LRP, citizens enjoy more benefits, including
@@ -62,7 +62,7 @@ The same rule might apply to those with only one U.S. citizen parent. If they we
 * The parents were married at the time of birth,
 * The U.S. citizen parent lived in the U.S. for at least five years at any time before the birth of the child, with at least two years after the age of 14.
 Those born to a U.S. citizen parent between October 10, 1952, to November 14, 1986, should also meet the above-mentioned criteria but there is a difference. The citizen parent must have lived in the U.S. for a minimum of 10 years, 5 years of which must have been after the age of 14.
-If you meet these requirements, you can apply for the U.S. citizenship certificate by filing*Form N-600, Application for Certificate of Citizenship.*The fee for filing this form is currently $1170. Those who are serving in the U.S. military are exempt from it. Click[here](https://www.uscis.gov/n-600)to submit it online.
+If you meet these requirements, you can apply for the U.S. citizenship certificate by filing *Form N-600, Application for Certificate of Citizenship.* The fee for filing this form is currently $1170. Those who are serving in the U.S. military are exempt from it. Click [here](https://www.uscis.gov/n-600) to submit it online.
 Need help with filling out Form N-600? Schedule an appointment to meet our citizenship attorney in Orange County, CA.
 [Get Started!](tel:+1-714-877-5840)
 
@@ -102,15 +102,15 @@ Except for the money that you should pay for gathering and copying the necessary
 This makes it a total of $725. But
 * Applicants who have served in the military are not required to pay any of these fees.
 * Senior applicants, above the age of 75, are not required to pay the biometrics fee.
-And, if you are not able to afford the application fee due to your annual household income, you can request a reduction by filing[*Form I-942, Request for Reduced Fee*](https://www.uscis.gov/i-942)*.*If you are considered qualified, you will have to pay only the biometrics fee and a percentage of the application fee.
+And, if you are not able to afford the application fee due to your annual household income, you can request a reduction by filing [Form I-942, Request for Reduced Fee](https://www.uscis.gov/i-942). If you are considered qualified, you will have to pay only the biometrics fee and a percentage of the application fee.
 ## How Can Our Naturalization Attorney Help You?
 
 [[cta]]
 
-To apply for naturalization and go through It's steps, you are not required to hire a US visa attorney. However, many opt to have a visa lawyer by their side, because
+To apply for naturalization and go through Its steps, you are not required to hire a US visa attorney. However, many opt to have a visa lawyer by their side, because
 * the naturalization process is complicated and confusing,
 * a citizenship lawyer knows how to file your application and manage your case to not get denied,
 * you can save time,
 * you do not have to worry about the language barrier if you are not fluent in English or are not familiar with legal terms.
 *The Law Office of Tuan Lee*in Orange County is here to help you become a U.S. citizen. Our experienced naturalization attorney provides you legal assistance in knowing if you are eligible or not, how and when to apply, what kind of proof and documentation you need for each step, how to pass the exams and the interview successfully if you can be exempt from the exam or fees, and any other help you will need on this long journey.
-Give us a call at[(714) 877-5840](tel:+1-714-877-5840)or fill out the form below so we contact you.
+Give us a call at [(714) 877-5840](tel:+1-714-877-5840) or fill out the form below so we contact you.

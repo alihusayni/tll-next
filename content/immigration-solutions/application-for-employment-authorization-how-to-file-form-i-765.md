@@ -33,7 +33,7 @@ eligible, to get your work permit (also known as EAD) to present to employers as
 authorized to work in this country. This can happen by filing Form I-765, Application for Employment Authorization,
 whether online or by mail.
 Before applying for an EAD, you should know if you are eligible to avoid wasting time and money. Read on to find out or
-simply give us a call at [(714) 877 5840](tel:+1-714-877-5840)for a free consultation with an immigration attorney.
+simply give us a call at [(714) 877 5840](tel:+1-714-877-5840) for a free consultation with an immigration attorney.
 
 ## Eligibility for Filing Form I-765
 
@@ -127,7 +127,7 @@ I-765.
 
 [[cta]]
 
-You are required to pay**$410**when apply for an EAD with Form I-765. However, certain groups are exempt from this
+You are required to pay **$410** when apply for an EAD with Form I-765. However, certain groups are exempt from this
 filing fee if it is their first time. This includes:
 
 * Refugees, Asylees, and parolees (individuals paroled as a refugee)
@@ -141,7 +141,7 @@ filing fee if it is their first time. This includes:
   Except for the filing fee, some applicants, such as Childhood Arrivals applicants, will be required to attend an
   interview at a USCIS Application Support Center, otherwise, their application would be denied. For the biometrics
   services during the interview, which include recording your fingerprints, signature, and photograph, you will need to
-  pay an additional**$85**. No one is exempt from this fee, and you cannot waive it.
+  pay an additional **$85**. No one is exempt from this fee, and you cannot waive it.
 
 ## Form I-765 Required Documents
 
@@ -170,7 +170,7 @@ The required documents to request an EAD include:
 [[cta]]
 
 The form can be filed online or by mail. However, before any of this, you should fill out the form. The latest update of
-the form is [here](https://www.tuanlelaw.com/wp-content/uploads/doc/i-765.pdf)for you to download (This version expires
+the form is [here](https://www.tuanlelaw.com/wp-content/uploads/doc/i-765.pdf) for you to download (This version expires
 on 10/31/2025. For the newest version, you should visit the [USCIS website](https://www.uscis.gov/i-765)).
 Some parts and terminologies can be confusing. To help the applicants, USCIS has published thorough instructions on how
 to complete Form I-765.

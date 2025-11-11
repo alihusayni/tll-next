@@ -108,7 +108,7 @@ verify your relationships.**
 **By following this checklist, you can be confident that you're submitting a complete and well-prepared immigration
 application. At Tuan Le Law, we help you stay organized and ensure that all the necessary paperwork is submitted without
 mistakes.**
-![](https://toporganicleads.s3.us-east-1.amazonaws.com/BlogImage/new/top-view-visa-application-arrangement.webp)
+![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/new/top-view-visa-application-arrangement.webp)
 
 ## **How to Avoid Immigration Application Rejection**
 
@@ -182,7 +182,7 @@ Status). This form is crucial for those seeking to transition from a temporary v
 you will be asked questions regarding your application. It's important to review your entire application beforehand and
 be prepared to answer questions related to your personal history, employment, and reasons for applying.**
 **By following these steps and staying organized, you can successfully navigate the green card application process.
-At [Tuan Le Law](/#contact)Tuan Le Law</a>, we guide you through each phase, ensuring your application is completed
+At [Tuan Le Law](#contact), we guide you through each phase, ensuring your application is completed
 correctly and submitted on time.**
 **Ready to take the next step? Call at [714-584-6815](tel:+1-714-584-6815)** to get professional legal help for your
 immigration application.

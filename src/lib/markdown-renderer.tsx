@@ -224,6 +224,26 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
           
           // Regular links
           if (href) {
+            // Check if it's an anchor link (starts with #)
+            if (href.startsWith('#')) {
+              return (
+                <a 
+                  href={href} 
+                  className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const element = document.querySelector(href);
+                    if (element) {
+                      element.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                  {...props}
+                >
+                  {children}
+                </a>
+              );
+            }
+            
             return (
               <a 
                 href={href} 
@@ -272,7 +292,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
         hr: () => (
           <hr className="my-8 border-[#E6EAF0]" />
         ),
-div: ({ children, ...props }) => {
+        div: ({ children, ...props }) => {
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
           if ((props as any)['data-cta'] === 'true') {
             return <CtaWrapper />;

@@ -92,18 +92,18 @@ After marriage, the foreign spouse can apply for a green card, a process that ca
 
 Understanding the costs involved in the K-1 visa process is crucial for financial planning. Here is a breakdown of the K-1 visa cost and fees for 2025:
 ### **Form I-129F Filing Fee:**
-$675.00 &ndash; This fee is paid to USCIS when submitting the initial petition.
+$675.00  :  This fee is paid to USCIS when submitting the initial petition.
 ### **DS-160 Application Fee:**
-$265.00 &ndash; This non-refundable fee is required when applying for the visa at the U.S. embassy or consulate.
+$265.00  :  This non-refundable fee is required when applying for the visa at the U.S. embassy or consulate.
 ### **Medical Examination Fee:**
-Varies by country &ndash; Conducted by a USCIS-approved physician, the cost depends on the country of residence.
+Varies by country  :  Conducted by a USCIS-approved physician, the cost depends on the country of residence.
 ### **Adjustment of Status Fee:**
-$1,440.00 &ndash; After marriage, the foreign spouse must apply for a green card through adjustment of status.
+$1,440.00  :  After marriage, the foreign spouse must apply for a green card through adjustment of status.
 ### **Additional Costs:**
 These may include document translations, travel expenses, and legal fees if you choose to work with an immigration lawyer.
 #### Cost-Saving Tip: Accurate and complete documentation can reduce the risk of delays or reapplications, saving you both time and money.
 
-![](https://toporganicleads.s3.us-east-1.amazonaws.com/BlogImage/new/marriage)
+![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/new/marriage)
 ## **What to Expect at the K-1 Visa Interview**
 
 [[cta]]

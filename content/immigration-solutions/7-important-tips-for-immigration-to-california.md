@@ -75,7 +75,7 @@ than the national average.
 
 [[cta]]
 
-![](https://toporganicleads.s3.us-east-1.amazonaws.com/BlogImage/Health-Insurance-is-Expensive-2.webp)
+![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/Health-Insurance-is-Expensive-2.webp)
 Taking care of your health in California is expensive. Even if it is only a doctors visit, you will need to shell
 out $200 or more. If you have an emergency medical situation, the cost of treatment can be several thousand dollars. That is why you should plan to buy health insurance with proper coverage.
 If you purchase a health insurance plan, you should be ready to pay at least $100 a month in premium. Better plans will
@@ -114,7 +114,7 @@ you complete all the steps in an effective and error-free manner.
 
 [[cta]]
 
-![](https://toporganicleads.s3.us-east-1.amazonaws.com/BlogImage/You-will-Need-the-Help-of-an-Immigration-Attorney-2.webp)
+![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/You-will-Need-the-Help-of-an-Immigration-Attorney-2.webp)
 You may have visited California multiple times before. But immigration to California is a totally different case. To
 make the process easy, you will need help from someone who is living and working in the state.
 When you are looking for someone for help, the best person is an immigration attorney who is based in California Itself.
