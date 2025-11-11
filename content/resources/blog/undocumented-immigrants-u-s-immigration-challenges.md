@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "Undocumented Immigrants twitterTitle: Immigration Law Services | Law Office of Tuan Le The Complexities of US Immigration Law | Tuan Le Law"
 twitterDescription: "Facing immigration challenges? Tuan Le in CA, can help. Understand your rights, explore pathways to legalization, and advocate for change."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "March 30,2025"
+publishedTime: "2024-01-24T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "8 min read"
 ---

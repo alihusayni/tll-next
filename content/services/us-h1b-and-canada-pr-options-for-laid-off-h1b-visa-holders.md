@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "US H1B and Canada PR; Options for Laid-Off H1B Visa Holders"
 twitterDescription: "We compare the benefits of US H1B and Canada PR, plus other options for H1B workers, to help you make the best decision."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2023-06-01T00:00:00.000Z"
+publishedTime: "2020-04-04T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "8 min read"
 ---

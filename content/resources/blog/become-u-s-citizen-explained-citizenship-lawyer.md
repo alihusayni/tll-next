@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "Paths to Become a U.S. Citizen; Explained by a Citizenship Lawyer"
 twitterDescription: "An immigration lawyer shows you the ways to become a U.S. citizen. Learn if you are eligible and meet the requirements for U.S. citizenship."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2023-06-01T00:00:00.000Z"
+publishedTime: "2023-07-20T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "7 min read"
 ---
@@ -112,5 +112,5 @@ To apply for naturalization and go through Its steps, you are not required to hi
 * a citizenship lawyer knows how to file your application and manage your case to not get denied,
 * you can save time,
 * you do not have to worry about the language barrier if you are not fluent in English or are not familiar with legal terms.
-*The Law Office of Tuan Lee*in Orange County is here to help you become a U.S. citizen. Our experienced naturalization attorney provides you legal assistance in knowing if you are eligible or not, how and when to apply, what kind of proof and documentation you need for each step, how to pass the exams and the interview successfully if you can be exempt from the exam or fees, and any other help you will need on this long journey.
+*The Law Office of tuan le*in Orange County is here to help you become a U.S. citizen. Our experienced naturalization attorney provides you legal assistance in knowing if you are eligible or not, how and when to apply, what kind of proof and documentation you need for each step, how to pass the exams and the interview successfully if you can be exempt from the exam or fees, and any other help you will need on this long journey.
 Give us a call at [(714) 877-5840](tel:+1-714-877-5840) or fill out the form below so we contact you.

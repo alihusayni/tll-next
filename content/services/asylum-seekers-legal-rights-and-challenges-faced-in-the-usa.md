@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "Asylum Seekers Legal Rights and Challenges Faced in the U.S."
 twitterDescription: "Learn about asylum seekers' legal rights, services, and challenges in the U.S. Also, get to know the support organizations for asylum seekers."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2023-06-01T00:00:00.000Z"
+publishedTime: "2022-09-26T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "8 min read"
 ---

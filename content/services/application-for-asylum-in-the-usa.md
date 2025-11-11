@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "Application for Asylum in the USA | Law Office of Tuan Le"
 twitterDescription: "Application for asylum in the US is a multi-step process that can be confusing for foreign individuals. Read our simple step-by-step guide."
 twitterImage: "https://www.tuanlelaw.com/filemanager/files/shares/BlogImage/application-for-asylum-in-the-usa-1200x794.jpg"
-publishedTime: "2023-05-15T10:00:00.000Z"
+publishedTime: "2021-09-11T00:00:00.000Z"
 modifiedTime: "2024-09-20T14:30:00.000Z"
 readTime: "7 min read"
 ---

@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "Tips for a Successful Diversity Visa Application | Tuan Le Law Office, OC, CA"
 twitterDescription: "Discover tips for a successful Diversity Visa application. Learn how Tuan Le Law Office in CA can help you increase your chances of success."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2023-06-01T00:00:00.000Z"
+publishedTime: "2020-12-28T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "10 min read"
 ---

@@ -13,14 +13,14 @@ twitterCard: "summary_large_image"
 twitterTitle: "Understanding Family-based immigration"
 twitterDescription: "Discover the essentials of family-based immigration to the USA, visa types, and application steps, with Tuan Le Law Office in OC, CA."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2023-06-01T00:00:00.000Z"
+publishedTime: "2020-04-07T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "8 min read"
 ---
 
 "Home is where the heart is" and for many, the heart lies with family. Since 1965, family connections have been the
 bedrock of U.S. immigration, allowing citizens and permanent residents to sponsor relatives for a new life on American
-soil. AtTuan Le Law Office in Orange, CA, we understand that family is the foundation of life. As a U.S. citizen or
+soil. At Tuan Le Law Office in Orange, CA, we understand that family is the foundation of life. As a U.S. citizen or
 lawful permanent resident, you have the opportunity to petition for your family members to join you in the USA.
 Family-based immigration visas.
 In this article, we explore the intricacies of Family-based immigration, a major avenue for legal entry into the U.S.
@@ -98,17 +98,17 @@ Preference Immigrant Visas**. Here is a breakdown of each:
 
 ### [Family Preference Immigrant Visas (F):](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants)
 
-* [**F1**](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants#:~:text=Other%20family%20members%20eligible%20to%20apply%20for%20a,and%20daughters%20of%20U.S.%20citizens%3B%20and%20More%20items)
+* [F1](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants#:~:text=Other%20family%20members%20eligible%20to%20apply%20for%20a,and%20daughters%20of%20U.S.%20citizens%3B%20and%20More%20items)
   Family First Preference  :  Unmarried sons and daughters of U.S. citizens, and their minor children, if any.
-* [**F2**](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants): Family
+* [F2](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants): Family
   Second Preference  :  Spouses, minor children, and unmarried sons and daughters (age 21 and over) of LPRs.
-* [**F2A**:](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants)Spouses
+* [F2A**:](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants)Spouses
   and minor children of LPRs
-* [**F2B**](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants):
+* [F2B](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants):
   Unmarried sons and daughters (21 years of age and older) of LPRs
-* [**F3**](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants): Family
+* [F3](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants): Family
   Third Preference  :  Married sons and daughters of U.S. citizens, and their spouses and minor children.
-* [**F4:**](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants)Family
+* [F4:](https://www.uscis.gov/green-card/green-card-eligibility/green-card-for-family-preference-immigrants)Family
   Fourth Preference  :  Brothers and sisters of U.S. citizens, and their spouses and minor children, provided the U.S.
   citizens are at least 21 years of age.
 

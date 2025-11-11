@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "Understanding the B-1 Visa: Permitted Activities and Restrictions | Tuan Le Law, Orange, CA"
 twitterDescription: "Learn about B-1 visa permitted activities and restrictions. Get expert legal advice from Tuan Le Law in Orange, CA."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2023-06-01T00:00:00.000Z"
+publishedTime: "2022-07-01T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "9 min read"
 ---

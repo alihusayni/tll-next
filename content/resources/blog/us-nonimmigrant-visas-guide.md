@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "Comprehensive Guide to U.S. Nonimmigrant Visas | Immigration Lawyer in Orange County, CA"
 twitterDescription: "Read this US nonimmigrant visas guide to quickly find out what visa options you have. This simple guide saves you from confusion."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2023-06-01T00:00:00.000Z"
+publishedTime: "2023-11-25T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "9 min read"
 ---
@@ -37,7 +37,7 @@ visas, nonimmigrant visas come with a defined expiration date and specific activ
 
 * **B-2 Tourist Visa** for leisure or family visIt's.
 * **H-1B Work Visa** for professionals in specialized fields.
-* [**F-1 Student Visa**](https://www.tuanlelaw.com/f-1-student-visa-application-and-embassy-interview/) for full-time
+* [F-1 Student Visa](https://www.tuanlelaw.com/f-1-student-visa-application-and-embassy-interview/) for full-time
   academic studies.
   Each visa type serves a unique purpose, and choosing the wrong one can result in delays, denials, or additional costs.
 

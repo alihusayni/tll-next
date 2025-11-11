@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "Guide to H1B Visa Requirements and Application by an Immigration Lawyer"
 twitterDescription: "Need help with the H1B visa requirements and application? Our experienced H1B lawyer explains every step of it in simple words."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2023-06-01T00:00:00.000Z"
+publishedTime: "2021-12-15T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "8 min read"
 ---

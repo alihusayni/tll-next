@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "EB-1 Visas Requirements, Eligibility, and Application"
 twitterDescription: "This comprehensive guide to EB-1 visas teaches you how to get your U.S. permanent residency faster than other methods and visas."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2023-06-01T00:00:00.000Z"
+publishedTime: "2023-01-26T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "8 min read"
 ---

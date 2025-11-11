@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "Possible Changes in U.S. Immigration Policy in 2025"
 twitterDescription: "How will the new Trump Government affect the U.S. immigration policy in 2025? Read this simple guide to prepare yourself."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2023-06-01T00:00:00.000Z"
+publishedTime: "2021-12-02T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "7 min read"
 ---

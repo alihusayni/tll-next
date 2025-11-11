@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "Green Card Through Marriage: How to Apply and Avoid Pitfalls"
 twitterDescription: "Marriage Visa: learn how our experienced immigration lawyer in OC, CA can guide you through the process of achieving your green card"
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2023-06-01T00:00:00.000Z"
+publishedTime: "2024-06-27T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "9 min read"
 ---
@@ -133,7 +133,7 @@ with your spouse and original documents. They will check your identity, backgrou
 they will decide on your application and notify you by mail or online. If approved, you will get a green card in the
 mail in a few weeks. The process can take 9 to 15 months or longer, based on your case and other factors.
 Adjustment of status can be a complicated and lengthy process, but you Don't have to do it alone. At the Law Office of
-Tuan Lee, we have the experience and expertise to help you get your green card through marriage. You can reach us by
+tuan le, we have the experience and expertise to help you get your green card through marriage. You can reach us by
 phone at [714-877-5840](tel:+1-714-877-5840).
 ![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/Green-Card-Through-Marriage-How-to-Apply-and-Avoid-Pitfalls.webp)
 
@@ -225,7 +225,7 @@ establishing the bona fide nature of your marriage, satisfying the income requir
 times. That is why you may benefit from hiring a professional marriage immigration lawyer, who can assist you with
 selecting the appropriate visa, preparing and filing the forms and documents, avoiding errors and delays, and
 representing you in the interviews and appeals.
-At the Law Office of Tuan Lee, We have the competence and proficiency to handle any marriage visa case, no matter how
+At the Law Office of tuan le, We have the competence and proficiency to handle any marriage visa case, no matter how
 challenging. Don't let the immigration system prevent you from pursuing your dream. Contact us today and get
 a [free consultation](tel:+1-714-877-5840) with our marriage immigration
 lawyer,[Tuan Le,](https://www.tuanlelaw.com/about-us/) in Orange County, CA

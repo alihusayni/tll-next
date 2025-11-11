@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "7 Things to Consider for Immigration to California - Orange, CA | Tuan Le"
 twitterDescription: "Find out how you can prepare yourself for lawful immigration to California. Call immigration lawyer in Orange County, CA."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2023-06-01T00:00:00.000Z"
+publishedTime: "2024-05-11T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "6 min read"
 ---

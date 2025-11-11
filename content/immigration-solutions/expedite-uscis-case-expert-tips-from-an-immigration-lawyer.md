@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "Expedite USCIS: Tips to Speed Up Your Immigration Case"
 twitterDescription: "Learn how to expedite your USCIS case with expert tips and strategies from Tuan Le Law Office in Orange County, CA."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2023-06-01T00:00:00.000Z"
+publishedTime: "2021-05-08T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "8 min read"
 ---

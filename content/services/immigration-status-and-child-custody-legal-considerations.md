@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "Immigration Status and Child Custody: Legal Considerations and Costs"
 twitterDescription: "Discover how immigration status impacts child custody decisions. For expert legal advice, call Tuan Le Law in OC, CA."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2023-06-01T00:00:00.000Z"
+publishedTime: "2020-01-02T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "15 min read"
 ---

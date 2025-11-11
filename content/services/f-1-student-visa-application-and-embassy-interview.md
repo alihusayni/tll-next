@@ -13,7 +13,7 @@ twitterCard: "summary_large_image"
 twitterTitle: "F-1 Student Visa Application and Embassy Interview"
 twitterDescription: "Expert immigration law advice and services from Tuan Le."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2023-06-01T00:00:00.000Z"
+publishedTime: "2020-07-09T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "7 min read"
 ---
