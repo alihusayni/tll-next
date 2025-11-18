@@ -5,19 +5,19 @@ export default function CertificationBadge() {
     <div className="grid grid-cols-3 gap-[26px] justify-items-center lg:justify-items-start">
       <BadgeIcon
         src="/assets/certifications/logo-1.svg"
-        alt=""
+        alt="Logo of professional legal certification organization"
         width={90}
         height={90}
       />
       <BadgeIcon
         src="/assets/certifications/logo-2.svg"
-        alt=""
+        alt="Logo of professional legal certification organization"
         width={90}
         height={90}
       />
       <BadgeIcon
         src="/assets/certifications/logo-3.svg"
-        alt=""
+        alt="Logo of professional legal certification organization"
         width={90}
         height={89}
       />

@@ -105,7 +105,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
         {image && (
           <Image
             src={image}
-            alt={author}
+            alt={`Profile picture of ${author}`}
             className="w-12 h-12 rounded-full object-cover"
             width={48}
             height={48}

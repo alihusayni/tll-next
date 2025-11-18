@@ -1,6 +1,6 @@
 ---
-metaTitle: "12 US Immigration Law Questions Answered"
-metaDescription: "Our experienced immigration lawyer in Orange, CA, answers common immigration questions in simple terms to help you understand your options."
+metaTitle: "Common US Immigration Questions Answered by Expert Lawyer"
+metaDescription: "Get answers to 12 common US immigration questions from an experienced lawyer in Orange, CA. Understand visas, green cards, citizenship, and more in simple terms."
 h1: "12 Common Immigration Questions Answered by a US Immigration Lawyer"
 summary: "Our experienced immigration lawyer in Orange, CA, answers common immigration questions in simple terms to help you understand your options."
 author: "Tuan Le"

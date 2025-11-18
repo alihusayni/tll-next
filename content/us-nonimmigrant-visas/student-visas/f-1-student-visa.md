@@ -1,6 +1,6 @@
 ---
-metaTitle: "F-1 Student Visa Application and Embassy Interview"
-metaDescription: "Latest immigration news and updates from Tuan Le Law."
+metaTitle: "Complete Guide to F-1 Student Visa Application and Interview"
+metaDescription: "Stay updated on the latest US immigration news, policy changes, and legal updates. Get expert advice from immigration lawyer Tuan Le in Orange County, CA."
 h1: "F-1 Student Visa Application and Embassy Interview"
 summary: "Latest immigration news and updates from Tuan Le Law."
 author: "Tuan Le"

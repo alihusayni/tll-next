@@ -14,7 +14,7 @@ export default function CtaBox() {
         <div className="not-prose bg-red-400" style={{ position: 'absolute', right: 0, top: 0, width: '24.3125rem', height: '23.5rem' }}>
         <Image
           src="/assets/blog/CTA_box_img.png"
-          alt="CTA background"
+          alt="Image depicting legal consultation and free advice services"
           fill
           className="not-prose"
           style={{ objectFit: 'cover', objectPosition: 'top' }}

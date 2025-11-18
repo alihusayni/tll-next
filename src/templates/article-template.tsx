@@ -35,7 +35,7 @@ export default function ArticleTemplate({ content, slug }: ArticleTemplateProps)
                 title={content.meta.title || content.meta.h1 || 'Untitled'}
                 subtitle={content.meta.description || content.meta.summary || ''}
                 imageSrc={content.meta.imageSrc || '/assets/blog/blog_post.png'}
-                imageAlt={content.meta.imageAlt || 'Article image'}
+                imageAlt={content.meta.imageAlt || 'Featured image illustrating the article topic'}
                 breadcrumb={breadcrumb}
                 date={content.meta.date || content.meta.publishedTime || ''}
                 readTime={content.meta.readTime || ''}

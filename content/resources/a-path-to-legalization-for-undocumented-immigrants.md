@@ -1,6 +1,6 @@
 ---
 metaTitle: "A Path to Legalization for Undocumented Immigrants"
-metaDescription: "Latest immigration news and updates from Tuan Le Law."
+metaDescription: "Stay updated on the latest US immigration news, policy changes, and legal updates. Get expert advice from immigration lawyer Tuan Le in Orange County, CA."
 h1: "A Path to Legalization for Undocumented Immigrants"
 summary: "Latest immigration news and updates from Tuan Le Law."
 author: "Tuan Le"

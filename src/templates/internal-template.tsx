@@ -45,7 +45,7 @@ export default function InternalTemplate({ content, slug }: InternalTemplateProp
 
   // Get image from meta with fallback
   const imageSrc = content.meta.ogImage || content.meta.imageSrc || '/assets/blog/blog_post.png';
-  const imageAlt = content.meta.imageAlt || 'Article image';
+  const imageAlt = content.meta.imageAlt || 'Featured image illustrating the article topic';
 
   // Get date from meta with fallback
   const rawDate = content.meta.date || content.meta.publishedTime || '';

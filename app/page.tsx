@@ -6,6 +6,28 @@ import TestimonialSection from '@/components/organisms/testimonial-section';
 import WhyTuanSection from '@/components/organisms/why-tuan-section';
 import ContactSection from '@/components/organisms/contact-section';
 import SiteFooter from '@/components/organisms/site-footer';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Tuan Le Law | Professional Immigration Legal Services',
+  description: 'Professional legal services provided by Tuan Le Law. Expert immigration law assistance for visas, citizenship, and deportation defense.',
+  alternates: {
+    canonical: 'https://www.tuanlelaw.com',
+  },
+  openGraph: {
+    title: 'Tuan Le Law | Professional Immigration Legal Services',
+    description: 'Professional legal services provided by Tuan Le Law. Expert immigration law assistance for visas, citizenship, and deportation defense.',
+    url: 'https://www.tuanlelaw.com',
+    siteName: 'Tuan Le Law',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tuan Le Law | Professional Immigration Legal Services',
+    description: 'Professional legal services provided by Tuan Le Law. Expert immigration law assistance for visas, citizenship, and deportation defense.',
+  },
+  robots: 'index,follow',
+};
 
 export default function Home() {
     return (

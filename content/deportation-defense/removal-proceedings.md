@@ -1,6 +1,6 @@
 ---
-metaTitle: "Immigration Matters: Removal Proceeding in Orange CA | Attorney Tuan Le"
-metaDescription: "Are you looking for effective representation in your immigration case? Removal proceedings are the most difficult and complex of all immigration matters."
+metaTitle: "Removal Proceedings Defense | Immigration Lawyer Orange CA"
+metaDescription: "Facing removal proceedings? Get expert deportation defense from immigration attorney Tuan Le in Orange CA. Protect your rights and fight deportation."
 h1: "Full Representation in Immigration Matters for Individuals"
 summary: "Are you looking for effective representation in your immigration case? Removal proceedings are the most difficult and complex of all immigration matters."
 author: "Tuan Le"

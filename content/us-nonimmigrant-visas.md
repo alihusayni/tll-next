@@ -1,6 +1,6 @@
 ---
-metaTitle: "Comprehensive Guide to U.S. Nonimmigrant Visas | Immigration Lawyer in Orange County, CA"
-metaDescription: "Read this US nonimmigrant visas guide to quickly find out what visa options you have. This simple guide saves you from confusion."
+metaTitle: "Guide to US Nonimmigrant Visas | Immigration Lawyer OC CA"
+metaDescription: "Explore a comprehensive guide to US nonimmigrant visas. Learn about visa options, requirements, and application processes with help from immigration lawyer in Orange County, CA."
 h1: "All U.S. Nonimmigrant Visas Explained: Find the Right Visa for Your Needs"
 summary: "Read this US nonimmigrant visas guide to quickly find out what visa options you have. This simple guide saves you from confusion."
 author: "Tuan Le"

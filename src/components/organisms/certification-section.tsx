@@ -20,7 +20,7 @@ export default function CertificationSection() {
             <div className="flex-1">
               <Image
                 src="/assets/certifications/certification-image.png"
-                alt=""
+                alt="Image of legal certification or professional award"
                 width={400}
                 height={100}
                 loading="lazy"

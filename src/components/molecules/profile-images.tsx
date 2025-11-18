@@ -6,7 +6,7 @@ export default function ProfileImages() {
 
           <Image
               src="/assets/about/about_img_consult.png"
-              alt="Consultation image"
+              alt="Image of attorney conducting a client consultation"
               width={332}
               height={412}
               className="absolute top-[1.6875rem] right-0 w-[20.75rem] h-[25.75rem] rounded-[16px] object-cover grayscale border mix-blend-luminosity"

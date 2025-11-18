@@ -191,75 +191,93 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
             {children}
           </pre>
         ),
-        a: ({ children, href, ...props }) => {
-          // Check if this is a tel: link by examining the original node data
-          const nodeData = (props as any).node; // eslint-disable-line @typescript-eslint/no-explicit-any
-          const isTelLink = nodeData?.url?.startsWith('tel:') || href?.startsWith('tel:');
-          
-          if (isTelLink) {
-            const telUrl = nodeData?.url || href;
-            return (
-              <a 
-                href={telUrl} 
-                className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
-              >
-                {children}
-              </a>
-            );
-          }
-          
-          // Check if this link text matches one of our tel: links from the original content
-          const childText = React.Children.toArray(children).join('');
-          if (telLinks.has(childText) && !href) {
-            const telUrl = `tel:${telLinks.get(childText)}`;
-            return (
-              <a 
-                href={telUrl} 
-                className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
-              >
-                {children}
-              </a>
-            );
-          }
-          
-          // Regular links
-          if (href) {
-            // Check if it's an anchor link (starts with #)
-            if (href.startsWith('#')) {
-              return (
-                <a 
-                  href={href} 
-                  className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    const element = document.querySelector(href);
-                    if (element) {
-                      element.scrollIntoView({ behavior: 'smooth' });
-                    }
-                  }}
-                  {...props}
-                >
-                  {children}
-                </a>
-              );
-            }
-            
-            return (
-              <a 
-                href={href} 
-                className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
-                target="_blank"
-                rel="noopener noreferrer"
-                {...props}
-              >
-                {children}
-              </a>
-            );
-          }
-          
-          // Fallback for links without href
-          return <span className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter">{children}</span>;
-        },
+         a: ({ children, href, ...props }) => {
+           // Check if this is a tel: link by examining the original node data
+           const nodeData = (props as any).node; // eslint-disable-line @typescript-eslint/no-explicit-any
+           const isTelLink = nodeData?.url?.startsWith('tel:') || href?.startsWith('tel:');
+
+           if (isTelLink) {
+             const telUrl = nodeData?.url || href;
+             return (
+               <a
+                 href={telUrl}
+                 className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
+               >
+                 {children}
+               </a>
+             );
+           }
+
+           // Check if this link text matches one of our tel: links from the original content
+           const childText = React.Children.toArray(children).join('');
+           if (telLinks.has(childText) && !href) {
+             const telUrl = `tel:${telLinks.get(childText)}`;
+             return (
+               <a
+                 href={telUrl}
+                 className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
+               >
+                 {children}
+               </a>
+             );
+           }
+
+           // Regular links
+           if (href) {
+             // Check if it's an anchor link (starts with #)
+             if (href.startsWith('#')) {
+               return (
+                 <a
+                   href={href}
+                   className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
+                   onClick={(e) => {
+                     e.preventDefault();
+                     const element = document.querySelector(href);
+                     if (element) {
+                       element.scrollIntoView({ behavior: 'smooth' });
+                     }
+                   }}
+                   {...props}
+                 >
+                   {children}
+                 </a>
+               );
+             }
+
+             // Check if it's an internal link (same domain)
+             const isInternalLink = href.startsWith('/') || href.startsWith('https://www.tuanlelaw.com') || href.startsWith('https://tuanlelaw.com');
+
+             if (isInternalLink) {
+               // Remove domain from internal links to make them relative
+               const relativeHref = href.replace(/^https?:\/\/(www\.)?tuanlelaw\.com/, '');
+               return (
+                 <a
+                   href={relativeHref}
+                   className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
+                   {...props}
+                 >
+                   {children}
+                 </a>
+               );
+             }
+
+             // External links
+             return (
+               <a
+                 href={href}
+                 className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 {...props}
+               >
+                 {children}
+               </a>
+             );
+           }
+
+           // Fallback for links without href
+           return <span className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter">{children}</span>;
+         },
         img: ({ src, alt }) => {
            if (!src || typeof src !== 'string') return null;
 

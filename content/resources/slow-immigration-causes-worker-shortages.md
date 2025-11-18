@@ -1,6 +1,6 @@
 ---
-metaTitle: "Slow Immigration Leads to Worker Shortages"
-metaDescription: "Latest immigration news and updates from Tuan Le Law."
+metaTitle: "Slow Immigration Policies Cause US Worker Shortages"
+metaDescription: "Stay updated on the latest US immigration news, policy changes, and legal updates. Get expert advice from immigration lawyer Tuan Le in Orange County, CA."
 h1: "Slow Immigration Leads to Worker Shortages"
 summary: "Latest immigration news and updates from Tuan Le Law."
 author: "Tuan Le"

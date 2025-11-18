@@ -14,7 +14,7 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
       <div className="absolute inset-0">
         <Image
           src="/assets/hero/bg.webp"
-          alt="Hero background"
+          alt="Scenic background image representing immigration law services in Orange County, California"
           fill
           className="object-cover"
           priority

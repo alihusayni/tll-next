@@ -17,7 +17,7 @@ const ValueCard: React.FC<ValueCardProps> = ({
       <div className="relative w-[384px] h-[332px]">
         <Image
           src={iconSrc}
-          alt={title}
+          alt={`Icon representing ${title.toLowerCase()}`}
           fill
           className="object-cover"
         />

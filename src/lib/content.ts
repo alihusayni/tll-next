@@ -89,16 +89,6 @@ export function getContentBySlug(slug: string): Content | null {
     // Extract headings from markdown content
     const headings = extractHeadingsFromMarkdown(content);
     
-    // Add H1 from frontmatter if it exists
-    if (frontmatter.h1) {
-      const h1Id = slugify(frontmatter.h1);
-      headings.unshift({
-        id: h1Id,
-        text: frontmatter.h1,
-        level: 1
-      });
-    }
-    
     // Build content meta with fallbacks for compatibility
     const meta: ContentMeta = {
       // New structured fields

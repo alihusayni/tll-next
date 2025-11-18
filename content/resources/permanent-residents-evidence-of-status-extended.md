@@ -1,6 +1,6 @@
 ---
-metaTitle: "Evidence of Status for Conditional Permanent Residents Extended to 24 Months by USCIS"
-metaDescription: "Latest immigration news and updates from Tuan Le Law."
+metaTitle: "USCIS Extends Status Evidence for Conditional Permanent Residents"
+metaDescription: "Stay updated on the latest US immigration news, policy changes, and legal updates. Get expert advice from immigration lawyer Tuan Le in Orange County, CA."
 h1: "Evidence of Status for Conditional Permanent Residents Extended to 24 Months by USCIS"
 summary: "Latest immigration news and updates from Tuan Le Law."
 author: "Tuan Le"

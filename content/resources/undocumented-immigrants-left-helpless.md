@@ -1,6 +1,6 @@
 ---
-metaTitle: "Undocumented Immigrants Are Left Helpless"
-metaDescription: "Latest immigration news and updates from Tuan Le Law."
+metaTitle: "Undocumented Immigrants Face Helplessness in US System"
+metaDescription: "Stay updated on the latest US immigration news, policy changes, and legal updates. Get expert advice from immigration lawyer Tuan Le in Orange County, CA."
 h1: "Undocumented Immigrants Are Left Helpless"
 summary: "Latest immigration news and updates from Tuan Le Law."
 author: "Tuan Le"

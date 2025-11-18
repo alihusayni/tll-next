@@ -1,5 +1,5 @@
 ---
-metaTitle: "Insurance Agency Condemned by Justice Department Over Immigration-Related Discrimination"
+metaTitle: "Insurance Agency Fined for Immigration Discrimination by DOJ"
 metaDescription: "The Department of Justice has reached a settlement agreement with James A. Scott & Son Inc., an insurance agency doing business as Scott Insurance headquartered in Lynchburg, Virginia."
 h1: "Insurance Agency Condemned by Justice Department Over Immigration-Related Discrimination"
 summary: "The Department of Justice has reached a settlement agreement with James A. Scott & Son Inc., an insurance agency doing business as Scott Insurance headquartered in Lynchburg, Virginia."

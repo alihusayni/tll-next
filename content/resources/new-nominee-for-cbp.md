@@ -1,6 +1,6 @@
 ---
 metaTitle: "Chris Marcus Nominated by Joe Biden to Lead Customs and Border Protection"
-metaDescription: "Latest immigration news and updates from Tuan Le Law."
+metaDescription: "Stay updated on the latest US immigration news, policy changes, and legal updates. Get expert advice from immigration lawyer Tuan Le in Orange County, CA."
 h1: "Chris Marcus Nominated by Joe Biden to Lead Customs and Border Protection"
 summary: "Latest immigration news and updates from Tuan Le Law."
 author: "Tuan Le"

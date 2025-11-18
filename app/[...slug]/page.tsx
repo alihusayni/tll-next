@@ -29,15 +29,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const title = meta.metaTitle || meta.h1 || meta.title || 'Untitled';
   const description = meta.metaDescription || meta.summary || meta.description || '';
   const ogImage = meta.ogImage || meta.imageSrc;
+  const canonicalUrl = `https://www.tuanlelaw.com/${slugPath}`;
 
   return {
     title,
     description,
     keywords: meta.keywords,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: meta.ogTitle || title,
       description: meta.ogDescription || description,
       images: ogImage ? [{ url: ogImage }] : undefined,
+      url: canonicalUrl,
       type: 'article',
       publishedTime: meta.publishedTime,
       modifiedTime: meta.modifiedTime,
