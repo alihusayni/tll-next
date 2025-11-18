@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://tuanlelaw.com/deportation-defense/immigration-court-defense-strategies-immigration-lawyer"
 ogTitle: "Immigration Court Defense Strategies by an Immigration Lawyer"
 ogDescription: "If a foreigner, who is residing in the U.S., violates any immigration law, he or she will receive a notice to attend an immigration court hearing."
-ogImage: https://www.tuanlelaw.com/filemanager/files/shares/BlogImage/Constitutional-and-Human-Rights-Defenses-in-Immigration-Court-1200x795.jpg
+ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/BlogImage/Constitutional-and-Human-Rights-Defenses-in-Immigration-Court-1200x795.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration Court Defense Strategies by an Immigration Lawyer"
 twitterDescription: "Expert immigration law advice and services from Tuan Le."

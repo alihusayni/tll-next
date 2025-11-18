@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/resources/biden-immigration-plans"
 ogTitle: "Biden's First Year Immigration Plans Under Scrutiny"
 ogDescription: "During his first year in office, Joe Biden has faced persistent challenges as his administration worked to reform U.S. immigration policy."
-ogImage: https://www.tuanlelaw.com/filemanager/files/shares/news/biden-immigration-plans.jpg
+ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/news/biden-immigration-plans.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Biden's First Year Immigration Plans Under Scrutiny"
 twitterDescription: "During his first year in office, Joe Biden has faced persistent challenges as his administration worked to reform U.S. immigration policy."
-twitterImage: "https://www.tuanlelaw.com/filemanager/files/shares/news/biden-immigration-plans.jpg"
+twitterImage: "https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/news/biden-immigration-plans.jpg"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
 readTime: "2 minutes"

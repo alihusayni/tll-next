@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/resources/undocumented-immigrants-left-helpless"
 ogTitle: "Undocumented Immigrants Are Left Helpless"
 ogDescription: "Latest immigration news and updates from Tuan Le Law."
-ogImage: https://www.tuanlelaw.com/filemanager/files/shares/BlogImage/undocumented-immigrants.jpg
+ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/BlogImage/undocumented-immigrants.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration News and Updates"
 twitterDescription: "Latest immigration news and updates from Tuan Le Law."

@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://tuanlelaw.com/asylum-humanitarian-relief/asylum/asylum-seekers-rights-and-challenges"
 ogTitle: "Asylum Seekers Legal Rights and Challenges Faced in the U.S."
 ogDescription: "Learn about asylum seekers' legal rights, services, and challenges in the U.S. Also, get to know the support organizations for asylum seekers."
-ogImage: https://www.tuanlelaw.com/filemanager/files/shares/BlogImage/asylum-seekers-1200x775.jpg
+ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/BlogImage/asylum-seekers-1200x775.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Asylum Seekers Legal Rights and Challenges Faced in the U.S."
 twitterDescription: "Learn about asylum seekers' legal rights, services, and challenges in the U.S. Also, get to know the support organizations for asylum seekers."
-twitterImage: "https://www.tuanlelaw.com/filemanager/files/shares/BlogImage/asylum-seekers-1200x775.jpg"
+twitterImage: "https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/BlogImage/asylum-seekers-1200x775.jpg"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
 readTime: "29 minutes"

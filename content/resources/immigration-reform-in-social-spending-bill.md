@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/resources/immigration-reform-in-social-spending-bill"
 ogTitle: "Democrats Are Pushing for an Immigration Reform in Social Spending Bill"
 ogDescription: "Latest immigration news and updates from Tuan Le Law."
-ogImage: https://www.tuanlelaw.com/filemanager/files/shares/news/Immigration-Reform-1200x744.jpg
+ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/news/Immigration-Reform-1200x744.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration News and Updates"
 twitterDescription: "Latest immigration news and updates from Tuan Le Law."

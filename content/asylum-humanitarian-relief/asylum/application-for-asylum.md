@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://tuanlelaw.com/asylum-humanitarian-relief/asylum/application-for-asylum-in-the-usa"
 ogTitle: "Application for Asylum in the USA | Law Office of Tuan Le"
 ogDescription: "Application for asylum in the US is a multi-step process that can be confusing for foreign individuals. Read our simple step-by-step guide."
-ogImage: https://www.tuanlelaw.com/filemanager/files/shares/BlogImage/application-for-asylum-in-the-usa-1200x794.jpg
+ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/BlogImage/application-for-asylum-in-the-usa-1200x794.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Application for Asylum in the USA | Law Office of Tuan Le"
 twitterDescription: "Application for asylum in the US is a multi-step process that can be confusing for foreign individuals. Read our simple step-by-step guide."
-twitterImage: "https://www.tuanlelaw.com/filemanager/files/shares/BlogImage/application-for-asylum-in-the-usa-1200x794.jpg"
+twitterImage: "https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/BlogImage/application-for-asylum-in-the-usa-1200x794.jpg"
 publishedTime: "2021-09-11T00:00:00.000Z"
 modifiedTime: "2024-09-20T14:30:00.000Z"
 readTime: "7 min read"
@@ -99,7 +99,7 @@ The processing time for asylum applications in the US can take up to 180 days af
 ### What Are the Costs of the Application for Asylum in the US?
 Filing Form I-589 and the biometrics for asylum seekers are free.
 ### What Are the Rights of Asylum Seekers in the USA?
-Each country has It's own domestic asylum law based on which the asylum seekers rights and protection are defined. In the United States, asylum seekers have the right to:
+Each country has its own domestic asylum law based on which the asylum seekers rights and protection are defined. In the United States, asylum seekers have the right to:
 * hire a lawyer,
 * present their case before an asylum officer or an immigration judge,
 * be protected while the asylum application is being processed,
