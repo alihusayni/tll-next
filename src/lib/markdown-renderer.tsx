@@ -282,7 +282,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
            if (!src || typeof src !== 'string') return null;
 
            return (
-              <img src={src} alt={alt || ''} className="my-6 rounded-xl block mx-auto" />
+              <img src={src} alt={alt || 'Descriptive image illustrating key points from the article content'} className="my-6 rounded-xl block mx-auto" />
            );
          },
         table: ({ children, ...props }) => (

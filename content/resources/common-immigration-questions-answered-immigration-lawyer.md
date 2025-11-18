@@ -19,11 +19,11 @@ readTime: "26 minutes"
 ---
 Every day, at our law office in Orange, CA, we receive many questions about different aspects of US immigration law and policy, which isn't surprising given the complexity of the immigration process in the USA and the ever-changing nature of the policies here. So, our experienced immigration attorney is answering some of the most common immigration questions in simple words in this article to help you make better sense of the legal process.
 **Whether you're seeking a US visa, green card, or citizenship, the Law Office of Tuan Le in Orange, CA, is here to help you take confident steps forward.**
-Get started with a [free consultation](tel:+1-714-983-0334) today!**
+Get started with a [free consultation](tel:+1-714-877-5840) today!**
 ## 12 US Common Immigration Questions Answered
 The complicated laws, overwhelming and time-consuming paperwork, and unfamiliar legal terms make many applicants feel lost in the process. However, you're not alone. A trustworthy immigration lawyer can easily handle your case and be by your side throughout the whole process.
 We've compiled the top immigration law questions we receive and answered them below to save you some time and help you understand your options more clearly.
-If you can't find the answers you're looking for, feel free to call us at [(714) 983 0334](tel:+1-714-983-0334) for a free consultation.
+If you can't find the answers you're looking for, feel free to call us at [(714) 983 0334](tel:+1-714-877-5840) for a free consultation.
 ## 1. How Can I Get a Green Card?
 To apply for your [ lawful permanent residency or Green Card](https://www.uscis.gov/green-card), you have a few options:
 * Family sponsorship,
@@ -90,9 +90,9 @@ In most cases, the answer is yes. If you apply and [get an EAD (Employment Autho
 Depending on the case, personal circumstances, and the service center, the processing times vary greatly, from a few months to a few years.
 You can see an [estimate of USCIS's different case processing times here](https://egov.uscis.gov/processing-times/).
 Looking for an experienced immigration attorney in Orange, CA? The Law Office of Tuan Le will be by your side every step of the way.**
-[Call now to schedule an appointment.](tel:+1-714-983-0334)
+[Call now to schedule an appointment.](tel:+1-714-877-5840)
 ## How Can a US Immigration Lawyer Help You?
 In any country and language, understanding legal options and policies, filing paperwork, and attending court hearings, trials, and embassy interviews are confusing and complicated unless you have a good handle on the law and its language.
 So, as a foreigner in the US, especially if English isn't your first language, it's almost impossible to go through such legal processes without a problem all alone. That's why, to avoid costly mistakes, deportation risk, or any other similar issues, you'll need a certified immigration lawyer by your side.
 Mr. Tuan Le, in Orange, California, is an experienced lawyer in different visa applications, green card applications, naturalization, asylum application, immigration court, and other legal matters non-native individuals in the US might face.
-You can call [(714) 983 0334](tel:+1-714-983-0334) or fill out the contact form and start with a free 30-minute consultation.
+You can call [(714) 983 0334](tel:+1-714-877-5840) or fill out the contact form and start with a free 30-minute consultation.

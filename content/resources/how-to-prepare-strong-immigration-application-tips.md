@@ -30,7 +30,7 @@ be and are committed to guiding you every step of the way. In this article, well
 detailed checklist, and expert advice on how to strengthen your immigration case. you'll learn how to avoid common
 mistakes and how to present a well-organized, complete application that will put you on the right track. Don't let paperwork errors delay your dreams. If you want to ensure your immigration application is strong and
 error-free, call Tuan Le Law
-at [714-584-6815](tel:+1-714-584-6815)to schedule a consultation with the best immigration lawyer near you in Orange
+at [714-877-5840](tel:+1-714-877-5840)to schedule a consultation with the best immigration lawyer near you in Orange
 County, CA
 
 ## Understanding the Immigration Application Process
@@ -155,7 +155,7 @@ Many green card applicants are required to attend an in-person interview with a 
 you will be asked questions regarding your application. It's important to review your entire application beforehand and
 be prepared to answer questions related to your personal history, employment, and reasons for applying By following these steps and staying organized, you can successfully navigate the green card application process.
 At [Tuan Le Law](#contact), we guide you through each phase, ensuring your application is completed
-correctly and submitted on time Ready to take the next step? Call at [714-584-6815](tel:+1-714-584-6815) to get professional legal help for your
+correctly and submitted on time Ready to take the next step? Call at [714-877-5840](tel:+1-714-877-5840) to get professional legal help for your
 immigration application.
 
 ## Immigration Interview Preparation Tip
