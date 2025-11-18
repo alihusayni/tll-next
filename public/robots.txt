@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.tuanlelaw.com
+
+# Sitemaps
+Sitemap: https://www.tuanlelaw.com/sitemap.xml
