@@ -9,7 +9,7 @@ interface SiteFooterProps {
 export default function SiteFooter({ className = '' }: SiteFooterProps) {
   const practicesItems = [
     // { text: 'Criminal Immigration Issues', href: '/family-based-immigration' },
-    { text: 'Asylum & Humanitarian Relief', href: '/resources/blog/undocumented-immigrants-u-s-immigration-challenges' },
+    { text: 'Asylum & Humanitarian Relief', href: '/asylum-humanitarian-relief' },
     { text: 'Removal/Deportation Defense', href: '/deportation-defense/removal-proceedings/fighting-removal-proceedings' },
     { text: 'Citizenship & Naturalization Support', href: '/citizenship-naturalization/become-a-us-citizen' },
     { text: 'Family-based Immigration', href: '/us-immigrant-visas/family-based-immigration' },

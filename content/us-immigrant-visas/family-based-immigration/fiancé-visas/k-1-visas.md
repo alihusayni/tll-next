@@ -103,7 +103,7 @@ $1,440.00  :  After marriage, the foreign spouse must apply for a green card thr
 These may include document translations, travel expenses, and legal fees if you choose to work with an immigration lawyer.
 #### Cost-Saving Tip: Accurate and complete documentation can reduce the risk of delays or reapplications, saving you both time and money.
 
-![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/new/marriage.webp)
+![Image depicting a couple celebrating marriage for K-1 visa purposes](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/new/marriage.webp)
 ## **What to Expect at the K-1 Visa Interview**
 
 [[cta]]

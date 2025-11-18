@@ -124,7 +124,7 @@ right to remain silent and to consult an attorney, which are critical defenses d
 * **Preparing for the Unexpected:** Develop a solid contingency plan. This should include arrangements for childcare and
 legal representation, ensuring that your family is safeguarded against the turmoil of unexpected immigration raids. It's
 also wise to have essential documents organized and accessible, further securing your preparedness for any
-situation![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/Undocumented-Immigrants-Charting-Course-Through-US-Immigration-Challenges-600x900.webp)
+situation![A table with passport](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/Undocumented-Immigrants-Charting-Course-Through-US-Immigration-Challenges-600x900.webp)
 
 ## Seeking Legal Solutions: Strategies for Undocumented Immigrants
 
