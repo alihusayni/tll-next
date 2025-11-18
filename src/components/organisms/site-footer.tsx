@@ -10,10 +10,10 @@ export default function SiteFooter({ className = '' }: SiteFooterProps) {
   const practicesItems = [
     // { text: 'Criminal Immigration Issues', href: '/family-based-immigration' },
     { text: 'Asylum & Humanitarian Relief', href: '/resources/blog/undocumented-immigrants-u-s-immigration-challenges' },
-    { text: 'Removal/Deportation Defense', href: '/resources/case-studies/deportation-defense-strategies-to-fight-removal-proceedings' },
-    { text: 'Citizenship & Naturalization Support', href: '/resources/blog/become-u-s-citizen-explained-citizenship-lawyer' },
-    { text: 'Family-based Immigration', href: '/services/family-based-immigration' },
-    { text: 'Business & Employment Immigration', href: '/services/eb-2-employment-based-visas-whatever-you-need-to-know' },
+    { text: 'Removal/Deportation Defense', href: '/deportation-defense/removal-proceedings/fighting-removal-proceedings' },
+    { text: 'Citizenship & Naturalization Support', href: '/citizenship-naturalization/become-a-us-citizen' },
+    { text: 'Family-based Immigration', href: '/us-immigrant-visas/family-based-immigration' },
+    { text: 'Business & Employment Immigration', href: '/us-immigrant-visas/employment-based-immigration/eb-2' },
   ];
 
   const addressItems = [

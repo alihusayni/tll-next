@@ -5,7 +5,7 @@ h1: "How to Prepare a Strong Immigration Application: Tips from a Lawyer"
 summary: "Worried about your immigration application? Avoid costly mistakes with expert tips from Tuan Le Law in Orange County, CA. Call now!"
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/immigration-solutions/how-to-prepare-strong-immigration-application-tips"
+canonical: "https://tuanlelaw.com/resources/how-to-prepare-strong-immigration-application-tips"
 ogTitle: "How to Prepare a Strong Immigration Application: Tips from a Lawyer | Tuan Le Law"
 ogDescription: "Worried about your immigration application? Avoid costly mistakes with expert tips from Tuan Le Law in Orange County, CA. Call now!"
 ogImage: https://www.tuanlelaw.com/filemanager/files/shares/BlogImage/new/Strong-Immigration-Application.jpg
