@@ -203,7 +203,6 @@ To stay organized and ensure easy access to your immigration records, follow the
   responding to USCIS inquiries, [The Law Office of Tuan Le](tel:+1-714-877-5840) is here to help. Our experienced
   immigration attorney can guide you through the entire process, ensuring that your paperwork is complete, accurate, and
   properly stored for future reference.
-  ![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/new/DALL·E)
 
 ## Seeking Legal Advice for Immigration Applications
 

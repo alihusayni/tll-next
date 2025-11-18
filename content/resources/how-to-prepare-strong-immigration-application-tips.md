@@ -93,7 +93,7 @@ For example, if you're applying for a family-based visa, include photos of famil
 verify your relationships By following this checklist, you can be confident that you're submitting a complete and well-prepared immigration
 application. At Tuan Le Law, we help you stay organized and ensure that all the necessary paperwork is submitted without
 mistakes.
-![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/new/top-view-visa-application-arrangement.webp)
+![Top view of organized visa application documents and forms](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/new/top-view-visa-application-arrangement.webp)
 
 ## How to Avoid Immigration Application Rejection
 

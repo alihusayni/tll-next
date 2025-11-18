@@ -77,8 +77,7 @@ The DV Lottery has a strict application window that typically opens in October a
 Pro tip: Submit your application as early as possible to avoid last-minute technical issues or system crashes.
 ### 6️⃣ Save Your Confirmation Number
 After submitting your application, you'll receive a unique confirmation number. Keep it safe! This number is the only way to check if you were selected when results are announced.
-![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/DALL·E)
-![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/DALL·E)![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/DALL·E)
+
 ## Common Mistakes That Can Get Your Application Disqualified
 
 [[cta]]

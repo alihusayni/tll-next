@@ -17,7 +17,7 @@ publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
 readTime: "2 minutes"
 ---
-![](https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/news/covid-cases-increased-in-immigrants.webp)
+![Immigration detention center during COVID-19 pandemic](https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/news/covid-cases-increased-in-immigrants.webp)
 The number of coronavirus cases among immigrants in detention centers has increased by 520% since the start of the year, prompting calls for more vaccination and detainee releases.
 ICE monitored and isolated 1,766 immigrants due to confirmed COVID-19 infections, which is a sixfold jump from January 3, when there were 285 active cases.
 8% of the 22,000 immigrants ICE is currently holding in its network of 200 detention centers, county jails, and for-profit prisons have coronavirus. ICE has reported 11 coronavirus-related deaths of detainees.

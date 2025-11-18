@@ -135,7 +135,7 @@ mail in a few weeks. The process can take 9 to 15 months or longer, based on you
 Adjustment of status can be a complicated and lengthy process, but you Don't have to do it alone. At the Law Office of
 tuan le, we have the experience and expertise to help you get your green card through marriage. You can reach us by
 phone at [714-877-5840](tel:+1-714-877-5840).
-![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/Green-Card-Through-Marriage-How-to-Apply-and-Avoid-Pitfalls.webp)
+![Illustration of green card application process for marriage-based immigration](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/Green-Card-Through-Marriage-How-to-Apply-and-Avoid-Pitfalls.webp)
 
 ## Conditional Permanent Residence
 

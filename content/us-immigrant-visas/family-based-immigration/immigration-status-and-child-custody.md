@@ -41,7 +41,7 @@ Immigration-related custody cases involve heightened legal and emotional challen
 
 ## Expert Legal Guidance at Tuan Le Law
 
-![](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/Immigration-Status-and-Child-Custody-Legal-Considerations-and-Costs5.webp)
+![Tuan Le Law office providing expert legal guidance for immigration and child custody cases](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/Immigration-Status-and-Child-Custody-Legal-Considerations-and-Costs5.webp)
 At Tuan Le Law in Orange County, CA, we understand how deeply personal and challenging child custody cases can be,
 especially when immigration concerns arise. Our dedicated legal team specializes in:
 
