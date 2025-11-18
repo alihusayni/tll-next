@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://tuanlelaw.com/employment-based-immigration/h-1b/us-h1b-and-canada-pr-options-for-laid-off-h1b-visa-holders"
 ogTitle: "US H1B and Canada PR; Options for Laid-Off H1B Visa Holders"
 ogDescription: "We compare the benefits of US H1B and Canada PR, plus other options for H1B workers, to help you make the best decision."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/BlogImage/US-H1B-and-Canada-PR-Options-for-Laid-Off-H1B-Visa-Holders-1200x632.jpg
+ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/US-H1B-and-Canada-PR-Options-for-Laid-Off-H1B-Visa-Holders-1200x632.webp
 twitterCard: "summary_large_image"
 twitterTitle: "US H1B and Canada PR; Options for Laid-Off H1B Visa Holders"
 twitterDescription: "We compare the benefits of US H1B and Canada PR, plus other options for H1B workers, to help you make the best decision."

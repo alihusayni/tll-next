@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://tuanlelaw.com/us-immigrant-visas"
 ogTitle: "Understanding U.S. Immigrant Visas: Your Complete Guide to Permanent Residency"
 ogDescription: "US immigrant visas are available for family members of citizens/permanent residents and those who can work in the US. Find the right one for yourself."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/BlogImage/new/DALL·E 2025-01-15 12.08.18 - A wide-aspect ratio, realistic map of the United States suitable for display in a lawyer's office. The map features accurate state boundaries, major c.jpg
+ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new/DALL·E 2025-01-15 12.08.18 - A wide-aspect ratio, realistic map of the United States suitable for display in a lawyer's office. The map features accurate state boundaries, major c.webp
 twitterCard: "summary_large_image"
 twitterTitle: "The Crucial Role of Immigration Lawyers in U.S. Residency and Citizenship"
 twitterDescription: "Secure and Accelerate Your Immigration with tuan le, a Renowned Immigration Lawyer in OC, Ensuring a Smooth Transition to Residency."

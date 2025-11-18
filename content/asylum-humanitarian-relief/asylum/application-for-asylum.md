@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://tuanlelaw.com/asylum-humanitarian-relief/asylum/application-for-asylum-in-the-usa"
 ogTitle: "Application for Asylum in the USA | Law Office of Tuan Le"
 ogDescription: "Application for asylum in the US is a multi-step process that can be confusing for foreign individuals. Read our simple step-by-step guide."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/BlogImage/application-for-asylum-in-the-usa-1200x794.jpg
+ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/application-for-asylum-in-the-usa-1200x794.webp
 twitterCard: "summary_large_image"
 twitterTitle: "Application for Asylum in the USA | Law Office of Tuan Le"
 twitterDescription: "Application for asylum in the US is a multi-step process that can be confusing for foreign individuals. Read our simple step-by-step guide."
-twitterImage: "https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/BlogImage/application-for-asylum-in-the-usa-1200x794.jpg"
+twitterImage: "https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/BlogImage/application-for-asylum-in-the-usa-1200x794.webp"
 publishedTime: "2021-09-11T00:00:00.000Z"
 modifiedTime: "2024-09-20T14:30:00.000Z"
 readTime: "7 min read"

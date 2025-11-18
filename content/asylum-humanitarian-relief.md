@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://tuanlelaw.com/asylum-humanitarian-relief/undocumented-immigrants-u-s-immigration-challenges"
 ogTitle: "Undocumented Immigrants & The Complexities of US Immigration Law | Tuan Le Law"
 ogDescription: "Facing immigration challenges? Tuan Le in CA, can help. Understand your rights, explore pathways to legalization, and advocate for change."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/BlogImage/Undocumented-Immigrants-Charting-Course-Through-US-Immigration-Challenges2.jpg
+ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/Undocumented-Immigrants-Charting-Course-Through-US-Immigration-Challenges2.webp
 twitterCard: "summary_large_image"
 twitterTitle: "Undocumented Immigrants twitterTitle: Immigration Law Services | Law Office of Tuan Le The Complexities of US Immigration Law | Tuan Le Law"
 twitterDescription: "Facing immigration challenges? Tuan Le in CA, can help. Understand your rights, explore pathways to legalization, and advocate for change."

@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/resources/slow-immigration-causes-worker-shortages"
 ogTitle: "Slow Immigration Leads to Worker Shortages"
 ogDescription: "Latest immigration news and updates from Tuan Le Law."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/news/slow-immigration-less-workers-orange-ca.jpg
+ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/news/slow-immigration-less-workers-orange-ca.webp
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration News and Updates"
 twitterDescription: "Latest immigration news and updates from Tuan Le Law."

@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://tuanlelaw.com/family-based-immigration"
 ogTitle: "Understanding Family-based immigration"
 ogDescription: "Discover the essentials of family-based immigration to the USA, visa types, and application steps, with Tuan Le Law Office in OC, CA."
-ogImage: https://www.tuanlelaw.com//filemanager/files/shares/BlogImage/family-with-daughter-holding-passports-luggage-ready-travel-2.jpg
+ogImage: https://www.tuanlelaw.com//files/shares/BlogImage/family-with-daughter-holding-passports-luggage-ready-travel-2.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Understanding Family-based immigration"
 twitterDescription: "Discover the essentials of family-based immigration to the USA, visa types, and application steps, with Tuan Le Law Office in OC, CA."

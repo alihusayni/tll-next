@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/resources/a-path-to-legalization-for-undocumented-immigrants"
 ogTitle: "A Path to Legalization for Undocumented Immigrants"
 ogDescription: "Latest immigration news and updates from Tuan Le Law."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/news/3879511-1200x800.jpg
+ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/news/3879511-1200x800.webp
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration News and Updates"
 twitterDescription: "Latest immigration news and updates from Tuan Le Law."

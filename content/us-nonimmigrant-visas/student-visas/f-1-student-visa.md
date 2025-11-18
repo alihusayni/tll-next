@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://tuanlelaw.com/us-visas/us-nonimmigrant-visas/student-visas/f-1-student-visa-application-and-embassy-interview"
 ogTitle: "F-1 Student Visa Application and Embassy Interview"
 ogDescription: "Latest immigration news and updates from Tuan Le Law."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/BlogImage/F-1-Student-Visa-Application-and-Embassy-Interview-1200x800.jpg
+ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/F-1-Student-Visa-Application-and-Embassy-Interview-1200x800.webp
 twitterCard: "summary_large_image"
 twitterTitle: "F-1 Student Visa Application and Embassy Interview"
 twitterDescription: "Expert immigration law advice and services from Tuan Le."

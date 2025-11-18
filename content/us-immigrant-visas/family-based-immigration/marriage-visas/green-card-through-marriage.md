@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://tuanlelaw.com/family-based-immigration/marriage-visas/green-card-through-marriage"
 ogTitle: "Green Card Through Marriage: How to Apply and Avoid Pitfalls"
 ogDescription: "Marriage Visa: learn how our experienced immigration lawyer in OC, CA can guide you through the process of achieving your green card"
-ogImage: https://www.tuanlelaw.com//filemanager/files/shares/BlogImage/Green-Card-Through-Marriage-How-to-Apply-and-Avoid-Pitfalls2 (1).jpg
+ogImage: https://www.tuanlelaw.com//files/shares/BlogImage/Green-Card-Through-Marriage-How-to-Apply-and-Avoid-Pitfalls2 (1).jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Green Card Through Marriage: How to Apply and Avoid Pitfalls"
 twitterDescription: "Marriage Visa: learn how our experienced immigration lawyer in OC, CA can guide you through the process of achieving your green card"
