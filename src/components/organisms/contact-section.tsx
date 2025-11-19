@@ -6,18 +6,16 @@ export default function ContactSection() {
             <div className="max-w-[95rem] mx-auto">
                 <div className="flex flex-col lg:px-16 lg:py-32 lg:flex-row gap-18 lg:gap-16">
                     <div className="flex-1 max-w-[36.25rem]">
-                        <h2 className="text-[40px] lg:text-[62px] font-inter-tight font-semibold text-gray-900 mb-8 leading-tight">
+                        <h2 className="text-[40px] lg:text-[62px] font-inter-tight font-semibold text-gray-900 mb-16 leading-tight">
                             Get Legal Help Today!
                         </h2>
-                        <p className="text-xl lg:text-2xl text-[#969799] mb-4 leading-relaxed lg:leading-7">
+                        <p className="text-xl lg:text-2xl text-[#747D85] font-semibold font-inter mb-6 leading-[26px] lg:leading-8">
                             Need guidance from an experienced immigration attorney?
                         </p>
-                        <p className="text-xl lg:text-2xl text-[#969799] leading-relaxed lg:leading-7">
+                        <p className="text-lg text-[#747D85] font-inter leading-6 lg:leading-[22px]">
                             Mr. Le has granted you a 30-minute consultation session.
                         </p>
-                        <p className="text-xl lg:text-2xl text-[#969799] leading-relaxed lg:leading-7">
-                            Get in touch right now!
-                        </p>
+
                     </div>
                     <div className="flex-1">
                         <ContactForm/>

@@ -6,10 +6,9 @@ interface MainNavProps {
 
 export default function MainNav({ className = '' }: MainNavProps) {
   const navItems = [
-    { href: '#about', label: 'about' },
-    { href: '#testimonials', label: 'Testimonials' },
-    { href: '#why-tuan-le', label: 'Why Tuan le?' },
-    { href: '#contact', label: 'Contact us' }
+    { href: '/testimonials', label: 'Testimonials' },
+    { href: '/faq', label: 'FAQ' },
+    { href: '/blog', label: 'Blog' }
   ];
 
   return (

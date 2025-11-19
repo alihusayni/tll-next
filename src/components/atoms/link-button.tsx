@@ -4,19 +4,26 @@ interface LinkButtonProps {
   text: string;
   href: string;
   className?: string;
+  textColor?: string;
   children?: ReactNode;
+  useGroupHover?: boolean;
 }
 
 export default function LinkButton({
   text,
   href,
   className = '',
-  children
+  textColor = 'text-white',
+  children,
+  useGroupHover = false
 }: LinkButtonProps) {
+  const hoverTextClass = useGroupHover ? 'group-hover:text-[#E55B1E]' : 'hover:text-[#E55B1E]';
+  const hoverRotateClass = useGroupHover ? 'group-hover:rotate-45' : 'group-hover:rotate-45';
+
   return (
     <a
       href={href}
-      className={`inline-flex items-center font-inter font-medium text-base text-white hover:text-[#E55B1E] transition-colors group ${className}`}
+      className={`inline-flex items-center font-inter font-medium text-base ${textColor} ${hoverTextClass} transition-colors group ${className}`}
     >
       {text}
       <svg
@@ -24,7 +31,7 @@ export default function LinkButton({
         height="28"
         viewBox="0 0 20 20"
         fill="none"
-        className="group-hover:rotate-45 transition-transform"
+        className={`${hoverRotateClass} transition-transform`}
       >
         <path
           d="M7.5 12.75L12.75 7.5M12.75 7.5H9M12.75 7.5V11.25"

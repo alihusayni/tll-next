@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://tuanlelaw.com/immigration-solutions/how-to-avoid-immigration-application-errors"
 ogTitle: "Avoiding Mistakes on Immigration Applications: Essential Tips for USCIS Approval"
 ogDescription: "Avoid mistakes on immigration applications for US visas, green cards, naturalization, etc. with this comprehensive guide. Save money and time!"
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new/DALL·E 2025-02-16 16.06.25 - A realistic image of a stressed man sitting at a desk with a US visa application form in front of him. He is wearing a business suit, holding his head.webp
+ogImage: "https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new/DALL·E 2025-02-16 16.06.25 - A realistic image of a stressed man sitting at a desk with a US visa application form in front of him. He is wearing a business suit, holding his head.webp"
 twitterCard: "summary_large_image"
 twitterTitle: "Avoiding Mistakes on Immigration Applications: Essential Tips for USCIS Approval"
 twitterDescription: "Avoid mistakes on immigration applications for US visas, green cards, naturalization, etc. with this comprehensive guide. Save money and time!"

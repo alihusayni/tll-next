@@ -3,7 +3,7 @@ import HeroSection from '@/components/organisms/hero-section';
 import AboutSection from '@/components/organisms/about-section';
 import CertificationSection from '@/components/organisms/certification-section';
 import TestimonialSection from '@/components/organisms/testimonial-section';
-import WhyTuanSection from '@/components/organisms/why-tuan-section';
+import ArticlesSection from '@/components/organisms/articles-section';
 import ContactSection from '@/components/organisms/contact-section';
 import SiteFooter from '@/components/organisms/site-footer';
 import type { Metadata } from 'next';
@@ -37,7 +37,7 @@ export default function Home() {
             <CertificationSection/>
             <AboutSection/>
             <TestimonialSection/>
-            <WhyTuanSection/>
+            <ArticlesSection/>
             <ContactSection/>
             <SiteFooter/>
         </>

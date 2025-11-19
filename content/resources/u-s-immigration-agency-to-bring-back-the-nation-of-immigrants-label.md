@@ -1,12 +1,12 @@
 ---
 metaTitle: "US Immigration Agency Restores 'Nation of Immigrants' Label"
 metaDescription: "The US immigration agency is bringing back the 'Nation of Immigrants' label. Stay updated on immigration news and policy changes with Tuan Le Law."
-h1: "U.S. Immigration Agency to Bring Back "The Nation of Immigrants" Label"
+h1: "U.S. Immigration Agency to Bring Back 'The Nation of Immigrants' Label"
 summary: "Latest immigration news and updates from Tuan Le Law."
 author: "Tuan Le"
 robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/resources/u-s-immigration-agency-to-bring-back-the-nation-of-immigrants-label"
-ogTitle: "U.S. Immigration Agency to Bring Back "The Nation of Immigrants" Label"
+ogTitle: "U.S. Immigration Agency to Bring Back 'The Nation of Immigrants' Label"
 ogDescription: "Latest immigration news and updates from Tuan Le Law."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/news/us-immigration-statement.webp
 twitterCard: "summary_large_image"
