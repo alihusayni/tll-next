@@ -4,8 +4,8 @@ import CertificationBadge from '../molecules/certification-badge';
 
 export default function CertificationSection() {
   return (
-    <section className="bg-[#00356E] py-16 px-4 md:py-24 md:px-8 lg:py-32 lg:px-16 m-0">
-      <div className="max-w-[82rem] mx-auto">
+    <section className="bg-[#00356E] py-16 px-4 md:py-24 md:px-8 lg:py-32 lg:px-16 xl:px-0 m-0">
+      <div className="max-w-[86.5rem] mx-auto">
         <h2 className="text-4xl md:text-5xl lg:text-[62px] max-w-[38.5rem] lg:max-w-[78.5rem] text-[#9199B9] text-center font-inter font-semibold leading-[1.16] mb-32 mx-auto">
           Your Chances Are <span className="text-white" >Stronger</span> Than You Think &mdash; <span className="text-white">Protection</span> and <span className="text-white">Guidance</span> through Complexity
         </h2>

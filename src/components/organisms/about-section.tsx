@@ -6,8 +6,8 @@ import ProfileImages from '../molecules/profile-images';
 
 export default function AboutSection() {
     return (
-        <section id="about" className="bg-[#E8EDF2] py-32 px-5 md:px-16 m-0 scroll-mt-24 overflow-x-clip">
-            <div className="max-w-[95rem] mx-auto flex flex-col items-center gap-32">
+        <section id="about" className="bg-[#E8EDF2] py-32 px-5 md:px-16 xl:px-0 m-0 scroll-mt-24 overflow-x-clip">
+            <div className="max-w-[86.5rem] mx-auto flex flex-col items-center gap-32">
                 <div className="flex flex-col lg:flex-row justify-between items-start gap-8 w-full">
                     <div className="flex flex-col gap-25">
                         <h2 className="font-inter-tight font-semibold text-[34px] lg:text-[52px] max-w-[23.5rem] lg:max-w-[40rem] leading-[42px] lg:leading-[60px] tracking-[-0.02em] text-[#071C32]">
