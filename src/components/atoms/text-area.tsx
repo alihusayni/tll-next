@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 interface TextAreaProps {
   label: string;
   placeholder: string;
@@ -15,6 +17,10 @@ export default function TextArea({
   id,
   error = false
 }: TextAreaProps) {
+  const [isFocused, setIsFocused] = useState(false);
+
+  const borderColor = error ? '#D93644' : isFocused ? '#FF7031' : '#4B5563';
+
   return (
     <>
       <label htmlFor={id} className="sr-only">{label}</label>
@@ -23,8 +29,10 @@ export default function TextArea({
         placeholder={placeholder}
         value={value}
         onChange={(e) => onChange(e.target.value)}
+        onFocus={() => setIsFocused(true)}
+        onBlur={() => setIsFocused(false)}
         className="w-full px-8 py-4 border-2 rounded-sm text-lg text-gray-900 placeholder:text-gray-500 focus:outline-none resize-none"
-        style={{ borderColor: error ? '#D93644' : '#4B5563' }}
+        style={{ borderColor }}
         rows={4}
       />
     </>

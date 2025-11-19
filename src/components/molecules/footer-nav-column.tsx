@@ -7,17 +7,32 @@ interface FooterNavColumnProps {
 
 export default function FooterNavColumn({ title, items }: FooterNavColumnProps) {
   return (
-    <div className={`flex flex-col gap-4 ${title === '' ? 'max-w-[15rem]' : ''}`}>
+    <div className={`flex pr-20 flex-col gap-4 ${title === '' ? 'max-w-[15rem]' : ''}`}>
       {title && <h3 className="font-inter-tight font-semibold text-base uppercase text-[#969799]">{title}</h3>}
        <ul className={`flex flex-col ${title === '' ? 'gap-12' : 'gap-3'}`}>
         {items.map((item, index) => (
           <li key={index} className="flex flex-col gap-2">
             {item.label && <span className="font-inter-tight font-semibold text-base uppercase text-[#969799]">{item.label}</span>}
-            {item.href ? (
-               <Link href={item.href} className="font-inter text-base text-[#071C32] hover:text-[#FF7031] active:text-[#FF7031] transition-colors">
-                {item.text}
-              </Link>
-            ) : (
+             {item.href ? (
+                <Link href={item.href} className="inline-flex group items-center font-inter text-base text-[#49535D] hover:text-[#FF7031] active:text-[#FF7031] transition-colors">
+                 {item.text}
+                 <svg
+                   width="28"
+                   height="28"
+                   viewBox="0 0 20 20"
+                   fill="none"
+                   className="ml-2 group-hover:rotate-45 transition-transform"
+                 >
+                   <path
+                     d="M7.5 12.75L12.75 7.5M12.75 7.5H9M12.75 7.5V11.25"
+                     stroke="currentColor"
+                     strokeWidth="1.125"
+                     strokeLinecap="round"
+                     strokeLinejoin="round"
+                   />
+                 </svg>
+               </Link>
+             ) : (
               <span className="font-inter text-base text-[#071C32]">{item.text}</span>
             )}
           </li>

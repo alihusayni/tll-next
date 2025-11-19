@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 interface TextInputProps {
   label: string;
   placeholder: string;
@@ -19,6 +21,10 @@ export default function TextInput({
   inputMode,
   error = false
 }: TextInputProps) {
+  const [isFocused, setIsFocused] = useState(false);
+
+  const borderColor = error ? '#D93644' : isFocused ? '#FF7031' : '#4B5563';
+
   return (
     <>
       <label htmlFor={id} className="sr-only">{label}</label>
@@ -29,8 +35,10 @@ export default function TextInput({
         placeholder={placeholder}
         value={value}
         onChange={(e) => onChange(e.target.value)}
+        onFocus={() => setIsFocused(true)}
+        onBlur={() => setIsFocused(false)}
         className="w-full px-8 py-3 border-2 rounded-sm text-lg text-gray-900 placeholder:text-gray-500 focus:outline-none"
-        style={{ borderColor: error ? '#D93644' : '#4B5563' }}
+        style={{ borderColor }}
       />
     </>
   );
