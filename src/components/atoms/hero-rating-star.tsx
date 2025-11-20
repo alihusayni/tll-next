@@ -1,10 +1,10 @@
 import React from 'react';
 
-interface RatingStarProps {
+interface HeroRatingStarProps {
   rating?: number;
 }
 
-const RatingStar: React.FC<RatingStarProps> = ({ rating = 5 }) => {
+const HeroRatingStar: React.FC<HeroRatingStarProps> = ({ rating = 5 }) => {
   return (
     <div
       className="flex items-center"
@@ -17,7 +17,7 @@ const RatingStar: React.FC<RatingStarProps> = ({ rating = 5 }) => {
           width="21"
           height="21"
           viewBox="0 0 24 24"
-          fill={i < rating ? '#FFAD31' : '#D2D5D9'}
+          fill={i < rating ? '#FFFFFF' : '#D2D5D9'}
           xmlns="http://www.w3.org/2000/svg"
           className="w-[21px] h-[21px]"
         >
@@ -28,4 +28,4 @@ const RatingStar: React.FC<RatingStarProps> = ({ rating = 5 }) => {
   );
 };
 
-export default RatingStar;
+export default HeroRatingStar;

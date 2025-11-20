@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import SiteHeader from './site-header';
+import HeroRatingStar from '../atoms/hero-rating-star';
 
 interface HeroSectionProps {
   className?: string;
@@ -28,7 +29,7 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
       </div>
 
       {/* Text Container */}
-      <div className="relative z-10 w-full max-w-[86.5rem] mx-auto flex flex-col gap-12 px-4 md:px-8 lg:px-16 xl:px-0 pb-16 mt-auto">
+      <div className="relative z-10 w-full max-w-[86.5rem] mx-auto flex flex-col gap-16 px-4 md:px-8 lg:px-16 xl:px-0 pb-16 mt-auto">
         {/* Header Container */}
         <div className="flex flex-col gap-4">
           {/* Name */}
@@ -59,13 +60,40 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
           </span>
         </div>
 
-        {/* Button */}
-         <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="group self-start bg-[#E55B1E] text-white font-inter-tight font-semibold text-[18px] rounded-md hover:bg-[#FF7031] active:bg-[#FF7031] transition-all w-[19.375rem] h-[3.25rem] hover:w-[20.5rem] active:w-[20.5rem] flex items-center justify-start gap-4 pl-6">
-           30 min FREE CONSULTING
-           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" className="transition-transform group-hover:rotate-45 group-active:rotate-45">
-            <path d="M1 13L13 1M13 1H4M13 1V10" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-        </button>
+        {/* Button and Rating Container */}
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-8">
+          {/* Button */}
+           <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="group self-start bg-[#E55B1E] text-white font-inter-tight font-semibold text-[18px] rounded-md hover:bg-[#FF7031] active:bg-[#FF7031] transition-all w-[19.375rem] h-[3.25rem] hover:w-[20.5rem] active:w-[20.5rem] flex items-center justify-start gap-4 pl-6">
+             30 min FREE CONSULTING
+             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" className="transition-transform group-hover:rotate-45 group-active:rotate-45">
+              <path d="M1 13L13 1M13 1H4M13 1V10" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </button>
+
+          {/* Rating */}
+          <a
+            href="https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col group items-start gap-2 rounded-lg transition-transform hover:bg-white/10 active:bg-white/10 !duration-700 p-4 cursor-pointer"
+          >
+            {/* Stars - Top Line */}
+            <HeroRatingStar rating={5} />
+            
+            {/* Rating and Reviews - Second Line */}
+            <div className="flex items-center gap-2">
+              <span className="font-inter-tight font-semibold text-lg text-white">
+                5.0/5 RATING
+              </span>
+              <span className="font-inter-tight font-medium text-sm text-[#D2D5D9]">
+                70+ REVIEWS
+              </span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white transition-all duration-700 group-hover:rotate-45 group-active:rotate-45 group-hover:text-white group-active:text-white">
+                  <path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+            </div>
+          </a>
+        </div>
       </div>
     </section>
   );
