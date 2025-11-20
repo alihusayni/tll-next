@@ -12,6 +12,7 @@
   "dependencies": {
     "@types/react-google-recaptcha": "^2.1.9",
     "gray-matter": "^4.0.3",
+    "gsap": "^3.13.0",
     "next": "15.5.5",
     "next-mdx-remote": "^5.0.0",
     "react": "19.1.0",

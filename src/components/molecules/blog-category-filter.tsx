@@ -104,7 +104,7 @@ export default function BlogCategoryFilter({
         <button
           onClick={scrollLeft}
           aria-label="Scroll left"
-          className="w-8 h-8 bg-[#e8edf2] rounded-full border border-[#D2D5D9] text-[#747D85] flex items-center justify-center hover:border-[#FF7031] hover:text-[#FF7031] transition-colors"
+          className="w-8 h-8 bg-[#E8EDF2] rounded-full border border-[#D2D5D9] text-[#747D85] flex items-center justify-center hover:border-[#FF7031] hover:text-[#FF7031] transition-colors"
         >
           <svg width="12" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15 6L1 6M1 6L6 11M1 6L6 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -118,7 +118,7 @@ export default function BlogCategoryFilter({
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUpOrLeave}
         onMouseLeave={handleMouseUpOrLeave}
-        className={`box-border flex gap-2 items-start justify-start px-0 py-4 w-full overflow-x-auto scrollbar-hide ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
+        className={`box-border flex gap-2 items-center justify-center px-0 py-4 w-full overflow-x-auto scrollbar-hide ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
         style={{
           scrollbarWidth: 'none',
           msOverflowStyle: 'none',
@@ -133,7 +133,7 @@ export default function BlogCategoryFilter({
               key={category.id}
               onClick={() => handleCategoryClick(category.id)}
               className={`
-                box-border flex gap-2 items-center justify-center px-3 md:px-4 py-2 md:py-3 rounded-full shrink-0 transition-colors
+                box-border flex gap-2 items-center justify-center px-4 py-3 rounded-full shrink-0 transition-colors
                 ${isActive 
                   ? 'bg-[#E1E6EB]' 
                   : 'bg-transparent hover:bg-[#E1E6EB]'
@@ -141,9 +141,9 @@ export default function BlogCategoryFilter({
               `}
               aria-current={isActive ? 'page' : undefined}
             >
-              <div className="flex flex-col justify-center">
+              <div className="flex flex-col justify-center leading-0">
                 <p className={`
-                  font-inter-tight font-medium text-base md:text-lg leading-[20px] md:leading-[22px] whitespace-nowrap
+                  font-inter-tight font-medium text-lg leading-7 whitespace-nowrap
                   ${isActive ? 'text-[#071C32]' : 'text-[#747D85]'}
                 `}>
                   {category.label}
@@ -159,7 +159,7 @@ export default function BlogCategoryFilter({
         <button
           onClick={scrollRight}
           aria-label="Scroll right"
-          className="w-8 h-8 bg-[#e8edf2] rounded-full border border-[#D2D5D9] text-[#747D85] flex items-center justify-center hover:border-[#FF7031] hover:text-[#FF7031] transition-colors"
+          className="w-8 h-8 bg-[#E8EDF2] rounded-full border border-[#D2D5D9] text-[#747D85] flex items-center justify-center hover:border-[#FF7031] hover:text-[#FF7031] transition-colors"
         >
           <svg width="12" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1 6L15 6M15 6L10 1M15 6L10 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

@@ -16,6 +16,7 @@ twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2020-08-16T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "8 min read"
+featured: true
 ---
 
 Many people dream of finding a home and a purpose in the United States, especially if they have a family member, an

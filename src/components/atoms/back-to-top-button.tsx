@@ -1,25 +1,62 @@
 'use client';
 
-import UiButton from './ui-button';
+import { useState, useEffect } from 'react';
 
-export default function BackToTopButton() {
+interface BackToTopButtonProps {
+  className?: string;
+}
+
+export default function BackToTopButton({ className = '' }: BackToTopButtonProps) {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 500) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener('scroll', toggleVisibility);
+    return () => window.removeEventListener('scroll', toggleVisibility);
+  }, []);
+
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
   };
 
+  if (!isVisible) {
+    return null;
+  }
+
   return (
-    <div className="flex justify-end my-8">
-      <UiButton variant="dark-outline" size="md" onClick={scrollToTop}>
+    <button
+      onClick={scrollToTop}
+      className={`border-2 border-[#071C32] rounded-md px-6 py-4 h-12 flex items-center justify-center gap-4 hover:bg-[#071C32] hover:text-white transition-colors group ${className}`}
+      aria-label="Back to top"
+    >
+      <span className="font-inter-tight font-semibold text-sm leading-7 text-[#071C32] uppercase group-hover:text-white">
         Back to Top
-          <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M6.75 16.75L6.75 0.75M6.75 0.75L12.75 6.75M6.75 0.75L0.75 6.75"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-              />
-          </svg>
-      </UiButton>
-    </div>
+      </span>
+      <svg 
+        width="24" 
+        height="24" 
+        viewBox="0 0 24 24" 
+        fill="none"
+        className="group-hover:-translate-y-1 transition-transform"
+      >
+        <path 
+          d="M12 19V5M12 5L5 12M12 5L19 12" 
+          stroke="currentColor" 
+          strokeWidth="2" 
+          strokeLinecap="round" 
+          strokeLinejoin="round"
+        />
+      </svg>
+    </button>
   );
 }
