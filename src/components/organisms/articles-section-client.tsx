@@ -1,18 +1,18 @@
 'use client';
 
-import React, { useRef } from 'react';
+import React, {useRef} from 'react';
 import ArticleCard from '../molecules/article-card';
 import LinkButton from '../atoms/link-button';
 
 interface Article {
-  title: string;
-  description: string;
-  image: string;
-  link: string;
+    title: string;
+    description: string;
+    image: string;
+    link: string;
 }
 
 interface ArticlesSectionClientProps {
-  articles: Article[];
+    articles: Article[];
 }
 
 export default function ArticlesSectionClient({ articles }: ArticlesSectionClientProps) {
@@ -28,22 +28,22 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
   const rAFRef = useRef<number>(null);
   const isDownRef = useRef(false);
 
-  const checkScroll = () => {
-    if (scrollRef.current) {
-      const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
-      setCanScrollLeft(scrollLeft > 0);
-      setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 1);
-    }
-  };
+    const checkScroll = () => {
+        if (scrollRef.current) {
+            const {scrollLeft, scrollWidth, clientWidth} = scrollRef.current;
+            setCanScrollLeft(scrollLeft > 0);
+            setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 1);
+        }
+    };
 
-  React.useEffect(() => {
-    checkScroll();
-    const ref = scrollRef.current;
-    if (ref) {
-      ref.addEventListener('scroll', checkScroll);
-      return () => ref.removeEventListener('scroll', checkScroll);
-    }
-  }, []);
+    React.useEffect(() => {
+        checkScroll();
+        const ref = scrollRef.current;
+        if (ref) {
+            ref.addEventListener('scroll', checkScroll);
+            return () => ref.removeEventListener('scroll', checkScroll);
+        }
+    }, []);
 
   const smoothScroll = (direction: 'left' | 'right') => {
     if (!scrollRef.current) return;

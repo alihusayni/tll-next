@@ -19,7 +19,7 @@ export default function NavLink({href, children, isActive = false, hasDropdown =
         }
     };
 
-    const linkClassName = `relative font-inter-tight font-medium text-lg leading-[22px] whitespace-nowrap text-white before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:bg-white before:transition-all before:duration-300 hover:before:w-full active:before:w-full ${isActive ? '!text-[#FF7031] before:bg-[#FF7031]' : ''} ${className} ${hasDropdown ? 'flex items-center gap-2' : ''}`;
+    const linkClassName = `relative font-inter-tight font-medium text-lg leading-[22px] whitespace-nowrap text-white before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:bg-white before:transition-all before:duration-300 hover:before:w-full ${isActive ? '!text-[#FF7031] before:bg-[#FF7031]' : ''} ${className} ${hasDropdown ? 'flex items-center gap-2' : ''}`;
 
     if (href) {
         return (

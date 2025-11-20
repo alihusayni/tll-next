@@ -17,8 +17,8 @@ export default function LinkButton({
   children,
   useGroupHover = false
 }: LinkButtonProps) {
-  const hoverTextClass = useGroupHover ? 'group-hover:text-[#E55B1E]' : 'hover:text-[#E55B1E]';
-  const hoverRotateClass = useGroupHover ? 'group-hover:rotate-45' : 'group-hover:rotate-45';
+  const hoverTextClass = useGroupHover ? 'group-hover:text-[#E55B1E] group-active:text-[#E55B1E]' : 'hover:text-[#E55B1E] group-active:text-[#E55B1E]';
+  const hoverRotateClass = useGroupHover ? 'group-hover:rotate-45 group-active:rotate-45' : 'group-hover:rotate-45 group-active:rotate-45';
 
   return (
     <a
