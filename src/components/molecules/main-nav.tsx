@@ -3,9 +3,11 @@ import NavLink from '../atoms/nav-link';
 
 interface MainNavProps {
   className?: string;
+  onItemClick?: () => void;
+  mobileView?: boolean;
 }
 
-export default function MainNav({ className = '' }: MainNavProps) {
+export default function MainNav({ className = '', onItemClick, mobileView = false }: MainNavProps) {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const navRef = useRef<HTMLElement>(null);
 
@@ -42,12 +44,72 @@ export default function MainNav({ className = '' }: MainNavProps) {
   const handleClick = (href: string) => {
     if (navItems.find(item => item.href === href)?.subItems) {
       setOpenDropdown(openDropdown === href ? null : href);
+    } else {
+      onItemClick?.();
     }
   };
 
   const handleDropdownItemClick = () => {
     setOpenDropdown(null);
+    onItemClick?.();
   };
+
+  if (mobileView) {
+    return (
+      <nav ref={navRef} className={`${className}`}>
+        {navItems.map((item) => (
+          <div key={item.href} className="w-full">
+            {/* Main menu item */}
+            <div className="py-4 px-4">
+              <NavLink
+                href={item.subItems ? undefined : item.href}
+                hasDropdown={false} // Disable default dropdown arrow in mobile view
+                isActive={openDropdown === item.href}
+                onClick={item.subItems ? () => handleClick(item.href) : undefined}
+                className={`text-white text-[30px] font-inter-tight font-semibold leading-[26px] uppercase ${item.subItems ? 'cursor-pointer flex items-center justify-between gap-4' : ''}`}
+              >
+                {item.label}
+                {item.subItems && (
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className={`transition-transform duration-200 ${openDropdown === item.href ? 'rotate-180' : ''}`}
+                  >
+                    <path
+                      d="M6 9L12 15L18 9"
+                      stroke="#D2D5D9"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                )}
+              </NavLink>
+            </div>
+            
+            {/* Submenu items */}
+            {item.subItems && openDropdown === item.href && (
+              <div className="rounded-lg mx-4 mb-4 p-8">
+                {item.subItems.map((subItem) => (
+                  <NavLink
+                    key={subItem.href}
+                    href={subItem.href}
+                    className="block text-[#D2D5D9] text-base font-inter font-normal leading-5 mb-6 last:mb-0 active:text-[#FF7031] transition-colors"
+                    onClick={handleDropdownItemClick}
+                  >
+                    {subItem.label}
+                  </NavLink>
+                ))}
+              </div>
+            )}
+          </div>
+        ))}
+      </nav>
+    );
+  }
 
   return (
     <nav ref={navRef} className={`flex items-center gap-10 ${className}`}>
