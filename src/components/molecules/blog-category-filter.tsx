@@ -1,5 +1,7 @@
 'use client';
 
+import { useRef, useState, useEffect } from 'react';
+
 interface Category {
   id: string;
   label: string;
@@ -18,36 +20,108 @@ export default function BlogCategoryFilter({
   onCategoryChange,
   className = ''
 }: BlogCategoryFilterProps) {
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(false);
+
+  const checkScroll = () => {
+    if (scrollRef.current) {
+      const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
+      setCanScrollLeft(scrollLeft > 0);
+      // Allow a small buffer (1px) for calculation precision
+      setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 1);
+    }
+  };
+
+  useEffect(() => {
+    checkScroll();
+    const ref = scrollRef.current;
+    if (ref) {
+      ref.addEventListener('scroll', checkScroll);
+      window.addEventListener('resize', checkScroll);
+      return () => {
+        ref.removeEventListener('scroll', checkScroll);
+        window.removeEventListener('resize', checkScroll);
+      };
+    }
+  }, [categories]);
+
+  const scrollLeft = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: -200, behavior: 'smooth' });
+    }
+  };
+
+  const scrollRight = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: 200, behavior: 'smooth' });
+    }
+  };
+
   return (
-    <div className={`border-b border-[#D2D5D9] box-border flex gap-2 items-start justify-start md:justify-center px-0 py-4 w-full overflow-x-auto scrollbar-hide ${className}`}
-      style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
-      {categories.map((category) => {
-        const isActive = category.id === activeCategory;
-        
-        return (
-          <button
-            key={category.id}
-            onClick={() => onCategoryChange(category.id)}
-            className={`
-              box-border flex gap-2 items-center justify-center px-3 md:px-4 py-2 md:py-3 rounded-full shrink-0 transition-colors
-              ${isActive 
-                ? 'bg-[#E1E6EB]' 
-                : 'bg-transparent hover:bg-[#F7F9FC]'
-              }
-            `}
-            aria-current={isActive ? 'page' : undefined}
-          >
-            <div className="flex flex-col justify-center leading-[0]">
-              <p className={`
-                font-inter-tight font-medium text-base md:text-lg leading-[20px] md:leading-[22px] whitespace-nowrap
-                ${isActive ? 'text-[#071C32]' : 'text-[#747D85]'}
-              `}>
-                {category.label}
-              </p>
-            </div>
-          </button>
-        );
-      })}
+    <div className={`relative flex items-center w-full border-b border-[#D2D5D9] ${className}`}>
+      {/* Left Navigation Button */}
+      <div className={`absolute left-0 z-10 flex items-center h-full bg-gradient-to-r from-[#E8EDF2] via-[#E8EDF2] to-transparent pr-8 pl-0 transition-opacity duration-300 ${canScrollLeft ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
+        <button
+          onClick={scrollLeft}
+          aria-label="Scroll left"
+          className="w-8 h-8 rounded-full bg-white border border-[#D2D5D9] text-[#747D85] flex items-center justify-center shadow-sm hover:border-[#FF7031] hover:text-[#FF7031] transition-colors"
+        >
+          <svg width="12" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 6L1 6M1 6L6 11M1 6L6 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <div 
+        ref={scrollRef}
+        className="box-border flex gap-2 items-start justify-start px-0 py-4 w-full overflow-x-auto scrollbar-hide"
+        style={{
+          scrollbarWidth: 'none',
+          msOverflowStyle: 'none'
+        }}
+      >
+        {categories.map((category) => {
+          const isActive = category.id === activeCategory;
+          
+          return (
+            <button
+              key={category.id}
+              onClick={() => onCategoryChange(category.id)}
+              className={`
+                box-border flex gap-2 items-center justify-center px-3 md:px-4 py-2 md:py-3 rounded-full shrink-0 transition-colors
+                ${isActive 
+                  ? 'bg-[#E1E6EB]' 
+                  : 'bg-transparent hover:bg-[#F7F9FC]'
+                }
+              `}
+              aria-current={isActive ? 'page' : undefined}
+            >
+              <div className="flex flex-col justify-center">
+                <p className={`
+                  font-inter-tight font-medium text-base md:text-lg leading-[20px] md:leading-[22px] whitespace-nowrap
+                  ${isActive ? 'text-[#071C32]' : 'text-[#747D85]'}
+                `}>
+                  {category.label}
+                </p>
+              </div>
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Right Navigation Button */}
+      <div className={`absolute right-0 z-10 flex items-center h-full bg-gradient-to-l from-[#E8EDF2] via-[#E8EDF2] to-transparent pl-8 pr-0 transition-opacity duration-300 ${canScrollRight ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
+        <button
+          onClick={scrollRight}
+          aria-label="Scroll right"
+          className="w-8 h-8 rounded-full bg-white border border-[#D2D5D9] text-[#747D85] flex items-center justify-center shadow-sm hover:border-[#FF7031] hover:text-[#FF7031] transition-colors"
+        >
+          <svg width="12" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 6L15 6M15 6L10 1M15 6L10 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+        </button>
+      </div>
     </div>
   );
 }

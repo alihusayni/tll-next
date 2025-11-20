@@ -36,18 +36,18 @@ export default function BlogArticleCard({
       </div>
 
       {/* Content */}
-      <div className="flex flex-col gap-2 pb-4">
+      <article className="flex flex-col gap-2 pb-4">
         {/* Category */}
         <div className="flex flex-col justify-center leading-[0]">
-          <p className="font-inter-tight font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#747D85]">
+          <h3 className="font-inter-tight font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#747D85]">
             {category}
-          </p>
+          </h3>
         </div>
 
         {/* Title */}
-        <p className="font-inter-tight font-semibold text-xl md:text-2xl leading-7 md:leading-8 tracking-[-0.02em] text-[#49535D] line-clamp-2 overflow-hidden text-ellipsis">
+        <h2 className="font-inter-tight font-semibold text-xl md:text-2xl leading-7 md:leading-8 tracking-[-0.02em] text-[#49535D] line-clamp-2 overflow-hidden text-ellipsis hover:text-hover">
           {title}
-        </p>
+        </h2>
 
         {/* Date & Time */}
         <div className="flex gap-2 md:gap-4 items-center">
@@ -61,7 +61,7 @@ export default function BlogArticleCard({
             {readTime}
           </p>
         </div>
-      </div>
+      </article>
     </Link>
   );
 }

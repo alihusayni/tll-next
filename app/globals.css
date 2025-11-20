@@ -12,6 +12,8 @@
   --font-mono: var(--font-geist-mono);
   --font-inter-tight: var(--font-inter-tight);
   --font-inter: 'Inter', sans-serif;
+  --color-hover: #FF7031;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -83,14 +85,4 @@ body {
 
 .markdown-body blockquote {
   @apply bg-[#E1E6EB] border-l-4 border-[#E55B1E] pl-6 py-4 my-8 text-xl font-inter leading-relaxed text-[#071C32] italic;
-}
-
-/* Hide scrollbar for category filter */
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
 }
