@@ -236,3 +236,32 @@ export function getContentCategories(): Array<{ id: string; label: string }> {
     ...categories
   ];
 }
+
+// Category page specific functions
+
+export function isValidCategory(category: string): boolean {
+  const categories = getContentCategories();
+  return categories.some(cat => cat.id === category && cat.id !== 'all-articles');
+}
+
+export function getCategoryArticles(category: string): Content[] {
+  if (!category) {
+    return [];
+  }
+  
+  const allArticles = getAllResourceArticles();
+  return allArticles.filter(article => {
+    const slugParts = article.slug.split('/');
+    const topLevelFolder = slugParts[0];
+    // Include articles where the top-level folder matches the category
+    // and the article is not just the category itself (must be in a subdirectory)
+    return topLevelFolder === category && slugParts.length > 1;
+  });
+}
+
+export function getCategoryFeaturedArticles(category: string): Content[] {
+  const categoryArticles = getCategoryArticles(category);
+  return categoryArticles
+    .filter(article => article.meta.featured === true)
+    .slice(0, 3);
+}

@@ -27,6 +27,7 @@ export interface ContentMeta {
   author?: string;
   publishedTime?: string;
   modifiedTime?: string;
+  featured?: boolean;
   
   // Legacy compatibility (for existing templates)
   title?: string;
