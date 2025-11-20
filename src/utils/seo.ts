@@ -5,7 +5,7 @@ export function generateMetadata(
   description: string,
   path?: string
 ): Metadata {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://tuanlelaw.com";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://www.tuanlelaw.com";
   const url = path ? `${baseUrl}${path}` : baseUrl;
 
   return {

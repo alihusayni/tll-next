@@ -5,7 +5,7 @@ h1: "Asylum Seekers Legal Rights and Challenges Faced in the U.S."
 summary: "Learn about asylum seekers' legal rights, services, and challenges in the U.S. Also, get to know the support organizations for asylum seekers."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/asylum-humanitarian-relief/asylum/asylum-seekers-rights-and-challenges"
+canonical: "https://www.tuanlelaw.com/asylum-humanitarian-relief/asylum/asylum-seekers-rights-and-challenges"
 ogTitle: "Asylum Seekers Legal Rights and Challenges Faced in the U.S."
 ogDescription: "Learn about asylum seekers' legal rights, services, and challenges in the U.S. Also, get to know the support organizations for asylum seekers."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/asylum-seekers-1200x775.webp

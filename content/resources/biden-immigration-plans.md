@@ -16,6 +16,7 @@ twitterImage: "https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/sh
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
 readTime: "2 minutes"
+featured: true
 ---
 During his first year in office, Joe Biden has faced persistent challenges as his administration worked to reform U.S. immigration policy.
 Some efforts over the past year have succeeded in reversing hardline measures from the Trump era while others have stalled, generating harsh criticism from immigrant advocates.

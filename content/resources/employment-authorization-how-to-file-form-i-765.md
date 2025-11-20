@@ -5,7 +5,7 @@ h1: "Application for Employment Authorization: How to File Form I-765"
 summary: "Learn how to file Form I-765, Application for Employment Authorization, online or by mail, with the help of a business immigration lawyer."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/immigration-solutions/application-for-employment-authorization-how-to-file-form-i-765"
+canonical: "https://www.tuanlelaw.com/immigration-solutions/application-for-employment-authorization-how-to-file-form-i-765"
 ogTitle: "Application for Employment Authorization: How to File Form I-765"
 ogDescription: "Learn how to file Form I-765, Application for Employment Authorization, online or by mail, with the help of a business immigration lawyer."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/Application-for-Employment-Authorization-How-to-File-Form-I-765.webp

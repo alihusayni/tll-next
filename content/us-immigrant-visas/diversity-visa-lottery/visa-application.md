@@ -5,7 +5,7 @@ h1: "Tips for a Successful Diversity Visa Application: Increase Your Chances of 
 summary: "Discover tips for a successful Diversity Visa application. Learn how Tuan Le Law Office in CA can help you increase your chances of success."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/us-visas/tips-successful-diversity-visa-application"
+canonical: "https://www.tuanlelaw.com/us-visas/tips-successful-diversity-visa-application"
 ogTitle: "Tips for a Successful Diversity Visa Application | Tuan Le Law Office, OC, CA"
 ogDescription: "Discover tips for a successful Diversity Visa application. Learn how Tuan Le Law Office in CA can help you increase your chances of success."
 ogImage: "https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new/DALL·E 2025-02-01 11.00.52 - A highly realistic and high-quality close-up wide-angle cover image for a blog titled 'Tips for a Successful Diversity Visa Application_ Increase Your.webp"

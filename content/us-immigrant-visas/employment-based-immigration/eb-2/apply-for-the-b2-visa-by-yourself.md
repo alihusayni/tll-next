@@ -5,7 +5,7 @@ h1: "An Ultimate Guide to Apply for the B2 Visa by Yourself"
 summary: "Are you planning to visit the U.S.? You may need to apply for the B2 visa. You can do it by yourself with this step-by-step simple guide."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/employment-based-immigration/eb-2/an-ultimate-guide-to-apply-for-the-b2-visa-by-yourself"
+canonical: "https://www.tuanlelaw.com/employment-based-immigration/eb-2/an-ultimate-guide-to-apply-for-the-b2-visa-by-yourself"
 ogTitle: "An Ultimate Guide to Apply for the B2 Visa by Yourself"
 ogDescription: "Are you planning to visit the U.S.? You may need to apply for the B2 visa. You can do it by yourself with this step-by-step simple guide."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/An-Ultimate-Guide-to-Apply-for-the-B2-Visa-by-Yourself-1200x901.webp

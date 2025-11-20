@@ -5,7 +5,7 @@ h1: "All U.S. Nonimmigrant Visas Explained: Find the Right Visa for Your Needs"
 summary: "Read this US nonimmigrant visas guide to quickly find out what visa options you have. This simple guide saves you from confusion."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/us-visas/us-nonimmigrant-visas-guide"
+canonical: "https://www.tuanlelaw.com/us-visas/us-nonimmigrant-visas-guide"
 ogTitle: "Comprehensive Guide to U.S. Nonimmigrant Visas | Immigration Lawyer in Orange County, CA"
 ogDescription: "Read this US nonimmigrant visas guide to quickly find out what visa options you have. This simple guide saves you from confusion."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new/converted_image.webp

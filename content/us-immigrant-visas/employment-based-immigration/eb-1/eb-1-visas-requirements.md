@@ -5,7 +5,7 @@ h1: "EB-1 Visas Requirements, Eligibility, and Application"
 summary: "This comprehensive guide to EB-1 visas teaches you how to get your U.S. permanent residency faster than other methods and visas."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/employment-based-immigration/eb-1/eb-1-visas-requirements-eligibility-and-application"
+canonical: "https://www.tuanlelaw.com/employment-based-immigration/eb-1/eb-1-visas-requirements-eligibility-and-application"
 ogTitle: "EB-1 Visas Requirements, Eligibility, and Application"
 ogDescription: "This comprehensive guide to EB-1 visas teaches you how to get your U.S. permanent residency faster than other methods and visas."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/iStock-1452132474-1200x800.webp

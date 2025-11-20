@@ -5,7 +5,7 @@ h1: "How to Speed Up Your Immigration Case with USCIS: 6 Proven Tips"
 summary: "Discover 6 expert tips to speed up your immigration case with USCIS—save time and avoid delays with help from our Orange, CA lawyer."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/resources/expedite-uscis-case-1"
+canonical: "https://www.tuanlelaw.com/resources/expedite-uscis-case-1"
 ogTitle: "6 Tips to Speed Up Your Immigration Case with USCIS"
 ogDescription: "Discover 6 expert tips to speed up your immigration case with USCIS—save time and avoid delays with help from our Orange, CA lawyer."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/Speed-Up-Your-Immigration-Case-with-USCIS.webp

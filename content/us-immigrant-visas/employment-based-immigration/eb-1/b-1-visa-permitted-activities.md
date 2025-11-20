@@ -5,7 +5,7 @@ h1: "B-1 Visa Permitted Activities: Understanding the Restrictions"
 summary: "Learn about B-1 visa permitted activities and restrictions. Get expert legal advice from Tuan Le Law in Orange, CA."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/employment-based-immigration/eb-1/b-1-visa-permitted-activities-understanding-the-restrictions"
+canonical: "https://www.tuanlelaw.com/employment-based-immigration/eb-1/b-1-visa-permitted-activities-understanding-the-restrictions"
 ogTitle: "Understanding the B-1 Visa: Permitted Activities and Restrictions | Tuan Le Law, Orange, CA"
 ogDescription: "Learn about B-1 visa permitted activities and restrictions. Get expert legal advice from Tuan Le Law in Orange, CA."
 ogImage: https://www.tuanlelaw.com//files/shares/BlogImage/B-1-Visa-Permitted-Activities-new1-1.png

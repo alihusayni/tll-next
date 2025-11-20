@@ -175,3 +175,64 @@ export function generateBreadcrumbs(slug: string): Array<{ label: string; href: 
   
   return breadcrumbs;
 }
+
+// Resources page specific functions
+
+export function getAllResourceArticles(): Content[] {
+  const allContent = getAllContent();
+  
+  // Filter out any content that doesn't have publishedTime (non-articles)
+  return allContent
+    .filter(content => content.meta.publishedTime)
+    .sort((a, b) => {
+      const dateA = new Date(a.meta.publishedTime || '');
+      const dateB = new Date(b.meta.publishedTime || '');
+      return dateB.getTime() - dateA.getTime();
+    });
+}
+
+export function getFeaturedArticles(): Content[] {
+  const allArticles = getAllResourceArticles();
+  return allArticles.filter(article => article.meta.featured === true).slice(0, 3);
+}
+
+export function getArticlesByCategory(category: string): Content[] {
+  if (category === 'all-articles' || !category) {
+    return getAllResourceArticles();
+  }
+  
+  const allArticles = getAllResourceArticles();
+  return allArticles.filter(article => {
+    // Get the top-level folder from the slug (e.g., "resources" from "resources/article-name")
+    const topLevelFolder = article.slug.split('/')[0];
+    return topLevelFolder === category;
+  });
+}
+
+export function getContentCategories(): Array<{ id: string; label: string }> {
+  const allContent = getAllContent();
+  const categorySet = new Set<string>();
+  
+  allContent.forEach(content => {
+    if (content.meta.publishedTime) {
+      const topLevelFolder = content.slug.split('/')[0];
+      categorySet.add(topLevelFolder);
+    }
+  });
+  
+  const categories = Array.from(categorySet).map(cat => ({
+    id: cat,
+    label: cat.split('-').map(word => 
+      word.charAt(0).toUpperCase() + word.slice(1)
+    ).join(' ')
+  }));
+  
+  // Sort alphabetically by label
+  categories.sort((a, b) => a.label.localeCompare(b.label));
+  
+  // Add "All Articles" at the beginning
+  return [
+    { id: 'all-articles', label: 'All Articles' },
+    ...categories
+  ];
+}

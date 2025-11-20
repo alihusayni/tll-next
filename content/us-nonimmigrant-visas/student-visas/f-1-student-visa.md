@@ -5,7 +5,7 @@ h1: "F-1 Student Visa Application and Embassy Interview"
 summary: "Latest immigration news and updates from Tuan Le Law."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/us-visas/us-nonimmigrant-visas/student-visas/f-1-student-visa-application-and-embassy-interview"
+canonical: "https://www.tuanlelaw.com/us-visas/us-nonimmigrant-visas/student-visas/f-1-student-visa-application-and-embassy-interview"
 ogTitle: "F-1 Student Visa Application and Embassy Interview"
 ogDescription: "Latest immigration news and updates from Tuan Le Law."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/F-1-Student-Visa-Application-and-Embassy-Interview-1200x800.webp

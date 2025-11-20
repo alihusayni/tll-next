@@ -84,3 +84,13 @@ body {
 .markdown-body blockquote {
   @apply bg-[#E1E6EB] border-l-4 border-[#E55B1E] pl-6 py-4 my-8 text-xl font-inter leading-relaxed text-[#071C32] italic;
 }
+
+/* Hide scrollbar for category filter */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

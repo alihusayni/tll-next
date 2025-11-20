@@ -5,7 +5,7 @@ h1: "New Arrest and Deportation Guidelines for Immigration Agents"
 summary: "Latest immigration news and updates from Tuan Le Law."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/resources/new-immigration-guidelines"
+canonical: "https://www.tuanlelaw.com/resources/new-immigration-guidelines"
 ogTitle: "New Arrest and Deportation Guidelines for Immigration Agents"
 ogDescription: "Latest immigration news and updates from Tuan Le Law."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/news/pexels-photo-6077326.webp

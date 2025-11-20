@@ -5,7 +5,7 @@ h1: "12 Common Immigration Questions Answered by a US Immigration Lawyer"
 summary: "Our experienced immigration lawyer in Orange, CA, answers common immigration questions in simple terms to help you understand your options."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/resources/common-immigration-questions-answered-immigration-lawyer"
+canonical: "https://www.tuanlelaw.com/resources/common-immigration-questions-answered-immigration-lawyer"
 ogTitle: "12 US Immigration Law Questions Answered"
 ogDescription: "Our experienced immigration lawyer in Orange, CA, answers common immigration questions in simple terms to help you understand your options."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new/common-immigration-questions.webp
@@ -16,6 +16,7 @@ twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
 readTime: "26 minutes"
+featured: true
 ---
 Every day, at our law office in Orange, CA, we receive many questions about different aspects of US immigration law and policy, which isn't surprising given the complexity of the immigration process in the USA and the ever-changing nature of the policies here. So, our experienced immigration attorney is answering some of the most common immigration questions in simple words in this article to help you make better sense of the legal process.
 **Whether you're seeking a US visa, green card, or citizenship, the Law Office of Tuan Le in Orange, CA, is here to help you take confident steps forward.**

@@ -5,7 +5,7 @@ h1: "Undocumented Immigrants: Charting a Course Through U.S. Immigration Challen
 summary: "Facing immigration challenges? Tuan Le in CA, can help. Understand your rights, explore pathways to legalization, and advocate for change."
 author: "Top Organic Leads"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/asylum-humanitarian-relief/undocumented-immigrants-u-s-immigration-challenges"
+canonical: "https://www.tuanlelaw.com/asylum-humanitarian-relief/undocumented-immigrants-u-s-immigration-challenges"
 ogTitle: "Undocumented Immigrants & The Complexities of US Immigration Law | Tuan Le Law"
 ogDescription: "Facing immigration challenges? Tuan Le in CA, can help. Understand your rights, explore pathways to legalization, and advocate for change."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/Undocumented-Immigrants-Charting-Course-Through-US-Immigration-Challenges2.webp

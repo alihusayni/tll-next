@@ -245,7 +245,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
              }
 
              // Check if it's an internal link (same domain)
-             const isInternalLink = href.startsWith('/') || href.startsWith('https://www.tuanlelaw.com') || href.startsWith('https://tuanlelaw.com');
+             const isInternalLink = href.startsWith('/') || href.startsWith('https://www.tuanlelaw.com') || href.startsWith('https://www.tuanlelaw.com');
 
              if (isInternalLink) {
                // Remove domain from internal links to make them relative

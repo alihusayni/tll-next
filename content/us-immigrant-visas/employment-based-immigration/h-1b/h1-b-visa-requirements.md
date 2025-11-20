@@ -5,7 +5,7 @@ h1: "Guide to H1B Visa Requirements and Application by an Immigration Lawyer"
 summary: "Need help with the H1B visa requirements and application? Our experienced H1B lawyer explains every step of it in simple words."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/employment-based-immigration/h-1b/guide-to-h1b-visa-requirements-and-application-by-an-immigration-lawyer"
+canonical: "https://www.tuanlelaw.com/employment-based-immigration/h-1b/guide-to-h1b-visa-requirements-and-application-by-an-immigration-lawyer"
 ogTitle: "Guide to H1B Visa Requirements and Application by an Immigration Lawyer"
 ogDescription: "Need help with the H1B visa requirements and application? Our experienced H1B lawyer explains every step of it in simple words."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/guide-to-h1b-visa-requirements-and-application-by-an-immigration-lawyer-1200x778.webp

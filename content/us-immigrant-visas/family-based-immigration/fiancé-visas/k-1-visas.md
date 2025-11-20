@@ -5,7 +5,7 @@ h1: "2025 K-1 Visa Process Made Easy: Step-by-Step Guide for Fiancé(e) Visas"
 summary: "Learn about the K-1 visa process, requirements, and timeline with Tuan Le Law Office in Orange, California."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/family-based-immigration/fiance-visas/k-1-visa-step-by-step-guide"
+canonical: "https://www.tuanlelaw.com/family-based-immigration/fiance-visas/k-1-visa-step-by-step-guide"
 ogTitle: "K-1 Visa Process Explained | Tuan Le Law Office, OC, CA"
 ogDescription: "Learn about the K-1 visa process, requirements, and timeline with Tuan Le Law Office in Orange, California."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new/k -1 Visa.webp

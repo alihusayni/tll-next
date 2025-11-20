@@ -5,7 +5,7 @@ h1: "Application for Asylum: How to Seek Asylum in the USA"
 summary: "Application for asylum in the US is a multi-step process that can be confusing for foreign individuals. Read our simple step-by-step guide."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/asylum-humanitarian-relief/asylum/application-for-asylum-in-the-usa"
+canonical: "https://www.tuanlelaw.com/asylum-humanitarian-relief/asylum/application-for-asylum-in-the-usa"
 ogTitle: "Application for Asylum in the USA | Law Office of Tuan Le"
 ogDescription: "Application for asylum in the US is a multi-step process that can be confusing for foreign individuals. Read our simple step-by-step guide."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/application-for-asylum-in-the-usa-1200x794.webp

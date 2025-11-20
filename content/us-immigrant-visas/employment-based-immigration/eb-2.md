@@ -5,7 +5,7 @@ h1: "EB-2 Employment-Based Visas: Whatever You Need to Know"
 summary: "EB-2 employment-based visas are very popular because you can receive a green card faster and more easily. Here is everything you should know."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/employment-based-immigration/eb-2-employment-based-visas-whatever-you-need-to-know"
+canonical: "https://www.tuanlelaw.com/employment-based-immigration/eb-2-employment-based-visas-whatever-you-need-to-know"
 ogTitle: "EB-2 Employment-Based Visas: Whatever You Need to Know"
 ogDescription: "EB-2 employment-based visas are very popular because you can receive a green card faster and more easily. Here is everything you should know."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/EB-2-Employment-Based-Visa (1).webp

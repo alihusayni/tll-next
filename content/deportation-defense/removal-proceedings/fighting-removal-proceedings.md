@@ -5,7 +5,7 @@ h1: "Deportation Defense: Strategies to Fight Removal Proceedings"
 summary: "Discover key deportation defense tactics and legal guidance to secure your future with Tuan Le Law Office in Orange, CA."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/deportation-defense/deportation-defense-strategies-to-fight-removal-proceedings"
+canonical: "https://www.tuanlelaw.com/deportation-defense/deportation-defense-strategies-to-fight-removal-proceedings"
 ogTitle: "Deportation Defense Strategies | Tuan le Law | Immigration lawyer"
 ogDescription: "Discover key deportation defense tactics and legal guidance to secure your future with Tuan Le Law Office in Orange, CA."
 ogImage: https://www.tuanlelaw.com//files/shares/BlogImage/Deportation-Defense-Strategies-to-Fight-Removal-Proceedings-1200x747.png

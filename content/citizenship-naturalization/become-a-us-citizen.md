@@ -5,7 +5,7 @@ h1: "Paths to Become a U.S. Citizen; Explained by a Citizenship Lawyer"
 summary: "An immigration lawyer shows you the ways to become a U.S. citizen. Learn if you are eligible and meet the requirements for U.S. citizenship."
 author: "Tuan Le"
 robots: "index, follow"
-canonical: "https://tuanlelaw.com/citizenship-naturalization/become-u-s-citizen-explained-citizenship-lawyer"
+canonical: "https://www.tuanlelaw.com/citizenship-naturalization/become-u-s-citizen-explained-citizenship-lawyer"
 ogTitle: "Paths to Become a U.S. Citizen; Explained by a Citizenship Lawyer"
 ogDescription: "An immigration lawyer shows you the ways to become a U.S. citizen. Learn if you are eligible and meet the requirements for U.S. citizenship."
 ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/Paths-to-Become-a-U.S.-Citizen-Explained-by-a-Citizenship-Lawyer-1200x800.webp
