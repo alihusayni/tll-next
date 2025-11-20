@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { Suspense } from 'react';
 import ResourcesPageClient from './resources-page-client';
 import { 
   getAllResourceArticles, 
@@ -83,7 +84,8 @@ export default function ResourcesPage() {
     
     return {
       title: article.meta.h1 || article.meta.title || '',
-      category: categoryLabel,
+      categoryId: topLevelFolder, // Use ID for filtering
+      category: categoryLabel, // Use label for display
       excerpt: extractExcerpt(article.content),
       date: formatDate(article.meta.publishedTime || article.meta.date || ''),
       readTime: article.meta.readTime || '5 min read',
@@ -115,11 +117,13 @@ export default function ResourcesPage() {
           <SiteHeader />
         </div>
       </div>
-      <ResourcesPageClient
-        featuredArticles={transformedFeaturedArticles}
-        allArticles={transformedAllArticles}
-        categories={categories}
-      />
+      <Suspense fallback={<div>Loading...</div>}>
+        <ResourcesPageClient
+          featuredArticles={transformedFeaturedArticles}
+          allArticles={transformedAllArticles}
+          categories={categories}
+        />
+      </Suspense>
     </>
   );
 }
