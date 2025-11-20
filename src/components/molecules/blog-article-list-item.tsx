@@ -50,7 +50,7 @@ export default function BlogArticleListItem({
           </div>
 
           {/* Title */}
-          <p className="font-inter-tight font-semibold text-xl md:text-2xl leading-7 md:leading-8 tracking-[-0.02em] text-[#49535D] min-w-full overflow-hidden text-ellipsis line-clamp-2 hover:text-hover">
+          <p className="font-inter-tight font-semibold text-xl md:text-2xl leading-7 md:leading-8 tracking-[-0.02em] text-[#49535D] min-w-full overflow-hidden text-ellipsis line-clamp-2 group-hover:text-hover">
             {title}
           </p>
 

@@ -19,6 +19,9 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
   const scrollRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = React.useState(false);
   const [canScrollRight, setCanScrollRight] = React.useState(true);
+  const [isDragging, setIsDragging] = React.useState(false);
+  const [startX, setStartX] = React.useState(0);
+  const [scrollLeftState, setScrollLeftState] = React.useState(0);
 
   const checkScroll = () => {
     if (scrollRef.current) {
@@ -49,6 +52,29 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
     }
   };
 
+  const onMouseDown = (e: React.MouseEvent) => {
+    if (!scrollRef.current) return;
+    setIsDragging(true);
+    setStartX(e.pageX - scrollRef.current.offsetLeft);
+    setScrollLeftState(scrollRef.current.scrollLeft);
+  };
+
+  const onMouseLeave = () => {
+    setIsDragging(false);
+  };
+
+  const onMouseUp = () => {
+    setIsDragging(false);
+  };
+
+  const onMouseMove = (e: React.MouseEvent) => {
+    if (!isDragging || !scrollRef.current) return;
+    e.preventDefault();
+    const x = e.pageX - scrollRef.current.offsetLeft;
+    const walk = (x - startX) * 2; 
+    scrollRef.current.scrollLeft = scrollLeftState - walk;
+  };
+
   return (
     <section className="bg-[#E8EDF2] py-32 px-16 lg:py-32 lg:px-16 md:py-24 md:px-8 xl:px-0 sm:py-16 sm:px-4">
       <div className="mx-auto max-w-[86.5rem]">
@@ -67,8 +93,12 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
           <div className="flex flex-col gap-16">
             <div
               ref={scrollRef}
-              className="flex gap-4 overflow-x-auto scrollbar-hide"
+              className={`flex gap-4 overflow-x-auto scrollbar-hide ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
               style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+              onMouseDown={onMouseDown}
+              onMouseLeave={onMouseLeave}
+              onMouseUp={onMouseUp}
+              onMouseMove={onMouseMove}
             >
               {articles.map((article, index) => (
                 <ArticleCard
@@ -85,7 +115,7 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
                 onClick={scrollLeft}
                 disabled={!canScrollLeft}
                 aria-label="Scroll left"
-                className="w-14 h-14 rounded-[30px] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-transparent hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
+                className="w-14 h-14 bg-white rounded-[30px] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-transparent hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
               >
                 <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M15 6L1 6M1 6L6 11M1 6L6 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -95,7 +125,7 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
                 onClick={scrollRight}
                 disabled={!canScrollRight}
                 aria-label="Scroll right"
-                className="w-14 h-14 rounded-[30px] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-transparent hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
+                className="w-14 h-14 bg-white rounded-[30px] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-transparent hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
               >
                 <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1 6L15 6M15 6L10 1M15 6L10 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

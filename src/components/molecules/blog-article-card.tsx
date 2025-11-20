@@ -45,7 +45,7 @@ export default function BlogArticleCard({
         </div>
 
         {/* Title */}
-        <h2 className="font-inter-tight font-semibold text-xl md:text-2xl leading-7 md:leading-8 tracking-[-0.02em] text-[#49535D] line-clamp-2 overflow-hidden text-ellipsis hover:text-hover">
+        <h2 className="font-inter-tight font-semibold text-xl md:text-2xl leading-7 md:leading-8 tracking-[-0.02em] text-[#49535D] line-clamp-2 overflow-hidden text-ellipsis group-hover:text-hover">
           {title}
         </h2>
 

@@ -65,7 +65,7 @@ export default function BlogCategoryFilter({
         <button
           onClick={scrollLeft}
           aria-label="Scroll left"
-          className="w-8 h-8 rounded-full bg-white border border-[#D2D5D9] text-[#747D85] flex items-center justify-center shadow-sm hover:border-[#FF7031] hover:text-[#FF7031] transition-colors"
+          className="w-8 h-8 bg-[#e8edf2] rounded-full border border-[#D2D5D9] text-[#747D85] flex items-center justify-center hover:border-[#FF7031] hover:text-[#FF7031] transition-colors"
         >
           <svg width="12" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15 6L1 6M1 6L6 11M1 6L6 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -111,11 +111,11 @@ export default function BlogCategoryFilter({
       </div>
 
       {/* Right Navigation Button */}
-      <div className={`absolute right-0 z-10 flex items-center h-full bg-gradient-to-l from-[#E8EDF2] via-[#E8EDF2] to-transparent pl-8 pr-0 transition-opacity duration-300 ${canScrollRight ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
+      <div className={`absolute right-0 z-10 flex items-center h-full pl-8 pr-0 bg-gradient-to-l from-[#E8EDF2] via-[#E8EDF2] to-transparent transition-opacity duration-300 ${canScrollRight ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
         <button
           onClick={scrollRight}
           aria-label="Scroll right"
-          className="w-8 h-8 rounded-full bg-white border border-[#D2D5D9] text-[#747D85] flex items-center justify-center shadow-sm hover:border-[#FF7031] hover:text-[#FF7031] transition-colors"
+          className="w-8 h-8 bg-[#e8edf2] rounded-full border border-[#D2D5D9] text-[#747D85] flex items-center justify-center hover:border-[#FF7031] hover:text-[#FF7031] transition-colors"
         >
           <svg width="12" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1 6L15 6M15 6L10 1M15 6L10 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
