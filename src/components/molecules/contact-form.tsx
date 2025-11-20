@@ -188,7 +188,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={loading}
-        className="group self-start bg-transparent border-2 border-[#071C32] text-[#071C32] font-inter-tight font-semibold text-[18px] uppercase rounded-md hover:bg-[#FF7031] active:bg-[#FF7031] hover:border-[#FF7031] active:border-[#FF7031] hover:text-white active:text-white transition-all w-[23.563rem] h-[3.25rem] hover:w-[24.5rem] active:w-[24.5rem] flex items-center justify-start gap-4 pl-6 disabled:opacity-50"
+        className="group self-start bg-transparent border-2 border-[#071C32] text-[#071C32] font-inter-tight font-semibold text-sm sm:text-lg uppercase rounded-md hover:bg-[#FF7031] active:bg-[#FF7031] hover:border-[#FF7031] active:border-[#FF7031] hover:text-white active:text-white transition-all w-[22.5rem] sm:w-[23.563rem] h-[3.25rem] hover:w-[23.5rem] active:w-[23.5rem] hover:sm:w-[24.5rem] active:sm:w-[24.5rem] flex items-center justify-start gap-4 pl-6 disabled:opacity-50"
       >
         {loading ? 'Submitting...' : 'Schedule Free Consultation'}
         <svg
