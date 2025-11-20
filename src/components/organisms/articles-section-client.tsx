@@ -22,6 +22,11 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
   const [isDragging, setIsDragging] = React.useState(false);
   const [startX, setStartX] = React.useState(0);
   const [scrollLeftState, setScrollLeftState] = React.useState(0);
+  
+  const velocityRef = useRef(0);
+  const lastXRef = useRef(0);
+  const rAFRef = useRef<number>(null);
+  const isDownRef = useRef(false);
 
   const checkScroll = () => {
     if (scrollRef.current) {
@@ -40,38 +45,99 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
     }
   }, []);
 
-  const scrollLeft = () => {
-    if (scrollRef.current && canScrollLeft) {
-      scrollRef.current.scrollBy({ left: -400, behavior: 'smooth' });
-    }
+  const smoothScroll = (direction: 'left' | 'right') => {
+    if (!scrollRef.current) return;
+    
+    // Cancel any existing momentum/scroll animation
+    if (rAFRef.current) cancelAnimationFrame(rAFRef.current);
+
+    const start = scrollRef.current.scrollLeft;
+    const amount = 400;
+    const target = direction === 'left' 
+      ? Math.max(0, start - amount) 
+      : Math.min(scrollRef.current.scrollWidth - scrollRef.current.clientWidth, start + amount);
+    const distance = target - start;
+    const duration = 500; // ms
+    const startTime = performance.now();
+
+    const easeOutQuart = (t: number) => 1 - Math.pow(1 - t, 4);
+
+    const animateScroll = (currentTime: number) => {
+      if (!scrollRef.current) return;
+      
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const ease = easeOutQuart(progress);
+      
+      scrollRef.current.scrollLeft = start + (distance * ease);
+      
+      if (progress < 1) {
+        rAFRef.current = requestAnimationFrame(animateScroll);
+      }
+    };
+
+    rAFRef.current = requestAnimationFrame(animateScroll);
   };
 
-  const scrollRight = () => {
-    if (scrollRef.current && canScrollRight) {
-      scrollRef.current.scrollBy({ left: 400, behavior: 'smooth' });
-    }
+  const scrollLeft = () => smoothScroll('left');
+  const scrollRight = () => smoothScroll('right');
+
+  const startMomentum = () => {
+    if (rAFRef.current) cancelAnimationFrame(rAFRef.current);
+    
+    const momentumLoop = () => {
+      if (!scrollRef.current) return;
+      
+      scrollRef.current.scrollLeft -= velocityRef.current * 2;
+      velocityRef.current *= 0.95; // Friction
+      
+      if (Math.abs(velocityRef.current) > 0.5) {
+        rAFRef.current = requestAnimationFrame(momentumLoop);
+      }
+    };
+    
+    rAFRef.current = requestAnimationFrame(momentumLoop);
   };
 
   const onMouseDown = (e: React.MouseEvent) => {
     if (!scrollRef.current) return;
+    e.preventDefault();
+    isDownRef.current = true;
     setIsDragging(true);
-    setStartX(e.pageX - scrollRef.current.offsetLeft);
+    
+    if (rAFRef.current) cancelAnimationFrame(rAFRef.current);
+    
+    setStartX(e.pageX);
     setScrollLeftState(scrollRef.current.scrollLeft);
+    lastXRef.current = e.pageX;
+    velocityRef.current = 0;
   };
 
   const onMouseLeave = () => {
-    setIsDragging(false);
+    if (isDownRef.current) {
+      isDownRef.current = false;
+      setIsDragging(false);
+      startMomentum();
+    }
   };
 
   const onMouseUp = () => {
+    isDownRef.current = false;
     setIsDragging(false);
+    startMomentum();
   };
 
   const onMouseMove = (e: React.MouseEvent) => {
-    if (!isDragging || !scrollRef.current) return;
+    if (!isDownRef.current || !scrollRef.current) return;
     e.preventDefault();
-    const x = e.pageX - scrollRef.current.offsetLeft;
-    const walk = (x - startX) * 2; 
+    const x = e.pageX;
+    const walk = (x - startX) * 2;
+    
+    // Calculate velocity
+    const delta = x - lastXRef.current;
+    velocityRef.current = delta;
+    lastXRef.current = x;
+    
     scrollRef.current.scrollLeft = scrollLeftState - walk;
   };
 
@@ -93,12 +159,13 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
           <div className="flex flex-col gap-16">
             <div
               ref={scrollRef}
-              className={`flex gap-4 overflow-x-auto scrollbar-hide ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
-              style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+              className={`flex gap-4 overflow-x-auto scrollbar-hide select-none ${isDragging ? '!cursor-grabbing' : 'cursor-grab'}`}
+              style={{ scrollbarWidth: 'none', msOverflowStyle: 'none', scrollBehavior: 'auto' }}
               onMouseDown={onMouseDown}
               onMouseLeave={onMouseLeave}
               onMouseUp={onMouseUp}
               onMouseMove={onMouseMove}
+              onDragStart={(e) => e.preventDefault()}
             >
               {articles.map((article, index) => (
                 <ArticleCard

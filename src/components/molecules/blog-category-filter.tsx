@@ -23,6 +23,10 @@ export default function BlogCategoryFilter({
   const scrollRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(false);
+  const [isDragging, setIsDragging] = useState(false);
+  const [startX, setStartX] = useState(0);
+  const [scrollLeftPos, setScrollLeftPos] = useState(0);
+  const [hasDragged, setHasDragged] = useState(false);
 
   const checkScroll = () => {
     if (scrollRef.current) {
@@ -58,6 +62,41 @@ export default function BlogCategoryFilter({
     }
   };
 
+  const handleMouseDown = (e: React.MouseEvent) => {
+    if (!scrollRef.current) return;
+    setIsDragging(true);
+    setHasDragged(false);
+    setStartX(e.pageX - scrollRef.current.offsetLeft);
+    setScrollLeftPos(scrollRef.current.scrollLeft);
+    // Prevent text selection while dragging
+    e.preventDefault();
+  };
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (!isDragging || !scrollRef.current) return;
+    e.preventDefault();
+    const x = e.pageX - scrollRef.current.offsetLeft;
+    const walk = (x - startX) * 2; // Multiply by 2 for faster scrolling
+    
+    // If moved more than 5 pixels, consider it a drag
+    if (Math.abs(walk) > 5) {
+      setHasDragged(true);
+    }
+    
+    scrollRef.current.scrollLeft = scrollLeftPos - walk;
+  };
+
+  const handleMouseUpOrLeave = () => {
+    setIsDragging(false);
+  };
+
+  const handleCategoryClick = (categoryId: string) => {
+    // Only trigger category change if user didn't drag
+    if (!hasDragged) {
+      onCategoryChange(categoryId);
+    }
+  };
+
   return (
     <div className={`relative flex items-center w-full border-b border-[#D2D5D9] ${className}`}>
       {/* Left Navigation Button */}
@@ -75,10 +114,15 @@ export default function BlogCategoryFilter({
 
       <div 
         ref={scrollRef}
-        className="box-border flex gap-2 items-start justify-start px-0 py-4 w-full overflow-x-auto scrollbar-hide"
+        onMouseDown={handleMouseDown}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUpOrLeave}
+        onMouseLeave={handleMouseUpOrLeave}
+        className={`box-border flex gap-2 items-start justify-start px-0 py-4 w-full overflow-x-auto scrollbar-hide ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
         style={{
           scrollbarWidth: 'none',
-          msOverflowStyle: 'none'
+          msOverflowStyle: 'none',
+          userSelect: 'none'
         }}
       >
         {categories.map((category) => {
@@ -87,12 +131,12 @@ export default function BlogCategoryFilter({
           return (
             <button
               key={category.id}
-              onClick={() => onCategoryChange(category.id)}
+              onClick={() => handleCategoryClick(category.id)}
               className={`
                 box-border flex gap-2 items-center justify-center px-3 md:px-4 py-2 md:py-3 rounded-full shrink-0 transition-colors
                 ${isActive 
                   ? 'bg-[#E1E6EB]' 
-                  : 'bg-transparent hover:bg-[#F7F9FC]'
+                  : 'bg-transparent hover:bg-[#E1E6EB]'
                 }
               `}
               aria-current={isActive ? 'page' : undefined}
