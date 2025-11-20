@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function CtaBox() {
   return (
-    <div style={{ position: 'relative', backgroundColor: '#000B1A', borderRadius: '1rem', overflow: 'hidden', width: '100%', maxWidth: '57.125rem', maxHeight: '23.5rem', margin: '0 auto' }} className="not-prose">
+    <div style={{ position: 'relative', backgroundColor: '#000B1A', borderRadius: '1rem', overflow: 'hidden', width: '100%', maxWidth: '57.125rem', maxHeight: '23.5rem', margin: '0 auto' }} className="not-prose border-2 border-[#EA981D]">
       {/* Glow effect */}
       <div className="not-prose" style={{ position: 'absolute', bottom: '-4rem', left: '-16rem' }}>
         <div className="not-prose" style={{ width: '30.875rem', height: '18.875rem', backgroundColor: '#111827', borderRadius: '50%', filter: 'blur(143px)' }}></div>

@@ -5,9 +5,10 @@ interface MainNavProps {
   className?: string;
   onItemClick?: () => void;
   mobileView?: boolean;
+  customTextColor?: string;
 }
 
-export default function MainNav({ className = '', onItemClick, mobileView = false }: MainNavProps) {
+export default function MainNav({ className = '', onItemClick, mobileView = false, customTextColor }: MainNavProps) {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const navRef = useRef<HTMLElement>(null);
 
@@ -66,7 +67,8 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
                 hasDropdown={false} // Disable default dropdown arrow in mobile view
                 isActive={openDropdown === item.href}
                 onClick={item.subItems ? () => handleClick(item.href) : undefined}
-                className={`text-white text-[30px] font-inter-tight font-semibold leading-[26px] uppercase ${item.subItems ? 'cursor-pointer flex items-center justify-between gap-4' : ''}`}
+                className={`${mobileView ? 'text-white' : (customTextColor || 'text-white')} text-[30px] font-inter-tight font-semibold leading-[26px] uppercase ${item.subItems ? 'cursor-pointer flex items-center justify-between gap-4' : ''}`}
+                customTextColor={mobileView ? undefined : customTextColor}
               >
                 {item.label}
                 {item.subItems && (
@@ -120,19 +122,21 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
             hasDropdown={!!item.subItems}
             isActive={openDropdown === item.href}
             onClick={item.subItems ? () => handleClick(item.href) : undefined}
-            className={item.subItems ? 'cursor-pointer' : ''}
+            className={`${customTextColor || ''} ${item.subItems ? 'cursor-pointer' : ''}`}
+            customTextColor={customTextColor}
           >
             {item.label}
           </NavLink>
           {item.subItems && openDropdown === item.href && (
             <div className="absolute flex flex-col mt-3 bg-white rounded-lg shadow-lg border border-gray-200 gap-4 p-8 min-w-[15.625rem] z-50">
               {item.subItems.map((subItem) => (
-                <NavLink
-                  key={subItem.href}
-                  href={subItem.href}
-                  className="block text-base leading-6 !text-[#49535D] hover:!text-[#FF7031] transition-colors"
-                  onClick={handleDropdownItemClick}
-                >
+                 <NavLink
+                   key={subItem.href}
+                   href={subItem.href}
+                   className="block text-base leading-6 !text-[#49535D] hover:!text-[#FF7031] transition-colors"
+                   onClick={handleDropdownItemClick}
+                   customTextColor={customTextColor}
+                 >
                   {subItem.label}
                 </NavLink>
               ))}
