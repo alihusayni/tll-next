@@ -15,7 +15,7 @@ export default function TestimonialQuote({
         {/* Quote */}
         <div className="flex flex-col gap-0">
           <p className="font-inter font-normal text-4xl md:text-5xl lg:text-[62px] leading-[28px] md:leading-[38px] text-[#071C32]">
-            "
+            &ldquo;
           </p>
           <p className="font-inter font-normal text-lg md:text-xl lg:text-2xl leading-7 md:leading-9 lg:leading-[38px] text-[#071C32]">
             {quote}

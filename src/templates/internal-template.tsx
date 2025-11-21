@@ -8,18 +8,20 @@ import StickyHeader from '@/components/organisms/sticky-header';
 import MainNav from '@/components/molecules/main-nav';
 import HamburgerMenu from '@/components/atoms/hamburger-menu';
 import BlogCategoryFilter from '@/components/molecules/blog-category-filter';
+import BlogArticleCard from '@/components/molecules/blog-article-card';
 import MarkdownRenderer from '@/lib/markdown-renderer';
 import Logo from '@/components/atoms/logo';
 import Link from 'next/link';
 import {Content} from '@/types/content';
 import {useState, useEffect} from 'react';
 import {createPortal} from 'react-dom';
-import {getContentCategories} from '@/lib/content';
+
 
 
 interface InternalTemplateProps {
     content: Content;
     slug: string;
+    categories?: Array<{ id: string; label: string }>;
 }
 
 function generateBreadcrumbText(slug: string): { display: string; slugs: string[] } {
@@ -43,10 +45,10 @@ function generateBreadcrumbText(slug: string): { display: string; slugs: string[
     return {display: 'Home / ' + breadcrumbDisplayParts.join(' / '), slugs: breadcrumbSlugs};
 }
 
-export default function InternalTemplate({content, slug}: InternalTemplateProps) {
+export default function InternalTemplate({content, slug, categories}: InternalTemplateProps) {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [activeCategory, setActiveCategory] = useState('all-articles');
-    const [categories, setCategories] = useState<Array<{ id: string; label: string }>>([]);
+    const [categoriesState, setCategoriesState] = useState<Array<{ id: string; label: string }>>([]);
 
     const {display: breadcrumbDisplay, slugs: breadcrumbSlugs} = generateBreadcrumbText(slug);
 
@@ -59,10 +61,11 @@ export default function InternalTemplate({content, slug}: InternalTemplateProps)
     };
 
     useEffect(() => {
-        // Load categories from content
-        const loadedCategories = getContentCategories();
-        setCategories(loadedCategories);
-    }, []);
+        // Use categories from props if provided, otherwise use empty array
+        if (categories) {
+            setCategoriesState(categories);
+        }
+    }, [categories]);
 
     // Prevent body scroll when mobile menu is open
     useEffect(() => {
@@ -208,10 +211,10 @@ export default function InternalTemplate({content, slug}: InternalTemplateProps)
             <StickyHeader/>
             
             <BlogCategoryFilter
-                categories={categories}
+                categories={categoriesState}
                 activeCategory={activeCategory}
                 onCategoryChange={handleCategoryChange}
-                className="w-full mb-8 max-w-[86.5rem] mx-auto justify-center"
+                className="w-full mb-16 max-w-[86.5rem] mx-auto justify-center"
             />
             
             <ArticleHero
@@ -222,11 +225,63 @@ export default function InternalTemplate({content, slug}: InternalTemplateProps)
                 breadcrumb={{display: breadcrumbDisplay, slugs: breadcrumbSlugs}}
                 date={date}
                 readTime={readTime}
+                author="Tuan Le"
             />
             <ArticleBody
                 headings={content.headings}
                 content={<MarkdownRenderer content={content.content}/>}
             />
+            
+            {/* Related Articles Section */}
+            <div className="bg-[#E8EDF2] box-border flex flex-col items-center pb-16 pt-16 px-4 md:px-8 lg:px-16 w-full">
+                <div className="box-border flex flex-col gap-8 items-start pb-8 pt-0 px-0 w-full max-w-[1512px]">
+                    <div className="flex flex-col gap-8 items-start max-w-[1728px] overflow-hidden w-full">
+                        {/* Related Articles Title */}
+                        <div className="flex flex-wrap gap-8 md:gap-16 items-end justify-end max-w-[1728px] w-full">
+                            <div className="flex flex-[1_0_0] flex-col gap-8 md:gap-[50px] items-start min-h-px min-w-[280px]">
+                                <div className="flex flex-col gap-5 items-start w-full">
+                                    <p className="font-inter-tight font-semibold text-3xl md:text-4xl lg:text-[52px] leading-tight md:leading-[50px] lg:leading-[60px] tracking-[-0.02em] text-[#071C32] max-w-[496px] w-full">
+                                        Related Articles
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Related Articles Grid */}
+                        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 w-full">
+                            {/* Sample related articles - these should be fetched based on category/tags */}
+                            <BlogArticleCard
+                                title="Understanding the EB-2 Visa Requirements"
+                                category="US Immigrant Visas"
+                                date="March 15, 2025"
+                                readTime="8 min read"
+                                image="/assets/articles/article1.png"
+                                link="/resources/us-immigrant-visas/understanding-eb-2-visa-requirements"
+                                className="w-full"
+                            />
+                            <BlogArticleCard
+                                title="How to Prepare for Your Immigration Interview"
+                                category="US Visas"
+                                date="March 10, 2025"
+                                readTime="12 min read"
+                                image="/assets/articles/article2.png"
+                                link="/resources/us-visas/prepare-immigration-interview"
+                                className="w-full"
+                            />
+                            <BlogArticleCard
+                                title="Common Mistakes in USCIS Applications"
+                                category="Resources"
+                                date="March 5, 2025"
+                                readTime="10 min read"
+                                image="/assets/articles/article3.png"
+                                link="/resources/common-mistakes-uscis-applications"
+                                className="w-full"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <ContactSection/>
             <SiteFooter/>
         </div>

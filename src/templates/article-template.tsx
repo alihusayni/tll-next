@@ -39,6 +39,7 @@ export default function ArticleTemplate({ content, slug }: ArticleTemplateProps)
                 breadcrumb={breadcrumb}
                 date={content.meta.date || content.meta.publishedTime || ''}
                 readTime={content.meta.readTime || ''}
+                author={content.meta.author || 'Tuan Le'}
             />
             <ArticleBody headings={content.headings} content={<MarkdownRenderer content={content.content} />} />
             <ContactSection/>

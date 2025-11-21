@@ -16,6 +16,7 @@ interface ArticleHeroProps {
   breadcrumb: { display: string; slugs: string[] };
   date: string;
   readTime: string;
+  author: string;
 }
 
 export default function ArticleHero({
@@ -26,39 +27,63 @@ export default function ArticleHero({
   breadcrumb,
   date,
   readTime,
+  author,
 }: ArticleHeroProps) {
-return (
-    <section className="bg-[#E8EDF2] flex flex-col items-center gap-8 px-4 md:px-8 lg:px-16 xl:px-16 pb-16">
+  return (
+    <section className="bg-[#E8EDF2] flex flex-col items-center gap-8 px-4 pb-16 md:px-8 lg:px-16 xl:px-16">
       {/* Article Header */}
       <div className="flex flex-col items-center gap-6 w-full max-w-[95rem]">
         <Breadcrumb display={breadcrumb.display} slugs={breadcrumb.slugs} />
         <div className="flex flex-col items-center gap-8">
           <h1
             id={slugify(title)}
-            className="font-inter-tight font-semibold text-center text-[#091C32] max-w-[71.5rem] scroll-mt-20 text-[40px] md:text-[50px] lg:text-[62px] leading-[1.3em] md:leading-[1.2352941176470589em] lg:leading-[1.1612903225806452em]"
+            className="font-inter-tight font-semibold text-center text-[#091C32] max-w-[71.5rem] scroll-mt-20 text-[2.5rem] leading-[1.3em] md:text-[2.5rem] md:leading-[1.3em] lg:text-[3.875rem] lg:leading-[1.1612903225806452em]"
           >
             {title}
           </h1>
-          <p className="font-inter text-center text-[#071C32] max-w-[54.5rem] text-[16px] md:text-[18px] leading-[1.25em] md:leading-[1.3333333333333333em]">
+          <p className="font-inter text-center text-[#071C32] max-w-[54.5rem] text-[1.125rem] leading-[1.5555555555555556em]">
             {subtitle}
           </p>
-           <ArticleMeta date={date} readTime={readTime} />
+          
+          {/* Author and Meta Info */}
+          <div className="flex flex-col items-center gap-4">
+            {/* Author Section */}
+            <div className="flex items-center gap-4">
+              <span className="font-inter font-normal text-[1rem] leading-[1.5em] text-center text-[#747D85]">
+                Written by
+              </span>
+              <span className="font-inter font-medium text-[1rem] leading-[1.5em] text-center text-[#071C32]">
+                {author}
+              </span>
+            </div>
+            
+            {/* Date and Read Time */}
+            <div className="flex items-center justify-center gap-4">
+              <span className="font-inter font-normal text-[1rem] leading-[1.5em] text-center text-[#747D85]">
+                {date}
+              </span>
+              <div className="w-px h-5 bg-[#BBBCBF]"></div>
+              <span className="font-inter font-normal text-[1rem] leading-[1.5em] text-center text-[#747D85]">
+                {readTime}
+              </span>
+            </div>
+          </div>
         </div>
       </div>
 
       {/* Featured Image */}
-      <div className="w-full max-w-[71.5rem] max-h-[32.634rem] rounded-2xl overflow-hidden">
-         <Image
-           src={imageSrc}
-           alt={imageAlt}
-           width={1144}
-           height={522}
-           className="w-full h-auto object-cover"
-           style={{ aspectRatio: '1144.00/522.15' }}
-           priority
-           placeholder="blur"
-           blurDataURL={blurredPlaceholder}
-         />
+      <div className="w-full max-w-[71.5rem] rounded-[1rem] overflow-hidden">
+        <Image
+          src={imageSrc}
+          alt={imageAlt}
+          width={1144}
+          height={522}
+          className="w-full h-auto object-cover"
+          style={{ aspectRatio: '1144.00/522.15' }}
+          priority
+          placeholder="blur"
+          blurDataURL={blurredPlaceholder}
+        />
       </div>
     </section>
   );
