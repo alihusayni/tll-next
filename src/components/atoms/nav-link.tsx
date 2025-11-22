@@ -13,10 +13,25 @@ interface NavLinkProps {
 export default function NavLink({href, children, isActive = false, hasDropdown = false, className = '', onClick, customTextColor}: NavLinkProps) {
     const handleClick = (e: React.MouseEvent) => {
         if (onClick) {
-            e.preventDefault();
-            onClick();
+            // Only prevent default if there's no href (pure dropdown trigger)
+            if (!href) {
+                e.preventDefault();
+                onClick();
+            } else {
+                // Allow navigation to proceed, but also call onClick for dropdown functionality
+                setTimeout(() => {
+                    onClick();
+                }, 100);
+                // Dispatch the scroll event
+                setTimeout(() => {
+                    window.dispatchEvent(new CustomEvent('navScroll'));
+                }, 100);
+            }
         } else if (href) {
-            window.dispatchEvent(new CustomEvent('navScroll'));
+            // Allow navigation to proceed, but also dispatch the scroll event
+            setTimeout(() => {
+                window.dispatchEvent(new CustomEvent('navScroll'));
+            }, 100);
         }
     };
 

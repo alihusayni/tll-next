@@ -1,6 +1,12 @@
 import { useState, useEffect, useRef } from 'react';
 import NavLink from '../atoms/nav-link';
 
+interface NavItem {
+  href?: string;
+  label: string;
+  subItems?: { href: string; label: string }[];
+}
+
 interface MainNavProps {
   className?: string;
   onItemClick?: () => void;
@@ -11,6 +17,7 @@ interface MainNavProps {
 export default function MainNav({ className = '', onItemClick, mobileView = false, customTextColor }: MainNavProps) {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const navRef = useRef<HTMLElement>(null);
+  const dropdownTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -22,10 +29,29 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
     document.addEventListener('mousedown', handleClickOutside);
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
+      if (dropdownTimeoutRef.current) {
+        clearTimeout(dropdownTimeoutRef.current);
+      }
     };
   }, []);
 
-  const navItems = [
+  const handleMouseEnter = (identifier: string) => {
+    if (dropdownTimeoutRef.current) {
+      clearTimeout(dropdownTimeoutRef.current);
+    }
+    const item = navItems.find(item => (item.href || item.label) === identifier);
+    if (item?.subItems) {
+      setOpenDropdown(identifier);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    dropdownTimeoutRef.current = setTimeout(() => {
+      setOpenDropdown(null);
+    }, 150); // Small delay to prevent flickering
+  };
+
+  const navItems: NavItem[] = [
         { href: '/testimonials', label: 'TESTIMONIALS' },
     { href: '/faq', label: 'FAQ' },
     {
@@ -35,19 +61,21 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
         { href: '/us-visas', label: 'US Visas' },
         { href: '/us-nonimmigrant-visas', label: 'US Nonimmigrant Visas' },
         { href: '/us-immigrant-visas', label: 'US Immigrant Visas' },
-        { href: '/deportation-defense', label: 'Criminal Immigration' },
         { href: '/citizenship-naturalization', label: 'Citizenship Naturalization' },
         { href: '/asylum-humanitarian-relief', label: 'Asylum Humanitarian Relief' }
       ]
     }
   ];
 
-  const handleClick = (href: string) => {
-    if (navItems.find(item => item.href === href)?.subItems) {
-      setOpenDropdown(openDropdown === href ? null : href);
-    } else {
-      onItemClick?.();
+  const handleClick = (identifier?: string) => {
+    if (!identifier) return;
+    const item = navItems.find(item => (item.href || item.label) === identifier);
+    if (item?.subItems) {
+      // For items with both href and subItems, toggle dropdown but don't prevent navigation
+      setOpenDropdown(openDropdown === identifier ? null : identifier);
     }
+    // Always call onItemClick to close mobile menu if needed
+    onItemClick?.();
   };
 
   const handleDropdownItemClick = () => {
@@ -59,14 +87,14 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
     return (
       <nav ref={navRef} className={`${className}`}>
         {navItems.map((item) => (
-          <div key={item.href} className="w-full">
+          <div key={item.href || item.label} className="w-full">
             {/* Main menu item */}
             <div className="py-4 px-4">
               <NavLink
                 href={item.subItems ? undefined : item.href}
                 hasDropdown={false} // Disable default dropdown arrow in mobile view
-                isActive={openDropdown === item.href}
-                onClick={item.subItems ? () => handleClick(item.href) : undefined}
+            isActive={openDropdown === (item.href || item.label)}
+                onClick={item.subItems ? () => handleClick(item.href || item.label) : undefined}
                 className={`${mobileView ? 'text-white' : (customTextColor || 'text-white')} text-[30px] font-inter-tight font-semibold leading-[26px] uppercase ${item.subItems ? 'cursor-pointer flex items-center justify-between gap-4' : ''}`}
                 customTextColor={mobileView ? undefined : customTextColor}
               >
@@ -115,35 +143,47 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
 
   return (
     <nav ref={navRef} className={`flex items-center gap-10 ${className}`}>
-      {navItems.map((item) => (
-        <div key={item.href} className="relative">
-          <NavLink
-            href={item.subItems ? undefined : item.href}
-            hasDropdown={!!item.subItems}
-            isActive={openDropdown === item.href}
-            onClick={item.subItems ? () => handleClick(item.href) : undefined}
-            className={`${customTextColor || ''} ${item.subItems ? 'cursor-pointer' : ''}`}
-            customTextColor={customTextColor}
+      {navItems.map((item) => {
+        const identifier = item.href || item.label;
+        return (
+          <div 
+            key={identifier} 
+            className="relative"
+            onMouseEnter={() => handleMouseEnter(identifier)}
+            onMouseLeave={handleMouseLeave}
           >
-            {item.label}
-          </NavLink>
-          {item.subItems && openDropdown === item.href && (
-            <div className="absolute flex flex-col mt-3 bg-white rounded-lg shadow-lg border border-gray-200 gap-4 p-8 min-w-[15.625rem] z-50">
-              {item.subItems.map((subItem) => (
-                 <NavLink
-                   key={subItem.href}
-                   href={subItem.href}
-                   className="block text-base leading-6 !text-[#49535D] hover:!text-[#FF7031] transition-colors"
-                   onClick={handleDropdownItemClick}
-                   customTextColor={customTextColor}
-                 >
-                  {subItem.label}
-                </NavLink>
-              ))}
-            </div>
-          )}
-        </div>
-      ))}
+            <NavLink
+              href={item.href}
+              hasDropdown={!!item.subItems}
+              isActive={openDropdown === identifier}
+              onClick={item.subItems ? () => handleClick(identifier) : undefined}
+              className={`${customTextColor || ''} ${item.subItems ? 'cursor-pointer' : ''}`}
+              customTextColor={customTextColor}
+            >
+              {item.label}
+            </NavLink>
+            {item.subItems && openDropdown === identifier && (
+              <div 
+                className="absolute flex flex-col mt-3 bg-white rounded-lg shadow-lg border border-gray-200 gap-4 p-8 min-w-[15.625rem] z-50"
+                onMouseEnter={() => handleMouseEnter(identifier)}
+                onMouseLeave={handleMouseLeave}
+              >
+                {item.subItems.map((subItem) => (
+                   <NavLink
+                     key={subItem.href}
+                     href={subItem.href}
+                     className="block text-base leading-6 !text-[#49535D] hover:!text-[#FF7031] transition-colors"
+                     onClick={handleDropdownItemClick}
+                     customTextColor={customTextColor}
+                   >
+                    {subItem.label}
+                  </NavLink>
+                ))}
+              </div>
+            )}
+          </div>
+        );
+      })}
     </nav>
   );
 }
