@@ -1,27 +1,28 @@
 export default function RatingBadge() {
   return (
-    <div className="bg-[#000b1a] hover:bg-[#e55b1e] flex items-center gap-[16px] sm:gap-3 p-[6px] rounded-full transition-all duration-500 ease-in-out cursor-pointer group">
-      {/* Star Icon - Solar Icon: Star (Bold) */}
-      <div className="relative w-[48px] h-[48px] sm:w-10 sm:h-10 flex items-center justify-center flex-shrink-0">
-        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[48px] h-[48px] sm:w-10 sm:h-10">
-          <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z" fill="#E55B1E"/>
-        </svg>
+    <div className="bg-[#000B1A] hover:bg-[#E55B1E] flex items-center gap-4 p-1.5 rounded-full transition-all duration-300 ease-in-out cursor-pointer group">
+      {/* Star Container */}
+      <div className="bg-[#E55B1E] flex items-center justify-center p-3 rounded-full">
+        {/* Stars SVG - exact from Figma */}
+          <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.38488 0.690983C8.68423 -0.230328 9.98764 -0.230329 10.287 0.690982L11.8056 5.36474C11.9395 5.77677 12.3234 6.05573 12.7566 6.05573H17.6709C18.6397 6.05573 19.0424 7.29534 18.2587 7.86474L14.283 10.7533C13.9325 11.0079 13.7858 11.4593 13.9197 11.8713L15.4383 16.5451C15.7377 17.4664 14.6832 18.2325 13.8995 17.6631L9.92372 14.7746C9.57324 14.5199 9.09864 14.5199 8.74815 14.7746L4.77241 17.6631C3.9887 18.2325 2.93422 17.4664 3.23357 16.5451L4.75217 11.8713C4.88604 11.4593 4.73938 11.0079 4.3889 10.7533L0.413159 7.86474C-0.370555 7.29534 0.0322201 6.05573 1.00094 6.05573H5.91523C6.34845 6.05573 6.73241 5.77677 6.86628 5.36474L8.38488 0.690983Z" fill="#E1E6EB"/>
+          </svg>
       </div>
       
       {/* Text and Arrow Container */}
-      <div className="flex items-center gap-[8px] pr-[10px]">
-        <p className="font-inter font-medium text-[16px] leading-[24px] text-white/95 text-center">
+      <div className="flex items-center gap-2 pr-2.5">
+        <p className="font-inter font-medium text-base leading-6 text-white/95 text-center whitespace-nowrap">
           Rated 5/5 by over 70 clients
         </p>
         
         {/* Arrow Icons - Diagonal on default, horizontal on hover */}
-        <div className="w-[24px] h-[24px] sm:w-5 sm:h-5 flex items-center justify-center flex-shrink-0 relative overflow-visible">
-          {/* Default: Arrow Right Up (Solar Icon Linear) */}
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[24px] h-[24px] sm:w-5 sm:h-5 absolute inset-0 transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)] opacity-100 group-hover:opacity-0 group-hover:rotate-[135deg] group-hover:scale-75">
-            <path d="M6 18L18 6M18 6H10M18 6V14" stroke="#BBBCBF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+        <div className="w-6 h-6 flex items-center justify-center flex-shrink-0 relative overflow-visible">
+          {/* Default: Arrow Right Up */}
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 absolute inset-0 transition-all duration-300 ease-in-out opacity-100 group-hover:opacity-0 group-hover:rotate-12 group-hover:scale-75">
+            <path d="M6 18L18 6M18 6H9M18 6V15" stroke="#BBBCBF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
-          {/* Hover: Arrow Right (Solar Icon Linear) */}
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[24px] h-[24px] sm:w-5 sm:h-5 absolute inset-0 transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)] opacity-0 group-hover:opacity-100 -rotate-[135deg] group-hover:rotate-0 scale-75 group-hover:scale-100">
+          {/* Hover: Arrow Right */}
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 absolute inset-0 transition-all duration-300 ease-in-out opacity-0 group-hover:opacity-100 -rotate-12 group-hover:rotate-0 scale-75 group-hover:scale-100">
             <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </div>

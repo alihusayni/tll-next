@@ -73,7 +73,7 @@ export default function TestimonialsPageSection() {
           
           {/* Hero Heading */}
           <div className="flex flex-col items-center gap-[24px] w-full text-center">
-            <h1 className="font-inter-tight font-semibold text-[62px] md:text-[62px] sm:text-[40px] leading-[72px] md:leading-[72px] sm:leading-[48px] text-[#9199b9] max-w-[872px] w-full">
+            <h1 className="font-inter-tight font-semibold text-[40px] sm:text-[62px] leading-[48px] md:leading-[48px] sm:leading-[72px] text-[#9199b9] max-w-[872px] w-full">
               See how we&apos;ve{' '}
               <span className="text-white">helped others achieve their goals</span>, and what the{' '}
               <span className="text-[#e8edf2]">T</span>
