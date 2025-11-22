@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/resources/us-immigration-policy-2025"
 ogTitle: "Possible Changes in U.S. Immigration Policy in 2025"
 ogDescription: "How will the new Trump Government affect the U.S. immigration policy in 2025? Read this simple guide to prepare yourself."
-ogImage: https://www.tuanlelaw.com/files/shares/BlogImage/US-Immigration-Policy-in-2025.jpg
+ogImage: https://www.tuanlelaw.com/filemanager/files/shares/BlogImage/US-Immigration-Policy-in-2025.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration News and Updates"
 twitterDescription: "Latest immigration news and updates from Tuan Le Law."
