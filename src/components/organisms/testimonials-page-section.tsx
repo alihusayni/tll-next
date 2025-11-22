@@ -85,7 +85,7 @@ export default function TestimonialsPageSection() {
         {/* Testimonial Cards - Two Rows with GSAP Animation */}
         <div className="flex flex-col gap-[16px] sm:gap-[16px] w-full">
           {/* First Row - Scrolls Left */}
-          <div className="overflow-hidden">
+          <div className="overflow-visible">
             <div ref={firstRowRef} className="flex gap-[16px] sm:gap-[16px]" style={{ willChange: 'transform' }}>
               {/* Original cards */}
               {firstRow.map((testimonial, index) => (
@@ -109,7 +109,7 @@ export default function TestimonialsPageSection() {
           </div>
 
           {/* Second Row - Scrolls Right */}
-          <div className="overflow-hidden">
+          <div className="overflow-visible">
             <div ref={secondRowRef} className="flex gap-[16px] sm:gap-[16px]" style={{ willChange: 'transform' }}>
               {/* Original cards */}
               {secondRow.map((testimonial, index) => (

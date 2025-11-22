@@ -92,13 +92,14 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
           <div key={item.href || item.label} className="w-full">
             {/* Main menu item */}
             <div className="py-4 px-4">
-              <NavLink
-                href={item.subItems ? undefined : item.href}
-                hasDropdown={false} // Disable default dropdown arrow in mobile view
+               <NavLink
+                 href={item.subItems ? undefined : item.href}
+                 hasDropdown={false} // Disable default dropdown arrow in mobile view
             isActive={openDropdown === (item.href || item.label)}
                 onClick={item.subItems ? () => handleClick(item.href || item.label) : undefined}
-                className={`${mobileView ? 'text-white' : (customTextColor || 'text-white')} text-[30px] font-inter-tight font-semibold leading-[26px] uppercase ${item.subItems ? 'cursor-pointer flex items-center justify-between gap-4' : ''}`}
+                className={`${mobileView ? 'text-white hover:text-[#FF7031]' : (customTextColor || 'text-white')} text-[30px] font-inter-tight font-semibold leading-[26px] uppercase ${item.subItems ? 'cursor-pointer flex items-center justify-between gap-4' : ''}`}
                 customTextColor={mobileView ? undefined : customTextColor}
+                showUnderline={false}
               >
                 {item.label}
                 {item.subItems && (
@@ -126,12 +127,13 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
             {item.subItems && openDropdown === item.href && (
               <div className="rounded-lg mx-4 mb-4 p-8">
                 {item.subItems.map((subItem) => (
-                  <NavLink
-                    key={subItem.href}
-                    href={subItem.href}
-                    className="block text-[#D2D5D9] text-base font-inter font-normal leading-5 mb-6 last:mb-0 active:text-[#FF7031] transition-colors"
-                    onClick={handleDropdownItemClick}
-                  >
+                   <NavLink
+                     key={subItem.href}
+                     href={subItem.href}
+                     className="block text-[#D2D5D9] text-base font-inter font-normal leading-5 mb-6 last:mb-0 hover:text-[#FF7031] active:text-[#FF7031] transition-colors"
+                     onClick={handleDropdownItemClick}
+                     showUnderline={false}
+                   >
                     {subItem.label}
                   </NavLink>
                 ))}
@@ -171,13 +173,14 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
                 onMouseLeave={handleMouseLeave}
               >
                 {item.subItems.map((subItem) => (
-                   <NavLink
-                     key={subItem.href}
-                     href={subItem.href}
-                     className="block text-base leading-6 !text-[#49535D] hover:!text-[#FF7031] transition-colors"
-                     onClick={handleDropdownItemClick}
-                     customTextColor={customTextColor}
-                   >
+                    <NavLink
+                      key={subItem.href}
+                      href={subItem.href}
+                      className="block text-base leading-6 !text-[#49535D] hover:!text-[#FF7031] transition-colors"
+                      onClick={handleDropdownItemClick}
+                      customTextColor={customTextColor}
+                      showUnderline={false}
+                    >
                     {subItem.label}
                   </NavLink>
                 ))}

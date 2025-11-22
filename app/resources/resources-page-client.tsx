@@ -115,7 +115,6 @@ export default function ResourcesPageClient({
           categories={categories}
           activeCategory={activeCategory}
           onCategoryChange={handleCategoryChange}
-          className="w-full"
         />
 
         {/* Featured Articles */}

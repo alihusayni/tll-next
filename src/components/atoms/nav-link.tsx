@@ -8,9 +8,10 @@ interface NavLinkProps {
     className?: string;
     onClick?: () => void;
     customTextColor?: string;
+    showUnderline?: boolean;
 }
 
-export default function NavLink({href, children, isActive = false, hasDropdown = false, className = '', onClick, customTextColor}: NavLinkProps) {
+export default function NavLink({href, children, isActive = false, hasDropdown = false, className = '', onClick, customTextColor, showUnderline = true}: NavLinkProps) {
     const handleClick = (e: React.MouseEvent) => {
         if (onClick) {
             // Only prevent default if there's no href (pure dropdown trigger)
@@ -35,7 +36,8 @@ export default function NavLink({href, children, isActive = false, hasDropdown =
         }
     };
 
-    const linkClassName = `relative font-inter-tight font-medium text-lg leading-[22px] whitespace-nowrap ${customTextColor || 'text-white'} before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:bg-${customTextColor ? '[#030E1A]' : 'white'} before:transition-all before:duration-300 hover:before:w-full ${isActive ? '!text-[#FF7031] before:bg-[#FF7031]' : ''} ${className} ${hasDropdown ? 'flex items-center gap-2' : ''}`;
+    const underlineClasses = showUnderline ? 'before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:bg-current before:transition-all before:duration-300 hover:before:w-full' : '';
+    const linkClassName = `relative font-inter-tight font-medium text-lg leading-[22px] whitespace-nowrap ${customTextColor || 'text-white'} ${underlineClasses} ${isActive ? '!text-[#FF7031]' : ''} ${className} ${hasDropdown ? 'flex items-center gap-2' : ''}`;
 
     if (href) {
         return (

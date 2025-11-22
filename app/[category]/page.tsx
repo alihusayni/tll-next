@@ -149,10 +149,8 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   
   return (
     <>
-      <div className="bg-[#204586]">
-        <div className="max-w-[1512px] mx-auto px-4 md:px-8 lg:px-16">
-          <SiteHeader />
-        </div>
+      <div className="bg-[#E8EDF2]">
+
       </div>
       <CategoryPageClient
         categoryLabel={categoryLabel}
@@ -160,6 +158,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         categorySlug={category}
         featuredArticles={transformedFeaturedArticles}
         allArticles={transformedAllArticles}
+        categories={categories}
       />
     </>
   );
