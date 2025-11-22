@@ -118,7 +118,7 @@ export default function BlogCategoryFilter({
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUpOrLeave}
         onMouseLeave={handleMouseUpOrLeave}
-        className={`box-border flex gap-2 items-center justify-center px-0 py-4 w-full overflow-x-auto scrollbar-hide ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
+        className={`box-border flex gap-2 items-center justify-center pl-24 py-4 w-full overflow-x-auto scrollbar-hide ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
         style={{
           scrollbarWidth: 'none',
           msOverflowStyle: 'none',

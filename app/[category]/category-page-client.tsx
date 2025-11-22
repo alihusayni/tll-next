@@ -150,16 +150,6 @@ export default function CategoryPageClient({
                       <MarkdownRenderer content={categoryContent.content} />
                     </div>
 
-                    {/* Testimonial Quote - Insert after first section */}
-                    <TestimonialQuote
-                      quote="Tuan Le is an excellent immigration lawyer who helped me through the entire process of obtaining an I-601 waiver for my wife in 9.5 months. He has been patient and informative with all my questions regarding this process."
-                      author="Tuyen Vu"
-                      className="w-full"
-                    />
-
-                    {/* CTA Section */}
-                    <ConsultationCTA className="w-full" />
-
                     {/* Back to Top Button */}
                     <div className="flex justify-end pt-4">
                       <BackToTopButton />
