@@ -154,7 +154,7 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
                 Latest Articles
               </h1>
             </div>
-            <LinkButton text="See All Articles" href="#" textColor="text-[#49535D]" />
+            <LinkButton text="See All Articles" href="/resources" textColor="text-[#49535D]" />
           </div>
           <div className="flex flex-col gap-16">
             <div

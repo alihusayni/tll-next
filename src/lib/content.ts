@@ -265,3 +265,19 @@ export function getCategoryFeaturedArticles(category: string): Content[] {
     .filter(article => article.meta.featured === true)
     .slice(0, 3);
 }
+
+export function getRelatedArticles(currentSlug: string, limit: number = 3): Content[] {
+  const slugParts = currentSlug.split('/');
+  const category = slugParts[0];
+  
+  if (!category) {
+    return [];
+  }
+  
+  const categoryArticles = getCategoryArticles(category);
+  
+  // Filter out the current article and return random articles from the same category
+  return categoryArticles
+    .filter(article => article.slug !== currentSlug)
+    .slice(0, limit);
+}

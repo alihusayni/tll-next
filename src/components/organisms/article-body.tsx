@@ -12,16 +12,16 @@ interface ArticleBodyProps {
 
 export default function ArticleBody({ headings, content }: ArticleBodyProps) {
   return (
-    <section className="bg-[#E8EDF2] pb-16 lg:pb-32 max-w-[79.5rem] mx-auto px-4 md:px-8 lg:px-16 xl:px-16">
+    <section className="bg-[#E8EDF2] pb-16 lg:pb-32 max-w-[86.5rem] mx-auto px-4 md:px-8 lg:px-16 xl:px-0">
       <div className="max-w-[95rem] mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-[21.25rem_1fr] gap-8">
           {/* TOC */}
-          <div className="hidden lg:block lg:col-span-1 lg:sticky lg:top-32 lg:self-start">
+          <div className="hidden lg:block lg:sticky lg:top-32 lg:self-start">
             <TableOfContents headings={headings} />
           </div>
 
           {/* Content */}
-          <div className="lg:col-span-2">
+          <div>
             <div className="markdown-body prose prose-lg max-w-none">
               {content}
             </div>
@@ -38,7 +38,9 @@ export default function ArticleBody({ headings, content }: ArticleBodyProps) {
             {/*   <CtaBox />*/}
             {/* </div>*/}
 
-             <BackToTopButton />
+              <div className="flex justify-end">
+                <BackToTopButton />
+              </div>
            </div>
         </div>
       </div>

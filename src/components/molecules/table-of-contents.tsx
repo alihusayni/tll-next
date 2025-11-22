@@ -14,20 +14,25 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveId(entry.target.id);
-          }
-        });
+        const visibleHeadings = entries
+          .filter((entry) => entry.isIntersecting)
+          .map((entry) => entry.target.id);
+        
+        if (visibleHeadings.length > 0) {
+          // Get the first visible heading (topmost)
+          const topmostHeading = visibleHeadings[0];
+          setActiveId(topmostHeading);
+        }
       },
       {
-        rootMargin: '-80px 0px -80% 0px',
-        threshold: 0.5,
+        rootMargin: '-100px 0px -60% 0px',
+        threshold: 0,
       }
     );
 
-    // Observe all headings
-    headings.forEach((heading) => {
+    // Observe only h2 headings
+    const h2Headings = headings.filter((h) => h.level === 2);
+    h2Headings.forEach((heading) => {
       const element = document.getElementById(heading.id);
       if (element) {
         observer.observe(element);
@@ -46,8 +51,8 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
     }
   };
 
-  // Filter to only show h2 and h3 headings
-  const tocHeadings = headings.filter((h) => h.level === 2 || h.level === 3);
+  // Filter to only show h2 headings
+  const tocHeadings = headings.filter((h) => h.level === 2);
 
   if (tocHeadings.length === 0) {
     return null;
@@ -72,7 +77,7 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
                     ? 'font-inter font-semibold text-[#E55B1E]' 
                     : 'font-inter font-medium text-[#49535D] hover:text-[#E55B1E]'
                   }
-                  ${heading.level === 3 ? 'pl-4' : ''}
+
                 `}
               >
                 {heading.text}

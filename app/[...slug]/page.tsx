@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import InternalTemplate from '@/templates/internal-template';
-import { getContentBySlug, generateStaticParams as generateContentPaths, getContentCategories } from '@/lib/content';
+import { getContentBySlug, generateStaticParams as generateContentPaths, getContentCategories, getRelatedArticles } from '@/lib/content';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 
@@ -69,6 +69,9 @@ export default async function ArticlePage({ params }: PageProps) {
   }
 
   const { meta } = content;
+  
+  // Get related articles from the same category
+  const relatedArticles = getRelatedArticles(slugPath, 3);
   const title = meta.metaTitle || meta.h1 || meta.title || 'Untitled';
   const description = meta.metaDescription || meta.summary || meta.description || '';
   const ogImage = meta.ogImage || meta.imageSrc;
@@ -144,7 +147,7 @@ export default async function ArticlePage({ params }: PageProps) {
       >
         {JSON.stringify(articleSchema)}
       </Script>
-      <InternalTemplate content={content} slug={slugPath} categories={getContentCategories()} />
+      <InternalTemplate content={content} slug={slugPath} categories={getContentCategories()} relatedArticles={relatedArticles} />
     </>
   );
 }

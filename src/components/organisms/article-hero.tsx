@@ -30,7 +30,7 @@ export default function ArticleHero({
   author,
 }: ArticleHeroProps) {
   return (
-    <section className="bg-[#E8EDF2] flex flex-col items-center gap-8 px-4 pb-16 md:px-8 lg:px-16 xl:px-16">
+    <section className="bg-[#E8EDF2] flex flex-col items-center gap-8 px-4 py-16 md:px-8 lg:px-16 xl:px-16">
       {/* Article Header */}
       <div className="flex flex-col items-center gap-6 w-full max-w-[95rem]">
         <Breadcrumb display={breadcrumb.display} slugs={breadcrumb.slugs} />

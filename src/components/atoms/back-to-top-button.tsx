@@ -36,7 +36,7 @@ export default function BackToTopButton({ className = '' }: BackToTopButtonProps
   return (
     <button
       onClick={scrollToTop}
-      className={`border-2 border-[#071C32] rounded-md px-6 py-4 h-12 flex items-center justify-center gap-4 hover:bg-[#071C32] hover:text-white transition-colors group ${className}`}
+      className={`border-2 border-[#071C32] rounded-md px-6 py-4 h-12 flex items-center justify-center gap-4 hover:bg-[#FF7031] hover:text-white hover:border-[#FF7031] transition-colors group ${className}`}
       aria-label="Back to top"
     >
       <span className="font-inter-tight font-semibold text-sm leading-7 text-[#071C32] uppercase group-hover:text-white">
@@ -47,14 +47,15 @@ export default function BackToTopButton({ className = '' }: BackToTopButtonProps
         height="24" 
         viewBox="0 0 24 24" 
         fill="none"
-        className="group-hover:-translate-y-1 transition-transform"
+        className="group-hover:rotate-45 transition-transform"
       >
         <path 
           d="M12 19V5M12 5L5 12M12 5L19 12" 
-          stroke="currentColor" 
+          stroke="#071C32" 
           strokeWidth="2" 
           strokeLinecap="round" 
           strokeLinejoin="round"
+          className="group-hover:stroke-white"
         />
       </svg>
     </button>

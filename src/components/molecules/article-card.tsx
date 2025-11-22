@@ -10,7 +10,10 @@ interface ArticleCardProps {
 
 export default function ArticleCard({ title, description, image, link }: ArticleCardProps) {
   return (
-    <a href={link} className="flex flex-col gap-4 p-4 w-[384px] flex-shrink-0 flex-grow-0 rounded-2xl group cursor-pointer transition-transform">
+    <div 
+      onClick={() => window.location.href = link}
+      className="flex flex-col gap-4 p-4 w-[384px] flex-shrink-0 flex-grow-0 rounded-2xl group cursor-pointer transition-transform"
+    >
       <div className="relative w-full h-[332px] rounded-2xl overflow-hidden">
         <Image
           src={image}
@@ -32,9 +35,9 @@ export default function ArticleCard({ title, description, image, link }: Article
             </p>
           </div>
           <div className="flex-1 flex items-end">
-            <LinkButton text="Read More" href="#" textColor="text-[#49535D]" useGroupHover={true} />
+            <LinkButton text="Read More" href={link} textColor="text-[#49535D]" useGroupHover={true} />
           </div>
         </div>
-    </a>
+    </div>
   );
 }
