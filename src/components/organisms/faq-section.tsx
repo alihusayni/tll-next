@@ -10,7 +10,7 @@ export default function FaqSection() {
                 {/* Hero/Header Section */}
                 <div className="flex flex-col gap-8 py-8">
                     <h1 className="text-[92px] leading-[72px] font-inter-tight font-semibold text-[#071C32] max-w-[496px] tracking-[-1.84px]">
-                        FAQ's
+                        FAQ&apos;s
                     </h1>
                     <p className="text-2xl leading-7 font-inter-tight font-medium text-[#747D85]">
                         Common questions about our services and the U.S. immigration process.
