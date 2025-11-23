@@ -33,12 +33,12 @@ whether online or by mail.
 Before applying for an EAD, you should know if you are eligible to avoid wasting time and money. Read on to find out or
 simply give us a call at [(714) 877 5840](tel:+1-714-877-5840) for a free consultation with an immigration attorney.
 
-## Eligibility for Filing Form I-765
+### Eligibility for Filing Form I-765
 
 Different groups of non-immigrants are considered qualified to file a Form I-765. See if you belong to any of the
 following categories.
 
-### Students
+#### Students
 
 Students visas do not usually allow them to work while studying . Although, there are some exceptions.
 
@@ -52,13 +52,13 @@ Students visas do not usually allow them to work while studying . Although, ther
 * Individuals who study at vocational schools can get an EAD to get more training.
   For more details call us at [(714) 877 5840](tel:+1-714-877-5840) for a consultation.
 
-### Asylees and Refugees and Their Dependents
+#### Asylees and Refugees and Their Dependents
 
 All asylees and refugees, who do not have employment authorization, and their dependents, are allowed to file Form I-765
 after a minimum of 150 days following the filing of their asylum claim application. So, to apply for a work permit, you
 will need legal proof to show your asylee/refugee status or the fact that your asylum application is pending.
 
-### Aliens from Certain Countries
+#### Aliens from Certain Countries
 
 * TPS (Temporary Protected Status): People from specified countries living in the U.S. under TPS can request work
   authorization. As of February 2023, these countries include Afghanistan, Burma, Cameroon, El Salvador, Ethiopia,
@@ -73,7 +73,7 @@ will need legal proof to show your asylee/refugee status or the fact that your a
   list [here.](https://www.uscis.gov/humanitarian/deferred-enforced-departure)
 * E1 Treaty Traders dependents are eligible to obtain a work permit.
 
-### Employment-based Groups
+#### Employment-based Groups
 
 Some individuals can apply for an EAD on their own, without any employer to sponsor them. This includes:
 
@@ -87,7 +87,7 @@ Some individuals can apply for an EAD on their own, without any employer to spon
 * Some employment-based green card applicants and their dependents who are facing difficulties in their green card
   processing time.
 
-### Family-based Groups
+#### Family-based Groups
 
 Some family members of permanent U.S. citizens are eligible for an EAD.
 
@@ -98,13 +98,13 @@ Some family members of permanent U.S. citizens are eligible for an EAD.
   or [Family Unity Program](https://www.govinfo.gov/content/pkg/CFR-2015-title8-vol1/xml/CFR-2015-title8-vol1-part236-subpartB.xml).
   Click on each to learn more about it.
 
-### Green Card Applicants
+#### Green Card Applicants
 
 If you are in the U.S. waiting for your Green Card approval, you can request an EAD with Form I-765 to be able to work
 until your GC application is approved. It is possible to apply for both of them at the same time, and in this way, you
 may save some money and time. Needless to say, you will need a visa number to file Form I-765.
 
-### Other Eligible Applicants
+#### Other Eligible Applicants
 
 In addition to all the above-mentioned categories, there are certain other eligible individuals to apply with Form
 I-765.
@@ -119,7 +119,7 @@ I-765.
   this [here.](https://www.uscis.gov/archive/deferred-action-for-childhood-arrivals-response-to-january-2018-preliminary-injunction))
 * Individuals who entered the U.S. as public interest parolees.
 
-## Form I-765 Application Costs
+#### Form I-765 Application Costs
 
 [[cta]]
 
@@ -139,7 +139,7 @@ filing fee if it is their first time. This includes:
   services during the interview, which include recording your fingerprints, signature, and photograph, you will need to
   pay an additional $85. No one is exempt from this fee, and you cannot waive it.
 
-## Form I-765 Required Documents
+#### Form I-765 Required Documents
 
 The required documents to request an EAD include:
 
@@ -159,7 +159,7 @@ The required documents to request an EAD include:
   Check out the [USCIS website](https://www.uscis.gov/i-765) for more details or pick up your phone and consult with our
   immigration attorney at [(714) 877 5840](tel:+1-714-877-5840).
 
-## How to Apply for Employment Authorization Using Form I-765?
+#### How to Apply for Employment Authorization Using Form I-765?
 
 [[cta]]
 
@@ -173,7 +173,7 @@ I-765 [here.](https://www.tuanlelaw.com/wp-content/uploads/doc/i-765instr.pdf)
 If you leave out some parts or do not use the correct information, there will be some complications in the process which
 may lead to a delay or even denial of your case.
 
-### Mail Form I-765
+#### Mail Form I-765
 
 If you want to file an Application for Employment Authorization with another application, such as a green card, you
 should file Form I-765 at the center you are applying the other, for example, the location you are filing for a green
@@ -181,21 +181,21 @@ card. Therefore, there is no need to submit Form I-765 to a different location.
 However, in case it is the only application, you should mail it to the addresses specified by USCIS.
 Visit [this page](https://www.uscis.gov/i-765-addresses) to find out.
 
-### Filing Form I-765 Online
+#### Filing Form I-765 Online
 
 An easier way is to go to the USCIS website and file it online
 via [this link](https://www.uscis.gov/file-online/forms-available-to-file-online). Go down the page and look for Form
 I-765. The online submission gives you the opportunity to track your request more easily, update your personal
 information, and upload the evidence.
 
-### Processing Time for Form I-765, Application for Employment Authorization
+#### Processing Time for Form I-765, Application for Employment Authorization
 
 The processing time for an EAD can take up to 7 months, due to the backlog at USCIS. If you have submitted the
 application online, then you can check your case status easily.
 If your request is approved, it will come through the mail, or you will be asked to get it from your local USCIS office.
 To find the nearest office, see [this page](https://www.uscis.gov/about-us/find-a-uscis-office).
 
-### Common Reasons for Denial
+#### Common Reasons for Denial
 
 As the form requires a lot of information, there is no surprise in making some mistakes. That is why the common reasons
 for EAD request denial are mostly related to the form. These include
@@ -205,13 +205,13 @@ for EAD request denial are mostly related to the form. These include
 * Leaving out some parts;
 * Problems with the documents
 
-### Appealing in Case of Denial
+#### Appealing in Case of Denial
 
 In the case that your application is disapproved, you are permitted to request reopening or reconsidering your
 application. To do so, we strongly recommend the applicant hire an immigration lawyer to handle the case. This is
 necessary to avoid a second denial.
 
-### EAD Renewal
+#### EAD Renewal
 
 An EAD is usually valid for one to two years, depending on your case. To avoid legal problems, you should request a
 renewal before it expires. For a renewal, you need to file Form I-765 again but people who fall into the following
@@ -221,7 +221,7 @@ categories are exempt from the filing fee.
 * Applicants who have been granted withholding of removal
 * Dependents of some foreign governments, NATO, or international organizations staff
 
-### EAD Replacement
+#### EAD Replacement
 
 In the event that you lose your EAD or there is incorrect information on the card, it is possible to ask for a
 replacement.
@@ -229,8 +229,7 @@ If the error is made by USCIS, then you do not pay the filing fee again. Neither
 exempt from the fee.
 However, if the error is made by you, you will have to submit a new Form I-765 and pay the filing fee.
 
-## Do You Need Help with Form I-765?
-
+#### Do You Need Help with Form I-765?
 
 If you need to file form I-765, Application for Employment Authorization, you can count on our immigration lawyer to
 guide you throughout the process. Our law office has handled numerous immigration cases is fully experienced in such

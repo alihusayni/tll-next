@@ -56,7 +56,7 @@ visa [on the USCIS website.](https://www.uscis.gov/working-in-the-united-states/
 It might be a bit difficult to prove your extraordinary abilities but, on the plus side, you will not need an employment
 offer to apply for it.
 
-### Outstanding Professor Visa
+#### Outstanding Professor Visa
 
 Professors and researchers who have made great and significant contributions to their field of science can apply for an
 outstanding professor or researcher EB-1 visa (also referred to as EB-1B visa). They must be able to prove their
@@ -70,7 +70,7 @@ Applicants have to meet the following EB-1 visa requirements:
   and apply for this type of visa. However, they need an employment offer letter to be able to file their EB-1
   application.
 
-### Multinational Executive Visa
+#### Multinational Executive Visa
 
 Eligible candidates for EB-1C visa or multinational executive or manager EB-1 visa are those who have worked in a US
 company's foreign branch.
@@ -83,7 +83,7 @@ see [here](https://www.uscis.gov/policy-manual/volume-6-part-f-chapter-4).
 Preparing your EB-1 visa evidence and documentation to conform with the USCIS requirements might require some
 experience. Ask a competent immigration lawyer for some help and [advice by phone call](tel:+1-714-877-5840).
 
-## EB-1 Visa Application Process
+#### EB-1 Visa Application Process
 
 [[cta]]
 
@@ -94,7 +94,7 @@ In any case, the application process includes a few steps. Upon completion, you 
 the US. Or, if you are already in the country, you can adjust your status. However, your application/petition may get
 rejected. This means you are not qualified to receive an EB-1 visa according to the USCIS.
 
-### Applying for EB-1 Visa by Yourself
+#### Applying for EB-1 Visa by Yourself
 
 If you are planning to apply for the extraordinary ability EB1 visa, you can simply file your request yourself. To do
 so, you must follow the procedures below.
@@ -132,7 +132,7 @@ through Consular Processing by going through the steps below.
   **Note: You must not open the NVC package. It is only to be opened by an immigration officer in the US to allow you
   in.**
 
-### EB-1B and EB-1C Visas Application Process
+#### EB-1B and EB-1C Visas Application Process
 
 Unlike the EB-1A, you cannot apply for EB-1B and EB-1C visas by yourself. Your qualified future US employer that has
 offered you a job in the United States has to file the petition for you. To do so, the employer must
@@ -145,7 +145,7 @@ offered you a job in the United States has to file the petition for you. To do s
   You can continue the application according to the instruction provided by the NVC, which is like the EB-1 consular
   processing described in the previous section.
 
-### EB-1 Visas Required Documents
+#### EB-1 Visas Required Documents
 
 The documents needed for the EB-1 application process include
 
@@ -164,7 +164,7 @@ The documents needed for the EB-1 application process include
   **Ask your questions about EB-1 visa green card sponsorship right now. Our full-service law office is here to assist
   you with [a free 30-minute consultation.](tel:+1-714-877-5840)**
 
-### EB-1 Visa Application Fees
+#### EB-1 Visa Application Fees
 
 Except for the fees you will need to pay for the supporting documents and translations, there are some other fees that
 the applicant or the company must pay.
@@ -176,7 +176,7 @@ the applicant or the company must pay.
 * Form I-864, Affidavit of Support, fee: $120.
   In addition, you can ask for premium processing in which case you must pay $2500.
 
-### EB-1 Visas Processing Time
+#### EB-1 Visas Processing Time
 
 You can see the average processing time for each step of the EB-1 application process below.
 
@@ -185,7 +185,7 @@ You can see the average processing time for each step of the EB-1 application pr
 * The waiting time for the consular processing step depends on each US Embassy or Consulate. Check with the Embassy you
   are applying from to know the average processing time.
 
-## EB-1 Visa benefits
+#### EB-1 Visa benefits
 
 [[cta]]
 
@@ -198,7 +198,7 @@ Some of the EB-1 visa advantages include
 * There are no limitations or restrictions for traveling inside or outside the country.
 * You can apply for your dependents visas (spouse and children under 21).
 
-## Our Law Office Can Help You with Your Visa Planning
+#### Our Law Office Can Help You with Your Visa Planning
 
 [[cta]]
 

@@ -55,7 +55,7 @@ document. You are allowed to live and work in the USA with your U.S. citizen spo
 a K2 visa. However, you cannot get public benefits or social security until you are a permanent resident and cannot
 change your status or leave the USA without a travel document.
 
-### K3 Marriage Visa
+#### K3 Marriage Visa
 
 A K3 spouse visa is for spouses of U.S. citizens with a pending I-130 and living abroad. The U.S. citizen files I-129F
 and I-130, and the spouse fills out DS-160 and goes to an interview. They also need a passport, a medical exam, a police
@@ -70,7 +70,7 @@ document. They are allowed to live and work in the USA with their U.S. citizen s
 on a K-4 visa. However, they cannot get public benefits or social security until they are permanent residents and cannot
 change their status or leave the USA without a travel document.
 
-### IR1 Or CR1 Visa
+#### IR1 Or CR1 Visa
 
 A U.S. citizens spouse can apply for an IR1 or CR1 visa with a valid marriage certificate. The IR-1 visa is for
 marriages that have lasted more than two years, while the CR-1 visa is for marriages that are less than two years old.
@@ -87,7 +87,7 @@ in the U.S. with their partner, bring their children under 21 years old on IR-2 
 social security, and apply for citizenship after three years. However, they cannot vote or hold office until they become
 citizens.
 
-### F-2A Marriage Visa
+#### F-2A Marriage Visa
 
 An F-2A visa is for spouses of LPRs (Lawful Permanent Residents) who have a pending I-130 and want to join them in the
 U.S. The LPR spouse files Form I-130, while the other spouse waIt's for a visa number, fills out Form DS-260, and
@@ -98,7 +98,7 @@ permanent residency, which Lets them work and live in the U.S. with their spouse
 visas, access some benefits and social security, and apply for citizenship after five years. However, they cant vote or
 hold office until they are citizens.
 
-## Adjustment Of Status
+#### Adjustment Of Status
 
 [[cta]]
 
@@ -106,7 +106,7 @@ Adjustment of status (AOS) is the procedure of obtaining permanent residence (gr
 leaving the country and undergoing consular processing. AOS is commonly used by spouses of U.S. citizens or lawful
 permanent residents (LPRs) who entered the U.S. on a temporary visa.
 
-### Eligibility Criteria For Adjustment Of Status
+#### Eligibility Criteria For Adjustment Of Status
 
 To be eligible for adjustment of status (AOS), one must meet the following criteria:
 
@@ -115,7 +115,7 @@ To be eligible for adjustment of status (AOS), one must meet the following crite
 * Have an approved or pending Form I-130, Petition for Alien Relative, filed by the spouse
 * Have a visa number available for the green card category, based on the spouses citizenship and the annual visa quota
 
-### Required Documents For Adjustment Of Status
+#### Required Documents For Adjustment Of Status
 
 These are the [documents](https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status) you
 need for adjustment of status (AOS) in the marriage visa:
@@ -124,7 +124,7 @@ need for adjustment of status (AOS) in the marriage visa:
 * Copies of passport, visa, birth certificate, marriage certificate, spouses citizenship or LPR proof
 * Two photos, proof of genuine marriage, filing fees
 
-### Process And Timeline For Adjustment Of Status
+#### Process And Timeline For Adjustment Of Status
 
 To get a green card through marriage, you need to file Form I-485 with USCIS after or with Form I-130 from your spouse,
 depending on visa availability. You can check the Visa Bulletin for availability. USCIS will confirm your application
@@ -137,21 +137,21 @@ tuan le, we have the experience and expertise to help you get your green card th
 phone at [714-877-5840](tel:+1-714-877-5840).
 ![Illustration of green card application process for marriage-based immigration](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/Green-Card-Through-Marriage-How-to-Apply-and-Avoid-Pitfalls.webp)
 
-## Conditional Permanent Residence
+#### Conditional Permanent Residence
 
 Some spouses of U.S. citizens or LPRs (Lawful Permanent Residents) receive conditional residence when they obtain their
 green card through a marriage that was less than two years old at the time of approval or entry. It expires after two
 years and the couple must submit a petition to remove the conditions before then. This is to prevent fraud and verify
 the marriage is genuine.
 
-### Removing Conditions On Residence
+#### Removing Conditions On Residence
 
 To get a permanent green card after two years of conditional residence, the couple must file I-751, Petition to Remove
 Conditions on Residence, in the 90 days before the conditional green card ends. They also need to show proof of their
 real and continuing marriage, like joint bank statements, tax returns, lease agreements, etc. This is called removing
 conditions on residence.
 
-### Filing Jointly Vs. Filing Alone (Waiver)
+#### Filing Jointly Vs. Filing Alone (Waiver)
 
 Conditional residents have two options when they file I-751: filing jointly or filing alone (waiver). Filing jointly
 means both spouses file the form together, showing they are still married and living together. Filing alone means the
@@ -166,7 +166,7 @@ conditional resident proves that:
   background, marriage, and green card eligibility. However, they may skip the interview if they see enough proof of a
   real marriage and no fraud or lies.
 
-## Affidavit Of Support: What Is It And When Is It Required For A Green Card Through Marriage?
+#### Affidavit Of Support: What Is It And When Is It Required For A Green Card Through Marriage?
 
 [[cta]]
 
@@ -174,36 +174,36 @@ The affidavit of support is a legal document that shows that a sponsor can finan
 related to them or their business and that the immigrant will not need public assistance, as required for most
 family-based and some employment-based immigrants.
 
-### How To Sponsor A Spouse?
+#### How To Sponsor A Spouse?
 
 To sponsor a spouse, the sponsor must meet certain criteria. First, they must be a U.S. citizen, national, or permanent
 resident. Second, they must be at least 18 years old. Third, they must have a domicile in the U.S. or It's territories
 or possessions. Fourth, they must file Form I-130 and Form I-864 for the spouse.
 
-### What Are The Sponsors Obligations And Responsibilities?
+#### What Are The Sponsors Obligations And Responsibilities?
 
 The sponsor has the obligation and responsibility to support the immigrant until they become a citizen or work for 10
 years, whichever comes first. Additionally, they must reimburse any agency that gives the immigrant a public benefit,
 such as food stamps or Medicaid. Furthermore, they must be aware that their income and assets may impact the immigrants
 access to certain public benefits or services, such as health insurance or education.
 
-### What If The Sponsors Income Is Not Enough?
+#### What If The Sponsors Income Is Not Enough?
 
 If the sponsors income and assets are insufficient, they can use those of a joint sponsor, a household member, or the
 immigrant, who shares the legal responsibility or lives with the sponsor or the immigrant. They must also file Form
 I-864 or I-864A separately for each case.
 
-## FAQs About Marriage Visa:
+#### FAQs About Marriage Visa:
 
 [[cta]]
 
-### Q: How Should I Prepare For The Marriage Visa Interview?
+#### Q: How Should I Prepare For The Marriage Visa Interview?
 
 review your application and documents, bring the originals and copies, and prepare for the common questions. Be honest
 and confident in your answers, dress professionally, arrive on time, follow the instructions, be respectful, and do not
 bring any banned items.
 
-### Q: What Should I Do If My Marriage Visa Is Denied?
+#### Q: What Should I Do If My Marriage Visa Is Denied?
 
 A: A marriage visa denial is not the end of the road; you can appeal, seek legal help from spouse visa solicitors, or
 reapply depending on the reason for the denial. Also, they can help you avoid common mistakes that can lead to visa
@@ -215,7 +215,7 @@ based on the visa, the country, and the exchange
 rate. [You can see the fees on the USCIS](https://www.uscis.gov/forms/filing-fees) or
 the [U.S. Department of State website.](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/fees-visa-services.html)
 
-## Where Can I Find A Marriage Immigration Lawyer Near Me?
+#### Where Can I Find A Marriage Immigration Lawyer Near Me?
 
 [[cta]]
 
@@ -229,4 +229,3 @@ At the Law Office of tuan le, We have the competence and proficiency to handle a
 challenging. Don't let the immigration system prevent you from pursuing your dream. Contact us today and get
 a [free consultation](tel:+1-714-877-5840) with our marriage immigration
 lawyer,[Tuan Le,](#about-us) in Orange County, CA
-

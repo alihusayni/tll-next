@@ -47,22 +47,22 @@ the USCIS green card office. Here are the different types of green cards:
 
 A relative who is a U.S. citizen or permanent resident sponsors you for a family-based green card.
 
-### **Employment-based**
+#### **Employment-based**
 
 A U.S. employer sponsors you for an EB1 visa, EB2 visa, or EB3 visa, or you are in a special category of workers, such
 as EB5 visa investors, religious workers, or physicians who qualify for EB2 NIW or EB1A green card.
 
-### **Diversity Lottery**
+#### **Diversity Lottery**
 
 You win the DV lottery 2024, a yearly diversity visa program that gives DV green cards to people from countries with low
 rates of immigration to the U.S.
 
-### **Humanitarian**
+#### **Humanitarian**
 
 You get refugee or asylum status, or you are a survivor of human trafficking, crime, or abuse. You can then apply for a
 humanitarian green card or a NIW green card based on your national interest waiver.
 
-### **Special Immigrants**
+#### **Special Immigrants**
 
 You are part of a specific group of people who have a close connection with the U.S., such as former U.S. government
 employees, international organization employees, or Iraqi or Afghan translators. You can then apply for a special
@@ -70,7 +70,7 @@ immigrant green card.
 Also, if you already have a green card, you may need
 to [renew it periodically by renewing a green card,renewing a permanent resident card.](https://www.uscis.gov/sites/default/files/document/guides/B2en.pdf)
 
-## **File the Immigration Petition for Consular Processing**
+#### **File the Immigration Petition for Consular Processing**
 
 [[cta]]
 
@@ -80,7 +80,7 @@ fees. This form shows your relationship or employment to the person who wants to
 various types of immigrant petitions, based on the category and preference of the person you are supporting. These are
 some of them:
 
-### **Family-Based Immigrant Petition:**
+#### **Family-Based Immigrant Petition:**
 
 If you are a U.S. citizen or a lawful permanent resident, and you want your relatives to join you in the U.S., you have
 to [fill out Form I-130](https://www.uscis.gov/file-online) ( Petition for Alien Relative) and show evidence of your
@@ -88,7 +88,7 @@ kinship. Your relatives can belong to one of two categories of family-based immi
 wives, parents, or children under 21 of U.S. citizens) or preference relatives (single or married children, brothers,
 sisters, or spouses and children of lawful permanent residents).
 
-### **Employment-Based Immigrant Petition:**
+#### **Employment-Based Immigrant Petition:**
 
 If you are a U.S. employer or worker, and you want to work or hire in the U.S. depending on your abilities, education,
 or investment, you have to [submit Form I-140](https://www.uscis.gov/i-140) (Petition for Alien Workers) and demonstrate
@@ -96,7 +96,7 @@ your credentials or the employment offer. Your employment-based immigrants can f
 priority workers, professionals with higher degrees or outstanding skills, skilled workers or professionals, special
 immigrants, and investors or business owners.
 
-### **Special Immigrant Classes:**
+#### **Special Immigrant Classes:**
 
 If you belong to certain groups of people who have a special connection with the U.S. or are eligible for humanitarian
 protection, you have to [complete Form I-360](https://www.uscis.gov/i-360), (Petition for Amerasian, Widow(er), or
@@ -104,14 +104,14 @@ Special Immigrant) and satisfy the particular requirements for your category. So
 religious workers, translators, international organization workers, Afghan or Iraqi nationals, and mistreated spouses or
 children of U.S. citizens or lawful permanent residents.
 
-### **Humanitarian Programs:**
+#### **Humanitarian Programs:**
 
 If you are a person who needs protection or assistance from calamities, persecution, critical medical conditions, or
 other emergencies,**you do not have to submit a petition**, but you have to seek a particular program or benefit that
 matches your situation. Some types of humanitarian programs are refugee or asylum status, temporary protected status,
 humanitarian parole, and deferred action for childhood arrivals.
 
-## **Wait for The USCIS Decision**
+#### **Wait for The USCIS Decision**
 
 [[cta]]
 
@@ -120,7 +120,7 @@ petitioner can still appeal the decision with the help of our immigration lawyer
 Tuan Le.** Once the petition is accepted and USCIS Lets you know, it forwards the petition to the Department of States
 National Visa Center (NVC). Then it will stay there until the petitioner gets a visa number.
 
-## **Wait for The Notification from The National Visa Center**
+#### **Wait for The Notification from The National Visa Center**
 
 [[cta]]
 
@@ -128,7 +128,7 @@ The petitioner and beneficiary will get a notification from the NVC when the vis
 ready. This agency collects the service fee for visa applications and other documents that support them. The NVC will
 also inform when the fee bills for the immigrant visa and the other details have to be paid.
 
-## **Attending the Appointment for Consular Processing**
+#### **Attending the Appointment for Consular Processing**
 
 [[cta]]
 
@@ -139,14 +139,14 @@ the [[interview guidelines](https://docs.google.com/document/d/13EX-SnKxkqLD30Z3
 and bringing
 the [[required documents](https://docs.google.com/document/d/13EX-SnKxkqLD30Z3aDjuEmU8VV_37hDs/edit#heading=h.30j0zll)].
 
-## **Notification of Changes to the NVC**
+#### **Notification of Changes to the NVC**
 
 [[cta]]
 
 You must tell the National Visa Center if you move, get married or divorced, or turn 21 years old since these changes
 may change the visa availability or the beneficiary's qualifications.
 
-## **Obtaining the Visa for Consular Processing**
+#### **Obtaining the Visa for Consular Processing**
 
 [[cta]]
 
@@ -159,7 +159,7 @@ resident status.
 **Hire the best immigration attorney to guide you through every step of your consular processing
 application. [Call to schedule an appointment](tel:+1-714-877-5840).**
 
-## **Pros and Cons of Consular Processing**
+#### **Pros and Cons of Consular Processing**
 
 [[cta]]
 
@@ -168,7 +168,7 @@ may have another option, which is applying for an adjustment of status. You shou
 your family, your lawyer, and yourself. To help you decide if this path is suitable for you, here are the most frequent
 pros and cons related to consular processing.
 
-### **Advantages of Consular Processing**
+#### **Advantages of Consular Processing**
 
 #### **Timeline**
 
@@ -196,7 +196,7 @@ biometrics fee. The consular application fee depends on the visa type, but for f
 
 [[cta]]
 
-### **Disadvantages of Consular Processing**
+#### **Disadvantages of Consular Processing**
 
 #### **Interview Required In-Person**
 
@@ -220,14 +220,13 @@ six months since they were 16.
 The location of an intended immigrant may expose him or her to risks or extra expenses for traveling from his or her
 home to a U.S. consulate.
 
+[[cta]]
+
+#### **FAQs About Consular Processing**
 
 [[cta]]
 
-## **FAQs About Consular Processing**
-
-[[cta]]
-
-### **What Documents Do I Need For Consular Processing?**
+#### **What Documents Do I Need For Consular Processing?**
 
 * Passport
 * Approved petition or lottery confirmation
@@ -240,19 +239,17 @@ home to a U.S. consulate.
 * Financial support proof
 * Other documents from NVC or the consulate
 
-
 [[cta]]
 
-### **What If My Consular Application Is Denied Or Delayed?**
+#### **What If My Consular Application Is Denied Or Delayed?**
 
 The consular officer should tell you why your application is denied and the legal basis for it. Also, your application
 may be delayed if the consular officer requires more details or papers from you, or if your application is in
 administrative processing, which is a security clearance that can last for a few weeks or months.
 
-
 [[cta]]
 
-### **What Happens at The Consular Interview?**
+#### **What Happens at The Consular Interview?**
 
 You have to bring all your documents to the interview. Also, you need to Pass security and fingerprint scans before the
 interview. After that, you have to answer questions from the officer about yourself, your category, your plans, and your
@@ -260,10 +257,9 @@ sponsor. Remember to be honest, consistent, and ready. Pay the visa fee if neede
 approved. After getting a visa packet with your visa and documents, Don't open it until you reach the U.S. Then, follow
 the officers instructions on how to pay the USCIS fee, check your visa status, and contact the consulate if needed.
 
-
 [[cta]]
 
-## **The Law Office of Tuan Le: Your Trusted Partner for Consular Processing**
+#### **The Law Office of Tuan Le: Your Trusted Partner for Consular Processing**
 
 Consular processing is a viable option for many people who want to get a United States permanent resident card, which is
 also called green card, and become permanent residents in the U.S. It has several advantages, such as faster processing

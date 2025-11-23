@@ -61,7 +61,7 @@ Except for the degree, the individual must have
   the USCIS based on Its evidence and merIt's. Therefore, there is no guarantee of approval. That is why, how well you
   support your case with the documentation is of crucial importance.
 
-### 2. Exceptional Ability Requirement for EB-2 Visas
+#### 2. Exceptional Ability Requirement for EB-2 Visas
 
 EB-2B or EB-2 exceptional ability visa is designed for those individuals with exceptional ability and expertise in any
 field of science, arts, or business. The applicants in this category must be able to prove that their expertise is in
@@ -87,7 +87,7 @@ To prove this, they should provide the **following documentation and proof.**
   Permanent Employment Certification or a PERM (a labor certification), these two types of visas are sometimes referred
   to as **EB-2 PERM** visas.
 
-### 3. National Interest Waiver (NIW) for EB-2 Visas
+#### 3. National Interest Waiver (NIW) for EB-2 Visas
 
 In some cases, individuals with advanced degrees or exceptional abilities can prove that their expertise and project
 will be of national benefit to the United States. In this case, the applicant can self-petition for an EB-2 visa which
@@ -98,7 +98,7 @@ read [Our Step-by-Step Guide to National Interest Waiver](https://www.tuanlelaw.
 **To find out if you are eligible for any of the EB-2 visa categories, discuss your case with our accomplished
 immigration visa lawyer.**
 
-## EB-2 Visa Application Process; Applying for EB-2 Advanced Degree and Exceptional Ability
+#### EB-2 Visa Application Process; Applying for EB-2 Advanced Degree and Exceptional Ability
 
 [[cta]]
 
@@ -111,7 +111,7 @@ applicant.
   The two first steps are taken by the employer. Below, an overview of the labor certification process is given. Then,
   we will discuss the other steps in detail.
 
-### EB-2 Labor Certification Process
+#### EB-2 Labor Certification Process
 
 According to US immigration laws, obtaining a PERM is necessary for a US employer to ensure that there is no qualified
 US worker for the position that is offered to a foreigner.
@@ -133,7 +133,7 @@ To prove this, before applying for a PERM certification, the employer must
   This process can be complicated and take about a year. To avoid any more complications, it is highly recommended that
   an immigration attorney represents or assists the employer through these steps.
 
-### Applying for EB-2 Employment-Based Visas; Filing Form I-140
+#### Applying for EB-2 Employment-Based Visas; Filing Form I-140
 
 After the employers request for the labor certification is approved by the Department of Labor, the employer can apply
 for the EB-2 advanced degree or EB-2 exceptional ability on behalf of the foreign individual. These non-US citizen
@@ -147,7 +147,7 @@ the wage are needed to be mailed to the USCIS. You can find a list
 of [filing addresses here](https://www.uscis.gov/forms/all-forms/direct-filing-addresses-for-form-i-140-immigrant-petition-for-alien-worker).
 By creating an account on the USCIS website, the employer can track the application process.
 
-### Consular Processing for EB-2 Visas
+#### Consular Processing for EB-2 Visas
 
 In some cases, the USCIS sends a notice to the applicant to attend an interview or a biometrics appointment. All the
 necessary information needed is provided in the notice, such as the time and place. For those applicants outside the
@@ -157,7 +157,7 @@ approved, or it might be delayed until they provide the required documents.
 At the end of the process, the USCIS informs the applicants about their decision. If your EB-2 visa request is approved,
 then you can proceed to file for a green card.
 
-### Adjustment of Status for EB-2 Visas
+#### Adjustment of Status for EB-2 Visas
 
 Once you receive your EB-2 visa, if you are in the U.S., you can apply for your green card by
 filing [Form I-485](https://www.uscis.gov/i-485). Except for the completed form, some other documents are required, such
@@ -174,7 +174,7 @@ navigate the application process effectively.
 Our law office is here for employers and foreign nationals seeking EB-2 visas in Orange County, CA.
 [CALL NOW!](tel:+1-714-877-5840)
 
-### FAQs about EB-2 Employment-Based Visas
+#### FAQs about EB-2 Employment-Based Visas
 
 Our visa lawyer has answered some of your common questions regarding EB-2 employment-based visas.
 
@@ -203,7 +203,7 @@ No. They are not the same thing. Eb-2 visa categories are granted to qualified f
 unconditionally, but it is not a permanent residency (a green card). However, an EB-2 visa holder can apply for a green
 card to become a permanent resident.
 
-## Hire a Top Immigration Lawyer for Your EB-2 Visa Renewal or Application
+#### Hire a Top Immigration Lawyer for Your EB-2 Visa Renewal or Application
 
 [[cta]]
 

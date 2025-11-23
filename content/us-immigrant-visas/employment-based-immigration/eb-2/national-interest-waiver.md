@@ -67,7 +67,7 @@ for you. And even if you already have an American employer, you can still petiti
 or your employer do not need a PERM when applying. These are the main NIW benefits compared to other EB-2 visas.
 In addition, with an EB-2 NIW, if your employment changes, you will not lose your green card.
 
-### NIW Requirements
+#### NIW Requirements
 
 NIW eligibility criteria not only include the basic requirements for all EB-2 visas but also some additional evidence to
 prove your intrinsic value and benefits for the United States.
@@ -86,7 +86,7 @@ To qualify for an EB-2 visa, you should meet at least three of the criteria belo
 * You can carry out your plan or project.
 * Your project and your expertise will benefit the US, and therefore you are qualified for a job offer waiver.
 
-## NIW Application Process: How to Self-Petition for an EB-2 NIW
+#### NIW Application Process: How to Self-Petition for an EB-2 NIW
 
 [[cta]]
 
@@ -101,7 +101,7 @@ If you are applying from abroad, you must also file Form DS-260 (learn more abou
 form [here](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/forms/online-immigrant-visa-forms/ds-260-faqs.html))
 to the US Consulate or Embassy you are applying from.
 
-### What to Do If Your NIW Application Is Denied
+#### What to Do If Your NIW Application Is Denied
 
 If your EB-2 NIW application is not approved, it is time to seek your NIW attorneys advice. There are a couple of
 possible ways to deal with this situation.
@@ -114,7 +114,7 @@ possible ways to deal with this situation.
 * You are usually allowed to request the USCIS officer to reconsider your case if you have new evidence and documents.
   If all the above fails, your immigration lawyer will suggest other options you have to obtain your green card.
 
-### EB-2 NIW Required Documents
+#### EB-2 NIW Required Documents
 
 Below is a list of documents and evidence you are required to send when applying for an EB-2 NIW.
 
@@ -141,7 +141,7 @@ Do you need legal advice regarding your green card application? Consult with our
 Orange County, California for free.
 [Get Started](tel:+1-714-877-5840)
 
-### How Much Does It Cost to Apply for an EB-2 National Interest Waiver?
+#### How Much Does It Cost to Apply for an EB-2 National Interest Waiver?
 
 Some fees must be paid when applying for an NIW or adjustment of status. These fees can include the following.
 
@@ -151,18 +151,18 @@ Some fees must be paid when applying for an NIW or adjustment of status. These f
 * Filing Form DS-260: $230 (If you are applying for permanent residency from outside the United States.)
   In addition, collecting the required documents and evidence might cost you as well.
 
-### What Is the Average NIW Processing Time?
+#### What Is the Average NIW Processing Time?
 
 The average EB-2 NIW processing time at the USCIS is 3 to 9 months. However, if you get a Request for Evidence (RFE),
 which means providing more evidence to support your case, the processing of your application will take longer.
 
-### The National Interest Waiver Approval Rate
+#### The National Interest Waiver Approval Rate
 
 On average, the NIW success rate is about 93%. The number of applications that are approved every year depends on the
 total number of applications filed that year. So, the approval rate can vary slightly every year. According to the
 USCIS, it ranges from 83% to 96%.
 
-## NIW Challenges and Pitfalls
+#### NIW Challenges and Pitfalls
 
 [[cta]]
 
@@ -181,34 +181,34 @@ you should know about the potential issues below.
   Therefore, one thing that is certain in this process is that you will need professional assistance in pursuing an EB-2
   National Interest Waiver green card.
 
-## NIW FAQs
+#### NIW FAQs
 
 [[cta]]
 
 Let's go over some of the main concerns and questions regarding the National Interest Waiver.
 
-### Can I Self-Petition for a National Interest Waiver Green Card?
+#### Can I Self-Petition for a National Interest Waiver Green Card?
 
 Yes. Under EB-2 NIW, you do not need an employer to petition on your behalf. You can file it yourself.
 
-### What Should I Do When My NIW Application Is Approved?
+#### What Should I Do When My NIW Application Is Approved?
 
 Your next step is to apply for an adjustment of status for permanent residency. For this, you do not need an employer or
 a labor certification.
 
-### What Can I Do If My NIW Application Is Denied?
+#### What Can I Do If My NIW Application Is Denied?
 
 Upon denial, you can provide more evidence and ask the officer to reconsider your case. If it is not an option, then
 your immigration lawyer might be able to reopen your case by making a motion. Besides, you can also appeal to the
 Administrative Appeals Office.
 The best thing to do first is to consult with your NIW attorney.
 
-### How Long Does a National Interest Waiver Application Process Take?
+#### How Long Does a National Interest Waiver Application Process Take?
 
 Normally, between three and nine months. If you are required to provide more evidence in the middle of the process, it
 will take longer.
 
-### Can I Apply for a National Interest Waiver from Outside the United States?
+#### Can I Apply for a National Interest Waiver from Outside the United States?
 
 Yes. The application and all the documentation are sent via mail to the USCIS. You might be asked to take biometrics
 which can be done in any US consulates or embassies.
@@ -216,7 +216,7 @@ Do you need legal advice regarding your green card application? Consult with our
 Orange County, California for free.
 [Get Started](tel:+1-714-877-5840)
 
-## Hire an NIW Lawyer to Increase Your Chance of Approval
+#### Hire an NIW Lawyer to Increase Your Chance of Approval
 
 [[cta]]
 
@@ -227,4 +227,3 @@ attorney.
 The Law Office of Tuan Le in Orange, CA not only offers you great professional help in every step of your National
 Interest Waiver application, but also a 30-minute free consultation to discuss your case or ask your questions. Give us
 a call at [(714) 877-5840](tel:+1-714-877-5840) or fill in the form below, and we will get back to you.
-

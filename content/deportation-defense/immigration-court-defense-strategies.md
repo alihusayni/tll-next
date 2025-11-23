@@ -52,7 +52,7 @@ process [here](https://www.usa.gov/deportation-process).)
 Now that you know about the system and what it means to be in an immigration court, Let's go over the immigration court
 defense strategies and tactics.
 
-## A Simple Guide to Immigration Court Defense Strategies
+### A Simple Guide to Immigration Court Defense Strategies
 
 [[cta]]
 
@@ -61,7 +61,7 @@ the truth in a way that can win you the case, or you can get a better verdict wi
 bargain.
 Some practical immigration court tactics you can use are discussed below.
 
-### Challenging Government Evidence in Immigration Court
+#### Challenging Government Evidence in Immigration Court
 
 During removal proceedings in immigration court, the DHS must present some evidence that establishes deportability. That
 is, they must prove that the respondent (the foreign-born individual who has been charged with violating the law; the
@@ -97,7 +97,7 @@ Some practical tactics to use when challenging government evidence in immigratio
   wrong with it, you need to move for it and bring it to the judges notice. An accomplished private attorney knows these
   tactics well and can use them appropriately.
 
-### Establishing Eligibility for Relief in Immigration Court
+#### Establishing Eligibility for Relief in Immigration Court
 
 A relief in removal proceedings means that your deportation will be canceled. This can be achieved by filing a motion
 with the immigration judge or
@@ -127,7 +127,7 @@ one you are qualified for. Some of the most common ones include
   **Understanding the law, and It's terminology is not easy. For an honest opinion about your case, get in touch with
   our deportation attorney.**
 
-### Procedural and Technical Defenses in Immigration Court
+#### Procedural and Technical Defenses in Immigration Court
 
 Another strategy for your removal defense is by trying to convince the immigration judge that the legal proceeding is
 illegitimate. This means you try to prove that you are not liable for the claims against you because such a legal
@@ -146,7 +146,7 @@ Some examples of challenging the procedure are:
   So, by focusing on technicalities you might be able to put forward an undisputable defense. An experienced deportation
   lawyer knows how to handle these challenges and attacks carefully so that they will not backfire.
 
-### Constitutional and Human Rights Defenses in Immigration Court
+#### Constitutional and Human Rights Defenses in Immigration Court
 
 Another one of immigration court defense strategies is by stating that the defendant was not aware of their rights while
 incriminating themselves before questioning. According to the law, the defendant (or the suspect) must be informed about
@@ -154,7 +154,7 @@ their rights. Otherwise, none of their statements or confessions can be used aga
 In the United States, even undocumented immigrants have the same rights as US citizens in a legal proceeding. Ask your
 lawyer to explain your rights to you if you are not familiar with them.
 
-### Requesting Immigration Appeals
+#### Requesting Immigration Appeals
 
 When the trial is over, and you are not satisfied with the immigration judges decision, you can request an immigration
 appeal. That is, you ask the Board of Immigration Appeals (BIA) to review your case and see if the judges decision was
@@ -168,7 +168,7 @@ about your options before the judgment is issued.
 **Are you looking for a highly-skilled lawyer in immigration court proceedings? Mr. Tuan Le is our accomplished
 immigration attorney in Orange County, CA.[Call to schedule an appointment](tel:+1-714-877-5840).**
 
-## Get Help with Your Immigration Court Hearings
+#### Get Help with Your Immigration Court Hearings
 
 [[cta]]
 

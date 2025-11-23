@@ -19,12 +19,14 @@ readTime: "7 min read"
 ---
 Applying for a visa, even nonimmigrant visitor visas, can be a time-consuming and overwhelming process. More often than not, you have no choice but to seek professional help from an immigration lawyer or a nonimmigrant visa attorney. However, it is possible to apply for the B2 visa by yourself if you know each step of the process. This complete but straightforward guide will show you the way.
 Read on to learn what a B-2 tourist visa is, who is eligible, how long it lasts, how much it will cost you, the required documents, how to apply for it by yourself, and much more.
+
 ## What Is B2 Tourist Visa?
 
 [[cta]]
 
 When it comes to the United States, there are various visa types that can number up to 185 different visas. All of them can be mainly categorized into immigrant and nonimmigrant visa types. Nonimmigrant visas are temporary, while immigrant visas last long and are used for those who want to live permanently in the US.
 The B2 tourist visa is a nonimmigrant visa that is mostly used for those who wish to travel to the US and spend a short while there. It covers non-business purposes including tourism/vacation and visiting a family member or a friend.
+
 ### Are You Eligible for the B2 Visa?
 To get a certain type of visa, one must meet some criteria and specifications to be eligible for that. The B2 tourist visa requirements are:
 * Your purpose of traveling to the US must be one of these:*going on a vacation; going on visiting tours in different cities; visiting someone, such as a family member or a friend; taking part in some social events (like a concert); medical purposes; take part in an unpaid sport or music event, such as a contest, as an athlete or a musician; participate in short-term learning courses for which you will not get any credit.*
@@ -35,14 +37,17 @@ If you do not meet the above-mentioned criteria, or you are still in doubt, give
 * Work, whether long-term or paid professional performances
 * Airplanes or ship crewmember
 * Foreign journalist
-### B2 Visa Application Costs and Fees
+
+#### B2 Visa Application Costs and Fees
 To file for a B2 visa, you will be required to pay $160 as the standard application fee. However, there can be some other costs, such as visa issuance fees, which depend on your country and It's relationships with the U.S. Besides, there are the costs of the documents and photos you need to prepare for the application process.
-## How to Apply for the B2 Visa by Yourself?
+
+#### How to Apply for the B2 Visa by Yourself?
 
 [[cta]]
 
 You can apply for the B2 visa online by going through a few steps.
-### Step 1: Complete Form DS-160 Online
+
+#### Step 1: Complete Form DS-160 Online
 Fill out the Online Non-immigrant Application, called Form DS-160. You can file it [here,](https://ceac.state.gov/GenNIV/Default.aspx) but before you do, it is strongly recommended to finish reading this whole guide.
 As it is an important step, you need to complete it carefully to avoid future complications and troubles. Filing Form DS-160 is free. Once you fill it out completely, you will receive a confirmation. You must print this confirmation page to take it to your visa interview. You do not need the whole form.
 To complete this form, you will need the following information and documents:
@@ -55,11 +60,14 @@ To complete this form, you will need the following information and documents:
 * A recent photo (digital format). Your photo should comply with U.S. government standards. Read the guideline [here](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos.html).
 The U.S. Bureau of Consular Affairs has published an exemplar as a detailed step-by-step guide for how to fill out Form DS-160. You can download the PDF file by clicking [here](https://www.tuanlelaw.com/wp-content/uploads/doc/DS-160-Example_11012019.pdf).
 If you still need help with this form, we are here for you. Contact us at [(714) 877 5840](tel:+1-714-877-5840).
-### Step 2: Pay the Fees
+
+#### Step 2: Pay the Fees
 Although filling out Form DS-160 is free, you have to pay the B2 visa application fee. As mentioned earlier, it is $160. You should also pay the visa issuance fees if required.
-### Step 3: Schedule the B2 Visa Interview
+
+#### Step 3: Schedule the B2 Visa Interview
 If you are 14 to 79 years old, you are required to have a U.S. Tourist Visa interview, but you need to schedule it first. You should contact the U.S. Embassy or Consulate in your country to schedule an appointment. It may take a while (even longer if you should have the interview in a country other than yours), so you have to do it as soon as possible. You will need the interview confirmation letter to attend your interview.
-### Step 4: Gather the Required Documents
+
+#### Step 4: Gather the Required Documents
 When you go for the interview, make sure you have all the documents below with you.
 * Your valid passport.
 * Your interview confirmation letter.
@@ -74,7 +82,8 @@ When you go for the interview, make sure you have all the documents below with y
 * Students must have their academic records.
 * Employees must have a letter written by the employer for the last three months.
 * For medical treatments, the patient must have letters from their doctors that state their condition.
-### Step 5: Having the Visa Interview
+
+#### Step 5: Having the Visa Interview
 You should get to the U.S. Embassy, where you are having your interview, on time with all the necessary documents you have gathered. It will make it less stressful and more efficient if you organize all the documents and know where to find each one.
 A U.S. Tourist Visa interview does not take a long time and usually includes questions regarding the topics below.
 * The purpose of your trip.
@@ -88,17 +97,21 @@ A U.S. Tourist Visa interview does not take a long time and usually includes que
 * Your job.
 * Your family and household conditions.
 * If you intend to stay in the U.S. for long and how you can guarantee you are going to return?
-## Common Questions and Concerns Regarding the B2 Visa
+
+#### Common Questions and Concerns Regarding the B2 Visa
 
 [[cta]]
 
 Due to various laws and regulations, traveling to another country can make us overwhelmed. Here are the answers to some of the common questions asked by B2 visa applicants.
-### How Long Does It Take to Get Your B2 Visa?
+
+#### How Long Does It Take to Get Your B2 Visa?
 The B2 visa processing time can differ for each country. That is because the appointment wait time for each embassy or consulate is different. You can visit [this page](https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html) to check the average wait time for different U.S. embassies and consulates around the world. As mentioned above, it can take longer if you want to have your interview in another country.
 Therefore, the B2 visa processing time can range between a few weeks to a few months.
-### How Long Your B2 Visa Will Last?
+
+#### How Long Your B2 Visa Will Last?
 The B2 visa can be valid for a long time, up to 10 years. However, the maximum time you can stay in the U.S. each time you visit is 180 days or six months. So, this kind of visa can be used for multiple entries.
-### Is It Possible to Extend the B2 Visa?
+
+#### Is It Possible to Extend the B2 Visa?
 Yes. You can get an extension for another 180 days. You need to apply for the extension at least 6 weeks before your I-94 card expires.
 To file for a B2 visa extension, you have to
 * Fill out Form I-539. (Find this form [here](https://www.uscis.gov/i-539).)
@@ -108,15 +121,20 @@ To file for a B2 visa extension, you have to
 Other required documents include the following:
 * Your passport
 * A copy of your I-94 card (or the original)
-### Is It Possible to Renew a B2 Visa?
+
+#### Is It Possible to Renew a B2 Visa?
 Yes. But you should do the same application process. Some embassies may not require you to have another tourist visa interview.
-### What Is the Difference Between B1 and B2 Visas?
+
+#### What Is the Difference Between B1 and B2 Visas?
 While people apply for the B2 visa for tourism and visiting purposes, the B1 visa is basically used for business trips to the U.S.
-### Can You Apply for a Green Card Under the B2 Visa?
+
+#### Can You Apply for a Green Card Under the B2 Visa?
 Yes. You can apply for a GC while you are in the U.S. under the B2 visa. However, GC processing time can take long and is not easy, especially as you are not a student or an employee in the U.S. So, do not get your hopes up!
-### Is It Necessary to Get a Visitors Health Insurance?
+
+#### Is It Necessary to Get a Visitors Health Insurance?
 Absolutely. It is not a law, but healthcare in the U.S. is too expensive. If you have to be hospitalized even for one night, you will have to pay an average of $10000. Other treatments are also very costly. So, it is strongly recommended to get this insurance.
-## Do You Need Help with Your B2 Visa Application?
+
+#### Do You Need Help with Your B2 Visa Application?
 
 [[cta]]
 

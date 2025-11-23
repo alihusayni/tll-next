@@ -38,7 +38,7 @@ specialist, the H1B visa is sometimes called Person in Specialty Occupation Visa
 Specialty occupations means any job that requires highly skilled and qualified people with technical and/or theoretical
 knowledge. This means jobs in science, medicine, engineering, and other specialized fields.
 
-## H1B Visa Requirements and Eligibility
+### H1B Visa Requirements and Eligibility
 
 [[cta]]
 
@@ -46,7 +46,7 @@ Both the job and the applicant must meet some criteria to be eligible for an H1B
 other visa types. An experienced immigration attorney can help you in these situations.
 Call us at [(714) 877-5840](tel:+1-714-877-5840) for a free consultation with an H1B visa lawyer.
 
-### H1B Visa Requirements for the Applicant
+#### H1B Visa Requirements for the Applicant
 
 If you have a job offer, and you wish to get an H1B visa for that, you should meet all the requirements below to be
 qualified for one.
@@ -55,7 +55,7 @@ qualified for one.
 * You need to hold at least a bachelors degree (or an equivalent) which is directly related to the position.
 * Your foreign degree must be equivalent to at least a U.S. bachelors degree.
 
-### H1B Eligible Jobs
+#### H1B Eligible Jobs
 
 The job offer you receive must be a specialty occupation and have the following specifications to be eligible as an H1B
 job.
@@ -67,7 +67,7 @@ job.
   specialty workers that have been approved in recent years for the H1B visa include accountants and auditors, chemists,
   biologists, architects, teachers, etc.
 
-## H1B Visa Process Guide and Application
+#### H1B Visa Process Guide and Application
 
 [[cta]]
 
@@ -76,7 +76,7 @@ USCIS. If it is selected, then you need to start applying for the visa and reque
 pay, forms to fill out, and documents to prepare. Read on this H1B visa process guide to fully understand what needs to
 be done step by step.
 
-### Step 1: Registering for an H1B Visa
+#### Step 1: Registering for an H1B Visa
 
 * The employer needs to file for an H1B visa registration with USCIS electronically during the registration window. This
   window usually lasts for two weeks in March. The registration fee must be paid for each employee that is being
@@ -87,7 +87,7 @@ be done step by step.
   with an advanced degree from U.S. universities.), while the number of petitions registered in March 2022 for 2023 FY
   was roughly 484,000.
 
-### Step 2: Filing an H1B Cap Petition
+#### Step 2: Filing an H1B Cap Petition
 
 If selected, the employer files the H1B cap petition with USCIS. To do this, the petitioner (the employer) must:
 
@@ -107,7 +107,7 @@ If selected, the employer files the H1B cap petition with USCIS. To do this, the
 * Wait for the petition approval. It is possible to track your petition status online on USCIS website by signing in to
   your account from [here](https://myaccount.uscis.gov/users/sign_up).
 
-### Step 3: Applying for the H1B Visa by the Employee
+#### Step 3: Applying for the H1B Visa by the Employee
 
 If the petition is approved, you will get a form I-797 from USCIS. Now is the employees turn to start applying for an
 H1B visa with the U.S. Department of State (DOS) by following these steps:
@@ -126,7 +126,7 @@ H1B visa with the U.S. Department of State (DOS) by following these steps:
   process, [visit this page](https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations) on USCIS
   website.
 
-## Common Questions and Concerns about the H1B Visa
+#### Common Questions and Concerns about the H1B Visa
 
 [[cta]]
 
@@ -134,7 +134,7 @@ The process of applying for a visa is complicated and time-consuming. Consulting
 frustration. Here, with the help of our citizenship attorney, we are going to discuss some of the main concerns and
 common questions regarding H1B visa requirements and application.
 
-### What Are the Key Dates for the H1B Visa in 2023 (for 2024 FY)?
+#### What Are the Key Dates for the H1B Visa in 2023 (for 2024 FY)?
 
 Generally speaking, if you are supposed to start working from October 1 (the beginning of the fiscal year), your visa
 must be approved before this date. Otherwise, you cannot enter the country to begin your job. That is why in the process
@@ -151,7 +151,7 @@ of applying for an H1B visa, you need to pay attention to some key dates.
   So, those who wish to start working in 2024 must be registered in March 2023 by their sponsors to prepare for their
   H1B visa requirements and application.
 
-### How Long Does an H1B Visa Last?
+#### How Long Does an H1B Visa Last?
 
 An H1B visa initially lasts for 3 years with the option to extend it for another 3 years. However, it can be extended
 under some conditions even after the first 6 years. For example, when an H1B visa holder works only seasonally or lives
@@ -159,7 +159,7 @@ abroad for more than half of the year.
 If you think you are exempt, call our H1B visa lawyer at [(714) 877-5840](tel:+1-714-877-5840) to learn what you need to
 do to get your visa extended.
 
-### How Much Does Registering and Applying for the H1B Visa Cost?
+#### How Much Does Registering and Applying for the H1B Visa Cost?
 
 In different stages of the H1B process, there are fees to be paid but most of them are paid by the employer. The main
 fees based on 2022 include:
@@ -170,31 +170,31 @@ fees based on 2022 include:
 * Fraud Prevention and Detection fee: $500
 * Premium processing (if you wish USCIS to process your case in 15 days) fee: $2,500
 
-### What Are the Exempt Organizations from the Cap?
+#### What Are the Exempt Organizations from the Cap?
 
 If you get a job offer from a government organization, higher education institution, non-profit research organization,
 or any other non-profit organization related to a higher education institution, your petition is exempt from the H1B
 visa limit.
 
-### What Happens If You Quit Before Your H1B Ends?
+#### What Happens If You Quit Before Your H1B Ends?
 
 If you quit your job, you will have 60 days to find a new one, otherwise, you will have to leave the country. If you
 find a new job in this grace period, you will have to apply to change your status.
 You can also apply for a Green Card in these two months. However, this process can take more than two months.
 
-### What happens If You Get Fired Before Your H1B Ends?
+#### What happens If You Get Fired Before Your H1B Ends?
 
 If you get fired or lose your job involuntarily for any reason, you will have a 60-day grace period to find a new job
 and apply to change your status. Otherwise, you will be deported and sent back to your country. The expenses will be
 covered by the sponsored company.
 Applying for a Green Card is another option, but you only have 60 days to get your permanent residency.
 
-### What about an H1B holders Family and Dependents?
+#### What about an H1B holders Family and Dependents?
 
 An H-4 visa is granted to the H1B visa holders spouse and children (only those who are under 21). With this type of
 visa, they are not allowed to work in the U.S. but they can go to school and have a bank account.
 
-### What Happens After Your H1B Visa Terminates?
+#### What Happens After Your H1B Visa Terminates?
 
 During your first 3 years, you can apply for a Green Card to obtain permanent residency. If you cannot get it until the
 end of your H1B visa, then you will have to extend it. The extension process is almost the same as the original petition
@@ -203,7 +203,7 @@ filing. Your employer will have to submit the forms and documents to USCIS. If a
 As discussed above, if you are a seasonal worker, just commute to the U.S. for your part-time job, or any similar case,
 you may be able to extend your H1B visa even after the first 6 years.
 
-## The H1B Visa and What the Law Office of Tuan Le Can Do for You
+#### The H1B Visa and What the Law Office of Tuan Le Can Do for You
 
 [[cta]]
 
@@ -213,4 +213,3 @@ County, CA can help you at any stage of the process or for the extension. If you
 call us at [(714) 877-5840](tel:+1-714-877-5840) for a free consultation about the H1B visa requirements and application.
 Check out our [other blog here](https://www.tuanlelaw.com/business-and-employment-immigration/) to learn more about other
 types of visas suitable for employees.
-

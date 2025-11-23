@@ -20,12 +20,14 @@ readTime: "7 min read"
 There are a couple of paths that lead you to become a U.S. citizen, but they are not quick and easy. Some green card holders, who are lawful permanent residents of the U.S., do not see the point in going through this process, however, U.S. citizenship has some benefits.
 In what follows, an experienced immigration lawyer helps you understand the benefits of becoming a U.S. citizen, what paths you can take, how much time it will take, the costs, etc.
 And, if you are in a hurry and do not have the time to read,call now for a free consultation with our immigration attorney.
+
 ## Why Get U.S. Citizenship?
 
 [[cta]]
 
 Non-native people who are allowed to stay and work in the U.S. permanently are either A citizens or green cardholders, also called LPRs, short for lawful permanent residents. However, people who cannot get their citizenship by birth, have to get their green card first and then apply for naturalization.
 But it is not that easy, and green card holders must usually wait a few years to become eligible to file for citizenship. Still, becoming a citizen is worth the wait and trouble.
+
 ### Green Card Holders vs. U.S. Citizens
 Although there are many similarities between being a citizen and being an LRP, citizens enjoy more benefits, including
 * Citizens are allowed to vote in the U.S. elections, but green card holders are not.
@@ -40,7 +42,8 @@ Although there are many similarities between being a citizen and being an LRP, c
 * Citizens are allowed to join Federal Agencies that do not allow LPRs.
 * There are not any limitations for traveling for citizens.
 Generally, becoming a U.S. citizen is the highest status for an immigrant. For all these advantages, many green card holders apply for U.S. citizenship a few years after becoming permanent residents. But citizens have more responsibilities as well.
-### Responsibilities of a U.S. Citizen
+
+#### Responsibilities of a U.S. Citizen
 Of course, these new benefits come with some responsibilities. If you become a U.S. citizen, you
 * might be asked to do military service,
 * will be asked to take the oath of allegiance to the U.S.,
@@ -48,7 +51,8 @@ Of course, these new benefits come with some responsibilities. If you become a U
 * there will be an in-depth investigation of your criminal background,
 * might be selected for jury duty.
 Besides, if your home country does not allow dual citizenship, after becoming a U.S. citizen you will need to relinquish your citizenship in your home country. Some countries, such as the United States, Canada, and Australia, allow dual citizenship.
-## How to Become a U.S. Citizen?
+
+#### How to Become a U.S. Citizen?
 
 [[cta]]
 
@@ -56,7 +60,8 @@ There are two main ways to become a U.S. citizen.
 * By birth
 * By naturalization
 We will discuss each of them separately.
-### Getting the U.S. Citizenship by Birth
+
+#### Getting the U.S. Citizenship by Birth
 Some lucky ones who were not born in the U.S. but whose parents got their citizenship while they were still under the age of 18, might have become U.S. citizens automatically. In other words, citizenship can be conveyed by citizen parents to their children who were born abroad.
 The same rule might apply to those with only one U.S. citizen parent. If they were born on/after November 14, 1986, they must meet the requirements below:
 * The parents were married at the time of birth,
@@ -66,16 +71,19 @@ If you meet these requirements, you can apply for the U.S. citizenship certifica
 Need help with filling out Form N-600? Schedule an appointment to meet our citizenship attorney in Orange County, CA.
 [Get Started!](tel:+1-714-877-5840)
 
-### What Is Naturalization in Becoming a U.S. Citizen?
+#### What Is Naturalization in Becoming a U.S. Citizen?
 Eligible immigrants living in the U.S. can apply for U.S. citizenship through the naturalization process. The process can take a minimum of a year and a half up to two years depending on your location. During this time, you have to go through different steps, including filing Form N-400, a civics test, an English test, an interview, the oath of allegiance, etc.
 You can get any information you need about these steps in our next article (see here). But read on to find out the requirements and eligibility for naturalization.
+
 #### *Eligibility for Naturalization*
 The eligibility depends on a few factors, like how long you have had your green card and your physical presence in the U.S.
 * Green card holders without any special circumstances who have been present in the U.S. for a minimum of 30 months can apply after 5 years.
 Note that if you travel during these 5 years, it must last less than 6 months.
+
 ##### Naturalization Eligibility If You Are Married to a U.S. Citizen
 * Green card holders married to U.S. citizens with a minimum of 18-month presence in the U.S. can apply after 3 years.
 Note that the citizen spouse must be a U.S. citizen for a minimum of 3 years. In addition, your trips during these 3 years must be less than 6 months.
+
 ##### Naturalization Eligibility If You Have Served in the U.S. Military
 * Green card holders with a minimum of 1 year of military service during peacetime can apply while in service or 6 months after honorably leaving the military.
 * Green card holders with less than 1 year of military service during peacetime, who have been present in the U.S. for 30 months, can apply after 5 years.
@@ -84,6 +92,7 @@ Note that the citizen spouse must be a U.S. citizen for a minimum of 3 years. In
 * Widow/widowers of a citizen who died serving in the military can apply at any time.
 Note that any period of time a soldier is serving in the military is counted as physical presence in the U.S. But if you go on any personal trip during the 5 years, it must be less than 6 months.
 Remember, if you have deserted your military service, you are not considered qualified.
+
 #### *Naturalization Requirements*
 Even if you are eligible to file for naturalization, you need to meet the following requirements to get through it successfully.
 * Applicants must be 18 years old or above.
@@ -95,6 +104,7 @@ Even if you are eligible to file for naturalization, you need to meet the follow
 * Male green card holders who were present in the U.S. during the ages of 18 to 25 might be required to do military service.
 * You must take an oath of allegiance.
 Given the complexity of the eligible cases and the process of naturalization, we do recommend you get some professional legal help from a green card lawyer.
+
 #### *How Much Does It Cost to Apply for U.S. Citizenship?*
 Except for the money that you should pay for gathering and copying the necessary documents, there are some other fees you have to pay on the way to getting your citizenship.
 * The naturalization application filing fee: Currently it is $640.
@@ -103,7 +113,8 @@ This makes it a total of $725. But
 * Applicants who have served in the military are not required to pay any of these fees.
 * Senior applicants, above the age of 75, are not required to pay the biometrics fee.
 And, if you are not able to afford the application fee due to your annual household income, you can request a reduction by filing [Form I-942, Request for Reduced Fee](https://www.uscis.gov/i-942). If you are considered qualified, you will have to pay only the biometrics fee and a percentage of the application fee.
-## How Can Our Naturalization Attorney Help You?
+
+#### How Can Our Naturalization Attorney Help You?
 
 [[cta]]
 

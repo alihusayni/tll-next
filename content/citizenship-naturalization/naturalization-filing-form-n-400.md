@@ -101,19 +101,19 @@ If you have decided to fill out the Form N-400 by yourself, keep the following t
 * If any of your documents are not in English, provide the certified translated version as well.
 * Your form must be neat, without any cluttering, crossing out, highlighting, and so forth.
 * Do not submit documents that are not required.
-* Review your form before submission and make sure you have signed the form.                                  
+* Review your form before submission and make sure you have signed the form.
   A naturalization lawyer knows how to fill out the form and gather the required documents in the way the USCIS prefers.
   Schedule an appointment to visit our citizenship lawyer in Orange County, CA.here.
   [Get Started!](tel:+1-714-877-5840)
 
-### Biometrics Requirement
+#### Biometrics Requirement
 
 After 5 to 11 weeks of your application submission to the USCIS, you will receive a notice to attend a biometrics
 appointment. This is done in your local USCIS field office.
 This is perhaps the simplest step of the naturalization process. It is basically taking your fingerprints to check your
 background. The fingerprinting Itself takes only 10 to 15 minutes, but you might have to wait in line.
 
-### The Interview and Exam for Citizenship
+#### The Interview and Exam for Citizenship
 
 You are almost at the end. In this step, you have to attend the citizenship interview and after that the citizenship
 exam. If you pass these two parts and there are no problems with the documents, your application will be approved.
@@ -141,7 +141,7 @@ again. So, you can take the naturalization exam twice, but not more. That is why
 the test. You can find the naturalization test
 resources [here.](https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test)
 
-### Take the Oath of Allegiance to the United States of America
+#### Take the Oath of Allegiance to the United States of America
 
 Now, you might receive your application for naturalization approval, but you are not a US citizen yet. You have to
 attend the Oath of Allegiance to the United States of America ceremony. In simple terms, you take an oath to fulfill
@@ -178,13 +178,13 @@ citizen. If you lose it, you will have to pay for the replacement and go through
 Do you still have questions about the naturalization steps? Contact a green card lawyer now.
 [Get Started!](tel:+1-714-877-5840)
 
-### Timeline of the Naturalization Process
+#### Timeline of the Naturalization Process
 
 As mentioned above, the whole process of naturalization can take 8 to 14 months. However, the precise processing time
 depends on which office is handling your case. In the table below, you can see the timeline of each step of
 naturalization.
 
-### Naturalization Steps
+#### Naturalization Steps
 
 Filing Form N-400
 Biometrics Appointment
@@ -192,7 +192,7 @@ The Naturalization Interview and Exam
 The Oath of Allegiance
 Appeal
 
-### Time
+#### Time
 
 You can submit your application 90 days before the date when the 5 or 3-year period ends. This Early Filing is suitable
 for those who want to get their citizenship as soon as possible. Or, you can file any time after the 5 or 3-year waiting
@@ -205,7 +205,7 @@ notice a few days later to attend your Oath of Allegiance Ceremony.
 If your case is denied, a letter will be sent to inform you. You can appeal within 30 days. It is also possible to file
 your request again.
 
-## Our Naturalization Attorney Is Here to Guide You
+#### Our Naturalization Attorney Is Here to Guide You
 
 [[cta]]
 

@@ -30,7 +30,7 @@ make the right decision.
 **Are you looking for an accomplished immigration lawyer in Orange County, CA? Our law office is here for
 you. [Call to schedule an appointment.](tel:+1-714-877-5840)**
 
-### An Introduction to US H1B Visa
+## An Introduction to US H1B Visa
 
 H-1B is a type of non-immigrant US visa that is granted to qualified foreign specialists who have a job offer from
 eligible employers in the United States. American employers must have permission to be able to hire expert foreigners
@@ -58,7 +58,7 @@ register on your behalf in March 2024. The H1B registration window opens usually
 for 14 days. One week after the registration is over, usually someday in April 2025, the result of the first H1B lottery
 will be announced.
 
-### Options for Unemployed/Laid-Off H1B Holders in 2023
+#### Options for Unemployed/Laid-Off H1B Holders in 2023
 
 As we have touched on it above, an H1B visa is valid for three years, but you can extend it for another three years.
 During this time, you might lose your job for different reasons or wish to change it. While this is possible, an H1B
@@ -102,14 +102,14 @@ holders.
 Needless to say, if you continue living in the US unlawfully, it may prevent you from any future entry to the country.
 Below, we will compare the benefits of Canadian work visas, the US H1B and Canada PR.
 
-### Comparing US H1B and Canada PR
+#### Comparing US H1B and Canada PR
 
 Whether you enter Canada on OWP or any other temporary programs and visas (such as the Temporary Foreign Worker
 Program (TFWP) visa), your goal is to get your permanent residency or your PR.
 That's why, if you are hesitant about applying for (or renewing) your H1B or applying for a Canadian visa, you should
 start comparing the benefits of the US H1B and Canada PR to see which is best for you.
 
-### US H1B Visa vs. Canada PR
+#### US H1B Visa vs. Canada PR
 
 |                         | **US H1B Visa**                                                                                                                                                                          | **Canada PR**                                                                                                                                  |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -121,7 +121,7 @@ start comparing the benefits of the US H1B and Canada PR to see which is best fo
 
 ---
 
-### American H1B Visa vs. Canadian Work Visa
+#### American H1B Visa vs. Canadian Work Visa
 
 For those who are seeking a job abroad, both the US and Canada are among the most popular destinations. In the table
 below, we compare the US H1B visa with Canadian work visas to explore work visa differences in more detail.
@@ -136,7 +136,7 @@ below, we compare the US H1B visa with Canadian work visas to explore work visa 
 
 Now you can make an informed decision about your immigration path according to your preferences.
 
-### Frequently Asked Questions about US H1B and Canada PR
+#### Frequently Asked Questions about US H1B and Canada PR
 
 There are some commonly-asked questions and concerns about the US H1B and Canada PR. We address them below.
 
@@ -169,7 +169,7 @@ Yes. You can take your spouse and children (your dependents) to Canada on OWP. T
 Applying for Canada PR and getting the final result can take around six months.
 Get any information about US visa types and their requirements by consulting with our immigration attorney.
 
-## Hire an Immigration Lawyer to Make the Best of Your H1B Grace Period
+#### Hire an Immigration Lawyer to Make the Best of Your H1B Grace Period
 
 [[cta]]
 

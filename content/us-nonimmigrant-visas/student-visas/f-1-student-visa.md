@@ -37,7 +37,7 @@ can find a list of approved institutions [here](https://studyinthestates.dhs.gov
 to see if it is certified.
 This visa is*not*suitable for those who wish to train at a vocational school. They have to obtain an M-1 visa.
 
-## Who Is Eligible for an F-1 Visa?
+### Who Is Eligible for an F-1 Visa?
 
 [[cta]]
 
@@ -59,7 +59,7 @@ To apply for an F-1 visa, you have to meet the following requirements to be qual
 * You have to live outside the U.S.
   After making sure you meet all these requirements, you can start the F-1 student visa application process.
 
-## F-1 Student Visa Application Process
+#### F-1 Student Visa Application Process
 
 [[cta]]
 
@@ -68,7 +68,7 @@ is collecting all the required documents. Then, you will be ready to apply and s
 will attend the embassy interview and wait for your visa if your application is approved.
 Now, Let's go over these steps in detail.
 
-### F-1 Visa Required Documents
+#### F-1 Visa Required Documents
 
 The following documents are necessary when you want to file for an F1 visa.
 
@@ -85,7 +85,7 @@ The following documents are necessary when you want to file for an F1 visa.
   school. They might have some kind of group insurance program. If not, you can get health insurance for international
   students online through companies like [Insubuy](https://www.insubuy.com/international-student-insurance/?aid=vguide).
 
-### Where and How to Apply for the F-1 Student Visa
+#### Where and How to Apply for the F-1 Student Visa
 
 You can apply for an F1 visa online by completing [Form DS-160](https://ceac.state.gov/genniv/). Filling out this
 application form takes a while, approximately 90 minutes if you have all the information readily available. This
@@ -103,7 +103,7 @@ complicated.
 To schedule an appointment for your embassy interview, you need your valid passport number, the CGI reference number,
 and your Form DS-160 confirmation code. You can schedule your interview [here.](https://atlas.my.salesforce-sites.com/)
 
-### **Embassy Interview for F-1 Visa Applicants**
+#### **Embassy Interview for F-1 Visa Applicants**
 
 You will be more confident and relaxed if you start preparing yourself for the embassy interview a few days earlier.
 This includes gathering the required documents and getting your answers ready for the questions.
@@ -170,14 +170,14 @@ Besides preparing the documents and your answers, you should follow the advice b
   Still not sure how to apply? Get your free 30-minute consultation with an experienced immigration lawyer now
   [Get Started!](tel:+1-714-877-5840)
 
-## Other Questions and Concerns Regarding the F-1 Visa
+#### Other Questions and Concerns Regarding the F-1 Visa
 
 [[cta]]
 
 When it comes to getting a visa, there are a lot of questions and concerns on the part of applicants. Let's discuss a
 few of the most common ones.
 
-### How Much Does an F-1 Student Visa Application Cost?
+#### How Much Does an F-1 Student Visa Application Cost?
 
 Apart from the cost of gathering together all the required documents, there are some fees you need to pay during the
 process.
@@ -188,7 +188,7 @@ process.
 * If your application is approved, you might be asked to pay an issuance fee depending on your nationality.
   These fees are non-refundable.
 
-### **How Long Is the Processing Time for an F1 Student Visa Application?**
+#### **How Long Is the Processing Time for an F1 Student Visa Application?**
 
 Given the time it takes to get accepted at an academic institution in the U.S., the whole process can take up to a year.
 However, when you get your acceptance letter, the F-1 student visa application process would not take a long time. It
@@ -197,17 +197,17 @@ After the interview for the F1 visa, you will be informed if your application is
 immediately. But you have to wait up to 21 working days for your visa to be processed and issued. It will also take a
 few days to receive it through the mail.
 
-### **Can My Family Come with Me on an F1 Visa?**
+#### **Can My Family Come with Me on an F1 Visa?**
 
 Yes. The spouses and children (unmarried and under the age of 21) of F1 visa holders can apply for an F2 visa at the
 same time or later.
 
-### **How Long Is an F1 Visa Valid for?**
+#### **How Long Is an F1 Visa Valid for?**
 
 An F1 student visa is valid for up to 5 years, and the student can enter the U.S. as early as one year before their
 study program starts.
 
-## Hire an Immigration Attorney to Complete Your F-1 Student Visa Application
+#### Hire an Immigration Attorney to Complete Your F-1 Student Visa Application
 
 [[cta]]
 
