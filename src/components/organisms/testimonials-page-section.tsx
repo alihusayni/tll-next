@@ -65,15 +65,15 @@ export default function TestimonialsPageSection() {
   };
 
   return (
-    <section className="bg-[#091c32] w-full overflow-hidden pb-[128px] md:pb-[64px] sm:pb-[48px] pt-0 px-[64px] md:px-[32px] sm:px-[16px]">
-      <div className="max-w-[1728px] mx-auto flex flex-col items-center gap-[32px] md:gap-[32px] sm:gap-[16px]">
+    <section className="bg-[#091c32] w-full overflow-hidden pb-[48px] md:pb-[64px] lg:pb-[128px] pt-0 px-[16px] md:px-[32px] lg:px-[64px]">
+      <div className="max-w-[1728px] mx-auto flex flex-col items-center gap-[16px] md:gap-[32px]">
         {/* Text & Rating */}
-        <div className="max-w-[1144px] w-full flex flex-col items-center gap-[32px] pt-[32px] sm:pt-[32px]">
+        <div className="max-w-[1144px] w-full flex flex-col items-center gap-[32px] pt-[32px]">
           <RatingBadge />
           
           {/* Hero Heading */}
           <div className="flex flex-col items-center gap-[24px] w-full text-center">
-            <h1 className="font-inter-tight font-semibold text-[40px] sm:text-[62px] leading-[48px] md:leading-[48px] sm:leading-[72px] text-[#9199b9] max-w-[872px] w-full">
+            <h1 className="font-inter-tight font-semibold text-[62px] leading-[72px] text-[#9199b9] w-full">
               See how we&apos;ve{' '}
               <span className="text-white">helped others achieve their goals</span>, and what the{' '}
               <span className="text-[#e8edf2]">T</span>
@@ -83,7 +83,7 @@ export default function TestimonialsPageSection() {
         </div>
 
         {/* Testimonial Cards - Two Rows with GSAP Animation */}
-        <div className="flex flex-col gap-[16px] sm:gap-[16px] w-full">
+        <div className="flex flex-col gap-[16px] w-full">
           {/* First Row - Scrolls Left */}
           <div className="overflow-visible">
             <div ref={firstRowRef} className="flex gap-[16px] sm:gap-[16px]" style={{ willChange: 'transform' }}>

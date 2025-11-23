@@ -10,7 +10,7 @@ interface TestimonialCardFullProps {
 export default function TestimonialCardFull({testimonial, onMouseEnter, onMouseLeave}: TestimonialCardFullProps) {
     return (
         <div
-            className="bg-[#000b1a] hover:bg-[#00356e] rounded-[24px] md:rounded-[24px] sm:rounded-[12px] p-[32px] md:p-[32px] sm:p-[16px] flex flex-col justify-between gap-[32px] sm:gap-[32px] min-w-[280px] sm:min-w-[280px] max-w-[460px] w-[460px] md:w-[460px] sm:w-[280px] flex-shrink-0 transition-all duration-500 ease-in-out cursor-pointer group"
+            className="bg-[#000b1a] hover:bg-[#00356e] rounded-[12px] md:rounded-[24px] p-[16px] md:p-[32px] flex flex-col justify-between gap-[32px] min-w-[460px] max-w-[460px] w-[460px] flex-shrink-0 transition-all duration-500 ease-in-out cursor-pointer group"
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
         >

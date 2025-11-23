@@ -24,7 +24,6 @@ export default function FaqSection() {
                             key={index}
                             question={faq.question}
                             answer={faq.answer}
-                            defaultOpen={index === 4} // 5th item open by default as shown in Figma
                         />
                     ))}
                 </div>
