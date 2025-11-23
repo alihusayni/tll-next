@@ -8,6 +8,20 @@ interface TableOfContentsProps {
   className?: string;
 }
 
+// Helper function to render markdown in heading text
+function renderMarkdownText(text: string) {
+  // Remove ** for bold (we'll handle styling via CSS)
+  let processed = text.replace(/\*\*(.+?)\*\*/g, '$1');
+  // Remove * for italic
+  processed = processed.replace(/\*(.+?)\*/g, '$1');
+  // Remove ` for code
+  processed = processed.replace(/`(.+?)`/g, '$1');
+  // Remove other common markdown symbols
+  processed = processed.replace(/~~(.+?)~~/g, '$1'); // strikethrough
+  
+  return processed;
+}
+
 export default function TableOfContents({ headings, className = '' }: TableOfContentsProps) {
   const [activeId, setActiveId] = useState<string>('');
 
@@ -80,7 +94,7 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
 
                 `}
               >
-                {heading.text}
+                {renderMarkdownText(heading.text)}
               </button>
             );
           })}
