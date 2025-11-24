@@ -142,19 +142,19 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
   };
 
   return (
-    <section className="bg-[#E8EDF2] py-32 px-16 sm:px-4 md:px-8 lg:px-16 2xl:px-0 lg:py-32 md:py-24 sm:py-16 ">
+    <section className="bg-[#E8EDF2] py-32 sm:py-16 md:py-24 lg:py-32 px-4 sm:px-8 lg:px-16 2xl:px-0">
       <div className="mx-auto max-w-[86.5rem]">
-        <div className="flex flex-col gap-16 lg:gap-16 md:gap-16 sm:gap-4">
-          <div className="flex justify-between items-end">
+        <div className="flex flex-col gap-16">
+          <div className="flex flex-col sm:flex-row justify-between sm:items-end gap-16 sm:gap-0 items-start">
             <div className="flex flex-col gap-5">
-              <h2 className="font-inter-tight font-semibold text-lg leading-[1.222] uppercase text-[#747D85]">
+              <h2 className="font-inter-tight font-semibold text-lg leading-[1.222rem] uppercase text-[#747D85]">
                 Articles
               </h2>
               <h1 className="font-inter-tight font-semibold text-[2.125rem] lg:text-[3.25rem] md:text-[2.125rem] sm:text-[2.125rem] leading-[1.235] lg:leading-[1.235] md:leading-[1.235] sm:leading-[1.235] tracking-[-0.02em] text-[#071C32]">
                 Latest Articles
               </h1>
             </div>
-            <LinkButton text="See All Articles" href="/resources" textColor="text-[#49535D]" />
+            <LinkButton text="See All Articles" href="/resources" textColor="text-[#49535D]" className="self-end" />
           </div>
           <div className="flex flex-col gap-16">
             <div

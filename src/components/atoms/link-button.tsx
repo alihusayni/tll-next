@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+import { Icon } from '@iconify/react';
 
 interface LinkButtonProps {
   text: string;
@@ -26,21 +27,12 @@ export default function LinkButton({
       className={`inline-flex items-center font-inter font-medium text-base ${textColor} ${hoverTextClass} transition-colors group ${className}`}
     >
       {text}
-      <svg
-        width="28"
-        height="28"
-        viewBox="0 0 20 20"
-        fill="none"
-        className={`${hoverRotateClass} transition-transform`}
-      >
-        <path
-          d="M7.5 12.75L12.75 7.5M12.75 7.5H9M12.75 7.5V11.25"
-          stroke="currentColor"
-          strokeWidth="1.125"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+      <Icon
+        icon="solar:arrow-right-up-linear"
+        width="18"
+        height="18"
+        className={`${hoverRotateClass} ml-2 transition-transform`}
+      />
       {children}
     </a>
   );
