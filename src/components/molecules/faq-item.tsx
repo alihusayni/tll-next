@@ -17,7 +17,7 @@ export default function FaqItem({ question, answer, defaultOpen = false }: FaqIt
 
     return (
         <button
-            className="bg-white rounded-2xl lg:rounded-2xl md:rounded-lg p-4 lg:p-8 w-full text-left transition-all duration-200"
+            className="bg-white hover:bg-white/25 rounded-2xl lg:rounded-2xl md:rounded-lg p-4 lg:p-8 w-full text-left transition-all duration-200"
             onClick={toggleOpen}
             aria-expanded={isOpen}
         >

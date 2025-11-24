@@ -119,7 +119,7 @@ export default function ResourcesPage() {
       {/* Non-sticky transparent header */}
       <header className="relative z-40 bg-[#E8EDF2] w-full">
         <div
-            className="flex justify-between items-center px-4 py-8 md:px-8 lg:px-16 xl:px-0 max-w-[86.5rem] mx-auto">
+            className="flex justify-between items-center px-4 py-8 md:px-8 lg:px-16 2xl:px-0 max-w-[86.5rem] mx-auto">
             <Link href="/"><Logo variant="Blue"/></Link>
             <div className="flex items-center gap-8">
                 <div className="hidden lg:flex">

@@ -34,7 +34,7 @@ export default function SiteHeader({ className = '' }: SiteHeaderProps) {
 
   return (
     <header className={`bg-transparent ${className}`}>
-      <div className="flex justify-between items-center py-8 px-4 md:px-8 lg:px-16 xl:px-0">
+      <div className="flex justify-between items-center py-8 px-4 sm:px-8 lg:px-16 2xl:px-0">
         <Logo variant="White" />
         
         {/* Desktop Navigation */}
@@ -47,6 +47,7 @@ export default function SiteHeader({ className = '' }: SiteHeaderProps) {
         </div>
 
         {/* Mobile Hamburger Menu */}
+
         <div className="lg:hidden">
           <HamburgerMenu 
             isOpen={isMobileMenuOpen} 
@@ -60,7 +61,7 @@ export default function SiteHeader({ className = '' }: SiteHeaderProps) {
         <div className="lg:hidden mobile-menu-overlay" style={{ backgroundColor: '#00356E' }}>
           <div className="flex flex-col h-full py-8 min-h-screen">
             {/* Header with Logo and Close Button */}
-            <div className="flex justify-between items-center px-4 mb-16">
+            <div className="flex justify-between items-center px-8 mb-16">
               <Logo variant="White" />
               <button
                 onClick={toggleMobileMenu}
@@ -86,7 +87,7 @@ export default function SiteHeader({ className = '' }: SiteHeaderProps) {
             <div className="flex flex-col gap-4 px-4 mt-8">
               <a 
                 href="tel:(714) 877 5840" 
-                className="group flex justify-center items-center gap-4 font-inter-tight font-semibold uppercase transition-colors rounded-md border-2 border-white text-white hover:bg-white hover:text-[#00356E] active:bg-[#E55B1E] active:border-[#E55B1E] active:text-white px-8 py-6 text-lg whitespace-nowrap self-stretch"
+                className="group flex justify-center items-center gap-4 font-inter-tight leading-7 font-semibold uppercase transition-colors rounded-md border-2 border-white text-white hover:bg-white hover:text-[#00356E] active:bg-[#E55B1E] active:border-[#E55B1E] active:text-white px-8 py-6 text-lg whitespace-nowrap self-stretch"
                 style={{
                   display: 'flex',
                   height: '52px',
@@ -98,7 +99,6 @@ export default function SiteHeader({ className = '' }: SiteHeaderProps) {
                 }}
                 onClick={toggleMobileMenu}
               >
-                  <img src="/assets/icons/Vector.svg" alt="Phone" width="20" height="19" className="filter brightness-0 invert group-hover:brightness-0 group-hover:invert group-hover:hue-rotate-180 group-hover:saturate-50 group-active:brightness-0 group-active:invert" />
                   Talk to Us
               </a>
               

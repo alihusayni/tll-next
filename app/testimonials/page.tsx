@@ -30,7 +30,7 @@ export default function TestimonialsPage() {
     return (
         <>
             <div className="z-10 w-full bg-[#091C32]">
-                <SiteHeader className="w-full max-w-[86.5rem] mx-auto lg:px-16 xl:px-0" />
+                <SiteHeader className="w-full max-w-[86.5rem] mx-auto lg:px-16 2xl:px-0" />
             </div>
             <StickyHeader/>
             <TestimonialsPageSection/>
