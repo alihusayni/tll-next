@@ -164,7 +164,6 @@ export default function InternalTemplate({content, slug, categories, relatedArti
                                 }}
                                 onClick={toggleMobileMenu}
                             >
-                                <img src="/assets/icons/Vector.svg" alt="Phone" width="20" height="19" />
                                 Talk to Us
                             </a>
 
@@ -191,7 +190,6 @@ export default function InternalTemplate({content, slug, categories, relatedArti
             )}
 
             <StickyHeader/>
-            
 
             
             <ArticleHero
