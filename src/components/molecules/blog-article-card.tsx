@@ -23,7 +23,7 @@ export default function BlogArticleCard({
   return (
     <Link
       href={link}
-      className={`flex flex-col gap-4 p-0 rounded-2xl group hover:opacity-90 transition-opacity ${className}`}
+      className={`flex flex-col gap-4 p-0 rounded-2xl group transition-opacity ${className}`}
     >
       {/* Image */}
       <div className="relative w-full h-[200px] md:h-[220px] lg:h-[250px] rounded-lg overflow-hidden">
