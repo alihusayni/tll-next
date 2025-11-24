@@ -1,5 +1,6 @@
 import type {Metadata} from "next";
-import {Inter_Tight} from "next/font/google";
+import {Inter_Tight, Inter} from "next/font/google";
+import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.css";
 import Script from "next/script";
 
@@ -8,18 +9,20 @@ const interTight = Inter_Tight({
     variable: "--font-inter-tight",
     display: "swap",
 });
+const inter = Inter({
+    subsets: ["latin"],
+    variable: "--font-inter",
+    display: "swap",
+});
 
 export const metadata: Metadata = {
     title: "Expert Immigration Lawyer in Orange County, CA | Tuan Le Law",
     description: "Get professional immigration legal services from Tuan Le Law in Orange County, CA. Specializing in visas, green cards, asylum, and citizenship applications.",
     other: {
-        'google-site-verification': 'your-verification-code', // Add Google Search Console verification
+        'google-site-verification': 'your-verification-code',
     },
 };
 
-function GoogleAnalytics(props: { gaId: string }) {
-    return null;
-}
 
 export default function RootLayout({
                                        children,
