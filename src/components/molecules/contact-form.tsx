@@ -3,6 +3,7 @@
 import { useState, FormEvent, useRef, useEffect } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Icon } from '@iconify/react';
 import TextInput from '../atoms/text-input';
 import TextArea from '../atoms/text-area';
 
@@ -191,16 +192,12 @@ export default function ContactForm() {
         className="group self-start bg-transparent border-2 border-[#071C32] text-[#071C32] font-inter-tight font-semibold text-sm sm:text-lg uppercase rounded-md hover:bg-[#FF7031] active:bg-[#FF7031] hover:border-[#FF7031] active:border-[#FF7031] hover:text-white active:text-white transition-all w-[22.5rem] sm:w-[23.563rem] h-[3.25rem] hover:w-[23.5rem] active:w-[23.5rem] hover:sm:w-[24.5rem] active:sm:w-[24.5rem] flex items-center justify-start gap-4 pl-6 disabled:opacity-50"
       >
         {loading ? 'Submitting...' : 'Schedule Free Consultation'}
-        <svg
-          width="14"
-          height="14"
-          viewBox="0 0 14 14"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
+        <Icon 
+          icon="solar:arrow-right-up-linear" 
+          width="24"
+          height="24"
           className="transition-transform group-hover:rotate-45 group-active:rotate-45 ml-5 stroke-[#071C32] group-hover:stroke-white group-active:stroke-white"
-        >
-          <path d="M1 13L13 1M13 1H4M13 1V10" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-        </svg>
+        />
       </button>
 
 
