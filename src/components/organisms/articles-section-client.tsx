@@ -142,7 +142,7 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
   };
 
   return (
-    <section className="bg-[#E8EDF2] py-32 px-16 lg:py-32 lg:px-16 md:py-24 md:px-8 xl:px-0 sm:py-16 sm:px-4">
+    <section className="bg-[#E8EDF2] py-32 px-16 sm:px-4 md:px-8 lg:px-16 2xl:px-0 lg:py-32 md:py-24 sm:py-16 ">
       <div className="mx-auto max-w-[86.5rem]">
         <div className="flex flex-col gap-16 lg:gap-16 md:gap-16 sm:gap-4">
           <div className="flex justify-between items-end">

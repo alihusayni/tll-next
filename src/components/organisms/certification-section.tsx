@@ -9,7 +9,7 @@ export default function CertificationSection() {
         <h2 className="font-inter-tight text-[2.5rem] lg:text-[3.875rem] leading-[3.25rem] sm:leading-[3.25rem] max-w-[23.5rem] sm:max-w-[38.5rem] lg:max-w-[78.5rem] text-[#9199B9] text-center font-semibold mb-32 mx-auto">
           Your Chances Are <span className="text-white" >Stronger</span> Than You Think &mdash; <span className="text-white">Protection</span> and <span className="text-white">Guidance</span> through Complexity
         </h2>
-        <div className="flex flex-col lg:flex-row gap-16 max-w-[95rem] lg:items-center">
+        <div className="flex flex-col xl:flex-row gap-16 max-w-[95rem] xl:items-center">
           <div className="flex-1">
             <p className="text-2xl lg:text-[2rem] text-white lg:max-w-[24.5rem] max-w-[25rem] font-inter font-medium leading-7 lg:leading-9 mb-8">
               Let&apos;s Build Your Case Together. Rest Assured That Your Case Is in The Right Hands.
