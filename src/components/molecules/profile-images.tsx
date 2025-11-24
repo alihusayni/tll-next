@@ -17,7 +17,7 @@ export default function ProfileImages() {
               alt="Tuan Le profile image"
               width={332}
               height={412}
-              className="absolute top-[6.75rem] -left-40 w-[20.75rem] h-[25.75rem] rounded-[16px] object-cover grayscale border mix-blend-luminosity transform translate-x-1/2"
+              className="absolute top-[8.5rem] -left-41 w-[20.75rem] h-[25.75rem] rounded-[16px] object-cover grayscale border mix-blend-luminosity transform translate-x-1/2"
           />
       </div>
 
