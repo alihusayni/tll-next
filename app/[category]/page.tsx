@@ -155,7 +155,6 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         categoryLabel={categoryLabel}
         categoryContent={categoryContent}
         categorySlug={category}
-        featuredArticles={transformedFeaturedArticles}
         allArticles={transformedAllArticles}
         categories={categories}
       />

@@ -4,6 +4,7 @@ import Link from 'next/link';
 interface BlogArticleCardProps {
   title: string;
   category: string;
+  excerpt: string;
   date: string;
   readTime: string;
   image: string;
@@ -14,6 +15,7 @@ interface BlogArticleCardProps {
 export default function BlogArticleCard({
   title,
   category,
+  excerpt,
   date,
   readTime,
   image,
@@ -65,4 +67,3 @@ export default function BlogArticleCard({
     </Link>
   );
 }
-

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import BlogArticleCard from '@/components/molecules/blog-article-card';
+import BlogCategoryCard from '@/components/molecules/blog-category-card';
 import BlogCategoryFilter from '@/components/molecules/blog-category-filter';
 import Pagination from '@/components/atoms/pagination';
 import TableOfContents from '@/components/molecules/table-of-contents';
@@ -26,7 +26,6 @@ interface CategoryPageClientProps {
   categoryLabel: string;
   categoryContent: Content | null;
   categorySlug: string;
-  featuredArticles: Article[];
   allArticles: Article[];
   categories: Array<{ id: string; label: string }>;
 }
@@ -35,7 +34,6 @@ export default function CategoryPageClient({
   categoryLabel,
   categoryContent,
   categorySlug,
-  featuredArticles,
   allArticles,
   categories,
 }: CategoryPageClientProps) {
@@ -88,17 +86,16 @@ export default function CategoryPageClient({
 
             {/* Articles Grid - Responsive: 1 col mobile, 2 cols tablet, 3 cols desktop */}
             <div className="flex flex-col gap-8 md:gap-12 lg:gap-16">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+              <div className="flex flex-wrap gap-4 justify-start">
                 {paginatedArticles.map((article, index) => (
-                  <BlogArticleCard
+                  <BlogCategoryCard
                     key={index}
                     title={article.title}
-                    category={article.category}
                     date={article.date}
                     readTime={article.readTime}
                     image={article.image}
                     link={article.link}
-                    className="min-w-0"
+                    className="w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(33.333%-0.667rem)]"
                   />
                 ))}
               </div>

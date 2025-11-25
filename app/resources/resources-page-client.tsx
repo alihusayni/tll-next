@@ -133,17 +133,18 @@ export default function ResourcesPageClient({
               </div>
 
               {/* Featured Articles Grid */}
-              <div className="flex gap-4 sm:gap-8 w-full overflow-x-auto scrollbar-hide">
+              <div className="flex flex-wrap gap-4 sm:gap-8 w-full">
                 {featuredArticles.map((article, index) => (
                   <BlogArticleCard
                     key={index}
                     title={article.title}
                     category={article.category}
+                    excerpt={article.excerpt}
                     date={article.date}
                     readTime={article.readTime}
                     image={article.image}
                     link={article.link}
-                    className="min-w-[23.5rem] lg:min-w-[27.5rem]"
+                    className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.333rem)]"
                   />
                 ))}
               </div>

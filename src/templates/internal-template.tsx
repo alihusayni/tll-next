@@ -121,6 +121,7 @@ export default function InternalTemplate({content, slug, categories, relatedArti
                                             key={article.slug}
                                             title={title}
                                             category={category}
+                                            excerpt={article.meta.description || ''}
                                             date={date}
                                             readTime={readTime}
                                             image={imageSrc}
