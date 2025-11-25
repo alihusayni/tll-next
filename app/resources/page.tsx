@@ -6,11 +6,7 @@ import {
   getFeaturedArticles, 
   getContentCategories 
 } from '@/lib/content';
-import StickyHeader from '@/components/organisms/sticky-header';
-import MainNav from '@/components/molecules/main-nav';
-import HamburgerMenu from '@/components/atoms/hamburger-menu';
-import Logo from '@/components/atoms/logo';
-import Link from 'next/link';
+import Header from '@/components/organisms/header';
 
 export const metadata: Metadata = {
   title: 'Blog | Immigration Law Resources & Insights',
@@ -115,37 +111,9 @@ export default function ResourcesPage() {
   });
 
   return (
-    <>
-      {/* Non-sticky transparent header */}
-      <header className="relative z-40 bg-[#E8EDF2] w-full">
-        <div
-            className="flex justify-between items-center px-4 py-8 md:px-8 lg:px-16 2xl:px-0 max-w-[86.5rem] mx-auto">
-            <Link href="/"><Logo variant="Blue"/></Link>
-            <div className="flex items-center gap-8">
-                <div className="hidden lg:flex">
-                    <MainNav className="flex gap-10" customTextColor="text-[#030E1A]"/>
-                </div>
-                <a href="tel:(714) 877 5840"
-                   className="hidden lg:flex items-center group justify-center gap-4 font-inter-tight font-semibold uppercase transition-colors rounded-md bg-transparent border-2 border-[#071C32] text-[#071C32] hover:bg-[#E55B1E] active:bg-[#E55B1E] hover:border-[#E55B1E] active:border-[#E55B1E] hover:text-white active:text-white px-6 py-4 text-base h-12 whitespace-nowrap">
-
-                    <img src="/assets/icons/Vector.svg" alt="Phone" width="20" height="19" className="group-hover:invert" />
-
-                    Talk to Us
-                </a>
-
-                {/* Mobile Hamburger Menu */}
-                <div className="lg:hidden">
-                    <div className="w-8 h-8 flex items-center justify-center">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 12H21M3 6H21M3 18H21" stroke="#030E1A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </header>
-
-      <StickyHeader/>
+    <div className="bg-[#E8EDF2]">
+      <Header variant="light" />
+      <Header variant="sticky" />
       
       <Suspense fallback={<div>Loading...</div>}>
         <ResourcesPageClient
@@ -154,7 +122,7 @@ export default function ResourcesPage() {
           categories={categories}
         />
       </Suspense>
-    </>
+    </div>
   );
 }
 

@@ -8,7 +8,6 @@ import {
   getContentCategories,
   getContentBySlug
 } from '@/lib/content';
-import SiteHeader from '@/components/organisms/site-header';
 
 interface CategoryPageProps {
   params: Promise<{

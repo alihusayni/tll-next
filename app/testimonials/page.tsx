@@ -1,5 +1,4 @@
-import SiteHeader from '@/components/organisms/site-header';
-import StickyHeader from '@/components/organisms/sticky-header';
+import Header from '@/components/organisms/header';
 import TestimonialsPageSection from '@/components/organisms/testimonials-page-section';
 import ContactSection from '@/components/organisms/contact-section';
 import SiteFooter from '@/components/organisms/site-footer';
@@ -29,10 +28,7 @@ export const metadata: Metadata = {
 export default function TestimonialsPage() {
     return (
         <>
-            <div className="z-10 w-full bg-[#091C32]">
-                <SiteHeader className="w-full max-w-[86.5rem] mx-auto lg:px-16 2xl:px-0" />
-            </div>
-            <StickyHeader/>
+            <Header variant="sticky" />
             <TestimonialsPageSection/>
             <ContactSection/>
             <SiteFooter/>

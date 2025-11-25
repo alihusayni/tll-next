@@ -99,7 +99,7 @@ export default function ResourcesPageClient({
     <>
     <div className="bg-[#E8EDF2] flex flex-col items-center min-h-screen w-full">
       {/* Blog Hub Section */}
-      <div className="bg-[#E8EDF2] box-border flex flex-col gap-8 items-center pb-16 pt-0 px-4 md:px-8 lg:px-16 relative shrink-0 w-full max-w-[1512px]">
+      <div className="bg-[#E8EDF2] box-border flex flex-col gap-8 items-center pb-16 pt-8 px-4 md:px-8 lg:px-16 relative shrink-0 w-full max-w-[1512px]">
         {/* Title & Description */}
         <div className="flex flex-col gap-8 items-start px-0 py-8 w-full">
           <p className="font-inter-tight font-semibold text-5xl md:text-7xl lg:text-[92px] leading-tight md:leading-[60px] lg:leading-[72px] tracking-[-0.02em] text-[#071C32] max-w-[496px]">

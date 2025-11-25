@@ -1,4 +1,4 @@
-import StickyHeader from '@/components/organisms/sticky-header';
+import Header from '@/components/organisms/header';
 import HeroSection from '@/components/organisms/hero-section';
 import AboutSection from '@/components/organisms/about-section';
 import CertificationSection from '@/components/organisms/certification-section';
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 export default function Home() {
     return (
         <>
-            <StickyHeader />
+            <Header variant="sticky" />
             <HeroSection/>
             <CertificationSection/>
             <AboutSection/>

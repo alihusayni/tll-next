@@ -1,7 +1,7 @@
 "use client";
 
 import Image from 'next/image';
-import SiteHeader from './site-header';
+import Header from './header';
 import HeroRatingStar from '../atoms/hero-rating-star';
 
 interface HeroSectionProps {
@@ -26,7 +26,7 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
 
       {/* Header */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10 w-full max-w-[86.5rem]">
-        <SiteHeader className="w-full" />
+        <Header variant="transparent" className="w-full" />
       </div>
 
       {/* Text Container */}
