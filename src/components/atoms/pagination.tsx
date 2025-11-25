@@ -63,7 +63,7 @@ export default function Pagination({ currentPage, totalPages, onPageChange, clas
       <button
         onClick={handlePrevious}
         disabled={currentPage === 1}
-        className="box-border flex gap-0.5 md:gap-1 items-center justify-center p-1 disabled:opacity-50 disabled:cursor-not-allowed"
+        className="box-border cursor-pointer flex gap-0.5 md:gap-1 items-center justify-center p-1 disabled:opacity-50 disabled:cursor-not-allowed"
         aria-label="Previous page"
       >
         <svg
@@ -109,7 +109,7 @@ export default function Pagination({ currentPage, totalPages, onPageChange, clas
           <button
             key={page}
             onClick={() => onPageChange(page as number)}
-            className="box-border flex gap-1 items-center justify-center p-1"
+            className="box-border flex gap-1 cursor-pointer items-center justify-center p-1"
             aria-label={`Page ${page}`}
             aria-current={isActive ? 'page' : undefined}
           >
@@ -126,7 +126,7 @@ export default function Pagination({ currentPage, totalPages, onPageChange, clas
       <button
         onClick={handleNext}
         disabled={currentPage === totalPages}
-        className="box-border flex gap-0.5 md:gap-1 items-center justify-center p-1 disabled:opacity-50 disabled:cursor-not-allowed"
+        className="box-border flex gap-0.5 md:gap-1 cursor-pointer items-center justify-center p-1 disabled:opacity-50 disabled:cursor-not-allowed"
         aria-label="Next page"
       >
         <span className={`font-inter font-normal text-sm md:text-base leading-5 md:leading-6 text-center ${

@@ -19,7 +19,6 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
           fill
           className="object-cover"
           priority
-          unoptimized={true}
         />
         <div className="absolute inset-0 bg-[rgba(9,44,81,0.60)] mix-blend-multiply"/>
       </div>

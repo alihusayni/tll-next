@@ -153,14 +153,14 @@ export default function ResourcesPageClient({
           {/* Recent Articles Section */}
           <div
             id="recent-articles"
-            className="box-border flex flex-col gap-8 items-start max-w-4xl px-0 py-8 md:py-16 lg:py-32 w-full"
+            className="box-border flex flex-col gap-8 items-start max-w-[64rem] px-0 py-8 w-full"
           >
             <div className="flex flex-col gap-8 items-start max-w-7xl overflow-hidden w-full">
               {/* Recent Articles Title */}
               <div className="border-b border-[#D2D5D9] box-border flex flex-wrap gap-0 items-end justify-end max-w-7xl pb-4 pt-0 px-0 w-full">
                 <div className="flex flex-[1_0_0] flex-col gap-8 md:gap-[3.125rem] items-start min-h-px min-w-[17.5rem]">
                   <div className="flex flex-col gap-5 items-start w-full">
-                    <p className="font-inter-tight font-semibold text-2xl md:text-3xl lg:text-[2.5rem] leading-tight md:leading-[2.8125rem] lg:leading-[3.125rem] tracking-[-0.02em] text-[#071C32] max-w-[31rem] w-full">
+                    <p className="font-inter-tight font-semibold text-3xl lg:text-[2.5rem] leading-[2.5rem] lg:leading-[3.125rem] tracking-[-0.038rem] lg:tracking-[-0.05rem] text-[#071C32] max-w-[31rem] w-full">
                       Recent Articles
                     </p>
                   </div>
