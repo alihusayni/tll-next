@@ -16,6 +16,7 @@ twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
 readTime: "30 minutes"
+featured: true
 ---
 
 ## When it comes to U.S. visas, they are broadly classified into two categories: immigrant visas and nonimmigrant visas. Nonimmigrant visas are temporary and typically granted for purposes such as tourism, education, or short-term work. These visas are perfect for individuals who plan to stay in the U.S. for a limited time to achieve specific goals, such as completing studies or seasonal employment.

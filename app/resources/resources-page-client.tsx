@@ -99,13 +99,13 @@ export default function ResourcesPageClient({
     <>
     <div className="bg-[#E8EDF2] flex flex-col items-center min-h-screen w-full">
       {/* Blog Hub Section */}
-      <div className="bg-[#E8EDF2] box-border flex flex-col gap-8 items-center pb-16 pt-8 px-4 md:px-8 lg:px-16 relative shrink-0 w-full max-w-[1512px]">
+      <div className="bg-[#E8EDF2] box-border flex flex-col gap-8 items-center pb-16 pt-8 px-4 sm:px-8 lg:px-16 2xl:px-0 relative shrink-0 w-full max-w-[86.5rem]">
         {/* Title & Description */}
         <div className="flex flex-col gap-8 items-start px-0 py-8 w-full">
-          <p className="font-inter-tight font-semibold text-5xl md:text-7xl lg:text-[92px] leading-tight md:leading-[60px] lg:leading-[72px] tracking-[-0.02em] text-[#071C32] max-w-[496px]">
+          <p className="font-inter-tight font-semibold text-[3.25rem] lg:text-[5.75rem] leading-tight md:leading-[3.75rem] lg:leading-[4.5rem] tracking-[-0.115rem] text-[#071C32] max-w-[31rem]">
             Blog
           </p>
-          <p className="font-inter-tight font-medium text-lg md:text-xl lg:text-2xl leading-[22px] text-[#747D85] w-full">
+          <p className="font-inter-tight font-medium text-xl lg:text-2xl leading-[1.75rem] text-[#747D85] w-full">
             News and insights on all things related to law by Tuan le
           </p>
         </div>
@@ -120,12 +120,12 @@ export default function ResourcesPageClient({
         {/* Featured Articles */}
         <div className="box-border flex flex-col items-center pb-0 pt-8 px-0 w-full">
           <div className="box-border flex flex-col gap-8 items-start pb-8 pt-0 px-0 w-full">
-            <div className="flex flex-col gap-8 items-start max-w-[1728px] overflow-hidden w-full">
+            <div className="flex flex-col gap-8 items-start max-w-[86.5rem]l overflow-hidden w-full">
               {/* Featured Articles Title */}
-              <div className="flex flex-wrap gap-8 md:gap-16 items-end justify-end max-w-[1728px] w-full">
-                <div className="flex flex-[1_0_0] flex-col gap-8 md:gap-[50px] items-start min-h-px min-w-[280px]">
+              <div className="flex flex-wrap gap-8 md:gap-16 items-end justify-end max-w-[86.5rem] w-full">
+                <div className="flex flex-[1_0_0] flex-col gap-8 md:gap-[3.125rem] items-start min-h-px min-w-[17.5rem]">
                   <div className="flex flex-col gap-5 items-start w-full">
-                    <p className="font-inter-tight font-semibold text-3xl md:text-4xl lg:text-[52px] leading-tight md:leading-[50px] lg:leading-[60px] tracking-[-0.02em] text-[#071C32] max-w-[496px] w-full">
+                    <p className="font-inter-tight font-semibold text-[2.125rem] lg:text-[3.25rem] leading-[2.625rem] lg:leading-[3.75rem] tracking-[-0.043rem] lg:tracking-[-0.065rem] text-[#071C32] max-w-[31rem] w-full">
                       Featured Articles
                     </p>
                   </div>
@@ -133,7 +133,7 @@ export default function ResourcesPageClient({
               </div>
 
               {/* Featured Articles Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 w-full">
+              <div className="flex gap-4 sm:gap-8 w-full overflow-x-auto scrollbar-hide">
                 {featuredArticles.map((article, index) => (
                   <BlogArticleCard
                     key={index}
@@ -143,7 +143,7 @@ export default function ResourcesPageClient({
                     readTime={article.readTime}
                     image={article.image}
                     link={article.link}
-                    className="w-full"
+                    className="min-w-[23.5rem] lg:min-w-[27.5rem]"
                   />
                 ))}
               </div>
@@ -153,14 +153,14 @@ export default function ResourcesPageClient({
           {/* Recent Articles Section */}
           <div
             id="recent-articles"
-            className="box-border flex flex-col gap-8 items-start max-w-[1024px] px-0 py-8 md:py-16 lg:py-32 w-full"
+            className="box-border flex flex-col gap-8 items-start max-w-4xl px-0 py-8 md:py-16 lg:py-32 w-full"
           >
-            <div className="flex flex-col gap-8 items-start max-w-[1728px] overflow-hidden w-full">
+            <div className="flex flex-col gap-8 items-start max-w-7xl overflow-hidden w-full">
               {/* Recent Articles Title */}
-              <div className="border-b border-[#D2D5D9] box-border flex flex-wrap gap-0 items-end justify-end max-w-[1728px] pb-4 pt-0 px-0 w-full">
-                <div className="flex flex-[1_0_0] flex-col gap-8 md:gap-[50px] items-start min-h-px min-w-[280px]">
+              <div className="border-b border-[#D2D5D9] box-border flex flex-wrap gap-0 items-end justify-end max-w-7xl pb-4 pt-0 px-0 w-full">
+                <div className="flex flex-[1_0_0] flex-col gap-8 md:gap-[3.125rem] items-start min-h-px min-w-[17.5rem]">
                   <div className="flex flex-col gap-5 items-start w-full">
-                    <p className="font-inter-tight font-semibold text-2xl md:text-3xl lg:text-[40px] leading-tight md:leading-[45px] lg:leading-[50px] tracking-[-0.02em] text-[#071C32] max-w-[496px] w-full">
+                    <p className="font-inter-tight font-semibold text-2xl md:text-3xl lg:text-[2.5rem] leading-tight md:leading-[2.8125rem] lg:leading-[3.125rem] tracking-[-0.02em] text-[#071C32] max-w-[31rem] w-full">
                       Recent Articles
                     </p>
                   </div>

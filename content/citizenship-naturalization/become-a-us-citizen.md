@@ -16,6 +16,7 @@ twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2023-07-20T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "7 min read"
+featured: true
 ---
 There are a couple of paths that lead you to become a U.S. citizen, but they are not quick and easy. Some green card holders, who are lawful permanent residents of the U.S., do not see the point in going through this process, however, U.S. citizenship has some benefits.
 In what follows, an experienced immigration lawyer helps you understand the benefits of becoming a U.S. citizen, what paths you can take, how much time it will take, the costs, etc.

@@ -23,10 +23,10 @@ export default function BlogArticleCard({
   return (
     <Link
       href={link}
-      className={`flex flex-col gap-4 p-0 rounded-2xl group transition-opacity ${className}`}
+      className={`flex flex-col gap-4 p-0 rounded-2xl group hover:opacity-90 active:opacity-90 transition-opacity ${className}`}
     >
       {/* Image */}
-      <div className="relative w-full h-[200px] md:h-[220px] lg:h-[250px] rounded-lg overflow-hidden">
+      <div className="relative w-full h-[15.625rem] rounded-lg overflow-hidden">
         <Image
           src={image}
           alt={title}
@@ -38,26 +38,26 @@ export default function BlogArticleCard({
       {/* Content */}
       <article className="flex flex-col gap-2 pb-4">
         {/* Category */}
-        <div className="flex flex-col justify-center leading-[0]">
-          <h3 className="font-inter-tight font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#747D85]">
+        <div className="flex flex-col justify-center">
+          <h3 className="font-inter-tight font-normal text-sm leading-5 text-[#747D85]">
             {category}
           </h3>
         </div>
 
         {/* Title */}
-        <h2 className="font-inter-tight font-semibold text-xl md:text-2xl leading-7 md:leading-8 tracking-[-0.02em] text-[#49535D] line-clamp-2 overflow-hidden text-ellipsis group-hover:text-hover">
+        <h2 className="font-inter-tight font-semibold text-xl lg:text-2xl leading-[1.625rem] lg:leading-8 tracking-[-0.025rem] lg:tracking-[-0.03rem] text-[#49535D] line-clamp-2 overflow-hidden text-ellipsis group-hover:text-hover group-active:text-hover">
           {title}
         </h2>
 
         {/* Date & Time */}
-        <div className="flex gap-2 md:gap-4 items-center">
-          <p className="font-inter font-normal text-xs md:text-sm leading-5 md:leading-6 text-[#747D85] text-center">
+        <div className="flex gap-2 items-center">
+          <p className="font-inter font-normal text-sm leading-5 lg:leading-6 text-[#747D85] text-center">
             {date}
           </p>
           <div className="flex items-center justify-center h-4 w-4 md:h-5 md:w-5 rotate-90">
             <div className="h-0 w-4 md:w-5 border-t border-[#BBBCBF]" />
           </div>
-          <p className="font-inter font-normal text-xs md:text-sm leading-5 md:leading-6 text-[#747D85] text-center">
+          <p className="font-inter font-normal text-sm leading-5 lg:leading-6 text-[#747D85] text-center">
             {readTime}
           </p>
         </div>

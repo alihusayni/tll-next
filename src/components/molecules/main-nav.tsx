@@ -57,7 +57,7 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
         { href: '/testimonials', label: 'TESTIMONIALS' },
     { href: '/faq', label: 'FAQ' },
     {
-      href: '/resources',
+      href: '/resources?category=resources',
       label: 'RESOURCE',
       subItems: [
         { href: '/us-visas', label: 'US Visas' },

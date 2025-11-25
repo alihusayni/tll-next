@@ -16,6 +16,7 @@ twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2021-04-30T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "10 min read"
+featured: true
 ---
 
 Applying for a U.S. visa or green card can feel like an uphill battle. Imagine putting in months of work gathering

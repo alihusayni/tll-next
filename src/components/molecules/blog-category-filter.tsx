@@ -100,7 +100,7 @@ export default function BlogCategoryFilter({
   return (
     <div className={`relative flex items-center w-full border-b border-[#D2D5D9] ${className}`}>
       {/* Left Navigation Button */}
-      <div className={`absolute left-0 z-10 flex items-center h-full bg-gradient-to-r from-[#E8EDF2] via-[#E8EDF2] to-transparent pr-8 pl-0 transition-opacity duration-300 ${canScrollLeft ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
+      <div className={`absolute left-0 z-10 flex items-center h-full bg-gradient-to-r from-[#E8EDF2] via-[#E8EDF2] to-transparent pr-0 pl-0 transition-opacity duration-300 ${canScrollLeft ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
         <button
           onClick={scrollLeft}
           aria-label="Scroll left"
@@ -118,10 +118,8 @@ export default function BlogCategoryFilter({
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUpOrLeave}
         onMouseLeave={handleMouseUpOrLeave}
-        className={`box-border flex gap-2 items-center justify-center pl-24 py-4 w-full overflow-x-auto scrollbar-hide ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
+        className={`box-border flex gap-2 items-center  mx-auto pl-0 py-4 w-full overflow-x-hidden ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
         style={{
-          scrollbarWidth: 'none',
-          msOverflowStyle: 'none',
           userSelect: 'none'
         }}
       >
@@ -133,7 +131,7 @@ export default function BlogCategoryFilter({
               key={category.id}
               onClick={() => handleCategoryClick(category.id)}
               className={`
-                box-border flex gap-2 items-center justify-center px-4 py-3 rounded-full shrink-0 transition-colors
+                box-border group flex gap-2 items-center justify-center px-4 py-3 rounded-full shrink-0 transition-colors
                 ${isActive 
                   ? 'bg-[#E1E6EB]' 
                   : 'bg-transparent hover:bg-[#E1E6EB]'
@@ -143,7 +141,7 @@ export default function BlogCategoryFilter({
             >
               <div className="flex flex-col justify-center leading-0">
                 <p className={`
-                  font-inter-tight font-medium text-lg leading-7 whitespace-nowrap
+                  font-inter-tight font-medium text-lg leading-7 whitespace-nowrap group-hover:text-[#071C32]
                   ${isActive ? 'text-[#071C32]' : 'text-[#747D85]'}
                 `}>
                   {category.label}
@@ -155,7 +153,7 @@ export default function BlogCategoryFilter({
       </div>
 
       {/* Right Navigation Button */}
-      <div className={`absolute right-0 z-10 flex items-center h-full pl-8 pr-0 bg-gradient-to-l from-[#E8EDF2] via-[#E8EDF2] to-transparent transition-opacity duration-300 ${canScrollRight ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
+      <div className={`absolute right-0 z-10 flex items-center h-full pl-0 pr-0 bg-gradient-to-l from-[#E8EDF2] via-[#E8EDF2] to-transparent transition-opacity duration-300 ${canScrollRight ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
         <button
           onClick={scrollRight}
           aria-label="Scroll right"
