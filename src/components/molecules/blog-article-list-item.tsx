@@ -25,7 +25,7 @@ export default function BlogArticleListItem({
   return (
     <Link
       href={link}
-      className={`flex flex-col sm:flex-row gap-4 sm:h-[220px] min-h-[220px] md:min-h-0 items-start p-0 rounded-2xl group hover:opacity-90 transition-opacity ${className}`}
+      className={`flex flex-col sm:flex-row gap-4 sm:h-[220px] min-h-[220px] md:min-h-0 items-start p-0 rounded-2xl group hover:opacity-90 active:opacity-90 transition-opacity ${className}`}
     >
       {/* Image */}
       <div className="flex items-start h-[13.75rem] w-full sm:w-[20.75rem] lg:w-full max-w-[25.5rem] min-w-[20.75rem] overflow-hidden relative rounded-lg">
@@ -49,7 +49,7 @@ export default function BlogArticleListItem({
           </div>
 
           {/* Title */}
-          <p className="font-inter-tight font-semibold text-xl lg:text-2xl leading-8 lg:leading-[1.625rem] tracking-[-0.03rem] lg:tracking-[-0.025rem] text-[#49535D] min-w-full overflow-hidden text-ellipsis line-clamp-2 group-hover:text-hover">
+          <p className="font-inter-tight font-semibold text-xl lg:text-2xl leading-8 lg:leading-[1.625rem] tracking-[-0.03rem] lg:tracking-[-0.025rem] text-[#49535D] min-w-full overflow-hidden text-ellipsis line-clamp-2 group-hover:text-hover group-active:text-hover">
             {title}
           </p>
 

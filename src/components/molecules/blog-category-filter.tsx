@@ -123,7 +123,7 @@ export default function BlogCategoryFilter({
           userSelect: 'none'
         }}
       >
-        {categories.map((category) => {
+        {categories.filter(category => category.id !== 'resources').map((category) => {
           const isActive = category.id === activeCategory;
           
           return (

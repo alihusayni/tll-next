@@ -97,6 +97,15 @@ export default function ResourcesPageClient({
 
   return (
     <>
+    <style jsx>{`
+      .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+    `}</style>
     <div className="bg-[#E8EDF2] flex flex-col items-center min-h-screen w-full">
       {/* Blog Hub Section */}
       <div className="bg-[#E8EDF2] box-border flex flex-col gap-8 items-center pb-16 pt-8 px-4 sm:px-8 lg:px-16 2xl:px-0 relative shrink-0 w-full max-w-[86.5rem]">
@@ -133,7 +142,7 @@ export default function ResourcesPageClient({
               </div>
 
               {/* Featured Articles Grid */}
-              <div className="flex flex-wrap gap-4 sm:gap-8 w-full">
+              <div className="flex flex-row overflow-x-auto gap-4 sm:gap-8 w-full shrink-0 pb-2 sm:pb-0 scrollbar-hide">
                 {featuredArticles.map((article, index) => (
                   <BlogArticleCard
                     key={index}
@@ -144,7 +153,7 @@ export default function ResourcesPageClient({
                     readTime={article.readTime}
                     image={article.image}
                     link={article.link}
-                    className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.333rem)]"
+                    className="w-[23.5rem] lg:w-[27.5rem] flex-shrink-0"
                   />
                 ))}
               </div>
