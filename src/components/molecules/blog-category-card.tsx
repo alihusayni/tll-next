@@ -21,7 +21,7 @@ export default function BlogCategoryCard({
   return (
     <Link
       href={link}
-      className={`flex gap-4 p-4 rounded-[1rem] hover:opacity-90 active:opacity-90 transition-opacity min-w-0 flex-shrink-0 ${className}`}
+      className={`flex group gap-4 pb-3.5 pr-3.5 rounded-[1rem] hover:opacity-90 active:opacity-90 transition-opacity min-w-0 flex-shrink-0 ${className}`}
     >
       {/* Image - 90x90px */}
       <div className="relative w-[5.625rem] h-[5.625rem] rounded-[0.5rem] overflow-hidden flex-shrink-0">
@@ -36,7 +36,7 @@ export default function BlogCategoryCard({
       {/* Content */}
       <article className="flex flex-col gap-2 flex-1 min-w-0">
         {/* Title */}
-        <h2 className="font-inter-tight font-semibold text-[1.125rem] leading-[1.56] tracking-[-0.02em] text-[#49535D] line-clamp-3 overflow-hidden text-ellipsis">
+        <h2 className="font-inter-tight font-semibold text-[1.125rem] leading-[1.56] tracking-[-0.02em] text-[#49535D] line-clamp-2 overflow-hidden text-ellipsis group-hover:text-hover group-active:text-hover">
           {title}
         </h2>
 

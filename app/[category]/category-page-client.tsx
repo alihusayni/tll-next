@@ -70,22 +70,27 @@ export default function CategoryPageClient({
 
   return (
     <>
-      <div className="bg-[#E8EDF2] min-h-screen">
-        <Header variant="light" />
-        <Header variant="sticky" />
-        {/* Main Container - Responsive widths matching Figma */}
-        <div className="w-full mx-auto px-4 md:px-8 lg:px-16 max-w-[440px] md:max-w-[744px] lg:max-w-[1512px]">
-          {/* Category Menu & Articles Section */}
-          <div id="articles-section" className="flex flex-col gap-8 pb-8 md:pb-12 lg:pb-16 pt-0">
-            {/* Category Filter */}
-            <BlogCategoryFilter
-              categories={categories}
-              activeCategory={categorySlug}
-              onCategoryChange={handleCategoryChange}
-            />
+      <Header variant="light" />
+      <Header variant="sticky" />
+      
+      {/* Category Filter Section - Background extends to infinity */}
+      <section className="bg-[#E8EDF2] pt-8 px-4 md:px-8 lg:px-16 2xl:px-0 m-0">
+        <div className="max-w-[86.5rem] mx-auto">
+          <BlogCategoryFilter
+            categories={categories}
+            activeCategory={categorySlug}
+            onCategoryChange={handleCategoryChange}
+            infinityBorder={true}
+          />
+        </div>
+      </section>
 
-            {/* Articles Grid - Responsive: 1 col mobile, 2 cols tablet, 3 cols desktop */}
-            <div className="flex flex-col gap-8 md:gap-12 lg:gap-16">
+      {/* Articles Section - Background extends to infinity */}
+      <section id="articles-section" className="bg-[#E1E6EB] pb-8 lg:py-8 px-4 sm:px-8 lg:px-16 2xl:px-0 m-0">
+        <div className="max-w-[86.5rem] mx-auto">
+          {/* Articles Grid - Responsive: 1 col mobile, 2 cols tablet, 3 cols desktop */}
+          {paginatedArticles.length > 0 ? (
+            <div className="flex flex-col pt-4 sm:pt-8 gap-10">
               <div className="flex flex-wrap gap-4 justify-start">
                 {paginatedArticles.map((article, index) => (
                   <BlogCategoryCard
@@ -95,12 +100,21 @@ export default function CategoryPageClient({
                     readTime={article.readTime}
                     image={article.image}
                     link={article.link}
-                    className="w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(33.333%-0.667rem)]"
+                    className="w-full lg:w-[calc(33.333%-0.667rem)]"
+                  />
+                ))}
+                {/* Add placeholder cards only when paginating within same category to maintain height */}
+                {totalPages > 1 && Array.from({ length: Math.max(0, 9 - paginatedArticles.length) }).map((_, index) => (
+                  <div
+                    key={`placeholder-${index}`}
+                    className="flex gap-4 p-4 rounded-[1rem] min-w-0 flex-shrink-0 w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(33.333%-0.667rem)] opacity-0 pointer-events-none"
+                    style={{ height: '7.625rem' }}
+                    aria-hidden="true"
                   />
                 ))}
               </div>
 
-              {/* Pagination */}
+              {/* Pagination - Only show when there are multiple pages */}
               {totalPages > 1 && (
                 <div className="flex justify-center">
                   <Pagination
@@ -111,10 +125,20 @@ export default function CategoryPageClient({
                 </div>
               )}
             </div>
-          </div>
+          ) : (
+            <div className="flex flex-col items-center justify-center py-16">
+              <p className="font-inter-tight font-medium text-xl text-[#747D85]">
+                No articles found in this category.
+              </p>
+            </div>
+          )}
+        </div>
+      </section>
 
-          {/* Markdown Content Section */}
-          {categoryContent && (
+      {/* Markdown Content Section - White background */}
+      {categoryContent && (
+        <section className="bg-[#E8EDF2] py-8 px-4 md:px-8 lg:px-16 2xl:px-0 m-0">
+          <div className="max-w-[86.5rem] mx-auto">
             <div className="flex flex-col gap-8 pb-8 md:pb-12 lg:pb-16">
               {/* Title Section */}
               <div className="py-4 md:py-8">
@@ -148,9 +172,9 @@ export default function CategoryPageClient({
                 </div>
               </div>
             </div>
-          )}
-        </div>
-      </div>
+          </div>
+        </section>
+      )}
 
       {/* Contact Section */}
       <ContactSection />

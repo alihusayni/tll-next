@@ -12,13 +12,15 @@ interface BlogCategoryFilterProps {
   activeCategory: string;
   onCategoryChange: (categoryId: string) => void;
   className?: string;
+  infinityBorder?: boolean;
 }
 
 export default function BlogCategoryFilter({
   categories,
   activeCategory,
   onCategoryChange,
-  className = ''
+  className = '',
+  infinityBorder = false
 }: BlogCategoryFilterProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
@@ -98,7 +100,14 @@ export default function BlogCategoryFilter({
   };
 
   return (
-    <div className={`relative flex items-center w-full border-b border-[#D2D5D9] ${className}`}>
+    <div className={`relative flex items-center w-full ${className}`}>
+      {/* Border extending to infinity - only when enabled */}
+      {infinityBorder && (
+        <div className="absolute left-1/2 right-1/2 bottom-0 h-px bg-[#D2D5D9] -ml-[50vw] -mr-[50vw] z-0"></div>
+      )}
+      {!infinityBorder && (
+        <div className="absolute left-0 right-0 bottom-0 h-px bg-[#D2D5D9] z-0"></div>
+      )}
       {/* Left Navigation Button */}
       <div className={`absolute left-0 z-10 flex items-center h-full bg-gradient-to-r from-[#E8EDF2] via-[#E8EDF2] to-transparent pr-0 pl-0 transition-opacity duration-300 ${canScrollLeft ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
         <button
