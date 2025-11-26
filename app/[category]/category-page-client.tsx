@@ -11,6 +11,8 @@ import SiteFooter from '@/components/organisms/site-footer';
 import Header from '@/components/organisms/header';
 import MarkdownRenderer from '@/lib/markdown-renderer';
 import { Content } from '@/types/content';
+import ArticleHero from '@/components/organisms/article-hero';
+import ArticleBody from '@/components/organisms/article-body';
 
 interface Article {
   title: string;
@@ -69,7 +71,7 @@ export default function CategoryPageClient({
   };
 
   return (
-    <>
+    <div className="bg-[#E8EDF2]">
       <Header variant="light" />
       <Header variant="sticky" />
       
@@ -86,10 +88,10 @@ export default function CategoryPageClient({
       </section>
 
       {/* Articles Section - Background extends to infinity */}
-      <section id="articles-section" className="bg-[#E1E6EB] pb-8 lg:py-8 px-4 sm:px-8 lg:px-16 2xl:px-0 m-0">
-        <div className="max-w-[86.5rem] mx-auto">
-          {/* Articles Grid - Responsive: 1 col mobile, 2 cols tablet, 3 cols desktop */}
-          {paginatedArticles.length > 0 ? (
+      {paginatedArticles.length > 0 && (
+        <section id="articles-section" className="bg-[#E1E6EB] pb-8 lg:py-8 px-4 sm:px-8 lg:px-16 2xl:px-0 m-0">
+          <div className="max-w-[86.5rem] mx-auto">
+            {/* Articles Grid - Responsive: 1 col mobile, 2 cols tablet, 3 cols desktop */}
             <div className="flex flex-col pt-4 sm:pt-8 gap-10">
               <div className="flex flex-wrap gap-4 justify-start">
                 {paginatedArticles.map((article, index) => (
@@ -125,55 +127,28 @@ export default function CategoryPageClient({
                 </div>
               )}
             </div>
-          ) : (
-            <div className="flex flex-col items-center justify-center py-16">
-              <p className="font-inter-tight font-medium text-xl text-[#747D85]">
-                No articles found in this category.
-              </p>
-            </div>
-          )}
-        </div>
-      </section>
+          </div>
+        </section>
+      )}
 
-      {/* Markdown Content Section - White background */}
+      {/* Markdown Content Section */}
       {categoryContent && (
-        <section className="bg-[#E8EDF2] py-8 px-4 md:px-8 lg:px-16 2xl:px-0 m-0">
-          <div className="max-w-[86.5rem] mx-auto">
-            <div className="flex flex-col gap-8 pb-8 md:pb-12 lg:pb-16">
-              {/* Title Section */}
+        <>
+          {/* Simple Title Section */}
+          <section className="bg-[#E8EDF2] py-8 px-4 md:px-8 lg:px-16 2xl:px-0 m-0">
+            <div className="max-w-[86.5rem] mx-auto">
               <div className="py-4 md:py-8">
                 <h1 className="font-inter-tight font-semibold text-4xl md:text-6xl lg:text-[92px] leading-tight md:leading-[60px] lg:leading-[72px] tracking-[-0.02em] text-[#071C32]">
                   {categoryContent.meta.h1 || categoryContent.meta.title || categoryLabel}
                 </h1>
               </div>
-
-              {/* Content with Sidebar */}
-              <div className="flex flex-col lg:flex-row gap-8">
-                {/* Sidebar - Table of Contents (Desktop only) */}
-                <aside className="hidden lg:block w-[320px] shrink-0">
-                  <div className="sticky top-8">
-                    <TableOfContents headings={categoryContent.headings} />
-                  </div>
-                </aside>
-
-                {/* Main Content */}
-                <div className="flex-1 min-w-0">
-                  <article className="flex flex-col gap-12 md:gap-16">
-                    {/* Markdown Content */}
-                    <div className="prose prose-sm md:prose-base lg:prose-lg max-w-none prose-headings:font-inter-tight prose-headings:text-[#071C32] prose-p:text-[#071C32] prose-a:text-[#E55B1E] prose-a:no-underline hover:prose-a:underline">
-                      <MarkdownRenderer content={categoryContent.content} />
-                    </div>
-
-                    {/* Back to Top Button */}
-                    <div className="flex justify-end pt-4">
-                      <BackToTopButton />
-                    </div>
-                  </article>
-                </div>
-              </div>
             </div>
-          </div>
-        </section>
+          </section>
+          <ArticleBody
+            headings={categoryContent.headings}
+            content={<MarkdownRenderer content={categoryContent.content} />}
+          />
+        </>
       )}
 
       {/* Contact Section */}
@@ -181,6 +156,6 @@ export default function CategoryPageClient({
 
       {/* Footer */}
       <SiteFooter />
-    </>
+    </div>
   );
 }
