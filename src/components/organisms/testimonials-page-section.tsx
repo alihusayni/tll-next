@@ -65,28 +65,34 @@ export default function TestimonialsPageSection() {
   };
 
   return (
-    <section className="bg-[#091c32] w-full overflow-hidden pb-[48px] md:pb-[64px] lg:pb-[128px] pt-0 px-[16px] md:px-[32px] lg:px-[64px]">
-      <div className="max-w-[1728px] mx-auto flex flex-col items-center gap-[16px] md:gap-[32px]">
+    <section className="bg-[#091c32] pt-8 w-full overflow-hidden pb-12 md:pb-16 lg:pb-32 px-4 md:px-8 lg:px-16">
+      <div className="max-w-[1728px] mx-auto flex flex-col items-center gap-16">
         {/* Text & Rating */}
-        <div className="max-w-[1144px] w-full flex flex-col items-center gap-[32px] pt-[32px]">
-          <RatingBadge />
+        <div className="max-w-[1144px] w-full flex flex-col items-center gap-8 pt-8">
+          <a 
+            href="https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <RatingBadge />
+          </a>
           
           {/* Hero Heading */}
-          <div className="flex flex-col items-center gap-[24px] w-full text-center">
-            <h1 className="font-inter-tight font-semibold text-[62px] leading-[72px] text-[#9199b9] w-full">
+          <div className="flex flex-col items-center gap-6 w-full text-center">
+            <h1 className="font-inter-tight font-semibold text-[2.5rem] lg:text-[3.875rem] leading-[3.25rem] lg:leading-[4.5rem] text-[#9199b9] w-full">
               See how we&apos;ve{' '}
               <span className="text-white">helped others achieve their goals</span>, and what the{' '}
-              <span className="text-[#e8edf2]">T</span>
-              <span className="text-white">uan Le experience is truly like.</span>
+              <span className="text-white">Tuan Le experience is truly like.</span>
             </h1>
           </div>
         </div>
 
         {/* Testimonial Cards - Two Rows with GSAP Animation */}
-        <div className="flex flex-col gap-[16px] w-full">
+        <div className="flex flex-col gap-4 w-full">
           {/* First Row - Scrolls Left */}
           <div className="overflow-visible">
-            <div ref={firstRowRef} className="flex gap-[16px] sm:gap-[16px]" style={{ willChange: 'transform' }}>
+            <div ref={firstRowRef} className="flex gap-4 sm:gap-4" style={{ willChange: 'transform' }}>
               {/* Original cards */}
               {firstRow.map((testimonial, index) => (
                 <TestimonialCardFull 
@@ -110,7 +116,7 @@ export default function TestimonialsPageSection() {
 
           {/* Second Row - Scrolls Right */}
           <div className="overflow-visible">
-            <div ref={secondRowRef} className="flex gap-[16px] sm:gap-[16px]" style={{ willChange: 'transform' }}>
+            <div ref={secondRowRef} className="flex gap-4 sm:gap-4" style={{ willChange: 'transform' }}>
               {/* Original cards */}
               {secondRow.map((testimonial, index) => (
                 <TestimonialCardFull 

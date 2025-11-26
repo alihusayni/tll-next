@@ -78,7 +78,7 @@ export default function RootLayout({
                     strategy="lazyOnload"/>
             <GoogleAnalytics gaId="G-9CL0P20FC0"/>
         </head>
-        <body className={`${interTight.variable} antialiased`}>
+        <body className={`${interTight.variable} ${inter.variable} antialiased`}>
         {children}
         </body>
         </html>

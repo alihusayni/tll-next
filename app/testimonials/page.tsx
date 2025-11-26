@@ -27,12 +27,13 @@ export const metadata: Metadata = {
 
 export default function TestimonialsPage() {
     return (
-        <>
+        <div className="bg-[#091c32]">
+            <Header variant="transparent" />
             <Header variant="sticky" />
             <TestimonialsPageSection/>
             <ContactSection/>
             <SiteFooter/>
-        </>
+        </div>
     );
 }
 
