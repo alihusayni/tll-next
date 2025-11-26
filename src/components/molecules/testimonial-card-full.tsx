@@ -10,24 +10,19 @@ interface TestimonialCardFullProps {
 export default function TestimonialCardFull({testimonial, onMouseEnter, onMouseLeave}: TestimonialCardFullProps) {
     return (
         <div
-            className="bg-[#000b1a] hover:bg-[#00356e] rounded-3xl md:rounded-[2.5rem] p-4 md:p-8 flex flex-col justify-between gap-8 min-w-[460px] max-w-[460px] w-[460px] flex-shrink-0 transition-all duration-500 ease-in-out cursor-pointer group"
+            className="bg-[#000b1a] hover:bg-[#00356e] active:bg-[#00356e] rounded-3xl p-8 flex flex-col gap-8 min-w-[400px] max-w-[460px] w-[400px] sm:w-[460px] flex-shrink-0 transition-all duration-500 ease-in-out cursor-pointer group"
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
         >
             {/* Stars - 5 stars in a row (Solar Icons) */}
             <div className="relative h-5 w-32 flex-shrink-0 flex gap-0">
-                {Array.from({length: 5}).map((_, i) => (
-                    <svg key={i} width="24" height="21" viewBox="0 0 24 24" fill="none"
-                         xmlns="http://www.w3.org/2000/svg" className="w-6 h-5">
-                        <path
-                            d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"
-                            fill="#FFAD31"/>
-                    </svg>
-                ))}
+                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="21" viewBox="0 0 120 21" fill="none">
+                    <path fillRule="evenodd" clipRule="evenodd" d="M12.1734 7.66753L9.52153 0.968213L6.86965 7.66753L0 8.25086L5.22574 12.9716L3.62982 20.0318L9.50952 16.2491L15.3892 20.0318L13.7933 12.9716L19.019 8.25086L12.1494 7.66753H12.1674H12.1734ZM36.3402 7.60138L33.6223 0.733678L30.9045 7.60138L23.8668 8.19674L29.2245 13.0378L27.5926 20.2784L33.6163 16.4055L39.64 20.2784L38.0081 13.0378L43.3658 8.19674L36.3282 7.60138H36.3402ZM61.1009 7.52921L58.3231 0.493127L55.5452 7.52921L48.3456 8.14261L53.8353 13.1039L52.1674 20.5189L58.3411 16.5498L64.5148 20.5189L62.8349 13.1039L68.3246 8.14261L61.1249 7.52921H61.1129H61.1009ZM86.4617 7.45705L83.6178 0.258591L80.774 7.45705L73.3943 8.08849L79.01 13.1701L77.2941 20.7595L83.6178 16.7002L89.9415 20.7595L88.2256 13.1701L93.8413 8.08849L86.4617 7.45705ZM120 8.02234L112.434 7.37886L109.513 0L106.591 7.37886L99.037 8.02234L104.791 13.2242L103.039 21L109.507 16.8385L115.974 21L114.222 13.2242L119.976 8.02234H119.988H120Z" fill="#FFAD31"/>
+                </svg>
             </div>
 
             {/* Testimonial Text */}
-            <p className="font-inter font-normal text-lg leading-7 text-white line-clamp-8">
+            <p className="font-inter font-normal text-lg leading-7 text-white line-clamp-10">
                 {testimonial.quote}
             </p>
 
@@ -57,14 +52,14 @@ export default function TestimonialCardFull({testimonial, onMouseEnter, onMouseL
                     className="w-6 h-6 sm:w-5 sm:h-5 flex items-center justify-center flex-shrink-0 relative overflow-visible">
                     {/* Default: Arrow Right Up (Solar Icon Linear) */}
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                         className="w-6 h-6 sm:w-5 sm:h-5 absolute inset-0 transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)] opacity-100 group-hover:opacity-0 group-hover:rotate-[135deg] group-hover:scale-75">
+                         className="w-6 h-6 sm:w-5 sm:h-5 absolute inset-0 transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)] opacity-100 group-hover:opacity-0 group-hover:rotate-[135deg] group-hover:scale-75 group-active:opacity-0 group-active:rotate-[135deg] group-active:scale-75">
                         <path d="M6 18L18 6M18 6H10M18 6V14" stroke="#969799" strokeWidth="1.5" strokeLinecap="round"
                               strokeLinejoin="round"
                               className="transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)]"/>
                     </svg>
                     {/* Hover: Arrow Right (Solar Icon Linear) */}
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                         className="w-6 h-6 sm:w-5 sm:h-5 absolute inset-0 transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)] opacity-0 group-hover:opacity-100 -rotate-[135deg] group-hover:rotate-0 scale-75 group-hover:scale-100">
+                         className="w-6 h-6 sm:w-5 sm:h-5 absolute inset-0 transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)] opacity-0 group-hover:opacity-100 group-active:opacity-100 -rotate-[135deg] group-hover:rotate-0 scale-75 group-hover:scale-100 group-active:rotate-0 group-active:scale-100">
                         <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="white" strokeWidth="1.5" strokeLinecap="round"
                               strokeLinejoin="round"
                               className="transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)]"/>

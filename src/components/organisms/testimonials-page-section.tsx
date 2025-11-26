@@ -92,7 +92,7 @@ export default function TestimonialsPageSection() {
         <div className="flex flex-col gap-4 w-full">
           {/* First Row - Scrolls Left */}
           <div className="overflow-visible">
-            <div ref={firstRowRef} className="flex gap-4 sm:gap-4" style={{ willChange: 'transform' }}>
+            <div ref={firstRowRef} className="flex gap-4 sm:gap-4 items-start" style={{ willChange: 'transform' }}>
               {/* Original cards */}
               {firstRow.map((testimonial, index) => (
                 <TestimonialCardFull 
@@ -116,7 +116,7 @@ export default function TestimonialsPageSection() {
 
           {/* Second Row - Scrolls Right */}
           <div className="overflow-visible">
-            <div ref={secondRowRef} className="flex gap-4 sm:gap-4" style={{ willChange: 'transform' }}>
+            <div ref={secondRowRef} className="flex gap-4 sm:gap-4 items-start" style={{ willChange: 'transform' }}>
               {/* Original cards */}
               {secondRow.map((testimonial, index) => (
                 <TestimonialCardFull 
