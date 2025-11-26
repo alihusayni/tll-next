@@ -17,14 +17,14 @@ export default function FaqItem({ question, answer, defaultOpen = false }: FaqIt
 
     return (
         <button
-            className="bg-white hover:bg-white/25 rounded-2xl lg:rounded-2xl md:rounded-lg p-4 lg:p-8 w-full text-left transition-all duration-200"
+            className="bg-white hover:bg-white/25 rounded-lg lg:rounded-[1rem] p-4 lg:p-8 w-full text-left transition-all duration-200"
             onClick={toggleOpen}
             aria-expanded={isOpen}
         >
             {/* Question/Title Section */}
             <div className="flex items-center justify-between gap-2 w-full">
                 <h3 
-                    className={`flex-1 text-[22px] leading-8 text-[#071C32] font-inter-tight ${
+                    className={`flex-1 text-base sm:text-[1.375rem] leading-[1.688rem] sm:leading-[2rem] text-[#071C32] font-inter-tight ${
                         isOpen ? 'font-semibold' : 'font-normal'
                     }`}
                 >
@@ -57,7 +57,7 @@ export default function FaqItem({ question, answer, defaultOpen = false }: FaqIt
             {/* Answer Section - Expandable */}
             {isOpen && (
                 <div className="mt-8 lg:mt-8 md:mt-8">
-                    <div className="text-lg leading-[27px] text-[#071C32] font-inter font-medium whitespace-pre-wrap">
+                    <div className="text-sm sm:text-lg leading-[1.25rem] sm:leading-[1.688rem] text-[#071C32] font-inter font-medium whitespace-pre-wrap">
                         {answer.split('\n\n').map((paragraph, index) => (
                             <p key={index} className={index > 0 ? 'mt-4' : ''}>
                                 {paragraph}
