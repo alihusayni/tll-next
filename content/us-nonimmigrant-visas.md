@@ -175,7 +175,7 @@ educational and training needs.
 #### Q-1 Visa
 * For cultural exchange participants sponsored by U.S. employers.
 
-**Need help with your student or exchange visa application? Call our office for expert guidance.**
+Need help with your student or exchange visa application? Call our office for expert guidance.
 
 #### Temporary Work and Training Visas
 

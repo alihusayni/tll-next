@@ -21,20 +21,17 @@ featured: true
 
 ## When it comes to U.S. visas, they are broadly classified into two categories: immigrant visas and nonimmigrant visas. Nonimmigrant visas are temporary and typically granted for purposes such as tourism, education, or short-term work. These visas are perfect for individuals who plan to stay in the U.S. for a limited time to achieve specific goals, such as completing studies or seasonal employment.
 On the other hand, immigrant visas are for those who wish to live in the United States permanently. These visas are the first step toward obtaining a Green Card and, eventually, U.S. citizenship through the naturalization process.
-**
 Choosing the right visa can feel overwhelming due to the variety of options available. This guide will walk you through the different types of U.S. immigrant visas, eligibility requirements, and how to determine the best pathway for your situation.
 
 ### Need Help Navigating the Complex Visa Process?
 If you're looking to apply for an immigrant visa or change your current status, our skilled immigration attorney in Orange, CA, is here to guide you every step of the way. [Call today](tel:+1-714-877-5840) for a free consultation and take the first step toward making your American dream a reality.
 
 #### Overview of U.S. Immigrant Visas: Your Path to Permanent Residency
-**
 If you're ready to make the United States your permanent home, understanding the types of U.S. immigrant visas available is a crucial first step. These visas not only allow you to live and work in the U.S. indefinitely but also serve as the pathway to obtaining a Green Card and eventually applying for U.S. citizenship.
 Below, we've outlined the primary categories of immigrant visas, making it easier for you to identify the right option for your unique situation. Whether your journey is family-based, employment-focused, or tied to other special circumstances, these visa types can help you achieve your goals.
 
 #### Family-Sponsored Immigrant Visas
 
-#### **
 U.S. citizens and lawful permanent residents can sponsor eligible family members for immigrant visas, enabling them to reunite and settle in the United States permanently. These visas are divided into two main groups:
 
 ##### Immediate Relative Visas (IR)
@@ -43,7 +40,6 @@ U.S. citizens and lawful permanent residents can sponsor eligible family members
 * **IR-3/IR-4:** For adopted children of U.S. citizens.
 * **IR-5:** For parents of U.S. citizens who are at least 21 years old.
 
-##### **
 Key Advantage: IR visas are prioritized and have no annual limits, leading to shorter processing times. Green Card eligibility is often immediate upon entry to the U.S.
 
 ##### Family Preference Visas (F)
@@ -53,7 +49,6 @@ Key Advantage: IR visas are prioritized and have no annual limits, leading to sh
 * **F3:** For married children of U.S. citizens.
 * **F4:** For siblings of U.S. citizens aged 21 or older.
 
-#### **
 Key Consideration: Unlike IR visas, family preference visas are subject to annual caps, resulting in longer waiting periods, sometimes spanning several years
 
 ### #
@@ -62,7 +57,6 @@ Need Guidance? Speak to an Expert Immigration Lawyer
 #### Navigating family-sponsored visas can be complicated, especially with differing eligibility criteria and waiting periods. Contact our experienced immigration lawyer in Orange County, CA, for personalized assistance tailored to your circumstances. Schedule your free consultation today!
 
 #### Employment-Based Immigrant Visas: Building Your Career in the U.S.
-**
 For skilled professionals, entrepreneurs, and workers looking to establish their careers in the United States, employment-based immigrant visas (EB visas) provide a pathway to permanent residency. These visas are divided into five categories, each tailored to specific skills, qualifications, or contributions to the U.S. economy.
 
 ##### EB-1 Visa: Extraordinary Ability and Outstanding Achievement
@@ -210,6 +204,6 @@ If your visa application is denied, you may have options to appeal the decision 
 Consulting with an immigration attorney can help you determine the best course of action.
 
 #### **Simplify the Visa Process with Expert Assistance**
-**Applying for a U.S. immigrant visa involves detailed documentation, accurate form submissions, and adherence to strict timelines. Mistakes can lead to significant delays or denials.**
-**At the [Law Office of Tuan Le](#contact-us) in Orange County, CA, we specialize in guiding individuals and families through the visa process. Whether you're applying for the first time, seeking a renewal, or need help with complex cases, we're here to help.**
+Applying for a U.S. immigrant visa involves detailed documentation, accurate form submissions, and adherence to strict timelines. Mistakes can lead to significant delays or denials.
+At the [Law Office of Tuan Le](#contact-us) in Orange County, CA, we specialize in guiding individuals and families through the visa process. Whether you're applying for the first time, seeking a renewal, or need help with complex cases, we're here to help.
 [Call us today](tel:+1-714-877-5840) for a free consultation and take the first step toward securing your U.S. visa.

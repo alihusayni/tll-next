@@ -64,7 +64,7 @@ According to the non-refoulement principle, asylum seekers who are going to face
 
 #### Legal Representation
 Asylum seekers can hire an attorney to assist and represent them throughout the asylum application process. There are even some organizations and private immigration lawyers that offer low-cost or pro bono legal services to them. However, the government is not responsible for providing any legal representation for asylum seekers.
-**Hire an accomplished immigration attorney to guide you in every step of your asylum application process. [Call to schedule an appointment](tel:+1-714-877-5840).**
+Hire an accomplished immigration attorney to guide you in every step of your asylum application process. [Call to schedule an appointment](tel:+1-714-877-5840).
 
 
 
@@ -126,7 +126,7 @@ Obtaining an EAD and finding a job can be tough and time-consuming, particularly
 In addition, their kids usually have a lot of challenges accessing education which is typically caused by their lack of documentation and language abilities.
 Besides all these, in some communities, asylum seekers suffer from discrimination and stigmatization which can make the whole process intolerable for them. Besides, they need to manage the distressing emotions and anxiety due to instability, uncertainty, and fear of deportation.
 Therefore, getting help from support organizations and legal counseling seem necessary for making the situation easier and the processing time shorter.
-**Get help from an immigration lawyer in California to overcome some of these challenges more easily and avoid delays in the application process.**
+Get help from an immigration lawyer in California to overcome some of these challenges more easily and avoid delays in the application process.
 [CALL NOW!](tel:+1-714-877-5840)
 
 #### Support Organizations for Asylum Seekers

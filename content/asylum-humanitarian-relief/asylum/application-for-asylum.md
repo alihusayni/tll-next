@@ -21,7 +21,7 @@ For many years, the United States has been one of the most popular destinations 
 Many asylum seekers prefer to have an immigration lawyer by their side to guide them through the asylum application process and help them understand the US asylum law and asylum seekers rights. This professional help greatly improves their chance of getting approved.
 But, even if you hire an immigration attorney, it is crucial for you to know how the asylum process in the USA works.
 So, we are going to explain every step of the asylum seeker application process, asylum eligibility, the documentation and evidence, the asylum interview and screening process, and more. We will also answer some of your frequently asked questions about the asylum process in the US.
-**Are you seeking asylum in the USA? Consult with an experienced immigration lawyer in Orange, CA for free. [Call to schedule an appointment](tel:+1-714-877-5840) .**
+Are you seeking asylum in the USA? Consult with an experienced immigration lawyer in Orange, CA for free. [Call to schedule an appointment](tel:+1-714-877-5840) .
 
 ## Breaking Down the Application for Asylum Process
 
@@ -44,7 +44,7 @@ After the initiation, some asylum seekers have to establish a credible fear of p
 #### Step 2: Filing the Application for Asylum with the USCIS
 Asylum seekers must file [Form I-589](https://www.uscis.gov/sites/default/files/document/forms/i-589.pdf) , Application for Asylum and for Withholding of Removal, with the USCIS, within 1 year of their arrival.
 
-#### Asylum Eligibility Requirements: Who Qualifies for Asylum in the United States?
+#### Who Qualifies for Asylum in the United States?
 Individuals who can prove they cannot go back to their home country because of fear of persecution due to their:
 * religious beliefs,
 * political inclinations,
@@ -90,7 +90,7 @@ In a few cases, if the BIA also denies the application, the applicant can reques
 If the case is denied and the decision is final, the applicant:
 * must leave the country voluntarily within a specified period,
 * or is deported/removed by the authorities.
-**Let us represent you in the immigration court to make sure the evidence and testimonies are compelling enough.**
+Let us represent you in the immigration court to make sure the evidence and testimonies are compelling enough.
 
  [Call to discuss your case more](tel:+1-714-877-5840)
 
@@ -100,7 +100,7 @@ If the case is denied and the decision is final, the applicant:
 
 As the legal framework is complicated, there are so many questions and worries regarding the application for asylum process. We have asked our immigration lawyer to answer some of the most common questions briefly.
 
-#### What Is the Main Difference Between Refugees and Asylum Seekers?
+#### Difference Between Refugees and Asylum Seekers
 The main difference between asylum seekers and refugees is that refugees have permission to enter the country but asylum seekers do not.
 Therefore, refugees can enter legally because permission has already been granted to them, usually due to war, violence, or persecution in their home country.
 However, asylum seekers have to apply for asylum upon their arrival or while they are in the US, even if they have entered the country illegally. If their asylum application is approved, they will receive refugee status.
@@ -108,7 +108,7 @@ However, asylum seekers have to apply for asylum upon their arrival or while the
 #### Is Seeking Asylum Legal in the United States?
 Yes. According to international asylum law, any individual has the right to seek asylum in a foreign country.
 
-#### How Long Does the Asylum Application Take to Be Processed?
+#### Asylum Application Processing Time
 The processing time for asylum applications in the US can take up to 180 days after the submission of the application form. However, it can take longer for some cases, particularly those who need to appeal or are referred to the immigration court.
 
 #### What Are the Costs of the Application for Asylum in the US?
@@ -122,7 +122,7 @@ Each country has its own domestic asylum law based on which the asylum seekers r
 * request legal permission to work by applying for an Employment Authorization Document (EAD)
 * and access medical and social services, such as training courses, which can be different in each state.
 
-#### What benefits Do Asylum Seekers Get in the USA?
+#### Benefits for Asylum Seekers in the USA
 Asylum seekers can benefit from:
 * a work permission (an EAD) ,
 * Refugee Cash Assistance (RCA) , which is available to some qualified applicants,
@@ -131,13 +131,13 @@ Asylum seekers can benefit from:
 * low-cost housing services.
 These benefits can be different in each state. Also, most of them are provided by NGOs for asylum seekers.
 
-#### What Is the Difference Between Refugee and Migrant?
+#### Difference Between Refugee and Migrant
 There are a few main differences between refugees and immigrants.
 * Refugees have to flee their country, and they are granted legal permission to enter a foreign country for safety and protection. Migrants choose to live in another country for various reasons, such as economic opportunities, joining family members, etc.
 * Refugees are usually eligible for legal protection and certain benefits, such as education and medical services. However, immigrants are not legally protected and do not have access to free or low-cost services.
 * Immigrants enter with different types of visas that define their legal rights, such as education or employment.
 
-#### Can You Include Your Spouse and Children in Your Own Asylum Application Form or Do They Have to File Their Own Applications?
+#### Including Family in Asylum Application
 Applicants can include their spouse and children (under 21)  in their asylum application form. However, it is possible for them to file a separate application if they are eligible for asylum.
 
 #### Can You Apply for Asylum in the U.S. from Outside?
@@ -146,7 +146,7 @@ No. The individual must be physically present in the US when applying for asylum
 #### Can Refugees Become US Citizens?
 Yes. After residing in the United States for a certain period of time and meeting some other requirements, refugees can obtain their green card or permanent residency. Then, after a period of time, they can obtain their US citizenship through the naturalization process.
 For more information see  [Paths to Become a US Citizen](https://www.tuanlelaw.com/become-u-s-citizen-explained-citizenship-lawyer/)  and  [A Guide to Naturalization Process](https://www.tuanlelaw.com/guide-naturalization-process-filing-form-n-400-and-other-steps/) .
-**The Law Office of Tuan Le offers a 30-minute free legal consultation to asylum seekers in the United States.**
+The Law Office of Tuan Le offers a 30-minute free legal consultation to asylum seekers in the United States.
 [Call for more information.](tel:+1-714-877-5840)
 
 #### Hire Our Accomplished Asylum Lawyer in Orange, CA
