@@ -68,7 +68,7 @@ Although green card holders can live and work in the US on a long-term basis, th
 On the other hand, a US citizen isn't considered an immigrant from another country. US citizenship gives you all the rights of a native American, such as voting in elections, getting a US passport, etc. So, you'll never have to worry about losing your status.
 ![Illustration of US citizenship benefits and rights](https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new/common-immigration-questions2.webp)
 
-#### 7. How Can I Fix My Immigration Status If I'm Undocumented or Overstayed My Visa?
+#### Fixing Undocumented or Overstayed Visa Status
 The options you have, depend on your situation. Some common options include:
 * adjustment of status,
 * applying for a waiver,

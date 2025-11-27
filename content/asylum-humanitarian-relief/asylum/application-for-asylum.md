@@ -44,7 +44,7 @@ After the initiation, some asylum seekers have to establish a credible fear of p
 #### Step 2: Filing the Application for Asylum with the USCIS
 Asylum seekers must file [Form I-589](https://www.uscis.gov/sites/default/files/document/forms/i-589.pdf) , Application for Asylum and for Withholding of Removal, with the USCIS, within 1 year of their arrival.
 
-#### Asylum Eligibility Requirements: Who Qualifies for Asylum in the United States?
+#### Who Qualifies for Asylum in the United States?
 Individuals who can prove they cannot go back to their home country because of fear of persecution due to their:
 * religious beliefs,
 * political inclinations,
@@ -100,7 +100,7 @@ Let us represent you in the immigration court to make sure the evidence and test
 
 As the legal framework is complicated, there are so many questions and worries regarding the application for asylum process. We have asked our immigration lawyer to answer some of the most common questions briefly.
 
-#### What Is the Main Difference Between Refugees and Asylum Seekers?
+#### Difference Between Refugees and Asylum Seekers
 The main difference between asylum seekers and refugees is that refugees have permission to enter the country but asylum seekers do not.
 Therefore, refugees can enter legally because permission has already been granted to them, usually due to war, violence, or persecution in their home country.
 However, asylum seekers have to apply for asylum upon their arrival or while they are in the US, even if they have entered the country illegally. If their asylum application is approved, they will receive refugee status.
@@ -108,7 +108,7 @@ However, asylum seekers have to apply for asylum upon their arrival or while the
 #### Is Seeking Asylum Legal in the United States?
 Yes. According to international asylum law, any individual has the right to seek asylum in a foreign country.
 
-#### How Long Does the Asylum Application Take to Be Processed?
+#### Asylum Application Processing Time
 The processing time for asylum applications in the US can take up to 180 days after the submission of the application form. However, it can take longer for some cases, particularly those who need to appeal or are referred to the immigration court.
 
 #### What Are the Costs of the Application for Asylum in the US?
@@ -122,7 +122,7 @@ Each country has its own domestic asylum law based on which the asylum seekers r
 * request legal permission to work by applying for an Employment Authorization Document (EAD)
 * and access medical and social services, such as training courses, which can be different in each state.
 
-#### What benefits Do Asylum Seekers Get in the USA?
+#### Benefits for Asylum Seekers in the USA
 Asylum seekers can benefit from:
 * a work permission (an EAD) ,
 * Refugee Cash Assistance (RCA) , which is available to some qualified applicants,
@@ -131,13 +131,13 @@ Asylum seekers can benefit from:
 * low-cost housing services.
 These benefits can be different in each state. Also, most of them are provided by NGOs for asylum seekers.
 
-#### What Is the Difference Between Refugee and Migrant?
+#### Difference Between Refugee and Migrant
 There are a few main differences between refugees and immigrants.
 * Refugees have to flee their country, and they are granted legal permission to enter a foreign country for safety and protection. Migrants choose to live in another country for various reasons, such as economic opportunities, joining family members, etc.
 * Refugees are usually eligible for legal protection and certain benefits, such as education and medical services. However, immigrants are not legally protected and do not have access to free or low-cost services.
 * Immigrants enter with different types of visas that define their legal rights, such as education or employment.
 
-#### Can You Include Your Spouse and Children in Your Own Asylum Application Form or Do They Have to File Their Own Applications?
+#### Including Family in Asylum Application
 Applicants can include their spouse and children (under 21)  in their asylum application form. However, it is possible for them to file a separate application if they are eligible for asylum.
 
 #### Can You Apply for Asylum in the U.S. from Outside?
