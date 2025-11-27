@@ -449,7 +449,7 @@ can address these concerns effectively.**
 
 #### **3. How can parents with limited English proficiency navigate the legal system?**
 
-**Parents can:**
+Parents can:
 
 * **Work with bilingual attorneys.**
 * **Request certified interpreters for legal meetings and court appearances.**

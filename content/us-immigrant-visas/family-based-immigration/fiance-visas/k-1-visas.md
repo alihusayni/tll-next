@@ -245,7 +245,7 @@ For additional resources and answers to frequently asked questions about the K-1
 
 The K-1 visa process may seem complex, but with the right guidance, it can transform into a smooth and rewarding journey. At Tuan Le Law Office in Orange, California, were dedicated to helping you navigate every step of this process with confidence. Our experienced immigration attorney provides personalized support, ensuring that legal paperwork and intricate procedures Don't stand in the way of your love story.
 Don't let the complexities of the K-1 visa process deter your dream of starting a life together in the United States. From gathering the necessary documents to preparing for the all-important interview, were here to simplify the process, minimizing stress and maximizing your chances of approval.
-**Start Your K-1 Visa Journey Today!**
+Start Your K-1 Visa Journey Today!
 Ready to bring your fiancé(e) to the U.S. and make your love story official? Call Tuan Le Law Office in Orange, California, at [phone number] to schedule a consultation. Our immigration lawyer specializes in K-1 visas and will provide expert guidance tailored to your unique situation.
-**Don't Wait - Your Future Together Starts Now!**
+Don't Wait - Your Future Together Starts Now!
 By choosing Tuan Le Law Office, you're not just hiring an immigration lawyer - you're gaining a dedicated partner in making your love story a reality. Let us help you overcome legal hurdles, avoid delays, and reunite with your loved one sooner. Contact us today to begin your K-1 visa process with confidence.

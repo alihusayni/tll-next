@@ -18,7 +18,7 @@ modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "9 min read"
 ---
 
-**B-1 Visa Permitted Activities: Understanding the Restrictions**
+B-1 Visa Permitted Activities: Understanding the Restrictions
 Imagine a foreign entrepreneur visiting the United States on a B-1 visa to explore potential business opportunities.
 During their trip, they receive an unexpected offer to invest in a local startup. While this might seem like a promising
 opportunity, accepting the investment would violate the terms of their B-1 visa. The entrepreneur faces a difficult

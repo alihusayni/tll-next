@@ -74,7 +74,6 @@ Different types of immigration matters including:
 If you already have orders of removal out of the United States or they refuse to give US immigration visas to you, our immigration attorney can provide expert advice, handle your case, and also offer the best solutions. Since the domain of immigration matters is a complex one with the rules and regulations constantly changing, the attorney you choose matters. That is exactly why you should always seek legal assistance from an attorney who has the experience, skills, and competence.
 
 #### You Can Always Rely on Our Immigration Law Experience and Hard Work
-**
 ![A man signing a paper](https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/Immigration-Attorney-CA.webp)
 At the Law Office of Tuan Le, we give each of our clients personalized attention. Our immigration attorney makes sure that the clients stay updated on what we are working on and how we plan to achieve the desired results. We have also helped plenty of clients get the best solutions for their varying immigration matters. Whether you are looking to obtain your US citizenship through naturalization, green card, VAWA status, U Visa, hardship waivers, or EB1 extraordinary ability green cards, our office will help you professionally deal with all of these.
 Our immigration attorney has represented a wide variety of immigration matters for individuals and won removal proceedings. Through our immigration law experience, commitment to each case, and our resilience, we have also helped numerous clients legally stay in the United States.

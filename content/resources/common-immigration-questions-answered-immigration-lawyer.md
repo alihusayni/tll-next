@@ -19,7 +19,7 @@ readTime: "26 minutes"
 featured: true
 ---
 Every day, at our law office in Orange, CA, we receive many questions about different aspects of US immigration law and policy, which isn't surprising given the complexity of the immigration process in the USA and the ever-changing nature of the policies here. So, our experienced immigration attorney is answering some of the most common immigration questions in simple words in this article to help you make better sense of the legal process.
-**Whether you're seeking a US visa, green card, or citizenship, the Law Office of Tuan Le in Orange, CA, is here to help you take confident steps forward.**
+Whether you're seeking a US visa, green card, or citizenship, the Law Office of Tuan Le in Orange, CA, is here to help you take confident steps forward.
 Get started with a [free consultation](tel:+1-714-877-5840) today!**
 
 ## 12 US Common Immigration Questions Answered
@@ -66,7 +66,7 @@ Although green card holders can live and work in the US on a long-term basis, th
 * Losing their status if committing certain crimes,
 * Not allowed to stay outside the US for too long, or they'll lose their status.
 On the other hand, a US citizen isn't considered an immigrant from another country. US citizenship gives you all the rights of a native American, such as voting in elections, getting a US passport, etc. So, you'll never have to worry about losing your status.
-**![Illustration of US citizenship benefits and rights](https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new/common-immigration-questions2.webp)**
+![Illustration of US citizenship benefits and rights](https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new/common-immigration-questions2.webp)
 
 #### 7. How Can I Fix My Immigration Status If I'm Undocumented or Overstayed My Visa?
 The options you have, depend on your situation. Some common options include:

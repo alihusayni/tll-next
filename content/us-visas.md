@@ -121,7 +121,7 @@ the [EB5 visa](https://www.uscis.gov/working-in-the-united-states/permanent-work
 program that allows investors to become lawful permanent residents. These lawyers not only assist with the green card
 application but also offer guidance on maintaining compliance with the US immigration office protocols. Their expertise
 is invaluable, especially when the stakes are high and the dream of living in the USA hangs in the balance.
-**Immigration Lawyers US Citizenship Application Guide**
+Immigration Lawyers US Citizenship Application Guide
 A skilled immigration lawyer can significantly influence the outcome of the complex US citizenship process. These legal
 professionals provide comprehensive support, from helping clients understand the nuances of
 the [B1 visa USA](https://www.uscis.gov/working-in-the-united-states/temporary-visitors-for-business/b-1-temporary-business-visitor)
@@ -191,7 +191,7 @@ with [EB-2 and EB-3 visas](https://www.immi-usa.com/eb-2-vs-eb-3/), enriching th
 Immigration lawyers play a crucial role in
 the [DV lottery process](https://travel.state.gov/content/travel/en/us-visas/immigrate/diversity-visa-program-entry/diversity-visa-submit-entry1.html?wcmmode=disabled),
 enhancing the chances of securing a coveted U.S. green card.
-**Immigration Lawyer for Complex Case Advocacy**
+Immigration Lawyer for Complex Case Advocacy
 In the legal labyrinth of U.S. immigration, criminal and immigration lawyers also stand out as navigators for those
 caught in the crosshairs of complex cases. They zero in on the legal tangles, especially when United States Immigration
 and Customs Enforcement (ICE) steps into the picture. These legal eagles swoop in to bolster the spirIt's of those
@@ -199,7 +199,7 @@ chasing political asylum, shielding their rights and ensuring their stories are 
 wealth of knowledge in both criminal and immigration statutes, these attorneys are the unsung heroes for many, lighting
 the way to a new life in the U.S. with unwavering commitment.
 
-**Facilitating Family and Marriage Immigration with the Aid of an Immigration Lawyer**
+Facilitating Family and Marriage Immigration with the Aid of an Immigration Lawyer
 Marriage visa attorneys, renowned as some of the best immigration attorneys, deftly navigate the complexities of uniting
 couples across borders. Furthermore, they streamline the paperwork for American tourist visas and B2 visas and provide
 compassionate guidance for families seeking to apply for American citizenship. Additionally, these legal experts offer a

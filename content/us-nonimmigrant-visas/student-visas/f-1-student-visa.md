@@ -119,7 +119,7 @@ Documents you must have with you, otherwise, your application will get rejected.
 * A recent passport-style photograph,
 * Your valid current passport and all the previous ones,
 * Your visa payment fee receipt.
-  **Supporting documents needed include**
+  Supporting documents needed include
 * Proof of family, social, and financial ties that attest you intend to leave the U.S. after your education ends,
 * Proof of financial sufficiency (Note that any photocopies of bank statements you present must be supported with their
   original copies.),

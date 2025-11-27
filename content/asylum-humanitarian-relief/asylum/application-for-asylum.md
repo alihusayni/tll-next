@@ -21,7 +21,7 @@ For many years, the United States has been one of the most popular destinations 
 Many asylum seekers prefer to have an immigration lawyer by their side to guide them through the asylum application process and help them understand the US asylum law and asylum seekers rights. This professional help greatly improves their chance of getting approved.
 But, even if you hire an immigration attorney, it is crucial for you to know how the asylum process in the USA works.
 So, we are going to explain every step of the asylum seeker application process, asylum eligibility, the documentation and evidence, the asylum interview and screening process, and more. We will also answer some of your frequently asked questions about the asylum process in the US.
-**Are you seeking asylum in the USA? Consult with an experienced immigration lawyer in Orange, CA for free. [Call to schedule an appointment](tel:+1-714-877-5840) .**
+Are you seeking asylum in the USA? Consult with an experienced immigration lawyer in Orange, CA for free. [Call to schedule an appointment](tel:+1-714-877-5840) .
 
 ## Breaking Down the Application for Asylum Process
 
@@ -90,7 +90,7 @@ In a few cases, if the BIA also denies the application, the applicant can reques
 If the case is denied and the decision is final, the applicant:
 * must leave the country voluntarily within a specified period,
 * or is deported/removed by the authorities.
-**Let us represent you in the immigration court to make sure the evidence and testimonies are compelling enough.**
+Let us represent you in the immigration court to make sure the evidence and testimonies are compelling enough.
 
  [Call to discuss your case more](tel:+1-714-877-5840)
 
@@ -146,7 +146,7 @@ No. The individual must be physically present in the US when applying for asylum
 #### Can Refugees Become US Citizens?
 Yes. After residing in the United States for a certain period of time and meeting some other requirements, refugees can obtain their green card or permanent residency. Then, after a period of time, they can obtain their US citizenship through the naturalization process.
 For more information see  [Paths to Become a US Citizen](https://www.tuanlelaw.com/become-u-s-citizen-explained-citizenship-lawyer/)  and  [A Guide to Naturalization Process](https://www.tuanlelaw.com/guide-naturalization-process-filing-form-n-400-and-other-steps/) .
-**The Law Office of Tuan Le offers a 30-minute free legal consultation to asylum seekers in the United States.**
+The Law Office of Tuan Le offers a 30-minute free legal consultation to asylum seekers in the United States.
 [Call for more information.](tel:+1-714-877-5840)
 
 #### Hire Our Accomplished Asylum Lawyer in Orange, CA
