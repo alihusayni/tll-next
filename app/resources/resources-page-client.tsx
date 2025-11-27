@@ -112,7 +112,7 @@ export default function ResourcesPageClient({
         {/* Title & Description */}
         <div className="flex flex-col gap-8 items-start px-0 py-8 w-full">
           <p className="font-inter-tight font-semibold text-[3.25rem] lg:text-[5.75rem] leading-tight md:leading-[3.75rem] lg:leading-[4.5rem] tracking-[-0.115rem] text-[#071C32] max-w-[31rem]">
-            Blog
+            Resources
           </p>
           <p className="font-inter-tight font-medium text-xl lg:text-2xl leading-[1.75rem] text-[#747D85] w-full">
             News and insights on all things related to law by Tuan le
@@ -124,6 +124,7 @@ export default function ResourcesPageClient({
           categories={categories}
           activeCategory={activeCategory}
           onCategoryChange={handleCategoryChange}
+          infinityBorder={true}
         />
 
         {/* Featured Articles */}

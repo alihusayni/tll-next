@@ -83,13 +83,16 @@ export default function CategoryPageClient({
             activeCategory={categorySlug}
             onCategoryChange={handleCategoryChange}
             infinityBorder={true}
+            showBorder={paginatedArticles.length === 0}
           />
         </div>
       </section>
 
       {/* Articles Section - Background extends to infinity */}
       {paginatedArticles.length > 0 && (
-        <section id="articles-section" className="bg-[#E1E6EB] pb-8 lg:py-8 px-4 sm:px-8 lg:px-16 2xl:px-0 m-0">
+        <section id="articles-section" className="bg-[#E1E6EB] pb-8 lg:py-8 px-4 sm:px-8 lg:px-16 2xl:px-0 m-0 relative">
+          {/* Border extending to infinity */}
+          <div className="absolute left-1/2 right-1/2 top-0 h-px bg-[#D2D5D9] -ml-[50vw] -mr-[50vw] z-0"></div>
           <div className="max-w-[86.5rem] mx-auto">
             {/* Articles Grid - Responsive: 1 col mobile, 2 cols tablet, 3 cols desktop */}
             <div className="flex flex-col pt-4 sm:pt-8 gap-10">

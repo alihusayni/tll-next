@@ -13,6 +13,7 @@ interface BlogCategoryFilterProps {
   onCategoryChange: (categoryId: string) => void;
   className?: string;
   infinityBorder?: boolean;
+  showBorder?: boolean;
 }
 
 export default function BlogCategoryFilter({
@@ -20,7 +21,8 @@ export default function BlogCategoryFilter({
   activeCategory,
   onCategoryChange,
   className = '',
-  infinityBorder = false
+  infinityBorder = false,
+  showBorder = true
 }: BlogCategoryFilterProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
@@ -100,12 +102,12 @@ export default function BlogCategoryFilter({
   };
 
   return (
-    <div className={`relative flex items-center w-full ${className}`}>
+    <div className={`relative flex items-center w-full overflow-x-hidden ${className}`}>
       {/* Border extending to infinity - only when enabled */}
-      {infinityBorder && (
+      {showBorder && infinityBorder && (
         <div className="absolute left-1/2 right-1/2 bottom-0 h-px bg-[#D2D5D9] -ml-[50vw] -mr-[50vw] z-0"></div>
       )}
-      {!infinityBorder && (
+      {showBorder && !infinityBorder && (
         <div className="absolute left-0 right-0 bottom-0 h-px bg-[#D2D5D9] z-0"></div>
       )}
       {/* Left Navigation Button */}
@@ -162,7 +164,7 @@ export default function BlogCategoryFilter({
       </div>
 
       {/* Right Navigation Button */}
-      <div className={`absolute right-0 z-10 flex items-center h-full pl-0 pr-0 bg-gradient-to-l from-[#E8EDF2] via-[#E8EDF2] to-transparent transition-opacity duration-300 ${canScrollRight ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
+      <div className={`absolute right-0 z-10 flex items-center h-9/12 pl-0 pr-0 bg-gradient-to-l from-[#E8EDF2] via-[#E8EDF2] to-transparent transition-opacity duration-300 ${canScrollRight ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
         <button
           onClick={scrollRight}
           aria-label="Scroll right"

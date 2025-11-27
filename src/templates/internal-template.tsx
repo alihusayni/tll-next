@@ -86,7 +86,7 @@ export default function InternalTemplate({content, slug, categories, relatedArti
             
             {/* Related Articles Section */}
             {relatedArticles.length > 0 && (
-                <div className="bg-[#E8EDF2] box-border flex flex-col items-center pb-16 pt-16 px-4 md:px-8 lg:px-16 w-full">
+                <div className="bg-[#E8EDF2] border-t border-[#E1E3E5] flex flex-col items-center pb-16 pt-16 px-4 md:px-8 lg:px-16 w-full">
                     <div className="box-border flex flex-col gap-8 items-start pb-8 pt-0 px-0 w-full max-w-[86.5rem]">
                         <div className="flex flex-col gap-8 items-start max-w-[1728px] overflow-hidden w-full">
                             {/* Related Articles Title */}

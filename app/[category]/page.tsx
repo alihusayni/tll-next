@@ -148,9 +148,6 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   
   return (
     <>
-      <div className="bg-[#E8EDF2]">
-
-      </div>
       <CategoryPageClient
         categoryLabel={categoryLabel}
         categoryContent={categoryContent}

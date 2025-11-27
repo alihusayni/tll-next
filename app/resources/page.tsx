@@ -111,9 +111,13 @@ export default function ResourcesPage() {
   });
 
   return (
-    <div className="bg-[#E8EDF2]">
-      <Header variant="light" />
-      <Header variant="sticky" />
+    <>
+      <div className="bg-[#E8EDF2]">
+
+      </div>
+      <div className="bg-[#E8EDF2]">
+        <Header variant="light" />
+        <Header variant="sticky" />
       
       <Suspense fallback={<div>Loading...</div>}>
         <ResourcesPageClient
@@ -121,8 +125,9 @@ export default function ResourcesPage() {
           allArticles={transformedAllArticles}
           categories={categories}
         />
-      </Suspense>
-    </div>
+        </Suspense>
+      </div>
+    </>
   );
 }
 
