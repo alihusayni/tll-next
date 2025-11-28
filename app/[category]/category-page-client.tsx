@@ -4,14 +4,11 @@ import { useState } from 'react';
 import BlogCategoryCard from '@/components/molecules/blog-category-card';
 import BlogCategoryFilter from '@/components/molecules/blog-category-filter';
 import Pagination from '@/components/atoms/pagination';
-import TableOfContents from '@/components/molecules/table-of-contents';
-import BackToTopButton from '@/components/atoms/back-to-top-button';
 import ContactSection from '@/components/organisms/contact-section';
 import SiteFooter from '@/components/organisms/site-footer';
 import Header from '@/components/organisms/header';
 import MarkdownRenderer from '@/lib/markdown-renderer';
 import { Content } from '@/types/content';
-import ArticleHero from '@/components/organisms/article-hero';
 import ArticleBody from '@/components/organisms/article-body';
 
 interface Article {
@@ -140,7 +137,7 @@ export default function CategoryPageClient({
           <section className="bg-[#E8EDF2] py-8 px-4 md:px-8 lg:px-16 2xl:px-0 m-0">
             <div className="max-w-[86.5rem] mx-auto">
               <div className="py-4 md:py-8">
-                <h1 className="font-inter-tight font-semibold text-[2.25rem] md:text-[3.75rem] lg:text-[5.75rem] leading-tight md:leading-[3.75rem] lg:leading-[4.5rem] tracking-[-0.02em] text-[#071C32]">
+                <h1 className="font-inter-tight font-semibold text-[2.25rem] md:text-[3.75rem] lg:text-[5.75rem] leading-tight md:leading-[3.75rem] lg:leading-[6.125rem] tracking-[-0.02em] text-[#071C32]">
                   {categoryContent.meta.h1 || categoryContent.meta.title || categoryLabel}
                 </h1>
               </div>

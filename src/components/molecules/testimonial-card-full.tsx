@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import type {Testimonial} from '@/data/testimonials';
 
 interface TestimonialCardFullProps {
@@ -10,7 +9,7 @@ interface TestimonialCardFullProps {
 export default function TestimonialCardFull({testimonial, onMouseEnter, onMouseLeave}: TestimonialCardFullProps) {
     return (
         <div
-            className="bg-[#000b1a] hover:bg-[#00356e] active:bg-[#00356e] rounded-[1.5rem] p-8 flex flex-col gap-8 min-w-[25rem] max-w-[28.75rem] w-[25rem] sm:w-[28.75rem] flex-shrink-0 transition-all duration-500 ease-in-out cursor-pointer group"
+            className="bg-[#000b1a] hover:bg-[#00356e] active:bg-[#00356e] rounded-[1.5rem] p-8 flex flex-col gap-8 min-w-[25rem] max-w-[28.75rem] w-[25rem] sm:w-[28.75rem] flex-shrink-0 transition-all duration-500 ease-in-out cursor-grab group"
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
         >

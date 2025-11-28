@@ -37,7 +37,7 @@ export default function NavLink({href, children, isActive = false, hasDropdown =
         }
     };
 
-    const underlineClasses = showUnderline ? 'before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:bg-current before:transition-all before:duration-300 hover:before:w-full' : '';
+    const underlineClasses = showUnderline ? 'before:absolute before:bottom-0 before:left-0 before:w-0 before:h-px before:bg-current before:transition-all before:duration-300 hover:before:w-full' : '';
     const textSizeClass = textSize === 'base' ? 'text-base leading-6' : 'text-lg leading-[1.375rem]';
     const linkClassName = `relative font-inter-tight font-medium ${textSizeClass} whitespace-nowrap ${customTextColor || 'text-white'} ${underlineClasses} ${isActive ? '!text-[#FF7031]' : ''} ${className} ${hasDropdown ? 'flex items-center gap-2' : ''}`;
 

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import LinkButton from '../atoms/link-button';
+import { useState } from 'react';
 
 interface ArticleCardProps {
   title: string;
@@ -9,6 +10,7 @@ interface ArticleCardProps {
 }
 
 export default function ArticleCard({ title, description, image, link }: ArticleCardProps) {
+  const [img_src, set_img_src] = useState(image);
   return (
     <div 
       onClick={() => window.location.href = link}
@@ -16,10 +18,11 @@ export default function ArticleCard({ title, description, image, link }: Article
     >
       <div className="relative w-full h-[17.5rem] sm:h-[20.75rem] rounded-[1rem] overflow-hidden">
         <Image
-          src={image}
+          src={img_src}
           alt=""
           fill
           className="object-cover"
+          onError={() => set_img_src("/assets/logo/place-holder.png")}
         />
         <div className="absolute inset-0 bg-[rgba(32,69,134,0.3)] rounded-[1rem]" />
       </div>

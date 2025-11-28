@@ -47,7 +47,6 @@ export default function SiteFooter({className = ''}: SiteFooterProps) {
                 <hr className="border-[#E1E6EB] mb-8"/>
                 <CopyrightBar
                     copyrightText="Copyright © 2025 Law Office of Tuan Le All Rights Reserved"
-                    designCreditText="Designed and Optimized by TopOrganicLeads."
                 />
             </div>
         </footer>

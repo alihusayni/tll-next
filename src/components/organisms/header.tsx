@@ -56,10 +56,14 @@ export default function Header({
 
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      if (currentScrollY > lastScrollY.current + 10) {
-        setShow(true);
-      } else if (currentScrollY < lastScrollY.current - 10 && !isNavigating) {
+      if (currentScrollY < 50) {
         setShow(false);
+      } else {
+        if (currentScrollY > lastScrollY.current + 10) {
+          setShow(false);
+        } else if (currentScrollY < lastScrollY.current - 10 && !isNavigating) {
+          setShow(true);
+        }
       }
       lastScrollY.current = currentScrollY;
     };

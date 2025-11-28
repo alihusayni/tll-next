@@ -1,8 +1,5 @@
 import Image from 'next/image';
-import Logo from '../atoms/logo';
-import UiButton from '../atoms/ui-button';
 import Breadcrumb from '../atoms/breadcrumb';
-import ArticleMeta from '../molecules/article-meta';
 import { slugify } from '@/utils/slugify';
 
 // Small blurred placeholder data URI (10x10px blurred version)

@@ -1,6 +1,4 @@
 import TableOfContents from '../molecules/table-of-contents';
-import CtaBox from './cta-box';
-import QuoteBox from '../molecules/quote-box';
 import BackToTopButton from '../atoms/back-to-top-button';
 import { ReactNode } from 'react';
 import { Heading } from '@/types/content';

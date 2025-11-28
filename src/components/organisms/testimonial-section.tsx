@@ -1,6 +1,6 @@
 'use client';
 
-import React, {useState, useRef, useEffect} from 'react';
+import React, {useState, useRef} from 'react';
 import { gsap } from "gsap";
 import TestimonialCard from '../molecules/testimonial-card';
 

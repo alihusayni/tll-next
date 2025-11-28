@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState, useEffect } from 'react';
 
 interface BlogArticleListItemProps {
   title: string;
@@ -22,6 +23,13 @@ export default function BlogArticleListItem({
   link,
   className = ''
 }: BlogArticleListItemProps) {
+  const [img_src, set_img_src] = useState(image);
+
+  // Update image source when image prop changes
+  useEffect(() => {
+    set_img_src(image);
+  }, [image]);
+
   return (
     <Link
       href={link}
@@ -30,11 +38,12 @@ export default function BlogArticleListItem({
       {/* Image */}
       <div className="flex items-start h-[13.75rem] w-full sm:w-[20.75rem] lg:w-full max-w-[25.5rem] min-w-[20.75rem] overflow-hidden relative rounded-lg">
         <Image
-          src={image}
+          src={img_src}
           alt={title}
           fill
           className="object-cover rounded-lg"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 408px, 408px"
+          onError={() => set_img_src("/assets/logo/place-holder.png")}
         />
       </div>
 

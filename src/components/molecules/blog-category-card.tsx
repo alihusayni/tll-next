@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 
 interface BlogCategoryCardProps {
   title: string;
@@ -18,6 +19,8 @@ export default function BlogCategoryCard({
   link,
   className = ''
 }: BlogCategoryCardProps) {
+  const [img_src, set_img_src] = useState(image);
+
   return (
     <Link
       href={link}
@@ -26,17 +29,18 @@ export default function BlogCategoryCard({
       {/* Image - 90x90px */}
       <div className="relative w-[5.625rem] h-[5.625rem] rounded-[0.5rem] overflow-hidden flex-shrink-0">
         <Image
-          src={image}
+          src={img_src}
           alt={title}
           fill
           className="object-cover"
+          onError={() => set_img_src("/assets/logo/place-holder.png")}
         />
       </div>
 
       {/* Content */}
       <article className="flex flex-col gap-2 flex-1 min-w-0">
         {/* Title */}
-        <h2 className="font-inter-tight font-semibold text-[1.125rem] leading-[1.56] tracking-[-0.02em] text-[#49535D] line-clamp-2 overflow-hidden text-ellipsis group-hover:text-hover group-active:text-hover">
+        <h2 className="font-inter-tight font-semibold text-lg leading-7 tracking-[-0.023rem] text-[#49535D] line-clamp-2 overflow-hidden text-ellipsis group-hover:text-hover group-active:text-hover">
           {title}
         </h2>
 

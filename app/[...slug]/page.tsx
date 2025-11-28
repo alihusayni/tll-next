@@ -1,6 +1,6 @@
 import { notFound, redirect } from 'next/navigation';
 import InternalTemplate from '@/templates/internal-template';
-import { getContentBySlug, generateStaticParams as generateContentPaths, getContentCategories, getRelatedArticles, isValidCategory } from '@/lib/content';
+import { getContentBySlug, generateStaticParams as generateContentPaths, getRelatedArticles, isValidCategory } from '@/lib/content';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 
@@ -165,7 +165,7 @@ export default async function ArticlePage({ params }: PageProps) {
       >
         {JSON.stringify(articleSchema)}
       </Script>
-      <InternalTemplate content={content} slug={slugPath} categories={getContentCategories()} relatedArticles={relatedArticles} />
+      <InternalTemplate content={content} slug={slugPath} relatedArticles={relatedArticles} />
     </>
   );
 }

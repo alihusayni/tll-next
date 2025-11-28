@@ -185,14 +185,16 @@ export default function ContactForm() {
         className="group self-start bg-transparent border-2 border-[#071C32] text-[#071C32] whitespace-nowrap font-inter-tight font-semibold text-sm sm:text-lg uppercase rounded-md hover:bg-[#FF7031] active:bg-[#FF7031] hover:border-[#FF7031] active:border-[#FF7031] hover:text-white active:text-white transition-all w-full sm:w-[23.563rem] h-[3.25rem] hover:sm:w-[24.5rem] active:sm:w-[24.5rem] flex items-center justify-between px-6 disabled:opacity-50"
       >
         <span>{loading ? 'Submitting...' : 'Schedule Free Consultation'}</span>
-        <Icon 
-          icon="solar:arrow-right-up-linear" 
-          width="20"
-          height="20"
-          className="transition-transform group-hover:rotate-45 group-active:rotate-45 stroke-[#071C32] group-hover:stroke-white group-active:stroke-white flex-shrink-0"
-        />
-      </button>
+          {loading ? '' :
+              <Icon
+                  icon="solar:arrow-right-up-linear"
+                  width="20"
+                  height="20"
+                  className="transition-transform group-hover:rotate-45 group-active:rotate-45 stroke-[#071C32] group-hover:stroke-white group-active:stroke-white flex-shrink-0"
+              />
+          }
 
+      </button>
 
     </form>
 

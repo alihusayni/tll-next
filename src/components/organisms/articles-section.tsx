@@ -1,6 +1,4 @@
 import React from 'react';
-import ArticleCard from '../molecules/article-card';
-import LinkButton from '../atoms/link-button';
 import { getAllContent } from '@/lib/content';
 import ArticlesSectionClient from './articles-section-client';
 

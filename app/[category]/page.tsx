@@ -1,9 +1,8 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import CategoryPageClient from './category-page-client';
-import { 
+import {
   getCategoryArticles,
-  getCategoryFeaturedArticles,
   isValidCategory,
   getContentCategories,
   getContentBySlug
@@ -118,22 +117,11 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   // Try to fetch markdown content for the category
   const categoryContent = getContentBySlug(category);
   
-  // Fetch featured articles for this category
-  const featuredArticles = getCategoryFeaturedArticles(category);
-  
+
   // Fetch all articles for this category
   const allArticles = getCategoryArticles(category);
   
-  // Transform featured articles for the client component
-  const transformedFeaturedArticles = featuredArticles.map(article => ({
-    title: article.meta.h1 || article.meta.title || '',
-    category: categoryLabel,
-    excerpt: extractExcerpt(article.content),
-    date: formatDate(article.meta.publishedTime || article.meta.date || ''),
-    readTime: article.meta.readTime || '5 min read',
-    image: article.meta.ogImage || article.meta.imageSrc || '/assets/articles/default.png',
-    link: `/${article.slug}`,
-  }));
+
   
   // Transform all articles for the client component
   const transformedAllArticles = allArticles.map(article => ({

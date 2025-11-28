@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 
 interface BlogArticleCardProps {
   title: string;
   category: string;
-  excerpt: string;
   date: string;
   readTime: string;
   image: string;
@@ -15,13 +15,14 @@ interface BlogArticleCardProps {
 export default function BlogArticleCard({
   title,
   category,
-  excerpt,
   date,
   readTime,
   image,
   link,
   className = ''
 }: BlogArticleCardProps) {
+  const [img_src, set_img_src] = useState(image);
+
   return (
     <Link
       href={link}
@@ -30,10 +31,11 @@ export default function BlogArticleCard({
       {/* Image */}
       <div className="relative w-full h-[15.625rem] rounded-lg overflow-hidden">
         <Image
-          src={image}
+          src={img_src}
           alt={title}
           fill
           className="object-cover"
+          onError={() => set_img_src("/assets/logo/place-holder.png")}
         />
       </div>
 

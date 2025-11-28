@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useMemo } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import BlogArticleCard from '@/components/molecules/blog-article-card';
 import BlogArticleListItem from '@/components/molecules/blog-article-list-item';
@@ -38,12 +38,9 @@ export default function ResourcesPageClient({
 }: ResourcesPageClientProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
-  
-  const initialCategory = searchParams.get('category') || 'all-articles';
-  const initialPage = parseInt(searchParams.get('page') || '1', 10);
 
-  const [activeCategory, setActiveCategory] = useState(initialCategory);
-  const [currentPage, setCurrentPage] = useState(initialPage);
+  const activeCategory = searchParams.get('category') || 'all-articles';
+  const currentPage = parseInt(searchParams.get('page') || '1', 10);
 
   const articlesPerPage = 10;
 
@@ -63,10 +60,7 @@ export default function ResourcesPageClient({
 
   // Handle category change
   const handleCategoryChange = (categoryId: string) => {
-    setActiveCategory(categoryId);
-    setCurrentPage(1); // Reset to first page when changing category
-    
-    // Update URL
+    // Update URL (page will reset to 1 automatically since it's not included)
     const params = new URLSearchParams();
     if (categoryId !== 'all-articles') {
       params.set('category', categoryId);
@@ -76,8 +70,6 @@ export default function ResourcesPageClient({
 
   // Handle page change
   const handlePageChange = (page: number) => {
-    setCurrentPage(page);
-    
     // Update URL
     const params = new URLSearchParams();
     if (activeCategory !== 'all-articles') {
@@ -87,7 +79,7 @@ export default function ResourcesPageClient({
       params.set('page', page.toString());
     }
     router.push(`/resources?${params.toString()}`, { scroll: true });
-    
+
     // Scroll to top of recent articles section
     const recentSection = document.getElementById('recent-articles');
     if (recentSection) {
@@ -149,7 +141,6 @@ export default function ResourcesPageClient({
                     key={index}
                     title={article.title}
                     category={article.category}
-                    excerpt={article.excerpt}
                     date={article.date}
                     readTime={article.readTime}
                     image={article.image}

@@ -5,6 +5,7 @@ import rehypeSlug from 'rehype-slug';
 import rehypeRaw from 'rehype-raw';
 import { visit } from 'unist-util-visit';
 import type { Root, Parent } from 'mdast';
+import Image from 'next/image';
 import CtaWrapper from './cta-wrapper';
 
 // Remark plugin to handle [[cta]] syntax
@@ -155,12 +156,12 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
             {children}
           </ol>
         ),
-        li: ({ children, ...props }) => (
-          <li className="relative mb-3 text-[#071C32] font-inter" {...props}>
-            <span className="absolute left-0 top-3 w-8 h-0.5 bg-[#E55B1E]"></span>
-            <span className="pl-10 block">{children}</span>
-          </li>
-        ),
+         li: ({ children, ...props }) => (
+           <li className="relative mb-3 text-[#071C32] font-inter list-none" {...props}>
+             <span className="absolute left-0 top-3 w-8 h-0.5 bg-[#E55B1E]"></span>
+             <span className="pl-10 block">{children}</span>
+           </li>
+         ),
         strong: ({ children, ...props }) => (
           <strong className="font-semibold text-[#091C32] font-inter" {...props}>
             {children}
@@ -282,7 +283,13 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
            if (!src || typeof src !== 'string') return null;
 
            return (
-              <img src={src} alt={alt || 'Descriptive image illustrating key points from the article content'} className="my-6 rounded-xl block mx-auto" />
+              <Image
+                 src={src}
+                 alt={alt || 'Descriptive image illustrating key points from the article content'}
+                 width={800}
+                 height={600}
+                 className="my-6 rounded-xl block mx-auto"
+              />
            );
          },
         table: ({ children, ...props }) => (

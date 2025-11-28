@@ -16,7 +16,6 @@ import {Content} from '@/types/content';
 interface InternalTemplateProps {
     content: Content;
     slug: string;
-    categories?: Array<{ id: string; label: string }>;
     relatedArticles?: Content[];
 }
 
@@ -41,7 +40,7 @@ function generateBreadcrumbText(slug: string): { display: string; slugs: string[
     return {display: 'Home / ' + breadcrumbDisplayParts.join(' / '), slugs: breadcrumbSlugs};
 }
 
-export default function InternalTemplate({content, slug, categories, relatedArticles = []}: InternalTemplateProps) {
+export default function InternalTemplate({content, slug, relatedArticles = []}: InternalTemplateProps) {
     const {display: breadcrumbDisplay, slugs: breadcrumbSlugs} = generateBreadcrumbText(slug);
 
     // Get title from meta with fallbacks
@@ -104,7 +103,6 @@ export default function InternalTemplate({content, slug, categories, relatedArti
                             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 w-full">
                                 {relatedArticles.map((article: Content) => {
                                     const title = article.meta.h1 || article.meta.title || 'Untitled';
-                                    const description = article.meta.summary || article.meta.description || '';
                                     const date = article.meta.publishedTime ? new Intl.DateTimeFormat('en-US', {
                                         year: 'numeric',
                                         month: 'long',
@@ -121,7 +119,6 @@ export default function InternalTemplate({content, slug, categories, relatedArti
                                             key={article.slug}
                                             title={title}
                                             category={category}
-                                            excerpt={article.meta.description || ''}
                                             date={date}
                                             readTime={readTime}
                                             image={imageSrc}

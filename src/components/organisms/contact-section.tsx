@@ -1,5 +1,4 @@
 import ContactForm from '../molecules/contact-form';
-import HeroRatingStar from '../atoms/hero-rating-star';
 
 export default function ContactSection() {
     return (
