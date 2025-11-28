@@ -232,13 +232,6 @@ export const testimonials: Testimonial[] = [
     rating: 5,
   },
   {
-    quote: "Mr. Tuan Le is a very patient, honest, and very professional lawyer. You can tell him about your case and he will do all that he can to help you. But if there are cases that he thinks that he cannot do because of certain reasons ( meaning the case is very complicated) then he will tell you but he won't give up on you. He does everything that he can to help and I feel that it's his joy to be able to help people that are in need.",
-    author: "TheHolyPeanut",
-    caseType: "Legal Services",
-    avatar: "/assets/testimonials/avatar-33.jpg",
-    rating: 5,
-  },
-  {
     quote: "Tuan Le gave me great advice, stayed on top of things, and explained everything very clearly to me. He is knowledgeable, intelligent, and excellent at what he does. I am glad to work with him.",
     author: "N. Nguyen",
     caseType: "Legal Advice",

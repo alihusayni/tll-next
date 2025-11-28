@@ -88,12 +88,12 @@ export default function InternalTemplate({content, slug, categories, relatedArti
             {relatedArticles.length > 0 && (
                 <div className="bg-[#E8EDF2] border-t border-[#E1E3E5] flex flex-col items-center pb-16 pt-16 px-4 md:px-8 lg:px-16 w-full">
                     <div className="box-border flex flex-col gap-8 items-start pb-8 pt-0 px-0 w-full max-w-[86.5rem]">
-                        <div className="flex flex-col gap-8 items-start max-w-[1728px] overflow-hidden w-full">
+                        <div className="flex flex-col gap-8 items-start max-w-[108rem] overflow-hidden w-full">
                             {/* Related Articles Title */}
-                            <div className="flex flex-wrap gap-8 md:gap-16 items-end justify-end max-w-[1728px] w-full">
-                                <div className="flex flex-[1_0_0] flex-col gap-8 md:gap-[50px] items-start min-h-px min-w-[280px]">
+                            <div className="flex flex-wrap gap-8 md:gap-16 items-end justify-end max-w-[108rem] w-full">
+                                <div className="flex flex-[1_0_0] flex-col gap-8 md:gap-[3.125rem] items-start min-h-px min-w-[17.5rem]">
                                     <div className="flex flex-col gap-5 items-start w-full">
-                                        <p className="font-inter-tight font-semibold text-3xl md:text-4xl lg:text-[52px] leading-tight md:leading-[50px] lg:leading-[60px] tracking-[-0.02em] text-[#071C32] max-w-[496px] w-full">
+                                        <p className="font-inter-tight font-semibold text-3xl md:text-4xl lg:text-[3.25rem] leading-tight md:leading-[3.125rem] lg:leading-[3.75rem] tracking-[-0.02em] text-[#071C32] max-w-[31rem] w-full">
                                             Related Articles
                                         </p>
                                     </div>

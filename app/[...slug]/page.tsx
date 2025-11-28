@@ -1,6 +1,6 @@
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import InternalTemplate from '@/templates/internal-template';
-import { getContentBySlug, generateStaticParams as generateContentPaths, getContentCategories, getRelatedArticles } from '@/lib/content';
+import { getContentBySlug, generateStaticParams as generateContentPaths, getContentCategories, getRelatedArticles, isValidCategory } from '@/lib/content';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 
@@ -11,7 +11,19 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  return generateContentPaths();
+  const allPaths = generateContentPaths();
+  
+  // Filter out paths that are single-segment categories (should be handled by [category] route)
+  return allPaths
+    .filter(pathObj => {
+      const path = pathObj.slug.join('/');
+      const segments = path.split('/');
+      // Exclude if it's a single segment that's a valid category
+      if (segments.length === 1 && isValidCategory(segments[0])) {
+        return false;
+      }
+      return true;
+    });
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -62,6 +74,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function ArticlePage({ params }: PageProps) {
   const { slug } = await params;
   const slugPath = slug.join('/');
+  
+  // Check if this is a valid category and should be handled by the category route
+  if (slug.length === 1 && isValidCategory(slug[0])) {
+    redirect(`/${slug[0]}`);
+  }
+  
   const content = getContentBySlug(slugPath);
 
   if (!content) {

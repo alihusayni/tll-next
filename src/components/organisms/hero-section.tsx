@@ -33,15 +33,15 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
         {/* Header Container */}
         <div className="flex flex-col gap-4">
           {/* Name */}
-          <h2 className="font-inter-tight font-medium text-[20px] md:text-[24px] text-[#D2D5D9]">
+          <h2 className="font-inter-tight font-medium text-[1.25rem] md:text-[1.5rem] text-[#D2D5D9]">
             Law Office of Tuan Le
           </h2>
           {/* Title Container */}
           <div className="flex flex-col gap-2">
-            <h1 className="font-inter-tight font-semibold text-[52px] md:text-[92px] leading-[3.25rem] md:leading-[4.5rem] text-white">
+            <h1 className="font-inter-tight font-semibold text-[3.25rem] md:text-[5.75rem] leading-[3.25rem] md:leading-[4.5rem] text-white">
               Immigration Lawyer
             </h1>
-            <p className="font-inter-tight font-medium leading-10 md:leading-[3.125rem] text-[30px] md:text-[40px] text-[#D2D5D9]">
+            <p className="font-inter-tight font-medium leading-10 md:leading-[3.125rem] text-[1.875rem] md:text-[2.5rem] text-[#D2D5D9]">
               in Orange County, CA
             </p>
           </div>
@@ -63,7 +63,7 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
         {/* Button and Rating Container */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
           {/* Button */}
-           <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="group bg-[#E55B1E] text-white font-inter-tight font-semibold text-[18px] rounded-md hover:bg-[#FF7031] active:bg-[#FF7031] transition-all w-[19.375rem] h-[3.25rem] hover:w-[20.5rem] active:w-[20.5rem] flex items-center justify-start gap-4 pl-6">
+           <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="group bg-[#E55B1E] text-white font-inter-tight font-semibold text-[1.125rem] rounded-md hover:bg-[#FF7031] active:bg-[#FF7031] transition-all w-[19.375rem] h-[3.25rem] hover:w-[20.5rem] active:w-[20.5rem] flex items-center justify-start gap-4 pl-6">
              30 min FREE CONSULTING
              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" className="transition-transform group-hover:rotate-45 group-active:rotate-45">
               <path d="M1 13L13 1M13 1H4M13 1V10" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -75,7 +75,7 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
             href="https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col group items-start gap-2 rounded-lg transition-all hover:bg-white/10 active:bg-white/10 !duration-700 p-4 cursor-pointer"
+            className="flex flex-col group items-start gap-2 rounded-lg transition-all hover:bg-white/10 active:bg-white/10 !duration-300 p-4 cursor-pointer"
           >
             {/* Stars - Top Line */}
             <HeroRatingStar rating={5} />
@@ -88,7 +88,7 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
               <span className="font-inter font-semibold text-sm leading-5 text-[#D2D5D9]">
                 70+ REVIEWS
               </span>
-                <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white transition-all duration-700 group-hover:rotate-45 group-active:rotate-45 group-hover:text-white group-active:text-white">
+                <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white transition-all duration-300 group-hover:rotate-45 group-active:rotate-45 group-hover:text-white group-active:text-white">
                   <path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
             </div>

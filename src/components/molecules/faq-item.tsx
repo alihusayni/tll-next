@@ -17,7 +17,7 @@ export default function FaqItem({ question, answer, defaultOpen = false }: FaqIt
 
     return (
         <button
-            className="bg-white hover:bg-white/25 rounded-lg lg:rounded-[1rem] p-4 lg:p-8 w-full text-left transition-all duration-200"
+            className="bg-white hover:bg-white/25 rounded-lg cursor-pointer lg:rounded-[1rem] p-4 lg:p-8 w-full text-left transition-all duration-200"
             onClick={toggleOpen}
             aria-expanded={isOpen}
         >
@@ -40,7 +40,7 @@ export default function FaqItem({ question, answer, defaultOpen = false }: FaqIt
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                         className={`transform transition-transform duration-300 ${
-                            isOpen ? 'rotate-180' : ''
+                            isOpen ? 'rotate-45' : ''
                         }`}
                     >
                         <path

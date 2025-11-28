@@ -12,9 +12,9 @@ export default function ArticleCard({ title, description, image, link }: Article
   return (
     <div 
       onClick={() => window.location.href = link}
-      className="flex flex-col gap-4 p-4 w-[384px] flex-shrink-0 flex-grow-0 rounded-2xl hover:bg-white active:bg-white group cursor-pointer transition-all duration-600"
+      className="flex flex-col gap-4 !pb-8 p-3 sm:p-4 w-[320px] sm:w-[384px] flex-shrink-0 flex-grow-0 rounded-2xl hover:bg-[#F2F4F7] active:bg-[#F2F4F7] group cursor-pointer transition-all duration-600"
     >
-      <div className="relative w-full h-[332px] rounded-2xl overflow-hidden">
+      <div className="relative w-full h-[280px] sm:h-[332px] rounded-2xl overflow-hidden">
         <Image
           src={image}
           alt=""

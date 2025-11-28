@@ -22,7 +22,7 @@ export default function SiteFooter({className = ''}: SiteFooterProps) {
     return (
         <footer className={`bg-[#F7F9FC] m-0 border-t border-[#E1E3E5] ${className}`}>
             <div className="max-w-[95rem] mx-auto py-24 px-4 sm:px-8 lg:px-16 pb-8">
-                <div className="flex flex-wrap gap-8 justify-between pb-10">
+                <div className="flex flex-wrap gap-16 justify-between pb-10">
                     <div className="flex flex-col gap-6">
                         <Logo variant="Blue"/>
                         <p className="font-inter text-lg text-[#071C32] leading-[22px] max-w-[18rem]">We are the

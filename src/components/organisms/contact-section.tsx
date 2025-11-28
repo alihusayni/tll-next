@@ -27,7 +27,7 @@ export default function ContactSection() {
                                         viewBox="0 0 24 24"
                                         fill="#FF7031"
                                         xmlns="http://www.w3.org/2000/svg"
-                                        className="w-[21px] h-[21px]"
+                                        className="w-[1.3125rem] h-[1.3125rem]"
                                     >
                                         <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
                                     </svg>

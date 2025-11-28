@@ -141,7 +141,7 @@ export default function CategoryPageClient({
           <section className="bg-[#E8EDF2] py-8 px-4 md:px-8 lg:px-16 2xl:px-0 m-0">
             <div className="max-w-[86.5rem] mx-auto">
               <div className="py-4 md:py-8">
-                <h1 className="font-inter-tight font-semibold text-4xl md:text-6xl lg:text-[92px] leading-tight md:leading-[60px] lg:leading-[72px] tracking-[-0.02em] text-[#071C32]">
+                <h1 className="font-inter-tight font-semibold text-4xl md:text-6xl lg:text-[5.75rem] leading-tight md:leading-[3.75rem] lg:leading-[4.5rem] tracking-[-0.02em] text-[#071C32]">
                   {categoryContent.meta.h1 || categoryContent.meta.title || categoryLabel}
                 </h1>
               </div>

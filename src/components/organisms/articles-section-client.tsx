@@ -142,10 +142,10 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
   };
 
   return (
-    <section className="bg-[#E8EDF2] py-32 sm:py-16 md:py-24 lg:py-32 px-4 sm:px-8 lg:px-16 2xl:px-0">
+    <section className="bg-[#E8EDF2] py-32 sm:py-16 md:py-24 lg:py-32 px-1 sm:px-8 lg:px-16 2xl:px-0">
       <div className="mx-auto max-w-[86.5rem]">
         <div className="flex flex-col gap-16">
-          <div className="flex flex-col sm:flex-row justify-between sm:items-end gap-16 sm:gap-0 items-start">
+          <div className="flex flex-col sm:flex-row justify-between sm:items-end gap-16 sm:gap-0 items-start px-4 sm:px-0">
             <div className="flex flex-col gap-5">
               <h2 className="font-inter-tight font-semibold text-lg leading-[1.222rem] uppercase text-[#747D85]">
                 Articles
@@ -159,7 +159,7 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
           <div className="flex flex-col gap-16">
             <div
               ref={scrollRef}
-              className={`flex gap-4 overflow-x-auto scrollbar-hide select-none ${isDragging ? '!cursor-grabbing' : 'cursor-grab'}`}
+              className={`flex gap-1 sm:gap-4 overflow-x-auto scrollbar-hide select-none ${isDragging ? '!cursor-grabbing' : 'cursor-grab'}`}
               style={{ scrollbarWidth: 'none', msOverflowStyle: 'none', scrollBehavior: 'auto' }}
               onMouseDown={onMouseDown}
               onMouseLeave={onMouseLeave}
@@ -177,7 +177,7 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
                 />
               ))}
             </div>
-            <div className="flex justify-end gap-4">
+            <div className="flex justify-end gap-4 px-4 sm:px-0">
               <button
                 onClick={scrollLeft}
                 disabled={!canScrollLeft}

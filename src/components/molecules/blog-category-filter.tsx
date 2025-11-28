@@ -142,7 +142,7 @@ export default function BlogCategoryFilter({
               key={category.id}
               onClick={() => handleCategoryClick(category.id)}
               className={`
-                box-border group flex gap-2 items-center justify-center px-4 py-3 rounded-full shrink-0 transition-colors
+                box-border group flex gap-2 items-center cursor-pointer justify-center px-4 py-3 rounded-full shrink-0 transition-colors
                 ${isActive 
                   ? 'bg-[#E1E6EB]' 
                   : 'bg-transparent hover:bg-[#E1E6EB]'
