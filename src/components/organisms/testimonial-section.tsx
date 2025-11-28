@@ -105,7 +105,7 @@ const TestimonialSection: React.FC = () => {
                  className="bg-[#E8EDF2] lg:py-32 lg:px-16 2xl:px-0 sm:py-15 sm:px-8 py-10 px-4 m-0 -scroll-mt-12">
             <div className="max-w-[86.5rem] mx-auto">
                 <div
-                    className="bg-white rounded-[32px] lg:py-25 lg:px-47 sm:py-18 sm:px-10 py-16 px-5 flex flex-col gap-10 lg:gap-15 2xl:gap-28">
+                    className="bg-white rounded-[1rem] lg:py-25 lg:px-47 sm:py-18 sm:px-10 py-16 px-5 flex flex-col gap-10 lg:gap-15 2xl:gap-28">
                     <div ref={testimonialRef}>
                         <TestimonialCard
                             {...testimonials[currentIndex]}
@@ -120,7 +120,7 @@ const TestimonialSection: React.FC = () => {
                             {statistics.map((stat, index) => (
                                 <div key={index} className="flex flex-col items-center gap-1.5 p-2">
                   <span
-                      className="font-inter-tight font-semibold text-[30px] lg:text-[40px] leading-[1.1] tracking-[-0.02em] text-[#49535D]">
+                      className="font-inter-tight font-semibold text-[1.875rem] lg:text-[2.5rem] leading-[1.1] tracking-[-0.02em] text-[#49535D]">
                     {stat.value}
                   </span>
                                     <span
@@ -137,7 +137,7 @@ const TestimonialSection: React.FC = () => {
                                 {statistics.slice(0, 2).map((stat, index) => (
                                     <div key={index} className="flex flex-col items-center gap-1.5 p-2">
                     <span
-                        className="font-inter-tight font-semibold text-[30px] leading-[1.1] tracking-[-0.02em] text-[#49535D]">
+                        className="font-inter-tight font-semibold text-[1.875rem] leading-[1.1] tracking-[-0.02em] text-[#49535D]">
                       {stat.value}
                     </span>
                                         <span
@@ -149,7 +149,7 @@ const TestimonialSection: React.FC = () => {
                             </div>
                             <div className="flex flex-col items-center gap-1.5 p-2">
                 <span
-                    className="font-['Inter_Tight'] font-semibold text-[30px] leading-[1.1] tracking-[-0.02em] text-[#49535D]">
+                    className="font-['Inter_Tight'] font-semibold text-[1.875rem] leading-[1.1] tracking-[-0.02em] text-[#49535D]">
                   {statistics[2].value}
                 </span>
                                 <span

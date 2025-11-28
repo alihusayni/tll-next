@@ -187,7 +187,7 @@ export default function TestimonialsPageSection() {
             onMouseEnter={handleFirstRowMouseEnter}
             onMouseLeave={handleFirstRowMouseLeave}
           >
-            <div ref={firstRowRef} className="flex gap-4 sm:gap-4 items-start cursor-grab" style={{ willChange: 'transform' }}>
+            <div ref={firstRowRef} className="flex gap-4 sm:gap-4 items-start cursor-grab [will-change:transform]">
               {/* Original cards */}
               {firstRow.map((testimonial, index) => (
                 <TestimonialCardFull 
@@ -218,7 +218,7 @@ export default function TestimonialsPageSection() {
             onMouseEnter={handleSecondRowMouseEnter}
             onMouseLeave={handleSecondRowMouseLeave}
           >
-            <div ref={secondRowRef} className="flex gap-4 sm:gap-4 items-start cursor-grab" style={{ willChange: 'transform' }}>
+            <div ref={secondRowRef} className="flex gap-4 sm:gap-4 items-start cursor-grab [will-change:transform]">
               {/* Original cards */}
               {secondRow.map((testimonial, index) => (
                 <TestimonialCardFull 

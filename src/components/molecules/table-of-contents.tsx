@@ -73,9 +73,9 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
   }
 
   return (
-    <div className={`bg-[#E1E6EB] rounded-2xl overflow-hidden ${className}`}>
+    <div className={`bg-[#E1E6EB] rounded-[1rem] overflow-hidden ${className}`}>
       <div className="flex flex-col gap-4 p-6 md:p-8 w-full">
-        <h2 className="font-inter-tight font-semibold text-xl md:text-2xl leading-7 md:leading-8 text-[#49535D]">
+        <h2 className="font-inter-tight font-semibold text-xl md:text-[1.5rem] leading-7 md:leading-8 text-[#49535D]">
           Table of content
         </h2>
         <nav className="flex flex-col gap-4">
@@ -86,7 +86,7 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
                 key={heading.id}
                 onClick={() => scrollToHeading(heading.id)}
                 className={`
-                  text-left text-sm leading-5 tracking-[-0.28px] transition-colors whitespace-normal break-words
+                  text-left text-sm leading-5 tracking-[-0.0175rem] transition-colors whitespace-normal break-words
                   ${isActive 
                     ? 'font-inter font-semibold text-[#E55B1E]' 
                     : 'font-inter font-medium text-[#49535D] hover:text-[#E55B1E]'

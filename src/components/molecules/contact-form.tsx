@@ -125,7 +125,7 @@ export default function ContactForm() {
           id="name"
           error={!!errors.name}
         />
-        {errors.name && <p className="mt-2 text-[#D93644] font-inter-tight text-[14px] font-medium leading-[20px] capitalize">{errors.name}</p>}
+        {errors.name && <p className="mt-2 text-[#D93644] font-inter-tight text-sm font-medium leading-5 capitalize">{errors.name}</p>}
       </div>
 
       <div>
@@ -138,7 +138,7 @@ export default function ContactForm() {
           type="email"
           error={!!errors.email}
         />
-        {errors.email && <p className="mt-2 text-[#D93644] font-inter-tight text-[14px] font-medium leading-[20px] capitalize">{errors.email}</p>}
+        {errors.email && <p className="mt-2 text-[#D93644] font-inter-tight text-sm font-medium leading-5 capitalize">{errors.email}</p>}
       </div>
 
       <div>
@@ -153,7 +153,7 @@ export default function ContactForm() {
           maxLength={10}
           error={!!errors.phone}
         />
-        {errors.phone && <p className="mt-2 text-[#D93644] font-inter-tight text-[14px] font-medium leading-[20px] capitalize">{errors.phone}</p>}
+        {errors.phone && <p className="mt-2 text-[#D93644] font-inter-tight text-sm font-medium leading-5 capitalize">{errors.phone}</p>}
       </div>
 
       <div>
@@ -165,7 +165,7 @@ export default function ContactForm() {
           id="message"
           error={!!errors.message}
         />
-        {errors.message && <p className="mt-2 text-[#D93644] font-inter-tight text-[14px] font-medium leading-[20px] capitalize">{errors.message}</p>}
+        {errors.message && <p className="mt-2 text-[#D93644] font-inter-tight text-sm font-medium leading-5 capitalize">{errors.message}</p>}
       </div>
 
       {/* Honeypot field - hidden from users but visible to bots */}
@@ -175,15 +175,7 @@ export default function ContactForm() {
         name="website"
         autoComplete="off"
         tabIndex={-1}
-        style={{ 
-          position: 'absolute', 
-          left: '-5000px', 
-          top: '-5000px',
-          width: '1px',
-          height: '1px',
-          opacity: 0,
-          overflow: 'hidden'
-        }}
+        className="absolute -left-[5000px] -top-[5000px] w-[1px] h-[1px] opacity-0 overflow-hidden"
         aria-hidden="true"
       />
 
@@ -209,7 +201,7 @@ export default function ContactForm() {
         <div className="bg-[#E8EDF2] p-8 rounded-xl shadow-lg max-w-md w-full mx-4 h-auto">
           <div className="flex flex-col gap-8 h-full">
             <div className="flex flex-col">
-              <h3 className="text-4xl font-bold text-[#FF7031] font-inter-tight">Thank you!</h3>
+              <h3 className="text-[2.25rem] font-bold text-[#FF7031] font-inter-tight">Thank you!</h3>
               <div className="pt-6">
                 <p className="text-lg text-[#071C32] font-normal leading-relaxed">
                   We&apos;ve received your message.<br />

@@ -98,7 +98,7 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
                  hasDropdown={false} // Disable default dropdown arrow in mobile view
             isActive={openDropdown === (item.href || item.label)}
                 onClick={item.subItems ? () => handleClick(item.href || item.label) : undefined}
-                className={`${mobileView ? 'text-white hover:text-[#FF7031]' : (customTextColor || 'text-white')} text-[30px] font-inter-tight font-semibold leading-[26px] uppercase ${item.subItems ? 'cursor-pointer flex items-center justify-between gap-4' : ''}`}
+                 className={`${mobileView ? 'text-white hover:text-[#FF7031]' : (customTextColor || 'text-white')} text-[1.875rem] font-inter-tight font-semibold leading-[1.625rem] uppercase ${item.subItems ? 'cursor-pointer flex items-center justify-between gap-4' : ''}`}
                 customTextColor={mobileView ? undefined : customTextColor}
                 showUnderline={false}
               >
@@ -110,7 +110,7 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    className={`transition-transform duration-200 ${openDropdown === item.href ? 'rotate-180' : ''}`}
+                    className={`w-6 h-6 transition-transform duration-200 ${openDropdown === item.href ? 'rotate-180' : ''}`}
                   >
                      <path
                        d="M6 9L12 15L18 9"

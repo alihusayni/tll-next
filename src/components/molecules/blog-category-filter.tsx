@@ -129,10 +129,7 @@ export default function BlogCategoryFilter({
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUpOrLeave}
         onMouseLeave={handleMouseUpOrLeave}
-        className={`box-border flex gap-2 items-center  mx-auto pl-0 py-4 w-full overflow-x-hidden ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
-        style={{
-          userSelect: 'none'
-        }}
+        className={`box-border flex gap-2 items-center  mx-auto pl-0 py-4 w-full overflow-x-hidden select-none ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
       >
         {categories.filter(category => category.id !== 'resources').map((category) => {
           const isActive = category.id === activeCategory;

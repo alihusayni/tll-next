@@ -93,7 +93,7 @@ export default function InternalTemplate({content, slug, categories, relatedArti
                             <div className="flex flex-wrap gap-8 md:gap-16 items-end justify-end max-w-[108rem] w-full">
                                 <div className="flex flex-[1_0_0] flex-col gap-8 md:gap-[3.125rem] items-start min-h-px min-w-[17.5rem]">
                                     <div className="flex flex-col gap-5 items-start w-full">
-                                        <p className="font-inter-tight font-semibold text-3xl md:text-4xl lg:text-[3.25rem] leading-tight md:leading-[3.125rem] lg:leading-[3.75rem] tracking-[-0.02em] text-[#071C32] max-w-[31rem] w-full">
+                                        <p className="font-inter-tight font-semibold text-[1.875rem] md:text-[2.25rem] lg:text-[3.25rem] leading-tight md:leading-[3.125rem] lg:leading-[3.75rem] tracking-[-0.02em] text-[#071C32] max-w-[31rem] w-full">
                                             Related Articles
                                         </p>
                                     </div>

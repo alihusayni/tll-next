@@ -114,7 +114,7 @@ export default function ResourcesPageClient({
           <p className="font-inter-tight font-semibold text-[3.25rem] lg:text-[5.75rem] leading-tight md:leading-[3.75rem] lg:leading-[4.5rem] tracking-[-0.115rem] text-[#071C32] max-w-[31rem]">
             Resources
           </p>
-          <p className="font-inter-tight font-medium text-xl lg:text-2xl leading-[1.75rem] text-[#747D85] w-full">
+          <p className="font-inter-tight font-medium text-xl lg:text-[1.5rem] leading-[1.75rem] text-[#747D85] w-full">
             News and insights on all things related to law by Tuan le
           </p>
         </div>
@@ -171,7 +171,7 @@ export default function ResourcesPageClient({
               <div className="border-b border-[#D2D5D9] box-border flex flex-wrap gap-0 items-end justify-end max-w-7xl pb-4 pt-0 px-0 w-full">
                 <div className="flex flex-[1_0_0] flex-col gap-8 md:gap-[3.125rem] items-start min-h-px min-w-[17.5rem]">
                   <div className="flex flex-col gap-5 items-start w-full">
-                    <p className="font-inter-tight font-semibold text-3xl lg:text-[2.5rem] leading-[2.5rem] lg:leading-[3.125rem] tracking-[-0.038rem] lg:tracking-[-0.05rem] text-[#071C32] max-w-[31rem] w-full">
+                    <p className="font-inter-tight font-semibold text-[1.875rem] lg:text-[2.5rem] leading-[2.5rem] lg:leading-[3.125rem] tracking-[-0.038rem] lg:tracking-[-0.05rem] text-[#071C32] max-w-[31rem] w-full">
                       Recent Articles
                     </p>
                   </div>

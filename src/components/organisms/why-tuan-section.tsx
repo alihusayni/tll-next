@@ -75,7 +75,7 @@ const WhyTuanSection: React.FC = () => {
               Our Values
             </p>
             <div className="flex flex-col gap-16 sm:flex-row sm:justify-between md:items-end">
-              <h2 className="font-inter-tight font-semibold text-[34px] lg:text-[52px] leading-[42px] md:leading-[1.154] tracking-[-0.68px] text-[#071C32] max-w-[31rem]">
+              <h2 className="font-inter-tight font-semibold text-[2.125rem] lg:text-[3.25rem] leading-[2.625rem] md:leading-[1.154] tracking-[-0.0425rem] text-[#071C32] max-w-[31rem]">
                 Why The Office of Tuan Le?
               </h2>
               <div className="flex gap-4 self-end">
@@ -83,7 +83,7 @@ const WhyTuanSection: React.FC = () => {
                    onClick={scrollLeft}
                    disabled={!canScrollLeft}
                    aria-label="Scroll left"
-                   className="w-14 h-14 rounded-[30px] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-transparent hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
+                   className="w-14 h-14 rounded-[1.875rem] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-transparent hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
                  >
                   <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M15 6L1 6M1 6L6 11M1 6L6 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -93,7 +93,7 @@ const WhyTuanSection: React.FC = () => {
                    onClick={scrollRight}
                    disabled={!canScrollRight}
                    aria-label="Scroll right"
-                   className="w-14 h-14 rounded-[30px] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-transparent hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
+                   className="w-14 h-14 rounded-[1.875rem] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-transparent hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
                  >
                   <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 6L15 6M15 6L10 1M15 6L10 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -105,8 +105,7 @@ const WhyTuanSection: React.FC = () => {
           <div>
             <div
               ref={scrollRef}
-              className="flex gap-4 sm:gap-8 overflow-x-auto scrollbar-hide"
-              style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+              className="flex gap-4 sm:gap-8 overflow-x-auto scrollbar-hide [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
             >
               {features.map((feature, index) => (
                 <ValueCard

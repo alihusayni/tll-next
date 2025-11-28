@@ -52,7 +52,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
         h1: ({ children, id, ...props }) => (
           <h1
             id={id}
-            className="text-[62px] font-semibold mb-6 text-[#091C32] leading-[72px] font-inter-tight"
+            className="text-[3.875rem] font-semibold mb-6 text-[#091C32] leading-[4.5rem] font-inter-tight"
             {...props}
           >
             {children}
@@ -61,7 +61,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
         h2: ({ children, id, ...props }) => (
           <h2
             id={id}
-            className="text-[52px] font-semibold mb-4 mt-8 text-[#091C32] leading-[60px] font-inter-tight !scroll-mt-30"
+            className="text-[3.25rem] font-semibold mb-4 mt-8 text-[#091C32] leading-[3.75rem] font-inter-tight !scroll-mt-[1.875rem]"
             {...props}
           >
             {children}
@@ -70,7 +70,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
         h3: ({ children, id, ...props }) => (
           <h3
             id={id}
-            className="text-[40px] font-semibold mb-3 mt-6 text-[#091C32] leading-[50px] font-inter-tight"
+            className="text-[2.5rem] font-semibold mb-3 mt-6 text-[#091C32] leading-[3.125rem] font-inter-tight"
             {...props}
           >
             {children}
@@ -79,7 +79,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
         h4: ({ children, id, ...props }) => (
           <h4
             id={id}
-            className="text-[32px] font-semibold mb-2 mt-4 text-[#091C32] leading-[38px] font-inter-tight"
+            className="text-[1.5rem] font-semibold mb-2 mt-4 text-[#091C32] leading-[2.375rem] font-inter-tight"
             {...props}
           >
             {children}
@@ -88,7 +88,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
         h5: ({ children, id, ...props }) => (
           <h5
             id={id}
-            className="text-[24px] font-semibold mb-2 mt-3 text-[#091C32] leading-[32px] font-inter-tight"
+            className="text-[1.5rem] font-semibold mb-2 mt-3 text-[#091C32] leading-8 font-inter-tight"
             {...props}
           >
             {children}
@@ -97,7 +97,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
         h6: ({ children, id, ...props }) => (
           <h6
             id={id}
-            className="text-[20px] font-semibold mb-2 mt-2 text-[#091C32] leading-[24px] font-inter-tight"
+            className="text-xl font-semibold mb-2 mt-2 text-[#091C32] leading-6 font-inter-tight"
             {...props}
           >
             {children}
@@ -125,14 +125,14 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
            if (hasBlockElement) {
              // If paragraph contains block element, render as div to avoid invalid HTML
               return (
-                <div className="text-[18px] leading-[24px] mb-4 text-[#071C32] font-inter" {...props}>
+                <div className="text-lg leading-6 mb-4 text-[#071C32] font-inter" {...props}>
                   {children}
                 </div>
               );
            }
 
             return (
-              <p className="text-[18px] leading-[24px] mb-4 text-[#071C32] font-inter" {...props}>
+              <p className="text-lg leading-6 mb-4 text-[#071C32] font-inter" {...props}>
                 {children}
               </p>
             );
@@ -146,7 +146,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
           </blockquote>
         ),
         ul: ({ children, ...props }) => (
-          <ul className="mb-4 text-[#071C32] font-inter" style={{ listStyle: 'none' }} {...props}>
+          <ul className="mb-4 text-[#071C32] font-inter list-none" {...props}>
             {children}
           </ul>
         ),

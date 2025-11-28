@@ -25,7 +25,7 @@ export default function SiteFooter({className = ''}: SiteFooterProps) {
                 <div className="flex flex-wrap gap-16 justify-between pb-10">
                     <div className="flex flex-col gap-6">
                         <Logo variant="Blue"/>
-                        <p className="font-inter text-lg text-[#071C32] leading-[22px] max-w-[18rem]">We are the
+                        <p className="font-inter text-lg text-[#071C32] leading-7 max-w-[18rem]">We are the
                             Employment Law Center of Orange County CA.</p>
                     </div>
                     <div className="flex flex-wrap gap-8">

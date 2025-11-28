@@ -25,7 +25,7 @@ export default function BlogArticleCard({
   return (
     <Link
       href={link}
-      className={`flex flex-col gap-4 p-0 rounded-2xl group hover:opacity-90 active:opacity-90 transition-opacity ${className}`}
+      className={`flex flex-col gap-4 p-0 rounded-[1rem] group hover:opacity-90 active:opacity-90 transition-opacity ${className}`}
     >
       {/* Image */}
       <div className="relative w-full h-[15.625rem] rounded-lg overflow-hidden">
@@ -47,7 +47,7 @@ export default function BlogArticleCard({
         </div>
 
         {/* Title */}
-        <h2 className="font-inter-tight font-semibold text-xl lg:text-2xl leading-[1.625rem] lg:leading-8 tracking-[-0.025rem] lg:tracking-[-0.03rem] text-[#49535D] line-clamp-2 overflow-hidden text-ellipsis group-hover:text-hover group-active:text-hover">
+        <h2 className="font-inter-tight font-semibold text-xl lg:text-[1.5rem] leading-[1.625rem] lg:leading-8 tracking-[-0.025rem] lg:tracking-[-0.03rem] text-[#49535D] line-clamp-2 overflow-hidden text-ellipsis group-hover:text-hover group-active:text-hover">
           {title}
         </h2>
 

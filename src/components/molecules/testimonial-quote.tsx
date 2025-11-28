@@ -10,14 +10,14 @@ export default function TestimonialQuote({
   className = '' 
 }: TestimonialQuoteProps) {
   return (
-    <div className={`bg-[#E1E6EB] rounded-2xl md:rounded-[32px] p-6 md:p-10 ${className}`}>
-      <div className="flex flex-col gap-6 md:gap-8 max-w-[960px]">
+    <div className={`bg-[#E1E6EB] rounded-[1rem] md:rounded-[1rem] p-6 md:p-10 ${className}`}>
+      <div className="flex flex-col gap-6 md:gap-8 max-w-[60rem]">
         {/* Quote */}
         <div className="flex flex-col gap-0">
-          <p className="font-inter font-normal text-4xl md:text-5xl lg:text-[62px] leading-[28px] md:leading-[38px] text-[#071C32]">
+          <p className="font-inter font-normal text-[2.25rem] md:text-[3rem] lg:text-[3.875rem] leading-[1.75rem] md:leading-[2.375rem] text-[#071C32]">
             &ldquo;
           </p>
-          <p className="font-inter font-normal text-lg md:text-xl lg:text-2xl leading-7 md:leading-9 lg:leading-[38px] text-[#071C32]">
+          <p className="font-inter font-normal text-lg md:text-xl lg:text-[1.5rem] leading-7 md:leading-9 lg:leading-[2.375rem] text-[#071C32]">
             {quote}
           </p>
         </div>

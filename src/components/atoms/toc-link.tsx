@@ -8,7 +8,7 @@ export default function TocLink({ href, children, isActive = false }: TocLinkPro
   return (
     <a
       href={href}
-      className={`font-inter leading-[20px] tracking-[-0.28px] transition-colors ${
+      className={`font-inter leading-5 tracking-[-0.0175rem] transition-colors ${
         isActive
           ? 'text-[#E55B1E] font-semibold'
           : 'text-[#49535D] hover:text-[#E55B1E] font-medium'

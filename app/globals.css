@@ -40,15 +40,15 @@ body {
 }
 
 .markdown-body h2 {
-  @apply text-4xl font-inter-tight font-semibold text-[#091C32] mt-16 mb-8 leading-tight scroll-mt-20;
+  @apply text-[2.25rem] font-inter-tight font-semibold text-[#091C32] mt-16 mb-8 leading-tight scroll-mt-20;
 }
 
 .markdown-body h3 {
-  @apply text-3xl font-inter-tight font-semibold text-[#091C32] mt-12 mb-6 leading-tight scroll-mt-20;
+  @apply text-[1.875rem] font-inter-tight font-semibold text-[#091C32] mt-12 mb-6 leading-tight scroll-mt-20;
 }
 
 .markdown-body h4 {
-  @apply text-2xl font-inter-tight font-semibold text-[#091C32] mt-10 mb-4 leading-tight scroll-mt-20;
+  @apply text-[1.5rem] font-inter-tight font-semibold text-[#091C32] mt-10 mb-4 leading-tight scroll-mt-20;
 }
 
 .markdown-body h5 {

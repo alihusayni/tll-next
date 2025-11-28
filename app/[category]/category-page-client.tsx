@@ -112,8 +112,7 @@ export default function CategoryPageClient({
                 {totalPages > 1 && Array.from({ length: Math.max(0, 9 - paginatedArticles.length) }).map((_, index) => (
                   <div
                     key={`placeholder-${index}`}
-                    className="flex gap-4 p-4 rounded-[1rem] min-w-0 flex-shrink-0 w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(33.333%-0.667rem)] opacity-0 pointer-events-none"
-                    style={{ height: '7.625rem' }}
+                    className="flex gap-4 p-4 rounded-[1rem] min-w-0 flex-shrink-0 w-full sm:w-[calc(50%-0.5rem)] lg:w-[calc(33.333%-0.667rem)] opacity-0 pointer-events-none h-[7.625rem]"
                     aria-hidden="true"
                   />
                 ))}
@@ -141,7 +140,7 @@ export default function CategoryPageClient({
           <section className="bg-[#E8EDF2] py-8 px-4 md:px-8 lg:px-16 2xl:px-0 m-0">
             <div className="max-w-[86.5rem] mx-auto">
               <div className="py-4 md:py-8">
-                <h1 className="font-inter-tight font-semibold text-4xl md:text-6xl lg:text-[5.75rem] leading-tight md:leading-[3.75rem] lg:leading-[4.5rem] tracking-[-0.02em] text-[#071C32]">
+                <h1 className="font-inter-tight font-semibold text-[2.25rem] md:text-[3.75rem] lg:text-[5.75rem] leading-tight md:leading-[3.75rem] lg:leading-[4.5rem] tracking-[-0.02em] text-[#071C32]">
                   {categoryContent.meta.h1 || categoryContent.meta.title || categoryLabel}
                 </h1>
               </div>

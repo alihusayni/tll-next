@@ -11,7 +11,7 @@ export default function CertificationSection() {
         </h2>
         <div className="flex flex-col xl:flex-row gap-16 max-w-[95rem] xl:items-center">
           <div className="flex-1">
-            <p className="text-2xl lg:text-[2rem] text-white lg:max-w-[24.5rem] max-w-[25rem] font-inter font-medium leading-7 lg:leading-9 mb-8">
+            <p className="text-[1.5rem] lg:text-[2rem] text-white lg:max-w-[24.5rem] max-w-[25rem] font-inter font-medium leading-7 lg:leading-9 mb-8">
               Let&apos;s Build Your Case Together. Rest Assured That Your Case Is in The Right Hands.
             </p>
             <LinkButton text="Read More" href="/resources/how-to-prepare-strong-immigration-application-tips" />
@@ -24,7 +24,7 @@ export default function CertificationSection() {
                 width={400}
                 height={100}
                 loading="lazy"
-                className="w-full h-[100px] rounded-lg object-cover object-[30%_20%]  grayscale contrast-110 brightness-110"
+                className="w-full h-[6.25rem] rounded-lg object-cover object-[30%_20%]  grayscale contrast-110 brightness-110"
               />
                 <p className="text-lg text-white font-inter leading-[1.75rem] mt-8">
                 You are not alone; we have helped many in your exact situation and will continue to do so. Place your confidence in our comprehensive solutions, and we will protect you.

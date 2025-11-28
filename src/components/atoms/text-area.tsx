@@ -19,8 +19,6 @@ export default function TextArea({
 }: TextAreaProps) {
   const [isFocused, setIsFocused] = useState(false);
 
-  const borderColor = error ? '#D93644' : isFocused ? '#FF7031' : '#4B5563';
-
   return (
     <>
       <label htmlFor={id} className="sr-only">{label}</label>
@@ -31,8 +29,9 @@ export default function TextArea({
         onChange={(e) => onChange(e.target.value)}
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
-        className="w-full px-8 py-4 border-2 rounded-sm text-lg text-gray-900 placeholder:text-gray-500 focus:outline-none resize-none"
-        style={{ borderColor }}
+        className={`w-full px-8 py-4 border-2 rounded-sm text-lg text-gray-900 placeholder:text-gray-500 focus:outline-none resize-none ${
+          error ? 'border-[#D93644]' : isFocused ? 'border-[#FF7031]' : 'border-[#4B5563]'
+        }`}
         rows={4}
       />
     </>

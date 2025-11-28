@@ -5,10 +5,10 @@ interface QuoteBoxProps {
 
 export default function QuoteBox({ quote, author }: QuoteBoxProps) {
     return (
-        <div className="bg-[#E1E6EB] rounded-[32px] p-8 w-full max-w-[888px] mx-auto">
+        <div className="bg-[#E1E6EB] rounded-[1rem] p-8 w-full max-w-[55.5rem] mx-auto">
             <div className="relative">
                 <div
-                    className="absolute top-0 left-0 text-[62px] text-[#071C32] !font-inter leading-[2.375rem]"
+                    className="absolute top-0 left-0 text-[3.875rem] text-[#071C32] !font-inter leading-[2.375rem]"
                 >
                     &quot;
                 </div>

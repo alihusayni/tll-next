@@ -2,10 +2,31 @@
 
 import FaqItem from '../molecules/faq-item';
 import { faqData } from '@/data/faq';
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { useRef } from 'react';
 
 export default function FaqSection() {
+    const sectionRef = useRef<HTMLDivElement>(null);
+
+    useGSAP(() => {
+        if (sectionRef.current) {
+            // Stagger animation for FAQ items on mount
+            gsap.fromTo(".faq-item",
+                { opacity: 0, y: 30 },
+                { 
+                    opacity: 1, 
+                    y: 0, 
+                    duration: 0.6,
+                    stagger: 0.1,
+                    ease: "power2.out"
+                }
+            );
+        }
+    }, { dependencies: [] });
+
     return (
-        <section className="bg-[#E8EDF2] w-full">
+        <section ref={sectionRef} className="bg-[#E8EDF2] w-full">
             <div className="max-w-[86.5rem] mx-auto px-4 lg:px-16 2xl:px-0 py-8 lg:pb-16">
                 {/* Hero/Header Section */}
                 <div className="flex flex-col gap-8 py-8">
@@ -24,6 +45,7 @@ export default function FaqSection() {
                             key={index}
                             question={faq.question}
                             answer={faq.answer}
+                            className="faq-item"
                         />
                     ))}
                 </div>

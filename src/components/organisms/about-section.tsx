@@ -10,7 +10,7 @@ export default function AboutSection() {
             <div className="max-w-[86.5rem] mx-auto flex flex-col items-center gap-32">
                 <div className="flex flex-col lg:flex-row justify-between items-start gap-8 w-full">
                     <div className="flex flex-col gap-15 sm:gap-25">
-                        <h2 className="font-inter-tight font-semibold text-[34px] lg:text-[52px] max-w-[22.5rem] sm:max-w-[57.5rem] lg:max-w-[37.5rem] leading-[42px] lg:leading-[60px] tracking-[-0.02em] text-[#071C32]">
+                        <h2 className="font-inter-tight font-semibold text-[2.125rem] lg:text-[3.25rem] max-w-[22.5rem] sm:max-w-[57.5rem] lg:max-w-[37.5rem] leading-[2.625rem] lg:leading-[3.75rem] tracking-[-0.02em] text-[#071C32]">
                             Immigration Services by Top Immigration Attorney.
                         </h2>
                         <div className="flex flex-col gap-8 max-w-[22.5rem] sm:max-w-[27.5rem]">

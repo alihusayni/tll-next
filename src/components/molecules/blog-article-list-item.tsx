@@ -25,7 +25,7 @@ export default function BlogArticleListItem({
   return (
     <Link
       href={link}
-      className={`flex flex-col sm:flex-row gap-4 sm:h-[220px] min-h-[220px] md:min-h-0 items-start p-0 rounded-2xl group hover:opacity-90 active:opacity-90 transition-opacity ${className}`}
+      className={`flex flex-col sm:flex-row gap-4 sm:h-[13.75rem] min-h-[13.75rem] md:min-h-0 items-start p-0 rounded-[1rem] group hover:opacity-90 active:opacity-90 transition-opacity ${className}`}
     >
       {/* Image */}
       <div className="flex items-start h-[13.75rem] w-full sm:w-[20.75rem] lg:w-full max-w-[25.5rem] min-w-[20.75rem] overflow-hidden relative rounded-lg">
@@ -39,7 +39,7 @@ export default function BlogArticleListItem({
       </div>
 
       {/* Content */}
-      <div className="box-border flex-col gap-4 md:gap-8 items-start min-h-px flex-1 md:min-w-[240px] pb-4 pt-0 px-0 relative shrink-0 overflow-hidden">
+      <div className="box-border flex-col gap-4 md:gap-8 items-start min-h-px flex-1 md:min-w-[15rem] pb-4 pt-0 px-0 relative shrink-0 overflow-hidden">
         <div className="flex flex-col gap-2 items-start relative shrink-0 w-full">
           {/* Category */}
           <div className="flex flex-col justify-center">
@@ -49,7 +49,7 @@ export default function BlogArticleListItem({
           </div>
 
           {/* Title */}
-          <p className="font-inter-tight font-semibold text-xl lg:text-2xl leading-8 lg:leading-[1.625rem] tracking-[-0.03rem] lg:tracking-[-0.025rem] text-[#49535D] min-w-full overflow-hidden text-ellipsis line-clamp-2 group-hover:text-hover group-active:text-hover">
+          <p className="font-inter-tight font-semibold text-xl lg:text-[1.5rem] leading-8 lg:leading-[1.625rem] tracking-[-0.03rem] lg:tracking-[-0.025rem] text-[#49535D] min-w-full overflow-hidden text-ellipsis line-clamp-2 group-hover:text-hover group-active:text-hover">
             {title}
           </p>
 

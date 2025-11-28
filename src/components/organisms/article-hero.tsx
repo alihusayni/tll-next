@@ -78,8 +78,7 @@ export default function ArticleHero({
           alt={imageAlt}
           width={1144}
           height={522}
-          className="w-full h-auto object-cover"
-          style={{ aspectRatio: '1144.00/522.15' }}
+          className="w-full h-auto object-cover [aspect-ratio:1144.00/522.15]"
           priority
           placeholder="blur"
           blurDataURL={blurredPlaceholder}

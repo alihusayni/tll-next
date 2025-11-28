@@ -10,7 +10,7 @@ export default function ContactSection() {
                         <h2 className="text-[2.5rem] lg:text-[3.875rem] font-inter-tight font-semibold text-gray-900 mb-16 leading-tight">
                             Get Legal Help Today!
                         </h2>
-                        <p className="text-xl lg:text-2xl max-w-[31.25rem] text-[#747D85] font-semibold font-inter mb-6 leading-[1.625rem] lg:leading-8">
+                        <p className="text-xl lg:text-[1.5rem] max-w-[31.25rem] text-[#747D85] font-semibold font-inter mb-6 leading-[1.625rem] lg:leading-8">
                             Need guidance from an experienced immigration attorney?
                         </p>
                         <p className="text-lg text-[#747D85] font-inter mb-6 leading-6 lg:leading-[1.375]">

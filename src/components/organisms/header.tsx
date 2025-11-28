@@ -105,7 +105,7 @@ export default function Header({
                   icon="solar:phone-linear" 
                   width="24"
                   height="24"
-                  className={variant === 'light' ? 'text-[#071C32] group-hover:text-white' : 'filter brightness-0 invert'}
+                  className={`w-6 h-6 ${variant === 'light' ? 'text-[#071C32] group-hover:text-white' : 'filter brightness-0 invert'}`}
                 />
                 Talk to Us
               </a>
@@ -137,7 +137,7 @@ export default function Header({
                 className="w-8 h-8 flex items-center justify-center text-white hover:opacity-80 transition-opacity"
                 aria-label="Close menu"
               >
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6">
                   <path d="M6 6L18 18M18 6L6 18" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </button>
