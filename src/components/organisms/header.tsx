@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { createPortal } from 'react-dom';
 import { Icon } from '@iconify/react';
 import { gsap } from 'gsap';
-import { useGSAP } from '@gsap/react';
+
 import Logo from '../atoms/logo';
 import MainNav from '../molecules/main-nav';
 import HamburgerMenu from '../atoms/hamburger-menu';
@@ -25,35 +25,58 @@ export default function Header({
 }: HeaderProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMenuVisible, setIsMenuVisible] = useState(false);
-  const [isAnimatingClose, setIsAnimatingClose] = useState(false);
   const [show, setShow] = useState(false);
   const [isNavigating, setIsNavigating] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const lastScrollY = useRef(0);
   const mobileMenuRef = useRef<HTMLDivElement>(null);
+  const tl = useRef<ReturnType<typeof gsap.timeline> | null>(null);
 
   const toggleMobileMenu = () => {
     if (isMobileMenuOpen) {
-      // Start closing animation
-      setIsAnimatingClose(true);
-      gsap.to(mobileMenuRef.current, {
-        height: 0,
-        duration: 0.5,
-        ease: 'power2.in',
-        onComplete: () => {
+      // closing
+      tl.current?.reverse();
+    } else {
+      // opening
+      setIsMobileMenuOpen(true);
+      setIsMenuVisible(true);
+      if (!tl.current) {
+        tl.current = gsap.timeline({ paused: true });
+        gsap.set(mobileMenuRef.current, { height: 0 });
+        tl.current.to(mobileMenuRef.current, {
+          height: '100vh',
+          duration: 0.6,
+          ease: 'expo.out',
+        });
+        const header = gsap.utils.toArray('.mobile-menu-overlay .flex.justify-between.items-center');
+        tl.current.fromTo(header,
+          { opacity: 0 },
+          { opacity: 1, duration: 0.3 },
+          '-=0.4'
+        );
+        const menuItems = gsap.utils.toArray('.mobile-menu-overlay nav > div');
+        const buttons = gsap.utils.toArray('.mobile-menu-overlay .flex.flex-col.gap-4 > a');
+        tl.current.fromTo([...menuItems, ...buttons],
+          { y: 30, opacity: 0 },
+          { y: 0, opacity: 1, duration: 0.5, stagger: 0.06, ease: 'power3.out' },
+          '-=0.3'
+        );
+        tl.current.eventCallback('onReverseComplete', () => {
           setIsMobileMenuOpen(false);
           setIsMenuVisible(false);
-          setIsAnimatingClose(false);
-        }
-      });
-    } else {
-      setIsMobileMenuOpen(true);
-      setTimeout(() => setIsMenuVisible(true), 300);
+        });
+      }
+      tl.current.play();
     }
   };
 
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   // Prevent body scroll when mobile menu is open
   useEffect(() => {
-    if (isMobileMenuOpen) {
+    if (isMobileMenuOpen && mounted) {
       document.body.classList.add('mobile-menu-open');
     } else {
       document.body.classList.remove('mobile-menu-open');
@@ -63,15 +86,9 @@ export default function Header({
     return () => {
       document.body.classList.remove('mobile-menu-open');
     };
-  }, [isMobileMenuOpen]);
+  }, [isMobileMenuOpen, mounted]);
 
-  // Animate mobile menu opening
-  useGSAP(() => {
-    if (isMenuVisible && mobileMenuRef.current && !isAnimatingClose) {
-      gsap.set(mobileMenuRef.current, { height: 0 });
-      gsap.to(mobileMenuRef.current, { height: '100vh', duration: 0.5, ease: 'power2.out' });
-    }
-  }, [isMenuVisible]);
+
 
   // Sticky header scroll behavior
   useEffect(() => {
@@ -159,8 +176,8 @@ export default function Header({
       </header>
 
       {/* Mobile Menu Overlay - Rendered at document root */}
-      {(isMenuVisible || isAnimatingClose) && createPortal(
-        <div ref={mobileMenuRef} className="lg:hidden mobile-menu-overlay" style={{ backgroundColor: 'rgba(0, 53, 110, 0.9)', overflow: 'hidden', minHeight: '0px' }}>
+      {mounted && createPortal(
+        <div ref={mobileMenuRef} className={`lg:hidden mobile-menu-overlay fixed inset-0 z-50 ${isMenuVisible ? 'block' : 'hidden'}`} style={{ backgroundColor: 'rgb(0, 53, 110)' }}>
           <div className="flex flex-col h-full py-8 min-h-screen">
             {/* Header with Logo and Close Button */}
             <div className="flex justify-between items-center px-4 sm:px-8 mb-16">

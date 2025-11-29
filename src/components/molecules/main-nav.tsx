@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import { gsap } from 'gsap';
 import NavLink from '../atoms/nav-link';
 
 interface NavItem {
@@ -20,6 +21,7 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const navRef = useRef<HTMLElement>(null);
   const dropdownTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const submenuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -36,6 +38,15 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
       }
     };
   }, []);
+
+  useEffect(() => {
+    if (openDropdown === '/resources?category=resources') {
+      gsap.set(submenuRef.current, { height: 0, opacity: 0 });
+      gsap.to(submenuRef.current, { height: 'auto', opacity: 1, duration: 0.6, ease: 'expo.out' });
+      const subItems = gsap.utils.toArray(Array.from(submenuRef.current?.querySelectorAll('a') || []));
+      gsap.fromTo(subItems, { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, stagger: 0.06, ease: 'power3.out', delay: 0.3 });
+    }
+  }, [openDropdown]);
 
   const handleMouseEnter = (identifier: string) => {
     if (dropdownTimeoutRef.current) {
@@ -74,7 +85,12 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
     const item = navItems.find(item => (item.href || item.label) === identifier);
     if (item?.subItems) {
       // For items with subItems, toggle dropdown but don't close mobile menu
-      setOpenDropdown(openDropdown === identifier ? null : identifier);
+      if (openDropdown === identifier) {
+        // closing
+        gsap.to(submenuRef.current, { height: 0, opacity: 0, duration: 0.5, ease: 'power2.in', onComplete: () => setOpenDropdown(null) });
+      } else {
+        setOpenDropdown(identifier);
+      }
     } else {
       // Only close mobile menu for items without subItems
       onItemClick?.();
@@ -126,7 +142,7 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
             
             {/* Submenu items */}
             {item.subItems && openDropdown === item.href && (
-              <div className="rounded-lg mx-4 mb-4 p-8">
+              <div ref={submenuRef} className="rounded-lg mx-4 mb-4 p-8">
                 {item.subItems.map((subItem) => (
                     <NavLink
                        key={subItem.href}

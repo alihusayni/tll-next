@@ -106,7 +106,6 @@ body {
   right: 0 !important;
   bottom: 0 !important;
   width: 100vw !important;
-  background-color: rgba(0, 53, 110, 0.9) !important;
   z-index: 99999 !important;
   overflow: hidden !important;
   backdrop-filter: none !important;
@@ -119,11 +118,6 @@ body.mobile-menu-open {
   position: fixed;
   width: 100%;
   height: 100vh;
-}
-
-/* Hide all content behind mobile menu */
-body.mobile-menu-open > *:not(.mobile-menu-overlay) {
-  visibility: hidden;
 }
 
 /* Ensure mobile menu is always visible */

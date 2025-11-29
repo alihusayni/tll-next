@@ -1,8 +1,6 @@
 'use client';
 
-'use client';
-
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import RatingStar from '../atoms/rating-star';
 import { gsap } from "gsap";
@@ -26,58 +24,69 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
   setCurrentIndex,
 }) => {
   const current = testimonials[currentIndex];
-  const { quote, author, rating = 5, image } = current;
+  const { rating = 5 } = current;
 
-  const quoteRef = useRef<HTMLParagraphElement>(null);
+  const testimonialRefs = useRef<(HTMLDivElement | null)[]>([]);
   const [dragStart, setDragStart] = useState<number | null>(null);
   const [lastDelta, setLastDelta] = useState(0);
 
   const canPrev = currentIndex > 0;
   const canNext = currentIndex < testimonials.length - 1;
 
+  const swapQuote = (newIndex: number, direction: 'next' | 'prev') => {
+    const oldEl = testimonialRefs.current[currentIndex];
+    const newEl = testimonialRefs.current[newIndex];
+    if (!oldEl || !newEl) return;
+
+    // Kill any ongoing animations
+    testimonialRefs.current.forEach(el => {
+      if (el) gsap.killTweensOf(el);
+    });
+
+    const offset = direction === 'next' ? -50 : 50;
+
+    gsap.to(oldEl, {
+      x: offset,
+      opacity: 0,
+      duration: 0.25,
+      ease: 'power2.out'
+    });
+    gsap.set(newEl, {
+      x: -offset,
+      opacity: 0
+    });
+    gsap.to(newEl, {
+      x: 0,
+      opacity: 1,
+      duration: 0.3,
+      ease: 'power3.out',
+      onComplete: () => setCurrentIndex(newIndex)
+    });
+  };
+
   const prev = () => {
     if (canPrev) {
-      const tl = gsap.timeline();
-      tl.to(quoteRef.current, {
-        x: 50,
-        opacity: 0,
-        duration: 0.3,
-        ease: "power2.inOut"
-      })
-      .call(() => setCurrentIndex(currentIndex - 1))
-      .fromTo(quoteRef.current, {
-        x: -50,
-        opacity: 0
-      }, {
-        x: 0,
-        opacity: 1,
-        duration: 0.3,
-        ease: "power2.out"
-      });
+      swapQuote(currentIndex - 1, 'prev');
     }
   };
 
   const next = () => {
     if (canNext) {
-      const tl = gsap.timeline();
-      tl.to(quoteRef.current, {
-        x: -50,
-        opacity: 0,
-        duration: 0.3,
-        ease: "power2.inOut"
-      })
-      .call(() => setCurrentIndex(currentIndex + 1))
-      .fromTo(quoteRef.current, {
-        x: 50,
-        opacity: 0
-      }, {
-        x: 0,
-        opacity: 1,
-        duration: 0.3,
-        ease: "power2.out"
-      });
+      swapQuote(currentIndex + 1, 'next');
     }
   };
+
+  useEffect(() => {
+    testimonialRefs.current.forEach((el, i) => {
+      if (el) {
+        if (i === currentIndex) {
+          gsap.set(el, { opacity: 1, x: 0 });
+        } else {
+          gsap.set(el, { opacity: 0 });
+        }
+      }
+    });
+  }, [currentIndex]);
 
   const handleMouseDown = (e: React.MouseEvent) => {
     setDragStart(e.clientX);
@@ -88,28 +97,35 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
     if (dragStart !== null) {
       const delta = e.clientX - dragStart;
       setLastDelta(delta);
-      gsap.to(quoteRef.current, {
-        opacity: Math.max(0.3, 1 - Math.abs(delta) / 100),
-        duration: 0.05
-      });
+      const currentEl = testimonialRefs.current[currentIndex];
+      if (currentEl) {
+        const canFade = (delta > 0 && canPrev) || (delta < 0 && canNext);
+        gsap.to(currentEl, {
+          opacity: canFade ? Math.max(0.3, 1 - Math.abs(delta) / 100) : 1,
+          duration: 0.05
+        });
+      }
     }
   };
 
-  const handleMouseUp = (e: React.MouseEvent) => {
+  const handleMouseUp = (_e: React.MouseEvent) => {
     if (dragStart !== null) {
       const delta = lastDelta;
       if (Math.abs(delta) > 50) {
         if (delta > 0 && canPrev) {
-          prev();
+          swapQuote(currentIndex - 1, 'prev');
         } else if (delta < 0 && canNext) {
-          next();
+          swapQuote(currentIndex + 1, 'next');
         }
       } else {
-        gsap.to(quoteRef.current, {
-          opacity: 1,
-          duration: 0.3,
-          ease: "power2.out"
-        });
+        const currentEl = testimonialRefs.current[currentIndex];
+        if (currentEl) {
+          gsap.to(currentEl, {
+            opacity: 1,
+            duration: 0.3,
+            ease: "power2.out"
+          });
+        }
       }
       setDragStart(null);
       setLastDelta(0);
@@ -122,31 +138,39 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
   };
 
   const handleTouchMove = (e: React.TouchEvent) => {
+    e.preventDefault();
     if (dragStart !== null) {
       const delta = e.touches[0].clientX - dragStart;
       setLastDelta(delta);
-      gsap.to(quoteRef.current, {
-        opacity: Math.max(0.3, 1 - Math.abs(delta) / 100),
-        duration: 0.05
-      });
+      const currentEl = testimonialRefs.current[currentIndex];
+      if (currentEl) {
+        const canFade = (delta > 0 && canPrev) || (delta < 0 && canNext);
+        gsap.to(currentEl, {
+          opacity: canFade ? Math.max(0.3, 1 - Math.abs(delta) / 100) : 1,
+          duration: 0.05
+        });
+      }
     }
   };
 
-  const handleTouchEnd = (e: React.TouchEvent) => {
+  const handleTouchEnd = (_e: React.TouchEvent) => {
     if (dragStart !== null) {
       const delta = lastDelta;
       if (Math.abs(delta) > 50) {
         if (delta > 0 && canPrev) {
-          prev();
+          swapQuote(currentIndex - 1, 'prev');
         } else if (delta < 0 && canNext) {
-          next();
+          swapQuote(currentIndex + 1, 'next');
         }
       } else {
-        gsap.to(quoteRef.current, {
-          opacity: 1,
-          duration: 0.3,
-          ease: "power2.out"
-        });
+        const currentEl = testimonialRefs.current[currentIndex];
+        if (currentEl) {
+          gsap.to(currentEl, {
+            opacity: 1,
+            duration: 0.3,
+            ease: "power2.out"
+          });
+        }
       }
       setDragStart(null);
       setLastDelta(0);
@@ -188,25 +212,35 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
           </button>
         </div>
       </div>
-       <p ref={quoteRef} className="font-inter-tight font-normal text-[1.875rem] lg:text-[2.5rem] leading-[2.5rem] lg:leading-[3.438rem] tracking-[-0.02em] lg:tracking-0 text-[#071C32] min-h-[20rem] sm:min-h-[17.5rem] lg:min-h-[13.75rem] cursor-grab">
-         {quote}
-       </p>
-          <div className="flex items-center gap-[1.25rem]">
-        {image && (
-          <Image
-            src={image}
-            alt={`Profile picture of ${author}`}
-            className="w-[3rem] h-[3rem] rounded-full object-cover"
-            width={48}
-            height={48}
-          />
-        )}
-      <div className="flex items-center gap-[1.25rem]">
-          <div className="w-[3.75rem] h-[0.0875rem] bg-[#E55B1E]"></div>
-          <span className="font-inter-tight font-medium text-[1.125rem] leading-[1.222] uppercase text-[#969799]">
-            {author}
-          </span>
-        </div>
+      <div className="relative min-h-[36rem] sm:min-h-[24rem] lg:min-h-[18rem]">
+        {testimonials.map((testimonial, index) => (
+          <div
+            key={index}
+            ref={(el) => { testimonialRefs.current[index] = el; }}
+            className="absolute top-0 left-0 w-full flex flex-col gap-[4rem]"
+          >
+            <p className="font-inter-tight font-normal text-[1.875rem] lg:text-[2.5rem] leading-[2.5rem] lg:leading-[3.438rem] tracking-[-0.02em] lg:tracking-0 text-[#071C32] cursor-grab">
+              {testimonial.quote}
+            </p>
+            <div className="flex items-center gap-[1.25rem]">
+              {testimonial.image && (
+                <Image
+                  src={testimonial.image}
+                  alt={`Profile picture of ${testimonial.author}`}
+                  className="w-[3rem] h-[3rem] rounded-full object-cover"
+                  width={48}
+                  height={48}
+                />
+              )}
+              <div className="flex items-center gap-[1.25rem]">
+                <div className="w-[3.75rem] h-[0.0875rem] bg-[#E55B1E]"></div>
+                <span className="font-inter-tight font-medium text-[1.125rem] leading-[1.222] uppercase text-[#969799]">
+                  {testimonial.author}
+                </span>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
