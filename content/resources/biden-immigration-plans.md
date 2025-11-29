@@ -15,7 +15,7 @@ twitterDescription: "During his first year in office, Joe Biden has faced persis
 twitterImage: "https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/news/biden-immigration-plans.webp"
 publishedTime: "2023-11-18T00:00:00.000Z"
 modifiedTime: "2023-11-18T00:00:00.000Z"
-readTime: "2 minutes"
+readTime: "2 min read"
 featured: false
 ---
 During his first year in office, Joe Biden has faced persistent challenges as his administration worked to reform U.S. immigration policy.

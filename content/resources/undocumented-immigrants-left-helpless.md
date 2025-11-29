@@ -15,7 +15,7 @@ twitterDescription: "Latest immigration news and updates from Tuan Le Law."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
-readTime: "2 minutes"
+readTime: "2 min read"
 ---
 Beginning last year, immigration officials were so overwhelmed that they admitted tens of thousands of migrants with documents that did not include the typical hearing dates. The change accelerated the process of releasing them into the country, but also made it much harder for the new arrivals to start applying for asylum — and for the government to track them.
 Months later, the government has not been able to complete the processing began at the border, showing how ill-prepared the system was for the surge and creating a practical and political quagmire for the Biden administration.

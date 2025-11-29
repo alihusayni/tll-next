@@ -6,7 +6,7 @@ interface LogoProps {
 }
 
 export default function Logo({ variant = 'White', className = '' }: LogoProps) {
-  const src = variant === 'Blue' ? '/assets/logo/Logo-Blue.png' : '/assets/logo/Logo-White.svg';
+  const src = variant === 'Blue' ? '/assets/logo/blue-logo+text.svg' : '/assets/logo/Logo-White.svg';
   return (
     <Image
       src={src}

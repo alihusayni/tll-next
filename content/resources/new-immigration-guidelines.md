@@ -15,7 +15,7 @@ twitterDescription: "Latest immigration news and updates from Tuan Le Law."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
-readTime: "2 minutes"
+readTime: "2 min read"
 ---
 New directions were transferred to immigration agents by Homeland Security Secretary Alejandro Mayorkas. He said that being undocumented should not be the only reason for detaining and deporting illegal immigrants.
 The new rules, which took effect on November 29, tell the Immigration and Customs Enforcement (ICE) officers to not arrest and deport the farmworkers, the elderly, and others who do not pose a threat to national security.

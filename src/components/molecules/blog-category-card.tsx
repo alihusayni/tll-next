@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 interface BlogCategoryCardProps {
   title: string;
@@ -20,6 +20,10 @@ export default function BlogCategoryCard({
   className = ''
 }: BlogCategoryCardProps) {
   const [img_src, set_img_src] = useState(image);
+
+  useEffect(() => {
+    set_img_src(image);
+  }, [image]);
 
   return (
     <Link

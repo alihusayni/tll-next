@@ -15,7 +15,7 @@ twitterDescription: "Latest immigration news and updates from Tuan Le Law."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
-readTime: "2 minutes"
+readTime: "2 min read"
 ---
 USCIS extended the time for petitioners who wants to show their evidence of status from 18 months to 24 months on Sept. 4, 2021. This only applies to petitioners who properly file these two forms:**
 Form I-751, Petition to Remove Conditions on Residence**

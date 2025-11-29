@@ -105,7 +105,7 @@ const TestimonialSection: React.FC = () => {
                  className="bg-[#E8EDF2] lg:py-32 lg:px-16 2xl:px-0 sm:py-15 sm:px-8 py-10 px-4 m-0 -scroll-mt-12">
             <div className="max-w-[86.5rem] mx-auto">
                 <div
-                    className="bg-white rounded-[1rem] lg:py-25 lg:px-47 sm:py-18 sm:px-10 py-16 px-5 flex flex-col gap-10 lg:gap-15 2xl:gap-28">
+                    className="bg-white rounded-[2rem] lg:py-25 lg:px-47 sm:py-18 sm:px-10 py-16 px-5 flex flex-col gap-10 lg:gap-15 2xl:gap-28">
                     <div ref={testimonialRef}>
                         <TestimonialCard
                             {...testimonials[currentIndex]}

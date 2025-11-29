@@ -15,7 +15,7 @@ twitterDescription: "Secure and Accelerate Your Immigration with tuan le, a Reno
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
-readTime: "30 minutes"
+readTime: "30 min read"
 featured: true
 ---
 

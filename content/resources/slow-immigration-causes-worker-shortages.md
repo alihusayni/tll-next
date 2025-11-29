@@ -15,7 +15,7 @@ twitterDescription: "Latest immigration news and updates from Tuan Le Law."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
-readTime: "2 minutes"
+readTime: "2 min read"
 ---
 International immigration has decreased since 2016. Part of it is because of the pandemic, but it started to decrease before the pandemic due to immigration policies. This has led to worker shortages in the United States.
 The factors behind this shortage might be the fear of infection, child care, or worker burnout, but less immigration has played a big role here. There were more than 1 million immigrants in 2016, which has declined to 247,000 immigrants this past year.

@@ -15,7 +15,7 @@ twitterDescription: "Latest immigration news and updates from Tuan Le Law."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
-readTime: "2 minutes"
+readTime: "2 min read"
 ---
 ​​​​​In 2018, the Trump administration issued a USCIS mission statement that omitted the "nation of immigrants" passage present in the agency's previous and long-standing mission statement.
 The Trump administration statement read, "U.S. Citizenship and Immigration Services administers the nation's lawful immigration system, safeguarding its integrity and promise by efficiently and fairly adjudicating requests for immigration benefits while protecting Americans, securing the homeland, and honoring our values."

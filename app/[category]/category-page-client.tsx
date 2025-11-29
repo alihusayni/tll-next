@@ -50,12 +50,13 @@ export default function CategoryPageClient({
   // Handle page change
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
-    
-    // Scroll to top of articles section
-    const articlesSection = document.getElementById('articles-section');
-    if (articlesSection) {
-      articlesSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+
+    // Scroll to top of page, accounting for sticky header
+    const headerHeight = 80; // Approximate header height
+    window.scrollTo({
+      top: headerHeight,
+      behavior: 'smooth'
+    });
   };
 
   // Handle category change

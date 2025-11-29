@@ -15,7 +15,7 @@ twitterDescription: "The Department of Justice has reached a settlement agreemen
 twitterImage: "https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/news/insurance-company-fined-for-immigration-discrimination.webp"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
-readTime: "2 minutes"
+readTime: "2 min read"
 ---
 The Department of Justice has reached a settlement agreement with James A. Scott & Son Inc., an insurance agency doing business as Scott Insurance headquartered in Lynchburg, Virginia.
 The Scott Insurance discriminated requested that the person present a specific document to prove his permission to work and rejected the valid document the worker showed.

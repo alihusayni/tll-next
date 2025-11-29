@@ -15,7 +15,7 @@ twitterDescription: "Latest immigration news and updates from Tuan Le Law."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
-readTime: "2 minutes"
+readTime: "2 min read"
 ---
 Secretary Alejandro Mayorkas told senators that the Department of Homeland Security has discontinued the process of releasing migrants in the United States only with paperwork that directs them to report to an Immigration and Customs Enforcement office.
 Many of the migrants arrested at the US-Mexico border are expelled, but some were released into the United States with a "notice to appear" paper. It means that they had to appear in court before an immigration judge.

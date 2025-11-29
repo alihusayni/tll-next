@@ -1,4 +1,5 @@
 import type {Testimonial} from '@/data/testimonials';
+import Image from 'next/image';
 
 interface TestimonialCardFullProps {
     testimonial: Testimonial;
@@ -28,14 +29,16 @@ export default function TestimonialCardFull({testimonial, onMouseEnter, onMouseL
             {/* Author Info */}
             <div className="flex items-center justify-between gap-4">
                 <div className="flex items-center gap-4 sm:gap-4">
-                    {/*<div className="relative w-16 h-16 sm:w-12 sm:h-12 rounded-full overflow-hidden flex-shrink-0">*/}
-                    {/*  <Image*/}
-                    {/*    src={testimonial.avatar}*/}
-                    {/*    alt={testimonial.author}*/}
-                    {/*    fill*/}
-                    {/*    className="object-cover"*/}
-                    {/*  />*/}
-                    {/*</div>*/}
+                    {testimonial.avatar !== "/" && (
+                        <div className="relative w-16 h-16 sm:w-12 sm:h-12 rounded-full overflow-hidden flex-shrink-0">
+                            <Image
+                                src={testimonial.avatar}
+                                alt={testimonial.author}
+                                fill
+                                className="object-cover"
+                            />
+                        </div>
+                    )}
                     <div className="flex flex-col gap-0">
                         <p className="font-inter font-normal text-lg leading-7 text-white">
                             {testimonial.author}
@@ -51,17 +54,17 @@ export default function TestimonialCardFull({testimonial, onMouseEnter, onMouseL
                     className="w-6 h-6 sm:w-5 sm:h-5 flex items-center justify-center flex-shrink-0 relative overflow-visible">
                     {/* Default: Arrow Right Up (Solar Icon Linear) */}
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                         className="w-6 h-6 sm:w-5 sm:h-5 absolute inset-0 transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)] opacity-100 group-hover:opacity-0 group-hover:rotate-[135deg] group-hover:scale-75 group-active:opacity-0 group-active:rotate-[135deg] group-active:scale-75">
+                         className="w-6 h-6 sm:w-5 sm:h-5 absolute inset-0 transition-all duration-700 ease-in-out opacity-100 group-hover:opacity-0 group-hover:rotate-[135deg] group-active:opacity-0 group-active:rotate-[135deg]">
                         <path d="M6 18L18 6M18 6H10M18 6V14" stroke="#969799" strokeWidth="1.5" strokeLinecap="round"
                               strokeLinejoin="round"
-                              className="transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)]"/>
+                              className="transition-all duration-700 ease-in-out"/>
                     </svg>
                     {/* Hover: Arrow Right (Solar Icon Linear) */}
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                         className="w-6 h-6 sm:w-5 sm:h-5 absolute inset-0 transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)] opacity-0 group-hover:opacity-100 group-active:opacity-100 -rotate-[135deg] group-hover:rotate-0 scale-75 group-hover:scale-100 group-active:rotate-0 group-active:scale-100">
+                         className="w-6 h-6 sm:w-5 sm:h-5 absolute inset-0 transition-all duration-700 ease-in-out opacity-0 group-hover:opacity-100 group-active:opacity-100 -rotate-[135deg] group-hover:rotate-0 group-active:rotate-0">
                         <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="white" strokeWidth="1.5" strokeLinecap="round"
                               strokeLinejoin="round"
-                              className="transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)]"/>
+                              className="transition-all duration-700 ease-in-out"/>
                     </svg>
                 </div>
             </div>

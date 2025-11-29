@@ -15,7 +15,7 @@ twitterDescription: "Latest immigration news and updates from Tuan Le Law."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
-readTime: "2 minutes"
+readTime: "2 min read"
 ---
 House Democrats are reviewing an immigration proposal that will benefit farmworkers and "dreamers" who were brought to the U.S. as children.
 If approved, the new law will benefit the immigrants who arrived in the U.S. before 2010.

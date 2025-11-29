@@ -15,7 +15,7 @@ twitterDescription: "Latest immigration news and updates from Tuan Le Law."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
-readTime: "2 minutes"
+readTime: "2 min read"
 ---
 The house has passed legislation that includes a path for the legalization of undocumented immigrants. It's a part of Biden's Build Back Better plan and moved to the Senate for approval.
 This program is the largest mass legalization in US history, but it is not a path to citizenship. About 7 million of 11 million undocumented immigrants would be able to apply for a work permit, permission to travel abroad, and a driving license.

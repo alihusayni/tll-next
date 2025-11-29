@@ -15,7 +15,7 @@ twitterDescription: "Latest immigration news and updates from Tuan Le Law."
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
-readTime: "2 minutes"
+readTime: "2 min read"
 ---
 ![Immigration detention center during COVID-19 pandemic](https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/news/covid-cases-increased-in-immigrants.webp)
 The number of coronavirus cases among immigrants in detention centers has increased by 520% since the start of the year, prompting calls for more vaccination and detainee releases.
