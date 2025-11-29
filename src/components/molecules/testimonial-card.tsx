@@ -180,6 +180,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
   return (
     <div
       className="flex flex-col gap-[4rem] select-none"
+      style={{ touchAction: 'none' }}
       onMouseDown={handleMouseDown}
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
@@ -217,7 +218,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
           <div
             key={index}
             ref={(el) => { testimonialRefs.current[index] = el; }}
-            className="absolute top-0 left-0 w-full flex flex-col gap-[4rem]"
+            className="absolute top-0 left-0 w-full flex flex-col gap-[4rem] opacity-0"
           >
             <p className="font-inter-tight font-normal text-[1.875rem] lg:text-[2.5rem] leading-[2.5rem] lg:leading-[3.438rem] tracking-[-0.02em] lg:tracking-0 text-[#071C32] cursor-grab">
               {testimonial.quote}

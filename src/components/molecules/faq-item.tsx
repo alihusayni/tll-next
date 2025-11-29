@@ -1,99 +1,70 @@
 "use client";
 
-import { useState, useRef } from 'react';
+import { useRef } from 'react';
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 
 interface FaqItemProps {
     question: string;
     answer: string;
-    defaultOpen?: boolean;
+    isOpen: boolean;
+    onToggle: () => void;
     className?: string;
 }
 
-export default function FaqItem({ question, answer, defaultOpen = false, className = "" }: FaqItemProps) {
-    const [isOpen, setIsOpen] = useState(defaultOpen);
+export default function FaqItem({ question, answer, isOpen, onToggle, className = "" }: FaqItemProps) {
     const contentRef = useRef<HTMLDivElement>(null);
     const answerRef = useRef<HTMLDivElement>(null);
-
-    const toggleOpen = () => {
-        setIsOpen(!isOpen);
-    };
 
     useGSAP(() => {
         const buttonRef = contentRef.current?.parentElement;
         const arrowIcon = buttonRef?.querySelector('svg');
-        
+
         if (contentRef.current && answerRef.current) {
             if (isOpen) {
-                // Bounce effect for opening
-                gsap.fromTo(contentRef.current, 
-                    { height: 0 },
-                    { 
-                        height: answerRef.current.offsetHeight,
-                        duration: 0.6,
-                        ease: "back.out(1.2)",
-                        force3D: true
-                    }
-                );
-                
-                // Staggered text reveal
-                gsap.fromTo(answerRef.current, 
-                    { opacity: 0, y: 20, scale: 0.95 },
-                    { 
-                        opacity: 1, 
-                        y: 0, 
-                        scale: 1,
-                        duration: 0.4, 
-                        delay: 0.2, 
+                // Open: fade and slide
+                gsap.set(contentRef.current, { height: 'auto', opacity: 0 });
+                const fullHeight = contentRef.current.scrollHeight;
+                gsap.fromTo(contentRef.current,
+                    { height: 0, opacity: 0 },
+                    {
+                        height: fullHeight,
+                        opacity: 1,
+                        duration: 0.35,
                         ease: "power2.out",
                         force3D: true
                     }
                 );
-                
-                // Elastic arrow rotation
+
+                // Simple arrow rotation
                 if (arrowIcon) {
                     gsap.to(arrowIcon, {
                         rotation: 180,
-                        duration: 0.5,
-                        ease: "elastic.out(1, 0.3)",
+                        duration: 0.3,
+                        ease: "power2.out",
                         force3D: true
                     });
                 }
             } else {
-                // Smooth closing
+                // Close: fade out and collapse
                 gsap.to(contentRef.current, {
                     height: 0,
-                    duration: 0.4,
-                    ease: "power2.inOut",
+                    opacity: 0,
+                    duration: 0.3,
+                    ease: "power2.out",
                     force3D: true
                 });
-                
-                // Elastic arrow rotation back
+
+                // Simple arrow rotation back
                 if (arrowIcon) {
                     gsap.to(arrowIcon, {
                         rotation: 0,
-                        duration: 0.4,
-                        ease: "elastic.out(1, 0.2)",
+                        duration: 0.3,
+                        ease: "power2.out",
                         force3D: true
                     });
                 }
             }
-        }
-
-        // Enhanced hover effects
-        if (buttonRef) {
-            const hoverTl = gsap.timeline({ paused: true });
-            
-            hoverTl.to(buttonRef, {
-                scale: 1.02,
-                duration: 0.3,
-                ease: "power2.out",
-                force3D: true
-            });
-            
-            buttonRef.addEventListener("mouseenter", () => hoverTl.play());
-            buttonRef.addEventListener("mouseleave", () => hoverTl.reverse());
         }
     }, { dependencies: [isOpen] });
 
@@ -102,7 +73,7 @@ export default function FaqItem({ question, answer, defaultOpen = false, classNa
             className={`bg-white/25 hover:bg-white rounded-lg cursor-pointer lg:rounded-[1rem] p-4 lg:p-8 w-full text-left ${className} ${
                 isOpen ? '!bg-white' : ''
             }`}
-            onClick={toggleOpen}
+            onClick={onToggle}
             aria-expanded={isOpen}
         >
             {/* Question/Title Section */}
@@ -116,9 +87,9 @@ export default function FaqItem({ question, answer, defaultOpen = false, classNa
                 {/* Arrow Icon */}
                 <div className="flex-shrink-0">
                     <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                         className="transform"

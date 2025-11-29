@@ -7,7 +7,7 @@ interface FooterNavColumnProps {
 
 export default function FooterNavColumn({ title, items }: FooterNavColumnProps) {
   return (
-    <div className={`flex pr-20 flex-col gap-4 ${title === '' ? 'max-w-[15rem]' : ''}`}>
+    <div className={`flex pr-0 sm:pr-20 flex-col gap-4 ${title === '' ? 'max-w-[15rem]' : ''}`}>
       {title && <h3 className="font-inter-tight font-semibold text-base uppercase text-[#969799]">{title}</h3>}
        <ul className={`flex flex-col ${title === '' ? 'gap-12' : 'gap-3'}`}>
         {items.map((item, index) => (

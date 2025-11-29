@@ -4,10 +4,11 @@ import FaqItem from '../molecules/faq-item';
 import { faqData } from '@/data/faq';
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 export default function FaqSection() {
     const sectionRef = useRef<HTMLDivElement>(null);
+    const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
     useGSAP(() => {
         if (sectionRef.current) {
@@ -45,6 +46,8 @@ export default function FaqSection() {
                             key={index}
                             question={faq.question}
                             answer={faq.answer}
+                            isOpen={activeIndex === index}
+                            onToggle={() => setActiveIndex(activeIndex === index ? null : index)}
                             className="faq-item"
                         />
                     ))}

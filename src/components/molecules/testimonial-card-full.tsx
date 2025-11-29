@@ -5,14 +5,26 @@ interface TestimonialCardFullProps {
     testimonial: Testimonial;
     onMouseEnter?: () => void;
     onMouseLeave?: () => void;
+    isDragging?: boolean;
+    justDragged?: boolean;
 }
 
-export default function TestimonialCardFull({testimonial, onMouseEnter, onMouseLeave}: TestimonialCardFullProps) {
+export default function TestimonialCardFull({testimonial, onMouseEnter, onMouseLeave, isDragging = false, justDragged = false}: TestimonialCardFullProps) {
+    const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+        if (justDragged) {
+            e.preventDefault();
+        }
+    };
+
     return (
-        <div
-            className="bg-[#000b1a] hover:bg-[#00356e] active:bg-[#00356e] rounded-[1.5rem] p-8 flex flex-col gap-8 min-w-[25rem] max-w-[28.75rem] w-[25rem] sm:w-[28.75rem] flex-shrink-0 transition-all duration-500 ease-in-out cursor-grab group"
+        <a
+            href={testimonial.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`bg-[#000b1a] hover:bg-[#00356e] active:bg-[#00356e] rounded-[1.5rem] p-8 flex flex-col gap-8 min-w-[25rem] max-w-[28.75rem] w-[25rem] sm:w-[28.75rem] flex-shrink-0 transition-all duration-500 ease-in-out group ${isDragging ? 'cursor-grabbing' : 'cursor-pointer'}`}
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
+            onClick={handleClick}
         >
             {/* Stars - 5 stars in a row (Solar Icons) */}
             <div className="relative h-5 w-32 flex-shrink-0 flex gap-0">
@@ -49,26 +61,27 @@ export default function TestimonialCardFull({testimonial, onMouseEnter, onMouseL
                     </div>
                 </div>
 
-                {/* Arrow Icon - Solar Icons - Smooth morphing transformation */}
-                <div
-                    className="w-6 h-6 sm:w-5 sm:h-5 flex items-center justify-center flex-shrink-0 relative overflow-visible">
-                    {/* Default: Arrow Right Up (Solar Icon Linear) */}
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                         className="w-6 h-6 sm:w-5 sm:h-5 absolute inset-0 transition-all duration-700 ease-in-out opacity-100 group-hover:opacity-0 group-hover:rotate-[135deg] group-active:opacity-0 group-active:rotate-[135deg]">
-                        <path d="M6 18L18 6M18 6H10M18 6V14" stroke="#969799" strokeWidth="1.5" strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="transition-all duration-700 ease-in-out"/>
-                    </svg>
-                    {/* Hover: Arrow Right (Solar Icon Linear) */}
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                         className="w-6 h-6 sm:w-5 sm:h-5 absolute inset-0 transition-all duration-700 ease-in-out opacity-0 group-hover:opacity-100 group-active:opacity-100 -rotate-[135deg] group-hover:rotate-0 group-active:rotate-0">
-                        <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="white" strokeWidth="1.5" strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="transition-all duration-700 ease-in-out"/>
+                {/* Simple Arrow Icon */}
+                <div className="w-6 h-6 sm:w-5 sm:h-5 flex items-center justify-center flex-shrink-0">
+                    <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-6 h-6 sm:w-5 sm:h-5 transition-transform duration-300 ease-in-out group-hover:rotate-45"
+                    >
+                        <path
+                            d="M7 17L17 7M17 7H7M17 7V17"
+                            stroke="#969799"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                        />
                     </svg>
                 </div>
             </div>
-        </div>
+        </a>
     );
 }
 

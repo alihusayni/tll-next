@@ -449,14 +449,6 @@ export const testimonials: Testimonial[] = [
         rating: 5,
     },
     {
-        quote: "Thank lawer Tuan Le help case truc xuat and I have nhap tich. Duoc roi",
-        author: "Tien Duong",
-        caseType: "Deportation Defense",
-        avatar: "/",
-        link: "https://share.google/7CR17w3CtlwaFuAO3",
-        rating: 5,
-    },
-    {
         quote: "Thank you very much Tuan Le for helping me and my family you done from your heart.. thank you",
         author: "Kim Le",
         caseType: "Legal Services",
