@@ -11,21 +11,21 @@ export default function CtaBox() {
       </div>
 
         {/* Background Image */}
-        <div className="absolute right-0 top-0 w-[24.3125rem] h-[23.5rem] not-prose bg-red-400">
+        <div className="absolute right-0 top-0 w-[30.3125rem] h-[23.5rem] not-prose bg-red-400">
         <Image
           src="/assets/blog/CTA_box_img.png"
           alt="Image depicting legal consultation and free advice services"
           fill
           className="not-prose object-cover object-top"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#000B1A] to-transparent not-prose"></div>
+        <div className="absolute inset-0 bg-gradient-to-r mix-blend-color from-[#000B1A] to-transparent not-prose"></div>
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex !items-center !py-[4.5rem] !pl-[5rem]">
+      <div className="relative z-10 flex !items-center !p-[2rem]">
         <div className="!flex-1">
           <h2 className="!text-[2.25rem] !font-inter-tight !font-semibold !text-white !leading-tight !mb-8 !mt-0 !tracking-[-0.025em]">
-            Mr. Le Grants You a <br/> 30-Minutes Free Consultation for Legal Advice
+            Mr. Le Grants You a 30-Minute Free Consultation for Legal Advice
           </h2>
             <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="group bg-[#E55B1E] text-white font-inter-tight font-semibold text-lg uppercase rounded-md hover:bg-[#FF7031] active:bg-[#FF7031] transition-all w-[13.25rem] h-[3.25rem] hover:w-[14.375rem] active:w-[14.375rem] flex items-center justify-start gap-4 pl-6">
              schedule now

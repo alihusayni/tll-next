@@ -39,7 +39,7 @@ export default function FaqSection() {
                 </div>
 
                 {/* FAQ Items List */}
-                <div className="flex flex-col gap-8 mt-8">
+                <div className="flex flex-col gap-4 mt-8">
                     {faqData.map((faq, index) => (
                         <FaqItem
                             key={index}

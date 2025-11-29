@@ -108,9 +108,7 @@ export default function FaqItem({ question, answer, defaultOpen = false, classNa
             {/* Question/Title Section */}
             <div className="flex items-center justify-between gap-2 w-full">
                 <h3 
-                    className={`flex-1 text-base sm:text-[1.375rem] leading-[1.688rem] sm:leading-[2rem] text-[#071C32] font-inter-tight ${
-                        isOpen ? 'font-semibold' : 'font-normal'
-                    }`}
+                    className={`flex-1 font-normal text-base sm:text-[1.375rem] leading-[1.688rem] sm:leading-[2rem] text-[#071C32] font-inter-tight`}
                 >
                     {question}
                 </h3>
@@ -144,7 +142,7 @@ export default function FaqItem({ question, answer, defaultOpen = false, classNa
                 <div className="mt-8 lg:mt-8 md:mt-8">
                     <div 
                         ref={answerRef}
-                        className="text-sm sm:text-lg leading-[1.25rem] sm:leading-[1.688rem] text-[#071C32] font-inter font-medium whitespace-pre-wrap"
+                        className="text-sm sm:text-lg leading-[1.25rem] sm:leading-[1.688rem] text-[#49535D] font-inter font-medium whitespace-pre-wrap"
                     >
                         {answer.split('\n\n').map((paragraph, index) => (
                             <p key={index} className={index > 0 ? 'mt-4' : ''}>
