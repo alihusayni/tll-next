@@ -6,7 +6,7 @@ export default function CertificationSection() {
   return (
     <section className="bg-[#00356E] py-16 px-4 md:py-24 sm:px-8 lg:py-32 lg:px-16 2xl:px-0 m-0">
       <div className="max-w-[86.5rem] mx-auto">
-        <h2 className="font-inter-tight text-[2.5rem] lg:text-[3.875rem] leading-[3.25rem] sm:leading-[3.25rem] max-w-[23.5rem] sm:max-w-[38.5rem] lg:max-w-[78.5rem] text-[#9199B9] text-center font-semibold mb-32 mx-auto">
+        <h2 className="font-inter-tight text-[2.5rem] lg:text-[3.875rem] leading-[3.25rem] sm:leading-[4.5rem] max-w-[23.5rem] sm:max-w-[38.5rem] lg:max-w-[78.5rem] text-[#9199B9] text-center font-semibold mb-32 mx-auto">
           Your Chances Are <span className="text-white" >Stronger</span> Than You Think &mdash; <span className="text-white">Protection</span> and <span className="text-white">Guidance</span> through Complexity
         </h2>
         <div className="flex flex-col xl:flex-row gap-16 max-w-[95rem] xl:items-center">

@@ -1,7 +1,6 @@
 'use client';
 
-import React, {useState, useRef} from 'react';
-import { gsap } from "gsap";
+import React, {useState} from 'react';
 import TestimonialCard from '../molecules/testimonial-card';
 
 interface TestimonialData {
@@ -47,58 +46,6 @@ const statistics = [
 
 const TestimonialSection: React.FC = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const testimonialRef = useRef<HTMLDivElement>(null);
-
-    const animateTransition = (direction: 'prev' | 'next') => {
-        const quoteElement = testimonialRef.current?.querySelector('p');
-        if (!quoteElement) return;
-        
-        const slideDirection = direction === 'prev' ? 30 : -30;
-        
-        gsap.fromTo(quoteElement,
-            {
-                opacity: 1,
-                x: 0
-            },
-            {
-                opacity: 0,
-                x: slideDirection,
-                duration: 0.3,
-                ease: "power2.inOut",
-                onComplete: () => {
-                    gsap.fromTo(quoteElement,
-                        {
-                            opacity: 0,
-                            x: -slideDirection
-                        },
-                        {
-                            opacity: 1,
-                            x: 0,
-                            duration: 0.3,
-                            ease: "power2.out"
-                        }
-                    );
-                }
-            }
-        );
-    };
-
-    const prev = () => {
-        if (currentIndex > 0) {
-            animateTransition('prev');
-            setCurrentIndex(currentIndex - 1);
-        }
-    };
-
-    const next = () => {
-        if (currentIndex < testimonials.length - 1) {
-            animateTransition('next');
-            setCurrentIndex(currentIndex + 1);
-        }
-    };
-
-    const canPrev = currentIndex > 0;
-    const canNext = currentIndex < testimonials.length - 1;
 
     return (
         <section id="testimonials"
@@ -106,15 +53,13 @@ const TestimonialSection: React.FC = () => {
             <div className="max-w-[86.5rem] mx-auto">
                 <div
                     className="bg-white rounded-[2rem] lg:py-25 lg:px-47 sm:py-18 sm:px-10 py-16 px-5 flex flex-col gap-10 lg:gap-15 2xl:gap-28">
-                    <div ref={testimonialRef}>
-                        <TestimonialCard
-                            {...testimonials[currentIndex]}
-                            onPrev={prev}
-                            onNext={next}
-                            canPrev={canPrev}
-                            canNext={canNext}
-                        />
-                    </div>
+                     <div>
+                         <TestimonialCard
+                             testimonials={testimonials}
+                             currentIndex={currentIndex}
+                             setCurrentIndex={setCurrentIndex}
+                         />
+                     </div>
                     <div className="hidden sm:block">
                         <div className="flex justify-center gap-4 sm:gap-8 md:gap-12 lg:gap-20">
                             {statistics.map((stat, index) => (

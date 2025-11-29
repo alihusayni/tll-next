@@ -128,14 +128,14 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
             {item.subItems && openDropdown === item.href && (
               <div className="rounded-lg mx-4 mb-4 p-8">
                 {item.subItems.map((subItem) => (
-                   <NavLink
-                      key={subItem.href}
-                      href={subItem.href}
-                      className="block text-[#D2D5D9] font-inter font-normal leading-5 mb-6 last:mb-0 hover:text-[#FF7031] active:text-[#FF7031] transition-colors"
-                      onClick={handleDropdownItemClick}
-                      showUnderline={false}
-                      textSize="base"
-                    >
+                    <NavLink
+                       key={subItem.href}
+                       href={subItem.href}
+                       className="block text-[#D2D5D9] font-inter font-normal leading-5 mb-6 last:mb-0 hover:text-[#FF7031] active:text-[#FF7031] transition-colors text-base md:text-2xl"
+                       onClick={handleDropdownItemClick}
+                       showUnderline={false}
+                       textSize="base"
+                     >
                     {subItem.label}
                   </NavLink>
                 ))}

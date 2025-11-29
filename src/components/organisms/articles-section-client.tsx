@@ -47,16 +47,40 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
 
   const smoothScroll = (direction: 'left' | 'right') => {
     if (!scrollRef.current) return;
-    
+
     // Cancel any existing momentum/scroll animation
     if (rAFRef.current) cancelAnimationFrame(rAFRef.current);
 
-    const start = scrollRef.current.scrollLeft;
-    const amount = 400;
-    const target = direction === 'left' 
-      ? Math.max(0, start - amount) 
-      : Math.min(scrollRef.current.scrollWidth - scrollRef.current.clientWidth, start + amount);
-    const distance = target - start;
+    const firstCard = scrollRef.current.children[0] as HTMLElement;
+    if (!firstCard) return;
+
+    const cardWidth = firstCard.offsetWidth;
+    const containerStyle = getComputedStyle(scrollRef.current);
+    const gapValue = parseFloat(containerStyle.gap) || 0;
+    const { scrollLeft, clientWidth, scrollWidth } = scrollRef.current;
+
+    // Calculate card centers
+    const cardSpacing = cardWidth + gapValue;
+    const containerCenter = scrollLeft + clientWidth / 2;
+
+    // Find current centered card index
+    let currentIndex = Math.round((containerCenter - cardWidth / 2) / cardSpacing);
+    currentIndex = Math.max(0, Math.min(currentIndex, articles.length - 1));
+
+    // Determine target index
+    const targetIndex = direction === 'left'
+      ? Math.max(0, currentIndex - 1)
+      : Math.min(articles.length - 1, currentIndex + 1);
+
+    // Calculate target scroll position to center the target card
+    const targetCardCenter = targetIndex * cardSpacing + cardWidth / 2;
+    const targetScroll = targetCardCenter - clientWidth / 2;
+
+    // Clamp to bounds
+    const clampedTarget = Math.max(0, Math.min(targetScroll, scrollWidth - clientWidth));
+
+    const start = scrollLeft;
+    const distance = clampedTarget - start;
     const duration = 500; // ms
     const startTime = performance.now();
 
@@ -64,13 +88,13 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
 
     const animateScroll = (currentTime: number) => {
       if (!scrollRef.current) return;
-      
+
       const elapsed = currentTime - startTime;
       const progress = Math.min(elapsed / duration, 1);
       const ease = easeOutQuart(progress);
-      
+
       scrollRef.current.scrollLeft = start + (distance * ease);
-      
+
       if (progress < 1) {
         rAFRef.current = requestAnimationFrame(animateScroll);
       }
@@ -154,7 +178,7 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
                 Latest Articles
               </h1>
             </div>
-            <LinkButton text="See All Articles" href="/resources" textColor="text-[#49535D]" className="self-end" />
+            <LinkButton text="See All Articles" href="/resources" textColor="text-[#49535D]" />
           </div>
           <div className="flex flex-col gap-16">
             <div

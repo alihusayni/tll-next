@@ -53,7 +53,7 @@ export default function BlogCategoryCard({
           <p className="font-inter font-normal text-[0.875rem] leading-[1.71] text-[#747D85]">
             {date}
           </p>
-          <div className="h-5 w-[1px] bg-[#BBBCBF]" />
+          <div className="h-5 w-[0.063rem] bg-[#BBBCBF]" />
           <p className="font-inter font-normal text-[0.875rem] leading-[1.71] text-[#747D85]">
             {readTime}
           </p>

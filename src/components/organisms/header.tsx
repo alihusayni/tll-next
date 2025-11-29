@@ -4,6 +4,8 @@ import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { createPortal } from 'react-dom';
 import { Icon } from '@iconify/react';
+import { gsap } from 'gsap';
+import { useGSAP } from '@gsap/react';
 import Logo from '../atoms/logo';
 import MainNav from '../molecules/main-nav';
 import HamburgerMenu from '../atoms/hamburger-menu';
@@ -15,19 +17,38 @@ interface HeaderProps {
   showMobileMenu?: boolean;
 }
 
-export default function Header({ 
-  variant = 'transparent', 
+export default function Header({
+  variant = 'transparent',
   className = '',
   maxWidth = true,
   showMobileMenu = true
 }: HeaderProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+  const [isAnimatingClose, setIsAnimatingClose] = useState(false);
   const [show, setShow] = useState(false);
   const [isNavigating, setIsNavigating] = useState(false);
   const lastScrollY = useRef(0);
+  const mobileMenuRef = useRef<HTMLDivElement>(null);
 
   const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
+    if (isMobileMenuOpen) {
+      // Start closing animation
+      setIsAnimatingClose(true);
+      gsap.to(mobileMenuRef.current, {
+        height: 0,
+        duration: 0.5,
+        ease: 'power2.in',
+        onComplete: () => {
+          setIsMobileMenuOpen(false);
+          setIsMenuVisible(false);
+          setIsAnimatingClose(false);
+        }
+      });
+    } else {
+      setIsMobileMenuOpen(true);
+      setTimeout(() => setIsMenuVisible(true), 300);
+    }
   };
 
   // Prevent body scroll when mobile menu is open
@@ -43,6 +64,14 @@ export default function Header({
       document.body.classList.remove('mobile-menu-open');
     };
   }, [isMobileMenuOpen]);
+
+  // Animate mobile menu opening
+  useGSAP(() => {
+    if (isMenuVisible && mobileMenuRef.current && !isAnimatingClose) {
+      gsap.set(mobileMenuRef.current, { height: 0 });
+      gsap.to(mobileMenuRef.current, { height: '100vh', duration: 0.5, ease: 'power2.out' });
+    }
+  }, [isMenuVisible]);
 
   // Sticky header scroll behavior
   useEffect(() => {
@@ -130,11 +159,11 @@ export default function Header({
       </header>
 
       {/* Mobile Menu Overlay - Rendered at document root */}
-      {isMobileMenuOpen && createPortal(
-        <div className="lg:hidden mobile-menu-overlay" style={{ backgroundColor: '#00356E' }}>
+      {(isMenuVisible || isAnimatingClose) && createPortal(
+        <div ref={mobileMenuRef} className="lg:hidden mobile-menu-overlay" style={{ backgroundColor: 'rgba(0, 53, 110, 0.9)', overflow: 'hidden', minHeight: '0px' }}>
           <div className="flex flex-col h-full py-8 min-h-screen">
             {/* Header with Logo and Close Button */}
-            <div className="flex justify-between items-center px-8 mb-16">
+            <div className="flex justify-between items-center px-4 sm:px-8 mb-16">
               <Link href="/"><Logo variant="White" /></Link>
               <button
                 onClick={toggleMobileMenu}
@@ -148,7 +177,7 @@ export default function Header({
             </div>
             
             {/* Menu Items */}
-            <div className="flex-1 px-4">
+            <div className="flex-1 px-0 sm:px-4">
               <MainNav 
                 className="flex flex-col gap-2"
                 onItemClick={toggleMobileMenu}

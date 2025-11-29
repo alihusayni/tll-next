@@ -175,7 +175,7 @@ export default function ContactForm() {
         name="website"
         autoComplete="off"
         tabIndex={-1}
-        className="absolute -left-[5000px] -top-[5000px] w-[1px] h-[1px] opacity-0 overflow-hidden"
+        className="absolute -left-[5000px] -top-[5000px] w-[0.063rem] h-[0.063rem] opacity-0 overflow-hidden"
         aria-hidden="true"
       />
 

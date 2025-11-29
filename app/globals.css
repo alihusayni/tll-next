@@ -106,8 +106,7 @@ body {
   right: 0 !important;
   bottom: 0 !important;
   width: 100vw !important;
-  height: 100vh !important;
-  background-color: #00356E !important;
+  background-color: rgba(0, 53, 110, 0.9) !important;
   z-index: 99999 !important;
   overflow: hidden !important;
   backdrop-filter: none !important;

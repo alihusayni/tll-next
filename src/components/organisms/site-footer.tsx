@@ -28,7 +28,7 @@ export default function SiteFooter({className = ''}: SiteFooterProps) {
                         <p className="font-inter text-lg text-[#071C32] leading-7 max-w-[18rem]">We are the
                             Employment Law Center of Orange County CA.</p>
                     </div>
-                    <div className="flex flex-wrap gap-8">
+                    <div className="flex flex-wrap gap-8 sm:gap-32">
                         <div className="flex flex-col gap-8">
                             <div className="flex flex-col gap-4">
                                 <h3 className="font-inter-tight font-semibold text-base uppercase text-[#969799]">Address</h3>
