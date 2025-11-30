@@ -74,7 +74,6 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
         { href: '/us-visas', label: 'US Visas' },
         { href: '/us-nonimmigrant-visas', label: 'US Nonimmigrant Visas' },
         { href: '/us-immigrant-visas', label: 'US Immigrant Visas' },
-        { href: '/citizenship-naturalization', label: 'Citizenship Naturalization' },
         { href: '/asylum-humanitarian-relief', label: 'Asylum Humanitarian Relief' }
       ]
     }

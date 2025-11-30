@@ -212,24 +212,26 @@ export function getArticlesByCategory(category: string): Content[] {
 export function getContentCategories(): Array<{ id: string; label: string }> {
   const allContent = getAllContent();
   const categorySet = new Set<string>();
-  
+
   allContent.forEach(content => {
     if (content.meta.publishedTime) {
       const topLevelFolder = content.slug.split('/')[0];
       categorySet.add(topLevelFolder);
     }
   });
-  
-  const categories = Array.from(categorySet).map(cat => ({
-    id: cat,
-    label: cat.split('-').map(word => 
-      word.charAt(0).toUpperCase() + word.slice(1)
-    ).join(' ')
-  }));
-  
+
+  const categories = Array.from(categorySet)
+    .filter(cat => cat !== 'citizenship-naturalization' && cat !== 'deportation-defense')
+    .map(cat => ({
+      id: cat,
+      label: cat.split('-').map(word =>
+        word.charAt(0).toUpperCase() + word.slice(1)
+      ).join(' ')
+    }));
+
   // Sort alphabetically by label
   categories.sort((a, b) => a.label.localeCompare(b.label));
-  
+
   // Add "All Articles" at the beginning
   return [
     { id: 'all-articles', label: 'All Articles' },
