@@ -44,9 +44,8 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
       }
     );
 
-    // Observe only h2 headings
-    const h2Headings = headings.filter((h) => h.level >4);
-    h2Headings.forEach((heading) => {
+    // Observe all headings
+    headings.forEach((heading) => {
       const element = document.getElementById(heading.id);
       if (element) {
         observer.observe(element);
@@ -65,8 +64,8 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
     }
   };
 
-  // Filter to only show h2 headings
-  const tocHeadings = headings.filter((h) => h.level>4);
+  // Show all headings
+  const tocHeadings = headings;
 
   if (tocHeadings.length === 0) {
     return null;
@@ -81,10 +80,15 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
         <nav className="flex flex-col gap-4">
           {tocHeadings.map((heading) => {
             const isActive = activeId === heading.id;
+            // Calculate indentation based on heading level (h1=0, h2=1rem, h3=2rem, etc.)
+            const indentLevel = Math.max(0, heading.level - 1);
+            const paddingLeft = indentLevel * 1; // 1rem per level
+            
             return (
               <button
                 key={heading.id}
                 onClick={() => scrollToHeading(heading.id)}
+                style={{ paddingLeft: `${paddingLeft}rem` }}
                 className={`
                   text-left text-sm leading-5 tracking-[-0.0175rem] transition-colors whitespace-normal break-words
                   ${isActive 
