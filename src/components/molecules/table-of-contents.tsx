@@ -44,8 +44,9 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
       }
     );
 
-    // Observe all headings
-    headings.forEach((heading) => {
+    // Observe h1, h2, and h3 headings
+    const filteredHeadings = headings.filter((h) => h.level <= 3);
+    filteredHeadings.forEach((heading) => {
       const element = document.getElementById(heading.id);
       if (element) {
         observer.observe(element);
@@ -64,8 +65,8 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
     }
   };
 
-  // Show all headings
-  const tocHeadings = headings;
+  // Show only h1, h2, and h3 headings
+  const tocHeadings = headings.filter((h) => h.level <= 3);
 
   if (tocHeadings.length === 0) {
     return null;
