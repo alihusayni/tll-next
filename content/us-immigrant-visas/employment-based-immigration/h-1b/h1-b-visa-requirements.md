@@ -211,5 +211,5 @@ Whether you are an applicant or an employer, the H1B visa process can be confusi
 you with it. In this way, you will avoid getting rejected for technical reasons. Our accomplished H1B visa lawyer Orange
 County, CA can help you at any stage of the process or for the extension. If you are not in the region, you can always
 call us at [(714) 877-5840](tel:+1-714-877-5840) for a free consultation about the H1B visa requirements and application.
-Check out our [other blog here](https://www.tuanlelaw.com/business-and-employment-immigration/) to learn more about other
+Check out our [other blog here](/us-immigrant-visas/employment-based-immigration/eb-2) to learn more about other
 types of visas suitable for employees.

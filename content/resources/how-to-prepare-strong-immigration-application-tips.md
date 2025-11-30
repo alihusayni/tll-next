@@ -128,7 +128,7 @@ The green card application process can seem overwhelming, but following the righ
 application is handled correctly. Here is how to apply for a green card successfully.
 
 #### Determine Your Category
-[Green card applications](https://www.tuanlelaw.com/consular-processing-to-get-your-green-card/) are
+[Green card applications](/us-immigrant-visas/consular-processing) are
 categorized based on different criteria such as family-based, employment-based, or refugee status. Understanding which
 category applies to you is the first step in the application process. Visit
 the [USCIS Green Card Eligibility page](https://www.uscis.gov/green-card/green-card-eligibility-categories)
@@ -218,7 +218,7 @@ Hiring a local immigration lawyer, like Tuan Le Law in Orange County, CA, can be
 understands the specific immigration trends, policies, and nuances in your region, which can make a significant
 difference in the application process. Plus, having a local point of contact makes it easier to meet in person for
 consultations or document submissions Choosing the right immigration lawyer is a vital step in securing your future in the United States.
-At [Tuan Le Law](https://www.tuanlelaw.com/immigration/), we provide personalized, expert legal services to help you
+At [Tuan Le Law](/), we provide personalized, expert legal services to help you
 navigate the immigration process with confidence. Contact us today to schedule a consultation and take the first step
 toward a successful immigration application.
 

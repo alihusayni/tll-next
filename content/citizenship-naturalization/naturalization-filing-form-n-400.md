@@ -19,7 +19,7 @@ readTime: "8 min read"
 ---
 
 In our previous
-article,[Paths to Become a US Citizen](https://www.tuanlelaw.com/become-u-s-citizen-explained-citizenship-lawyer/), we
+article,[Paths to Become a US Citizen](/citizenship-naturalization/become-a-us-citizen), we
 discussed the two main ways of becoming a US citizen; through birth or naturalization process. Today, we are going
 through the naturalization process step by step to guide you on your way to becoming a US citizen.
 Generally, those who have been green card holders for at least 5 years (3 years for those applicants who are married to
@@ -66,8 +66,8 @@ This is a 20-page form that requires different information, such as personal inf
 information about your residence, and much more. Filling out the form can be confusing, which is why you are better off
 getting a citizenship attorney to do it for you. In this case, you will not worry if your case gets rejected because of
 providing the wrong information or any other misfortune.
-You can see the latest version of [Form N-400](https://www.tuanlelaw.com/wp-content/uploads/doc/n-400.pdf) here in PDF
-and [It's instructions](https://www.tuanlelaw.com/wp-content/uploads/doc/n-400instr.pdf).
+You can see the latest version of [Form N-400](https://www.uscis.gov/sites/default/files/document/forms/n-400.pdf) here in PDF
+and [It's instructions](https://www.uscis.gov/sites/default/files/document/forms/n-400instr.pdf).
 
 #### *Documents Required to Submit with Your Form N-400*
 
@@ -89,7 +89,7 @@ The necessary supporting documents for the naturalization process include
 
 When you want to submit your Form N-400, you have to pay a total of $725.
 Of course, some can get a fee reduction or waiver.
-Our [Paths to Become a US Citizen](https://www.tuanlelaw.com/become-u-s-citizen-explained-citizenship-lawyer/) article
+Our [Paths to Become a US Citizen](/citizenship-naturalization/become-a-us-citizen) article
 has more information about who is exempt from the fee and how to request a fee reduction.
 
 #### *Tips for Submitting Your Naturalization Application*
@@ -131,7 +131,7 @@ questions about the same information.
 #### *What Is the Naturalization Test?*
 
 Those who are not exempt from the naturalization test (see
-the [Naturalization Requirements here](https://www.tuanlelaw.com/become-u-s-citizen-explained-citizenship-lawyer/) for
+the [Naturalization Requirements here](/citizenship-naturalization/become-a-us-citizen) for
 more information) must pass a two-part exam. The first part evaluates your English skills, including speaking, reading,
 and writing.
 The second part is called the Civics Test and to pass this part, you have to have a basic knowledge of U.S. history and
