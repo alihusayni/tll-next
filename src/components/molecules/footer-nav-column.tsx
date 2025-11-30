@@ -14,7 +14,7 @@ export default function FooterNavColumn({ title, items }: FooterNavColumnProps) 
           <li key={index} className="flex flex-col gap-2">
             {item.label && <span className="font-inter-tight font-semibold text-base uppercase text-[#969799]">{item.label}</span>}
               {item.href ? (
-                 <Link href={item.href} className="flex justify-between items-center group font-inter text-base text-[#49535D] hover:text-[#FF7031] active:text-[#FF7031] transition-colors">
+                  <Link href={item.href} className="flex items-center gap-2 group font-inter text-base text-[#49535D] hover:text-[#FF7031] active:text-[#FF7031] transition-colors">
                   <span>{item.text}</span>
                   <svg
                     width="28"
