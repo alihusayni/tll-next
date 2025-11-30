@@ -47,10 +47,10 @@ function extractExcerpt(content: string, maxLength: number = 200): string {
 // Generate static paths for all categories
 export async function generateStaticParams() {
   const categories = getContentCategories();
-  
-  // Filter out 'all-articles' and map to params
+
+  // Filter out 'all-articles' and 'resources' (handled by static route) and map to params
   return categories
-    .filter(cat => cat.id !== 'all-articles')
+    .filter(cat => cat.id !== 'all-articles' && cat.id !== 'resources')
     .map(cat => ({
       category: cat.id,
     }));
@@ -103,7 +103,12 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
   const { category } = await params;
-  
+
+  // Exclude "resources" from dynamic routing (handled by static route)
+  if (category === 'resources') {
+    notFound();
+  }
+
   // Check if category is valid
   if (!isValidCategory(category)) {
     notFound();
