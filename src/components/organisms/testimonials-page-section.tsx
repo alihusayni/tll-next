@@ -30,10 +30,10 @@ export default function TestimonialsPageSection() {
   const firstRow = testimonials.slice(0, 30);
   const secondRow = testimonials.slice(30, 60);
 
-  // Helper function to wrap items for infinite loop
+  // Helper function to wrap items for infinite loop (used during dragging)
   const wrapItems = (container: HTMLElement, direction: 'left' | 'right') => {
     const items = container.children;
-    const containerWidth = container.scrollWidth / 3; // Since content is tripled
+    const containerWidth = container.scrollWidth / 4; // Since content is quadrupled
 
     for (let i = 0; i < items.length; i++) {
       const item = items[i] as HTMLElement;
@@ -43,12 +43,12 @@ export default function TestimonialsPageSection() {
       if (direction === 'left') {
         // For left-moving row
         if (itemX < -containerWidth - itemWidth) {
-          gsap.set(item, { x: itemX + containerWidth * 3 });
+          gsap.set(item, { x: itemX + containerWidth * 4 });
         }
       } else {
         // For right-moving row
         if (itemX > containerWidth + itemWidth) {
-          gsap.set(item, { x: itemX - containerWidth * 3 });
+          gsap.set(item, { x: itemX - containerWidth * 4 });
         }
       }
     }
@@ -59,22 +59,26 @@ export default function TestimonialsPageSection() {
 
     // Set initial positions for both rows first
     if (firstRowRef.current) {
-      gsap.set(firstRowRef.current, { x: 0 });
+      const firstRowWidth = firstRowRef.current.scrollWidth / 4;
+      gsap.set(firstRowRef.current, { x: -firstRowWidth }); // Start in the middle with buffer on both sides
     }
     if (secondRowRef.current) {
-      const secondRowWidth = secondRowRef.current.scrollWidth / 3;
-      gsap.set(secondRowRef.current, { x: -secondRowWidth * 2 }); // Start from the end for right-moving carousel
+      const secondRowWidth = secondRowRef.current.scrollWidth / 4;
+      gsap.set(secondRowRef.current, { x: -secondRowWidth * 2 }); // Start in the middle with buffer on both sides
     }
 
     // First row - moves left
     if (firstRowRef.current) {
       const firstRowContent = firstRowRef.current;
-      const firstRowWidth = firstRowContent.scrollWidth / 3; // Width of one set of cards
+      const firstRowWidth = firstRowContent.scrollWidth / 4; // Width of one set of cards
 
       // Auto-rotation ticker
       firstRowTickerRef.current = () => {
-        gsap.set(firstRowContent, { x: `-=${speed}` });
-        wrapItems(firstRowContent, 'left');
+        const currentX = gsap.getProperty(firstRowContent, "x") as number;
+        gsap.set(firstRowContent, { x: currentX - speed });
+        if (currentX <= -firstRowWidth * 2) {
+          gsap.set(firstRowContent, { x: -firstRowWidth });
+        }
       };
 
       // Create draggable for first row
@@ -88,13 +92,6 @@ export default function TestimonialsPageSection() {
           gsap.set(firstRowContent, { cursor: 'grabbing' });
         },
         onDrag() {
-          const currentX = gsap.getProperty(firstRowContent, "x") as number;
-          // Clamp to prevent dragging beyond one set of cards
-          if (currentX < -firstRowWidth) {
-            gsap.set(firstRowContent, { x: -firstRowWidth });
-          } else if (currentX > 0) {
-            gsap.set(firstRowContent, { x: 0 });
-          }
           wrapItems(firstRowContent, 'left');
         },
         onRelease() {
@@ -112,12 +109,15 @@ export default function TestimonialsPageSection() {
     // Second row - moves right
     if (secondRowRef.current) {
       const secondRowContent = secondRowRef.current;
-      const secondRowWidth = secondRowContent.scrollWidth / 3; // Width of one set of cards
+      const secondRowWidth = secondRowContent.scrollWidth / 4; // Width of one set of cards
 
       // Auto-rotation ticker
       secondRowTickerRef.current = () => {
-        gsap.set(secondRowContent, { x: `+=${speed}` });
-        wrapItems(secondRowContent, 'right');
+        const currentX = gsap.getProperty(secondRowContent, "x") as number;
+        gsap.set(secondRowContent, { x: currentX + speed });
+        if (currentX >= -secondRowWidth) {
+          gsap.set(secondRowContent, { x: -secondRowWidth * 2 });
+        }
       };
 
       // Create draggable for second row
@@ -131,13 +131,6 @@ export default function TestimonialsPageSection() {
           gsap.set(secondRowContent, { cursor: 'grabbing' });
         },
         onDrag() {
-          const currentX = gsap.getProperty(secondRowContent, "x") as number;
-          // Clamp to prevent dragging beyond one set of cards
-          if (currentX < -secondRowWidth * 2) {
-            gsap.set(secondRowContent, { x: -secondRowWidth * 2 });
-          } else if (currentX > -secondRowWidth) {
-            gsap.set(secondRowContent, { x: -secondRowWidth });
-          }
           wrapItems(secondRowContent, 'right');
         },
         onRelease() {
@@ -252,15 +245,24 @@ export default function TestimonialsPageSection() {
                    justDragged={justDragged}
                  />
                ))}
-               {/* Second duplicate cards for seamless loop */}
-               {firstRow.map((testimonial, index) => (
-                 <TestimonialCardFull
-                   key={`first-dup2-${index}`}
-                   testimonial={testimonial}
-                   isDragging={isAnyDragging}
-                   justDragged={justDragged}
-                 />
-               ))}
+                {/* Second duplicate cards for seamless loop */}
+                {firstRow.map((testimonial, index) => (
+                  <TestimonialCardFull
+                    key={`first-dup2-${index}`}
+                    testimonial={testimonial}
+                    isDragging={isAnyDragging}
+                    justDragged={justDragged}
+                  />
+                ))}
+                {/* Third duplicate cards for seamless loop */}
+                {firstRow.map((testimonial, index) => (
+                  <TestimonialCardFull
+                    key={`first-dup3-${index}`}
+                    testimonial={testimonial}
+                    isDragging={isAnyDragging}
+                    justDragged={justDragged}
+                  />
+                ))}
             </div>
           </div>
 
@@ -289,15 +291,24 @@ export default function TestimonialsPageSection() {
                    justDragged={justDragged}
                  />
                ))}
-               {/* Second duplicate cards for seamless loop */}
-               {secondRow.map((testimonial, index) => (
-                 <TestimonialCardFull
-                   key={`second-dup2-${index}`}
-                   testimonial={testimonial}
-                   isDragging={isAnyDragging}
-                   justDragged={justDragged}
-                 />
-               ))}
+                {/* Second duplicate cards for seamless loop */}
+                {secondRow.map((testimonial, index) => (
+                  <TestimonialCardFull
+                    key={`second-dup2-${index}`}
+                    testimonial={testimonial}
+                    isDragging={isAnyDragging}
+                    justDragged={justDragged}
+                  />
+                ))}
+                {/* Third duplicate cards for seamless loop */}
+                {secondRow.map((testimonial, index) => (
+                  <TestimonialCardFull
+                    key={`second-dup3-${index}`}
+                    testimonial={testimonial}
+                    isDragging={isAnyDragging}
+                    justDragged={justDragged}
+                  />
+                ))}
             </div>
           </div>
         </div>
