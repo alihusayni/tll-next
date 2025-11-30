@@ -1,6 +1,7 @@
 import Logo from '../atoms/logo';
 import FooterNavColumn from '../molecules/footer-nav-column';
 import CopyrightBar from '../molecules/copyright-bar';
+import Link from "next/link";
 
 interface SiteFooterProps {
     className?: string;
@@ -33,7 +34,9 @@ export default function SiteFooter({className = ''}: SiteFooterProps) {
                             </div>
                             <div className="flex flex-col gap-4">
                                 <h3 className="font-inter-tight font-semibold text-base uppercase text-[#969799]">Phone</h3>
-                                <span className="font-inter text-base text-[#071C32]">(714) 584-6741</span>
+                                <Link href="tel:(714) 877 5840"
+                                      className="font-inter text-base text-[#071C32] hover:text-[#e55b1e] transition-colors">(714)
+                                    584-6741</Link>
                             </div>
                         </div>
                         <FooterNavColumn title="Practices" items={practicesItems}/>

@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/family-based-immigration"
 ogTitle: "Understanding Family-based immigration"
 ogDescription: "Discover the essentials of family-based immigration to the USA, visa types, and application steps, with Tuan Le Law Office in OC, CA."
-ogImage: https://www.tuanlelaw.com//files/shares/BlogImage/family-with-daughter-holding-passports-luggage-ready-travel-2.jpg
+ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/family-with-daughter-holding-passports-luggage-ready-travel-2.webp
 twitterCard: "summary_large_image"
 twitterTitle: "Understanding Family-based immigration"
 twitterDescription: "Discover the essentials of family-based immigration to the USA, visa types, and application steps, with Tuan Le Law Office in OC, CA."
@@ -29,7 +29,7 @@ various visa types, underscoring the need for expert legal advice to smoothly tr
 ensure family reunification.
 Are you ready to reunite with your family in the United States? The dedicated lawyer at Tuan Le Law Office is here to
 guide you through the family immigration visa process. With our expertise, well ensure that your loved ones can join you
-in the U.S. legally and with ease.[Contact](tel:+1-714-877-5840)Tuan Le Law Office today.
+in the U.S. legally and with ease. [Contact](tel:+1-714-877-5840)Tuan Le Law Office today.
 
 ## **What Is Family-based immigration?**
 

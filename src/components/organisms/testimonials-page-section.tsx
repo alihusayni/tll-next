@@ -69,6 +69,7 @@ export default function TestimonialsPageSection() {
     // First row - moves left
     if (firstRowRef.current) {
       const firstRowContent = firstRowRef.current;
+      const firstRowWidth = firstRowContent.scrollWidth / 3; // Width of one set of cards
 
       // Auto-rotation ticker
       firstRowTickerRef.current = () => {
@@ -87,6 +88,13 @@ export default function TestimonialsPageSection() {
           gsap.set(firstRowContent, { cursor: 'grabbing' });
         },
         onDrag() {
+          const currentX = gsap.getProperty(firstRowContent, "x") as number;
+          // Clamp to prevent dragging beyond one set of cards
+          if (currentX < -firstRowWidth) {
+            gsap.set(firstRowContent, { x: -firstRowWidth });
+          } else if (currentX > 0) {
+            gsap.set(firstRowContent, { x: 0 });
+          }
           wrapItems(firstRowContent, 'left');
         },
         onRelease() {
@@ -104,6 +112,7 @@ export default function TestimonialsPageSection() {
     // Second row - moves right
     if (secondRowRef.current) {
       const secondRowContent = secondRowRef.current;
+      const secondRowWidth = secondRowContent.scrollWidth / 3; // Width of one set of cards
 
       // Auto-rotation ticker
       secondRowTickerRef.current = () => {
@@ -122,6 +131,13 @@ export default function TestimonialsPageSection() {
           gsap.set(secondRowContent, { cursor: 'grabbing' });
         },
         onDrag() {
+          const currentX = gsap.getProperty(secondRowContent, "x") as number;
+          // Clamp to prevent dragging beyond one set of cards
+          if (currentX < -secondRowWidth * 2) {
+            gsap.set(secondRowContent, { x: -secondRowWidth * 2 });
+          } else if (currentX > -secondRowWidth) {
+            gsap.set(secondRowContent, { x: -secondRowWidth });
+          }
           wrapItems(secondRowContent, 'right');
         },
         onRelease() {

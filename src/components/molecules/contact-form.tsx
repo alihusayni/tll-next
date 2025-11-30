@@ -56,6 +56,7 @@ export default function ContactForm() {
     const newErrors: Partial<FormData> = {};
     if (!formData.name.trim()) newErrors.name = 'This field is required';
     if (!formData.email.trim()) newErrors.email = 'This field is required';
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) newErrors.email = 'Please enter a valid email address';
     if (!formData.phone.trim()) newErrors.phone = 'This field is required';
     if (!formData.message.trim()) newErrors.message = 'This field is required';
     setErrors(newErrors);
@@ -115,7 +116,7 @@ export default function ContactForm() {
   return (
     <>
     <ToastContainer />
-    <form onSubmit={handleSubmit} className="flex flex-col gap-6">
+    <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-6">
       <div>
         <TextInput
           label="Full name"
@@ -135,7 +136,6 @@ export default function ContactForm() {
           value={formData.email}
           onChange={handleChange('email')}
           id="email"
-          type="email"
           error={!!errors.email}
         />
         {errors.email && <p className="mt-2 text-[#D93644] font-inter-tight text-sm font-medium leading-5 capitalize">{errors.email}</p>}

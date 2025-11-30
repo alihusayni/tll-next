@@ -113,7 +113,7 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
                  hasDropdown={false} // Disable default dropdown arrow in mobile view
             isActive={openDropdown === (item.href || item.label)}
                 onClick={item.subItems ? () => handleClick(item.href || item.label) : undefined}
-                 className={`${mobileView ? 'text-white hover:text-[#FF7031]' : (customTextColor || 'text-white')} text-[1.875rem] font-inter-tight font-semibold leading-[1.625rem] uppercase ${item.subItems ? 'cursor-pointer flex items-center justify-between gap-4' : ''}`}
+                 className={`${mobileView ? 'text-[#D2D5D9] hover:text-[#FF7031]' : (customTextColor || 'text-white')} text-[1.875rem] font-inter-tight font-semibold leading-[1.625rem] uppercase ${item.subItems ? 'cursor-pointer flex items-center justify-between gap-4' : ''}`}
                 customTextColor={mobileView ? undefined : customTextColor}
                 showUnderline={false}
               >
@@ -146,7 +146,7 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
                     <NavLink
                        key={subItem.href}
                        href={subItem.href}
-                       className="block text-[#D2D5D9] font-inter font-normal leading-5 mb-6 last:mb-0 hover:text-[#FF7031] active:text-[#FF7031] transition-colors text-base md:text-2xl"
+                       className="block !text-[#D2D5D9] font-inter font-normal leading-5 mb-6 last:mb-0 hover:text-[#FF7031] active:text-[#FF7031] transition-colors text-base md:text-2xl"
                        onClick={handleDropdownItemClick}
                        showUnderline={false}
                        textSize="base"
