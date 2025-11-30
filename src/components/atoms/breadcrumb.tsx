@@ -6,6 +6,20 @@ interface BreadcrumbProps {
   slugs: string[];
 }
 
+// List of paths that return 404 - these should be rendered as plain text
+const INVALID_PATHS = [
+  '/asylum-humanitarian-relief/asylum/',
+  '/deportation-defense/',
+  '/us-immigrant-visas/employment-based-immigration/',
+  '/citizenship-naturalization/',
+  '/us-nonimmigrant-visas/student-visas/',
+  '/us-immigrant-visas/family-based-immigration/fiance-visas/',
+  '/us-immigrant-visas/family-based-immigration/marriage-visas/',
+  '/us-immigrant-visas/employment-based-immigration/eb-1/',
+  '/us-immigrant-visas/employment-based-immigration/h-1b/',
+  '/us-immigrant-visas/diversity-visa-lottery/',
+];
+
 export default function Breadcrumb({ display, slugs }: BreadcrumbProps) {
   const parts = display.split(' / ');
   const links: ReactNode[] = [];
@@ -25,15 +39,27 @@ export default function Breadcrumb({ display, slugs }: BreadcrumbProps) {
       href = '/' + cumulativeSlugs.join('/') + '/';
     }
 
-    links.push(
-      <Link
-        key={index}
-        href={href}
-        className="text-base leading-6 text-[#49535D] hover:text-[#E55B1E] transition-colors capitalize font-inter"
-      >
-        {part}
-      </Link>
-    );
+    // Check if this path is invalid (404) and render as plain text instead of link
+    if (INVALID_PATHS.includes(href)) {
+      links.push(
+        <span
+          key={index}
+          className="text-base leading-6 text-[#49535D] capitalize font-inter"
+        >
+          {part}
+        </span>
+      );
+    } else {
+      links.push(
+        <Link
+          key={index}
+          href={href}
+          className="text-base leading-6 text-[#49535D] hover:text-[#E55B1E] transition-colors capitalize font-inter"
+        >
+          {part}
+        </Link>
+      );
+    }
   });
 
   return <div className="text-center text-base font-inter">{links}</div>;

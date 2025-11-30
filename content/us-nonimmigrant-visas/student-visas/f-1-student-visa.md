@@ -89,7 +89,7 @@ The following documents are necessary when you want to file for an F1 visa.
 
 You can apply for an F1 visa online by completing [Form DS-160](https://ceac.state.gov/genniv/). Filling out this
 application form takes a while, approximately 90 minutes if you have all the information readily available. This
-*Form [DS-160 exemplar](https://travel.state.gov/content/dam/visas/PDF-other/DS-160-Example_11-19-2020.pdf)* will help you in
+*Form DS-160 exemplar* will help you in
 completing the form correctly. Go over it before starting your application to make sure you have all the necessary
 information required by the form.
 We also recommend consulting with an immigration attorney before filing your visa application.Fill out our contact form
