@@ -45,7 +45,7 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
     );
 
     // Observe only h2 headings
-    const h2Headings = headings.filter((h) => h.level === 2);
+    const h2Headings = headings.filter((h) => h.level >4);
     h2Headings.forEach((heading) => {
       const element = document.getElementById(heading.id);
       if (element) {
@@ -66,7 +66,7 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
   };
 
   // Filter to only show h2 headings
-  const tocHeadings = headings.filter((h) => h.level === 2);
+  const tocHeadings = headings.filter((h) => h.level>4);
 
   if (tocHeadings.length === 0) {
     return null;
@@ -76,7 +76,7 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
     <div className={`bg-[#E1E6EB] rounded-[1rem] overflow-hidden ${className}`}>
       <div className="flex flex-col gap-4 p-6 md:p-8 w-full">
         <h2 className="font-inter-tight font-semibold text-xl md:text-[1.5rem] leading-7 md:leading-8 text-[#49535D]">
-          Table of content
+          Table of contents
         </h2>
         <nav className="flex flex-col gap-4">
           {tocHeadings.map((heading) => {
