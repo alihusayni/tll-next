@@ -164,12 +164,11 @@ The required documents to request an EAD include:
 [[cta]]
 
 The form can be filed online or by mail. However, before any of this, you should fill out the form. The latest update of
-the form is [here](https://www.tuanlelaw.com/wp-content/uploads/doc/i-765.pdf) for you to download (This version expires
-on 10/31/2025. For the newest version, you should visit the [USCIS website](https://www.uscis.gov/i-765)).
+the form is available on the [USCIS website](https://www.uscis.gov/i-765) for you to download.
 Some parts and terminologies can be confusing. To help the applicants, USCIS has published thorough instructions on how
 to complete Form I-765.
-Download the 27-page PDF instructions to Form
-I-765 [here.](https://www.tuanlelaw.com/wp-content/uploads/doc/i-765instr.pdf)
+Download the instructions to Form
+I-765 from the [official USCIS page](https://www.uscis.gov/i-765).
 If you leave out some parts or do not use the correct information, there will be some complications in the process which
 may lead to a delay or even denial of your case.
 

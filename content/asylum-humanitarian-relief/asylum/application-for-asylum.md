@@ -29,7 +29,7 @@ Are you seeking asylum in the USA? Consult with an experienced immigration lawye
 
 People might flee their home country to seek asylum in a foreign country for various reasons, for example, political asylum. Regardless of why and where they come from, asylum seekers in the United States are dealt with equally based on the asylum law and legal framework in this country.
 In addition, asylum seekers benefits and rights are different in each country according to Its domestic laws and regulations.
-We have already discussed [the Legal Rights and benefits for Asylum Seekers in the USA](https://www.tuanlelaw.com/asylum-seekers-legal-rights-and-challenges-faced-in-the-u-s/) , now we will go over the steps one will need to take when applying for asylum in the US.
+We have already discussed [the Legal Rights and benefits for Asylum Seekers in the USA](https://www.tuanlelaw.com/asylum-humanitarian-relief/asylum/asylum-seekers-rights-and-challenges) , now we will go over the steps one will need to take when applying for asylum in the US.
 
 ### Step 1: Initiation of Asylum Seeking
 Upon their arrival, asylum seekers must ask to visit a US immigration officer to express their intention of seeking asylum. The initiation usually happens by:
@@ -82,7 +82,7 @@ After careful consideration, the decision about your application for asylum will
 
 #### Step 6: Immigration Court Proceedings
 If the asylum application is referred to the immigration court, the applicant has the chance to present the evidence and testimonies to an immigration judge who will make the final decision about the asylum eligibility.
-In this stage, although applicants can represent themselves, having a legal representative can pave the way towards becoming a refugee. Read  [Immigration Court Defense Strategies](https://www.tuanlelaw.com/immigration-court-defense-strategies-immigration-lawyer/)  to learn what happens during an immigration court hearing.
+In this stage, although applicants can represent themselves, having a legal representative can pave the way towards becoming a refugee. Read  [Immigration Court Defense Strategies](https://www.tuanlelaw.com/deportation-defense/immigration-court-defense-strategies)  to learn what happens during an immigration court hearing.
 
 #### Step 7: Appeals and Review
 In some cases, if the application is denied, it is possible to appeal to the Board of Immigration Appeals (BIA) . This should be done soon after the rejection. The case will be reviewed to make a decision if the denial is to be overturned or upheld.
@@ -145,7 +145,7 @@ No. The individual must be physically present in the US when applying for asylum
 
 #### Can Refugees Become US Citizens?
 Yes. After residing in the United States for a certain period of time and meeting some other requirements, refugees can obtain their green card or permanent residency. Then, after a period of time, they can obtain their US citizenship through the naturalization process.
-For more information see  [Paths to Become a US Citizen](https://www.tuanlelaw.com/become-u-s-citizen-explained-citizenship-lawyer/)  and  [A Guide to Naturalization Process](https://www.tuanlelaw.com/guide-naturalization-process-filing-form-n-400-and-other-steps/) .
+For more information see  [Paths to Become a US Citizen](https://www.tuanlelaw.com/citizenship-naturalization/become-a-us-citizen)  and  [A Guide to Naturalization Process](https://www.tuanlelaw.com/citizenship-naturalization/naturalization-filing-form-n-400) .
 The Law Office of Tuan Le offers a 30-minute free legal consultation to asylum seekers in the United States.
 [Call for more information.](tel:+1-714-877-5840)
 

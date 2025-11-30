@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/employment-based-immigration/eb-1/b-1-visa-permitted-activities-understanding-the-restrictions"
 ogTitle: "Understanding the B-1 Visa: Permitted Activities and Restrictions | Tuan Le Law, Orange, CA"
 ogDescription: "Learn about B-1 visa permitted activities and restrictions. Get expert legal advice from Tuan Le Law in Orange, CA."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/B-1-Visa-Permitted-Activities-new1-1.png
+ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/B-1-Visa-Permitted-Activities-new1-1.webp
 twitterCard: "summary_large_image"
 twitterTitle: "Understanding the B-1 Visa: Permitted Activities and Restrictions | Tuan Le Law, Orange, CA"
 twitterDescription: "Learn about B-1 visa permitted activities and restrictions. Get expert legal advice from Tuan Le Law in Orange, CA."
@@ -253,7 +253,7 @@ bans on future entry to the United States. These consequences can have long-last
 and conduct business internationally.
 Seeking legal advice is advisable whenever you are unsure about the activities permitted under your B-1 visa or if you
 encounter any issues during your stay. Don't hesitate to seek professional legal advice. For expert guidance and
-support, reach out to [Tuan Le Law in Orange, CA. ](https://www.tuanlelaw.com/immigration/)Call us
+support, reach out to [Tuan Le Law in Orange, CA. ](https://www.tuanlelaw.com/us-immigrant-visas)Call us
 at [714-877-5840](tel:+1-714-877-5840). Remember, it's better to be safe than sorry when it comes to your visa status.
 
 The information provided on this page or article does not, and is not intended to, constitute legal advice; instead, all

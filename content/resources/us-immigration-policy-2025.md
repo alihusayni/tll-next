@@ -44,7 +44,7 @@ As states adopt varying approaches to immigration enforcement and policy, federa
 These intersecting factors—political shifts, global conflicts, economic pressures, and state-level variations—underscore the importance of 2025 as a turning point for [U.S. immigration policy](https://www.uscis.gov/). Businesses, individuals, and families navigating the immigration system will need to stay informed and proactive as these changes unfold.
 
 #### Expert Assistance for 2025 Immigration Challenges
-At Tuan Le Law, we understand the complexities of immigration law and the challenges ahead. Whether you're applying for a visa, facing delays, or [seeking asylum](https://www.tuanlelaw.com/application-for-asylum-in-the-usa/), our experienced attorney is here to help. Contact us today for a free consultation and let us guide you through these evolving policies with confidence and expertise.
+At Tuan Le Law, we understand the complexities of immigration law and the challenges ahead. Whether you're applying for a visa, facing delays, or [seeking asylum](https://www.tuanlelaw.com/asylum-humanitarian-relief/asylum/application-for-asylum), our experienced attorney is here to help. Contact us today for a free consultation and let us guide you through these evolving policies with confidence and expertise.
 By staying prepared and seeking professional support, you can navigate the shifting landscape of U.S. immigration policy in 2025 and secure the best possible outcome for your case.
 
 #### What You Need to Know About Project 2025 and Its Impact on Immigration
@@ -86,7 +86,7 @@ Staying prepared and seeking professional legal help can make all the difference
 #### FAQs About U.S. Immigration Policy in 2025
 
 #### 1. Will U.S. Visa Requirements Change in 2025?
-While specific changes to visa requirements in 2025 are not confirmed, the new Trump administration's emphasis on stricter immigration enforcement suggests there will likely be heightened scrutiny and tighter adjudication of existing visa categories. This could impact applications for employment-based visas (like [H1-B](https://www.tuanlelaw.com/guide-to-h1b-visa-requirements-and-application-by-an-immigration-lawyer/)), family sponsorship visas, and tourist visas. Staying updated and consulting an immigration attorney can help you navigate any new requirements.
+While specific changes to visa requirements in 2025 are not confirmed, the new Trump administration's emphasis on stricter immigration enforcement suggests there will likely be heightened scrutiny and tighter adjudication of existing visa categories. This could impact applications for employment-based visas (like [H1-B](https://www.tuanlelaw.com/us-immigrant-visas/employment-based-immigration/h-1b/h1-b-visa-requirements)), family sponsorship visas, and tourist visas. Staying updated and consulting an immigration attorney can help you navigate any new requirements.
 
 #### 2. What Could Happen to Family Sponsorship Visas?
 Family sponsorship visas might face restrictions in 2025 as part of broader efforts to tighten legal immigration channels. Proposed changes may include narrowing eligibility criteria or imposing additional requirements for sponsors and applicants. Families considering sponsorship should act early and ensure all documentation is accurate and up-to-date.

@@ -32,7 +32,7 @@ your side.
 [[cta]]
 
 There are various kinds of U.S. employment-based visas, such
-as [H1-B visa](https://www.tuanlelaw.com/guide-to-h1b-visa-requirements-and-application-by-an-immigration-lawyer/),[EB-1 visas](https://www.tuanlelaw.com/eb-1-visas-requirements-eligibility-and-application/),
+as [H1-B visa](https://www.tuanlelaw.com/us-immigrant-visas/employment-based-immigration/h-1b/h1-b-visa-requirements),[EB-1 visas](https://www.tuanlelaw.com/us-immigrant-visas/employment-based-immigration/eb-1/eb-1-visas-requirements),
 L-1 visa, O-1, EB-2 visas, etc. Some of them are non-immigrant visas, such as H1-B, L-1, and O-1 visas but others are
 immigrant visas, like EB-1 and EB-2 visa categories. These immigrant visas are granted to those who are highly
 qualified, for example, outstanding professors, individuals with exceptional abilities or advanced degrees, or
@@ -94,7 +94,7 @@ will be of national benefit to the United States. In this case, the applicant ca
 does not require a job offer, and therefore, no labor certification will be needed. This is called**EB-2 NIW**or the
 National Interest Waiver.
 To learn more,
-read [Our Step-by-Step Guide to National Interest Waiver](https://www.tuanlelaw.com/national-interest-waiver-everything-you-should-know-in-simple-words/).
+read [Our Step-by-Step Guide to National Interest Waiver](https://www.tuanlelaw.com/us-immigrant-visas/employment-based-immigration/eb-2/national-interest-waiver).
 **To find out if you are eligible for any of the EB-2 visa categories, discuss your case with our accomplished
 immigration visa lawyer.**
 

@@ -152,7 +152,7 @@ sponsorship.
 When filing family-based petitions, It's essential to follow the parent visa process, child immigration options, or
 sibling immigration process accurately. Each category has specific requirements, such as the fiancé visa process or
 immigration options for married couples.
-And,[Consular processing](https://www.tuanlelaw.com/consular-processing-to-get-your-green-card/) for family-based visas
+And,[Consular processing](https://www.tuanlelaw.com/us-immigrant-visas/consular-processing) for family-based visas
 is the final step for relatives outside the United States, while those already in the U.S. may adjust their status to
 obtain a conditional green card for spouses or proceed with the marriage-based immigration process.
 In summary, the application process for bringing parents to the United States or other family members is meticulous and

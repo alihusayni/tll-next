@@ -40,7 +40,7 @@ Read on to find out if you are qualified for an EB-2 NIW or not.
 
 ### EB-2 Visa Types
 
-[Like](tel:+1714-877-5840)[EB-1 Visas,](https://www.tuanlelaw.com/eb-1-visas-requirements-eligibility-and-application/)
+[Like](tel:+1714-877-5840)[EB-1 Visas,](https://www.tuanlelaw.com/us-immigrant-visas/employment-based-immigration/eb-1/eb-1-visas-requirements)
 EB-2 visas are also available for foreigners who wish to work in the United States. They are considered second
 preference workers (EB-1 visa holders are the first priority) and they need to be professionals with advanced degrees or
 exceptional abilities.

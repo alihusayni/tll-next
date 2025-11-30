@@ -67,8 +67,7 @@ humanitarian green card or a NIW green card based on your national interest waiv
 You are part of a specific group of people who have a close connection with the U.S., such as former U.S. government
 employees, international organization employees, or Iraqi or Afghan translators. You can then apply for a special
 immigrant green card.
-Also, if you already have a green card, you may need
-to [renew it periodically by renewing a green card,renewing a permanent resident card.](https://www.uscis.gov/sites/default/files/document/guides/B2en.pdf)
+Also, if you already have a green card, you may need to renew it periodically by renewing a green card, renewing a permanent resident card.
 
 #### **File the Immigration Petition for Consular Processing**
 

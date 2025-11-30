@@ -37,7 +37,7 @@ visas, nonimmigrant visas come with a defined expiration date and specific activ
 
 * B-2 Tourist Visa for leisure or family visIt's.
 * H-1B Work Visa for professionals in specialized fields.
-* [F-1 Student Visa](https://www.tuanlelaw.com/f-1-student-visa-application-and-embassy-interview/) for full-time
+* [F-1 Student Visa](https://www.tuanlelaw.com/us-nonimmigrant-visas/student-visas/f-1-student-visa) for full-time
   academic studies.
   Each visa type serves a unique purpose, and choosing the wrong one can result in delays, denials, or additional costs.
 
@@ -79,7 +79,7 @@ Nonimmigrant visas, on the other hand, are for individuals who plan to stay in t
 issued for specific purposes such as tourism, education, business, or short-term employment. Nonimmigrant visas have a
 fixed expiration date and may include restrictions on the activities permitted while in the U.S. Examples include:
 
-* [B-1/B-2 Visas](https://www.tuanlelaw.com/b-1-visa-permitted-activities-understanding-the-restrictions/): For
+* [B-1/B-2 Visas](https://www.tuanlelaw.com/us-immigrant-visas/employment-based-immigration/eb-1/b-1-visa-permitted-activities): For
   business trips or leisure travel.
 * F-1 Visa: For international students pursuing academic studies.
 * H-1B Visa: For professionals working temporarily in specialized fields.
@@ -182,7 +182,7 @@ Need help with your student or exchange visa application? Call our office for ex
 For those seeking temporary employment or training opportunities in the U.S., these visas allow individuals to gain
 valuable experience in their chosen fields.
 
-#### [H-1B Visa](https://www.tuanlelaw.com/guide-to-h1b-visa-requirements-and-application-by-an-immigration-lawyer/)
+#### [H-1B Visa](https://www.tuanlelaw.com/us-immigrant-visas/employment-based-immigration/h-1b/h1-b-visa-requirements)
 
 * For professionals with specialized skills in industries like IT, healthcare, or engineering.
 * Explore our detailed guide on H-1B visa requirements and how to secure sponsorship.

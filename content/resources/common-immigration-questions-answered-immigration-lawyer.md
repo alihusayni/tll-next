@@ -43,7 +43,7 @@ Those who wish to become U.S. citizens through naturalization should meet the re
 * Good moral character,
 * Pass English and Civics tests,
 * Take the Oath of Allegiance.
-There are also some exceptions and differences based on different cases. [Read more about the US Naturalization Process here](https://www.tuanlelaw.com/guide-naturalization-process-filing-form-n-400-and-other-steps/).
+There are also some exceptions and differences based on different cases. [Read more about the US Naturalization Process here](https://www.tuanlelaw.com/citizenship-naturalization/naturalization-filing-form-n-400).
 
 #### 3. What Are US Immigration Interview Questions?
 While the interview questions at a US embassy or consulate can be different depending on the type of application, some common questions are asked in almost every case, including questions regarding:
@@ -54,7 +54,7 @@ While the interview questions at a US embassy or consulate can be different depe
 
 #### 4. Can I Bring My Family to the U.S.?
 If you're a citizen, a green card holder, or a refugee/asylee, yes, through family-based immigration. US citizens can petition for their spouses, children, parents, and siblings. And permanent residents (green card holders) can petition for their spouses and unmarried children. Also, if you've been a refugee or asylee for at least 2 years, you can petition for your spouse and unmarried children under 21.
-[Learn more about the details of sponsoring a family member here.](https://www.tuanlelaw.com/family-based-immigration/)
+[Learn more about the details of sponsoring a family member here.](https://www.tuanlelaw.com/us-immigrant-visas/family-based-immigration)
 
 #### 5. What Is the Difference Between a Visa and a Green Card?
 A visa (immigrant or nonimmigrant) allows you to enter the US, whether you wish to stay permanently or temporarily. However, a green card is a lawful permanent residency that allows you to live and work in the US indefinitely. Typically, you first need a visa to apply for a green card.
@@ -82,11 +82,11 @@ Common student visa USA requirements (F-1 student visa) include:
 * Proof of financial support,
 * Proof of ties to your home country,
 * Attending a visa interview.
-[Earn more about F-1 student visa application, eligibility, and interview here](https://www.tuanlelaw.com/f-1-student-visa-application-and-embassy-interview/).
+[Earn more about F-1 student visa application, eligibility, and interview here](https://www.tuanlelaw.com/us-nonimmigrant-visas/student-visas/f-1-student-visa).
 
 #### 9. How Do I Apply for Asylum in the US?
 You can [apply for asylum in the US by filing Form I-589](https://www.uscis.gov/i-589) within one year of your arrival. You should be able to prove that you're eligible to seek asylum due to unfair persecution in your home country. This process includes not only supporting documents and evidence but also interviews and probably court hearings.
-[Read "How to Seek Asylum in the USA" for more details](https://www.tuanlelaw.com/application-for-asylum-in-the-usa/).
+[Read "How to Seek Asylum in the USA" for more details](https://www.tuanlelaw.com/asylum-humanitarian-relief/asylum/application-for-asylum).
 
 #### 10. What Are My Options If I'm Facing Deportation?
 Even during removal proceedings, you have some legal options and defenses, including:
@@ -95,7 +95,7 @@ Even during removal proceedings, you have some legal options and defenses, inclu
 * Adjustment of status,
 * Waivers,
 * Prosecutorial discretion.
-You need an immigration attorney to [attend the immigration court](https://www.tuanlelaw.com/immigration-court-defense-strategies-immigration-lawyer/) and navigate the options that you have when facing deportation.
+You need an immigration attorney to [attend the immigration court](https://www.tuanlelaw.com/deportation-defense/immigration-court-defense-strategies) and navigate the options that you have when facing deportation.
 
 #### 11. Can I Work in the US While Waiting for My Green Card or Visa?
 In most cases, the answer is yes. If you apply and [get an EAD (Employment Authorization Document)](https://www.uscis.gov/i-765), you can legally work in the US while adjusting your status.

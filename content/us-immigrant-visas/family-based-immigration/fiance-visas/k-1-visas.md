@@ -195,7 +195,7 @@ Whether you're just starting your application or need help addressing a denial, 
 
 [[cta]]
 
-Choosing between the K-1 visa (fiancé(e) visa) and the CR-1 [marriage visa](https://www.tuanlelaw.com/green-card-through-marriage/) depends on your circumstances and relationship goals. Here is a comparison to help you make an informed decision:
+Choosing between the K-1 visa (fiancé(e) visa) and the CR-1 [marriage visa](https://www.tuanlelaw.com/us-immigrant-visas/family-based-immigration/marriage-visas/green-card-through-marriage) depends on your circumstances and relationship goals. Here is a comparison to help you make an informed decision:
 
 #### **K-1 Visa (Fiancé(e) Visa)**
 * Purpose: For engaged couples planning to marry in the U.S. The foreign fiancé(e) can enter the U.S. and marry the U.S. citizen petitioner within 90 days.

@@ -178,7 +178,7 @@ is offered to navigate the specific requirements of diplomatic and official assi
 
 #### **Family and Fiancé(e)**
 
-Attorneys handle [K-1, IR, and CR visa applications](https://www.tuanlelaw.com/green-card-through-marriage/), bringing
+Attorneys handle [K-1, IR, and CR visa applications](https://www.tuanlelaw.com/us-immigrant-visas/family-based-immigration/marriage-visas/green-card-through-marriage), bringing
 families and partners together in the U.S.
 
 #### **Permanent Work and Special Immigrants**

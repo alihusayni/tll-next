@@ -58,7 +58,7 @@ To complete this form, you will need the following information and documents:
 * Your employment and travel history
 * Your family members simple biographical information
 * A recent photo (digital format). Your photo should comply with U.S. government standards. Read the guideline [here](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos.html).
-The U.S. Bureau of Consular Affairs has published an exemplar as a detailed step-by-step guide for how to fill out Form DS-160. You can download the PDF file by clicking [here](https://www.tuanlelaw.com/wp-content/uploads/doc/DS-160-Example_11012019.pdf).
+The U.S. Bureau of Consular Affairs has published an exemplar as a detailed step-by-step guide for how to fill out Form DS-160. You can download the PDF file from the [official USCIS resources](https://ceac.state.gov/GenNIV/).
 If you still need help with this form, we are here for you. Contact us at [(714) 877 5840](tel:+1-714-877-5840).
 
 #### Step 2: Pay the Fees

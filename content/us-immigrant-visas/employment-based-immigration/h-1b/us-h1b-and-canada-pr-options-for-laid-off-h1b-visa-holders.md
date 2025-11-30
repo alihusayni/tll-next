@@ -43,7 +43,7 @@ registrations that are received by the USCIS is far more than this annual cap, t
 two lotteries) every year to select among them.
 Those who are selected can proceed with the rest of the H1B application process. If the visa is issued, the foreign
 specialist can work in the US for 6 years under the H1B visa. Read
-our [complete guide to H1B visa application and requirements to get familiar](https://www.tuanlelaw.com/guide-to-h1b-visa-requirements-and-application-by-an-immigration-lawyer/)
+our [complete guide to H1B visa application and requirements to get familiar](https://www.tuanlelaw.com/us-immigrant-visas/employment-based-immigration/h-1b/h1-b-visa-requirements)
 with the process, the costs, and more.
 
 ### When to Register for H1B Visa for the FY2025?

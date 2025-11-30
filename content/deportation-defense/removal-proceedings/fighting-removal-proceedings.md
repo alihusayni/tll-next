@@ -54,7 +54,7 @@ challenges of deportation.
 
 #### Use of Relief Options
 
-Utilizing a range of relief measures, such as [asylum](https://www.tuanlelaw.com/application-for-asylum-in-the-usa/),
+Utilizing a range of relief measures, such as [asylum](https://www.tuanlelaw.com/asylum-humanitarian-relief/asylum/application-for-asylum),
 cancellation of removal, or adjustment of status, each contingent upon meeting certain legal criteria.
 
 #### Challenging Deportation Orders

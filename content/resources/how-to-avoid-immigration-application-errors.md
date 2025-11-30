@@ -22,7 +22,7 @@ Avoiding mistakes on immigration applications is essential for anyone seeking a 
 Even small errors - such as leaving a required field blank, using outdated forms, or submitting incorrect documents -
 can lead to delays, Requests for Evidence (RFE), or outright denials. Given the complexity of U.S. immigration laws and
 frequent policy updates, accuracy is key to a successful application process.
-If you're looking for [expert immigration guidance](https://www.tuanlelaw.com/immigration/), our team at The Law Office
+If you're looking for [expert immigration guidance](https://www.tuanlelaw.com/us-immigrant-visas), our team at The Law Office
 of Tuan Le can help you navigate the process and avoid costly mistakes. In this guide, well cover common immigration
 application errors and provide practical tips to help you avoid them.
 
@@ -51,9 +51,9 @@ Because of these risks, it is essential to double-check every detail before subm
 immigration applications, you can increase your chances of approval, reduce the risk of RFEs, and ensure a smoother
 process with USCIS.
 At The Law Office of Tuan Le, we specialize in guiding applicants through the
-U.S. [immigration process](https://www.tuanlelaw.com/immigration/) to prevent mistakes that could jeopardize their
+U.S. [immigration process](https://www.tuanlelaw.com/us-immigrant-visas) to prevent mistakes that could jeopardize their
 status. Whether you are applying for a visa, permanent residency,
-or [naturalization](https://www.tuanlelaw.com/naturalization-and-citizenship-lawyer/), our experienced immigration
+or [naturalization](https://www.tuanlelaw.com/citizenship-naturalization/become-a-us-citizen), our experienced immigration
 attorney can help ensure your paperwork is completed correctly.
 If you want to avoid unnecessary delays and legal complications,
 schedule [a free 30-minute consultation](tel:+1-714-877-5840) today with our expert immigration lawyer in Orange, CA.
