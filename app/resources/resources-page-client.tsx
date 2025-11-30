@@ -66,6 +66,12 @@ export default function ResourcesPageClient({
       params.set('category', categoryId);
     }
     router.push(`/resources?${params.toString()}`, { scroll: false });
+
+    // Scroll to top of recent articles section
+    const recentSection = document.getElementById('recent-articles');
+    if (recentSection) {
+      recentSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   };
 
   // Handle page change
