@@ -44,9 +44,9 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
       }
     );
 
-    // Observe only h2 headings
-    const h2Headings = headings.filter((h) => h.level === 2);
-    h2Headings.forEach((heading) => {
+    // Observe h1, h2, and h3 headings
+    const filteredHeadings = headings.filter((h) => h.level <= 3);
+    filteredHeadings.forEach((heading) => {
       const element = document.getElementById(heading.id);
       if (element) {
         observer.observe(element);
@@ -65,8 +65,8 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
     }
   };
 
-  // Filter to only show h2 headings
-  const tocHeadings = headings.filter((h) => h.level === 2);
+  // Show only h1, h2, and h3 headings
+  const tocHeadings = headings.filter((h) => h.level <= 3);
 
   if (tocHeadings.length === 0) {
     return null;
@@ -76,15 +76,20 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
     <div className={`bg-[#E1E6EB] rounded-[1rem] overflow-hidden ${className}`}>
       <div className="flex flex-col gap-4 p-6 md:p-8 w-full">
         <h2 className="font-inter-tight font-semibold text-xl md:text-[1.5rem] leading-7 md:leading-8 text-[#49535D]">
-          Table of content
+          Table of contents
         </h2>
         <nav className="flex flex-col gap-4">
           {tocHeadings.map((heading) => {
             const isActive = activeId === heading.id;
+            // Calculate indentation based on heading level (h1=0, h2=1rem, h3=2rem, etc.)
+            const indentLevel = Math.max(0, heading.level - 1);
+            const paddingLeft = indentLevel * 1; // 1rem per level
+            
             return (
               <button
                 key={heading.id}
                 onClick={() => scrollToHeading(heading.id)}
+                style={{ paddingLeft: `${paddingLeft}rem` }}
                 className={`
                   text-left text-sm leading-5 tracking-[-0.0175rem] transition-colors whitespace-normal break-words
                   ${isActive 
