@@ -13,13 +13,16 @@ gsap.registerPlugin(Draggable, InertiaPlugin);
 export default function TestimonialsPageSection() {
   const firstRowRef = useRef<HTMLDivElement>(null);
   const secondRowRef = useRef<HTMLDivElement>(null);
-  const firstRowAnimationRef = useRef<gsap.core.Tween | null>(null);
-  const secondRowAnimationRef = useRef<gsap.core.Tween | null>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const firstRowTickerRef = useRef<any>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const secondRowTickerRef = useRef<any>(null);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const firstRowDraggableRef = useRef<any[] | null>(null);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const secondRowDraggableRef = useRef<any[] | null>(null);
   const isDraggingRef = useRef({ first: false, second: false });
+  const velocityRef = useRef({ first: 0, second: 0 });
   const [isAnyDragging, setIsAnyDragging] = useState(false);
   const [justDragged, setJustDragged] = useState(false);
 
@@ -27,218 +30,158 @@ export default function TestimonialsPageSection() {
   const firstRow = testimonials.slice(0, 30);
   const secondRow = testimonials.slice(30, 60);
 
+  // Helper function to wrap items for infinite loop
+  const wrapItems = (container: HTMLElement, direction: 'left' | 'right') => {
+    const items = container.children;
+    const containerWidth = container.scrollWidth / 3; // Since content is tripled
+
+    for (let i = 0; i < items.length; i++) {
+      const item = items[i] as HTMLElement;
+      const itemX = gsap.getProperty(item, "x") as number;
+      const itemWidth = item.offsetWidth;
+
+      if (direction === 'left') {
+        // For left-moving row
+        if (itemX < -containerWidth - itemWidth) {
+          gsap.set(item, { x: itemX + containerWidth * 3 });
+        }
+      } else {
+        // For right-moving row
+        if (itemX > containerWidth + itemWidth) {
+          gsap.set(item, { x: itemX - containerWidth * 3 });
+        }
+      }
+    }
+  };
+
   useEffect(() => {
-    // Animate first row - scroll to left
+    const speed = 0.5;
+
+    // Set initial positions for both rows first
+    if (firstRowRef.current) {
+      gsap.set(firstRowRef.current, { x: 0 });
+    }
+    if (secondRowRef.current) {
+      const secondRowWidth = secondRowRef.current.scrollWidth / 3;
+      gsap.set(secondRowRef.current, { x: -secondRowWidth * 2 }); // Start from the end for right-moving carousel
+    }
+
+    // First row - moves left
     if (firstRowRef.current) {
       const firstRowContent = firstRowRef.current;
-      const firstRowWidth = firstRowContent.scrollWidth / 3; // Third because content is tripled
 
-       firstRowAnimationRef.current = gsap.to(firstRowContent, {
-         x: -firstRowWidth * 2,
-         duration: 360,
-         ease: 'none',
-         repeat: -1,
-         onRepeat: function() {
-           gsap.set(firstRowContent, { x: 0 });
-         }
-       });
+      // Auto-rotation ticker
+      firstRowTickerRef.current = () => {
+        gsap.set(firstRowContent, { x: `-=${speed}` });
+        wrapItems(firstRowContent, 'left');
+      };
 
       // Create draggable for first row
       firstRowDraggableRef.current = Draggable.create(firstRowContent, {
         type: "x",
-        bounds: { minX: -firstRowWidth * 2.5, maxX: firstRowWidth * 0.5 },
         inertia: true,
-        edgeResistance: 0.7,
-         onDragStart: function() {
-           isDraggingRef.current.first = true;
-           setIsAnyDragging(true);
-           firstRowAnimationRef.current?.kill();
-           gsap.set(firstRowContent, { cursor: 'grabbing' });
-         },
-        onDrag: function() {
-          // Sync with animation position when dragging
-          const currentX = gsap.getProperty(firstRowContent, "x");
-          gsap.set(firstRowContent, { x: currentX });
+        onPress() {
+          isDraggingRef.current.first = true;
+          setIsAnyDragging(true);
+          gsap.ticker.remove(firstRowTickerRef.current);
+          gsap.set(firstRowContent, { cursor: 'grabbing' });
         },
-         onDragEnd: function() {
-           isDraggingRef.current.first = false;
-           setIsAnyDragging(isDraggingRef.current.second);
-           setJustDragged(true);
-           gsap.set(firstRowContent, { cursor: 'grab' });
+        onDrag() {
+          wrapItems(firstRowContent, 'left');
+        },
+        onRelease() {
+          isDraggingRef.current.first = false;
+          setIsAnyDragging(isDraggingRef.current.second);
+          setJustDragged(true);
+          gsap.set(firstRowContent, { cursor: 'grab' });
 
-           // Normalize position and restart animation
-           if (!isDraggingRef.current.second) {
-             const currentX = gsap.getProperty(firstRowContent, "x") as number;
-             // Normalize to be within 0 to -firstRowWidth*2 range
-             const normalizedX = ((currentX % (firstRowWidth * 2)) + (firstRowWidth * 2)) % (firstRowWidth * 2);
-             gsap.set(firstRowContent, { x: -normalizedX });
-
-             firstRowAnimationRef.current = gsap.to(firstRowContent, {
-               x: -firstRowWidth * 2,
-               duration: 360,
-               ease: 'none',
-               repeat: -1,
-               onRepeat: function() {
-                 gsap.set(firstRowContent, { x: 0 });
-               }
-             });
-           }
-         },
-         onThrowComplete: function() {
-           isDraggingRef.current.first = false;
-           setIsAnyDragging(isDraggingRef.current.second);
-           setJustDragged(true);
-           if (!isDraggingRef.current.second) {
-             const currentX = gsap.getProperty(firstRowContent, "x") as number;
-             // Normalize to be within 0 to -firstRowWidth*2 range
-             const normalizedX = ((currentX % (firstRowWidth * 2)) + (firstRowWidth * 2)) % (firstRowWidth * 2);
-             gsap.set(firstRowContent, { x: -normalizedX });
-
-             firstRowAnimationRef.current = gsap.to(firstRowContent, {
-               x: -firstRowWidth * 2,
-               duration: 360,
-               ease: 'none',
-               repeat: -1,
-               onRepeat: function() {
-                 gsap.set(firstRowContent, { x: 0 });
-               }
-             });
-           }
-         }
+          // Resume auto-rotation
+          if (firstRowTickerRef.current) gsap.ticker.add(firstRowTickerRef.current);
+        }
       });
     }
 
-    // Animate second row - scroll to right
+    // Second row - moves right
     if (secondRowRef.current) {
       const secondRowContent = secondRowRef.current;
-      const secondRowWidth = secondRowContent.scrollWidth / 3; // Third because content is tripled
 
-       secondRowAnimationRef.current = gsap.fromTo(
-         secondRowContent,
-         { x: -secondRowWidth * 2 },
-         {
-           x: 0,
-           duration: 360,
-           ease: 'none',
-           repeat: -1,
-           onRepeat: function() {
-             // Reset position for seamless loop
-             gsap.set(secondRowContent, { x: -secondRowWidth * 2 });
-           }
-         }
-       );
+      // Auto-rotation ticker
+      secondRowTickerRef.current = () => {
+        gsap.set(secondRowContent, { x: `+=${speed}` });
+        wrapItems(secondRowContent, 'right');
+      };
 
       // Create draggable for second row
       secondRowDraggableRef.current = Draggable.create(secondRowContent, {
         type: "x",
-        bounds: { minX: -secondRowWidth * 2.5, maxX: secondRowWidth * 0.5 },
         inertia: true,
-        edgeResistance: 0.7,
-         onDragStart: function() {
-           isDraggingRef.current.second = true;
-           setIsAnyDragging(true);
-           secondRowAnimationRef.current?.kill();
-           gsap.set(secondRowContent, { cursor: 'grabbing' });
-         },
-        onDrag: function() {
-          // Sync with animation position when dragging
-          const currentX = gsap.getProperty(secondRowContent, "x");
-          gsap.set(secondRowContent, { x: currentX });
+        onPress() {
+          isDraggingRef.current.second = true;
+          setIsAnyDragging(true);
+          gsap.ticker.remove(secondRowTickerRef.current);
+          gsap.set(secondRowContent, { cursor: 'grabbing' });
         },
-         onDragEnd: function() {
-           isDraggingRef.current.second = false;
-           setIsAnyDragging(isDraggingRef.current.first);
-           setJustDragged(true);
-           gsap.set(secondRowContent, { cursor: 'grab' });
+        onDrag() {
+          wrapItems(secondRowContent, 'right');
+        },
+        onRelease() {
+          isDraggingRef.current.second = false;
+          setIsAnyDragging(isDraggingRef.current.first);
+          setJustDragged(true);
+          gsap.set(secondRowContent, { cursor: 'grab' });
 
-           // Normalize position and restart animation
-           if (!isDraggingRef.current.first) {
-             const currentX = gsap.getProperty(secondRowContent, "x") as number;
-             // For second row, normalize to be within -secondRowWidth*2 to 0 range
-             const normalizedX = ((currentX % (secondRowWidth * 2)) + (secondRowWidth * 2)) % (secondRowWidth * 2) - (secondRowWidth * 2);
-             gsap.set(secondRowContent, { x: normalizedX });
-
-             secondRowAnimationRef.current = gsap.fromTo(secondRowContent,
-               { x: -secondRowWidth * 2 },
-               {
-                 x: 0,
-                 duration: 360,
-                 ease: 'none',
-                 repeat: -1,
-                 onRepeat: function() {
-                   gsap.set(secondRowContent, { x: -secondRowWidth * 2 });
-                 }
-               }
-             );
-           }
-         },
-         onThrowComplete: function() {
-           isDraggingRef.current.second = false;
-           setIsAnyDragging(isDraggingRef.current.first);
-           setJustDragged(true);
-           if (!isDraggingRef.current.first) {
-             const currentX = gsap.getProperty(secondRowContent, "x") as number;
-             // For second row, normalize to be within -secondRowWidth*2 to 0 range
-             const normalizedX = ((currentX % (secondRowWidth * 2)) + (secondRowWidth * 2)) % (secondRowWidth * 2) - (secondRowWidth * 2);
-             gsap.set(secondRowContent, { x: normalizedX });
-
-             secondRowAnimationRef.current = gsap.fromTo(secondRowContent,
-               { x: -secondRowWidth * 2 },
-               {
-                 x: 0,
-                 duration: 360,
-                 ease: 'none',
-                 repeat: -1,
-                 onRepeat: function() {
-                   gsap.set(secondRowContent, { x: -secondRowWidth * 2 });
-                 }
-               }
-             );
-           }
-         }
+          // Resume auto-rotation
+          if (secondRowTickerRef.current) gsap.ticker.add(secondRowTickerRef.current);
+        }
       });
     }
 
+    // Start both tickers after DOM is ready
+    setTimeout(() => {
+      if (firstRowTickerRef.current) gsap.ticker.add(firstRowTickerRef.current);
+      if (secondRowTickerRef.current) gsap.ticker.add(secondRowTickerRef.current);
+    }, 100);
+
     // Cleanup on unmount
     return () => {
-      firstRowAnimationRef.current?.kill();
-      secondRowAnimationRef.current?.kill();
+      if (firstRowTickerRef.current) gsap.ticker.remove(firstRowTickerRef.current);
+      if (secondRowTickerRef.current) gsap.ticker.remove(secondRowTickerRef.current);
       firstRowDraggableRef.current?.[0]?.kill();
       secondRowDraggableRef.current?.[0]?.kill();
     };
   }, []);
 
-  // Reset justDragged after a short delay to allow click prevention
+  // Reset justDragged after a delay to prevent animation jumping
   useEffect(() => {
     if (justDragged) {
       const timer = setTimeout(() => {
         setJustDragged(false);
-      }, 100); // 100ms should be enough to prevent the click
+      }, 1000); // Longer delay to prevent animation jumping on mouse enter
       return () => clearTimeout(timer);
     }
   }, [justDragged]);
 
   const handleFirstRowMouseEnter = () => {
-    if (!isDraggingRef.current.first) {
-      firstRowAnimationRef.current?.pause();
+    if (!isDraggingRef.current.first && !justDragged) {
+      if (firstRowTickerRef.current) gsap.ticker.remove(firstRowTickerRef.current);
     }
   };
 
   const handleFirstRowMouseLeave = () => {
-    if (!isDraggingRef.current.first && !isDraggingRef.current.second) {
-      firstRowAnimationRef.current?.resume();
+    if (!isDraggingRef.current.first && !isDraggingRef.current.second && !justDragged) {
+      if (firstRowTickerRef.current) gsap.ticker.add(firstRowTickerRef.current);
     }
   };
 
   const handleSecondRowMouseEnter = () => {
-    if (!isDraggingRef.current.second) {
-      secondRowAnimationRef.current?.pause();
+    if (!isDraggingRef.current.second && !justDragged) {
+      if (secondRowTickerRef.current) gsap.ticker.remove(secondRowTickerRef.current);
     }
   };
 
   const handleSecondRowMouseLeave = () => {
-    if (!isDraggingRef.current.first && !isDraggingRef.current.second) {
-      secondRowAnimationRef.current?.resume();
+    if (!isDraggingRef.current.first && !isDraggingRef.current.second && !justDragged) {
+      if (secondRowTickerRef.current) gsap.ticker.add(secondRowTickerRef.current);
     }
   };
 
