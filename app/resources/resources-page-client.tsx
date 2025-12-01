@@ -60,13 +60,11 @@ export default function ResourcesPageClient({
 
   // Handle category change
   const handleCategoryChange = (categoryId: string) => {
-    // Update URL (page will reset to 1 automatically since it's not included)
-    const params = new URLSearchParams();
-    if (categoryId !== 'all-articles') {
-      params.set('category', categoryId);
+    if (categoryId === 'all-articles') {
+      router.push('/resources');
+    } else {
+      router.push(`/${categoryId}`);
     }
-    router.push(`/${params.toString()}`, { scroll: false });
-
   };
 
   // Handle page change

@@ -40,7 +40,7 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
   }, []);
 
   useEffect(() => {
-    if (openDropdown === '/resources?category=resources') {
+    if (openDropdown === '/resources') {
       gsap.set(submenuRef.current, { height: 0, opacity: 0 });
       gsap.to(submenuRef.current, { height: 'auto', opacity: 1, duration: 0.6, ease: 'expo.out' });
       const subItems = gsap.utils.toArray(Array.from(submenuRef.current?.querySelectorAll('a') || []));
@@ -68,7 +68,7 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
         { href: '/testimonials', label: 'TESTIMONIALS' },
     { href: '/faq', label: 'FAQ' },
     {
-      href: '/resources?category=resources',
+      href: '/resources',
       label: 'RESOURCES',
       subItems: [
         { href: '/us-visas', label: 'US Visas' },
