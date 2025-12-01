@@ -1,30 +1,19 @@
 import type {Testimonial} from '@/data/testimonials';
 import Image from 'next/image';
+import { forwardRef } from 'react';
 
 interface TestimonialCardFullProps {
     testimonial: Testimonial;
-    onMouseEnter?: () => void;
-    onMouseLeave?: () => void;
-    isDragging?: boolean;
-    justDragged?: boolean;
 }
 
-export default function TestimonialCardFull({testimonial, onMouseEnter, onMouseLeave, isDragging = false, justDragged = false}: TestimonialCardFullProps) {
-    const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-        if (justDragged) {
-            e.preventDefault();
-        }
-    };
-
+const TestimonialCardFull = forwardRef<HTMLAnchorElement, TestimonialCardFullProps>(({testimonial}, ref) => {
     return (
         <a
+            ref={ref}
             href={testimonial.link}
             target="_blank"
             rel="noopener noreferrer"
-            className={`bg-[#000b1a] hover:bg-[#00356e] active:bg-[#00356e] rounded-[1.5rem] p-8 flex flex-col gap-8 min-w-[25rem] max-w-[28.75rem] w-[25rem] sm:w-[28.75rem] flex-shrink-0 transition-all duration-500 ease-in-out group ${isDragging ? 'cursor-grabbing' : 'cursor-pointer'}`}
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
-            onClick={handleClick}
+            className="bg-[#000b1a] hover:bg-[#00356e] active:bg-[#00356e] rounded-[1.5rem] p-8 flex flex-col gap-8 min-w-[25rem] max-w-[28.75rem] w-[25rem] sm:w-[28.75rem] flex-shrink-0 cursor-pointer"
         >
             {/* Stars - 5 stars in a row (Solar Icons) */}
             <div className="relative h-5 w-32 flex-shrink-0 flex gap-0">
@@ -69,7 +58,7 @@ export default function TestimonialCardFull({testimonial, onMouseEnter, onMouseL
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-6 h-6 sm:w-5 sm:h-5 transition-transform duration-300 ease-in-out group-hover:rotate-45"
+                        className="w-6 h-6 sm:w-5 sm:h-5"
                     >
                         <path
                             d="M7 17L17 7M17 7H7M17 7V17"
@@ -83,5 +72,8 @@ export default function TestimonialCardFull({testimonial, onMouseEnter, onMouseL
             </div>
         </a>
     );
-}
+});
 
+TestimonialCardFull.displayName = 'TestimonialCardFull';
+
+export default TestimonialCardFull;
