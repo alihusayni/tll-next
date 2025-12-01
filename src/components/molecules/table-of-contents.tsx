@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Heading } from '@/types/content';
 
 interface TableOfContentsProps {
@@ -24,6 +24,7 @@ function renderMarkdownText(text: string) {
 
 export default function TableOfContents({ headings, className = '' }: TableOfContentsProps) {
   const [activeId, setActiveId] = useState<string>('');
+  const wrapperRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -55,6 +56,15 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
     return () => observer.disconnect();
   }, [headings]);
 
+  useEffect(() => {
+    if (activeId && wrapperRef.current) {
+      const button = wrapperRef.current.querySelector(`[data-id="${activeId}"]`) as HTMLElement;
+      if (button) {
+        button.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+  }, [activeId]);
+
   const scrollToHeading = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -72,38 +82,44 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
   }
 
   return (
-    <div className={`bg-[#E1E6EB] rounded-[1rem] overflow-hidden ${className}`}>
-      <div className="flex flex-col gap-4 p-6 md:p-8 w-full">
+    <>
+      <style dangerouslySetInnerHTML={{ __html: `::-webkit-scrollbar { display: none; }` }} />
+      <div className={`bg-[#E1E6EB] rounded-[1rem] overflow-hidden h-[calc(100vh-8rem)] ${className}`}>
+      <div className="flex flex-col gap-4 p-6 md:p-8 w-full h-full">
         <h2 className="font-inter-tight font-semibold text-xl md:text-[1.5rem] leading-7 md:leading-8 text-[#49535D]">
           Table of contents
         </h2>
-        <nav className="flex flex-col gap-4">
-          {tocHeadings.map((heading) => {
-            const isActive = activeId === heading.id;
-            // Calculate indentation based on heading level (h1=0, h2=1rem, h3=2rem, etc.)
-            const indentLevel = Math.max(0, heading.level - 1);
-            const paddingLeft = indentLevel * 1; // 1rem per level
-            
-            return (
-              <button
-                key={heading.id}
-                onClick={() => scrollToHeading(heading.id)}
-                style={{ paddingLeft: `${paddingLeft}rem` }}
-                className={`
-                  text-left text-sm leading-5 tracking-[-0.0175rem] transition-colors whitespace-normal break-words
-                  ${isActive 
-                    ? 'font-inter font-semibold text-[#E55B1E]' 
-                    : 'font-inter font-medium text-[#49535D] hover:text-[#E55B1E]'
-                  }
+        <div className="flex-1 overflow-y-auto" ref={wrapperRef}>
+          <nav className="flex flex-col gap-4">
+            {tocHeadings.map((heading) => {
+              const isActive = activeId === heading.id;
+              // Calculate indentation based on heading level (h1=0, h2=1rem, h3=2rem, etc.)
+              const indentLevel = Math.max(0, heading.level - 1);
+              const paddingLeft = indentLevel * 1; // 1rem per level
 
-                `}
-              >
-                {renderMarkdownText(heading.text)}
-              </button>
-            );
-          })}
-        </nav>
+              return (
+                <button
+                  key={heading.id}
+                  data-id={heading.id}
+                  onClick={() => scrollToHeading(heading.id)}
+                  style={{ paddingLeft: `${paddingLeft}rem` }}
+                  className={`
+                    text-left text-sm leading-5 tracking-[-0.0175rem] transition-colors whitespace-normal break-words
+                    ${isActive
+                      ? 'font-inter font-semibold text-[#E55B1E]'
+                      : 'font-inter font-medium text-[#49535D] hover:text-[#E55B1E]'
+                    }
+
+                  `}
+                >
+                  {renderMarkdownText(heading.text)}
+                </button>
+              );
+            })}
+          </nav>
+        </div>
       </div>
     </div>
+    </>
   );
 }

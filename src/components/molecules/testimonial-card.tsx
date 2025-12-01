@@ -220,7 +220,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
             ref={(el) => { testimonialRefs.current[index] = el; }}
             className="absolute top-0 left-0 w-full flex flex-col gap-[4rem] opacity-0"
           >
-            <p className="font-inter-tight font-normal text-[1.875rem] lg:text-[2.5rem] leading-[2.5rem] lg:leading-[3.438rem] tracking-[-0.02em] lg:tracking-0 text-[#071C32] cursor-grab">
+            <p className="font-inter-tight font-normal text-[1.875rem] md:text-[2rem] xl:text-[2.5rem] leading-[2.5rem] md:leading-[3rem] xl:leading-[3.438rem] tracking-[-0.02em] lg:tracking-0 text-[#071C32] cursor-grab">
               {testimonial.quote}
             </p>
             <div className="flex items-center gap-[1.25rem]">
