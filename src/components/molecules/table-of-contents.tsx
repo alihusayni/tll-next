@@ -60,7 +60,17 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
     if (activeId && wrapperRef.current) {
       const button = wrapperRef.current.querySelector(`[data-id="${activeId}"]`) as HTMLElement;
       if (button) {
-        button.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        const nav = wrapperRef.current;
+        const buttonRect = button.getBoundingClientRect();
+        const navRect = nav.getBoundingClientRect();
+        const buttonTopRelative = buttonRect.top - navRect.top;
+        const buttonBottomRelative = buttonRect.bottom - navRect.top;
+        const navHeight = navRect.height;
+        // If not within 10px of top or bottom, scroll to bring it to 10px from top
+        if (buttonTopRelative < 10 || buttonBottomRelative > navHeight - 10) {
+          const scrollTop = nav.scrollTop + buttonTopRelative - 10;
+          nav.scrollTo({ top: scrollTop, behavior: 'smooth' });
+        }
       }
     }
   }, [activeId]);
@@ -89,7 +99,7 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
         <h2 className="font-inter-tight font-semibold text-xl md:text-[1.5rem] leading-7 md:leading-8 text-[#49535D]">
           Table of contents
         </h2>
-        <nav className="flex flex-col gap-4 max-h-[calc(100vh-8rem-5rem)] overflow-y-auto mb-6 md:mb-8" ref={wrapperRef}>
+        <nav className="flex flex-col gap-4 max-h-[calc(100vh-8rem-5rem)] overflow-y-auto mb-6 md:mb-8 pb-6 md:pb-8" ref={wrapperRef}>
             {tocHeadings.map((heading) => {
               const isActive = activeId === heading.id;
               // Calculate indentation based on heading level (h1=0, h2=1rem, h3=2rem, etc.)
