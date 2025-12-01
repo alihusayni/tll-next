@@ -1,3 +1,4 @@
+/* eslint-disable prefer-const, @typescript-eslint/no-unused-expressions, @typescript-eslint/no-explicit-any */
 import {gsap} from "gsap";
 import {Draggable, InertiaPlugin} from "gsap/all";
 
@@ -12,11 +13,26 @@ export default function horizontalLoop(items: HTMLElement[], config: any) {
             lastIndex = 0,
             tl = gsap.timeline({
                 repeat: config.repeat,
-                onUpdate: onChange && function () {
-                    const i = tl.closestIndex();
-                    if (lastIndex !== i) {
-                        lastIndex = i;
-                        onChange(items[i], i);
+                onUpdate: function() {
+                    // Handle visibility based on position
+                    if (container) {
+                        const containerRect = container.getBoundingClientRect();
+                        items.forEach((item) => {
+                            const itemRect = item.getBoundingClientRect();
+                            // Hide items that are completely outside the container
+                            const isVisible = itemRect.right > containerRect.left - 320 &&
+                                            itemRect.left < containerRect.right + 320;
+                            gsap.set(item, { opacity: isVisible ? 1 : 0 });
+                        });
+                    }
+
+                    // Handle onChange callback
+                    if (onChange) {
+                        const currentIndex = tl.closestIndex();
+                        if (lastIndex !== currentIndex) {
+                            lastIndex = currentIndex;
+                            onChange(items[currentIndex], currentIndex);
+                        }
                     }
                 },
                 paused: config.paused,
@@ -111,7 +127,7 @@ export default function horizontalLoop(items: HTMLElement[], config: any) {
             },
             onResize = () => refresh(!(tl.draggable && tl.draggable.isDragging)),
             proxy: HTMLElement;
-        gsap.set(items, {x: 0});
+        gsap.set(items, {x: 0, opacity: 1});
         populateWidths();
         populateTimeline();
         populateOffsets();
@@ -152,7 +168,7 @@ export default function horizontalLoop(items: HTMLElement[], config: any) {
         if (config.draggable && typeof (Draggable) === "function") {
             proxy = document.createElement("div");
             let wrap = gsap.utils.wrap(0, 1),
-                ratio: number, startProgress: number, draggable: any, dragSnap: any, lastSnap: number,
+                ratio: number, startProgress: number, draggable: any, lastSnap: number,
                 wasPlaying: boolean,
                 align = () => tl.progress(wrap(startProgress + (draggable.startX - draggable.x) * ratio)),
                 syncIndex = () => tl.closestIndex(true);

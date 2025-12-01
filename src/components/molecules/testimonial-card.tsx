@@ -108,7 +108,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
     }
   };
 
-  const handleMouseUp = (_e: React.MouseEvent) => {
+  const handleMouseUp = () => {
     if (dragStart !== null) {
       const delta = lastDelta;
       if (Math.abs(delta) > 50) {
@@ -153,7 +153,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
     }
   };
 
-  const handleTouchEnd = (_e: React.TouchEvent) => {
+  const handleTouchEnd = () => {
     if (dragStart !== null) {
       const delta = lastDelta;
       if (Math.abs(delta) > 50) {

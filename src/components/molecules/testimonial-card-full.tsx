@@ -4,16 +4,17 @@ import { forwardRef } from 'react';
 
 interface TestimonialCardFullProps {
     testimonial: Testimonial;
+    className?: string;
 }
 
-const TestimonialCardFull = forwardRef<HTMLAnchorElement, TestimonialCardFullProps>(({testimonial}, ref) => {
+const TestimonialCardFull = forwardRef<HTMLAnchorElement, TestimonialCardFullProps>(({testimonial, className}, ref) => {
     return (
         <a
             ref={ref}
             href={testimonial.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#000b1a] hover:bg-[#00356e] active:bg-[#00356e] rounded-[1.5rem] p-8 flex flex-col gap-8 min-w-[25rem] max-w-[28.75rem] w-[25rem] sm:w-[28.75rem] flex-shrink-0 cursor-pointer"
+            className={`bg-[#000b1a] hover:bg-[#00356e] active:bg-[#00356e] rounded-[1.5rem] p-8 flex flex-col gap-8 min-w-[25rem] max-w-[28.75rem] w-[25rem] sm:w-[28.75rem] flex-shrink-0 cursor-pointer ${className || ''}`}
         >
             {/* Stars - 5 stars in a row (Solar Icons) */}
             <div className="relative h-5 w-32 flex-shrink-0 flex gap-0">

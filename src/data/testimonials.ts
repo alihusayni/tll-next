@@ -73,6 +73,14 @@ export const testimonials: Testimonial[] = [
         rating: 5,
     },
     {
+        quote: "Everything was professionally handled. Very happy with the whole process. Thank you!",
+        author: "Cindy Dang",
+        caseType: "Legal Services",
+        avatar: "/assets/testimonials/cindy-dang.png",
+        link: "https://share.google/JGcf0T8Xiy3S0XOWu",
+        rating: 5,
+    },
+    {
         quote: "I am so thankful that I met Tuan Le, he was able to help me with my case after being here for over 45 years in the States, now a U.S. citizen. Tuan was straight and knowledgeable, skillful in his work. The best!",
         author: "Phil Nguyen",
         caseType: "Citizenship",
@@ -121,6 +129,14 @@ export const testimonials: Testimonial[] = [
         rating: 5,
     },
     {
+        quote: "Such a trust factor, very professional. Best of the best",
+        author: "Ryzz Tiger",
+        caseType: "Legal Services",
+        avatar: "/",
+        link: "https://share.google/V1T9Yd2b6BFMKCJ1w",
+        rating: 5,
+    },
+    {
         quote: "Tuan is such a trustworthy and helpful attorney to us. What he advised and helped us to prepare which turned to be significant for our interview. I will recommend him if anyone I know seek for legal advice. My case got approved this week, me and my husband really appreciated him.",
         author: "Ngan Vo",
         caseType: "Legal Advice",
@@ -153,6 +169,15 @@ export const testimonials: Testimonial[] = [
         rating: 5,
     },
     {
+        quote: "Thank you very much Tuan Le for helping me and my family you done from your heart.. thank you",
+        author: "Kim Le",
+        caseType: "Legal Services",
+        avatar: "/",
+        link: "https://share.google/vR5lDCFoLKDzXnHt8",
+        rating: 5,
+    },
+
+    {
         quote: "We were recommend to Tuan in a time of need and hope. He immediately answered us when we callled him, he worked with us and executed perfectly what he had talked to us about. He found ways we thought they were impossible and fought for us, almost like he was a family member. We had an urgent matter and he requested for us not to be preset at court, our presence was waved and granted. He went on our behalf, he is a rare gem, an honest criminal lawyer, and as you all know, that is hard to find.",
         author: "Judith Castillo",
         caseType: "Criminal Defense",
@@ -176,6 +201,15 @@ export const testimonials: Testimonial[] = [
         link: "https://share.google/U5ZLD7B8ijzDvmJYP",
         rating: 5,
     },
+    {
+        quote: "Excellence excellence service. Tuan Le able to help me out with every little thing.",
+        author: "toto nguyen",
+        caseType: "Legal Services",
+        avatar: "/",
+        link: "https://share.google/4XBtdnj48bCGyoY3O",
+        rating: 5,
+    },
+
     {
         quote: "I had a problem with my visa application, and went to Tuan Le Law Office. Thanks to lawyer Tuan Le's experience helping me successfully appeal my visa application, I am very happy. Once again, my family and I would like to thank lawyer Tuan Le for his help.",
         author: "Quang Ma",
@@ -254,6 +288,14 @@ export const testimonials: Testimonial[] = [
         caseType: "Immigration Case",
         avatar: "/",
         link: "https://share.google/3KG8o5syIsWvcc0Vv",
+        rating: 5,
+    },
+    {
+        quote: "Thank Attorney Tuan Le, for your kindness, your help, your effort, your time!",
+        author: "Vinh Nguyen",
+        caseType: "Legal Services",
+        avatar: "/",
+        link: "https://share.google/nr4LeH6tYIpI9F7ST",
         rating: 5,
     },
     {
@@ -417,22 +459,6 @@ export const testimonials: Testimonial[] = [
         rating: 5,
     },
     {
-        quote: "Thank Attorney Tuan Le, for your kindness, your help, your effort, your time!",
-        author: "Vinh Nguyen",
-        caseType: "Legal Services",
-        avatar: "/",
-        link: "https://share.google/nr4LeH6tYIpI9F7ST",
-        rating: 5,
-    },
-    {
-        quote: "Everything was professionally handled. Very happy with the whole process. Thank you!",
-        author: "Cindy Dang",
-        caseType: "Legal Services",
-        avatar: "/assets/testimonials/cindy-dang.png",
-        link: "https://share.google/JGcf0T8Xiy3S0XOWu",
-        rating: 5,
-    },
-    {
         quote: "Best lawyer as I know helps me step by step to complete my Chapter 13, would recommend to anyone doesn't know about the law",
         author: "Danny Dinh",
         caseType: "Bankruptcy",
@@ -440,29 +466,6 @@ export const testimonials: Testimonial[] = [
         link: "https://share.google/iY4u4t7dNhKHDKKu6",
         rating: 5,
     },
-    {
-        quote: "Excellence excellence service. Tuan Le able to help me out with every little thing.",
-        author: "toto nguyen",
-        caseType: "Legal Services",
-        avatar: "/",
-        link: "https://share.google/4XBtdnj48bCGyoY3O",
-        rating: 5,
-    },
-    {
-        quote: "Thank you very much Tuan Le for helping me and my family you done from your heart.. thank you",
-        author: "Kim Le",
-        caseType: "Legal Services",
-        avatar: "/",
-        link: "https://share.google/vR5lDCFoLKDzXnHt8",
-        rating: 5,
-    },
-    {
-        quote: "Such a trust factor, very professional. Best of the best",
-        author: "Ryzz Tiger",
-        caseType: "Legal Services",
-        avatar: "/",
-        link: "https://share.google/V1T9Yd2b6BFMKCJ1w",
-        rating: 5,
-    },
+
 ];
 
