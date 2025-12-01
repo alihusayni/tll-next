@@ -151,12 +151,14 @@ export default function Header({
                     : 'border-white text-white hover:bg-[#E55B1E] hover:border-[#E55B1E] hover:text-white active:bg-[#E55B1E] active:border-[#E55B1E] active:text-white'
                 }`}
               >
-                <Icon 
-                  icon="solar:phone-linear" 
-                  width="24"
-                  height="24"
-                  className={`w-6 h-6 ${variant === 'light' ? 'text-[#071C32] group-hover:text-white' : 'filter brightness-0 invert'}`}
-                />
+                <div className="w-6 h-6 flex-shrink-0 flex items-center justify-center">
+                  <Icon
+                    icon="solar:phone-linear"
+                    width="24"
+                    height="24"
+                    className={`${variant === 'light' ? 'text-[#071C32] group-hover:text-white' : 'filter brightness-0 invert'}`}
+                  />
+                </div>
                 Talk to Us
               </a>
             </div>

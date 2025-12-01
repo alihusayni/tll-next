@@ -43,7 +43,7 @@ visas, nonimmigrant visas come with a defined expiration date and specific activ
 
 #### Why Choosing the Right Visa Matters
 
-[[cta]]
+
 
 Selecting the right visa ensures your plans align with U.S. immigration laws and avoids unnecessary complications during
 your application process. Whether you're planning a short trip or pursuing educational or professional opportunities,
@@ -56,7 +56,7 @@ Orange County, CA, guide you through your U.S. visa application journey.
 
 #### Understanding U.S. Visa Categories: Immigrant vs. Nonimmigrant Visas
 
-[[cta]]
+
 
 Before diving into the specifics of U.S. visa types, It's essential to understand the fundamental distinction between
 immigrant and nonimmigrant visas. Identifying the correct visa category is the first step in ensuring a smooth
@@ -87,7 +87,7 @@ fixed expiration date and may include restrictions on the activities permitted w
 
 #### Key Differences Between Immigrant and Nonimmigrant Visas
 
-[[cta]]
+
 
 #### Purpose of Stay
 

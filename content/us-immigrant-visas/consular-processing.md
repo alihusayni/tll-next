@@ -71,7 +71,7 @@ Also, if you already have a green card, you may need to renew it periodically by
 
 #### **File the Immigration Petition for Consular Processing**
 
-[[cta]]
+
 
 After determining your basis to immigrate, the next step to help your relative or employer get a U.S. green card is to
 file the Immigration Petition. You have to complete a certain form and send it to USCIS with the necessary documents and
@@ -112,7 +112,7 @@ humanitarian parole, and deferred action for childhood arrivals.
 
 #### **Wait for The USCIS Decision**
 
-[[cta]]
+
 
 USCIS will inform the petitioner of Its decision. If it is negative, it will also explain the grounds for rejection. The
 petitioner can still appeal the decision with the help of our immigration lawyers in **Orange County at the Law Office of
@@ -121,7 +121,7 @@ National Visa Center (NVC). Then it will stay there until the petitioner gets a 
 
 #### **Wait for The Notification from The National Visa Center**
 
-[[cta]]
+
 
 The petitioner and beneficiary will get a notification from the NVC when the visa petition and the visa number are
 ready. This agency collects the service fee for visa applications and other documents that support them. The NVC will
@@ -129,7 +129,7 @@ also inform when the fee bills for the immigrant visa and the other details have
 
 #### **Attending the Appointment for Consular Processing**
 
-[[cta]]
+
 
 When the visa is ready or the priority date is up to date, the consular office will schedule an interview for you. The
 consular office will finish the case processing and determine if the beneficiary is eligible for an immigrant visa.
@@ -140,14 +140,14 @@ the [[required documents](https://docs.google.com/document/d/13EX-SnKxkqLD30Z3aD
 
 #### **Notification of Changes to the NVC**
 
-[[cta]]
+
 
 You must tell the National Visa Center if you move, get married or divorced, or turn 21 years old since these changes
 may change the visa availability or the beneficiary's qualifications.
 
 #### **Obtaining the Visa for Consular Processing**
 
-[[cta]]
+
 
 The beneficiary will get an information packet (visa packet) from a consular officer along with the immigrant visa. This
 packet must not be opened. The individual has to pay the USCIS immigrant fee to get the Green Card. Moreover, the fee
@@ -160,7 +160,7 @@ application. [Call to schedule an appointment](tel:+1-714-877-5840).**
 
 #### **Pros and Cons of Consular Processing**
 
-[[cta]]
+
 
 You have to make the choice, of whether to pursue consular processing - If you are presently in the United States, you
 may have another option, which is applying for an adjustment of status. You should have a thorough conversation with
@@ -177,7 +177,7 @@ green card from inside the United States. The consular process takes an average 
 of Status petition can take one or two years for the United States Citizenship and Immigration Services (USCIS) to
 decide.
 
-[[cta]]
+
 
 #### **Confidence and Comfort**
 
@@ -193,7 +193,7 @@ The cost of an Adjustment of Status application remains $1,140 for most applican
 biometrics fee. The consular application fee depends on the visa type, but for family-based immigrants, it is around$
 1,200,which covers an immigrant visa petition. Therefore, consular processing is cheaper than adjustment of status.
 
-[[cta]]
+
 
 #### **Disadvantages of Consular Processing**
 
@@ -219,11 +219,11 @@ six months since they were 16.
 The location of an intended immigrant may expose him or her to risks or extra expenses for traveling from his or her
 home to a U.S. consulate.
 
-[[cta]]
+
 
 #### **FAQs About Consular Processing**
 
-[[cta]]
+
 
 #### **What Documents Do I Need For Consular Processing?**
 
@@ -238,7 +238,7 @@ home to a U.S. consulate.
 * Financial support proof
 * Other documents from NVC or the consulate
 
-[[cta]]
+
 
 #### **What If My Consular Application Is Denied Or Delayed?**
 
@@ -246,7 +246,7 @@ The consular officer should tell you why your application is denied and the lega
 may be delayed if the consular officer requires more details or papers from you, or if your application is in
 administrative processing, which is a security clearance that can last for a few weeks or months.
 
-[[cta]]
+
 
 #### **What Happens at The Consular Interview?**
 
@@ -256,7 +256,7 @@ sponsor. Remember to be honest, consistent, and ready. Pay the visa fee if neede
 approved. After getting a visa packet with your visa and documents, Don't open it until you reach the U.S. Then, follow
 the officers instructions on how to pay the USCIS fee, check your visa status, and contact the consulate if needed.
 
-[[cta]]
+
 
 #### **The Law Office of Tuan Le: Your Trusted Partner for Consular Processing**
 

@@ -115,7 +115,7 @@ a lengthy endeavor.
 
 #### **The Application Process**
 
-[[cta]]
+
 
 The journey to the United States begins with a comprehensive application process. This process is designed to meet the
 requirements and ensure that all family-sponsored visas are granted in accordance with U.S. immigration laws. In the
@@ -164,7 +164,7 @@ or [fill out the form to schedule your appointment](#contact)
 
 #### **Steps After Visa Approval**
 
-[[cta]]
+
 
 Once an applicant meets the necessary criteria and receives visa approval, they must then settle the immigrant visa fee.
 Subsequently, they complete the consular processing if they are abroad. For applicants already in the U.S., they proceed
@@ -196,7 +196,7 @@ legal advice can be the key to a successful application.
 
 #### **Challenges and Solutions**
 
-[[cta]]
+
 
 #### **Common Obstacles In Family-Based Immigration**
 
@@ -215,7 +215,7 @@ options and understanding the sibling immigration process can provide alternativ
 
 #### **FAQs About Family-Based Immigration:**
 
-[[cta]]
+
 
 #### Q:**How Can I Obtain A Green Card for My Family Members Through Sponsorship?**
 
@@ -246,7 +246,7 @@ applicants home country.
 
 #### **Ensuring Success In Family-Based Immigration: Tips For A Successful Application**
 
-[[cta]]
+
 
 A successful Family-based immigration application requires careful attention to detail and adherence to all Family-based
 immigration requirements. It's crucial to stay updated with the Visa bulletin for family-sponsored categories, ensure

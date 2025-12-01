@@ -184,6 +184,8 @@ export default function horizontalLoop(items: HTMLElement[], config: any) {
                     refresh();
                     ratio = 1 / totalWidth;
                     gsap.set(proxy, {x: startProgress / -ratio});
+                    document.body.style.cursor = 'grabbing';
+                    (items[0].parentNode as HTMLElement).classList.add('dragging');
                     if (typeof InertiaPlugin !== "undefined" && +InertiaPlugin.version.split(".")[1] < 14) {
                         const tracker = InertiaPlugin.getByTarget(proxy) as any;
                         if (tracker && tracker._props && tracker._props.x) {
@@ -207,6 +209,8 @@ export default function horizontalLoop(items: HTMLElement[], config: any) {
                 onRelease() {
                     syncIndex();
                     if (draggable.isThrowing) indexIsDirty = true;
+                    document.body.style.cursor = '';
+                    (items[0].parentNode as HTMLElement).classList.remove('dragging');
                 },
                 onThrowComplete: () => {
                     syncIndex();
@@ -214,6 +218,8 @@ export default function horizontalLoop(items: HTMLElement[], config: any) {
                         tl.timeScale(is_reversed ? -1 : 1);
                         if (wasPlaying) tl.play();
                     }
+                    document.body.style.cursor = '';
+                    (items[0].parentNode as HTMLElement).classList.remove('dragging');
                 }
             })[0];
             tl.draggable = draggable;

@@ -121,7 +121,7 @@ I-765.
 
 #### Form I-765 Application Costs
 
-[[cta]]
+
 
 You are required to pay $410 when apply for an EAD with Form I-765. However, certain groups are exempt from this
 filing fee if it is their first time. This includes:

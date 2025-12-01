@@ -36,7 +36,7 @@ County, CA
 
 ## Understanding the Immigration Application Process
 
-[[cta]]
+
 The immigration application process can seem overwhelming at first, but breaking it down into manageable steps makes
 it much easier to navigate. Here is a quick, high-level overview of the process.
 
@@ -66,7 +66,7 @@ securing your future in the United States.
 
 #### Immigration Application Checklist
 
-[[cta]]
+
 A thorough and organized immigration application is essential for a successful outcome. One of the most common
 mistakes applicants make is failing to include all required documents. Use this checklist to ensure your immigration
 application is complete and accurate.
@@ -123,7 +123,7 @@ application is as strong as possible.
 
 #### Steps to Apply for a Green Card Successfully
 
-[[cta]]
+
 The green card application process can seem overwhelming, but following the right steps can help ensure that your
 application is handled correctly. Here is how to apply for a green card successfully.
 
@@ -161,7 +161,7 @@ immigration application.
 
 #### Immigration Interview Preparation Tip
 
-[[cta]]
+
 The immigration interview is a critical step in the process, and being well-prepared can make a significant difference
 in the outcome. Here is how to effectively prepare for your immigration interview and increase your chances of success.
 
@@ -191,7 +191,7 @@ prepared for this important step in the immigration process.
 
 #### How to Choose the Right Immigration Lawyer
 
-[[cta]]
+
 Selecting the right immigration lawyer is crucial for ensuring the success of your application. With so many options
 available, It's important to find a lawyer who has the experience and expertise to guide you through the complex
 immigration process. Here is what to look for when choosing an immigration lawyer.
@@ -224,7 +224,7 @@ toward a successful immigration application.
 
 #### FAQs About Immigration Application
 
-[[cta]]
+
 Understanding the common questions surrounding immigration applications can help you feel more confident as you move
 forward. Here are six of the most frequently asked questions and their answers to guide you through the process.
 

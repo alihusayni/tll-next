@@ -65,13 +65,8 @@ export default function ResourcesPageClient({
     if (categoryId !== 'all-articles') {
       params.set('category', categoryId);
     }
-    router.push(`/resources?${params.toString()}`, { scroll: false });
+    router.push(`/${params.toString()}`, { scroll: false });
 
-    // Scroll to top of recent articles section
-    const recentSection = document.getElementById('recent-articles');
-    if (recentSection) {
-      recentSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
   };
 
   // Handle page change
@@ -84,13 +79,8 @@ export default function ResourcesPageClient({
     if (page !== 1) {
       params.set('page', page.toString());
     }
-    router.push(`/resources?${params.toString()}`, { scroll: true });
+    router.push(`/${params.toString()}`, { scroll: true });
 
-    // Scroll to top of recent articles section
-    const recentSection = document.getElementById('recent-articles');
-    if (recentSection) {
-      recentSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
   };
 
   return (

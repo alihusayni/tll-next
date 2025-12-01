@@ -33,7 +33,7 @@ approved. Call for a free consultation.here.
 
 ## Naturalization Process, a Step-by-Step Explanation
 
-[[cta]]
+
 
 The naturalization process is a series of steps through which an adult foreign green card holder becomes a permanent
 resident; an American citizen. This status is granted by the United States Citizenship and Immigration Services (USCIS).

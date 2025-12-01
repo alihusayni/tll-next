@@ -43,7 +43,7 @@ To file for a B2 visa, you will be required to pay $160 as the standard applicat
 
 #### How to Apply for the B2 Visa by Yourself?
 
-[[cta]]
+
 
 You can apply for the B2 visa online by going through a few steps.
 
@@ -100,7 +100,7 @@ A U.S. Tourist Visa interview does not take a long time and usually includes que
 
 #### Common Questions and Concerns Regarding the B2 Visa
 
-[[cta]]
+
 
 Due to various laws and regulations, traveling to another country can make us overwhelmed. Here are the answers to some of the common questions asked by B2 visa applicants.
 
@@ -136,7 +136,7 @@ Absolutely. It is not a law, but healthcare in the U.S. is too expensive. If you
 
 #### Do You Need Help with Your B2 Visa Application?
 
-[[cta]]
+
 
 The Law Office of Tuan Le, Orange County, California, is here to help you with your visa needs. Our experienced team is ready to give you legal advice and consultation regarding the B2 visa application and extension. Moreover, no matter at which U.S. embassy or consulate you need to apply for the B2 visa interview, our accomplished immigration attorney can handle your case professionally to make this path easy and stress-free for you.
 Call us at [(714) 877 5840](tel:+1-714-877-5840) to schedule an appointment or get a 30-minute free consultation.

@@ -34,7 +34,7 @@ lawyer with a [phone call](tel:+1-714-877-5840).**
 
 ## Immigration Court System in the United States
 
-[[cta]]
+
 
 Simply put, the U.S. immigration court system works under
 the [Executive Office for Immigration Review](https://www.justice.gov/eoir/about-office), also called the EOIR. It
@@ -54,7 +54,7 @@ defense strategies and tactics.
 
 ### A Simple Guide to Immigration Court Defense Strategies
 
-[[cta]]
+
 
 A defense strategy at court means that you (as the defendant) and your lawyer (as the defense attorney) try to present
 the truth in a way that can win you the case, or you can get a better verdict with a lesser charge, or a good plea

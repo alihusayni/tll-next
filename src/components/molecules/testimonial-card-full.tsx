@@ -1,6 +1,7 @@
-import type {Testimonial} from '@/data/testimonials';
-import Image from 'next/image';
-import { forwardRef } from 'react';
+ import type {Testimonial} from '@/data/testimonials';
+ import Image from 'next/image';
+ import { forwardRef } from 'react';
+ import { Icon } from '@iconify/react';
 
 interface TestimonialCardFullProps {
     testimonial: Testimonial;
@@ -14,7 +15,7 @@ const TestimonialCardFull = forwardRef<HTMLAnchorElement, TestimonialCardFullPro
             href={testimonial.link}
             target="_blank"
             rel="noopener noreferrer"
-            className={`bg-[#000b1a] hover:bg-[#00356e] active:bg-[#00356e] rounded-[1.5rem] p-8 flex flex-col gap-8 min-w-[25rem] max-w-[28.75rem] w-[25rem] sm:w-[28.75rem] flex-shrink-0 cursor-pointer ${className || ''}`}
+            className={`group bg-[#000b1a] hover:bg-[#00356e] active:bg-[#00356e] rounded-[1.5rem] p-8 flex flex-col gap-8 min-w-[25rem] max-w-[28.75rem] w-[25rem] sm:w-[28.75rem] flex-shrink-0 cursor-pointer ${className || ''}`}
         >
             {/* Stars - 5 stars in a row (Solar Icons) */}
             <div className="relative h-5 w-32 flex-shrink-0 flex gap-0">
@@ -51,25 +52,13 @@ const TestimonialCardFull = forwardRef<HTMLAnchorElement, TestimonialCardFullPro
                     </div>
                 </div>
 
-                {/* Simple Arrow Icon */}
-                <div className="w-6 h-6 sm:w-5 sm:h-5 flex items-center justify-center flex-shrink-0">
-                    <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="w-6 h-6 sm:w-5 sm:h-5"
-                    >
-                        <path
-                            d="M7 17L17 7M17 7H7M17 7V17"
-                            stroke="#969799"
-                            strokeWidth="1.5"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                        />
-                    </svg>
-                </div>
+                 {/* Simple Arrow Icon */}
+                 <div className="w-6 h-6 sm:w-5 sm:h-5 flex items-center justify-center flex-shrink-0">
+                     <Icon
+                         icon="solar:arrow-right-up-linear"
+                         className="w-6 h-6 sm:w-5 sm:h-5 text-[#969799] group-hover:rotate-45 transition-transform duration-200"
+                     />
+                 </div>
             </div>
         </a>
     );

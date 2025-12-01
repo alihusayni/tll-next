@@ -31,7 +31,7 @@ through community-building and legislative efforts.
 
 ## Navigating a Legal Maze: The Challenges of Being Undocumented
 
-[[cta]]
+
 
 Living undocumented in the United States is akin to navigating a complex maze. Ever-changing laws and regulations create
 a daunting landscape. So, Let's clarify the legal terrain that impacts your life in this situation.
@@ -90,7 +90,7 @@ rights and resources they need. Reach out to us at [714-877-5840](tel:+1-714-877
 
 #### Living in Constant Fear: The Daily Realities of Undocumented Life
 
-[[cta]]
+
 
 Undocumented immigrants are confronted with uncertainty and fear daily. The challenges are particularly relevant for
 asylum seekers and those navigating refugee policies. Often, they must also contend with the complexities of the

@@ -41,7 +41,7 @@ to [Tuan Le Law in Orange, CA](#about-us). Call us at [714-877-5840](tel:+1-714-
 
 ## **Importance of Understanding Permitted Activities and Restrictions**
 
-[[cta]]
+
 
 When holding a B-1 visa, it is crucial to understand both the permitted activities and the restrictions associated with
 this visa type. This knowledge ensures compliance with U.S. immigration laws and helps avoid potential legal issues. The
@@ -87,7 +87,7 @@ Several key activities are permitted under a B-1 visa:
 
 #### **Eligibility Criteria for a B-1 Visa**
 
-[[cta]]
+
 
 Understanding the following criteria is essential for a successful B-1 Visa application. It ensures that applicants are
 well-prepared and meet all the requirements for their business visit to the United States:
@@ -111,7 +111,7 @@ well-prepared and meet all the requirements for their business visit to the Unit
 
 #### **B-1 Visa Application Process: Steps to Apply for a B-1 Visa**
 
-[[cta]]
+
 
 #### **Applying for a B-1 Visa involves several key steps:**
 
@@ -164,7 +164,7 @@ Preparing for the B-1 Visa interview is crucial for a successful application:
 
 #### **Misunderstanding Permitted Activities on a B-1 Visa**
 
-[[cta]]
+
 
 One common misconception is misunderstanding what activities are permitted on a B-1 visa. Many people mistakenly believe
 that they can engage in any business-related activity, including full-time employment or running a business. However,

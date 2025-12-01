@@ -100,7 +100,7 @@ immigration visa lawyer.**
 
 #### EB-2 Visa Application Process; Applying for EB-2 Advanced Degree and Exceptional Ability
 
-[[cta]]
+
 
 The application process for EB-2 PERM visas includes three main steps that must be done by the employer and the
 applicant.
@@ -205,7 +205,7 @@ card to become a permanent resident.
 
 #### Hire a Top Immigration Lawyer for Your EB-2 Visa Renewal or Application
 
-[[cta]]
+
 
 We have explored different possibilities to get EB-2 employment-based visas. Whether you think you are qualified for
 EB-2A, EB-2B, or EB-2 NIW, the Law Office of Tuan Le can help you through every step of the process.

@@ -39,7 +39,7 @@ This visa is*not*suitable for those who wish to train at a vocational school. Th
 
 ### Who Is Eligible for an F-1 Visa?
 
-[[cta]]
+
 
 To apply for an F-1 visa, you have to meet the following requirements to be qualified.
 
@@ -61,7 +61,7 @@ To apply for an F-1 visa, you have to meet the following requirements to be qual
 
 #### F-1 Student Visa Application Process
 
-[[cta]]
+
 
 The application process can be divided into different steps. The first step in the F-1 student visa application process
 is collecting all the required documents. Then, you will be ready to apply and submit the documents. After that, you
@@ -172,7 +172,7 @@ Besides preparing the documents and your answers, you should follow the advice b
 
 #### Other Questions and Concerns Regarding the F-1 Visa
 
-[[cta]]
+
 
 When it comes to getting a visa, there are a lot of questions and concerns on the part of applicants. Let's discuss a
 few of the most common ones.
@@ -209,7 +209,7 @@ study program starts.
 
 #### Hire an Immigration Attorney to Complete Your F-1 Student Visa Application
 
-[[cta]]
+
 
 Completing Form DS-160, preparing for the embassy interview, and gathering the documents required can be confusing and
 frustrating. You should also know what proofs are good enough to convince the consular officers that you are tied to

@@ -124,3 +124,8 @@ body.mobile-menu-open {
 .mobile-menu-overlay {
   visibility: visible !important;
 }
+
+/* Dragging cursor for testimonial cards */
+.dragging a {
+  cursor: grabbing !important;
+}
