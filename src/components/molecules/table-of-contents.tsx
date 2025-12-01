@@ -60,7 +60,7 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
     if (activeId && wrapperRef.current) {
       const button = wrapperRef.current.querySelector(`[data-id="${activeId}"]`) as HTMLElement;
       if (button) {
-        button.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        button.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     }
   }, [activeId]);
@@ -84,13 +84,12 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: `::-webkit-scrollbar { display: none; }` }} />
-      <div className={`bg-[#E1E6EB] rounded-[1rem] overflow-hidden h-[calc(100vh-8rem)] ${className}`}>
+      <div className={`bg-[#E1E6EB] rounded-[1rem] overflow-hidden h-auto max-h-[calc(100vh-8rem)] ${className}`}>
       <div className="flex flex-col gap-4 p-6 md:p-8 w-full h-full">
         <h2 className="font-inter-tight font-semibold text-xl md:text-[1.5rem] leading-7 md:leading-8 text-[#49535D]">
           Table of contents
         </h2>
-        <div className="flex-1 overflow-y-auto" ref={wrapperRef}>
-          <nav className="flex flex-col gap-4">
+        <nav className="flex flex-col gap-4 max-h-[calc(100vh-8rem-5rem)] overflow-y-auto mb-6 md:mb-8" ref={wrapperRef}>
             {tocHeadings.map((heading) => {
               const isActive = activeId === heading.id;
               // Calculate indentation based on heading level (h1=0, h2=1rem, h3=2rem, etc.)
@@ -116,8 +115,7 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
                 </button>
               );
             })}
-          </nav>
-        </div>
+        </nav>
       </div>
     </div>
     </>
