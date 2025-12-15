@@ -248,7 +248,6 @@ const nextConfig: NextConfig = {
     },
     compress: true,
     poweredByHeader: false,
-    inlineCss: true
 };
 
 export default nextConfig;
