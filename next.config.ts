@@ -247,7 +247,6 @@ const nextConfig: NextConfig = {
         ];
     },
     compress: true,
-    trailingSlash: true,
     poweredByHeader: false,
     inlineCss: true
 };

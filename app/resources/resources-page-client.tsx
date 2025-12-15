@@ -71,19 +71,19 @@ export default function ResourcesPageClient({
   const handlePageChange = (page: number) => {
     // Update URL
     const params = new URLSearchParams();
-    if (activeCategory !== 'all-articles') {
-      params.set('category', activeCategory);
-    }
+    // if (activeCategory !== 'all-articles') {
+    //   params.set('category', activeCategory);
+    // }
     if (page !== 1) {
       params.set('page', page.toString());
     }
-    router.push(`/${params.toString()}`, { scroll: true });
+    router.push(`?${params.toString()}`, { scroll: true });
 
   };
 
   return (
     <>
-    <style jsx>{`
+      <style jsx>{`
       .scrollbar-hide {
         -ms-overflow-style: none;
         scrollbar-width: none;
@@ -92,111 +92,111 @@ export default function ResourcesPageClient({
         display: none;
       }
     `}</style>
-    <div className="bg-[#E8EDF2] flex flex-col items-center min-h-screen w-full">
-      {/* Blog Hub Section */}
-      <div className="bg-[#E8EDF2] box-border flex flex-col gap-8 items-center pb-16 pt-8 px-4 sm:px-8 lg:px-16 2xl:px-0 relative shrink-0 w-full max-w-[86.5rem]">
-        {/* Title & Description */}
-        <div className="flex flex-col gap-8 items-start px-0 py-8 w-full">
-          <p className="font-inter-tight font-semibold text-[3.25rem] lg:text-[5.75rem] leading-tight md:leading-[3.75rem] lg:leading-[4.5rem] tracking-[-0.115rem] text-[#071C32] max-w-[31rem]">
-            Resources
-          </p>
-          <p className="font-inter-tight font-medium text-xl lg:text-[1.5rem] leading-[1.75rem] text-[#747D85] w-full">
-            News and insights on all things related to law by Tuan le
-          </p>
-        </div>
-
-        {/* Category Filter */}
-        <BlogCategoryFilter
-          categories={categories}
-          activeCategory={activeCategory}
-          onCategoryChange={handleCategoryChange}
-          infinityBorder={true}
-        />
-
-        {/* Featured Articles */}
-        <div className="box-border flex flex-col items-center pb-0 pt-8 px-0 w-full">
-          <div className="box-border flex flex-col gap-8 items-start pb-8 pt-0 px-0 w-full">
-            <div className="flex flex-col gap-8 items-start max-w-[86.5rem]l overflow-hidden w-full">
-              {/* Featured Articles Title */}
-              <div className="flex flex-wrap gap-8 md:gap-16 items-end justify-end max-w-[86.5rem] w-full">
-                <div className="flex flex-[1_0_0] flex-col gap-8 md:gap-[3.125rem] items-start min-h-px min-w-[17.5rem]">
-                  <div className="flex flex-col gap-5 items-start w-full">
-                    <p className="font-inter-tight font-semibold text-[2.125rem] lg:text-[3.25rem] leading-[2.625rem] lg:leading-[3.75rem] tracking-[-0.043rem] lg:tracking-[-0.065rem] text-[#071C32] max-w-[31rem] w-full">
-                      Featured Articles
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Featured Articles Grid */}
-              <div className="flex flex-row overflow-x-auto gap-4 sm:gap-8 w-full shrink-0 pb-2 sm:pb-0 scrollbar-hide">
-                {featuredArticles.map((article, index) => (
-                  <BlogArticleCard
-                    key={index}
-                    title={article.title}
-                    category={article.category}
-                    date={article.date}
-                    readTime={article.readTime}
-                    image={article.image}
-                    link={article.link}
-                    className="w-[23.5rem] lg:w-[27.5rem] flex-shrink-0"
-                  />
-                ))}
-              </div>
-            </div>
+      <div className="bg-[#E8EDF2] flex flex-col items-center min-h-screen w-full">
+        {/* Blog Hub Section */}
+        <div className="bg-[#E8EDF2] box-border flex flex-col gap-8 items-center pb-16 pt-8 px-4 sm:px-8 lg:px-16 2xl:px-0 relative shrink-0 w-full max-w-[86.5rem]">
+          {/* Title & Description */}
+          <div className="flex flex-col gap-8 items-start px-0 py-8 w-full">
+            <p className="font-inter-tight font-semibold text-[3.25rem] lg:text-[5.75rem] leading-tight md:leading-[3.75rem] lg:leading-[4.5rem] tracking-[-0.115rem] text-[#071C32] max-w-[31rem]">
+              Resources
+            </p>
+            <p className="font-inter-tight font-medium text-xl lg:text-[1.5rem] leading-[1.75rem] text-[#747D85] w-full">
+              News and insights on all things related to law by Tuan le
+            </p>
           </div>
 
-          {/* Recent Articles Section */}
-          <div
-            id="recent-articles"
-            className="box-border flex flex-col gap-8 items-start max-w-[64rem] px-0 py-8 w-full"
-          >
-            <div className="flex flex-col gap-8 items-start max-w-7xl overflow-hidden w-full">
-              {/* Recent Articles Title */}
-              <div className="border-b border-[#D2D5D9] box-border flex flex-wrap gap-0 items-end justify-end max-w-7xl pb-4 pt-0 px-0 w-full">
-                <div className="flex flex-[1_0_0] flex-col gap-8 md:gap-[3.125rem] items-start min-h-px min-w-[17.5rem]">
-                  <div className="flex flex-col gap-5 items-start w-full">
-                    <p className="font-inter-tight font-semibold text-[1.875rem] lg:text-[2.5rem] leading-[2.5rem] lg:leading-[3.125rem] tracking-[-0.038rem] lg:tracking-[-0.05rem] text-[#071C32] max-w-[31rem] w-full">
-                      Recent Articles
-                    </p>
+          {/* Category Filter */}
+          <BlogCategoryFilter
+            categories={categories}
+            activeCategory={activeCategory}
+            onCategoryChange={handleCategoryChange}
+            infinityBorder={true}
+          />
+
+          {/* Featured Articles */}
+          <div className="box-border flex flex-col items-center pb-0 pt-8 px-0 w-full">
+            <div className="box-border flex flex-col gap-8 items-start pb-8 pt-0 px-0 w-full">
+              <div className="flex flex-col gap-8 items-start max-w-[86.5rem]l overflow-hidden w-full">
+                {/* Featured Articles Title */}
+                <div className="flex flex-wrap gap-8 md:gap-16 items-end justify-end max-w-[86.5rem] w-full">
+                  <div className="flex flex-[1_0_0] flex-col gap-8 md:gap-[3.125rem] items-start min-h-px min-w-[17.5rem]">
+                    <div className="flex flex-col gap-5 items-start w-full">
+                      <p className="font-inter-tight font-semibold text-[2.125rem] lg:text-[3.25rem] leading-[2.625rem] lg:leading-[3.75rem] tracking-[-0.043rem] lg:tracking-[-0.065rem] text-[#071C32] max-w-[31rem] w-full">
+                        Featured Articles
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              {/* Recent Articles List */}
-              <div className="flex flex-col gap-8 items-center w-full">
-                {paginatedArticles.length > 0 ? (
-                  paginatedArticles.map((article, index) => (
-                    <BlogArticleListItem
+                {/* Featured Articles Grid */}
+                <div className="flex flex-row overflow-x-auto gap-4 sm:gap-8 w-full shrink-0 pb-2 sm:pb-0 scrollbar-hide">
+                  {featuredArticles.map((article, index) => (
+                    <BlogArticleCard
                       key={index}
                       title={article.title}
                       category={article.category}
-                      excerpt={article.excerpt}
                       date={article.date}
                       readTime={article.readTime}
                       image={article.image}
                       link={article.link}
-                      className="w-full"
+                      className="w-[23.5rem] lg:w-[27.5rem] flex-shrink-0"
                     />
-                  ))
-                ) : (
-                  <p className="text-center text-[#747D85] py-8">No articles found in this category.</p>
-                )}
+                  ))}
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Pagination */}
-          {totalPages > 1 && (
-            <Pagination
-              currentPage={currentPage}
-              totalPages={totalPages}
-              onPageChange={handlePageChange}
-              className="mt-8"
-            />
-          )}
+            {/* Recent Articles Section */}
+            <div
+              id="recent-articles"
+              className="box-border flex flex-col gap-8 items-start max-w-[64rem] px-0 py-8 w-full"
+            >
+              <div className="flex flex-col gap-8 items-start max-w-7xl overflow-hidden w-full">
+                {/* Recent Articles Title */}
+                <div className="border-b border-[#D2D5D9] box-border flex flex-wrap gap-0 items-end justify-end max-w-7xl pb-4 pt-0 px-0 w-full">
+                  <div className="flex flex-[1_0_0] flex-col gap-8 md:gap-[3.125rem] items-start min-h-px min-w-[17.5rem]">
+                    <div className="flex flex-col gap-5 items-start w-full">
+                      <p className="font-inter-tight font-semibold text-[1.875rem] lg:text-[2.5rem] leading-[2.5rem] lg:leading-[3.125rem] tracking-[-0.038rem] lg:tracking-[-0.05rem] text-[#071C32] max-w-[31rem] w-full">
+                        Recent Articles
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Recent Articles List */}
+                <div className="flex flex-col gap-8 items-center w-full">
+                  {paginatedArticles.length > 0 ? (
+                    paginatedArticles.map((article, index) => (
+                      <BlogArticleListItem
+                        key={index}
+                        title={article.title}
+                        category={article.category}
+                        excerpt={article.excerpt}
+                        date={article.date}
+                        readTime={article.readTime}
+                        image={article.image}
+                        link={article.link}
+                        className="w-full"
+                      />
+                    ))
+                  ) : (
+                    <p className="text-center text-[#747D85] py-8">No articles found in this category.</p>
+                  )}
+                </div>
+              </div>
+            </div>
+
+            {/* Pagination */}
+            {totalPages > 1 && (
+              <Pagination
+                currentPage={currentPage}
+                totalPages={totalPages}
+                onPageChange={handlePageChange}
+                className="mt-8"
+              />
+            )}
+          </div>
         </div>
-      </div>
       </div>
 
       {/* Contact Section */}
@@ -204,7 +204,7 @@ export default function ResourcesPageClient({
 
       {/* Footer */}
       <SiteFooter />
-      </>
+    </>
   );
 }
 
