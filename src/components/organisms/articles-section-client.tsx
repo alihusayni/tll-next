@@ -174,9 +174,9 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
               <h2 className="font-inter-tight font-semibold text-lg leading-[1.222rem] uppercase text-[#747D85]">
                 Articles
               </h2>
-              <h1 className="font-inter-tight font-semibold text-[2.125rem] lg:text-[3.25rem] md:text-[2.125rem] sm:text-[2.125rem] leading-[1.235] lg:leading-[1.235] md:leading-[1.235] sm:leading-[1.235] tracking-[-0.02em] text-[#071C32]">
+              <h3 className="font-inter-tight font-semibold text-[2.125rem] lg:text-[3.25rem] md:text-[2.125rem] sm:text-[2.125rem] leading-[1.235] lg:leading-[1.235] md:leading-[1.235] sm:leading-[1.235] tracking-[-0.02em] text-[#071C32]">
                 Latest Articles
-              </h1>
+              </h3>
             </div>
             <LinkButton text="See All Articles" href="/resources" textColor="text-[#49535D]" />
           </div>
