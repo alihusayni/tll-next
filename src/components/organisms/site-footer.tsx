@@ -28,9 +28,9 @@ export default function SiteFooter({ className = "" }: SiteFooterProps) {
     <footer
       className={`bg-[#F7F9FC] m-0 border-t border-[#E1E3E5] ${className}`}
     >
-      <div className="max-w-[95rem] mx-auto py-24 px-4 sm:px-8 lg:px-16 pb-8">
-        <div className="flex flex-wrap gap-16 justify-between pb-10">
-          <div className="flex flex-col gap-6">
+      <div className="max-w-[95rem] mx-auto py-8 px-4 sm:px-8 lg:px-16 pb-8">
+        <div className="flex flex-wrap gap-16 justify-between pb-8">
+          <div className="flex flex-col gap-8">
             <Logo variant="Blue" />
             <p className="font-inter text-lg text-[#071C32] leading-7 max-w-[18rem]">
               We are the Employment Law Center of Orange County CA.
@@ -65,7 +65,7 @@ export default function SiteFooter({ className = "" }: SiteFooterProps) {
           </div>
         </div>
         <hr className="border-[#E1E6EB]" />
-        <div className="flex flex-col text-[#747D85] text-sm leading-7 justify-center py-8">
+        <div className="flex flex-col text-[#747D85] text-sm leading-7 justify-center py-8 font-inter">
           <p>Attorney Advertising Notice</p>
           <p>
             This law office is a federally designated DEBT RELIEF AGENCY as
@@ -75,7 +75,7 @@ export default function SiteFooter({ className = "" }: SiteFooterProps) {
             bankruptcy relief under the US Bankruptcy Code. Debt Relief Agency
             Notice.
           </p>
-          <p className="my-4"></p>
+          <p className="my-3"></p>
           <p>Prior results do not guarantee a similar outcome.</p>
           <p>
             These materials have been prepared by the Law Office of Tuan Le for
@@ -88,7 +88,7 @@ export default function SiteFooter({ className = "" }: SiteFooterProps) {
             to send that information to us.
           </p>
         </div>
-        <hr className="border-[#E1E6EB] mb-8" />
+        <hr className="border-[#E1E6EB] mb-6" />
         <CopyrightBar copyrightText="Copyright © 2025 Law Office of Tuan Le All Rights Reserved" />
       </div>
     </footer>
