@@ -33,8 +33,7 @@ export default function SiteFooter({ className = "" }: SiteFooterProps) {
           <div className="flex flex-col gap-8">
             <Logo variant="Blue" />
             <p className="font-inter text-lg text-[#071C32] leading-7 max-w-[18rem]">
-              We are the Employment Law Center of Orange County CA.
-            </p>
+Beyond the paperwork, we see the life you’re building. We are honored to help you secure a foundation for your future.            </p>
           </div>
           <div className="flex flex-wrap gap-8 sm:gap-32">
             <div className="flex flex-col gap-8">
@@ -89,7 +88,7 @@ export default function SiteFooter({ className = "" }: SiteFooterProps) {
           </p>
         </div>
         <hr className="border-[#E1E6EB] mb-6" />
-        <CopyrightBar copyrightText="Copyright © 2025 Law Office of Tuan Le All Rights Reserved" />
+        <CopyrightBar copyrightText="Copyright ©2026 Law Office of Tuan Le. All Rights Reserved." />
       </div>
     </footer>
   );
