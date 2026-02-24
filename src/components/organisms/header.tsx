@@ -121,17 +121,17 @@ export default function Header({
     };
   }, [variant, isNavigating]);
 
-  const headerClasses = variant === 'sticky' 
+  const headerClasses = variant === 'sticky'
     ? `fixed top-0 left-0 right-0 z-50 bg-[#091C32] shadow-md transition-opacity ${show ? 'opacity-100' : 'opacity-0 pointer-events-none'}`
     : variant === 'light'
-    ? `relative z-40 bg-[#E8EDF2] w-full`
-    : `bg-transparent`;
+      ? `relative z-40 bg-[#E8EDF2] w-full`
+      : `bg-transparent`;
 
 
 
   const LogoComponent = variant === 'light'
-    ? <Link href="/"><Logo variant="Blue"/></Link>
-    : <Link href="/"><Logo variant="White"/></Link>;
+    ? <Link href="/"><Logo variant="Blue" /></Link>
+    : <Link href="/"><Logo variant="White" /></Link>;
 
   return (
     <>
@@ -139,17 +139,16 @@ export default function Header({
         <div className='w-full max-w-[86.5rem] mx-auto'>
           <div className={`flex justify-between items-center pt-8 pb-6 px-4 sm:px-8 lg:px-16 2xl:px-0 ${variant === 'sticky' && !maxWidth ? 'px-4 sm:px-8 lg:px-16 2xl:px-0' : ''}`}>
             {LogoComponent}
-            
+
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center gap-16">
               <MainNav className="flex" customTextColor={variant === 'light' ? 'text-[#030E1A]' : undefined} />
-              <a 
-                href="tel:(714) 877 5840" 
-                className={`group inline-flex items-center justify-center gap-4 font-inter-tight font-semibold uppercase transition-colors rounded-md bg-transparent border-2 px-6 py-4 text-base h-12 whitespace-nowrap ${
-                  variant === 'light' 
+              <a
+                href="tel:(714) 877 5840"
+                className={`group inline-flex items-center justify-center gap-4 font-inter-tight font-semibold uppercase transition-colors rounded-md bg-transparent border-2 px-6 py-4 text-base h-12 whitespace-nowrap ${variant === 'light'
                     ? 'border-[#49535D] text-[#071C32] hover:bg-[#E55B1E] active:bg-[#E55B1E] hover:border-[#E55B1E] active:border-[#E55B1E] hover:text-white active:text-white'
                     : 'border-white text-white hover:bg-[#E55B1E] hover:border-[#E55B1E] hover:text-white active:bg-[#E55B1E] active:border-[#E55B1E] active:text-white'
-                }`}
+                  }`}
               >
                 <div className="w-6 h-6 flex-shrink-0 flex items-center justify-center">
                   <Icon
@@ -166,8 +165,8 @@ export default function Header({
             {/* Mobile Hamburger Menu */}
             {showMobileMenu !== false && (
               <div className="lg:hidden">
-                <HamburgerMenu 
-                  isOpen={isMobileMenuOpen} 
+                <HamburgerMenu
+                  isOpen={isMobileMenuOpen}
                   onClick={toggleMobileMenu}
                   color={variant === 'light' ? 'bg-[#030E1A]' : 'bg-white'}
                 />
@@ -179,7 +178,7 @@ export default function Header({
 
       {/* Mobile Menu Overlay - Rendered at document root */}
       {mounted && createPortal(
-        <div ref={mobileMenuRef} className={`lg:hidden mobile-menu-overlay fixed inset-0 z-50 ${isMenuVisible ? 'block' : 'hidden'}`} style={{ backgroundColor: 'rgb(0, 53, 110)' }}>
+        <div ref={mobileMenuRef} className={`lg:hidden mobile-menu-overlay fixed inset-0 z-50 ${isMenuVisible ? 'block' : 'hidden'}`} style={{ backgroundColor: 'rgb(0, 53, 110)', height: '100dvh' }}>
           <div className="flex flex-col h-full py-8 min-h-screen">
             {/* Header with Logo and Close Button */}
             <div className="flex justify-between items-center px-4 sm:px-8 mb-16">
@@ -190,32 +189,32 @@ export default function Header({
                 aria-label="Close menu"
               >
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6">
-                  <path d="M6 6L18 18M18 6L6 18" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M6 6L18 18M18 6L6 18" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </button>
             </div>
-            
+
             {/* Menu Items */}
             <div className="flex-1 px-0 sm:px-4">
-              <MainNav 
+              <MainNav
                 className="flex flex-col gap-2"
                 onItemClick={toggleMobileMenu}
                 mobileView={true}
               />
             </div>
-            
+
             {/* Buttons at Bottom */}
             <div className="flex flex-col gap-4 px-4 mt-8">
-              <a 
-                href="tel:(714) 877 5840" 
+              <a
+                href="tel:(714) 877 5840"
                 className="group flex justify-center items-center gap-4 font-inter-tight font-semibold uppercase transition-colors rounded-md border-2 border-white text-white hover:bg-white hover:text-[#00356E] active:bg-[#E55B1E] active:border-[#E55B1E] active:text-white py-3 text-lg whitespace-nowrap self-stretch"
                 onClick={toggleMobileMenu}
               >
                 Talk to Us
               </a>
-              
-              <a 
-                href="#contact" 
+
+              <a
+                href="#contact"
                 className="flex justify-center items-center gap-4 font-inter-tight font-semibold uppercase transition-colors rounded-md bg-[#E55B1E] text-white hover:bg-[#FF7031] active:bg-[#FF7031] py-3 text-lg whitespace-nowrap self-stretch"
                 onClick={toggleMobileMenu}
               >
