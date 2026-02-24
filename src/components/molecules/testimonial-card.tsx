@@ -132,13 +132,20 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
     }
   };
 
+  const dragStartY = useRef<number | null>(null);
+
   const handleTouchStart = (e: React.TouchEvent) => {
     setDragStart(e.touches[0].clientX);
+    dragStartY.current = e.touches[0].clientY;
     setLastDelta(0);
   };
 
   const handleTouchMove = (e: React.TouchEvent) => {
-    e.preventDefault();
+    if (dragStart !== null && dragStartY.current !== null) {
+      const dx = Math.abs(e.touches[0].clientX - dragStart);
+      const dy = Math.abs(e.touches[0].clientY - dragStartY.current);
+      if (dx > dy) e.preventDefault();
+    }
     if (dragStart !== null) {
       const delta = e.touches[0].clientX - dragStart;
       setLastDelta(delta);
@@ -180,6 +187,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
   return (
     <div
       className="flex flex-col gap-[4rem] select-none"
+      style={{ touchAction: 'pan-y' }}
       onMouseDown={handleMouseDown}
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
