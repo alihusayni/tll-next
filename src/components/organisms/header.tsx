@@ -179,7 +179,7 @@ export default function Header({
       {/* Mobile Menu Overlay - Rendered at document root */}
       {mounted && createPortal(
         <div ref={mobileMenuRef} className={`lg:hidden mobile-menu-overlay fixed inset-0 z-50 ${isMenuVisible ? 'block' : 'hidden'}`} style={{ backgroundColor: 'rgb(0, 53, 110)' }}>
-          <div className="flex flex-col h-full py-8 min-h-screen">
+          <div className="flex flex-col h-full py-8" style={{ height: '100dvh' }}>
             {/* Header with Logo and Close Button */}
             <div className="flex justify-between items-center px-4 sm:px-8 mb-16">
               <Link href="/"><Logo variant="White" /></Link>
