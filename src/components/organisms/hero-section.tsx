@@ -13,14 +13,18 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
     <section className={`relative min-h-screen flex flex-col justify-start items-center bg-[#E8EDF2] m-0 ${className}`}>
       {/* Background Image */}
       <div className="absolute inset-0">
-        <Image
-          src="/assets/hero/bg.png"
-          alt="Scenic background image representing immigration law services in Orange County, California"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-[rgba(9,44,81,0.60)] mix-blend-multiply"/>
+        <picture>
+          <source srcSet="/assets/hero/bg.webp" type="image/webp" />
+          <Image
+            src="/assets/hero/bg.png"
+            quality={100}
+            alt="Scenic background image representing immigration law services in Orange County, California"
+            fill
+            className="object-cover"
+            priority
+          />
+        </picture>
+        {/* <div className="absolute inset-0 bg-[rgba(9,44,81,0.60)] mix-blend-multiply"/> */}
       </div>
 
       {/* Header */}
@@ -63,10 +67,10 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
         {/* Button and Rating Container */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
           {/* Button */}
-           <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="group bg-[#E55B1E] text-white font-inter-tight font-semibold text-[1.125rem] rounded-md hover:bg-[#FF7031] active:bg-[#FF7031] transition-all w-[19.375rem] h-[3.25rem] hover:w-[20.5rem] active:w-[20.5rem] flex items-center justify-start gap-4 pl-6">
-             30 min FREE CONSULTING
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[0.875rem] h-[0.875rem] transition-transform group-hover:rotate-45 group-active:rotate-45">
-              <path d="M1 13L13 1M13 1H4M13 1V10" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="group bg-[#E55B1E] text-white font-inter-tight font-semibold text-[1.125rem] rounded-md hover:bg-[#FF7031] active:bg-[#FF7031] transition-all w-[19.375rem] h-[3.25rem] hover:w-[20.5rem] active:w-[20.5rem] flex items-center justify-start gap-4 pl-6">
+            30 min FREE CONSULTING
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[0.875rem] h-[0.875rem] transition-transform group-hover:rotate-45 group-active:rotate-45">
+              <path d="M1 13L13 1M13 1H4M13 1V10" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </button>
 
@@ -79,7 +83,7 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
           >
             {/* Stars - Top Line */}
             <HeroRatingStar rating={5} />
-            
+
             {/* Rating and Reviews - Second Line */}
             <div className="flex items-center gap-2">
               <span className="font-inter font-semibold text-lg leading-[1.688rem] text-white">
@@ -88,9 +92,9 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
               <span className="font-inter font-semibold text-sm leading-5 text-[#D2D5D9]">
                 70+ REVIEWS
               </span>
-                <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-4 h-3 text-white transition-all duration-300 group-hover:rotate-45 group-active:rotate-45 group-hover:text-white group-active:text-white">
-                  <path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+              <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-4 h-3 text-white transition-all duration-300 group-hover:rotate-45 group-active:rotate-45 group-hover:text-white group-active:text-white">
+                <path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
             </div>
           </a>
         </div>
