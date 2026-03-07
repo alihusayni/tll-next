@@ -1,7 +1,7 @@
 ---
 metaTitle: "Undocumented Immigrants & The Complexities of US Immigration Law | Tuan Le Law"
 metaDescription: "Facing immigration challenges? Tuan Le in CA, can help. Understand your rights, explore pathways to legalization, and advocate for change."
-h1: "Undocumented Immigrants: Charting a Course Through U.S. Immigration Challenges."
+h1: "Undocumented Immigrants: Charting a Course Through U.S. Immigration Challenges"
 summary: "Facing immigration challenges? Tuan Le in CA, can help. Understand your rights, explore pathways to legalization, and advocate for change."
 author: "Top Organic Leads"
 robots: "index, follow"
