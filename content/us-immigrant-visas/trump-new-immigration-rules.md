@@ -13,8 +13,8 @@ twitterCard: "summary_large_image"
 twitterTitle: "TRUMP’S NEW IMMIGRATION RULES: WHAT THEY MEAN FOR IMMIGRANTS LIVING IN CALIFORNIA"
 twitterDescription: ""
 twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
-publishedTime: "2026-08-03T00:00:00.000Z"
-modifiedTime: "2026-08-03T00:00:00.000Z"
+publishedTime: "2026-03-08T00:00:00.000Z"
+modifiedTime: "2026-03-08T00:00:00.000Z"
 readTime: "7 min read"
 ---
 
