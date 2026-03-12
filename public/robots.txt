@@ -1,6 +1,9 @@
 # *
 User-agent: *
 Allow: /
+Disallow: /_next/static/
+Disallow: /_next/image/
+Disallow: /api/
 
 # Host
 Host: https://www.tuanlelaw.com
