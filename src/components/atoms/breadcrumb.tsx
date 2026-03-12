@@ -8,16 +8,16 @@ interface BreadcrumbProps {
 
 // List of paths that return 404 - these should be rendered as plain text
 const INVALID_PATHS = [
-  '/asylum-humanitarian-relief/asylum/',
-  '/deportation-defense/',
-  '/us-immigrant-visas/employment-based-immigration/',
-  '/citizenship-naturalization/',
-  '/us-nonimmigrant-visas/student-visas/',
-  '/us-immigrant-visas/family-based-immigration/fiance-visas/',
-  '/us-immigrant-visas/family-based-immigration/marriage-visas/',
-  '/us-immigrant-visas/employment-based-immigration/eb-1/',
-  '/us-immigrant-visas/employment-based-immigration/h-1b/',
-  '/us-immigrant-visas/diversity-visa-lottery/',
+  '/asylum-humanitarian-relief/asylum',
+  '/deportation-defense',
+  '/us-immigrant-visas/employment-based-immigration',
+  '/citizenship-naturalization',
+  '/us-nonimmigrant-visas/student-visas',
+  '/us-immigrant-visas/family-based-immigration/fiance-visas',
+  '/us-immigrant-visas/family-based-immigration/marriage-visas',
+  '/us-immigrant-visas/employment-based-immigration/eb-1',
+  '/us-immigrant-visas/employment-based-immigration/h-1b',
+  '/us-immigrant-visas/diversity-visa-lottery',
 ];
 
 export default function Breadcrumb({ display, slugs }: BreadcrumbProps) {
@@ -40,7 +40,8 @@ export default function Breadcrumb({ display, slugs }: BreadcrumbProps) {
     }
 
     // Check if this path is invalid (404) and render as plain text instead of link
-    if (INVALID_PATHS.includes(href)) {
+    const normalizedHref = href.endsWith('/') && href.length > 1 ? href.slice(0, -1) : href;
+    if (INVALID_PATHS.includes(normalizedHref)) {
       links.push(
         <span
           key={index}

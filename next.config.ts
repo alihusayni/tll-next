@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
     inlineCss: true,
   },
   images: {
+    qualities: [75, 90, 100],
     remotePatterns: [
       {
         protocol: 'https',
@@ -225,16 +226,6 @@ const nextConfig: NextConfig = {
       { source: '/success-stories', destination: '/', permanent: true },
       { source: '/success-stories/', destination: '/', permanent: true },
       {
-        source: '/deportation-defense',
-        destination: '/deportation-defense',
-        permanent: true,
-      },
-      {
-        source: '/deportation-defense/',
-        destination: '/deportation-defense',
-        permanent: true,
-      },
-      {
         source:
           '/immigration-solutions/immigration-lawyer-assistance-us-immigration',
         destination: '/us-immigrant-visas',
@@ -268,11 +259,6 @@ const nextConfig: NextConfig = {
       },
       { source: '/types-of-bankruptcy', destination: '/', permanent: true },
       { source: '/types-of-bankruptcy/', destination: '/', permanent: true },
-      {
-        source: '/citizenship-naturalization',
-        destination: '/citizenship-naturalization',
-        permanent: true,
-      },
       {
         source: '/bankruptcy-and-immigration-status',
         destination: '/',

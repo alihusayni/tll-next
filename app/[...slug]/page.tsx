@@ -105,16 +105,36 @@ export default async function ArticlePage({ params }: PageProps) {
     }
   ];
 
+  const INVALID_PATHS = [
+    '/asylum-humanitarian-relief/asylum',
+    '/deportation-defense',
+    '/us-immigrant-visas/employment-based-immigration',
+    '/citizenship-naturalization',
+    '/us-nonimmigrant-visas/student-visas',
+    '/us-immigrant-visas/family-based-immigration/fiance-visas',
+    '/us-immigrant-visas/family-based-immigration/marriage-visas',
+    '/us-immigrant-visas/employment-based-immigration/eb-1',
+    '/us-immigrant-visas/employment-based-immigration/h-1b',
+    '/us-immigrant-visas/diversity-visa-lottery',
+  ];
+
   let currentPath = '';
   slug.forEach((segment, index) => {
     currentPath += '/' + segment;
     const segmentName = segment.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()); // Capitalize
-    breadcrumbList.push({
+    
+    // Omit the 'item' property if it's an intermediate page that doesn't exist to prevent 404s
+    const breadcrumbItem: any = {
       "@type": "ListItem",
       "position": index + 2,
       "name": segmentName,
-      "item": `https://www.tuanlelaw.com${currentPath}`
-    });
+    };
+    
+    if (!INVALID_PATHS.includes(currentPath)) {
+      breadcrumbItem.item = `https://www.tuanlelaw.com${currentPath}`;
+    }
+    
+    breadcrumbList.push(breadcrumbItem);
   });
 
   const breadcrumbSchema = {

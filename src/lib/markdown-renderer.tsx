@@ -11,11 +11,11 @@ import CtaWrapper from './cta-wrapper';
 // Remark plugin to handle [[cta]] syntax
 function remarkCta() {
   return (tree: Root) => {
-    visit(tree, 'paragraph', (node: any, index: number | undefined, parent: Parent | undefined) => { // eslint-disable-line @typescript-eslint/no-explicit-any
+    visit(tree, 'paragraph', (node: any, index: number | undefined, parent: Parent | undefined) => {  
       if (index !== undefined && parent) {
         const textContent = node.children
-          .filter((child: any) => child.type === 'text') // eslint-disable-line @typescript-eslint/no-explicit-any
-          .map((child: any) => child.value) // eslint-disable-line @typescript-eslint/no-explicit-any
+          .filter((child: any) => child.type === 'text')  
+          .map((child: any) => child.value)  
           .join('');
         
         if (textContent.includes('[[cta]]')) {
@@ -106,7 +106,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
         ),
         p: ({ children, ...props }) => {
            // Check if children contain block elements and handle them properly
-           const hasBlockElement = React.Children.toArray(children).some((child: any) => // eslint-disable-line @typescript-eslint/no-explicit-any
+           const hasBlockElement = React.Children.toArray(children).some((child: any) =>  
              React.isValidElement(child) && (
                child.type === 'div' ||
                child.type === 'table' ||
@@ -194,7 +194,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
         ),
          a: ({ children, href, ...props }) => {
            // Check if this is a tel: link by examining the original node data
-           const nodeData = (props as any).node; // eslint-disable-line @typescript-eslint/no-explicit-any
+           const nodeData = (props as any).node;  
            const isTelLink = nodeData?.url?.startsWith('tel:') || href?.startsWith('tel:');
 
            if (isTelLink) {
@@ -318,7 +318,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
           <hr className="my-8 border-[#E6EAF0]" />
         ),
         div: ({ children, ...props }) => {
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+           
           if ((props as any)['data-cta'] === 'true') {
             return <CtaWrapper />;
           }

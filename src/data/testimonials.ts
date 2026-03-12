@@ -13,7 +13,7 @@ export const testimonials: Testimonial[] = [
         author: "Annie Luong",
         caseType: "Citizenship",
         avatar: "/assets/testimonials/annie-luong.png",
-        link: "https://share.google/3qQwP8cokYAANrwlG",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -21,7 +21,7 @@ export const testimonials: Testimonial[] = [
         author: "L Nguyen",
         caseType: "Immigration Defense",
         avatar: "/",
-        link: "https://share.google/yqCne6i7jKH0T5vlm",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -29,7 +29,7 @@ export const testimonials: Testimonial[] = [
         author: "Chi Lang Nguyen",
         caseType: "Legal Defense",
         avatar: "/assets/testimonials/chi-lang-nguyen.png",
-        link: "https://share.google/Fd9G4rkaNbGkUWLHY",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -37,7 +37,7 @@ export const testimonials: Testimonial[] = [
         author: "Thien Nguyen",
         caseType: "Legal Services",
         avatar: "/assets/testimonials/thien-nguyen.png",
-        link: "https://share.google/MjJzK8lnVxzkshAug",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -45,7 +45,7 @@ export const testimonials: Testimonial[] = [
         author: "caovien1",
         caseType: "Immigration Case",
         avatar: "/",
-        link: "https://share.google/JkXTQo0dEP5TtE6r2",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -53,7 +53,7 @@ export const testimonials: Testimonial[] = [
         author: "jvu",
         caseType: "Immigration Process",
         avatar: "/assets/testimonials/jvu.png",
-        link: "https://share.google/wGknI0molAYnDFOrq",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -61,7 +61,7 @@ export const testimonials: Testimonial[] = [
         author: "Sunny Zheng",
         caseType: "Legal Services",
         avatar: "/",
-        link: "https://share.google/mBYV29PTNIFgv8wvD",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -69,7 +69,7 @@ export const testimonials: Testimonial[] = [
         author: "Tuyen Vu",
         caseType: "Living Trust",
         avatar: "/",
-        link: "https://share.google/R1RIOxprRKRI7BYoo",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -77,7 +77,7 @@ export const testimonials: Testimonial[] = [
         author: "Cindy Dang",
         caseType: "Legal Services",
         avatar: "/assets/testimonials/cindy-dang.png",
-        link: "https://share.google/JGcf0T8Xiy3S0XOWu",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -85,7 +85,7 @@ export const testimonials: Testimonial[] = [
         author: "Phil Nguyen",
         caseType: "Citizenship",
         avatar: "/",
-        link: "https://share.google/JqnKiijeqCndqMFGW",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -93,7 +93,7 @@ export const testimonials: Testimonial[] = [
         author: "Khonsavanh Bounyasaeng",
         caseType: "Citizenship",
         avatar: "/",
-        link: "https://share.google/x3ajUafTA0BaG5NE5",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -101,7 +101,7 @@ export const testimonials: Testimonial[] = [
         author: "Tran Nguyen",
         caseType: "Legal Services",
         avatar: "/",
-        link: "https://share.google/1JxXjTBllQB5gkESe",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -109,7 +109,7 @@ export const testimonials: Testimonial[] = [
         author: "Joseph Jeon",
         caseType: "Citizenship Application",
         avatar: "/",
-        link: "https://share.google/hIciPe9m62KPiIBQN",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -117,7 +117,7 @@ export const testimonials: Testimonial[] = [
         author: "Judy Quach",
         caseType: "Immigration Services",
         avatar: "/assets/testimonials/judy-quach.png",
-        link: "https://share.google/z16hFzr2FeBkG3a7J",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -125,7 +125,7 @@ export const testimonials: Testimonial[] = [
         author: "Mike Adams",
         caseType: "Bankruptcy",
         avatar: "/",
-        link: "https://share.google/2ofwuAmFHTuaLmTDO",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -133,7 +133,7 @@ export const testimonials: Testimonial[] = [
         author: "Ryzz Tiger",
         caseType: "Legal Services",
         avatar: "/",
-        link: "https://share.google/V1T9Yd2b6BFMKCJ1w",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -141,7 +141,7 @@ export const testimonials: Testimonial[] = [
         author: "Ngan Vo",
         caseType: "Legal Advice",
         avatar: "/assets/testimonials/ngan-vo.png",
-        link: "https://share.google/lWeOV0ZzyjDCxvTDL",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -149,7 +149,7 @@ export const testimonials: Testimonial[] = [
         author: "aiden b",
         caseType: "Deportation Defense",
         avatar: "/",
-        link: "https://share.google/lZxHLvThj48Y8s2pB",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -157,7 +157,7 @@ export const testimonials: Testimonial[] = [
         author: "An Ha",
         caseType: "Green Card",
         avatar: "/assets/testimonials/an-ha.png",
-        link: "https://share.google/KwrR0CRtHles1uN0N",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -165,7 +165,7 @@ export const testimonials: Testimonial[] = [
         author: "hieu truong",
         caseType: "Visa Waiver",
         avatar: "/",
-        link: "https://share.google/KSCcEL9DDGssGGRFL",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -173,7 +173,7 @@ export const testimonials: Testimonial[] = [
         author: "Kim Le",
         caseType: "Legal Services",
         avatar: "/",
-        link: "https://share.google/vR5lDCFoLKDzXnHt8",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
 
@@ -182,7 +182,7 @@ export const testimonials: Testimonial[] = [
         author: "Judith Castillo",
         caseType: "Criminal Defense",
         avatar: "/",
-        link: "https://share.google/0QkRCnrFkKmoUZjsY",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -190,7 +190,7 @@ export const testimonials: Testimonial[] = [
         author: "Tâm Phạm",
         caseType: "Immigration Case",
         avatar: "/",
-        link: "https://share.google/Pjy0sR266yrzi9mHK",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -198,7 +198,7 @@ export const testimonials: Testimonial[] = [
         author: "Anthony Nguyen",
         caseType: "Bankruptcy",
         avatar: "/",
-        link: "https://share.google/U5ZLD7B8ijzDvmJYP",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -206,7 +206,7 @@ export const testimonials: Testimonial[] = [
         author: "toto nguyen",
         caseType: "Legal Services",
         avatar: "/",
-        link: "https://share.google/4XBtdnj48bCGyoY3O",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
 
@@ -215,7 +215,7 @@ export const testimonials: Testimonial[] = [
         author: "Quang Ma",
         caseType: "Visa Appeal",
         avatar: "/",
-        link: "https://share.google/yaroookk4vivD5rih",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -223,7 +223,7 @@ export const testimonials: Testimonial[] = [
         author: "Carlos Salazar",
         caseType: "Bankruptcy",
         avatar: "/",
-        link: "https://share.google/GR1zuxvWRuvTjPKVH",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -231,7 +231,7 @@ export const testimonials: Testimonial[] = [
         author: "Vi Le",
         caseType: "Legal Services",
         avatar: "/assets/testimonials/vi-le.png",
-        link: "https://share.google/5iZHyLO1QO1484ReN",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -239,7 +239,7 @@ export const testimonials: Testimonial[] = [
         author: "Tri Nguyen",
         caseType: "Immigration Case",
         avatar: "/",
-        link: "https://share.google/TeGyDTYoA9zTUFP06",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -247,7 +247,7 @@ export const testimonials: Testimonial[] = [
         author: "Ashley Nguyen",
         caseType: "Immigration Services",
         avatar: "/",
-        link: "https://share.google/DTzDC3UMweHym2ana",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -255,7 +255,7 @@ export const testimonials: Testimonial[] = [
         author: "Tony Dinh",
         caseType: "Citizenship",
         avatar: "/assets/testimonials/tony-dinh.png",
-        link: "https://share.google/TpUi3J3EbDAzUqOB6",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -263,7 +263,7 @@ export const testimonials: Testimonial[] = [
         author: "Vivian P",
         caseType: "Green Card",
         avatar: "/",
-        link: "https://share.google/e17o6sIqsnCv0MgvW",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -271,7 +271,7 @@ export const testimonials: Testimonial[] = [
         author: "Thuyvi Hinh",
         caseType: "Citizenship",
         avatar: "/assets/testimonials/thuyvi-hinh.png",
-        link: "https://share.google/8BjJL8IYZVV6DCyir",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -279,7 +279,7 @@ export const testimonials: Testimonial[] = [
         author: "Thanh Vo",
         caseType: "Deportation Defense",
         avatar: "/",
-        link: "https://share.google/ZXNfHhmbK1lZfYtZP",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -287,7 +287,7 @@ export const testimonials: Testimonial[] = [
         author: "Khang Duy",
         caseType: "Immigration Case",
         avatar: "/",
-        link: "https://share.google/3KG8o5syIsWvcc0Vv",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -295,7 +295,7 @@ export const testimonials: Testimonial[] = [
         author: "Vinh Nguyen",
         caseType: "Legal Services",
         avatar: "/",
-        link: "https://share.google/nr4LeH6tYIpI9F7ST",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -303,7 +303,7 @@ export const testimonials: Testimonial[] = [
         author: "Quan Tran",
         caseType: "Immigration Services",
         avatar: "/assets/testimonials/quan-tran.png",
-        link: "https://share.google/eSstQ3FWUmW4ooS62",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -311,7 +311,7 @@ export const testimonials: Testimonial[] = [
         author: "N. Nguyen",
         caseType: "Legal Advice",
         avatar: "/",
-        link: "https://share.google/b7WIHAho7SIq8SwGa",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -319,7 +319,7 @@ export const testimonials: Testimonial[] = [
         author: "Sinh Nguyen",
         caseType: "Legal Services",
         avatar: "/",
-        link: "https://share.google/YVl0hxuZ4p81LoOQ3",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -327,7 +327,7 @@ export const testimonials: Testimonial[] = [
         author: "Robert Angus",
         caseType: "Immigration Process",
         avatar: "/",
-        link: "https://share.google/JtYH5bzZaUAfTf5Qw",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -335,7 +335,7 @@ export const testimonials: Testimonial[] = [
         author: "James Rodemeyer",
         caseType: "Immigration Case",
         avatar: "/",
-        link: "https://share.google/65L8hdPU8O9y8lTmy",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -343,7 +343,7 @@ export const testimonials: Testimonial[] = [
         author: "Quynh Pham",
         caseType: "Immigration Case",
         avatar: "/assets/testimonials/quynh-pham.png",
-        link: "https://share.google/iEHGZwEGajETteC4c",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -351,7 +351,7 @@ export const testimonials: Testimonial[] = [
         author: "Camila Allen",
         caseType: "Immigration Waiver",
         avatar: "/",
-        link: "https://share.google/Kvao9as0ed6mHwHAs",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -359,7 +359,7 @@ export const testimonials: Testimonial[] = [
         author: "Sadegh Nedamati",
         caseType: "Immigration Services",
         avatar: "/assets/testimonials/sadegh-nedamati.png",
-        link: "https://share.google/MnDj7HaphE3i47Qfb",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -367,7 +367,7 @@ export const testimonials: Testimonial[] = [
         author: "Anthony Herrera",
         caseType: "Fiance Visa",
         avatar: "/",
-        link: "https://share.google/YVi9udaY7InrAOc9x",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -375,7 +375,7 @@ export const testimonials: Testimonial[] = [
         author: "Ut Huynh",
         caseType: "Legal Services",
         avatar: "/",
-        link: "https://share.google/LCAFx2os34alGPnYc",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -383,7 +383,7 @@ export const testimonials: Testimonial[] = [
         author: "K R",
         caseType: "Immigration Case",
         avatar: "/assets/testimonials/k-r.png",
-        link: "https://share.google/f9GtvgyZXQXQn0riH",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -391,7 +391,7 @@ export const testimonials: Testimonial[] = [
         author: "Trung Vu",
         caseType: "Legal Defense",
         avatar: "/assets/testimonials/trung-vu.png",
-        link: "https://share.google/ixTgVomoi7PPJjmaS",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -399,7 +399,7 @@ export const testimonials: Testimonial[] = [
         author: "Ericson Araullo (Eson)",
         caseType: "Legal Consultation",
         avatar: "/assets/testimonials/ericson-araullo-(eson).png",
-        link: "https://share.google/axlEncrhWI2J4BKng",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -407,7 +407,7 @@ export const testimonials: Testimonial[] = [
         author: "ed ong",
         caseType: "Immigration Services",
         avatar: "/",
-        link: "https://share.google/Ml3CyjegB8XQDMWem",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -415,7 +415,7 @@ export const testimonials: Testimonial[] = [
         author: "Manpreet Singh",
         caseType: "Immigration Case",
         avatar: "/assets/testimonials/manpreet-singh.png",
-        link: "https://share.google/ka4gNOwt74fkIav9U",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -423,7 +423,7 @@ export const testimonials: Testimonial[] = [
         author: "Vincent N",
         caseType: "Legal Consultation",
         avatar: "/",
-        link: "https://share.google/bPCTOQcAG5AiH98io",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -431,7 +431,7 @@ export const testimonials: Testimonial[] = [
         author: "Enquiry",
         caseType: "Legal Services",
         avatar: "/",
-        link: "https://share.google/DJWDlennSJcZGI1ZP",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -439,7 +439,7 @@ export const testimonials: Testimonial[] = [
         author: "Aaron Siegal-Eisman",
         caseType: "Legal Consultation",
         avatar: "/assets/testimonials/aaron-siegal-eisman.png",
-        link: "https://share.google/w5DmHFFQo8L0pRZ6W",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -447,7 +447,7 @@ export const testimonials: Testimonial[] = [
         author: "Lien Nguyen",
         caseType: "Legal Services",
         avatar: "/",
-        link: "https://share.google/tLQ1e4GehQLBFI1s1",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -455,7 +455,7 @@ export const testimonials: Testimonial[] = [
         author: "Chuong Dao",
         caseType: "Citizenship",
         avatar: "/",
-        link: "https://share.google/WUWtrETiFxJ1h8mIJ",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
     {
@@ -463,7 +463,7 @@ export const testimonials: Testimonial[] = [
         author: "Danny Dinh",
         caseType: "Bankruptcy",
         avatar: "/assets/testimonials/danny-dinh.png",
-        link: "https://share.google/iY4u4t7dNhKHDKKu6",
+        link: "https://www.google.com/search?q=Law+Office+of+Tuan+Le+reviews",
         rating: 5,
     },
 

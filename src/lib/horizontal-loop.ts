@@ -1,4 +1,4 @@
-/* eslint-disable prefer-const, @typescript-eslint/no-unused-expressions, @typescript-eslint/no-explicit-any */
+ 
 import {gsap} from "gsap";
 import {Draggable, InertiaPlugin} from "gsap/all";
 

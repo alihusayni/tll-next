@@ -18,9 +18,7 @@ function isStaticFile(path: string): boolean {
   return staticFileExtensions.includes(ext);
 }
 
-export 
-
-function extractHeadingsFromMarkdown(content: string): Heading[] {
+export function extractHeadingsFromMarkdown(content: string): Heading[] {
   const headings: Heading[] = [];
   const lines = content.split('\n');
 
@@ -221,7 +219,7 @@ export function getContentCategories(): Array<{ id: string; label: string }> {
   });
 
   const categories = Array.from(categorySet)
-    .filter(cat => cat !== 'citizenship-naturalization' && cat !== 'deportation-defense')
+    .filter(cat => cat !== 'citizenship-naturalization')
     .map(cat => ({
       id: cat,
       label: cat.split('-').map(word =>

@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import LinkButton from '../atoms/link-button';
+import Link from 'next/link';
+import { Icon } from '@iconify/react';
 import { useState } from 'react';
 
 interface ArticleCardProps {
@@ -12,14 +13,14 @@ interface ArticleCardProps {
 export default function ArticleCard({ title, description, image, link }: ArticleCardProps) {
   const [img_src, set_img_src] = useState(image);
   return (
-    <div 
-      onClick={() => window.location.href = link}
+    <Link
+      href={link}
       className="flex flex-col gap-4 !pb-8 p-3 sm:p-4 w-80 sm:w-96 flex-shrink-0 flex-grow-0 rounded-[1rem] hover:bg-[#F2F4F7] active:bg-[#F2F4F7] group cursor-pointer transition-all duration-600"
     >
       <div className="relative w-full h-[17.5rem] sm:h-[20.75rem] rounded-[1rem] overflow-hidden">
         <Image
           src={img_src}
-          alt=""
+          alt={title}
           fill
           className="object-cover"
           onError={() => set_img_src("/assets/logo/place-holder.png")}
@@ -38,9 +39,17 @@ export default function ArticleCard({ title, description, image, link }: Article
             </p>
           </div>
           <div className="flex-1 flex items-end">
-            <LinkButton text="Read More" href={link} textColor="text-[#49535D]" useGroupHover={true} />
+            <span className="inline-flex items-center font-inter font-medium text-base text-[#49535D] group-hover:text-[#E55B1E] group-active:text-[#E55B1E] transition-colors">
+              Read More
+              <Icon
+                icon="solar:arrow-right-up-linear"
+                width="18"
+                height="18"
+                className="ml-2 transition-transform group-hover:rotate-45 group-active:rotate-45"
+              />
+            </span>
           </div>
         </div>
-    </div>
+    </Link>
   );
 }

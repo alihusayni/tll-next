@@ -71,7 +71,8 @@ export default function Header({
   };
 
   useEffect(() => {
-    setMounted(true);
+    const id = requestAnimationFrame(() => setMounted(true));
+    return () => cancelAnimationFrame(id);
   }, []);
 
   // Prevent body scroll when mobile menu is open

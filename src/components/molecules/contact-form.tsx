@@ -14,14 +14,6 @@ interface FormData {
   message: string;
 }
 
-const tolFormSettings = {
-  action: 'https://contact.toporganicleads.com/api/v1/contact-form-submissions',
-  method: 'POST',
-  apiToken: 'bcbf2cce-510c-415f-b0b9-bf6599db8496',
-  formKey: 'b699df81-f8aa-4222-8975-baa1d7cf1e44',
-};
-const tolFormRequestId = '192ebde9-db83-43a3-9578-e364df1da21c';
-
 export default function ContactForm() {
   const [formData, setFormData] = useState<FormData>({
     name: '',
@@ -77,15 +69,10 @@ export default function ContactForm() {
 
     setLoading(true);
     try {
-      const response = await fetch(tolFormSettings.action, {
-        method: tolFormSettings.method,
-        headers: {
-          'Content-Type': 'application/json',
-          'X-API-TOKEN': tolFormSettings.apiToken,
-          'X-FORM-KEY': tolFormSettings.formKey,
-          'X-REQUEST-ID': tolFormRequestId
-        },
-        body: JSON.stringify({ data: { ...formData, requestId: tolFormRequestId } })
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ data: formData })
       });
 
       if (!response.ok) {
@@ -101,7 +88,7 @@ export default function ContactForm() {
         setFormData({ name: '', email: '', phone: '', message: '' });
         setFormStartTime(Date.now());
         // Hide popup after 3 seconds
-        setTimeout(() => setShowSuccessPopup(false), 100000);
+        setTimeout(() => setShowSuccessPopup(false), 3000);
       } else {
         toast.error(data.snackbar?.message || 'Submission failed');
       }

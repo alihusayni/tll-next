@@ -19,9 +19,9 @@ const inter = Inter({
 export const metadata: Metadata = {
     title: "Expert Immigration Lawyer in Orange County, CA | Tuan Le Law",
     description: "Get professional immigration legal services from Tuan Le Law in Orange County, CA. Specializing in visas, green cards, asylum, and citizenship applications.",
-    other: {
-        'google-site-verification': 'your-verification-code',
-    },
+    ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+        ? { other: { 'google-site-verification': process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION } }
+        : {}),
 };
 
 
