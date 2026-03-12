@@ -6,11 +6,11 @@ export interface FaqItem {
 export const faqData: FaqItem[] = [
     {
         question: "Do you charge for initial consultation?",
-        answer: "We offer a free initial consultation. During this telephone conversation, we listen to your specific problem. Our goal is to evaluate the exact requirements of your case as well as find out if we can assist you. For your free consultation, you can simply give us a phone call or fill out the contact form on your website with your name, email, phone number and a brief message. We will get back to you within 24 hours after receiving your message via email.",
+        answer: "We offer a free initial consultation. During this telephone conversation, we listen to your specific problem. Our goal is to evaluate the exact requirements of your case as well as find out if we can assist you. For your free consultation, you can simply give us a phone call or fill out the contact form on our website with your name, email, phone number and a brief message. We will get back to you within 24 hours after receiving your message via email.",
     },
     {
         question: "How much do you charge for your legal services?",
-        answer: "Whether it is immigration, bankruptcy or estate planning, each case is different and unique in itself. Our fee structure varies case-wise. For example, we charge different fees for each matter related to immigration, depending on the type of case, the planning it requires and its representation.\n\n After an initial consultation and evaluating the complexities of your case, we will send you a price quote for the sake of transparency. Before we take up your case, you will be fully aware of what to expect.",
+        answer: "Whether it is immigration, bankruptcy or estate planning, each case is different and unique in itself. Our fee structure varies case by case. For example, we charge different fees for each matter related to immigration, depending on the type of case, the planning it requires and its representation.\n\n After an initial consultation and evaluating the complexities of your case, we will send you a price quote for the sake of transparency. Before we take up your case, you will be fully aware of what to expect.",
     },
     {
         question: "What sets the Law Office of Tuan Le apart?",

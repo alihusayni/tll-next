@@ -22,7 +22,7 @@ export default function ConsultationCTA({ className = '' }: ConsultationCTAProps
         <div className="flex flex-col gap-6 md:gap-8 max-w-full md:max-w-[37.5rem]">
           <h2 className="font-inter-tight font-semibold text-[1.5rem] md:text-[1.875rem] lg:text-[2.25rem] leading-8 md:leading-[2.75rem] lg:leading-[3.125rem] tracking-[-0.02em] text-white">
             Mr. Le Grants You a{' '}
-            <span className="block md:inline">30-Minutes Free Consultation for Legal Advice</span>
+            <span className="block md:inline">30-Minute Free Consultation for Legal Advice</span>
           </h2>
           
           <Link

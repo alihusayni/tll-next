@@ -78,7 +78,7 @@ Beyond the paperwork, we see the life you’re building. We are honored to help 
           <p>Prior results do not guarantee a similar outcome.</p>
           <p>
             These materials have been prepared by the Law Office of Tuan Le for
-            informational purposes only and does not constitute legal advice.
+            informational purposes only and do not constitute legal advice.
             This information is not intended to create, and receipt of it does
             not constitute, an attorney-client relationship. Internet
             subscribers and online readers should not act upon this information

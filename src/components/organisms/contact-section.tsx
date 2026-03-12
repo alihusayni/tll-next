@@ -14,7 +14,7 @@ export default function ContactSection() {
                                 Need guidance from an experienced immigration attorney?
                             </p>
                             <p className="text-lg text-[#747D85] font-inter mb-6 leading-6 lg:leading-[1.375]">
-                                Mr. Le has granted you a 30-minute consultation session.
+                                Mr. Le offers a complimentary 30-minute consultation.
                             </p>
                             <div className="flex flex-col items-start gap-2 mt-4">
                                 {/* Stars - Top Line */}

@@ -33,7 +33,7 @@ export const testimonials: Testimonial[] = [
         rating: 5,
     },
     {
-        quote: "Tuan is a skilled, compassionate, and knowledgeable attorney. He helped me with the legal process and his professionalism amazed me. He answered my questions and concerns with patient and also very responsive. I appreciate his help. Highly recommended if you need an attorney.",
+        quote: "Tuan is a skilled, compassionate, and knowledgeable attorney. He helped me with the legal process and his professionalism amazed me. He answered my questions and concerns with patience and also very responsive. I appreciate his help. Highly recommended if you need an attorney.",
         author: "Thien Nguyen",
         caseType: "Legal Services",
         avatar: "/assets/testimonials/thien-nguyen.png",
@@ -41,7 +41,7 @@ export const testimonials: Testimonial[] = [
         rating: 5,
     },
     {
-        quote: "Tuan is great. He helped us every steps of the way even though our case got pushed back 3 years because of the pandemic. He followed up and make sure we got all of the necessary documentations for our case to make sure we got the best possible outcome.",
+        quote: "Tuan is great. He helped us every step of the way even though our case got pushed back 3 years because of the pandemic. He followed up and made sure we got all of the necessary documentation for our case to make sure we got the best possible outcome.",
         author: "caovien1",
         caseType: "Immigration Case",
         avatar: "/",
@@ -57,7 +57,7 @@ export const testimonials: Testimonial[] = [
         rating: 5,
     },
     {
-        quote: "Tuan is an amazing lawyer and has managed to help me through the my case process. He is very knowledgeable, compassionate, and professional. And he always answer my questions and he never hesitates to assist me. I highly recommend Tuan Le to anyone to get a professional service.",
+        quote: "Tuan is an amazing lawyer and has managed to help me through my case process. He is very knowledgeable, compassionate, and professional. And he always answers my questions and he never hesitates to assist me. I highly recommend Tuan Le to anyone to get professional service.",
         author: "Sunny Zheng",
         caseType: "Legal Services",
         avatar: "/",
@@ -121,7 +121,7 @@ export const testimonials: Testimonial[] = [
         rating: 5,
     },
     {
-        quote: "My wife and I were heavily in debt, contemplating filing for bankruptcy. Tuan Le was referred to us by an attorney friend of ours. Tuan told us bankruptcy was a straightforward legal process that we should consider. We moved ahead, decided to keep our emotions out of it, and trusted Tuan completely. We followed his advice, and it was the best decision we have ever made. Tuan gave us our life's back.",
+        quote: "My wife and I were heavily in debt, contemplating filing for bankruptcy. Tuan Le was referred to us by an attorney friend of ours. Tuan told us bankruptcy was a straightforward legal process that we should consider. We moved ahead, decided to keep our emotions out of it, and trusted Tuan completely. We followed his advice, and it was the best decision we have ever made. Tuan gave us our lives back.",
         author: "Mike Adams",
         caseType: "Bankruptcy",
         avatar: "/",
@@ -178,7 +178,7 @@ export const testimonials: Testimonial[] = [
     },
 
     {
-        quote: "We were recommend to Tuan in a time of need and hope. He immediately answered us when we callled him, he worked with us and executed perfectly what he had talked to us about. He found ways we thought they were impossible and fought for us, almost like he was a family member. We had an urgent matter and he requested for us not to be preset at court, our presence was waved and granted. He went on our behalf, he is a rare gem, an honest criminal lawyer, and as you all know, that is hard to find.",
+        quote: "We were recommended to Tuan in a time of need and hope. He immediately answered us when we called him, he worked with us and executed perfectly what he had talked to us about. He found ways we thought they were impossible and fought for us, almost like he was a family member. We had an urgent matter and he requested for us not to be present at court, our presence was waived and granted. He went on our behalf, he is a rare gem, an honest criminal lawyer, and as you all know, that is hard to find.",
         author: "Judith Castillo",
         caseType: "Criminal Defense",
         avatar: "/",
@@ -267,7 +267,7 @@ export const testimonials: Testimonial[] = [
         rating: 5,
     },
     {
-        quote: "Tuan was knowledgeable about the inner workings of the immigration process. My father had trouble finding someone who would take his case due to some circumstances but nonetheless he Tuan was still willing. He kept up with email exchanges to answer any of our concerns and flew to the immigration location on the day of to help us with the paperwork. My dad successfully became a U.S. citizen and we can finally breath. Overall good service.",
+        quote: "Tuan was knowledgeable about the inner workings of the immigration process. My father had trouble finding someone who would take his case due to some circumstances but nonetheless Tuan was still willing. He kept up with email exchanges to answer any of our concerns and flew to the immigration location on the day of to help us with the paperwork. My dad successfully became a U.S. citizen and we can finally breathe. Overall good service.",
         author: "Thuyvi Hinh",
         caseType: "Citizenship",
         avatar: "/assets/testimonials/thuyvi-hinh.png",
@@ -323,7 +323,7 @@ export const testimonials: Testimonial[] = [
         rating: 5,
     },
     {
-        quote: "We inquired about Tuan Le, to help us get thru the imigration process that was more difficult than it should have been. Tuan helped us and gave us the best support to make this process much easier.",
+        quote: "We inquired about Tuan Le, to help us get through the immigration process that was more difficult than it should have been. Tuan helped us and gave us the best support to make this process much easier.",
         author: "Robert Angus",
         caseType: "Immigration Process",
         avatar: "/",
@@ -347,7 +347,7 @@ export const testimonials: Testimonial[] = [
         rating: 5,
     },
     {
-        quote: "Attorney Tuan is an excellent IMMIGRATION lawyer. He is hands down the best immigration lawyer you could ever see in your life. My wife has the most difficult background provlems and he handled it with ease. He handled my case with poise, professionalism, and integrity by guiding me through the very difficult process of the immigration waiver without any problems at all!",
+        quote: "Attorney Tuan is an excellent IMMIGRATION lawyer. He is hands down the best immigration lawyer you could ever see in your life. My wife has the most difficult background problems and he handled it with ease. He handled my case with poise, professionalism, and integrity by guiding me through the very difficult process of the immigration waiver without any problems at all!",
         author: "Camila Allen",
         caseType: "Immigration Waiver",
         avatar: "/",
@@ -363,7 +363,7 @@ export const testimonials: Testimonial[] = [
         rating: 5,
     },
     {
-        quote: "Tuan Le was was helpful guiding me to file for my fiance.",
+        quote: "Tuan Le was helpful guiding me to file for my fiancé.",
         author: "Anthony Herrera",
         caseType: "Fiance Visa",
         avatar: "/",
@@ -427,7 +427,7 @@ export const testimonials: Testimonial[] = [
         rating: 5,
     },
     {
-        quote: "Mr.Tuan was very helpful and available. He is very responsive and answers all the wuestions that I have.",
+        quote: "Mr. Tuan was very helpful and available. He is very responsive and answers all the questions that I have.",
         author: "Enquiry",
         caseType: "Legal Services",
         avatar: "/",

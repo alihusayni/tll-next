@@ -46,7 +46,7 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
               Immigration Lawyer
             </h1>
             <p className="font-inter-tight font-medium leading-10 md:leading-[3.125rem] text-[1.875rem] md:text-[2.5rem] text-[#D2D5D9]">
-              in Orange County, CA
+              in Orange CA
             </p>
           </div>
         </div>
