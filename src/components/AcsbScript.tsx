@@ -7,7 +7,7 @@ export default function AcsbScript() {
         <Script
             id="acsb-script"
             src="https://acsbapp.com/apps/app/dist/js/app.js"
-            strategy="afterInteractive"
+            strategy="lazyOnload"
             onLoad={() => {
                 // @ts-ignore
                 if (typeof acsbJS !== 'undefined') {

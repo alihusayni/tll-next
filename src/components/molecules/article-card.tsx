@@ -22,6 +22,7 @@ export default function ArticleCard({ title, description, image, link }: Article
           src={img_src}
           alt={title}
           fill
+          sizes="(max-width: 640px) 320px, 384px"
           className="object-cover"
           onError={() => set_img_src("/assets/logo/place-holder.png")}
         />

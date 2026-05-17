@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter_Tight, Inter } from "next/font/google";
-import { GoogleAnalytics } from '@next/third-parties/google'
+
 import "./globals.css";
 import Script from "next/script";
 import AcsbScript from "@/components/AcsbScript";
@@ -33,6 +33,13 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
+                {/* Preconnect to third-party origins to reduce connection latency */}
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+                <link rel="preconnect" href="https://www.googletagmanager.com" />
+                <link rel="preconnect" href="https://www.clarity.ms" />
+                <link rel="dns-prefetch" href="https://cdn.callrail.com" />
+                <link rel="dns-prefetch" href="https://acsbapp.com" />
                 <Script id="clarity-script" strategy="afterInteractive">
                     {`
               (function(c,l,a,r,i,t,y){
@@ -79,7 +86,24 @@ export default function RootLayout({
                     strategy="lazyOnload" />
                 <AcsbScript />
 
-                <GoogleAnalytics gaId="G-9CL0P20FC0" />
+                {/* GA4 — lazyOnload keeps gtag off the critical render path */}
+                <Script
+                    id="_next-ga-init"
+                    strategy="lazyOnload"
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                            window['dataLayer'] = window['dataLayer'] || [];
+                            function gtag(){window['dataLayer'].push(arguments);}
+                            gtag('js', new Date());
+                            gtag('config', 'G-9CL0P20FC0');
+                        `,
+                    }}
+                />
+                <Script
+                    id="_next-ga"
+                    strategy="lazyOnload"
+                    src="https://www.googletagmanager.com/gtag/js?id=G-9CL0P20FC0"
+                />
             </head>
             <body className={`${interTight.variable} ${inter.variable} antialiased`}>
                 {children}

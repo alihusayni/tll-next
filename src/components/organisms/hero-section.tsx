@@ -13,17 +13,15 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
     <section className={`relative min-h-screen flex flex-col justify-start items-center bg-[#E8EDF2] m-0 ${className}`}>
       {/* Background Image */}
       <div className="absolute inset-0">
-        <picture>
-          <source srcSet="/assets/hero/bg.webp" type="image/webp" />
-          <Image
-            src="/assets/hero/bg.png"
-            quality={100}
-            alt="Scenic background image representing immigration law services in Orange County, California"
-            fill
-            className="object-cover"
-            priority
-          />
-        </picture>
+        <Image
+          src="/assets/hero/bg.png"
+          quality={100}
+          alt="Scenic background image representing immigration law services in Orange County, California"
+          fill
+          sizes="100vw"
+          className="object-cover"
+          priority
+        />
         {/* <div className="absolute inset-0 bg-[rgba(9,44,81,0.60)] mix-blend-multiply"/> */}
       </div>
 

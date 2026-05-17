@@ -19,6 +19,8 @@ const ValueCard: React.FC<ValueCardProps> = ({
           src={iconSrc}
           alt={`Icon representing ${title.toLowerCase()}`}
           fill
+          sizes="(max-width: 640px) 100vw, 384px"
+          loading="lazy"
           className="object-cover"
         />
       </div>

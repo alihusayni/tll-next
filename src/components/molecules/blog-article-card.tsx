@@ -34,6 +34,7 @@ export default function BlogArticleCard({
           src={img_src}
           alt={title}
           fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 408px, 408px"
           className="object-cover"
           onError={() => set_img_src("/assets/logo/place-holder.png")}
         />
