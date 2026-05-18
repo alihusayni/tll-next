@@ -180,7 +180,7 @@ export default function BlogCategoryFilter({
         <button
           onClick={scrollRight}
           aria-label="Scroll right"
-          className="w-8 h-8 bg-[#E8EDF2] rounded-full border border-[#D2D5D9] text-[#747D85] flex items-center justify-center hover:border-[#FF7031] hover:text-[#FF7031] transition-colors"
+          className="w-8 h-8 bg-[#E8EDF2] rounded-full border border-[#D2D5D9] text-[#49535D] flex items-center justify-center hover:border-[#FF7031] hover:text-[#FF7031] transition-colors"
         >
           <svg width="12" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1 6L15 6M15 6L10 1M15 6L10 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

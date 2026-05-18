@@ -202,7 +202,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
             onClick={prev}
             disabled={!canPrev}
             aria-label="Previous testimonial"
-            className="w-[3.5rem] h-[3.5rem] rounded-[1.875rem] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-[#D2D5D9] hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
+            className="w-[3.5rem] h-[3.5rem] rounded-[1.875rem] border-2 border-[#49535D] text-[#49535D] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-[#D2D5D9] hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
           >
             <svg width="1rem" height="0.75rem" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M15 6L1 6M1 6L6 11M1 6L6 1" stroke="currentColor" strokeWidth="0.09375rem" strokeLinecap="round" strokeLinejoin="round" />
@@ -212,7 +212,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
             onClick={next}
             disabled={!canNext}
             aria-label="Next testimonial"
-            className="w-[3.5rem] h-[3.5rem] rounded-[1.875rem] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-[#D2D5D9] hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
+            className="w-[3.5rem] h-[3.5rem] rounded-[1.875rem] border-2 border-[#49535D] text-[#49535D] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-[#D2D5D9] hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
           >
             <svg width="1rem" height="0.75rem" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M1 6L15 6M15 6L10 1M15 6L10 11" stroke="currentColor" strokeWidth="0.09375rem" strokeLinecap="round" strokeLinejoin="round" />

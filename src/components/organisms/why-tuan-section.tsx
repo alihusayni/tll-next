@@ -76,7 +76,7 @@ const WhyTuanSection: React.FC = () => {
       <div className="max-w-[95rem] mx-auto">
         <div className="flex flex-col gap-12 md:gap-16 lg:gap-16">
           <div className="flex flex-col gap-8 lg:gap-12.5">
-            <p className="font-inter-tight font-semibold text-lg leading-[1.222] uppercase text-[#747D85]">
+            <p className="font-inter-tight font-semibold text-lg leading-[1.222] uppercase text-[#49535D]">
               Our Values
             </p>
             <div className="flex flex-col gap-16 sm:flex-row sm:justify-between md:items-end">
@@ -88,7 +88,7 @@ const WhyTuanSection: React.FC = () => {
                    onClick={scrollLeft}
                    disabled={!canScrollLeft}
                    aria-label="Scroll left"
-                   className="w-14 h-14 rounded-[1.875rem] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-transparent hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
+                   className="w-14 h-14 rounded-[1.875rem] border-2 border-[#49535D] text-[#49535D] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-transparent hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
                  >
                   <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M15 6L1 6M1 6L6 11M1 6L6 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -98,7 +98,7 @@ const WhyTuanSection: React.FC = () => {
                    onClick={scrollRight}
                    disabled={!canScrollRight}
                    aria-label="Scroll right"
-                   className="w-14 h-14 rounded-[1.875rem] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-transparent hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
+                   className="w-14 h-14 rounded-[1.875rem] border-2 border-[#49535D] text-[#49535D] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-transparent hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
                  >
                   <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 6L15 6M15 6L10 1M15 6L10 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

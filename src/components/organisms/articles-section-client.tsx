@@ -211,7 +211,7 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
         <div className="flex flex-col gap-16">
           <div className="flex flex-col sm:flex-row justify-between sm:items-end gap-16 sm:gap-0 items-start px-4 sm:px-0">
             <div className="flex flex-col gap-5">
-              <h2 className="font-inter-tight font-semibold text-lg leading-[1.222rem] uppercase text-[#747D85]">
+              <h2 className="font-inter-tight font-semibold text-lg leading-[1.222rem] uppercase text-[#49535D]">
                 Articles
               </h2>
               <h3 className="font-inter-tight font-semibold text-[2.125rem] lg:text-[3.25rem] md:text-[2.125rem] sm:text-[2.125rem] leading-[1.235] lg:leading-[1.235] md:leading-[1.235] sm:leading-[1.235] tracking-[-0.02em] text-[#071C32]">
@@ -245,7 +245,7 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
                 onClick={scrollLeft}
                 disabled={!canScrollLeft}
                 aria-label="Scroll left"
-                className="w-14 h-14 bg-transparent rounded-[1.875rem] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-[#D2D5D9] hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
+                className="w-14 h-14 bg-transparent rounded-[1.875rem] border-2 border-[#49535D] text-[#49535D] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-[#D2D5D9] hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
               >
                 <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M15 6L1 6M1 6L6 11M1 6L6 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -255,7 +255,7 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
                 onClick={scrollRight}
                 disabled={!canScrollRight}
                 aria-label="Scroll right"
-                className="w-14 h-14 bg-transparent rounded-[1.875rem] border-2 border-[#747D85] text-[#747D85] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-[#D2D5D9] hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
+                className="w-14 h-14 bg-transparent rounded-[1.875rem] border-2 border-[#49535D] text-[#49535D] flex items-center justify-center disabled:border-[#D2D5D9] disabled:text-[#D2D5D9] hover:border-[#FF7031] hover:text-[#FF7031] active:border-[#FF7031] active:text-[#FF7031]"
               >
                 <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1 6L15 6M15 6L10 1M15 6L10 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

@@ -50,11 +50,11 @@ export default function BlogCategoryCard({
 
         {/* Date & Time */}
         <div className="flex gap-4 items-center">
-          <p className="font-inter font-normal text-[0.875rem] leading-[1.71] text-[#747D85]">
+          <p className="font-inter font-normal text-[0.875rem] leading-[1.71] text-[#49535D]">
             {date}
           </p>
           <div className="h-5 w-[0.063rem] bg-[#BBBCBF]" />
-          <p className="font-inter font-normal text-[0.875rem] leading-[1.71] text-[#747D85]">
+          <p className="font-inter font-normal text-[0.875rem] leading-[1.71] text-[#49535D]">
             {readTime}
           </p>
         </div>

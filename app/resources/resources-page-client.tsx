@@ -100,7 +100,7 @@ export default function ResourcesPageClient({
             <p className="font-inter-tight font-semibold text-[3.25rem] lg:text-[5.75rem] leading-tight md:leading-[3.75rem] lg:leading-[4.5rem] tracking-[-0.115rem] text-[#071C32] max-w-[31rem]">
               Resources
             </p>
-            <p className="font-inter-tight font-medium text-xl lg:text-[1.5rem] leading-[1.75rem] text-[#747D85] w-full">
+            <p className="font-inter-tight font-medium text-xl lg:text-[1.5rem] leading-[1.75rem] text-[#49535D] w-full">
               News and insights on all things related to law by Tuan le
             </p>
           </div>
@@ -180,7 +180,7 @@ export default function ResourcesPageClient({
                       />
                     ))
                   ) : (
-                    <p className="text-center text-[#747D85] py-8">No articles found in this category.</p>
+                    <p className="text-center text-[#49535D] py-8">No articles found in this category.</p>
                   )}
                 </div>
               </div>

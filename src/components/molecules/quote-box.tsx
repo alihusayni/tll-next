@@ -22,7 +22,7 @@ export default function QuoteBox({ quote, author }: QuoteBoxProps) {
                 {/* Author */}
                 <div className="flex items-center gap-4">
                     <div className="w-8 h-0.5 bg-[#E55B1E]"></div>
-                    <cite className="text-lg font-inter-tight font-semibold text-[#747D85] uppercase tracking-wide">
+                    <cite className="text-lg font-inter-tight font-semibold text-[#49535D] uppercase tracking-wide">
                         {author}
                     </cite>
                 </div>

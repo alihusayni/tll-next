@@ -52,7 +52,7 @@ export default function BlogArticleListItem({
         <div className="flex flex-col gap-2 items-start relative shrink-0 w-full">
           {/* Category */}
           <div className="flex flex-col justify-center">
-            <p className="font-inter-tight font-normal text-sm leading-5 text-[#747D85]">
+            <p className="font-inter-tight font-normal text-sm leading-5 text-[#49535D]">
               {category}
             </p>
           </div>
@@ -69,13 +69,13 @@ export default function BlogArticleListItem({
 
           {/* Date & Time */}
           <div className="flex gap-2 md:gap-4 items-center">
-            <p className="font-inter font-normal text-sm leading-5 md:leading-6 text-[#747D85] text-center">
+            <p className="font-inter font-normal text-sm leading-5 md:leading-6 text-[#49535D] text-center">
               {date}
             </p>
             <div className="flex items-center justify-center h-4 w-4 md:h-5 md:w-5 rotate-90">
               <div className="h-0 w-4 md:w-5 border-t border-[#BBBCBF]" />
             </div>
-            <p className="font-inter font-normal text-sm leading-5 md:leading-6 text-[#747D85] text-center">
+            <p className="font-inter font-normal text-sm leading-5 md:leading-6 text-[#49535D] text-center">
               {readTime}
             </p>
           </div>

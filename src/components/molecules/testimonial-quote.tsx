@@ -25,7 +25,7 @@ export default function TestimonialQuote({
         {/* Author */}
         <div className="flex gap-4 md:gap-5 items-center">
           <div className="bg-[#E55B1E] h-[0.125rem] w-6 md:w-8" />
-          <p className="font-inter-tight font-semibold text-base md:text-lg leading-6 md:leading-7 text-[#747D85] uppercase">
+          <p className="font-inter-tight font-semibold text-base md:text-lg leading-6 md:leading-7 text-[#49535D] uppercase">
             {author}
           </p>
         </div>

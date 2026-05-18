@@ -46,7 +46,7 @@ export default function ArticleHero({
           <div className="flex flex-col items-center gap-4">
             {/* Author Section */}
             <div className="flex items-center gap-4">
-              <span className="font-inter font-normal text-[1rem] leading-[1.5em] text-center text-[#747D85]">
+              <span className="font-inter font-normal text-[1rem] leading-[1.5em] text-center text-[#49535D]">
                 Written by
               </span>
               <span className="font-inter font-medium text-[1rem] leading-[1.5em] text-center text-[#071C32]">
@@ -56,11 +56,11 @@ export default function ArticleHero({
             
             {/* Date and Read Time */}
             <div className="flex items-center justify-center gap-4">
-              <span className="font-inter font-normal text-[1rem] leading-[1.5em] text-center text-[#747D85]">
+              <span className="font-inter font-normal text-[1rem] leading-[1.5em] text-center text-[#49535D]">
                 {date}
               </span>
               <div className="w-px h-5 bg-[#BBBCBF]"></div>
-              <span className="font-inter font-normal text-[1rem] leading-[1.5em] text-center text-[#747D85]">
+              <span className="font-inter font-normal text-[1rem] leading-[1.5em] text-center text-[#49535D]">
                 {readTime}
               </span>
             </div>

@@ -34,7 +34,7 @@ export default function FaqSection() {
                     <h1 className="text-[3.25rem] leading-[3.25rem] lg:text-[5.75rem] lg:leading-[4.5rem] tracking-[-0.065rem] lg:tracking-[-0.115rem] font-inter-tight font-semibold text-[#071C32] max-w-[61rem]">
                         Ask a Lawyer
                     </h1>
-                    <p className="text-[1.25rem] leading-[1.75rem] lg:text-[1.5rem] font-inter-tight font-medium text-[#747D85]">
+                    <p className="text-[1.25rem] leading-[1.75rem] lg:text-[1.5rem] font-inter-tight font-medium text-[#49535D]">
                         Common questions about our services and the U.S. immigration process.
                     </p>
                 </div>
