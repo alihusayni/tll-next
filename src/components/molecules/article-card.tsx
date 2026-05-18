@@ -40,7 +40,7 @@ export default function ArticleCard({ title, description, image, link }: Article
           </div>
           <div className="flex-1 flex items-end">
             <span className="inline-flex items-center font-inter font-medium text-base text-[#49535D] group-hover:text-[#E55B1E] group-active:text-[#E55B1E] transition-colors">
-              Read More
+              {title}
               {/* solar:arrow-right-up-linear — inlined to eliminate @iconify/react runtime */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"

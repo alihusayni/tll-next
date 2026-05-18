@@ -14,7 +14,7 @@ export default function CertificationSection() {
             <p className="text-[1.5rem] lg:text-[2rem] text-white lg:max-w-[24.5rem] max-w-[25rem] font-inter font-medium leading-7 lg:leading-9 mb-8">
               Let&apos;s Build Your Case Together. Rest Assured That Your Case Is in The Right Hands.
             </p>
-            <LinkButton text="Read More" href="/resources/how-to-prepare-strong-immigration-application-tips" />
+            <LinkButton text="How to Prepare a Strong Immigration Application" href="/resources/how-to-prepare-strong-immigration-application-tips" />
           </div>
           <div className="flex flex-col sm:flex-row gap-16 flex-1/6">
             <div className="flex-1 lg:min-w-[23.615rem]">
