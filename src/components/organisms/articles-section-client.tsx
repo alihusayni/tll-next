@@ -38,14 +38,6 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
   const rAFRef = useRef<number>(null);
   const isDownRef = useRef(false);
 
-    const checkScroll = () => {
-        if (scrollRef.current) {
-            const {scrollLeft, scrollWidth, clientWidth} = scrollRef.current;
-            setCanScrollLeft(scrollLeft > 0);
-            setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 1);
-        }
-    };
-
   // Measure card width + gap once on mount and whenever the container resizes.
   // Avoids calling getComputedStyle() and offsetWidth on every button click.
   const updateLayoutCache = () => {
