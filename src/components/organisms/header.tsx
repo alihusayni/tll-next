@@ -3,7 +3,6 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { createPortal } from 'react-dom';
-import { Icon } from '@iconify/react';
 import { gsap } from 'gsap';
 
 import Logo from '../atoms/logo';
@@ -152,12 +151,23 @@ export default function Header({
                   }`}
               >
                 <div className="w-6 h-6 flex-shrink-0 flex items-center justify-center">
-                  <Icon
-                    icon="solar:phone-linear"
+                  {/* solar:phone-linear — inlined to remove @iconify/react from critical bundle */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
                     className={`${variant === 'light' ? 'text-[#071C32] group-hover:text-white' : 'filter brightness-0 invert'}`}
-                  />
+                  >
+                    <path
+                      d="M6.016 3h3.618c.376 0 .706.25.805.612l1.04 3.89a.839.839 0 0 1-.39.94L9.37 9.56a13.05 13.05 0 0 0 5.07 5.07l1.117-1.718a.839.839 0 0 1 .94-.39l3.89 1.04c.362.099.612.43.612.805v3.618C21 19.618 19.511 21 17.674 21c-8.55 0-14.674-6.124-14.674-14.674C3 4.489 4.382 3 6.016 3Z"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
                 </div>
                 Talk to Us
               </a>

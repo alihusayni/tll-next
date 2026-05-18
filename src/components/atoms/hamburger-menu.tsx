@@ -1,8 +1,7 @@
 "use client";
 
-import { useRef } from 'react';
-import { gsap } from 'gsap';
-import { useGSAP } from '@gsap/react';
+// Hamburger-to-X animation implemented with pure CSS transforms — no GSAP/gsap/react
+// required, removing ~30 KiB from the critical path bundle on every page.
 
 interface HamburgerMenuProps {
   isOpen: boolean;
@@ -12,23 +11,6 @@ interface HamburgerMenuProps {
 }
 
 export default function HamburgerMenu({ isOpen, onClick, className = '', color }: HamburgerMenuProps) {
-  const topRef = useRef<HTMLSpanElement>(null);
-  const middleRef = useRef<HTMLSpanElement>(null);
-  const bottomRef = useRef<HTMLSpanElement>(null);
-
-  useGSAP(() => {
-    const tl = gsap.timeline();
-    if (isOpen) {
-      tl.to(topRef.current, { rotation: 45, y: 8, duration: 0.3, ease: 'power2.out' })
-        .to(middleRef.current, { opacity: 0, scaleX: 0.75, duration: 0.3, ease: 'power2.out' }, "-=0.2")
-        .to(bottomRef.current, { rotation: -45, y: -8, duration: 0.3, ease: 'power2.out' }, "-=0.2");
-    } else {
-      tl.to(topRef.current, { rotation: 0, y: 0, duration: 0.3, ease: 'power2.out' })
-        .to(middleRef.current, { opacity: 1, scaleX: 1, duration: 0.3, ease: 'power2.out' }, "-=0.2")
-        .to(bottomRef.current, { rotation: 0, y: 0, duration: 0.3, ease: 'power2.out' }, "-=0.2");
-    }
-  }, [isOpen]);
-
   return (
     <button
       onClick={onClick}
@@ -36,17 +18,23 @@ export default function HamburgerMenu({ isOpen, onClick, className = '', color }
       aria-label="Toggle menu"
       aria-expanded={isOpen}
     >
+      {/* Top bar: rotates +45° and shifts down when open */}
       <span
-        ref={topRef}
-        className={`block w-5 h-[0.063rem] ${color || 'bg-white'}`}
+        className={`block w-5 h-[0.063rem] transition-transform duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] origin-center ${color || 'bg-white'} ${
+          isOpen ? 'translate-y-[0.5rem] rotate-45' : ''
+        }`}
       />
+      {/* Middle bar: fades out when open */}
       <span
-        ref={middleRef}
-        className={`block w-5 h-[0.063rem] ${color || 'bg-white'}`}
+        className={`block w-5 h-[0.063rem] transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] origin-center ${color || 'bg-white'} ${
+          isOpen ? 'opacity-0 scale-x-75' : ''
+        }`}
       />
+      {/* Bottom bar: rotates −45° and shifts up when open */}
       <span
-        ref={bottomRef}
-        className={`block w-5 h-[0.063rem] ${color || 'bg-white'}`}
+        className={`block w-5 h-[0.063rem] transition-transform duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] origin-center ${color || 'bg-white'} ${
+          isOpen ? '-translate-y-[0.5rem] -rotate-45' : ''
+        }`}
       />
     </button>
   );

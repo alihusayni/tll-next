@@ -10,10 +10,10 @@ export default function ContactSection() {
                             <h2 className="text-[2.5rem] lg:text-[3.875rem] font-inter-tight font-semibold text-gray-900 mb-16 leading-tight">
                                 Get Legal Help Today!
                             </h2>
-                            <p className="text-xl lg:text-[1.5rem] max-w-[31.25rem] text-[#747D85] font-semibold font-inter mb-6 leading-[1.625rem] lg:leading-8">
+                            <p className="text-xl lg:text-[1.5rem] max-w-[31.25rem] text-[#49535D] font-semibold font-inter mb-6 leading-[1.625rem] lg:leading-8">
                                 Need guidance from an experienced immigration attorney?
                             </p>
-                            <p className="text-lg text-[#747D85] font-inter mb-6 leading-6 lg:leading-[1.375]">
+                            <p className="text-lg text-[#49535D] font-inter mb-6 leading-6 lg:leading-[1.375]">
                                 Mr. Le offers a complimentary 30-minute consultation.
                             </p>
                             <div className="flex flex-col items-start gap-2 mt-4">
@@ -39,7 +39,7 @@ export default function ContactSection() {
                                 <span className="font-inter font-semibold text-lg text-[#071C32]">
                                     5.0/5 RATING
                                 </span>
-                                    <span className="font-inter font-semibold text-sm leading-5 text-[#747D85]">
+                                    <span className="font-inter font-semibold text-sm leading-5 text-[#49535D]">
                                     70+ REVIEWS
                                 </span>
                                 </div>

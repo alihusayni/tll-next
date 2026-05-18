@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
 import NavLink from '../atoms/nav-link';
 
 interface NavItem {
@@ -21,6 +20,7 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const navRef = useRef<HTMLElement>(null);
   const dropdownTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  // submenuRef kept for potential future use but animation is now CSS-driven
   const submenuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -39,14 +39,7 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
     };
   }, []);
 
-  useEffect(() => {
-    if (openDropdown === '/resources') {
-      gsap.set(submenuRef.current, { height: 0, opacity: 0 });
-      gsap.to(submenuRef.current, { height: 'auto', opacity: 1, duration: 0.6, ease: 'expo.out' });
-      const subItems = gsap.utils.toArray(Array.from(submenuRef.current?.querySelectorAll('a') || []));
-      gsap.fromTo(subItems, { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, stagger: 0.06, ease: 'power3.out', delay: 0.3 });
-    }
-  }, [openDropdown]);
+  // Dropdown open/close is now CSS-driven (grid-rows transition) — no GSAP needed
 
   const handleMouseEnter = (identifier: string) => {
     if (dropdownTimeoutRef.current) {
@@ -83,13 +76,8 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
     if (!identifier) return;
     const item = navItems.find(item => (item.href || item.label) === identifier);
     if (item?.subItems) {
-      // For items with subItems, toggle dropdown but don't close mobile menu
-      if (openDropdown === identifier) {
-        // closing
-        gsap.to(submenuRef.current, { height: 0, opacity: 0, duration: 0.5, ease: 'power2.in', onComplete: () => setOpenDropdown(null) });
-      } else {
-        setOpenDropdown(identifier);
-      }
+      // Toggle submenu open/close — CSS transition handles the animation
+      setOpenDropdown(prev => prev === identifier ? null : identifier);
     } else {
       // Only close mobile menu for items without subItems
       onItemClick?.();
@@ -139,21 +127,29 @@ export default function MainNav({ className = '', onItemClick, mobileView = fals
               </NavLink>
             </div>
             
-            {/* Submenu items */}
-            {item.subItems && openDropdown === item.href && (
-              <div ref={submenuRef} className="rounded-lg mx-4 mb-4 p-8">
-                {item.subItems.map((subItem) => (
-                    <NavLink
-                       key={subItem.href}
-                       href={subItem.href}
-                       className="block !text-[#D2D5D9] font-inter font-normal leading-5 mb-6 last:mb-0 hover:text-[#FF7031] active:text-[#FF7031] transition-colors text-base md:text-2xl"
-                       onClick={handleDropdownItemClick}
-                       showUnderline={false}
-                       textSize="base"
-                     >
-                    {subItem.label}
-                  </NavLink>
-                ))}
+            {/* Submenu items — height animated via CSS grid-rows transition (no GSAP) */}
+            {item.subItems && (
+              <div
+                className={`grid transition-[grid-template-rows,opacity] duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+                  openDropdown === item.href ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'
+                }`}
+              >
+                <div ref={item.subItems ? submenuRef : undefined} className="overflow-hidden">
+                  <div className="rounded-lg mx-4 mb-4 p-8">
+                    {item.subItems.map((subItem) => (
+                        <NavLink
+                           key={subItem.href}
+                           href={subItem.href}
+                           className="block !text-[#D2D5D9] font-inter font-normal leading-5 mb-6 last:mb-0 hover:text-[#FF7031] active:text-[#FF7031] transition-colors text-base md:text-2xl"
+                           onClick={handleDropdownItemClick}
+                           showUnderline={false}
+                           textSize="base"
+                         >
+                        {subItem.label}
+                      </NavLink>
+                    ))}
+                  </div>
+                </div>
               </div>
             )}
           </div>

@@ -11,17 +11,20 @@ export default function horizontalLoop(items: HTMLElement[], config: any) {
     gsap.context(() => {
         let onChange = config.onChange,
             lastIndex = 0,
+            // Cache container bounds — refreshed on resize, NOT on every onUpdate tick
+            cachedContainerLeft = 0,
+            cachedContainerRight = 0,
             tl = gsap.timeline({
                 repeat: config.repeat,
                 onUpdate: function() {
-                    // Handle visibility based on position
+                    // Handle visibility based on position.
+                    // Use cached container bounds to avoid getBoundingClientRect() on every frame.
                     if (container) {
-                        const containerRect = container.getBoundingClientRect();
                         items.forEach((item) => {
-                            const itemRect = item.getBoundingClientRect();
-                            // Hide items that are completely outside the container
-                            const isVisible = itemRect.right > containerRect.left - 320 &&
-                                            itemRect.left < containerRect.right + 320;
+                            const itemLeft = item.offsetLeft;
+                            const itemRight = itemLeft + item.offsetWidth;
+                            const isVisible = itemRight > cachedContainerLeft - 320 &&
+                                             itemLeft < cachedContainerRight + 320;
                             gsap.set(item, { opacity: isVisible ? 1 : 0 });
                         });
                     }
@@ -131,7 +134,20 @@ export default function horizontalLoop(items: HTMLElement[], config: any) {
         populateWidths();
         populateTimeline();
         populateOffsets();
-        window.addEventListener("resize", onResize);
+
+        // Prime the container bounds cache before the first tick
+        const updateContainerCache = () => {
+            if (container) {
+                const r = container.getBoundingClientRect();
+                cachedContainerLeft = r.left;
+                cachedContainerRight = r.right;
+            }
+        };
+        updateContainerCache();
+        window.addEventListener('resize', () => {
+            updateContainerCache();
+            onResize();
+        });
 
         function toIndex(index: number, vars?: any) {
             vars = vars || {};

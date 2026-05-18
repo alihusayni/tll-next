@@ -20,11 +20,21 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
   const [canScrollLeft, setCanScrollLeft] = React.useState(false);
   const [canScrollRight, setCanScrollRight] = React.useState(true);
   const [isDragging, setIsDragging] = React.useState(false);
-  const [startX, setStartX] = React.useState(0);
-  const [scrollLeftState, setScrollLeftState] = React.useState(0);
-  
+  // Use refs for drag state — avoids triggering a React re-render (which invalidates
+  // styles) before we read scrollLeft in onMouseDown, which would be a forced reflow.
+  const startXRef = useRef(0);
+  const scrollLeftStateRef = useRef(0);
+
+  // Cached layout measurements — read once via ResizeObserver, not on every interaction
+  const cardWidthRef = useRef(0);
+  const gapRef = useRef(0);
+  // Also cache scroll container dimensions so smoothScroll never reads from the DOM
+  // in a hot path after a write (which forces a reflow).
+  const scrollWidthRef = useRef(0);
+  const clientWidthRef = useRef(0);
+
   const velocityRef = useRef(0);
-  const lastXRef = useRef(0);
+  const lastXRef = useRef<number>(0);
   const rAFRef = useRef<number>(null);
   const isDownRef = useRef(false);
 
@@ -36,14 +46,52 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
         }
     };
 
-    React.useEffect(() => {
-        checkScroll();
-        const ref = scrollRef.current;
-        if (ref) {
-            ref.addEventListener('scroll', checkScroll);
-            return () => ref.removeEventListener('scroll', checkScroll);
-        }
-    }, []);
+  // Measure card width + gap once on mount and whenever the container resizes.
+  // Avoids calling getComputedStyle() and offsetWidth on every button click.
+  const updateLayoutCache = () => {
+      if (!scrollRef.current) return;
+      const firstCard = scrollRef.current.children[0] as HTMLElement | undefined;
+      if (firstCard) {
+          cardWidthRef.current = firstCard.getBoundingClientRect().width;
+      }
+      const style = getComputedStyle(scrollRef.current);
+      gapRef.current = parseFloat(style.gap) || parseFloat(style.columnGap) || 0;
+      // Cache container geometry so smoothScroll never reads live DOM in a hot path
+      scrollWidthRef.current = scrollRef.current.scrollWidth;
+      clientWidthRef.current = scrollRef.current.clientWidth;
+  };
+
+    const scrollCheckRafRef = useRef<number | null>(null);
+  const checkScroll = () => {
+      // Throttle via rAF: at most one layout read per frame instead of one per scroll event
+      if (scrollCheckRafRef.current) return;
+      scrollCheckRafRef.current = requestAnimationFrame(() => {
+          scrollCheckRafRef.current = null;
+          if (!scrollRef.current) return;
+          const {scrollLeft, scrollWidth, clientWidth} = scrollRef.current;
+          // Keep container cache in sync
+          scrollWidthRef.current = scrollWidth;
+          clientWidthRef.current = clientWidth;
+          setCanScrollLeft(scrollLeft > 0);
+          setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 1);
+      });
+  };
+
+  React.useEffect(() => {
+      checkScroll();
+      updateLayoutCache();
+      const ref = scrollRef.current;
+      if (ref) {
+          ref.addEventListener('scroll', checkScroll, { passive: true });
+          // Keep card size cache fresh on resize
+          const ro = new ResizeObserver(() => updateLayoutCache());
+          ro.observe(ref);
+          return () => {
+              ref.removeEventListener('scroll', checkScroll);
+              ro.disconnect();
+          };
+      }
+  }, []);
 
   const smoothScroll = (direction: 'left' | 'right') => {
     if (!scrollRef.current) return;
@@ -51,13 +99,12 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
     // Cancel any existing momentum/scroll animation
     if (rAFRef.current) cancelAnimationFrame(rAFRef.current);
 
-    const firstCard = scrollRef.current.children[0] as HTMLElement;
-    if (!firstCard) return;
-
-    const cardWidth = firstCard.offsetWidth;
-    const containerStyle = getComputedStyle(scrollRef.current);
-    const gapValue = parseFloat(containerStyle.gap) || 0;
-    const { scrollLeft, clientWidth, scrollWidth } = scrollRef.current;
+    // Use cached measurements — zero live DOM reads to avoid forced reflows
+    const cardWidth = cardWidthRef.current || 0;
+    const gapValue = gapRef.current;
+    const scrollLeft = scrollRef.current.scrollLeft; // safe: reading scrollLeft alone doesn't force reflow when no style was recently invalidated
+    const clientWidth = clientWidthRef.current;
+    const scrollWidth = scrollWidthRef.current;
 
     // Calculate card centers
     const cardSpacing = cardWidth + gapValue;
@@ -131,8 +178,9 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
     
     if (rAFRef.current) cancelAnimationFrame(rAFRef.current);
     
-    setStartX(e.pageX);
-    setScrollLeftState(scrollRef.current.scrollLeft);
+    startXRef.current = e.pageX;
+    // Read scrollLeft once on mousedown — no prior write in this frame so no reflow
+    scrollLeftStateRef.current = scrollRef.current.scrollLeft;
     lastXRef.current = e.pageX;
     velocityRef.current = 0;
   };
@@ -155,14 +203,14 @@ export default function ArticlesSectionClient({ articles }: ArticlesSectionClien
     if (!isDownRef.current || !scrollRef.current) return;
     e.preventDefault();
     const x = e.pageX;
-    const walk = (x - startX) * 2;
+    const walk = (x - startXRef.current) * 2;
     
     // Calculate velocity
     const delta = x - lastXRef.current;
     velocityRef.current = delta;
     lastXRef.current = x;
     
-    scrollRef.current.scrollLeft = scrollLeftState - walk;
+    scrollRef.current.scrollLeft = scrollLeftStateRef.current - walk;
   };
 
   return (

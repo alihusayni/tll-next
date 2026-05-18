@@ -31,25 +31,39 @@ export default function BlogCategoryFilter({
   const [startX, setStartX] = useState(0);
   const [scrollLeftPos, setScrollLeftPos] = useState(0);
   const [hasDragged, setHasDragged] = useState(false);
+  // Cache offsetLeft so mousedown never triggers a forced reflow by reading it live
+  const containerOffsetLeftRef = useRef(0);
+  const scrollCheckRafRef = useRef<number | null>(null);
 
   const checkScroll = () => {
-    if (scrollRef.current) {
+    // Throttle: merge burst scroll events into one layout read per frame
+    if (scrollCheckRafRef.current) return;
+    scrollCheckRafRef.current = requestAnimationFrame(() => {
+      scrollCheckRafRef.current = null;
+      if (!scrollRef.current) return;
       const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
       setCanScrollLeft(scrollLeft > 0);
-      // Allow a small buffer (1px) for calculation precision
       setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 1);
-    }
+    });
   };
 
   useEffect(() => {
     checkScroll();
     const ref = scrollRef.current;
     if (ref) {
-      ref.addEventListener('scroll', checkScroll);
-      window.addEventListener('resize', checkScroll);
+      // Cache offsetLeft on mount and on resize — never read it on mousedown
+      const updateOffsetCache = () => {
+        containerOffsetLeftRef.current = ref.offsetLeft;
+      };
+      updateOffsetCache();
+      const ro = new ResizeObserver(updateOffsetCache);
+      ro.observe(ref);
+      ref.addEventListener('scroll', checkScroll, { passive: true });
+      window.addEventListener('resize', checkScroll, { passive: true });
       return () => {
         ref.removeEventListener('scroll', checkScroll);
         window.removeEventListener('resize', checkScroll);
+        ro.disconnect();
       };
     }
   }, [categories]);
@@ -70,7 +84,8 @@ export default function BlogCategoryFilter({
     if (!scrollRef.current) return;
     setIsDragging(true);
     setHasDragged(false);
-    setStartX(e.pageX - scrollRef.current.offsetLeft);
+    // Use cached offsetLeft — avoids a forced reflow from reading it live after React state changes
+    setStartX(e.pageX - containerOffsetLeftRef.current);
     setScrollLeftPos(scrollRef.current.scrollLeft);
     // Prevent text selection while dragging
     e.preventDefault();
@@ -115,7 +130,7 @@ export default function BlogCategoryFilter({
         <button
           onClick={scrollLeft}
           aria-label="Scroll left"
-          className="w-8 h-8 bg-[#E8EDF2] rounded-full border border-[#D2D5D9] text-[#747D85] flex items-center justify-center hover:border-[#FF7031] hover:text-[#FF7031] transition-colors"
+          className="w-8 h-8 bg-[#E8EDF2] rounded-full border border-[#D2D5D9] text-[#49535D] flex items-center justify-center hover:border-[#FF7031] hover:text-[#FF7031] transition-colors"
         >
           <svg width="12" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15 6L1 6M1 6L6 11M1 6L6 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -150,7 +165,7 @@ export default function BlogCategoryFilter({
               <div className="flex flex-col justify-center leading-0">
                 <p className={`
                   font-inter-tight font-medium text-lg leading-7 whitespace-nowrap group-hover:text-[#071C32]
-                  ${isActive ? 'text-[#071C32]' : 'text-[#747D85]'}
+                  ${isActive ? 'text-[#071C32]' : 'text-[#49535D]'}
                 `}>
                   {category.label}
                 </p>

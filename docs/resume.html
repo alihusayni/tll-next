@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ali Husayni – Strategic Growth Engineer & SEO Authority</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:    #0f1f38;
+      --accent:  #1a56db;
+      --accent2: #0ea5e9;
+      --gold:    #d4a843;
+      --text:    #1e293b;
+      --muted:   #64748b;
+      --rule:    #e2e8f0;
+      --bg:      #ffffff;
+      --sidebar: #f8fafc;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #e8edf4;
+      color: var(--text);
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    /* ── Page wrapper ── */
+    .resume-page {
+      max-width: 900px;
+      margin: 40px auto;
+      background: var(--bg);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.18);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    /* ── Header ── */
+    .header {
+      background: linear-gradient(135deg, var(--navy) 0%, #1a3a6b 60%, #1d4ed8 100%);
+      padding: 48px 52px 40px;
+      position: relative;
+      overflow: hidden;
+    }
+    .header::before {
+      content: '';
+      position: absolute;
+      top: -60px; right: -60px;
+      width: 260px; height: 260px;
+      background: rgba(255,255,255,0.04);
+      border-radius: 50%;
+    }
+    .header::after {
+      content: '';
+      position: absolute;
+      bottom: -40px; left: 40%;
+      width: 180px; height: 180px;
+      background: rgba(255,255,255,0.03);
+      border-radius: 50%;
+    }
+    .header-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 42px;
+      color: #fff;
+      letter-spacing: -0.5px;
+      line-height: 1.1;
+      margin-bottom: 8px;
+    }
+    .header-title {
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--accent2);
+      margin-bottom: 22px;
+    }
+    .header-contact {
+      display: flex;
+      gap: 28px;
+      flex-wrap: wrap;
+    }
+    .header-contact a,
+    .header-contact span {
+      color: rgba(255,255,255,0.75);
+      font-size: 13px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .header-contact a:hover { color: #fff; }
+    .contact-icon {
+      width: 16px; height: 16px;
+      opacity: 0.85;
+    }
+    /* Gold accent line */
+    .header-bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--gold) 0%, var(--accent2) 100%);
+    }
+
+    /* ── Body layout ── */
+    .body-wrap {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+    }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      background: var(--sidebar);
+      padding: 36px 24px 40px;
+      border-right: 1px solid var(--rule);
+    }
+    .sidebar-section { margin-bottom: 32px; }
+    .sidebar-section:last-child { margin-bottom: 0; }
+    .sidebar-heading {
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 14px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    /* Competency pills */
+    .competency {
+      margin-bottom: 14px;
+    }
+    .competency-label {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 4px;
+      display: block;
+    }
+    .competency-desc {
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    /* Skill tags */
+    .tag-group { margin-bottom: 12px; }
+    .tag-label {
+      font-size: 10.5px;
+      font-weight: 600;
+      color: var(--navy);
+      margin-bottom: 5px;
+      display: block;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .tag {
+      background: rgba(26,86,219,0.09);
+      color: var(--accent);
+      font-size: 10px;
+      font-weight: 500;
+      padding: 3px 8px;
+      border-radius: 20px;
+      border: 1px solid rgba(26,86,219,0.2);
+    }
+
+    /* Cert items */
+    .cert-item {
+      font-size: 11.5px;
+      color: var(--text);
+      line-height: 1.5;
+      margin-bottom: 8px;
+      padding-left: 14px;
+      position: relative;
+    }
+    .cert-item::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 7px;
+      width: 6px; height: 6px;
+      background: var(--gold);
+      border-radius: 50%;
+    }
+
+    /* Edu block */
+    .edu-school {
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 6px;
+    }
+    .edu-degree {
+      font-size: 11px;
+      color: var(--text);
+      line-height: 1.55;
+      margin-bottom: 3px;
+    }
+
+    /* ── Main content ── */
+    .main {
+      padding: 36px 44px 44px;
+    }
+    .section { margin-bottom: 32px; }
+    .section:last-child { margin-bottom: 0; }
+
+    .section-heading {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .section-heading::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    /* Summary */
+    .summary-text {
+      font-size: 13.5px;
+      line-height: 1.78;
+      color: var(--text);
+    }
+    .summary-text strong {
+      color: var(--navy);
+      font-weight: 600;
+    }
+
+    /* Experience */
+    .exp-item { margin-bottom: 26px; }
+    .exp-item:last-child { margin-bottom: 0; }
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 4px;
+    }
+    .exp-title {
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--navy);
+    }
+    .exp-company {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--accent);
+    }
+    .exp-dates {
+      font-size: 11.5px;
+      color: var(--muted);
+      white-space: nowrap;
+      margin-top: 2px;
+      font-weight: 500;
+    }
+    .exp-bullets {
+      margin-top: 10px;
+      padding-left: 0;
+      list-style: none;
+    }
+    .exp-bullets li {
+      font-size: 13px;
+      color: var(--text);
+      line-height: 1.7;
+      margin-bottom: 7px;
+      padding-left: 18px;
+      position: relative;
+    }
+    .exp-bullets li::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 9px;
+      width: 5px; height: 5px;
+      background: var(--accent2);
+      border-radius: 50%;
+    }
+    .exp-bullets li strong {
+      color: var(--navy);
+      font-weight: 600;
+    }
+
+    /* ── Print styles ── */
+    @media print {
+      body { background: white; }
+      .resume-page {
+        max-width: none;
+        margin: 0;
+        box-shadow: none;
+        border-radius: 0;
+      }
+      .header {
+        background: linear-gradient(135deg, var(--navy) 0%, #1a3a6b 60%, #1d4ed8 100%) !important;
+      }
+      @page { margin: 0; size: letter; }
+    }
+
+    @media (max-width: 700px) {
+      .body-wrap { grid-template-columns: 1fr; }
+      .sidebar { border-right: none; border-bottom: 1px solid var(--rule); }
+      .header { padding: 32px 28px 32px; }
+      .main { padding: 24px 24px 32px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="resume-page">
+
+  <!-- ── HEADER ── -->
+  <header class="header">
+    <h1 class="header-name">Ali Husayni</h1>
+    <p class="header-title">Strategic Growth Engineer &amp; SEO Authority</p>
+    <div class="header-contact">
+      <span>
+        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        United States
+      </span>
+      <a href="https://www.alihusayni.com" target="_blank">
+        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+        alihusayni.com
+      </a>
+      <a href="https://www.toporganicleads.com" target="_blank">
+        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        toporganicleads.com
+      </a>
+    </div>
+    <div class="header-bar"></div>
+  </header>
+
+  <div class="body-wrap">
+
+    <!-- ── SIDEBAR ── -->
+    <aside class="sidebar">
+
+      <!-- Core Competencies -->
+      <div class="sidebar-section">
+        <div class="sidebar-heading">Core Competencies</div>
+
+        <div class="competency">
+          <span class="competency-label">🔍 Search Mastery</span>
+          <span class="competency-desc">Traditional SEO · AEO · GEO · Google Business Profile</span>
+        </div>
+        <div class="competency">
+          <span class="competency-label">⚡ Modern Tech Stack</span>
+          <span class="competency-desc">Vercel · GitHub · Cursor (AI-Native) · Cloudflare · Antigravity</span>
+        </div>
+        <div class="competency">
+          <span class="competency-label">📊 Data &amp; Performance</span>
+          <span class="competency-desc">Search Console · GA4 · Core Web Vitals · Marketing Analytics</span>
+        </div>
+        <div class="competency">
+          <span class="competency-label">🎯 Lead Gen &amp; Sales Ops</span>
+          <span class="competency-desc">HubSpot CRM · Apollo.io · Lead Funnel Mgmt · Google Ads</span>
+        </div>
+        <div class="competency">
+          <span class="competency-label">✍️ Editorial Excellence</span>
+          <span class="competency-desc">High-Authority Content · Search Atlas · AI-Human Hybrid Workflows</span>
+        </div>
+      </div>
+
+      <!-- Technical Skills -->
+      <div class="sidebar-section">
+        <div class="sidebar-heading">Technical Skills</div>
+
+        <div class="tag-group">
+          <span class="tag-label">Platform &amp; Hosting</span>
+          <div class="tags">
+            <span class="tag">Vercel</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">Cloudflare</span>
+            <span class="tag">WordPress</span>
+          </div>
+        </div>
+        <div class="tag-group">
+          <span class="tag-label">SEO Tools</span>
+          <div class="tags">
+            <span class="tag">Search Atlas</span>
+            <span class="tag">Semrush</span>
+            <span class="tag">Ahrefs</span>
+            <span class="tag">Screaming Frog</span>
+            <span class="tag">OTTO SEO</span>
+          </div>
+        </div>
+        <div class="tag-group">
+          <span class="tag-label">Dev Tools</span>
+          <div class="tags">
+            <span class="tag">Cursor</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+        <div class="tag-group">
+          <span class="tag-label">Marketing &amp; CRM</span>
+          <div class="tags">
+            <span class="tag">Google Ads</span>
+            <span class="tag">HubSpot</span>
+            <span class="tag">Apollo</span>
+            <span class="tag">Mailchimp</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="sidebar-section">
+        <div class="sidebar-heading">Education</div>
+        <div class="edu-school">University of Colorado</div>
+        <div class="edu-degree">BA in English<br><em style="color:var(--muted);font-size:10.5px;">Editorial Excellence &amp; Professional Writing</em></div>
+        <div class="edu-degree" style="margin-top:8px;">MBA Coursework<br><em style="color:var(--muted);font-size:10.5px;">General Management &amp; Business Strategy</em></div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="sidebar-section">
+        <div class="sidebar-heading">Certifications</div>
+        <div class="cert-item">Google Ads Search Certification</div>
+        <div class="cert-item">Google Analytics Individual Qualification (GA4)</div>
+        <div class="cert-item">HubSpot Content Marketing Certification</div>
+      </div>
+
+    </aside>
+
+    <!-- ── MAIN CONTENT ── -->
+    <main class="main">
+
+      <!-- Professional Summary -->
+      <section class="section">
+        <h2 class="section-heading">Professional Summary</h2>
+        <p class="summary-text">
+          <strong>Strategic Growth Engineer</strong> and <strong>SEO Authority</strong> with over
+          <strong>22 years of experience</strong> in high-performance lead generation and search engine
+          dominance. Expert in bridging the gap between traditional SEO and the new frontier of
+          <strong>Generative Engine Optimization (GEO)</strong>. Combining an academic background in
+          English with a modern technical stack (Vercel, GitHub, Cursor), I engineer digital assets that
+          achieve sub-1-second load times and consistent <strong>#1 rankings</strong>. Proven track record
+          of taking local businesses from obscurity to market leaders through data-driven content strategy
+          and full-funnel conversion optimization.
+        </p>
+      </section>
+
+      <!-- Professional Experience -->
+      <section class="section">
+        <h2 class="section-heading">Professional Experience</h2>
+
+        <!-- Job 1 -->
+        <div class="exp-item">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Founder &amp; CEO</div>
+              <div class="exp-company">Top Organic Leads</div>
+            </div>
+            <div class="exp-dates">2004 – Present</div>
+          </div>
+          <ul class="exp-bullets">
+            <li>Architected and scaled a premier lead generation agency focusing on organic growth for local and national service providers.</li>
+            <li>Developed a proprietary <strong>"21-Day Lead Launch"</strong> methodology that integrates technical SEO, content sprints, and conversion monitoring.</li>
+            <li>Integrated AI-driven <strong>Answer Engine Optimization (AEO)</strong> to ensure client visibility in generative AI results (Gemini, Perplexity, SearchGPT).</li>
+            <li>Consistently outperformed competitors in high-density markets, securing <strong>top-3 Map Pack placements</strong> and <strong>#1 organic rankings</strong>.</li>
+          </ul>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="exp-item">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Senior SEO Consultant</div>
+              <div class="exp-company">AliHusayni.com</div>
+            </div>
+            <div class="exp-dates">2004 – Present</div>
+          </div>
+          <ul class="exp-bullets">
+            <li>Successfully navigated every major Google algorithm shift over two decades, providing long-term stability and growth for long-term partners.</li>
+            <li><strong>Technical Achievement:</strong> Leveraged Vercel and Cloudflare to rebuild legacy client sites, achieving <strong>100/100 Lighthouse scores</strong> and sub-1-second mobile load times.</li>
+            <li><strong>Client Coaching &amp; Strategy:</strong> Act as a strategic partner, providing hands-on coaching to client internal teams to ensure 100% independence and long-term sustainability of the SEO engines I build.</li>
+          </ul>
+        </div>
+
+      </section>
+
+    </main>
+  </div><!-- /.body-wrap -->
+
+</div><!-- /.resume-page -->
+
+</body>
+</html>

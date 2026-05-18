@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Icon } from '@iconify/react';
 import { useState } from 'react';
 
 interface ArticleCardProps {
@@ -42,12 +41,23 @@ export default function ArticleCard({ title, description, image, link }: Article
           <div className="flex-1 flex items-end">
             <span className="inline-flex items-center font-inter font-medium text-base text-[#49535D] group-hover:text-[#E55B1E] group-active:text-[#E55B1E] transition-colors">
               Read More
-              <Icon
-                icon="solar:arrow-right-up-linear"
+              {/* solar:arrow-right-up-linear — inlined to eliminate @iconify/react runtime */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
                 width="18"
                 height="18"
+                viewBox="0 0 24 24"
+                fill="none"
                 className="ml-2 transition-transform group-hover:rotate-45 group-active:rotate-45"
-              />
+              >
+                <path
+                  d="M7 17L17 7M17 7H7M17 7V17"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </span>
           </div>
         </div>

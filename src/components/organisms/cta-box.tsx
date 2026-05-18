@@ -27,7 +27,7 @@ export default function CtaBox() {
           <h2 className="!text-[2.25rem] !font-inter-tight !font-semibold !text-white !leading-tight !mb-8 !mt-0 !tracking-[-0.025em]">
             Mr. Le Grants You a 30-Minute Free Consultation for Legal Advice
           </h2>
-            <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="group bg-[#E55B1E] text-white font-inter-tight font-semibold text-lg uppercase rounded-md hover:bg-[#FF7031] active:bg-[#FF7031] transition-all w-[13.25rem] h-[3.25rem] hover:w-[14.375rem] active:w-[14.375rem] flex items-center justify-start gap-4 pl-6">
+            <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="group bg-[#C04B10] text-white font-inter-tight font-semibold text-lg uppercase rounded-md hover:bg-[#E55B1E] active:bg-[#E55B1E] transition-all w-[13.25rem] h-[3.25rem] hover:w-[14.375rem] active:w-[14.375rem] flex items-center justify-start gap-4 pl-6">
              schedule now
              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-3 h-3 transition-transform group-hover:rotate-45 group-active:rotate-45">
                <path d="M1 11L11 1M11 1H3.5M11 1V8.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

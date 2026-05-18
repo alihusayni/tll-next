@@ -69,7 +69,7 @@ const TestimonialSection: React.FC = () => {
                     {stat.value}
                   </span>
                                     <span
-                                        className="font-inter-tight font-normal text-base leading-[1.375] text-[#969799]">
+                                        className="font-inter-tight font-normal text-base leading-[1.375] text-[#5C6471]">
                     {stat.description}
                   </span>
                                 </div>
@@ -86,7 +86,7 @@ const TestimonialSection: React.FC = () => {
                       {stat.value}
                     </span>
                                         <span
-                                            className="font-inter-tight font-normal text-base leading-[1.375] text-[#969799]">
+                                            className="font-inter-tight font-normal text-base leading-[1.375] text-[#5C6471]">
                       {stat.description}
                     </span>
                                     </div>
@@ -98,7 +98,7 @@ const TestimonialSection: React.FC = () => {
                   {statistics[2].value}
                 </span>
                                 <span
-                                    className="font-['Inter_Tight'] font-normal text-base leading-[1.375] text-[#969799]">
+                                    className="font-['Inter_Tight'] font-normal text-base leading-[1.375] text-[#5C6471]">
                   {statistics[2].description}
                 </span>
                             </div>

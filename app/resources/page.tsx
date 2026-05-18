@@ -119,6 +119,7 @@ export default function ResourcesPage() {
         <Header variant="light" />
         <Header variant="sticky" />
       
+      <main>
       <Suspense fallback={<div>Loading...</div>}>
         <ResourcesPageClient
           featuredArticles={transformedFeaturedArticles}
@@ -126,6 +127,7 @@ export default function ResourcesPage() {
           categories={categories}
         />
         </Suspense>
+      </main>
       </div>
     </>
   );

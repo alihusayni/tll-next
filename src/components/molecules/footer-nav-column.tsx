@@ -8,11 +8,11 @@ interface FooterNavColumnProps {
 export default function FooterNavColumn({ title, items }: FooterNavColumnProps) {
   return (
     <div className={`flex pr-0 sm:pr-20 flex-col gap-4 ${title === '' ? 'max-w-[15rem]' : ''}`}>
-      {title && <h3 className="font-inter-tight font-semibold text-base uppercase text-[#969799]">{title}</h3>}
+      {title && <h3 className="font-inter-tight font-semibold text-base uppercase text-[#5C6471]">{title}</h3>}
        <ul className={`flex flex-col ${title === '' ? 'gap-12' : 'gap-3'}`}>
         {items.map((item, index) => (
           <li key={index} className="flex flex-col gap-2">
-            {item.label && <span className="font-inter-tight font-semibold text-base uppercase text-[#969799]">{item.label}</span>}
+            {item.label && <span className="font-inter-tight font-semibold text-base uppercase text-[#5C6471]">{item.label}</span>}
               {item.href ? (
                   <Link href={item.href} className="flex items-center gap-2 group font-inter text-base text-[#49535D] hover:text-[#FF7031] active:text-[#FF7031] transition-colors">
                   <span>{item.text}</span>

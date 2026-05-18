@@ -1,8 +1,10 @@
 import Header from '@/components/organisms/header';
 import TestimonialsPageSection from '@/components/organisms/testimonials-page-section';
-import ContactSection from '@/components/organisms/contact-section';
-import SiteFooter from '@/components/organisms/site-footer';
 import type {Metadata} from 'next';
+import dynamic from 'next/dynamic';
+
+const ContactSection = dynamic(() => import('@/components/organisms/contact-section'));
+const SiteFooter = dynamic(() => import('@/components/organisms/site-footer'));
 
 export const metadata: Metadata = {
     title: 'Client Testimonials | Tuan Le Law',
@@ -30,8 +32,10 @@ export default function TestimonialsPage() {
         <div className="bg-[#091c32]">
             <Header variant="transparent" />
             <Header variant="sticky" />
-            <TestimonialsPageSection/>
-            <ContactSection/>
+            <main>
+                <TestimonialsPageSection/>
+                <ContactSection/>
+            </main>
             <SiteFooter/>
         </div>
     );

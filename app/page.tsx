@@ -1,12 +1,16 @@
 import Header from '@/components/organisms/header';
 import HeroSection from '@/components/organisms/hero-section';
-import AboutSection from '@/components/organisms/about-section';
 import CertificationSection from '@/components/organisms/certification-section';
-import TestimonialSection from '@/components/organisms/testimonial-section';
-import ArticlesSection from '@/components/organisms/articles-section';
-import ContactSection from '@/components/organisms/contact-section';
-import SiteFooter from '@/components/organisms/site-footer';
 import type { Metadata } from 'next';
+import dynamic from 'next/dynamic';
+
+// Below-fold sections are dynamically imported so their JS is split into
+// separate async chunks and not included in the critical path bundle.
+const AboutSection = dynamic(() => import('@/components/organisms/about-section'));
+const TestimonialSection = dynamic(() => import('@/components/organisms/testimonial-section'));
+const ArticlesSection = dynamic(() => import('@/components/organisms/articles-section'));
+const ContactSection = dynamic(() => import('@/components/organisms/contact-section'));
+const SiteFooter = dynamic(() => import('@/components/organisms/site-footer'));
 
 export const metadata: Metadata = {
   title: 'Tuan Le Law | Professional Immigration Legal Services',
@@ -33,12 +37,14 @@ export default function Home() {
     return (
         <>
             <Header variant="sticky" />
-            <HeroSection/>
-            <CertificationSection/>
-            <AboutSection/>
-            <TestimonialSection/>
-            <ArticlesSection/>
-            <ContactSection/>
+            <main>
+                <HeroSection/>
+                <CertificationSection/>
+                <AboutSection/>
+                <TestimonialSection/>
+                <ArticlesSection/>
+                <ContactSection/>
+            </main>
             <SiteFooter/>
         </>
     );

@@ -48,10 +48,10 @@
     "@types/react-dom": "19.2.3"
   },
   "browserslist": [
-    "chrome >= 90",
-    "firefox >= 90",
-    "safari >= 15",
-    "edge >= 90",
+    "chrome >= 96",
+    "firefox >= 95",
+    "safari >= 15.4",
+    "edge >= 96",
     "not dead"
   ]
 }

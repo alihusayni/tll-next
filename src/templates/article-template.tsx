@@ -1,9 +1,11 @@
 import ArticleHero from '../components/organisms/article-hero';
 import ArticleBody from '../components/organisms/article-body';
-import ContactSection from "@/components/organisms/contact-section";
-import SiteFooter from "@/components/organisms/site-footer";
 import MarkdownRenderer from '../lib/markdown-renderer';
 import { Content } from '@/types/content';
+import dynamic from 'next/dynamic';
+
+const ContactSection = dynamic(() => import('@/components/organisms/contact-section'));
+const SiteFooter = dynamic(() => import('@/components/organisms/site-footer'));
 
 interface ArticleTemplateProps {
     content: Content;
@@ -31,6 +33,7 @@ export default function ArticleTemplate({ content, slug }: ArticleTemplateProps)
 
     return (
         <div>
+            <main>
             <ArticleHero
                 title={content.meta.title || content.meta.h1 || 'Untitled'}
                 subtitle={content.meta.description || content.meta.summary || ''}
@@ -43,6 +46,7 @@ export default function ArticleTemplate({ content, slug }: ArticleTemplateProps)
             />
             <ArticleBody headings={content.headings} content={<MarkdownRenderer content={content.content} />} />
             <ContactSection/>
+            </main>
             <SiteFooter/>
         </div>
     );

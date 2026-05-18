@@ -2,9 +2,11 @@
 
 import ArticleHero from '@/components/organisms/article-hero';
 import ArticleBody from '@/components/organisms/article-body';
-import ContactSection from "@/components/organisms/contact-section";
-import SiteFooter from "@/components/organisms/site-footer";
 import Header from '@/components/organisms/header';
+import dynamic from 'next/dynamic';
+
+const ContactSection = dynamic(() => import('@/components/organisms/contact-section'));
+const SiteFooter = dynamic(() => import('@/components/organisms/site-footer'));
 
 import BlogArticleCard from '@/components/molecules/blog-article-card';
 import MarkdownRenderer from '@/lib/markdown-renderer';
@@ -67,7 +69,7 @@ export default function InternalTemplate({content, slug, relatedArticles = []}: 
             <Header variant="light" />
             <Header variant="sticky" />
 
-            
+            <main>
             <ArticleHero
                 title={title}
                 subtitle={description}
@@ -134,6 +136,7 @@ export default function InternalTemplate({content, slug, relatedArticles = []}: 
             )}
             
             <ContactSection/>
+            </main>
             <SiteFooter/>
         </div>
     );

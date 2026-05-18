@@ -1,7 +1,6 @@
  import type {Testimonial} from '@/data/testimonials';
  import Image from 'next/image';
  import { forwardRef } from 'react';
- import { Icon } from '@iconify/react';
 
 interface TestimonialCardFullProps {
     testimonial: Testimonial;
@@ -52,12 +51,22 @@ const TestimonialCardFull = forwardRef<HTMLAnchorElement, TestimonialCardFullPro
                     </div>
                 </div>
 
-                 {/* Simple Arrow Icon */}
+                 {/* solar:arrow-right-up-linear — inlined */}
                  <div className="w-6 h-6 sm:w-5 sm:h-5 flex items-center justify-center flex-shrink-0">
-                     <Icon
-                         icon="solar:arrow-right-up-linear"
+                     <svg
+                         xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 24 24"
+                         fill="none"
                          className="w-6 h-6 sm:w-5 sm:h-5 text-[#969799] group-hover:rotate-45 transition-transform duration-200"
-                     />
+                     >
+                         <path
+                             d="M7 17L17 7M17 7H7M17 7V17"
+                             stroke="currentColor"
+                             strokeWidth="1.5"
+                             strokeLinecap="round"
+                             strokeLinejoin="round"
+                         />
+                     </svg>
                  </div>
             </div>
         </a>

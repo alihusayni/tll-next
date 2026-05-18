@@ -38,7 +38,7 @@ Beyond the paperwork, we see the life you’re building. We are honored to help 
           <div className="flex flex-wrap gap-8 sm:gap-32">
             <div className="flex flex-col gap-8">
               <div className="flex flex-col gap-4">
-                <h3 className="font-inter-tight font-semibold text-base uppercase text-[#969799]">
+                <h3 className="font-inter-tight font-semibold text-base uppercase text-[#5C6471]">
                   Address
                 </h3>
                 <span className="font-inter text-base text-[#071C32] w-[15rem]">
@@ -49,7 +49,7 @@ Beyond the paperwork, we see the life you’re building. We are honored to help 
                 </span>
               </div>
               <div className="flex flex-col gap-4">
-                <h3 className="font-inter-tight font-semibold text-base uppercase text-[#969799]">
+                <h3 className="font-inter-tight font-semibold text-base uppercase text-[#5C6471]">
                   Phone
                 </h3>
                 <Link
@@ -64,7 +64,7 @@ Beyond the paperwork, we see the life you’re building. We are honored to help 
           </div>
         </div>
         <hr className="border-[#E1E6EB]" />
-        <div className="flex flex-col text-[#747D85] text-sm leading-7 justify-center py-8 font-inter">
+        <div className="flex flex-col text-[#49535D] text-sm leading-7 justify-center py-8 font-inter">
           <p>Attorney Advertising Notice</p>
           <p>
             This law office is a federally designated DEBT RELIEF AGENCY as

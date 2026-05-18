@@ -36,20 +36,25 @@ const WhyTuanSection: React.FC = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = React.useState(false);
   const [canScrollRight, setCanScrollRight] = React.useState(true);
+  const scrollCheckRafRef = useRef<number | null>(null);
 
   const checkScroll = () => {
-    if (scrollRef.current) {
+    // Throttle: coalesce multiple scroll events into one layout read per frame
+    if (scrollCheckRafRef.current) return;
+    scrollCheckRafRef.current = requestAnimationFrame(() => {
+      scrollCheckRafRef.current = null;
+      if (!scrollRef.current) return;
       const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
       setCanScrollLeft(scrollLeft > 0);
       setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 1);
-    }
+    });
   };
 
   React.useEffect(() => {
     checkScroll();
     const ref = scrollRef.current;
     if (ref) {
-      ref.addEventListener('scroll', checkScroll);
+      ref.addEventListener('scroll', checkScroll, { passive: true });
       return () => ref.removeEventListener('scroll', checkScroll);
     }
   }, []);

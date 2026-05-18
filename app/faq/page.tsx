@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
 import Header from '@/components/organisms/header';
 import FaqSection from '@/components/organisms/faq-section';
-import ContactSection from '@/components/organisms/contact-section';
-import SiteFooter from '@/components/organisms/site-footer';
+import dynamic from 'next/dynamic';
+
+const ContactSection = dynamic(() => import('@/components/organisms/contact-section'));
+const SiteFooter = dynamic(() => import('@/components/organisms/site-footer'));
 
 export const metadata: Metadata = {
     title: 'FAQ | Frequently Asked Questions | Tuan Le Law',
@@ -31,8 +33,10 @@ export default function FaqPage() {
         <>
             <Header variant="light" />
             <Header variant="sticky" />
-            <FaqSection />
-            <ContactSection />
+            <main>
+                <FaqSection />
+                <ContactSection />
+            </main>
             <SiteFooter />
         </>
     );

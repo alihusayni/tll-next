@@ -37,18 +37,15 @@ export default function RootLayout({
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
                 <link rel="preconnect" href="https://www.googletagmanager.com" />
-                <link rel="preconnect" href="https://www.clarity.ms" />
+                <link rel="dns-prefetch" href="https://www.clarity.ms" />
                 <link rel="dns-prefetch" href="https://cdn.callrail.com" />
                 <link rel="dns-prefetch" href="https://acsbapp.com" />
-                <Script id="clarity-script" strategy="afterInteractive">
-                    {`
-              (function(c,l,a,r,i,t,y){
-          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "su6z9ts9pv");
-                    `}
-                </Script>
+                {/* Clarity — served via local proxy so browsers cache for 7 days */}
+                <Script
+                    id="clarity-script"
+                    src="/api/scripts/clarity"
+                    strategy="afterInteractive"
+                />
                 <Script
                     id="structured-data"
                     type="application/ld+json"
@@ -82,8 +79,11 @@ export default function RootLayout({
                         "priceRange": "$$"
                     })}
                 </Script>
-                <Script src="https://cdn.callrail.com/companies/279209440/d53c12ea0f73fbb1a92b/12/swap.js"
-                    strategy="lazyOnload" />
+                {/* CallRail — served via local proxy so browsers cache for 7 days */}
+                <Script
+                    src="/api/scripts/callrail"
+                    strategy="lazyOnload"
+                />
                 <AcsbScript />
 
                 {/* GA4 — lazyOnload keeps gtag off the critical render path */}

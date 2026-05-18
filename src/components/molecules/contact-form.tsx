@@ -1,9 +1,6 @@
 'use client';
 
 import { useState, FormEvent, useRef, useEffect } from 'react';
-import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import { Icon } from '@iconify/react';
 import TextInput from '../atoms/text-input';
 import TextArea from '../atoms/text-area';
 
@@ -25,6 +22,7 @@ export default function ContactForm() {
   const [errors, setErrors] = useState<Partial<FormData>>({});
   const [loading, setLoading] = useState(false);
   const [showSuccessPopup, setShowSuccessPopup] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [formStartTime, setFormStartTime] = useState<number>(Date.now());
   const honeypotRef = useRef<HTMLInputElement>(null);
 
@@ -56,18 +54,19 @@ export default function ContactForm() {
 
     // Honeypot check - if honeypot field is filled, it's likely a bot
     if (honeypotRef.current?.value) {
-      toast.error('Invalid submission');
+      setErrorMessage('Invalid submission');
       return;
     }
 
     // Timing check - form submitted too quickly (less than 3 seconds) indicates bot
     const timeElapsed = Date.now() - formStartTime;
     if (timeElapsed < 3000) {
-      toast.error('Please slow down and try again');
+      setErrorMessage('Please slow down and try again');
       return;
     }
 
-    setLoading(true);
+      setLoading(true);
+      setErrorMessage(null);
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
@@ -78,7 +77,7 @@ export default function ContactForm() {
       if (!response.ok) {
         const text = await response.text();
         console.error('Form submission error:', text);
-        toast.error('Error submitting form');
+        setErrorMessage('Error submitting form. Please try again.');
         return;
       }
 
@@ -90,11 +89,11 @@ export default function ContactForm() {
         // Hide popup after 3 seconds
         setTimeout(() => setShowSuccessPopup(false), 3000);
       } else {
-        toast.error(data.snackbar?.message || 'Submission failed');
+        setErrorMessage(data.snackbar?.message || 'Submission failed. Please try again.');
       }
     } catch (error) {
       console.error('Network error:', error);
-      toast.error('Network error: ' + (error instanceof Error ? error.message : 'Unknown error'));
+      setErrorMessage('Network error: ' + (error instanceof Error ? error.message : 'Unknown error'));
     } finally {
       setLoading(false);
     }
@@ -102,7 +101,6 @@ export default function ContactForm() {
 
   return (
     <>
-    <ToastContainer />
     <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-6">
       <div>
         <TextInput
@@ -166,6 +164,12 @@ export default function ContactForm() {
         aria-hidden="true"
       />
 
+      {errorMessage && (
+        <p role="alert" className="text-[#D93644] font-inter-tight text-sm font-medium leading-5 bg-red-50 border border-red-200 rounded-md px-4 py-3">
+          {errorMessage}
+        </p>
+      )}
+
       <button
         type="submit"
         disabled={loading}
@@ -173,12 +177,11 @@ export default function ContactForm() {
       >
         <span>{loading ? 'Submitting...' : 'Schedule Free Consultation'}</span>
           {loading ? '' :
-              <Icon
-                  icon="solar:arrow-right-up-linear"
-                  width="20"
-                  height="20"
-                  className="transition-transform group-hover:rotate-45 group-active:rotate-45 stroke-[#071C32] group-hover:stroke-white group-active:stroke-white flex-shrink-0"
-              />
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  className="transition-transform group-hover:rotate-45 group-active:rotate-45 flex-shrink-0"
+                  aria-hidden="true">
+                <path d="M6 18L18 6M18 6H8M18 6V16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
           }
 
       </button>

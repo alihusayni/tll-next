@@ -73,6 +73,7 @@ export default function CategoryPageClient({
       <Header variant="light" />
       <Header variant="sticky" />
       
+      <main>
       {/* Category Filter Section - Background extends to infinity */}
       <section className="bg-[#E8EDF2] pt-8 px-4 md:px-8 lg:px-16 2xl:px-0 m-0">
         <div className="max-w-[86.5rem] mx-auto">
@@ -153,6 +154,7 @@ export default function CategoryPageClient({
 
       {/* Contact Section */}
       <ContactSection />
+      </main>
 
       {/* Footer */}
       <SiteFooter />

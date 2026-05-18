@@ -58,18 +58,16 @@ export default function TableOfContents({ headings, className = '' }: TableOfCon
 
   useEffect(() => {
     if (activeId && wrapperRef.current) {
-      const button = wrapperRef.current.querySelector(`[data-id="${activeId}"]`) as HTMLElement;
+      const nav = wrapperRef.current;
+      const button = nav.querySelector(`[data-id="${activeId}"]`) as HTMLElement;
       if (button) {
-        const nav = wrapperRef.current;
-        const buttonRect = button.getBoundingClientRect();
-        const navRect = nav.getBoundingClientRect();
-        const buttonTopRelative = buttonRect.top - navRect.top;
-        const buttonBottomRelative = buttonRect.bottom - navRect.top;
-        const navHeight = navRect.height;
-        // If not within 10px of top or bottom, scroll to bring it to 10px from top
-        if (buttonTopRelative < 10 || buttonBottomRelative > navHeight - 10) {
-          const scrollTop = nav.scrollTop + buttonTopRelative - 10;
-          nav.scrollTo({ top: scrollTop, behavior: 'smooth' });
+        // Use offsetTop instead of getBoundingClientRect() to avoid a forced
+        // reflow immediately after the state change that set activeId.
+        const buttonTop = button.offsetTop - nav.scrollTop;
+        const buttonBottom = buttonTop + button.offsetHeight;
+        const navHeight = nav.clientHeight;
+        if (buttonTop < 10 || buttonBottom > navHeight - 10) {
+          nav.scrollTo({ top: button.offsetTop - 10, behavior: 'smooth' });
         }
       }
     }

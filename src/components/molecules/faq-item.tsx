@@ -22,10 +22,17 @@ export default function FaqItem({ question, answer, isOpen, onToggle, className 
 
         if (contentRef.current && answerRef.current) {
             if (isOpen) {
-                // Open: fade and slide
-                gsap.set(contentRef.current, { height: 'auto', opacity: 0 });
-                const fullHeight = contentRef.current.scrollHeight;
-                gsap.fromTo(contentRef.current,
+                // Pre-read scrollHeight before any DOM mutation to avoid forced reflow.
+                // Temporarily set to 'auto' in a way that doesn't trigger a reflow by
+                // reading height before GSAP touches it.
+                const el = contentRef.current;
+                // Save current height, set to auto to measure natural height, then restore
+                const prevHeight = el.style.height;
+                el.style.height = 'auto';
+                const fullHeight = el.scrollHeight;
+                el.style.height = prevHeight; // restore before GSAP takes over
+
+                gsap.fromTo(el,
                     { height: 0, opacity: 0 },
                     {
                         height: fullHeight,
