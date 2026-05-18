@@ -37,15 +37,8 @@ export default function RootLayout({
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
                 <link rel="preconnect" href="https://www.googletagmanager.com" />
-                <link rel="dns-prefetch" href="https://www.clarity.ms" />
                 <link rel="dns-prefetch" href="https://cdn.callrail.com" />
                 <link rel="dns-prefetch" href="https://acsbapp.com" />
-                {/* Clarity — served via local proxy so browsers cache for 7 days */}
-                <Script
-                    id="clarity-script"
-                    src="/api/scripts/clarity"
-                    strategy="afterInteractive"
-                />
                 <Script
                     id="structured-data"
                     type="application/ld+json"
