@@ -2,15 +2,12 @@ import { NextResponse } from 'next/server';
 
 const UPSTREAM_URL =
   'https://cdn.callrail.com/companies/279209440/d53c12ea0f73fbb1a92b/12/swap.js';
-const REVALIDATE_SECONDS = 60 * 60 * 24 * 7; // 7 days
-
-export const dynamic = 'force-static';
-export const revalidate = REVALIDATE_SECONDS;
+export const revalidate = 604800; // 7 days
 
 export async function GET() {
   try {
     const upstream = await fetch(UPSTREAM_URL, {
-      next: { revalidate: REVALIDATE_SECONDS },
+      next: { revalidate: 604800 },
     });
 
     if (!upstream.ok) {
