@@ -38,6 +38,10 @@ export default function RootLayout({
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
                 <link rel="preconnect" href="https://www.googletagmanager.com" />
                 <link rel="dns-prefetch" href="https://acsbapp.com" />
+                <link rel="preconnect" href="https://tuanlelaw.s3.amazonaws.com" />
+                <link rel="dns-prefetch" href="https://tuanlelaw.s3.amazonaws.com" />
+                <link rel="preconnect" href="https://tuanlelaw.s3.us-east-1.amazonaws.com" />
+                <link rel="dns-prefetch" href="https://tuanlelaw.s3.us-east-1.amazonaws.com" />
                 <Script
                     id="structured-data"
                     type="application/ld+json"
