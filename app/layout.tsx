@@ -33,6 +33,8 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
+                {/* Preload LCP hero image */}
+                <link rel="preload" as="image" type="image/png" href="https://tuanlelaw.s3.amazonaws.com/assets/hero/bg.png" fetchPriority="high" />
                 {/* Preconnect to third-party origins to reduce connection latency */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
