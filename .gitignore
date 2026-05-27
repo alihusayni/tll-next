@@ -45,3 +45,5 @@ next-env.d.ts
 /public/sitemap.xml
 /public/sitemap-0.xml
 
+# Assets migrated to S3
+/public/assets/

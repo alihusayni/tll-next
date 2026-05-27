@@ -5,7 +5,7 @@ export default function ProfileImages() {
       <div className="relative h-[35.75rem] w-[43.75rem]">
 
           <Image
-              src="/assets/about/about_img_consult.png"
+              src="https://tuanlelaw.s3.amazonaws.com/assets/about/about_img_consult.png"
               alt="Image of attorney conducting a client consultation"
               width={332}
               height={412}
@@ -13,7 +13,7 @@ export default function ProfileImages() {
           />
 
           <Image
-              src="/assets/about/about_img_Tuan.png"
+              src="https://tuanlelaw.s3.amazonaws.com/assets/about/about_img_Tuan.png"
               alt="Tuan Le profile image"
               width={332}
               height={412}

@@ -12,7 +12,7 @@ ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new
 twitterCard: "summary_large_image"
 twitterTitle: "K-1 Visa Process Explained | Tuan Le Law Office, OC, CA"
 twitterDescription: "Learn about the K-1 visa process, requirements, and timeline with Tuan Le Law Office in Orange, California."
-twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
 publishedTime: "2024-08-30T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "9 min read"

@@ -19,6 +19,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'tuanlelaw.s3.amazonaws.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
   compress: true,

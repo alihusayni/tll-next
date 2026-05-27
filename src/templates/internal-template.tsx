@@ -50,7 +50,7 @@ export default function InternalTemplate({content, slug, relatedArticles = []}: 
     const description = content.meta.summary || content.meta.description || '';
 
     // Get image from meta with fallback
-    const imageSrc = content.meta.ogImage || content.meta.imageSrc || '/assets/blog/blog_post.png';
+    const imageSrc = content.meta.ogImage || content.meta.imageSrc || 'https://tuanlelaw.s3.amazonaws.com/assets/blog/blog_post.png';
     const imageAlt = content.meta.imageAlt || 'Featured image illustrating the article topic';
 
     // Get date from meta with fallback
@@ -111,7 +111,7 @@ export default function InternalTemplate({content, slug, relatedArticles = []}: 
                                         day: 'numeric'
                                     }).format(new Date(article.meta.publishedTime)) : '';
                                     const readTime = article.meta.readTime || '';
-                                    const imageSrc = article.meta.ogImage || article.meta.imageSrc || '/assets/blog/blog_post.png';
+                                    const imageSrc = article.meta.ogImage || article.meta.imageSrc || 'https://tuanlelaw.s3.amazonaws.com/assets/blog/blog_post.png';
                                     const category = article.slug.split('/')[0].split('-').map((word: string) => 
                                         word.charAt(0).toUpperCase() + word.slice(1)
                                     ).join(' ');

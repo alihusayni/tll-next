@@ -12,7 +12,7 @@ ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/Pat
 twitterCard: "summary_large_image"
 twitterTitle: "Paths to Become a U.S. Citizen; Explained by a Citizenship Lawyer"
 twitterDescription: "An immigration lawyer shows you the ways to become a U.S. citizen. Learn if you are eligible and meet the requirements for U.S. citizenship."
-twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
 publishedTime: "2023-07-20T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "7 min read"

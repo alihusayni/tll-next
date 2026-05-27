@@ -12,7 +12,7 @@ ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/und
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration News and Updates"
 twitterDescription: "Latest immigration news and updates from Tuan Le Law."
-twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
 readTime: "2 min read"

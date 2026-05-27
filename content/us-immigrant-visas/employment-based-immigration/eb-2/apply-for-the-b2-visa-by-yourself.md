@@ -12,7 +12,7 @@ ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/An-
 twitterCard: "summary_large_image"
 twitterTitle: "An Ultimate Guide to Apply for the B2 Visa by Yourself"
 twitterDescription: "Are you planning to visit the U.S.? You may need to apply for the B2 visa. You can do it by yourself with this step-by-step simple guide."
-twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
 publishedTime: "2023-02-28T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "7 min read"

@@ -12,7 +12,7 @@ ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/fam
 twitterCard: "summary_large_image"
 twitterTitle: "Understanding Family-based immigration"
 twitterDescription: "Discover the essentials of family-based immigration to the USA, visa types, and application steps, with Tuan Le Law Office in OC, CA."
-twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
 publishedTime: "2020-04-07T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "8 min read"

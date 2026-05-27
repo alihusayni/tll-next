@@ -12,7 +12,7 @@ ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/image/anti-ice-protesters-
 twitterCard: "summary_large_image"
 twitterTitle: "Trump’s New Immigration Rules: What they Mean for Immigrants Living in California"
 twitterDescription: ""
-twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
 publishedTime: "2026-03-08T00:00:00.000Z"
 modifiedTime: "2026-03-08T00:00:00.000Z"
 readTime: "7 min read"

@@ -12,7 +12,7 @@ ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new
 twitterCard: "summary_large_image"
 twitterTitle: "Comprehensive Guide to U.S. Nonimmigrant Visas | Immigration Lawyer in Orange County, CA"
 twitterDescription: "Read this US nonimmigrant visas guide to quickly find out what visa options you have. This simple guide saves you from confusion."
-twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
 publishedTime: "2023-11-25T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "9 min read"

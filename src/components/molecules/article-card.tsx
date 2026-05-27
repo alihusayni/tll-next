@@ -23,7 +23,7 @@ export default function ArticleCard({ title, description, image, link }: Article
           fill
           sizes="(max-width: 640px) 320px, 384px"
           className="object-cover"
-          onError={() => set_img_src("/assets/logo/place-holder.png")}
+          onError={() => set_img_src("https://tuanlelaw.s3.amazonaws.com/assets/logo/place-holder.png")}
         />
         <div className="absolute inset-0 bg-[rgba(32,69,134,0.3)] rounded-[1rem]" />
       </div>

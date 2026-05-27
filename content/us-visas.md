@@ -12,7 +12,7 @@ ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/Imm
 twitterCard: "summary_large_image"
 twitterTitle: "The Crucial Role of Immigration Lawyers in U.S. Residency and Citizenship"
 twitterDescription: "Secure and Accelerate Your Immigration with tuan le, a Renowned Immigration Lawyer in OC, Ensuring a Smooth Transition to Residency."
-twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
 publishedTime: "2024-09-18T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "8 min read"

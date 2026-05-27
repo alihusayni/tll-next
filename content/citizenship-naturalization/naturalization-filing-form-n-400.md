@@ -12,7 +12,7 @@ ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/gui
 twitterCard: "summary_large_image"
 twitterTitle: "A Guide to Naturalization Process: Filing Form N-400, and Other Steps"
 twitterDescription: "All you green card holders hoping to become US citizens, read this guide to the naturalization process to pass the steps successfully."
-twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
 publishedTime: "2022-10-13T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "8 min read"

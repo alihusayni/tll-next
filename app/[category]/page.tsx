@@ -82,7 +82,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
       type: 'website',
       images: [
         {
-          url: 'https://www.tuanlelaw.com/assets/og-image.png',
+          url: 'https://tuanlelaw.s3.amazonaws.com/assets/og-image.png',
           width: 1200,
           height: 630,
           alt: `Tuan Le Law - ${categoryLabel}`,
@@ -135,7 +135,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     excerpt: extractExcerpt(article.content),
     date: formatDate(article.meta.publishedTime || article.meta.date || ''),
     readTime: article.meta.readTime || '5 min read',
-    image: article.meta.ogImage || article.meta.imageSrc || '/assets/articles/default.png',
+    image: article.meta.ogImage || article.meta.imageSrc || 'https://tuanlelaw.s3.amazonaws.com/assets/articles/default.png',
     link: `/${article.slug}`,
   }));
   

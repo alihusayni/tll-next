@@ -158,7 +158,7 @@ export default async function ArticlePage({ params }: PageProps) {
       "name": "Tuan Le Law",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
+        "url": "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
       }
     },
     "datePublished": meta.publishedTime,

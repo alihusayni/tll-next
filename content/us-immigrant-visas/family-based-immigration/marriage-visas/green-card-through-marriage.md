@@ -12,7 +12,7 @@ ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/Gre
 twitterCard: "summary_large_image"
 twitterTitle: "Green Card Through Marriage: How to Apply and Avoid Pitfalls"
 twitterDescription: "Marriage Visa: learn how our experienced immigration lawyer in OC, CA can guide you through the process of achieving your green card"
-twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
 publishedTime: "2024-06-27T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "9 min read"

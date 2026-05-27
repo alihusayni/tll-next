@@ -12,7 +12,7 @@ ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/App
 twitterCard: "summary_large_image"
 twitterTitle: "Application for Employment Authorization: How to File Form I-765"
 twitterDescription: "Learn how to file Form I-765, Application for Employment Authorization, online or by mail, with the help of a business immigration lawyer."
-twitterImage: "https://www.tuanlelaw.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
 publishedTime: "2024-09-30T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "8 min read"
