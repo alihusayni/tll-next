@@ -9,6 +9,16 @@ const nextConfig: NextConfig = {
       'next/dist/build/polyfills/polyfill-module': './lib/empty-polyfill.js',
     },
   },
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      const path = require("path");
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        "next/dist/build/polyfills/polyfill-module": path.resolve(__dirname, "lib/empty-polyfill.js"),
+      };
+    }
+    return config;
+  },
   images: {
     deviceSizes: [480, 640, 750, 828, 1080, 1200, 1920, 2048, 3840],
 
