@@ -15,6 +15,10 @@ Before committing any image, verify:
 - [ ] `loading="lazy"` (implicit) on everything else — don't add `priority` to below-fold images
 - [ ] `quality` left at default (75) for photos; use `quality={90}` for screenshots/UI
 - [ ] S3 hostname is in `remotePatterns` in `next.config.ts`
+- [ ] `width`/`height` props match the image's natural aspect ratio (check SVG `viewBox`)
+- [ ] Text/UI colors pass WCAG AA contrast ≥4.5:1 on their background
+- [ ] Interactive elements have ≥44×44px touch targets (use padding + inner span pattern)
+- [ ] All images use `<Image>` — no raw `<img>` tags with remote URLs (prevents cache TTL failures)
 
 ---
 
@@ -312,6 +316,29 @@ sizes="(max-width: 1279px) 140px, 200px"
 - Navigation logos at 140–200px: `quality={55}` is sufficient
 - Ticker/grayscale logos: `quality={55}` — even less visible compression artifacts
 - Do NOT use `quality={75}` or above for logos under 250px
+### When NOT to cap: use `calc()` for full-width large images
+
+For images with source width ≥ 750px that span the full viewport width on mobile,
+use a **viewport-relative** fallback — not a fixed pixel cap.
+
+**Why a fixed px fallback can backfire at DPR > 1:**
+- `360px` fallback → at DPR 1.5 → browser requests 540px → picks **640w** srcset
+- `calc(100vw - 4rem)` at 360px viewport = 296px CSS → at DPR 1.5 → 444px → picks **480w** ✓
+
+The `480w` candidate only exists if `480` is in `deviceSizes` in `next.config.ts`.
+
+```tsx
+// ❌ WRONG for large full-width images — fixed 360px fallback overshoots at DPR > 1
+sizes="(min-width: 1280px) 42vw, (min-width: 640px) calc(100vw - 2rem), 360px"
+
+// ✅ CORRECT — viewport-relative fallback is always accurate
+sizes="(min-width: 1280px) 42vw, (min-width: 640px) calc(100vw - 2rem), calc(100vw - 4rem)"
+```
+
+| Source image width | Mobile fallback to use |
+|---|---|
+| ≤ 768px | Fixed cap: `sourceWidth ÷ 2` (e.g., `384px` for a 768px source) |
+| > 768px / fills full width | Viewport-relative: `calc(100vw - Xrem)` |
 
 
 ## 11. JavaScript Performance — Defer Third-Party Scripts
@@ -404,4 +431,202 @@ used. Each one adds 50–150 KiB of network payload on every page load.
 - **Never** read decorative arrows (`→`, `›`, `»`) to screen readers — wrap in `<span aria-hidden="true">→</span>`
 - **Prefer** making the visible text itself descriptive when refactoring: "Explore Vehicle Patrol Services" beats "Learn More" + aria-label
 - For card components with a CTA link separate from the title link, use `aria-label="{ctaLabel}: {title}"` on the CTA
+
+
+---
+
+## 13. Image Aspect Ratios — Match `width`/`height` to Natural Dimensions
+
+PageSpeed flags "Displays images with incorrect aspect ratio" when the `width`/`height`
+props passed to `<Image>` don't match the source file's natural aspect ratio.
+
+**Root cause example:** An SVG with `viewBox="0 0 52 52"` (1:1 square) rendered at
+`width={62} height={65}` has a 0.95:1 ratio — the icon is stretched vertically.
+
+### Finding the natural ratio
+
+| Source type | How to check |
+|---|---|
+| JPEG / PNG / WebP | Open in an image editor or inspect via URL |
+| SVG | Read the `viewBox` attribute: `viewBox="0 0 W H"` → ratio is W:H |
+
+### Rules
+
+```tsx
+// SVG with viewBox="0 0 52 52" — naturally square (1:1)
+// ❌ WRONG — 62×65 distorts the circle into an oval
+<Image src="play-circle.svg" width={62} height={65} alt="Play" />
+
+// ✅ CORRECT — square dimensions match the 1:1 viewBox
+<Image src="play-circle.svg" width={65} height={65} alt="Play" />
+
+// 1200×800 photo (3:2 ratio)
+// ❌ WRONG — 500×400 = 1.25:1, not 3:2
+<Image src="photo.jpg" width={500} height={400} alt="Photo" />
+
+// ✅ CORRECT — 600×400 = 1.5:1, exact 3:2
+<Image src="photo.jpg" width={600} height={400} alt="Photo" />
+```
+
+> **SVGs with `preserveAspectRatio="none"`** stretch to fill any container.
+> Always use square `width`/`height` for circular icons so they stay circular.
+
+---
+
+## 14. Color Contrast — WCAG AA Compliance
+
+Low-contrast text fails PageSpeed under "Background and foreground colors do not
+have a sufficient contrast ratio." All visible text must meet **WCAG AA** minimums.
+
+**Required ratios:**
+
+| Text type | Minimum ratio |
+|---|---|
+| Normal text (< 18pt regular / < 14pt bold) | **4.5:1** |
+| Large text (≥ 18pt or ≥ 14pt bold) | **3:1** |
+| Non-text UI elements (icons, focus rings) | **3:1** |
+
+### Approved safe colors (on white #FFFFFF background)
+
+| Use | ❌ Failing | ✅ Passing | Contrast |
+|---|---|---|---|
+| Brand green links / text | `#379b75` → 3.2:1 | `#2d7a5d` | 4.7:1 ✓ |
+| Section labels (emerald) | `text-emerald-600` → 3.5:1 | `text-emerald-700` | 5.0:1 ✓ |
+| Muted / secondary text | `rgba(0,0,0,0.4)` → 2.6:1 | `rgba(0,0,0,0.6)` | 5.7:1 ✓ |
+
+```tsx
+// ❌ WRONG — #379b75 on white = 3.2:1, fails WCAG AA
+<a className="text-[#379b75]">Visit site</a>
+
+// ✅ CORRECT — #2d7a5d on white = 4.7:1, passes
+<a className="text-[#2d7a5d]">Visit site</a>
+
+// ❌ WRONG — emerald-600 on white ≈ 3.5:1
+<p className="text-emerald-600 uppercase tracking-widest">Label</p>
+
+// ✅ CORRECT — emerald-700 on white ≈ 5.0:1
+<p className="text-emerald-700 uppercase tracking-widest">Label</p>
+
+// ❌ WRONG — rgba(0,0,0,0.4) = #999999 → 2.6:1 on white
+.text-black-40 { color: rgba(0, 0, 0, 0.4); }
+
+// ✅ CORRECT — rgba(0,0,0,0.6) = #666666 → 5.7:1 on white
+.text-black-40 { color: rgba(0, 0, 0, 0.6); }
+```
+
+**Tool:** [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+or Chrome DevTools → Elements panel → color picker shows contrast ratio live.
+
+---
+
+## 15. Touch Targets — WCAG 2.5.5 Compliance
+
+Interactive elements must be large enough to tap accurately on touchscreens.
+PageSpeed flags "Touch targets do not have sufficient size or spacing."
+
+**Minimum: 44×44px** (WCAG 2.5.5 AA). Lighthouse audits for 48×48px.
+
+### The negative-margin pattern for small visual elements
+
+Small visual indicators (pagination dots, step controls) need large tap areas
+without the button visually expanding the layout:
+
+```tsx
+// ❌ WRONG — button is 12×12px (the visual dot), fails touch target audit
+<button className="w-3 h-3 rounded-full bg-gray-400" onClick={() => goTo(i)} />
+
+// ✅ CORRECT
+// w-11 h-11 = 44×44px tap area  |  -mx-4 = −16px each side → 12px net per dot
+// Inner <span> carries visual styles; group-hover propagates hover state
+<button
+  type="button"
+  aria-label={`Go to slide ${i + 1}`}
+  onClick={() => goTo(i)}
+  className="group -mx-4 flex h-11 w-11 items-center justify-center"
+>
+  <span
+    className={`pointer-events-none block h-3 w-3 rounded-full transition-all ${
+      active ? "bg-brand" : "bg-gray-300 group-hover:bg-gray-400"
+    }`}
+  />
+</button>
+```
+
+**Math:** `w-11`=44px button, `-mx-4`=−16px each side → 44−32=**12px** net layout space
+per dot. Visual gap = 12−(dot width) ≈ 4–9px — looks identical to the original design.
+
+### Semantic rules
+
+```tsx
+// ❌ WRONG — <span onClick> is invisible to keyboard users and screen readers
+<span onClick={() => goTo(i)} className="cursor-pointer w-3 h-3 rounded-full" />
+
+// ✅ CORRECT — semantic <button> is keyboard-accessible and announced properly
+<button type="button" onClick={() => goTo(i)} aria-label="Next slide">...</button>
+```
+
+- **Never** use `<div onClick>` or `<span onClick>` for interactive controls
+- Apply `type="button"` on every `<button>` outside a `<form>`
+- Use `focus-visible:ring-2` to preserve keyboard focus ring — don't use `focus:outline-none` alone
+- All icon-only buttons must have `aria-label` describing the action
+
+---
+
+## 16. Use Efficient Cache Lifetimes — Never Use Raw `<img>` for Remote Assets
+
+Every raw `<img src="https://...s3.amazonaws.com/...">` tag loads the asset
+**directly from S3**, which has **no `Cache-Control` header by default**. This means:
+- Every repeat visit re-downloads the image from S3
+- PageSpeed flags it as "Use efficient cache lifetimes — Est savings of X KiB"
+- The browser cannot cache the asset across navigations
+
+**Fix:** Route all remote images through `next/image`. It serves via `/_next/image`
+with `Cache-Control: public, max-age=31536000, immutable` — a 1-year browser cache.
+
+### How to find raw `<img>` tags
+
+```bash
+grep -rn "<img" ./src ./features ./atoms ./molecules --include="*.tsx" | grep -v node_modules
+```
+
+### Patterns and fixes
+
+```tsx
+// ❌ WRONG — loads directly from S3, no cache headers, PageSpeed flags it
+import { S3 } from '@/lib/s3';
+<img src={`${S3}assets/my-icon.svg`} width={18} height={18} alt="Icon" />
+
+// ✅ CORRECT — routes through /_next/image, gets 1-year immutable cache
+import Image from '@/atoms/img'; // or 'next/image'
+<Image src={`${S3}assets/my-icon.svg`} width={18} height={18} sizes="18px" alt="Icon" />
+
+// ❌ WRONG — decorative SVG as raw <img> inside a positioned container
+<img alt="" className="size-full" src={iconUrl} />
+
+// ✅ CORRECT — fill fills the positioned parent; sizes reflects the rendered size
+<Image fill alt="" aria-hidden="true" src={iconUrl} sizes="18px" className="block max-w-none" />
+```
+
+### Acceptable exceptions
+
+| Pattern | Acceptable? | Reason |
+|---|---|---|
+| `<img src={dynamicUserAvatarUrl}>` | ⚠️ Case-by-case | Unknown domain can't be in `remotePatterns`; add a proxy or domain allowlist |
+| `<img src="https://www.google.com/s2/favicons?...">` | ✅ OK | Third-party favicon service; external domain, can't control |
+| `<img src={qrCodeDataUrl}>` | ✅ OK | Inline `data:` URI — not a network request |
+| `<img src={S3url}>` (any static asset) | ❌ Fix it | Always use `<Image>` — add the S3 hostname to `remotePatterns` |
+
+### Adding a new S3 hostname to `remotePatterns`
+
+```ts
+// next.config.ts
+images: {
+  remotePatterns: [
+    { protocol: 'https', hostname: 'your-bucket.s3.amazonaws.com' },
+    { protocol: 'https', hostname: 'your-bucket.s3.us-east-1.amazonaws.com' },
+  ],
+},
+```
+
+Without this, next/image throws `INVALID_IMAGE_OPTIMIZE_REQUEST` and returns a broken image.
 
