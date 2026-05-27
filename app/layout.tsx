@@ -13,7 +13,7 @@ const interTight = Inter_Tight({
 const inter = Inter({
     subsets: ["latin"],
     variable: "--font-inter",
-    display: "swap",
+    display: "optional",
 });
 
 export const metadata: Metadata = {
