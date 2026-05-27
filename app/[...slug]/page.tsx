@@ -4,6 +4,10 @@ import { getContentBySlug, generateStaticParams as generateContentPaths, getRela
 import type { Metadata } from 'next';
 import Script from 'next/script';
 
+// Only serve paths from generateStaticParams() — all others get a true 404.
+// Without this, Vercel routes /images/*, static files, etc. through this catch-all.
+export const dynamicParams = false;
+
 interface PageProps {
   params: Promise<{
     slug: string[];

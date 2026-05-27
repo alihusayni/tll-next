@@ -37,7 +37,6 @@ export default function RootLayout({
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
                 <link rel="preconnect" href="https://www.googletagmanager.com" />
-                <link rel="dns-prefetch" href="https://cdn.callrail.com" />
                 <link rel="dns-prefetch" href="https://acsbapp.com" />
                 <Script
                     id="structured-data"
@@ -72,11 +71,6 @@ export default function RootLayout({
                         "priceRange": "$$"
                     })}
                 </Script>
-                {/* CallRail — served via local proxy so browsers cache for 7 days */}
-                <Script
-                    src="/api/scripts/callrail"
-                    strategy="lazyOnload"
-                />
                 <AcsbScript />
 
                 {/* Google Tag Manager \u2014 lazyOnload: fires after page is fully idle */}
