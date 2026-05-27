@@ -27,3 +27,13 @@ Rules:
 - After uploading to a new S3 bucket, add the hostname to `remotePatterns` in `next.config.ts` before referencing it in `<Image>`
 - All S3 assets must go through `next/image` for delivery — never link to raw S3 URLs in `<img>` or `<video>` tags
 <!-- END:asset-storage-rules -->
+
+<!-- BEGIN:optimization-playbook -->
+# Performance Optimization Playbook
+
+When the user mentions "optimization file", "optimization playbook", "performance playbook", or asks to optimize a site for PageSpeed/Lighthouse, read and follow the playbook at:
+
+`/Users/alihusayni/.gemini/config/optimization-playbook.md`
+
+This contains the proven workflow for achieving 99/100 PageSpeed scores across all projects.
+<!-- END:optimization-playbook -->
