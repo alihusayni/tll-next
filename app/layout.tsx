@@ -79,10 +79,10 @@ export default function RootLayout({
                 />
                 <AcsbScript />
 
-                {/* Google Tag Manager */}
+                {/* Google Tag Manager \u2014 lazyOnload: fires after page is fully idle */}
                 <Script
                     id="gtm-script"
-                    strategy="afterInteractive"
+                    strategy="lazyOnload"
                     dangerouslySetInnerHTML={{
                         __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

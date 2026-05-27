@@ -131,3 +131,15 @@ body.mobile-menu-open {
 .dragging a {
   cursor: grabbing !important;
 }
+
+/* FAQ stagger fade-in — replaces GSAP fromTo(".faq-item", {opacity:0,y:30}, ...) */
+@keyframes faq-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

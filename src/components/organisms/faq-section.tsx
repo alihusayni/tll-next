@@ -2,32 +2,17 @@
 
 import FaqItem from '../molecules/faq-item';
 import { faqData } from '@/data/faq';
-import { gsap } from "gsap";
-import { useGSAP } from "@gsap/react";
-import { useRef, useState } from 'react';
+import { useState } from 'react';
+
+// No GSAP needed — the mount stagger is done with a CSS @keyframes animation
+// using --faq-i custom property to offset each item's animation-delay.
+// Removing gsap + @gsap/react saves ~90 KiB from this component's bundle.
 
 export default function FaqSection() {
-    const sectionRef = useRef<HTMLDivElement>(null);
     const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
-    useGSAP(() => {
-        if (sectionRef.current) {
-            // Stagger animation for FAQ items on mount
-            gsap.fromTo(".faq-item",
-                { opacity: 0, y: 30 },
-                { 
-                    opacity: 1, 
-                    y: 0, 
-                    duration: 0.6,
-                    stagger: 0.1,
-                    ease: "power2.out"
-                }
-            );
-        }
-    }, { dependencies: [] });
-
     return (
-        <section ref={sectionRef} className="bg-[#E8EDF2] w-full">
+        <section className="bg-[#E8EDF2] w-full">
             <div className="max-w-[86.5rem] mx-auto px-4 lg:px-16 2xl:px-0 py-8 lg:pb-16">
                 {/* Hero/Header Section */}
                 <div className="flex flex-col gap-8 py-8">
@@ -39,21 +24,30 @@ export default function FaqSection() {
                     </p>
                 </div>
 
-                {/* FAQ Items List */}
+                {/* FAQ Items List — stagger fade-in via CSS animation-delay */}
                 <div className="flex flex-col gap-4 mt-8">
                     {faqData.map((faq, index) => (
-                        <FaqItem
+                        <div
                             key={index}
-                            question={faq.question}
-                            answer={faq.answer}
-                            isOpen={activeIndex === index}
-                            onToggle={() => setActiveIndex(activeIndex === index ? null : index)}
                             className="faq-item"
-                        />
+                            style={{
+                                // Stagger each item's fade-in: 0.1s * index offset
+                                // @keyframes faq-fade-in is defined in globals.css
+                                animation: 'faq-fade-in 0.6s ease-out both',
+                                animationDelay: `${index * 0.1}s`,
+                            }}
+                        >
+                            <FaqItem
+                                question={faq.question}
+                                answer={faq.answer}
+                                isOpen={activeIndex === index}
+                                onToggle={() => setActiveIndex(activeIndex === index ? null : index)}
+                                className="faq-item"
+                            />
+                        </div>
                     ))}
                 </div>
             </div>
         </section>
     );
 }
-

@@ -3,7 +3,6 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { createPortal } from 'react-dom';
-import { gsap } from 'gsap';
 
 import Logo from '../atoms/logo';
 import MainNav from '../molecules/main-nav';
@@ -29,7 +28,16 @@ export default function Header({
   const [mounted, setMounted] = useState(false);
   const lastScrollY = useRef(0);
   const mobileMenuRef = useRef<HTMLDivElement>(null);
-  const tl = useRef<ReturnType<typeof gsap.timeline> | null>(null);
+  // Minimal interface — avoids importing GSAP types at module level
+  type GSAPTimeline = {
+    play(): GSAPTimeline; reverse(): GSAPTimeline; kill(): void;
+    to(targets: unknown, vars: unknown, position?: unknown): GSAPTimeline;
+    fromTo(targets: unknown, from: unknown, to: unknown, position?: unknown): GSAPTimeline;
+    eventCallback(event: string, cb: (() => void) | null): GSAPTimeline;
+  };
+  const tl = useRef<GSAPTimeline | null>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const gsapRef = useRef<any>(null);
 
   const toggleMobileMenu = () => {
     if (isMobileMenuOpen) {
@@ -39,35 +47,46 @@ export default function Header({
       // opening
       setIsMobileMenuOpen(true);
       setIsMenuVisible(true);
-      if (!tl.current) {
-        tl.current = gsap.timeline({ paused: true });
+      const gsap = gsapRef.current;
+      if (!gsap) return; // GSAP not yet loaded (extremely rare race)
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      let timeline: any = tl.current;
+      if (!timeline) {
+        timeline = gsap.timeline({ paused: true });
+        tl.current = timeline;
         gsap.set(mobileMenuRef.current, { height: 0 });
-        tl.current.to(mobileMenuRef.current, {
+        timeline.to(mobileMenuRef.current, {
           height: '100vh',
           duration: 0.6,
           ease: 'expo.out',
         });
         const header = gsap.utils.toArray('.mobile-menu-overlay .flex.justify-between.items-center');
-        tl.current.fromTo(header,
+        timeline.fromTo(header,
           { opacity: 0 },
           { opacity: 1, duration: 0.3 },
           '-=0.4'
         );
         const menuItems = gsap.utils.toArray('.mobile-menu-overlay nav > div');
         const buttons = gsap.utils.toArray('.mobile-menu-overlay .flex.flex-col.gap-4 > a');
-        tl.current.fromTo([...menuItems, ...buttons],
+        timeline.fromTo([...menuItems, ...buttons],
           { y: 30, opacity: 0 },
           { y: 0, opacity: 1, duration: 0.5, stagger: 0.06, ease: 'power3.out' },
           '-=0.3'
         );
-        tl.current.eventCallback('onReverseComplete', () => {
+        timeline.eventCallback('onReverseComplete', () => {
           setIsMobileMenuOpen(false);
           setIsMenuVisible(false);
         });
       }
-      tl.current.play();
+      timeline.play();
     }
   };
+
+  // Preload GSAP right after mount — it won't be in the initial parse/exec path,
+  // but it will be ready long before the user taps the hamburger.
+  useEffect(() => {
+    import("gsap").then(({ gsap }) => { gsapRef.current = gsap; });
+  }, []);
 
   useEffect(() => {
     const id = requestAnimationFrame(() => setMounted(true));
