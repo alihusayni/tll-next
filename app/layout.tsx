@@ -33,8 +33,23 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
-                {/* Preload LCP hero image */}
-                <link rel="preload" as="image" type="image/png" href="https://tuanlelaw.s3.amazonaws.com/assets/hero/bg.png" fetchPriority="high" />
+                {/*
+                  Preload LCP hero image via the actual /_next/image URL.
+                  Raw S3 URL was wrong — browser never fetches S3 directly.
+                  quality=100 matches the prop in hero-section.tsx.
+                */}
+                <link
+                  rel="preload"
+                  as="image"
+                  fetchPriority="high"
+                  imageSrcSet={[
+                    "/_next/image?url=https%3A%2F%2Ftuanlelaw.s3.amazonaws.com%2Fassets%2Fhero%2Fbg.png&w=640&q=100 640w",
+                    "/_next/image?url=https%3A%2F%2Ftuanlelaw.s3.amazonaws.com%2Fassets%2Fhero%2Fbg.png&w=1080&q=100 1080w",
+                    "/_next/image?url=https%3A%2F%2Ftuanlelaw.s3.amazonaws.com%2Fassets%2Fhero%2Fbg.png&w=1200&q=100 1200w",
+                    "/_next/image?url=https%3A%2F%2Ftuanlelaw.s3.amazonaws.com%2Fassets%2Fhero%2Fbg.png&w=1920&q=100 1920w",
+                  ].join(", ")}
+                  imageSizes="100vw"
+                />
                 {/* Preconnect to third-party origins to reduce connection latency */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
