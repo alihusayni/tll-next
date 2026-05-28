@@ -286,9 +286,10 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
               <Image
                  src={src}
                  alt={alt || 'Descriptive image illustrating key points from the article content'}
-                 width={800}
-                 height={600}
-                 className="my-6 rounded-xl block mx-auto"
+                 width={0}
+                 height={0}
+                 sizes="(max-width: 768px) 100vw, 640px"
+                 className="my-6 rounded-xl block mx-auto w-full h-auto"
               />
            );
          },
