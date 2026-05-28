@@ -33,25 +33,14 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
-                {/* Preconnect to third-party origins to reduce connection latency */}
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-                {/* Preconnect to image CDN so the TCP+TLS handshake completes before the LCP image loads */}
-                <link rel="preconnect" href="https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com" crossOrigin="anonymous" />
-
-                {/* Preload LCP hero background — full-viewport image, discovered late without this */}
-                <link
-                    rel="preload"
-                    as="image"
-                    fetchPriority="high"
-                    imageSrcSet={[
-                        "/_next/image?url=https%3A%2F%2Fqxwyml8xuwxdgws0.public.blob.vercel-storage.com%2Ftuanlelaw%2Fassets%2Fhero%2Fbg.png&w=828&q=75 828w",
-                        "/_next/image?url=https%3A%2F%2Fqxwyml8xuwxdgws0.public.blob.vercel-storage.com%2Ftuanlelaw%2Fassets%2Fhero%2Fbg.png&w=1080&q=75 1080w",
-                        "/_next/image?url=https%3A%2F%2Fqxwyml8xuwxdgws0.public.blob.vercel-storage.com%2Ftuanlelaw%2Fassets%2Fhero%2Fbg.png&w=1200&q=75 1200w",
-                        "/_next/image?url=https%3A%2F%2Fqxwyml8xuwxdgws0.public.blob.vercel-storage.com%2Ftuanlelaw%2Fassets%2Fhero%2Fbg.png&w=1920&q=75 1920w",
-                    ].join(", ")}
-                    imageSizes="100vw"
-                />
+                {/*
+                  No manual preconnects or image preloads needed:
+                  - fonts.googleapis/gstatic: Next.js self-hosts Google Fonts (/_next/static/media/) — those origins are never contacted.
+                  - Blob CDN preconnect: hero image goes through /_next/image (same Vercel origin), not direct Blob.
+                  - Image preload: <Image priority fetchPriority="high"> in HeroSection auto-generates a complete
+                    preload covering all deviceSizes (640w, 750w, 828w, 1080w, ...). A second manual preload
+                    starting at 828w caused TWO simultaneous fetches on 375px@2x mobile — competing for bandwidth.
+                */}
 
                 <link rel="dns-prefetch" href="https://acsbapp.com" />
                 <Script
