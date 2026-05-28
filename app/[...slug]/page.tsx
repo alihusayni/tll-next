@@ -178,14 +178,14 @@ export default async function ArticlePage({ params }: PageProps) {
       <Script
         id="breadcrumb-schema"
         type="application/ld+json"
-        strategy="beforeInteractive"
+        strategy="afterInteractive"
       >
         {JSON.stringify(breadcrumbSchema)}
       </Script>
       <Script
         id="article-schema"
         type="application/ld+json"
-        strategy="beforeInteractive"
+        strategy="afterInteractive"
       >
         {JSON.stringify(articleSchema)}
       </Script>
