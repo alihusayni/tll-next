@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   },
   turbopack: {
     resolveAlias: {
-      'next/dist/build/polyfills/polyfill-module': path.resolve(__dirname, 'lib/empty-polyfill.js'),
+      'next/dist/build/polyfills/polyfill-module': require('path').resolve(__dirname, 'lib/empty-polyfill.js'),
     },
   },
   webpack: (config, { isServer }) => {
@@ -14,7 +14,7 @@ const nextConfig: NextConfig = {
       const path = require("path");
       config.resolve.alias = {
         ...config.resolve.alias,
-        "next/dist/build/polyfills/polyfill-module": path.resolve(__dirname, "lib/empty-polyfill.js"),
+        "next/dist/build/polyfills/polyfill-module": require("path").resolve(__dirname, "lib/empty-polyfill.js"),
       };
     }
     return config;
