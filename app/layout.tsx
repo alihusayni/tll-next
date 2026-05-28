@@ -36,11 +36,13 @@ export default function RootLayout({
                 {/* Preconnect to third-party origins to reduce connection latency */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+                {/* Preconnect to image CDN so the TCP+TLS handshake completes before the LCP image loads */}
+                <link rel="preconnect" href="https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com" crossOrigin="anonymous" />
                 <link rel="dns-prefetch" href="https://acsbapp.com" />
                 <Script
                     id="structured-data"
                     type="application/ld+json"
-                    strategy="beforeInteractive"
+                    strategy="afterInteractive"
                 >
                     {JSON.stringify({
                         "@context": "https://schema.org",

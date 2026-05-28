@@ -13,6 +13,7 @@ export default function Logo({ variant = 'White', className = '' }: LogoProps) {
       alt="Law Office of Tuan Le Logo"
       width={184}
       height={46}
+      sizes="184px"
       className={`w-[11.5rem] h-[2.875rem] ${className}`}
     />
   );

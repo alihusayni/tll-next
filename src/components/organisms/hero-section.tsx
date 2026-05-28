@@ -14,12 +14,13 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
       <div className="absolute inset-0">
         <Image
           src="https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/hero/bg.png"
-          quality={100}
+          quality={75}
           alt="Scenic background image representing immigration law services in Orange County, California"
           fill
           sizes="100vw"
           className="object-cover"
           priority
+          fetchPriority="high"
         />
         {/* <div className="absolute inset-0 bg-[rgba(9,44,81,0.60)] mix-blend-multiply"/> */}
       </div>
