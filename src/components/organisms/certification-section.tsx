@@ -19,7 +19,7 @@ export default function CertificationSection() {
           <div className="flex flex-col sm:flex-row gap-16 flex-1/6">
             <div className="flex-1 lg:min-w-[23.615rem]">
               <Image
-                src="https://tuanlelaw.s3.amazonaws.com/assets/certifications/certification-image.png"
+                src="https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/certifications/certification-image.png"
                 alt="Image of legal certification or professional award"
                 width={400}
                 height={100}

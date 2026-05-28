@@ -6,7 +6,7 @@ interface LogoProps {
 }
 
 export default function Logo({ variant = 'White', className = '' }: LogoProps) {
-  const src = variant === 'Blue' ? 'https://tuanlelaw.s3.amazonaws.com/assets/logo/blue-logo+text.svg' : 'https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-White.svg';
+  const src = variant === 'Blue' ? 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/blue-logo+text.svg' : 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/Logo-White.svg';
   return (
     <Image
       src={src}

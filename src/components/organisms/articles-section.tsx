@@ -18,7 +18,7 @@ const getLatestArticles = () => {
   return sortedContent.slice(0, 10).map(content => ({
     title: content.meta.h1 || content.meta.title || '',
     description: content.meta.summary || content.meta.description || '',
-    image: content.meta.ogImage || content.meta.imageSrc || 'https://tuanlelaw.s3.amazonaws.com/assets/articles/default.png',
+    image: content.meta.ogImage || content.meta.imageSrc || 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default.png',
     link: `/${content.slug}`,
   }));
 };

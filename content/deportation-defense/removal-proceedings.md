@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/deportation-defense/removal-proceedings/"
 ogTitle: "Immigration Matters: Removal Proceeding in Orange CA | Attorney Tuan Le"
 ogDescription: "Are you looking for effective representation in your immigration case? Removal proceedings are the most difficult and complex of all immigration matters."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/Immigration-Orange.webp
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/Immigration-Orange.webp
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration Matters: Removal Proceeding in Orange CA | Attorney Tuan Le"
 twitterDescription: "Are you looking for effective representation in your immigration case? Removal proceedings are the most difficult and complex of all immigration matters."
-twitterImage: "https://tuanlelaw.s3.us-east-1.amazonaws.com/filemanager/files/shares/BlogImage/Immigration-Orange.webp"
+twitterImage: "https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/filemanager/files/shares/BlogImage/Immigration-Orange.webp"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
 readTime: "28 min read"
@@ -38,7 +38,7 @@ In all such cases, the DHS will serve the individual an NTA (Notice to Appear) i
 The removal or deportation proceedings will be carried out before an immigration judge. This judge will hear the case and determine whether the individual should be removed or get discretionary relief. If the immigration judge doesn't administratively terminate the legal proceedings, the matter will be listed for an Individual Hearing which is basically a court trial. When the hearing finally comes to an end, the immigration judge will deliver an order. The order will either give the individual some relief or remove him or her from the US.
 
 #### Removal Proceeding Laws Continue to Change
-![American passport](https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/immigration-custody-CA.webp)
+![American passport](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/immigration-custody-CA.webp)
 Over the years, the laws concerning removal proceedings have undergone many changes. In fact, these laws keep changing constantly. Regardless of the changes that happen in this area of immigration legislation, removal procedure laws are complex and confusing.
 If you are facing removal, you must seek the expert consultation of an immigration lawyer. You will understand the current situation and find out the most ideal solution to your specific problem. At the Law Office of Tuan Le, you'll receive the expert legal assistance of Tuan Le. Mr. Le also carries comprehensive experience relating to all matters of immigration and removal proceedings. He has represented multiple cases for [a wide range of clients and brought them relief to preserve their permanent residential status in the United States](https://www.tuanlelaw.com/testimonials/). Whether it is you, a family member, or a colleague, you can always rely on Mr. Le's broad experience and in-depth knowledge to defend your case and succeed in obtaining your relief from removal.
 From the moment you step into the Law Office of Tuan Le and decide to hand over your case to our immigration attorney, you'll be in direct communication with Mr. Le and remain fully updated with every development in your case. Individualized attention, professionalism, and regular access to the immigration attorney are three key things that set our law office apart.
@@ -53,7 +53,7 @@ If you are not a "flight-risk" or a "danger to the community", the immigration j
 The Law Office of Tuan Le has the knowledge to help obtain a quick release of the detained client. The removal proceeding takes a lot of time to complete, but the detainee can be released, if the bond is pursued effectively. Our immigration attorney will gather all the supporting evidence to convince the judge of the detainee's good moral conduct and community relations. Even if your bond has already been refused, our law office will submit a reconsideration request on the ground of circumstantial changes. Alternatively, we can also appeal to the Board of Immigration Appeals (BIA) review of the decision.
 
 #### Help with Obtaining US Citizenship for Legal Permanent Residents
-![American flag](https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/Immigration-Attorney-Orange.webp)
+![American flag](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/Immigration-Attorney-Orange.webp)
 Are you unable to overcome the obstacles that prevent you from getting US citizenship? Individuals face different kinds of hurdles when applying for citizenship in the United States. These may include criminal conviction, prolonged stay overseas, child support issues, tax issues, etc.
 At the Law Office of Tuan Le, we have successfully represented a variety of cases. They vary from simple to complex, especially representing legal permanent residents in obtaining their US citizenship. No matter what your specific issues are, you should head straight to our office. We will discuss your case with our immigration attorney. Even if you have criminal convictions or other hurdles, we'll help you understand your current situation to pursue and obtain United States citizenship.
 
@@ -74,7 +74,7 @@ Different types of immigration matters including:
 If you already have orders of removal out of the United States or they refuse to give US immigration visas to you, our immigration attorney can provide expert advice, handle your case, and also offer the best solutions. Since the domain of immigration matters is a complex one with the rules and regulations constantly changing, the attorney you choose matters. That is exactly why you should always seek legal assistance from an attorney who has the experience, skills, and competence.
 
 #### You Can Always Rely on Our Immigration Law Experience and Hard Work
-![A man signing a paper](https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/Immigration-Attorney-CA.webp)
+![A man signing a paper](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/Immigration-Attorney-CA.webp)
 At the Law Office of Tuan Le, we give each of our clients personalized attention. Our immigration attorney makes sure that the clients stay updated on what we are working on and how we plan to achieve the desired results. We have also helped plenty of clients get the best solutions for their varying immigration matters. Whether you are looking to obtain your US citizenship through naturalization, green card, VAWA status, U Visa, hardship waivers, or EB1 extraordinary ability green cards, our office will help you professionally deal with all of these.
 Our immigration attorney has represented a wide variety of immigration matters for individuals and won removal proceedings. Through our immigration law experience, commitment to each case, and our resilience, we have also helped numerous clients legally stay in the United States.
 

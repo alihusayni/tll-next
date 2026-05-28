@@ -13,7 +13,7 @@ export default function CtaBox() {
         {/* Background Image */}
         <div className="absolute right-0 top-0 w-[30.3125rem] h-[23.5rem] not-prose bg-red-400">
         <Image
-          src="https://tuanlelaw.s3.amazonaws.com/assets/blog/CTA_box_img.png"
+          src="https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/blog/CTA_box_img.png"
           alt="Image depicting legal consultation and free advice services"
           fill
           className="not-prose object-cover object-top"

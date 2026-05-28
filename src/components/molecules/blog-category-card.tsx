@@ -37,7 +37,7 @@ export default function BlogCategoryCard({
           alt={title}
           fill
           className="object-cover"
-          onError={() => set_img_src("https://tuanlelaw.s3.amazonaws.com/assets/logo/place-holder.png")}
+          onError={() => set_img_src("https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/place-holder.png")}
         />
       </div>
 

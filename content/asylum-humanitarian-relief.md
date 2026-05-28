@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/asylum-humanitarian-relief/undocumented-immigrants-u-s-immigration-challenges"
 ogTitle: "Undocumented Immigrants & The Complexities of US Immigration Law | Tuan Le Law"
 ogDescription: "Facing immigration challenges? Tuan Le in CA, can help. Understand your rights, explore pathways to legalization, and advocate for change."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/Undocumented-Immigrants-Charting-Course-Through-US-Immigration-Challenges2.webp
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/Undocumented-Immigrants-Charting-Course-Through-US-Immigration-Challenges2.webp
 twitterCard: "summary_large_image"
 twitterTitle: "Undocumented Immigrants twitterTitle: Immigration Law Services | Law Office of Tuan Le The Complexities of US Immigration Law | Tuan Le Law"
 twitterDescription: "Facing immigration challenges? Tuan Le in CA, can help. Understand your rights, explore pathways to legalization, and advocate for change."
-twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/Logo-Blue.png"
 publishedTime: "2024-01-24T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "8 min read"
@@ -124,7 +124,7 @@ right to remain silent and to consult an attorney, which are critical defenses d
 * **Preparing for the Unexpected:** Develop a solid contingency plan. This should include arrangements for childcare and
 legal representation, ensuring that your family is safeguarded against the turmoil of unexpected immigration raids. It's
 also wise to have essential documents organized and accessible, further securing your preparedness for any
-situation![A table with passport](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/Undocumented-Immigrants-Charting-Course-Through-US-Immigration-Challenges-600x900.webp)
+situation![A table with passport](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/BlogImage/Undocumented-Immigrants-Charting-Course-Through-US-Immigration-Challenges-600x900.webp)
 
 #### Seeking Legal Solutions: Strategies for Undocumented Immigrants
 

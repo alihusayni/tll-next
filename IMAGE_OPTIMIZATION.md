@@ -28,7 +28,7 @@ Before committing any image, verify:
 
 ```tsx
 // ❌ WRONG — raw img, no compression, no WebP, no srcset
-<img src="https://toporganicleads.s3.amazonaws.com/assets/hero.webp" alt="Hero" />
+<img src="https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/toporganicleads/assets/hero.webp" alt="Hero" />
 
 // ❌ WRONG — CSS background, completely unoptimized
 <section style={{ backgroundImage: `url(${S3}assets/hero.webp)` }} />

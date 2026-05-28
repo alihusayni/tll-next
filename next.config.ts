@@ -24,24 +24,18 @@ const nextConfig: NextConfig = {
     deviceSizes: [480, 640, 750, 828, 1080, 1200, 1920, 2048, 3840],
 
     remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'qxwyml8xuwxdgws0.public.blob.vercel-storage.com',
+          port: '',
+          pathname: '/**',
+        },
       {
         protocol: 'https',
         hostname: 'www.tuanlelaw.com',
         port: '',
         pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'tuanlelaw.s3.us-east-1.amazonaws.com',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'tuanlelaw.s3.amazonaws.com',
-        port: '',
-        pathname: '/**',
-      },
+      },,,
     ],
   },
   compress: true,

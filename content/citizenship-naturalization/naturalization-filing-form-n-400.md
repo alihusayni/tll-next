@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/citizenship-naturalization/guide-naturalization-process-filing-form-n-400-and-other-steps"
 ogTitle: "A Guide to Naturalization Process: Filing Form N-400, and Other Steps"
 ogDescription: "All you green card holders hoping to become US citizens, read this guide to the naturalization process to pass the steps successfully."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/guide-naturalization-process-filing-form-n-400-and-other-steps-1200x800.webp
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/guide-naturalization-process-filing-form-n-400-and-other-steps-1200x800.webp
 twitterCard: "summary_large_image"
 twitterTitle: "A Guide to Naturalization Process: Filing Form N-400, and Other Steps"
 twitterDescription: "All you green card holders hoping to become US citizens, read this guide to the naturalization process to pass the steps successfully."
-twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/Logo-Blue.png"
 publishedTime: "2022-10-13T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "8 min read"

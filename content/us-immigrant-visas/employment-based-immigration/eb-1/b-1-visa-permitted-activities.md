@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/employment-based-immigration/eb-1/b-1-visa-permitted-activities-understanding-the-restrictions"
 ogTitle: "Understanding the B-1 Visa: Permitted Activities and Restrictions | Tuan Le Law, Orange, CA"
 ogDescription: "Learn about B-1 visa permitted activities and restrictions. Get expert legal advice from Tuan Le Law in Orange, CA."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/B-1-Visa-Permitted-Activities-new1-1.webp
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/B-1-Visa-Permitted-Activities-new1-1.webp
 twitterCard: "summary_large_image"
 twitterTitle: "Understanding the B-1 Visa: Permitted Activities and Restrictions | Tuan Le Law, Orange, CA"
 twitterDescription: "Learn about B-1 visa permitted activities and restrictions. Get expert legal advice from Tuan Le Law in Orange, CA."
-twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/Logo-Blue.png"
 publishedTime: "2022-07-01T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "9 min read"

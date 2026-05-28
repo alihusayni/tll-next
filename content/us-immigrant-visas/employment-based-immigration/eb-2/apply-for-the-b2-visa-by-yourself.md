@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/employment-based-immigration/eb-2/an-ultimate-guide-to-apply-for-the-b2-visa-by-yourself"
 ogTitle: "An Ultimate Guide to Apply for the B2 Visa by Yourself"
 ogDescription: "Are you planning to visit the U.S.? You may need to apply for the B2 visa. You can do it by yourself with this step-by-step simple guide."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/An-Ultimate-Guide-to-Apply-for-the-B2-Visa-by-Yourself-1200x901.webp
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/An-Ultimate-Guide-to-Apply-for-the-B2-Visa-by-Yourself-1200x901.webp
 twitterCard: "summary_large_image"
 twitterTitle: "An Ultimate Guide to Apply for the B2 Visa by Yourself"
 twitterDescription: "Are you planning to visit the U.S.? You may need to apply for the B2 visa. You can do it by yourself with this step-by-step simple guide."
-twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/Logo-Blue.png"
 publishedTime: "2023-02-28T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "7 min read"

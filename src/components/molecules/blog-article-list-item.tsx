@@ -43,7 +43,7 @@ export default function BlogArticleListItem({
           fill
           className="object-cover rounded-lg"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 408px, 408px"
-          onError={() => set_img_src("https://tuanlelaw.s3.amazonaws.com/assets/logo/place-holder.png")}
+          onError={() => set_img_src("https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/place-holder.png")}
         />
       </div>
 

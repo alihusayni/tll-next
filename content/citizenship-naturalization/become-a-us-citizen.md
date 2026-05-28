@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/citizenship-naturalization/become-u-s-citizen-explained-citizenship-lawyer"
 ogTitle: "Paths to Become a U.S. Citizen; Explained by a Citizenship Lawyer"
 ogDescription: "An immigration lawyer shows you the ways to become a U.S. citizen. Learn if you are eligible and meet the requirements for U.S. citizenship."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/Paths-to-Become-a-U.S.-Citizen-Explained-by-a-Citizenship-Lawyer-1200x800.webp
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/Paths-to-Become-a-U.S.-Citizen-Explained-by-a-Citizenship-Lawyer-1200x800.webp
 twitterCard: "summary_large_image"
 twitterTitle: "Paths to Become a U.S. Citizen; Explained by a Citizenship Lawyer"
 twitterDescription: "An immigration lawyer shows you the ways to become a U.S. citizen. Learn if you are eligible and meet the requirements for U.S. citizenship."
-twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/Logo-Blue.png"
 publishedTime: "2023-07-20T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "7 min read"

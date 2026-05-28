@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/resources/how-to-prepare-strong-immigration-application-tips"
 ogTitle: "How to Prepare a Strong Immigration Application: Tips from a Lawyer | Tuan Le Law"
 ogDescription: "Worried about your immigration application? Avoid costly mistakes with expert tips from Tuan Le Law in Orange County, CA. Call now!"
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new/Strong-Immigration-Application.webp
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/new/Strong-Immigration-Application.webp
 twitterCard: "summary_large_image"
 twitterTitle: "How to Prepare a Strong Immigration Application: Tips from a Lawyer | Tuan Le Law"
 twitterDescription: "Worried about your immigration application? Avoid costly mistakes with expert tips from Tuan Le Law in Orange County, CA. Call now!"
-twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/Logo-Blue.png"
 publishedTime: "2021-04-30T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "10 min read"
@@ -94,7 +94,7 @@ For example, if you're applying for a family-based visa, include photos of famil
 verify your relationships By following this checklist, you can be confident that you're submitting a complete and well-prepared immigration
 application. At Tuan Le Law, we help you stay organized and ensure that all the necessary paperwork is submitted without
 mistakes.
-![Top view of organized visa application documents and forms](https://tuanlelaw.s3.us-east-1.amazonaws.com/BlogImage/new/top-view-visa-application-arrangement.webp)
+![Top view of organized visa application documents and forms](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/BlogImage/new/top-view-visa-application-arrangement.webp)
 
 #### How to Avoid Immigration Application Rejection
 

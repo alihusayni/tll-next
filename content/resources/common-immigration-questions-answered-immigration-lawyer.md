@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/resources/common-immigration-questions-answered-immigration-lawyer"
 ogTitle: "12 US Immigration Law Questions Answered"
 ogDescription: "Our experienced immigration lawyer in Orange, CA, answers common immigration questions in simple terms to help you understand your options."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new/common-immigration-questions.webp
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/new/common-immigration-questions.webp
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration News and Updates"
 twitterDescription: "Latest immigration news and updates from Tuan Le Law."
-twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
 readTime: "26 min read"
@@ -66,7 +66,7 @@ Although green card holders can live and work in the US on a long-term basis, th
 * Losing their status if committing certain crimes,
 * Not allowed to stay outside the US for too long, or they'll lose their status.
 On the other hand, a US citizen isn't considered an immigrant from another country. US citizenship gives you all the rights of a native American, such as voting in elections, getting a US passport, etc. So, you'll never have to worry about losing your status.
-![Illustration of US citizenship benefits and rights](https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new/common-immigration-questions2.webp)
+![Illustration of US citizenship benefits and rights](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/new/common-immigration-questions2.webp)
 
 #### Fixing Undocumented or Overstayed Visa Status
 The options you have, depend on your situation. Some common options include:

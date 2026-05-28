@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/resources/u-s-immigration-agency-to-bring-back-the-nation-of-immigrants-label"
 ogTitle: "U.S. Immigration Agency to Bring Back 'The Nation of Immigrants' Label"
 ogDescription: "Latest immigration news and updates from Tuan Le Law."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/news/us-immigration-statement.webp
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/news/us-immigration-statement.webp
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration News and Updates"
 twitterDescription: "Latest immigration news and updates from Tuan Le Law."
-twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
 readTime: "2 min read"

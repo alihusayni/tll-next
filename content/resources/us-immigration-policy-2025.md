@@ -12,7 +12,7 @@ ogImage: https://www.tuanlelaw.com/filemanager/files/shares/BlogImage/US-Immigra
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration News and Updates"
 twitterDescription: "Latest immigration news and updates from Tuan Le Law."
-twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/Logo-Blue.png"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
 readTime: "29 min read"
@@ -38,7 +38,7 @@ The ongoing crisis at the southern border remains a major challenge for policyma
 
 #### 5. State-Level Variations Driving Federal Action
 As states adopt varying approaches to immigration enforcement and policy, federal intervention may become necessary to create unified guidelines. This dynamic could result in sweeping federal reforms to address disparities and conflicts between state and national policies.
-![Immigrants facing mass deportation under new policies](https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/immigrants-mass-deportation.webp)
+![Immigrants facing mass deportation under new policies](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/immigrants-mass-deportation.webp)
 
 #### A Critical Moment for U.S. Immigration Reform
 These intersecting factors—political shifts, global conflicts, economic pressures, and state-level variations—underscore the importance of 2025 as a turning point for [U.S. immigration policy](https://www.uscis.gov/). Businesses, individuals, and families navigating the immigration system will need to stay informed and proactive as these changes unfold.
@@ -69,7 +69,7 @@ The proposals outlined in [Project 2025](https://www.heritage.org/conservatism/c
 * Cause economic disruptions by reducing immigrant labor in key industries.
 * Challenge the rule of law by bypassing established legal procedures.
 While some of these proposals may align with the administration's priorities, they are likely to face significant legal, logistical, and public resistance before implementation.
-![Project 2025 policy framework illustration](https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/project-2025.jpg)
+![Project 2025 policy framework illustration](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/project-2025.jpg)
 
 #### How to Prepare for Project 2025's Potential Impact
 Given the uncertainty surrounding the implementation of Project 2025, preparation is key:

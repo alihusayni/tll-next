@@ -37,7 +37,7 @@ export default function ArticleTemplate({ content, slug }: ArticleTemplateProps)
             <ArticleHero
                 title={content.meta.title || content.meta.h1 || 'Untitled'}
                 subtitle={content.meta.description || content.meta.summary || ''}
-                imageSrc={content.meta.imageSrc || 'https://tuanlelaw.s3.amazonaws.com/assets/blog/blog_post.png'}
+                imageSrc={content.meta.imageSrc || 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/blog/blog_post.png'}
                 imageAlt={content.meta.imageAlt || 'Featured image illustrating the article topic'}
                 breadcrumb={breadcrumb}
                 date={content.meta.date || content.meta.publishedTime || ''}

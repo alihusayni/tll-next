@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/family-based-immigration/fiance-visas/k-1-visa-step-by-step-guide"
 ogTitle: "K-1 Visa Process Explained | Tuan Le Law Office, OC, CA"
 ogDescription: "Learn about the K-1 visa process, requirements, and timeline with Tuan Le Law Office in Orange, California."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/new/k -1 Visa.webp
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/new/k -1 Visa.webp
 twitterCard: "summary_large_image"
 twitterTitle: "K-1 Visa Process Explained | Tuan Le Law Office, OC, CA"
 twitterDescription: "Learn about the K-1 visa process, requirements, and timeline with Tuan Le Law Office in Orange, California."
-twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/Logo-Blue.png"
 publishedTime: "2024-08-30T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "9 min read"

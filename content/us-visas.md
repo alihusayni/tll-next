@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/immigration-solutions/immigration-lawyer-assistance-us-immigration"
 ogTitle: "The Crucial Role of Immigration Lawyers in U.S. Residency and Citizenship"
 ogDescription: "Secure and Accelerate Your Immigration with tuan le, a Renowned Immigration Lawyer in OC, Ensuring a Smooth Transition to Residency."
-ogImage: https://tuanlelaw.s3.us-east-1.amazonaws.com/files/shares/BlogImage/Immigration-Lawyer-Assistance-in-US-Immigration.webp
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/Immigration-Lawyer-Assistance-in-US-Immigration.webp
 twitterCard: "summary_large_image"
 twitterTitle: "The Crucial Role of Immigration Lawyers in U.S. Residency and Citizenship"
 twitterDescription: "Secure and Accelerate Your Immigration with tuan le, a Renowned Immigration Lawyer in OC, Ensuring a Smooth Transition to Residency."
-twitterImage: "https://tuanlelaw.s3.amazonaws.com/assets/logo/Logo-Blue.png"
+twitterImage: "https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/Logo-Blue.png"
 publishedTime: "2024-09-18T00:00:00.000Z"
 modifiedTime: "2024-10-01T00:00:00.000Z"
 readTime: "8 min read"

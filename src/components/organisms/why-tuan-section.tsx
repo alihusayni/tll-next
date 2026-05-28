@@ -11,22 +11,22 @@ interface FeatureData {
 
 const features: FeatureData[] = [
   {
-    iconSrc: 'https://tuanlelaw.s3.amazonaws.com/assets/features/why_Experienced.png',
+    iconSrc: 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/features/why_Experienced.png',
     title: 'Experienced',
     description: 'Mr. Le has been representing clients throughout the United States since 2010. A lawyer with extensive experience and a proven track record of success at your service.',
   },
   {
-    iconSrc: 'https://tuanlelaw.s3.amazonaws.com/assets/features/why_Reliable.png',
+    iconSrc: 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/features/why_Reliable.png',
     title: 'Reliable',
     description: 'Fear of rejection and family separation is too much to handle. You don\'t have to worry about paperwork and trusting your lawyer. We\'re proud to reunite families with our services.',
   },
   {
-    iconSrc: 'https://tuanlelaw.s3.amazonaws.com/assets/features/why_Bilingual_Services.png',
+    iconSrc: 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/features/why_Bilingual_Services.png',
     title: 'Bilingual Services',
     description: 'Mr. Le offers services in both English and Vietnamese, inspired by his family\'s immigration from Vietnam in 1980. A personal story that has led him to dedicate his work to helping others immigrate or stay in the United States.',
   },
   {
-    iconSrc: 'https://tuanlelaw.s3.amazonaws.com/assets/features/why_Nationwide_Representation.png',
+    iconSrc: 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/features/why_Nationwide_Representation.png',
     title: 'Nationwide Representation',
     description: 'Licensed in California and admitted to the U.S. District Courts for the Central, Northern, and Eastern Districts, the Law Office of Tuan Le is based in Orange County, CA. However, Mr. Le represents clients in immigration cases across the United States.',
   },

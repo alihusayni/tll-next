@@ -13,7 +13,7 @@ export default function HeroSection({ className = '' }: HeroSectionProps) {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="https://tuanlelaw.s3.amazonaws.com/assets/hero/bg.png"
+          src="https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/hero/bg.png"
           quality={100}
           alt="Scenic background image representing immigration law services in Orange County, California"
           fill
