@@ -242,7 +242,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({
               )}
               <div className="flex items-center gap-[1.25rem]">
                 <div className="w-[3.75rem] h-[0.0875rem] bg-[#E55B1E]"></div>
-                <span className="font-inter-tight font-medium text-[1.125rem] leading-[1.222] uppercase text-[#969799]">
+                <span className="font-inter-tight font-medium text-[1.125rem] leading-[1.222] uppercase text-[#49535D]">
                   {testimonial.author}
                 </span>
               </div>
