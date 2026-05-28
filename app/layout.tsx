@@ -38,6 +38,21 @@ export default function RootLayout({
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
                 {/* Preconnect to image CDN so the TCP+TLS handshake completes before the LCP image loads */}
                 <link rel="preconnect" href="https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com" crossOrigin="anonymous" />
+
+                {/* Preload LCP hero background — full-viewport image, discovered late without this */}
+                <link
+                    rel="preload"
+                    as="image"
+                    fetchPriority="high"
+                    imageSrcSet={[
+                        "/_next/image?url=https%3A%2F%2Fqxwyml8xuwxdgws0.public.blob.vercel-storage.com%2Ftuanlelaw%2Fassets%2Fhero%2Fbg.png&w=828&q=75 828w",
+                        "/_next/image?url=https%3A%2F%2Fqxwyml8xuwxdgws0.public.blob.vercel-storage.com%2Ftuanlelaw%2Fassets%2Fhero%2Fbg.png&w=1080&q=75 1080w",
+                        "/_next/image?url=https%3A%2F%2Fqxwyml8xuwxdgws0.public.blob.vercel-storage.com%2Ftuanlelaw%2Fassets%2Fhero%2Fbg.png&w=1200&q=75 1200w",
+                        "/_next/image?url=https%3A%2F%2Fqxwyml8xuwxdgws0.public.blob.vercel-storage.com%2Ftuanlelaw%2Fassets%2Fhero%2Fbg.png&w=1920&q=75 1920w",
+                    ].join(", ")}
+                    imageSizes="100vw"
+                />
+
                 <link rel="dns-prefetch" href="https://acsbapp.com" />
                 <Script
                     id="structured-data"
