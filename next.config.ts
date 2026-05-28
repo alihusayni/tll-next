@@ -35,7 +35,7 @@ const nextConfig: NextConfig = {
         hostname: 'www.tuanlelaw.com',
         port: '',
         pathname: '/**',
-      },,,
+      },
     ],
   },
   compress: true,
