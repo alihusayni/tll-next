@@ -1,11 +1,13 @@
 import Header from '@/components/organisms/header';
 import HeroSection from '@/components/organisms/hero-section';
-import CertificationSection from '@/components/organisms/certification-section';
+// CertificationSection is below the hero fold — dynamic import removes it from
+// the critical JS bundle so it doesn't compete with the hero for parse/exec time.
 import type { Metadata } from 'next';
 import dynamic from 'next/dynamic';
 
 // Below-fold sections are dynamically imported so their JS is split into
 // separate async chunks and not included in the critical path bundle.
+const CertificationSection = dynamic(() => import('@/components/organisms/certification-section'));
 const AboutSection = dynamic(() => import('@/components/organisms/about-section'));
 const TestimonialSection = dynamic(() => import('@/components/organisms/testimonial-section'));
 const ArticlesSection = dynamic(() => import('@/components/organisms/articles-section'));
