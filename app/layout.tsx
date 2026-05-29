@@ -4,6 +4,7 @@ import { Inter_Tight, Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import AcsbScript from "@/components/AcsbScript";
+import GtmRouteTracker from "@/components/GtmRouteTracker";
 
 const interTight = Inter_Tight({
     subsets: ["latin"],
@@ -78,10 +79,12 @@ export default function RootLayout({
                 </Script>
                 <AcsbScript />
 
-                {/* Google Tag Manager \u2014 lazyOnload: fires after page is fully idle */}
+                {/* Google Tag Manager — afterInteractive fires right after hydration,
+                    ensuring all users (including quick bouncers) are tracked.
+                    lazyOnload only fires after browser idle which can miss short sessions. */}
                 <Script
                     id="gtm-script"
-                    strategy="lazyOnload"
+                    strategy="afterInteractive"
                     dangerouslySetInnerHTML={{
                         __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -102,6 +105,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     />
                 </noscript>
                 {children}
+                {/* Tracks SPA route changes → pushes page_view to dataLayer for GTM */}
+                <GtmRouteTracker />
             </body>
         </html>
     );
