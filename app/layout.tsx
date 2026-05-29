@@ -7,6 +7,9 @@ import AcsbScript from "@/components/AcsbScript";
 import Analytics from "@/components/Analytics";
 
 
+// ⚠️ LCP CRITICAL — DO NOT change display to "optional" on either font.
+// Both are used in the hero section. display:"optional" makes text invisible
+// on slow connections → LCP regression. See playbook §10.
 const interTight = Inter_Tight({
     subsets: ["latin"],
     variable: "--font-inter-tight",
@@ -15,8 +18,7 @@ const interTight = Inter_Tight({
 const inter = Inter({
     subsets: ["latin"],
     variable: "--font-inter",
-    display: "optional",
-    preload: false,  // display:optional means fallback is permanent on first load anyway — no preload needed
+    display: "swap",
 });
 
 export const metadata: Metadata = {
