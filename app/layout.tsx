@@ -4,7 +4,8 @@ import { Inter_Tight, Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import AcsbScript from "@/components/AcsbScript";
-import { GoogleAnalytics } from '@next/third-parties/google';
+import Analytics from "@/components/Analytics";
+
 
 const interTight = Inter_Tight({
     subsets: ["latin"],
@@ -78,13 +79,12 @@ export default function RootLayout({
                     })}
                 </Script>
                 <AcsbScript />
-
-                <GoogleAnalytics gaId="G-9CL0P20FC0" />
             </head>
             <body className={`${interTight.variable} ${inter.variable} antialiased`}>
 
                 {children}
-
+                {/* Server-side GA4 — zero client JS weight, no LCP impact */}
+                <Analytics />
             </body>
         </html>
     );
