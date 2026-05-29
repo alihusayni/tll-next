@@ -14,11 +14,13 @@ const interTight = Inter_Tight({
     subsets: ["latin"],
     variable: "--font-inter-tight",
     display: "swap",
+    preload: false,
 });
 const inter = Inter({
     subsets: ["latin"],
     variable: "--font-inter",
     display: "swap",
+    preload: false,
 });
 
 export const metadata: Metadata = {
