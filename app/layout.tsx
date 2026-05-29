@@ -16,6 +16,7 @@ const inter = Inter({
     subsets: ["latin"],
     variable: "--font-inter",
     display: "optional",
+    preload: false,  // display:optional means fallback is permanent on first load anyway — no preload needed
 });
 
 export const metadata: Metadata = {
