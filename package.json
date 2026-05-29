@@ -33,6 +33,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.3",
     "@tailwindcss/postcss": "^4.1.18",
+    "@types/mdast": "^4.0.4",
     "@types/node": "^20.19.30",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
@@ -52,5 +53,6 @@
     "last 2 Firefox versions",
     "last 2 Safari versions",
     "last 2 Edge versions"
-  ]
+  ],
+  "packageManager": "pnpm@11.1.2+sha512.415a1cc25974731e75455c1468371be74c5aa5fb7621b50d4056d222451609f11412f23fd602e6169f1e060466641f798597e1be961a10688836a67b16569499"
 }
