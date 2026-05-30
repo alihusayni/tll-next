@@ -5,6 +5,7 @@ import "./globals.css";
 import Script from "next/script";
 import AcsbScript from "@/components/AcsbScript";
 import Analytics from "@/components/Analytics";
+import CallRailLoader from "@/components/atoms/callrail-loader";
 
 
 // ⚠️ LCP CRITICAL — DO NOT change display to "optional" on either font.
@@ -90,6 +91,7 @@ export default function RootLayout({
                 {children}
                 {/* Server-side GA4 — zero client JS weight, no LCP impact */}
                 <Analytics />
+                <CallRailLoader />
             </body>
         </html>
     );
