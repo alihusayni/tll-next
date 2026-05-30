@@ -17,6 +17,44 @@ export async function POST(request: NextRequest) {
 
   try {
     const body = await request.json();
+
+    // --- Abandoned form handling ---
+    if (body.abandoned === true) {
+      const { name, email, phone, message, pageUrl } = body;
+      const hasData = !!(name || email || phone || message);
+      if (!hasData) {
+        return NextResponse.json({ ok: true });
+      }
+
+      try {
+        await fetch(TOL_ACTION, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-API-TOKEN': apiToken,
+            'X-FORM-KEY': formKey,
+            'X-REQUEST-ID': requestId,
+          },
+          body: JSON.stringify({
+            data: {
+              name: name || '',
+              email: email || '',
+              phone: phone || '',
+              message: message || '',
+              abandoned: true,
+              ...(pageUrl ? { pageUrl } : {}),
+              requestId,
+            },
+          }),
+        });
+      } catch (err) {
+        console.error('Abandoned form forwarding error:', err);
+      }
+
+      return NextResponse.json({ ok: true });
+    }
+
+    // --- Regular form submission ---
     const { data } = body;
 
     if (!data || typeof data !== 'object') {

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, FormEvent, useRef, useEffect } from 'react';
+import { useState, FormEvent, useRef, useEffect, useCallback } from 'react';
 import TextInput from '../atoms/text-input';
 import TextArea from '../atoms/text-area';
 
@@ -25,6 +25,8 @@ export default function ContactForm() {
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [formStartTime, setFormStartTime] = useState<number>(Date.now());
   const honeypotRef = useRef<HTMLInputElement>(null);
+  const submittedRef = useRef(false);
+  const abandonedSentRef = useRef(false);
 
   const handleChange = (field: keyof FormData) => (value: string) => {
     let processedValue = value;
@@ -40,6 +42,40 @@ export default function ContactForm() {
   useEffect(() => {
     setFormStartTime(Date.now());
   }, []);
+
+  const sendAbandonment = useCallback(() => {
+    if (submittedRef.current || abandonedSentRef.current) return;
+    const { name, email, phone, message } = formData;
+    const hasData = !!(name || email || phone);
+    if (!hasData) return;
+    abandonedSentRef.current = true;
+    const payload = JSON.stringify({
+      name,
+      email,
+      phone,
+      message,
+      abandoned: true,
+      pageUrl: window.location.href,
+    });
+    navigator.sendBeacon(
+      '/api/contact',
+      new Blob([payload], { type: 'application/json' })
+    );
+  }, [formData]);
+
+  useEffect(() => {
+    const onBeforeUnload = () => sendAbandonment();
+    const onVisibilityChange = () => {
+      if (document.visibilityState === 'hidden') sendAbandonment();
+    };
+
+    window.addEventListener('beforeunload', onBeforeUnload);
+    document.addEventListener('visibilitychange', onVisibilityChange);
+    return () => {
+      window.removeEventListener('beforeunload', onBeforeUnload);
+      document.removeEventListener('visibilitychange', onVisibilityChange);
+    };
+  }, [sendAbandonment]);
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
@@ -71,7 +107,7 @@ export default function ContactForm() {
       const response = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ data: formData })
+        body: JSON.stringify({ data: { ...formData, pageUrl: window.location.href } })
       });
 
       if (!response.ok) {
@@ -83,6 +119,7 @@ export default function ContactForm() {
 
       const data = await response.json();
       if (data.message) {
+        submittedRef.current = true;
         setShowSuccessPopup(true);
         setFormData({ name: '', email: '', phone: '', message: '' });
         setFormStartTime(Date.now());
