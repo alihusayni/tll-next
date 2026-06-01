@@ -15,12 +15,24 @@ export async function POST(request: NextRequest) {
     );
   }
 
+  let body: any = null;
   try {
-    const body = await request.json();
+    body = await request.json();
 
     // --- Abandoned form handling ---
     if (body.abandoned === true) {
-      const { name, email, phone, message, pageUrl } = body;
+      const { name, email, phone, message, website, timeElapsed, pageUrl } = body;
+
+      // Reject bot submissions silently
+      if (website && website.trim() !== '') {
+        console.log(`[Tuan Le Law Contact API] Silently rejected bot abandoned submission: website honeypot filled ("${website}")`);
+        return NextResponse.json({ ok: true });
+      }
+      if (timeElapsed && Number(timeElapsed) < 3000) {
+        console.log(`[Tuan Le Law Contact API] Silently rejected bot abandoned submission: timeElapsed too short (${timeElapsed}ms)`);
+        return NextResponse.json({ ok: true });
+      }
+
       const hasData = !!(name || email || phone || message);
       if (!hasData) {
         return NextResponse.json({ ok: true });
@@ -80,6 +92,18 @@ export async function POST(request: NextRequest) {
     const result = await response.json();
 
     if (!response.ok) {
+      await fetch('https://www.despora.ai/api/alerts/form-failure', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          siteName: 'Tuan Le Law',
+          pageUrl: data.pageUrl || '',
+          errorDetails: `TOL Server returned status ${response.status}: ${JSON.stringify(result)}`,
+          clientEmail: 'tuan@tuanlelaw.com',
+          leadData: data
+        })
+      }).catch(err => console.error('Failed to report failure to Despora:', err));
+
       return NextResponse.json(
         result,
         { status: response.status }
@@ -87,8 +111,21 @@ export async function POST(request: NextRequest) {
     }
 
     return NextResponse.json(result);
-  } catch (error) {
+  } catch (error: any) {
     console.error('Contact form API error:', error);
+    const leadData = body && (body as any).data ? (body as any).data : body;
+    await fetch('https://www.despora.ai/api/alerts/form-failure', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        siteName: 'Tuan Le Law',
+        pageUrl: leadData?.pageUrl || '',
+        errorDetails: error.message || String(error),
+        clientEmail: 'tuan@tuanlelaw.com',
+        leadData: leadData || {}
+      })
+    }).catch(err => console.error('Failed to report catch error to Despora:', err));
+
     return NextResponse.json(
       { message: 'Internal server error' },
       { status: 500 }
