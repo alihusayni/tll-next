@@ -33,6 +33,12 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ ok: true });
       }
 
+      // Spam check
+      if (isSuspiciousSpam(name, email, undefined, message)) {
+        console.log(`[Tuan Le Law Contact API] Silently rejected bot abandoned submission: spam check failed (name: "${name}", email: "${email}", message: "${message}")`);
+        return NextResponse.json({ ok: true });
+      }
+
       const hasData = !!(name || email || phone || message);
       if (!hasData) {
         return NextResponse.json({ ok: true });
@@ -74,6 +80,15 @@ export async function POST(request: NextRequest) {
         { message: 'Invalid request body' },
         { status: 400 }
       );
+    }
+
+    // Spam check for regular submission
+    const { name, email, location, address, message } = data;
+    const checkLocation = location || address;
+
+    if (isSuspiciousSpam(name, email, checkLocation, message)) {
+      console.log(`[Tuan Le Law Contact API] Silently rejected bot regular submission: spam check failed (name: "${name}", email: "${email}", location: "${checkLocation}", message: "${message}")`);
+      return NextResponse.json({ success: true });
     }
 
     const response = await fetch(TOL_ACTION, {
@@ -132,3 +147,33 @@ export async function POST(request: NextRequest) {
     );
   }
 }
+
+function isGibberish(val: any): boolean {
+  if (typeof val !== 'string') return false;
+  const trimmed = val.trim();
+  if (!/^[a-zA-Z]{8,30}$/.test(trimmed)) return false;
+  const hasUpper = /[A-Z]/.test(trimmed);
+  const hasLower = /[a-z]/.test(trimmed);
+  if (!hasUpper || !hasLower) return false;
+  // Must contain at least one uppercase letter after the first character
+  return /[A-Z]/.test(trimmed.slice(1));
+}
+
+function hasExcessiveDots(emailVal: any): boolean {
+  if (typeof emailVal !== 'string') return false;
+  const cleanEmail = emailVal.trim().toLowerCase();
+  if (!cleanEmail.endsWith('@gmail.com') && !cleanEmail.endsWith('@googlemail.com')) return false;
+  const username = cleanEmail.split('@')[0];
+  const dotCount = (username.match(/\./g) || []).length;
+  return dotCount >= 4;
+}
+
+function isSuspiciousSpam(name: any, email: any, addressOrLocation: any, message: any): boolean {
+  let score = 0;
+  if (isGibberish(name)) score++;
+  if (isGibberish(addressOrLocation)) score++;
+  if (isGibberish(message)) score++;
+  if (hasExcessiveDots(email)) score++;
+  return score >= 2;
+}
+
