@@ -18,12 +18,12 @@ export const metadata: Metadata = {
   title: 'Tuan Le Law | Professional Immigration Legal Services',
   description: 'Professional legal services provided by Tuan Le Law. Expert immigration law assistance for visas, citizenship, and deportation defense.',
   alternates: {
-    canonical: 'https://www.tuanlelaw.com',
+    canonical: 'https://www.tuanlelaw.com/',
   },
   openGraph: {
     title: 'Tuan Le Law | Professional Immigration Legal Services',
     description: 'Professional legal services provided by Tuan Le Law. Expert immigration law assistance for visas, citizenship, and deportation defense.',
-    url: 'https://www.tuanlelaw.com',
+    url: 'https://www.tuanlelaw.com/',
     siteName: 'Tuan Le Law',
     type: 'website',
   },
