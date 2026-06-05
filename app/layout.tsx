@@ -90,7 +90,10 @@ export default function RootLayout({
 
                 {children}
                 {/* Server-side GA4 — zero client JS weight, no LCP impact */}
-                <Analytics />
+                {/* Suspense required for usePathname() in Next.js 15 App Router */}
+        <Suspense fallback={null}>
+          <Analytics />
+        </Suspense>
                 <CallRailLoader />
             </body>
         </html>
