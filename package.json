@@ -7,7 +7,9 @@
     "build": "next build --turbopack",
     "start": "next start",
     "postbuild": "next-sitemap",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check": "node scripts/pre-deploy-checks.mjs",
+    "check:ci": "bash scripts/run-checks-ci.sh"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
