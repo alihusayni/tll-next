@@ -9,7 +9,7 @@ Key checks (non-negotiable):
 - **Never** use raw `<img>` tags or CSS `background-image` — always use `<Image>` from `next/image` (or the project wrapper if one exists, e.g. `@/atoms/img`)
 - **Always** set the `sizes` prop to match actual rendered dimensions (without it, next/image downloads a 1920px image for a 55px avatar)
 - **Only one** image per page gets `priority` + `fetchPriority="high"` — the LCP element (largest above-fold image). All others lazy-load by default
-- Default `quality={75}` is correct for photos — never set `quality={100}`; use `quality={90}` for screenshots/UI with sharp text
+- **Always** use `quality={100}` — never lower image quality below 100 for any image type (photos, screenshots, UI, logos, heroes). This is a global rule across all projects
 - **Never** use `dynamic(() => import("next/image"))` — it kills the SSR preload signal for priority images; only `ReactPlayer`, `Lottie`, and similar heavy client-only libs should be dynamically imported
 - If adding images from a new S3 bucket, add its hostname to `remotePatterns` in `next.config.ts` first
 <!-- END:image-optimization-rules -->
@@ -27,6 +27,30 @@ Rules:
 - After uploading to a new S3 bucket, add the hostname to `remotePatterns` in `next.config.ts` before referencing it in `<Image>`
 - All S3 assets must go through `next/image` for delivery — never link to raw S3 URLs in `<img>` or `<video>` tags
 <!-- END:asset-storage-rules -->
+
+<!-- BEGIN:optimization-playbook -->
+# Performance Optimization Playbook
+
+When the user mentions "optimization file", "optimization playbook", "performance playbook", or asks to optimize a site for PageSpeed/Lighthouse, read and follow the playbook at:
+
+`/Users/alihusayni/.gemini/config/optimization-playbook.md`
+
+This contains the proven workflow for achieving 99/100 PageSpeed scores across all projects.
+<!-- END:optimization-playbook -->
+
+<!-- BEGIN:analytics-playbook -->
+# Google Analytics & GSC Audit Playbook
+
+When the user mentions "analytics", "GA4", "Google Analytics", "Search Console", "GSC", "no traffic", "tracking", or asks to set up / audit / debug analytics on any project, read and follow the playbook at:
+
+`/Users/alihusayni/.gemini/config/analytics-playbook.md`
+
+This contains:
+- Full GA4 setup steps for new projects (Parts 1–2)
+- A 10-point deploy audit checklist to run after every production deploy (Part 2)
+- Debug scripts to run in browser DevTools (Part 4)
+- Common failure patterns and their fixes (Part 3)
+<!-- END:analytics-playbook -->
 
 <!-- BEGIN:optimization-playbook -->
 # Performance Optimization Playbook

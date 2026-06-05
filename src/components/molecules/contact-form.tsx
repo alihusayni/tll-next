@@ -45,6 +45,12 @@ export default function ContactForm() {
 
   const sendAbandonment = useCallback(() => {
     if (submittedRef.current || abandonedSentRef.current) return;
+
+    // Bot checks
+    if (honeypotRef.current?.value) return; // honeypot filled
+    const timeElapsed = Date.now() - formStartTime;
+    if (timeElapsed < 4000) return; // too fast
+
     const { name, email, phone, message } = formData;
     const hasData = !!(name || email || phone);
     if (!hasData) return;
@@ -54,6 +60,8 @@ export default function ContactForm() {
       email,
       phone,
       message,
+      website: honeypotRef.current?.value || '',
+      timeElapsed,
       abandoned: true,
       pageUrl: window.location.href,
     });
@@ -61,7 +69,7 @@ export default function ContactForm() {
       '/api/contact',
       new Blob([payload], { type: 'application/json' })
     );
-  }, [formData]);
+  }, [formData, formStartTime]);
 
   useEffect(() => {
     const onBeforeUnload = () => sendAbandonment();
@@ -130,6 +138,21 @@ export default function ContactForm() {
       }
     } catch (error) {
       console.error('Network error:', error);
+      try {
+        await fetch('https://www.despora.ai/api/alerts/form-failure', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            siteName: 'Tuan Le Law',
+            pageUrl: window.location.href,
+            errorDetails: 'Client-side connection error: ' + (error instanceof Error ? error.message : String(error)),
+            clientEmail: 'tuan@tuanlelaw.com',
+            leadData: formData
+          })
+        });
+      } catch (alertErr) {
+        console.error('Failed to report client-side error to Despora:', alertErr);
+      }
       setErrorMessage('Network error: ' + (error instanceof Error ? error.message : 'Unknown error'));
     } finally {
       setLoading(false);
