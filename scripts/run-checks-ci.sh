@@ -17,7 +17,8 @@ echo "╚═══════════════════════�
 echo "📦  Building production bundle..."
 npm run build; echo "✅  Build complete."; echo ""
 echo "🚀  Starting server on port ${PORT}..."
-PORT=$PORT npm run start &; echo $! > "$PID_FILE"
+PORT=$PORT npm run start &
+echo $! > "$PID_FILE"
 echo "⏳  Waiting for server..."
 WAIT=0
 until curl -sf "${BASE_URL}/" > /dev/null 2>&1; do
