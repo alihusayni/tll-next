@@ -88,7 +88,6 @@ To qualify for an EB-2 visa, you should meet at least three of the criteria belo
 
 #### NIW Application Process: How to Self-Petition for an EB-2 NIW
 
-[[cta]]
 
 To apply for an EB-2 NIW, you need to fill out [Form I-140](https://www.uscis.gov/i-140) and file with the USCIS. You have
 to send all the evidence and documents to the addresses
@@ -164,7 +163,6 @@ USCIS, it ranges from 83% to 96%.
 
 #### NIW Challenges and Pitfalls
 
-[[cta]]
 
 Although you can guarantee an expedited process of your green card application under the National Interest Waiver, some
 complexities can lead to an unsuccessful application. To make a compelling case and increase your chance of approval,
@@ -183,7 +181,6 @@ you should know about the potential issues below.
 
 #### NIW FAQs
 
-[[cta]]
 
 Let's go over some of the main concerns and questions regarding the National Interest Waiver.
 

@@ -85,7 +85,6 @@ experience. Ask a competent immigration lawyer for some help and [advice by phon
 
 #### EB-1 Visa Application Process
 
-[[cta]]
 
 There are some differences between applying for an EB-1A visa and the two other subcategories of EB-1 visas. As
 mentioned above, for the EB-1A visa you can apply for yourself. But for the EB-1B and EB-1C visas a qualified US
@@ -187,7 +186,6 @@ You can see the average processing time for each step of the EB-1 application pr
 
 #### EB-1 Visa benefits
 
-[[cta]]
 
 Despite the difficulty to prove your qualifications and eligibility for the EB-1 visas, there are quite a few benefits.
 Some of the EB-1 visa advantages include

@@ -100,7 +100,6 @@ hold office until they are citizens.
 
 #### Adjustment Of Status
 
-[[cta]]
 
 Adjustment of status (AOS) is the procedure of obtaining permanent residence (green card) from inside the U.S., without
 leaving the country and undergoing consular processing. AOS is commonly used by spouses of U.S. citizens or lawful
@@ -168,7 +167,6 @@ conditional resident proves that:
 
 #### Affidavit Of Support: What Is It And When Is It Required For A Green Card Through Marriage?
 
-[[cta]]
 
 The affidavit of support is a legal document that shows that a sponsor can financially support an immigrant who is
 related to them or their business and that the immigrant will not need public assistance, as required for most
@@ -195,7 +193,6 @@ I-864 or I-864A separately for each case.
 
 #### FAQs About Marriage Visa:
 
-[[cta]]
 
 #### Q: How Should I Prepare For The Marriage Visa Interview?
 

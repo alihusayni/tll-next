@@ -47,7 +47,6 @@ By following these steps carefully and ensuring all documentation is accurate an
 
 #### **K-1 Fiancé Visa Requirements**
 
-[[cta]]
 
 To qualify for the K-1 visa, both you and your fiancé(e) must meet specific eligibility criteria set by the United States Citizenship and Immigration Services (USCIS). Understanding these requirements is crucial to avoid unnecessary delays or denials. Here are the essential K-1 visa eligibility requirements:
 
@@ -65,7 +64,6 @@ The U.S. citizen must meet the K-1 visa income requirements to demonstrate the a
 
 #### **K-1 Visa Application Checklist**
 
-[[cta]]
 
 A successful K-1 visa application relies on the completeness and accuracy of the supporting documents. Here is a detailed K-1 visa checklist to help you prepare:
 
@@ -89,7 +87,6 @@ Conducted by a USCIS-approved physician, ensuring the foreign fiancé(e) meets h
 
 #### **K-1 Visa Timeline 2025 and Processing Time**
 
-[[cta]]
 
 The K-1 visa processing time can vary based on several factors, including USCIS workload and embassy availability. For 2025, applicants should anticipate potential delays due to high application volumes and evolving immigration policies. Here is an overview of the K-1 visa timeline:
 
@@ -115,7 +112,6 @@ After marriage, the foreign spouse can apply for a green card, a process that ca
 
 #### **K-1 Visa Cost and Fees**
 
-[[cta]]
 
 Understanding the costs involved in the K-1 visa process is crucial for financial planning. Here is a breakdown of the K-1 visa cost and fees for 2025:
 
@@ -138,7 +134,6 @@ These may include document translations, travel expenses, and legal fees if you 
 
 #### **What to Expect at the K-1 Visa Interview**
 
-[[cta]]
 
 The K-1 visa interview is a pivotal step in the application process, where the consular officer verifies the authenticity of your relationship and eligibility for the K-1 visa. Here is what you need to know:
 
@@ -163,7 +158,6 @@ To confirm the legitimacy of the relationship and ensure that both parties meet 
 
 #### **Common Reasons for K-1 Visa Denial**
 
-[[cta]]
 
 While the K-1 visa approval rate is generally high, certain pitfalls can lead to denial. Understanding and avoiding these common reasons for K-1 visa denial is crucial for a successful application:
 
@@ -193,7 +187,6 @@ Whether you're just starting your application or need help addressing a denial, 
 
 #### **K-1 Visa vs. Marriage Visa: Which is Right for You?**
 
-[[cta]]
 
 Choosing between the K-1 visa (fiancé(e) visa) and the CR-1 [marriage visa](https://www.tuanlelaw.com/us-immigrant-visas/family-based-immigration/marriage-visas/green-card-through-marriage) depends on your circumstances and relationship goals. Here is a comparison to help you make an informed decision:
 
@@ -218,7 +211,6 @@ At Tuan Le Law Office, we provide personalized consultations to help you decide 
 
 #### **FAQs About the K-1 Visa Process**
 
-[[cta]]
 
 #### **1. How long does the K-1 visa process take in 2025?**
 Typically, the K-1 visa processing time is 6-9 months, but it can vary based on USCIS workload and embassy availability.

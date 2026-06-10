@@ -201,13 +201,11 @@ At Tuan Le Law Office, we specialize in helping immigrants achieve their America
 
 #### Tips for a Successful Diversity Visa Application: Expert Guidance to Maximize Your Chances
 
-[[cta]]
 
 The Diversity Visa (DV) Lottery is a golden opportunity to secure a U.S. Green Card, but the journey from application to approval requires precision, accuracy, and preparation. With thousands of applicants disqualified each year due to avoidable mistakes, having expert guidance can significantly increase your chances of success. At Tuan Le Law Office in Orange County, CA, we specialize in helping applicants navigate the DV Lottery process with ease. From ensuring your application is error-free to preparing for your visa interview, our legal experts are here to support you every step of the way. Want to maximize your chances? Call [714-877-5840](tel:+1-714-877-5840) today for a consultation with our immigration experts!
 
 #### Why Expert Guidance Matters for Your Diversity Visa Application
 
-[[cta]]
 
 The DV Lottery process is competitive, and even though selection is random, many applicants are disqualified due to simple errors. Here is why working with an immigration professional can give you an edge:
 
@@ -226,7 +224,6 @@ Want a smooth, stress-free application process? Contact Tuan Le Law Office at [7
 
 #### Frequently Asked Questions (FAQs) About the Diversity Visa Lottery
 
-[[cta]]
 
 Here are answers to some of the most common questions about the Diversity Visa process:
 

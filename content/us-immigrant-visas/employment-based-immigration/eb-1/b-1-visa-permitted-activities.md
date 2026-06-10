@@ -184,7 +184,6 @@ issues.
 
 #### **Consequences of Violating B-1 Visa Terms**
 
-[[cta]]
 
 #### **Legal Repercussions**
 
@@ -202,7 +201,6 @@ detailed records, and any past violations can negatively influence their decisio
 
 #### **FAQs About B-1 Visa**
 
-[[cta]]
 
 #### **Can I bring my family with me on a B-1 visa?**
 

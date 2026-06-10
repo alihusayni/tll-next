@@ -40,7 +40,6 @@ knowledge. This means jobs in science, medicine, engineering, and other speciali
 
 ### H1B Visa Requirements and Eligibility
 
-[[cta]]
 
 Both the job and the applicant must meet some criteria to be eligible for an H1B visa. Otherwise, you need to consider
 other visa types. An experienced immigration attorney can help you in these situations.
@@ -69,7 +68,6 @@ job.
 
 #### H1B Visa Process Guide and Application
 
-[[cta]]
 
 You, as an employee, do not file for an H1B visa personally. This is something your employer must do on your behalf with
 USCIS. If it is selected, then you need to start applying for the visa and request a visa interview. There are fees to
@@ -128,7 +126,6 @@ H1B visa with the U.S. Department of State (DOS) by following these steps:
 
 #### Common Questions and Concerns about the H1B Visa
 
-[[cta]]
 
 The process of applying for a visa is complicated and time-consuming. Consulting an immigration lawyer can save you from
 frustration. Here, with the help of our citizenship attorney, we are going to discuss some of the main concerns and

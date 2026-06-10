@@ -54,7 +54,6 @@ especially when immigration concerns arise. Our dedicated legal team specializes
 
 #### The Impact of Immigration Status on Child Custody
 
-[[cta]]
 
 When child custody disputes intersect with immigration status, the legal process becomes significantly more complex.
 Courts must carefully evaluate how a parents immigration situation affects their ability to provide a stable and
@@ -129,7 +128,6 @@ can influence custody outcomes.
 
 #### Why Expert Legal Representation Matters
 
-[[cta]]
 
 The combination of child custody law and immigration law creates a complex legal landscape that requires specialized
 knowledge and experience. Without expert legal guidance, parents risk:
@@ -213,7 +211,6 @@ For instance:
 
 #### Why Expert Legal Representation is Essential
 
-[[cta]]
 
 Addressing these challenges successfully requires a combined approach from experienced child custody and immigration
 attorneys. Legal experts can:
@@ -328,7 +325,6 @@ can protect your rights and prioritize your child's well-being. At Tuan Le Law i
 
 #### Cost Considerations and Legal Fees for Immigration and Family Law Services
 
-[[cta]]
 
 When navigating complex legal matters such as child custody and immigration issues, understanding the cost of
 legal representation is essential. Legal fees can vary widely based on the complexity of the case, the attorneys
@@ -423,7 +419,6 @@ This enhances trust and improves communication between clients and attorneys.
 
 #### **Navigating Costs with Expert Guidance**
 
-[[cta]]
 
 While legal fees can feel daunting, understanding the cost structure and exploring options like pro bono support can
 make representation accessible to more families. At **Tuan Le Law**, we believe every parent deserves fair legal
