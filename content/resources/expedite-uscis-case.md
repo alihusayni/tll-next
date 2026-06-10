@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/resources/expedite-uscis-case-1"
 ogTitle: "6 Tips to Speed Up Your Immigration Case with USCIS"
 ogDescription: "Discover 6 expert tips to speed up your immigration case with USCIS—save time and avoid delays with help from our Orange, CA lawyer."
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/Speed-Up-Your-Immigration-Case-with-USCIS.webp
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/blog/blog_post.png
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration News and Updates"
 twitterDescription: "Latest immigration news and updates from Tuan Le Law."

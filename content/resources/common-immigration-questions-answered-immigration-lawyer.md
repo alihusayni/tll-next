@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/resources/common-immigration-questions-answered-immigration-lawyer"
 ogTitle: "12 US Immigration Law Questions Answered"
 ogDescription: "Our experienced immigration lawyer in Orange, CA, answers common immigration questions in simple terms to help you understand your options."
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/new/common-immigration-questions.webp
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/blog/blog_post.png
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration News and Updates"
 twitterDescription: "Latest immigration news and updates from Tuan Le Law."

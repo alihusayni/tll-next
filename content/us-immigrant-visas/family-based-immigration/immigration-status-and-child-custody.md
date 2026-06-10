@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/family-based-immigration/immigration-status-and-child-custody-legal-considerations"
 ogTitle: "Immigration Status and Child Custody: Legal Considerations and Costs"
 ogDescription: "Discover how immigration status impacts child custody decisions. For expert legal advice, call Tuan Le Law in OC, CA."
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/files/shares/BlogImage/Immigration-Status-and-Child-Custody-Legal-Considerations-and-Costs.webp
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/blog/blog_post.png
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration Status and Child Custody: Legal Considerations and Costs"
 twitterDescription: "Discover how immigration status impacts child custody decisions. For expert legal advice, call Tuan Le Law in OC, CA."

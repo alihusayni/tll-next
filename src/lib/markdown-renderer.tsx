@@ -283,14 +283,16 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
            if (!src || typeof src !== 'string') return null;
 
            return (
-              <Image
-                 src={src}
-                 alt={alt || 'Descriptive image illustrating key points from the article content'}
-                 width={0}
-                 height={0}
-                 sizes="(max-width: 768px) 100vw, 640px"
-                 className="my-6 rounded-xl block mx-auto w-full h-auto"
-              />
+              <div className="relative w-full my-6" style={{ aspectRatio: '16/9', maxHeight: '28rem' }}>
+                 <Image
+                    src={src}
+                    alt={alt || 'Descriptive image illustrating key points from the article content'}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 640px"
+                    quality={100}
+                    className="not-prose rounded-xl object-cover"
+                 />
+              </div>
            );
          },
         table: ({ children, ...props }) => (
