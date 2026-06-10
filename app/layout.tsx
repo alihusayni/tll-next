@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Inter_Tight, Inter } from "next/font/google";
+import { Suspense } from "react";
 
 import "./globals.css";
 import Script from "next/script";
 import AcsbScript from "@/components/AcsbScript";
-import Analytics from "@/components/Analytics";
+import { Analytics } from "@/components/Analytics";
 import CallRailLoader from "@/components/atoms/callrail-loader";
 
 
