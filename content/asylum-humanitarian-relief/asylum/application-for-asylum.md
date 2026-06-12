@@ -1,13 +1,13 @@
 ---
-metaTitle: "Application for Asylum in the USA | Law Office of Tuan Le"
-metaDescription: "Application for asylum in the US is a multi-step process that can be confusing for foreign individuals. Read our simple step-by-step guide."
-h1: "Application for Asylum: How to Seek Asylum in the USA"
+metaTitle: 'Asylum Application Guide: Steps & Requirements to Apply'
+metaDescription: 'Navigate the US application for asylum with our expert guide. We cover Form I-589, interviews, and eligibility to simplify the process. Learn more today.'
+h1: 'What Are the Steps to Apply for Asylum in the United States?'
 summary: "Application for asylum in the US is a multi-step process that can be confusing for foreign individuals. Read our simple step-by-step guide."
 author: "Tuan Le"
 robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/asylum-humanitarian-relief/asylum/application-for-asylum-in-the-usa"
-ogTitle: "Application for Asylum in the USA | Law Office of Tuan Le"
-ogDescription: "Application for asylum in the US is a multi-step process that can be confusing for foreign individuals. Read our simple step-by-step guide."
+ogTitle: 'Asylum Application Guide: Steps & Requirements to Apply'
+ogDescription: 'Navigate the US application for asylum with our expert guide. We cover Form I-589, interviews, and eligibility to simplify the process. Learn more today.'
 ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/blog/blog_post.png
 twitterCard: "summary_large_image"
 twitterTitle: "Application for Asylum in the USA | Law Office of Tuan Le"
