@@ -61,7 +61,7 @@ function sendPageView(): void {
             name: 'page_view',
             params: {
                 session_id: getSessionId(),
-                engagement_time_msec: '100',
+                engagement_time_msec: 100,
                 page_location: window.location.href,
                 page_title: document.title,
             },
@@ -70,9 +70,9 @@ function sendPageView(): void {
 
     const data = JSON.stringify(payload);
     if (navigator.sendBeacon) {
-        navigator.sendBeacon('/api/analytics', new Blob([data], { type: 'application/json' }));
+        navigator.sendBeacon('/api/ping', new Blob([data], { type: 'application/json' }));
     } else {
-        fetch('/api/analytics', {
+        fetch('/api/ping', {
             method: 'POST',
             body: data,
             headers: { 'Content-Type': 'application/json' },

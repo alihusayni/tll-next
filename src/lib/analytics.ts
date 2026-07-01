@@ -32,7 +32,7 @@ export function sendEvent(event: { name: string; params?: Record<string, string 
     const clientId = getOrCreateClientId();
     if (!clientId) return;
     navigator.sendBeacon(
-        '/api/analytics',
+        '/api/ping',
         new Blob(
             [JSON.stringify({
                 client_id: clientId,
