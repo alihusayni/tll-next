@@ -19,11 +19,20 @@ export const metadata: Metadata = {
         url: 'https://www.tuanlelaw.com/faq',
         siteName: 'Tuan Le Law',
         type: 'website',
+        images: [
+            {
+                url: 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/og/og-faq-wKpchSD3lNQu7teX8mhiGh6NF5OLNN.jpg',
+                width: 1200,
+                height: 630,
+                alt: 'Tuan Le Law - Immigration Law FAQ',
+            },
+        ],
     },
     twitter: {
         card: 'summary_large_image',
         title: 'FAQ | Frequently Asked Questions | Tuan Le Law',
         description: 'Find answers to common questions about immigration law, visa applications, citizenship, and our legal services.',
+        images: ['https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/og/og-faq-wKpchSD3lNQu7teX8mhiGh6NF5OLNN.jpg'],
     },
     robots: 'index,follow',
 };

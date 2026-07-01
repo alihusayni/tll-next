@@ -26,11 +26,20 @@ export const metadata: Metadata = {
     url: 'https://www.tuanlelaw.com/',
     siteName: 'Tuan Le Law',
     type: 'website',
+    images: [
+        {
+            url: 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/og/og-home-byASDHojW2LcXGEi75a2yS91KYB86G.jpg',
+            width: 1200,
+            height: 630,
+            alt: 'Tuan Le Law - Immigration Legal Services',
+        },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Tuan Le Law | Professional Immigration Legal Services',
     description: 'Professional legal services provided by Tuan Le Law. Expert immigration law assistance for visas, citizenship, and deportation defense.',
+    images: ['https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/og/og-home-byASDHojW2LcXGEi75a2yS91KYB86G.jpg'],
   },
   robots: 'index,follow',
 };

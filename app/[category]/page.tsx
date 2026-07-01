@@ -70,6 +70,17 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   const categories = getContentCategories();
   const categoryData = categories.find(cat => cat.id === category);
   const categoryLabel = categoryData?.label || category;
+
+  // Per-category OG images
+  const CATEGORY_OG_IMAGES: Record<string, string> = {
+    'asylum-humanitarian-relief': 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/og/og-category-asylum-humanitarian-relief-OasZAUflUE0ewQz9RzAi7oKAjaZ4Cg.jpg',
+    'citizenship-naturalization': 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/og/og-category-citizenship-naturalization-x8hhFBACpG8NUmzxgIISDgKKS6QECW.jpg',
+    'deportation-defense': 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/og/og-category-deportation-defense-mlkjCH94mU3ulCJF8zxuB4VsgpYpWH.jpg',
+    'us-immigrant-visas': 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/og/og-category-us-immigrant-visas-cXUJmeRJyTir7i8Uz6iV9mGB4cEPnw.jpg',
+    'us-nonimmigrant-visas': 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/og/og-category-us-nonimmigrant-visas-2GA6cE8hyLZLDM75Zxkm6nopw20UDP.jpg',
+  };
+
+  const ogImage = CATEGORY_OG_IMAGES[category] ?? 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/og/og-resources-vQNWuqL69r5H1IKDDP4nixqD5Sn0A0.jpg';
   
   return {
     title: `${categoryLabel} | Immigration Law Resources & Insights`,
@@ -82,7 +93,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
       type: 'website',
       images: [
         {
-          url: 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/og-image.png',
+          url: ogImage,
           width: 1200,
           height: 630,
           alt: `Tuan Le Law - ${categoryLabel}`,
@@ -93,6 +104,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
       card: 'summary_large_image',
       title: `${categoryLabel} | Immigration Law Resources & Insights`,
       description: `News and insights on ${categoryLabel.toLowerCase()} by Tuan Le.`,
+      images: [ogImage],
     },
     alternates: {
       canonical: `https://www.tuanlelaw.com/${category}`,

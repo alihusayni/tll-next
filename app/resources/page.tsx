@@ -19,10 +19,10 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/og-image.png',
+        url: 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/og/og-resources-vQNWuqL69r5H1IKDDP4nixqD5Sn0A0.jpg',
         width: 1200,
         height: 630,
-        alt: 'Tuan Le Law - Immigration Law Resources',
+        alt: 'Tuan Le Law - Immigration Law Resources & Insights',
       },
     ],
   },
