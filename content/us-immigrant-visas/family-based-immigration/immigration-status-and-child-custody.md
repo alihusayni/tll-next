@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/family-based-immigration/immigration-status-and-child-custody-legal-considerations"
 ogTitle: "Immigration Status and Child Custody: Legal Considerations and Costs"
 ogDescription: "Discover how immigration status impacts child custody decisions. For expert legal advice, call Tuan Le Law in OC, CA."
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/blog/blog_post.png
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default.png
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration Status and Child Custody: Legal Considerations and Costs"
 twitterDescription: "Discover how immigration status impacts child custody decisions. For expert legal advice, call Tuan Le Law in OC, CA."
@@ -41,7 +41,7 @@ Immigration-related custody cases involve heightened legal and emotional challen
 
 ### Expert Legal Guidance at Tuan Le Law
 
-![Tuan Le Law office providing expert legal guidance for immigration and child custody cases](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/BlogImage/Immigration-Status-and-Child-Custody-Legal-Considerations-and-Costs5.webp)
+![Tuan Le Law office providing expert legal guidance for immigration and child custody cases](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default.png
 At Tuan Le Law in Orange County, CA, we understand how deeply personal and challenging child custody cases can be,
 especially when immigration concerns arise. Our dedicated legal team specializes in:
 
@@ -229,7 +229,7 @@ attorneys. Legal experts can:
 
 #### Legal Support for Parents: Protecting Parental Rights Amid Immigration Challenges
 
-![Legal Consultation or Attorney Working with a Family](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/BlogImage/Immigration-Status-and-Child-Custody-Legal-Considerations-and-Costs3.webp)
+![Legal Consultation or Attorney Working with a Family](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default.png
 When navigating child custody disputes, immigrant parents - whether fathers or mothers - often face unique hurdles that
 require dedicated legal advocacy. Courts are bound to prioritize the child's best interests, but immigration status
 can inadvertently impact custody outcomes if proper legal representation is not in place. Ensuring fair treatment for
@@ -333,7 +333,7 @@ support they need without unnecessary financial strain.
 
 #### 1. Understanding Immigration Lawyer Costs
 
-![Understanding Immigration Lawyer Costs](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/BlogImage/Immigration-Status-and-Child-Custody-Legal-Considerations-and-Costs6.webp)
+![Understanding Immigration Lawyer Costs](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default.png
 Immigration law is a specialized field that requires in-depth expertise and significant time investment. The cost of
 hiring an immigration lawyer depends on several factors:
 
@@ -426,7 +426,7 @@ advocacy, regardless of financial circumstances.
 **Facing child custody or immigration challenges?** Contact **Tuan Le Law** today at
 *[(714) 877 5840](tel:+1-714-877-5840)* for a consultation. Our team will provide expert legal support tailored to your
 needs, with transparent costs and flexible solutions.
-![featuring a courthouse with a parent and child in the foreground](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/BlogImage/Immigration-Status-and-Child-Custody-Legal-Considerations-and-Costs2.webp)
+![featuring a courthouse with a parent and child in the foreground](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default.png
 
 #### **FAQs About Immigration Status and Child Custody**
 

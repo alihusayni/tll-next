@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/family-based-immigration/marriage-visas/green-card-through-marriage"
 ogTitle: "Green Card Through Marriage: How to Apply and Avoid Pitfalls"
 ogDescription: "Marriage Visa: learn how our experienced immigration lawyer in OC, CA can guide you through the process of achieving your green card"
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/blog/blog_post.png
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default.png
 twitterCard: "summary_large_image"
 twitterTitle: "Green Card Through Marriage: How to Apply and Avoid Pitfalls"
 twitterDescription: "Marriage Visa: learn how our experienced immigration lawyer in OC, CA can guide you through the process of achieving your green card"
@@ -134,7 +134,7 @@ mail in a few weeks. The process can take 9 to 15 months or longer, based on you
 Adjustment of status can be a complicated and lengthy process, but you Don't have to do it alone. At the Law Office of
 tuan le, we have the experience and expertise to help you get your green card through marriage. You can reach us by
 phone at [714-877-5840](tel:+1-714-877-5840).
-![Illustration of green card application process for marriage-based immigration](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/BlogImage/Green-Card-Through-Marriage-How-to-Apply-and-Avoid-Pitfalls.webp)
+![Illustration of green card application process for marriage-based immigration](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default.png
 
 #### Conditional Permanent Residence
 
