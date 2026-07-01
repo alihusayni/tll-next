@@ -8,11 +8,11 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/deportation-defense/removal-proceedings/"
 ogTitle: "Immigration Matters: Removal Proceeding in Orange CA | Attorney Tuan Le"
 ogDescription: "Are you looking for effective representation in your immigration case? Removal proceedings are the most difficult and complex of all immigration matters."
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/blog/blog_post.png
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/removal-proceedings-jBgityUsJr3KO9GIloa94ArnM79gDV.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration Matters: Removal Proceeding in Orange CA | Attorney Tuan Le"
 twitterDescription: "Are you looking for effective representation in your immigration case? Removal proceedings are the most difficult and complex of all immigration matters."
-twitterImage: "https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/filemanager/files/shares/BlogImage/Immigration-Orange.webp"
+twitterImage: "https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/removal-proceedings-jBgityUsJr3KO9GIloa94ArnM79gDV.jpg"
 publishedTime: "2025-11-18T00:00:00.000Z"
 modifiedTime: "2025-11-18T00:00:00.000Z"
 readTime: "28 min read"
