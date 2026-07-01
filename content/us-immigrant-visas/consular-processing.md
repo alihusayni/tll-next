@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/us-visas/us-immigrant-visas/consular-processing-to-get-your-green-card"
 ogTitle: "Consular Processing to Get Green Card | Orange, CA | Tuan Le"
 ogDescription: "Learn how to apply for a green card through consular processing in Orange, CA: a fast and convenient way to become a permanent resident in the U.S."
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default-Ymr17fTvRcljN3kl7uK0gyA3LE6PQI.jpg
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/us-immigrant-visas-consular-processing-souODLReeJwvSM8YNorevb2anwE4Pk.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Consular Processing to Get Green Card | Orange, CA | Tuan Le"
 twitterDescription: "Learn how to apply for a green card through consular processing in Orange, CA: a fast and convenient way to become a permanent resident in the U.S."

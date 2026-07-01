@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/resources/new-immigration-proposal-will-benefit-farmworkers-and-dreamers"
 ogTitle: "New Immigration Proposal Will Benefit Farmworkers and Dreamers"
 ogDescription: "Latest immigration news and updates from Tuan Le Law."
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default-Ymr17fTvRcljN3kl7uK0gyA3LE6PQI.jpg
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/resources-new-immigration-proposal-will-benefit-farmworkers-and-dreamers-L5olg5ZAYTnJ5ZH0BGA1VqAIOwlCUZ.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Immigration News and Updates"
 twitterDescription: "Latest immigration news and updates from Tuan Le Law."

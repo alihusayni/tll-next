@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/us-immigrant-visas/trump-new-immigration-rules"
 ogTitle: "Trump’s New Immigration Rules: What they Mean for Immigrants Living in California"
 ogDescription: ""
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default-Ymr17fTvRcljN3kl7uK0gyA3LE6PQI.jpg
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/us-immigrant-visas-trump-new-immigration-rules-7LHmUxh9TYEmwGbt7jwiyExPBUbY4N.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Trump’s New Immigration Rules: What they Mean for Immigrants Living in California"
 twitterDescription: ""

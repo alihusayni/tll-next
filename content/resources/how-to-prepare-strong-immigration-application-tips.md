@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/resources/how-to-prepare-strong-immigration-application-tips"
 ogTitle: "How to Prepare a Strong Immigration Application: Tips from a Lawyer | Tuan Le Law"
 ogDescription: "Worried about your immigration application? Avoid costly mistakes with expert tips from Tuan Le Law in Orange County, CA. Call now!"
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default-Ymr17fTvRcljN3kl7uK0gyA3LE6PQI.jpg
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/resources-how-to-prepare-strong-immigration-application-tips-N9607coFJQLb1QTdNQg8z7rKctLfex.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "How to Prepare a Strong Immigration Application: Tips from a Lawyer | Tuan Le Law"
 twitterDescription: "Worried about your immigration application? Avoid costly mistakes with expert tips from Tuan Le Law in Orange County, CA. Call now!"

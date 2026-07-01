@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/deportation-defense/deportation-defense-strategies-to-fight-removal-proceedings"
 ogTitle: "Deportation Defense Strategies | Tuan le Law | Immigration lawyer"
 ogDescription: "Discover key deportation defense tactics and legal guidance to secure your future with Tuan Le Law Office in Orange, CA."
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default-Ymr17fTvRcljN3kl7uK0gyA3LE6PQI.jpg
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/deportation-defense-removal-proceedings-fighting-removal-proceedings-nEbDO4slpA8946emeRbFVD18bKCm1V.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Deportation Defense Strategies | Tuan le Law | Immigration lawyer"
 twitterDescription: "Discover key deportation defense tactics and legal guidance to secure your future with Tuan Le Law Office in Orange, CA."

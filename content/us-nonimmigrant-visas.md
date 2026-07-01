@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/us-visas/us-nonimmigrant-visas-guide"
 ogTitle: "Comprehensive Guide to U.S. Nonimmigrant Visas | Immigration Lawyer in Orange County, CA"
 ogDescription: "Read this US nonimmigrant visas guide to quickly find out what visa options you have. This simple guide saves you from confusion."
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default-Ymr17fTvRcljN3kl7uK0gyA3LE6PQI.jpg
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/us-nonimmigrant-visas-BFsKJ8jLRHu9g7pdrqVD9UympBSGCZ.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Comprehensive Guide to U.S. Nonimmigrant Visas | Immigration Lawyer in Orange County, CA"
 twitterDescription: "Read this US nonimmigrant visas guide to quickly find out what visa options you have. This simple guide saves you from confusion."

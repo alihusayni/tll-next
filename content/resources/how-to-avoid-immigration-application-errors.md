@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/immigration-solutions/how-to-avoid-immigration-application-errors"
 ogTitle: "Avoiding Mistakes on Immigration Applications: Essential Tips for USCIS Approval"
 ogDescription: "Avoid mistakes on immigration applications for US visas, green cards, naturalization, etc. with this comprehensive guide. Save money and time!"
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default-Ymr17fTvRcljN3kl7uK0gyA3LE6PQI.jpg
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/resources-how-to-avoid-immigration-application-errors-Mmn6oHPbpPlMcAArXX27TOr73xpoAe.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Avoiding Mistakes on Immigration Applications: Essential Tips for USCIS Approval"
 twitterDescription: "Avoid mistakes on immigration applications for US visas, green cards, naturalization, etc. with this comprehensive guide. Save money and time!"

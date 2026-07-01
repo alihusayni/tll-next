@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/us-immigrant-visas"
 ogTitle: "Understanding U.S. Immigrant Visas: Your Complete Guide to Permanent Residency"
 ogDescription: "US immigrant visas are available for family members of citizens/permanent residents and those who can work in the US. Find the right one for yourself."
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default-Ymr17fTvRcljN3kl7uK0gyA3LE6PQI.jpg
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/us-immigrant-visas-SwMI1gvElVnXg0niU3IlZGzpKDnO3Z.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "The Crucial Role of Immigration Lawyers in U.S. Residency and Citizenship"
 twitterDescription: "Secure and Accelerate Your Immigration with tuan le, a Renowned Immigration Lawyer in OC, Ensuring a Smooth Transition to Residency."
