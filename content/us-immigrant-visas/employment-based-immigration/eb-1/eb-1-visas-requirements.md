@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/employment-based-immigration/eb-1/eb-1-visas-requirements-eligibility-and-application"
 ogTitle: "EB-1 Visas Requirements, Eligibility, and Application"
 ogDescription: "This comprehensive guide to EB-1 visas teaches you how to get your U.S. permanent residency faster than other methods and visas."
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default.png
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default-Ymr17fTvRcljN3kl7uK0gyA3LE6PQI.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "EB-1 Visas Requirements, Eligibility, and Application"
 twitterDescription: "This comprehensive guide to EB-1 visas teaches you how to get your U.S. permanent residency faster than other methods and visas."

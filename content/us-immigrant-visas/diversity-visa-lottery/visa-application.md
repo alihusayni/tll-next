@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/us-visas/tips-successful-diversity-visa-application"
 ogTitle: "Tips for a Successful Diversity Visa Application | Tuan Le Law Office, OC, CA"
 ogDescription: "Discover tips for a successful Diversity Visa application. Learn how Tuan Le Law Office in CA can help you increase your chances of success."
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default.png
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default-Ymr17fTvRcljN3kl7uK0gyA3LE6PQI.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Tips for a Successful Diversity Visa Application | Tuan Le Law Office, OC, CA"
 twitterDescription: "Discover tips for a successful Diversity Visa application. Learn how Tuan Le Law Office in CA can help you increase your chances of success."

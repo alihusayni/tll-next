@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/employment-based-immigration/eb-2/national-interest-waiver-everything-you-should-know-in-simple-words"
 ogTitle: "National Interest Waiver; Everything You Should Know in Simple Words"
 ogDescription: "Applying for a National Interest Waiver (NIW) is complicated. Learn about NIW application and costs, NIW benefits, requirements, and more."
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default.png
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default-Ymr17fTvRcljN3kl7uK0gyA3LE6PQI.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "National Interest Waiver; Everything You Should Know in Simple Words"
 twitterDescription: "Applying for a National Interest Waiver (NIW) is complicated. Learn about NIW application and costs, NIW benefits, requirements, and more."
