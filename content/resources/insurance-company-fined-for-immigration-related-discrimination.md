@@ -8,7 +8,7 @@ robots: "index, follow"
 canonical: "https://www.tuanlelaw.com/resources/insurance-company-fined-for-immigration-related-discrimination"
 ogTitle: "Insurance Agency Condemned by Justice Department Over Immigration-Related Discrimination"
 ogDescription: "The Department of Justice has reached a settlement agreement with James A. Scott & Son Inc., an insurance agency doing business as Scott Insurance headquartered in Lynchburg, Virginia."
-ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/insurance-company-fined-for-immigration-discrimination-GMLhC2EkBEi7xNhzfIh2Ohp3KJWQ3i.jpg
+ogImage: https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/insurance-discrimination-fresh-aDQhWtIAZTtwcM7kwkpPyYatXWSi8w.jpg
 twitterCard: "summary_large_image"
 twitterTitle: "Insurance Agency Condemned by Justice Department Over Immigration-Related Discrimination"
 twitterDescription: "The Department of Justice has reached a settlement agreement with James A. Scott & Son Inc., an insurance agency doing business as Scott Insurance headquartered in Lynchburg, Virginia."
