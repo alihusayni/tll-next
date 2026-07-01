@@ -7,7 +7,7 @@ interface LogoProps {
 
 export default function Logo({ variant = 'White', className = '' }: LogoProps) {
   const src = variant === 'Blue'
-    ? 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/blue-logo%2Btext.svg'
+    ? 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/blue-logo+text.svg'
     : 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/Logo-White.svg';
   return (
     <Image
@@ -17,6 +17,7 @@ export default function Logo({ variant = 'White', className = '' }: LogoProps) {
       height={46}
       sizes="184px"
       unoptimized
+      quality={100}
       className={`w-[11.5rem] h-[2.875rem] ${className}`}
     />
   );
