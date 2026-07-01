@@ -6,7 +6,9 @@ interface LogoProps {
 }
 
 export default function Logo({ variant = 'White', className = '' }: LogoProps) {
-  const src = variant === 'Blue' ? 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/blue-logo+text.svg' : 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/Logo-White.svg';
+  const src = variant === 'Blue'
+    ? 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/blue-logo%2Btext.svg'
+    : 'https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/logo/Logo-White.svg';
   return (
     <Image
       src={src}
@@ -14,6 +16,7 @@ export default function Logo({ variant = 'White', className = '' }: LogoProps) {
       width={184}
       height={46}
       sizes="184px"
+      unoptimized
       className={`w-[11.5rem] h-[2.875rem] ${className}`}
     />
   );
