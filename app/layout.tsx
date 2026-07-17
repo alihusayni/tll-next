@@ -5,7 +5,7 @@ import { Suspense } from "react";
 import "./globals.css";
 import Script from "next/script";
 import AcsbScript from "@/components/AcsbScript";
-import { Analytics } from "@/components/Analytics";
+
 import CallRailLoader from "@/components/atoms/callrail-loader";
 
 
@@ -90,11 +90,12 @@ export default function RootLayout({
             <body className={`${interTight.variable} ${inter.variable} antialiased`}>
 
                 {children}
-                {/* Server-side GA4 — zero client JS weight, no LCP impact */}
-                {/* Suspense required for usePathname() in Next.js 15 App Router */}
-        <Suspense fallback={null}>
-          <Analytics />
-        </Suspense>
+                {/* Despora pixel — tracks visitor sessions for outreach */}
+                <Script
+                  src="https://www.despora.ai/despora-pixel.js"
+                  data-project="tuanlelaw"
+                  strategy="afterInteractive"
+                />
                 <CallRailLoader />
             </body>
         </html>
