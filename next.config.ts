@@ -317,6 +317,14 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async rewrites() {
+    return [
+      {
+        source: '/api/dp-collect',
+        destination: 'https://ingest.despora.ai/collect',
+      },
+    ];
+  },
 };
 
 export default nextConfig;

@@ -94,6 +94,7 @@ export default function RootLayout({
                 <Script
                   src="https://www.despora.ai/despora-pixel.js"
                   data-project="tuanlelaw"
+                  data-endpoint="/api/dp-collect"
                   strategy="afterInteractive"
                 />
                 <CallRailLoader />
