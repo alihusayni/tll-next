@@ -51,6 +51,16 @@ const nextConfig: NextConfig = {
         destination: '/',
         permanent: true,
       },
+      {
+        source: '/resources/uscis-request-for-evidence-rfe-how-to-respond',
+        destination: '/us-immigrant-visas/uscis-request-for-evidence-rfe-how-to-respond',
+        permanent: true,
+      },
+      {
+        source: '/resources/uscis-request-for-evidence-rfe-how-to-respond/',
+        destination: '/us-immigrant-visas/uscis-request-for-evidence-rfe-how-to-respond',
+        permanent: true,
+      },
       { source: '/contact-us', destination: '/', permanent: true },
       { source: '/contact-us/', destination: '/', permanent: true },
       {

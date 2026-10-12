@@ -133,6 +133,8 @@ The required documentation includes proof of the sponsors U.S. citizenship or LP
 family relationship, and an affidavit of support for this kind of immigration. Specifically, for spouse visa
 requirements, marriage certificates and other relevant documents are necessary.
 
+If USCIS finds your filing incomplete, it may issue a Request for Evidence. Read our guide on [how to respond to a USCIS Request for Evidence](/us-immigrant-visas/uscis-request-for-evidence-rfe-how-to-respond) so you can reply completely and before the deadline.
+
 #### **Processing Times and Fees:**
 
 Processing times and fees vary depending on the visa category and the [USCIS](https://www.uscis.gov/) workload. Priority

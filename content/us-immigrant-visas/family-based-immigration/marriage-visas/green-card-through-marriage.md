@@ -123,6 +123,8 @@ need for adjustment of status (AOS) in the marriage visa:
 * Copies of passport, visa, birth certificate, marriage certificate, spouses citizenship or LPR proof
 * Two photos, proof of genuine marriage, filing fees
 
+If USCIS asks for more proof of your marriage or finances after you file, see [how to respond to a USCIS Request for Evidence](/us-immigrant-visas/uscis-request-for-evidence-rfe-how-to-respond) for the steps to take and the mistakes to avoid.
+
 #### Process And Timeline For Adjustment Of Status
 
 To get a green card through marriage, you need to file Form I-485 with USCIS after or with Form I-130 from your spouse,

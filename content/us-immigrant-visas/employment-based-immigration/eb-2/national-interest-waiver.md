@@ -93,6 +93,8 @@ To apply for an EB-2 NIW, you need to fill out [Form I-140](https://www.uscis.go
 to send all the evidence and documents to the addresses
 provided [here](https://www.uscis.gov/forms/all-forms/direct-filing-addresses-for-form-i-140-immigrant-petition-for-alien-worker#Alone)
 by the USCIS.
+
+NIW petitions often receive a Request for Evidence asking for stronger proof, so it helps to know [how to respond to a USCIS Request for Evidence](/us-immigrant-visas/uscis-request-for-evidence-rfe-how-to-respond) before you file.
 If your application is approved, then you can apply for an adjustment of status to get your green card. To see when you
 can apply for permanent residency, you can check your I-140 submission date in
 the [Visa Bulletin](https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html).
