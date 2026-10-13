@@ -202,7 +202,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
              return (
                <a
                  href={telUrl}
-                 className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
+                 className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter break-words [overflow-wrap:anywhere]"
                >
                  {children}
                </a>
@@ -216,7 +216,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
              return (
                <a
                  href={telUrl}
-                 className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
+                 className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter break-words [overflow-wrap:anywhere]"
                >
                  {children}
                </a>
@@ -230,7 +230,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
                return (
                  <a
                    href={href}
-                   className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
+                   className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter break-words [overflow-wrap:anywhere]"
                    onClick={(e) => {
                      e.preventDefault();
                      const element = document.querySelector(href);
@@ -254,7 +254,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
                return (
                  <a
                    href={relativeHref}
-                   className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
+                   className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter break-words [overflow-wrap:anywhere]"
                    {...props}
                  >
                    {children}
@@ -266,7 +266,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
              return (
                <a
                  href={href}
-                 className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter"
+                 className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter break-words [overflow-wrap:anywhere]"
                  target="_blank"
                  rel="noopener noreferrer"
                  {...props}
@@ -277,7 +277,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
            }
 
            // Fallback for links without href
-           return <span className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter">{children}</span>;
+           return <span className="text-[#091C32] hover:text-[#071C32] underline transition-colors font-inter break-words [overflow-wrap:anywhere]">{children}</span>;
          },
         img: ({ src, alt }) => {
            if (!src || typeof src !== 'string') return null;
