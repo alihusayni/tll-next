@@ -14,8 +14,7 @@ module.exports = {
                 ],
             },
         ],
-        additionalSitemaps: [
-            'https://www.tuanlelaw.com/sitemap.xml',
-        ],
+        // GSC fix: do NOT list sitemap.xml here. next-sitemap writes sitemap.xml as the index itself, and
+        // adding it as an "additional sitemap" made the index list itself (self-referencing -> GSC error).
     },
 }
