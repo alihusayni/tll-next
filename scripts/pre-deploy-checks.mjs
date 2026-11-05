@@ -14,7 +14,7 @@ const CONFIG = {
   siteLabel:     'Tuan Le Law',
   gaId:          'G-9CL0P20FC0',
   phoneAreaCode: '714',
-  callrailPath:  '/api/callrail-swap',
+  swapPath:      '/tn-swap.js',
   contactPath:   '/api/contact',
   sitemapPath:   '/sitemap.xml',
   staticRoutes: [
@@ -93,16 +93,14 @@ async function checkContactForm() {
   } catch (e) { fail('Contact form validation check failed', e.message); }
 }
 
-async function checkCallRail() {
-  section('CallRail Proxy');
+async function checkTnSwap() {
+  section('Call Tracking Swap Script');
   try {
-    const res = await get(CONFIG.callrailPath);
-    res.status === 200 ? pass(`${CONFIG.callrailPath} → 200`) : fail('CallRail proxy returned unexpected status', `Got ${res.status}`);
+    const res = await get(CONFIG.swapPath);
+    res.status === 200 ? pass(`${CONFIG.swapPath} → 200`) : fail('tn-swap.js returned unexpected status', `Got ${res.status}`);
     const ct = res.headers.get('content-type') ?? '';
     ct.includes('javascript') ? pass('Content-Type is JavaScript') : fail('Content-Type is not JavaScript', ct);
-    const cc = res.headers.get('cache-control') ?? '';
-    cc.includes('max-age') ? pass(`Cache-Control present: ${cc}`) : warn('Missing Cache-Control max-age on CallRail proxy');
-  } catch (e) { fail('CallRail proxy check failed', e.message); }
+  } catch (e) { fail('tn-swap.js check failed', e.message); }
 }
 
 async function checkAnalytics() {
@@ -116,12 +114,6 @@ async function checkAnalytics() {
     const apiRes = await fetch(`${BASE_URL}/api/analytics`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{"events":[]}', signal: AbortSignal.timeout(5000) }).catch(() => null);
     apiRes ? pass(`GA4 Measurement Protocol API (/api/analytics) reachable → ${apiRes.status}`) : warn('GA4 /api/analytics route unreachable');
   } else warn('GA4 ID not configured — skipping');
-  // CallRailLoader is a "use client" component — the script tag is injected after React
-  // hydration, so it won't appear in the static HTML fetched by this checker.
-  // We verify the proxy endpoint works (done in checkCallRail) instead.
-  html.includes('/api/callrail-swap')
-    ? pass('CallRail proxy script tag found in static HTML')
-    : warn('CallRail script not in static HTML (expected — injected client-side after hydration)');
 }
 
 async function checkGSC() {
@@ -346,7 +338,7 @@ async function main() {
   try { await fetch(`${BASE_URL}/`, { signal: AbortSignal.timeout(5000) }); }
   catch { console.error(`\n❌  Cannot reach ${BASE_URL}. Run: npm run dev\n`); process.exit(1); }
 
-  await checkCSS(); await checkContactForm(); await checkCallRail();
+  await checkCSS(); await checkContactForm(); await checkTnSwap();
   await checkAnalytics(); await checkGSC(); await checkSEO();
   await checkPhone(); await checkRobotsAndSitemap();
   await checkNavigation(); await checkLinks();

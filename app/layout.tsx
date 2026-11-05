@@ -6,7 +6,6 @@ import "./globals.css";
 import Script from "next/script";
 import AcsbScript from "@/components/AcsbScript";
 
-import CallRailLoader from "@/components/atoms/callrail-loader";
 
 
 // ⚠️ LCP CRITICAL — DO NOT change display to "optional" on either font.
@@ -97,7 +96,7 @@ export default function RootLayout({
                   data-endpoint="/api/dp-collect"
                   strategy="afterInteractive"
                 />
-                <CallRailLoader />
+                <Script src="/tn-swap.js" strategy="afterInteractive" />
             </body>
         </html>
     );

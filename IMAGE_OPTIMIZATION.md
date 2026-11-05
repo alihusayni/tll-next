@@ -352,7 +352,7 @@ Follow these rules for every third-party script.
 |---|---|---|
 | `beforeInteractive` | Before hydration (blocks) | Consent defaults, critical config only |
 | `afterInteractive` | After Next.js hydration | Nothing — use lazyOnload instead |
-| `lazyOnload` | After page is fully idle ✅ | GA4, GTM, CallRail, Meta Pixel, chat widgets |
+| `lazyOnload` | After page is fully idle ✅ | GA4, GTM, Meta Pixel, chat widgets |
 | `worker` | Partytown web worker ✅✅ | High-traffic sites needing full main-thread offload |
 
 **Rule: analytics scripts must NEVER use `afterInteractive`.** It fires during
