@@ -2361,8 +2361,7 @@ can also help clarify your options.
 An unsigned form is considered incomplete and will likely be rejected. If USCIS receives a form without a signature,
 they will return it without processing, requiring you to sign and resubmit it. In time-sensitive cases, such as visa
 renewals or extensions, this could result in losing your legal status. Always review all required signature fields
-before submission. If you realize your mistake after sending your application, you can call USCIS Customer Service at
-1-800-375-5283 to check if you can submit a signed page separately.
+before submission. If you realize your mistake after sending your application, you can contact USCIS Customer Service to check if you can submit a signed page separately.
 
 #### 3. Should I Submit Original Documents or Photocopies with My Application?
 
