@@ -28,7 +28,7 @@ immigration lawyers stand by your side.
 This article offers an overview of how these legal professionals can assist with various immigration-related matters,
 from visas to citizenship, helping you to get through the process and settle down in the United States.
 For expert guidance on US citizenship,[Contact](#contact) the tuan le Law Office. Specializing in USCIS processes, Tuan
-Lee offers personalized support for your immigration goals. Reach out at [714-877-5840](tel:+1-714-877-5840) for a
+Lee offers personalized support for your immigration goals. Reach out at [714-923-7190](tel:+1-714-923-7190) for a
 consultation.
 
 ## Immigration Lawyers Role in US Law Navigation
@@ -108,7 +108,7 @@ the best immigration lawyer. Their expertise in US immigration laws and B1/B2 vi
 that every clients case is a well-crafted appeal ready to challenge USCIS decisions.
 **Embark on your journey to immigration success with Tuna Lee Law Office, where you're not just a case number, but a VIP
 deserving of the red carpet treatment. Forget the daunting paperwork and legal intricacies - just dial
-**[714-877-5840](tel:+1-714-877-5840)** and let us roll out the red carpet to your dreams. Your journey begins with a
+**[714-923-7190](tel:+1-714-923-7190)** and let us roll out the red carpet to your dreams. Your journey begins with a
 single call.**
 
 #### Achieving Permanent Residence with Immigration Lawyer

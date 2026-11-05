@@ -22,4 +22,4 @@ The number of coronavirus cases among immigrants in detention centers has increa
 ICE monitored and isolated 1,766 immigrants due to confirmed COVID-19 infections, which is a sixfold jump from January 3, when there were 285 active cases.
 8% of the 22,000 immigrants ICE is currently holding in its network of 200 detention centers, county jails, and for-profit prisons have coronavirus. ICE has reported 11 coronavirus-related deaths of detainees.
 The officials said they expected this surge due to the Omicron variant. Many immigration activists worry about ICE's detainee vaccination campaign, a significant vaccine refusal rate, frequent facility-to-facility transfers, and the agency's decision to keep thousands of immigrants with underlying medical conditions in detention.
-[Call the Law Office of Tuan Le](tel:+1-714-877-5840) if you think you have issues with your immigration process and want to be represented by an experienced immigration lawyer.
+[Call the Law Office of Tuan Le](tel:+1-714-923-7190) if you think you have issues with your immigration process and want to be represented by an experienced immigration lawyer.

@@ -28,7 +28,7 @@ In this article, with the help of our H1B visa lawyer, we will explore the optio
 will compare US H1B and Canada PR to assist both current H1B holders and those who wish to become economic migrants to
 make the right decision.
 **Are you looking for an accomplished immigration lawyer in Orange County, CA? Our law office is here for
-you. [Call to schedule an appointment.](tel:+1-714-877-5840)**
+you. [Call to schedule an appointment.](tel:+1-714-923-7190)**
 
 ## An Introduction to US H1B Visa
 
@@ -181,5 +181,5 @@ right choice based on your case. Besides, you can save a lot of time because you
 well, and you do not have to worry about the documents and forms you need to prepare.
 The Law Office of Tuan Le can provide you with such services in Orange County, California. You can also get a free
 30-minute consultation with our accomplished visa lawyer.
-Call [(714-877-5840)](tel:+1-714-877-5840) to schedule an appointment or fill out the form below. We will get in touch
+Call [(714-923-7190)](tel:+1-714-923-7190) to schedule an appointment or fill out the form below. We will get in touch
 with you.

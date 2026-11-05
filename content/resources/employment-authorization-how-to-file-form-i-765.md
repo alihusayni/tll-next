@@ -31,7 +31,7 @@ eligible, to get your work permit (also known as EAD) to present to employers as
 authorized to work in this country. This can happen by filing Form I-765, Application for Employment Authorization,
 whether online or by mail.
 Before applying for an EAD, you should know if you are eligible to avoid wasting time and money. Read on to find out or
-simply give us a call at [(714) 877 5840](tel:+1-714-877-5840) for a free consultation with an immigration attorney.
+simply give us a call at [(714) 923 7190](tel:+1-714-923-7190) for a free consultation with an immigration attorney.
 
 ### Eligibility for Filing Form I-765
 
@@ -50,7 +50,7 @@ Students visas do not usually allow them to work while studying . Although, ther
   granted a work permit.
 * J1 visa holders dependents (spouses and children) are also qualified for application for employment authorization.
 * Individuals who study at vocational schools can get an EAD to get more training.
-  For more details call us at [(714) 877 5840](tel:+1-714-877-5840) for a consultation.
+  For more details call us at [(714) 923 7190](tel:+1-714-923-7190) for a consultation.
 
 #### Asylees and Refugees and Their Dependents
 
@@ -157,7 +157,7 @@ The required documents to request an EAD include:
   Based on your status, you might need some of these documents. However, individuals from Guatemala and El Salvador,
   asylum applicants, and CNMI-only investors spouses may be needed to present additional documents.
   Check out the [USCIS website](https://www.uscis.gov/i-765) for more details or pick up your phone and consult with our
-  immigration attorney at [(714) 877 5840](tel:+1-714-877-5840).
+  immigration attorney at [(714) 923 7190](tel:+1-714-923-7190).
 
 #### How to Apply for Employment Authorization Using Form I-765?
 
@@ -234,5 +234,5 @@ If you need to file form I-765, Application for Employment Authorization, you ca
 guide you throughout the process. Our law office has handled numerous immigration cases is fully experienced in such
 matters.
 Although our office is located in Orange County, California, our office can take your case no matter where you are in
-the United States. Call us at [(714) 877 5840](tel:+1-714-877-5840) to schedule an appointment or get half an hour of free
+the United States. Call us at [(714) 923 7190](tel:+1-714-923-7190) to schedule an appointment or get half an hour of free
 consultation.

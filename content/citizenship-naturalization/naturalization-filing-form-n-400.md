@@ -29,7 +29,7 @@ To successfully pass each step and get your citizenship, you should learn about 
 and knowledge. Read on to get more familiar with the path ahead of you.
 Aspiring US citizens are recommended to consult with a citizenship lawyer to make sure their application will be
 approved. Call for a free consultation.here.
-[Get Started!](tel:+1-714-877-5840)
+[Get Started!](tel:+1-714-923-7190)
 
 ## Naturalization Process, a Step-by-Step Explanation
 
@@ -104,7 +104,7 @@ If you have decided to fill out the Form N-400 by yourself, keep the following t
 * Review your form before submission and make sure you have signed the form.
   A naturalization lawyer knows how to fill out the form and gather the required documents in the way the USCIS prefers.
   Schedule an appointment to visit our citizenship lawyer in Orange County, CA.here.
-  [Get Started!](tel:+1-714-877-5840)
+  [Get Started!](tel:+1-714-923-7190)
 
 #### Biometrics Requirement
 
@@ -176,7 +176,7 @@ citizen. If you lose it, you will have to pay for the replacement and go through
   other errors before leaving the premise. If you find anything, you should inform the officials there.
 
 Do you still have questions about the naturalization steps? Contact a green card lawyer now.
-[Get Started!](tel:+1-714-877-5840)
+[Get Started!](tel:+1-714-923-7190)
 
 #### Timeline of the Naturalization Process
 
@@ -213,4 +213,4 @@ The law office of Tuan Le, Orange County, CA, offers you a step-by-step guide th
 process. Going through all these complicated steps with our experienced citizenship attorney on your side will make you
 feel relaxed and confident. He knows what it takes to pass these steps and become a US citizen.
 There is no need to be worried about the documents, filling out forms, the interview, the tests, etc., just give us a
-call at [(714) 877-5840](tel:+1-714-877-5840) and schedule an appointment. We will celebrate your citizenship together!
+call at [(714) 923-7190](tel:+1-714-923-7190) and schedule an appointment. We will celebrate your citizenship together!

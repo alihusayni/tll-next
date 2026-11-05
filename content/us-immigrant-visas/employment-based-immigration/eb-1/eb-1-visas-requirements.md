@@ -27,7 +27,7 @@ type of visa includes a few categories. Each of these subcategories sets out a f
 groups of candidates.
 In this EB-1 visas guide, you will learn about Its categories, requirements, EB-1 visa eligibility, It's benefits, how
 to apply for an EB-1 visa, and more. Read on to find out if you are eligible for this highly regarded immigrant visa.
-[Have an immigration consultation](tel:+1-714-877-5840) with our accomplished immigration attorney. You will find out
+[Have an immigration consultation](tel:+1-714-923-7190) with our accomplished immigration attorney. You will find out
 which type of US work visa is suitable for you.
 
 ## Different Categories and Qualifications of EB-1 Visas
@@ -81,7 +81,7 @@ Therefore, their US employer must be willing to petition for them to transfer th
 their U.S.-based branches. To learn more about this petition requirements
 see [here](https://www.uscis.gov/policy-manual/volume-6-part-f-chapter-4).
 Preparing your EB-1 visa evidence and documentation to conform with the USCIS requirements might require some
-experience. Ask a competent immigration lawyer for some help and [advice by phone call](tel:+1-714-877-5840).
+experience. Ask a competent immigration lawyer for some help and [advice by phone call](tel:+1-714-923-7190).
 
 #### EB-1 Visa Application Process
 
@@ -161,7 +161,7 @@ The documents needed for the EB-1 application process include
 * Any records of criminal background.
   Also, keep in mind that you might be required to provide more documents.
   **Ask your questions about EB-1 visa green card sponsorship right now. Our full-service law office is here to assist
-  you with [a free 30-minute consultation.](tel:+1-714-877-5840)**
+  you with [a free 30-minute consultation.](tel:+1-714-923-7190)**
 
 #### EB-1 Visa Application Fees
 
@@ -209,4 +209,4 @@ also speed up the process.
 The Law Office of Tuan Le is located in Orange County, CA. With years of experience, we are ready to help you with any
 type of visa planning, naturalization process, immigration consultation, green card application, and other immigration
 services.
-Contact us with a [phone call](tel:+1-714-877-5840) or through the [form below](#contact).
+Contact us with a [phone call](tel:+1-714-923-7190) or through the [form below](#contact).

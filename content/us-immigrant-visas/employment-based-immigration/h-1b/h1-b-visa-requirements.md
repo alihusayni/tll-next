@@ -43,7 +43,7 @@ knowledge. This means jobs in science, medicine, engineering, and other speciali
 
 Both the job and the applicant must meet some criteria to be eligible for an H1B visa. Otherwise, you need to consider
 other visa types. An experienced immigration attorney can help you in these situations.
-Call us at [(714) 877-5840](tel:+1-714-877-5840) for a free consultation with an H1B visa lawyer.
+Call us at [(714) 923-7190](tel:+1-714-923-7190) for a free consultation with an H1B visa lawyer.
 
 #### H1B Visa Requirements for the Applicant
 
@@ -153,7 +153,7 @@ of applying for an H1B visa, you need to pay attention to some key dates.
 An H1B visa initially lasts for 3 years with the option to extend it for another 3 years. However, it can be extended
 under some conditions even after the first 6 years. For example, when an H1B visa holder works only seasonally or lives
 abroad for more than half of the year.
-If you think you are exempt, call our H1B visa lawyer at [(714) 877-5840](tel:+1-714-877-5840) to learn what you need to
+If you think you are exempt, call our H1B visa lawyer at [(714) 923-7190](tel:+1-714-923-7190) to learn what you need to
 do to get your visa extended.
 
 #### How Much Does Registering and Applying for the H1B Visa Cost?
@@ -207,6 +207,6 @@ you may be able to extend your H1B visa even after the first 6 years.
 Whether you are an applicant or an employer, the H1B visa process can be confusing, and you need a law expert to help
 you with it. In this way, you will avoid getting rejected for technical reasons. Our accomplished H1B visa lawyer Orange
 County, CA can help you at any stage of the process or for the extension. If you are not in the region, you can always
-call us at [(714) 877-5840](tel:+1-714-877-5840) for a free consultation about the H1B visa requirements and application.
+call us at [(714) 923-7190](tel:+1-714-923-7190) for a free consultation about the H1B visa requirements and application.
 Check out our [other blog here](/us-immigrant-visas/employment-based-immigration/eb-2) to learn more about other
 types of visas suitable for employees.

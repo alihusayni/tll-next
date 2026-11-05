@@ -54,7 +54,7 @@ export const pages: ContentPage[] = [
 Many asylum seekers prefer to have an immigration lawyer by their side to guide them through the asylum application process and help them understand the US asylum law and asylum seekers rights. This professional help greatly improves their chance of getting approved.
 But, even if you hire an immigration attorney, it is crucial for you to know how the asylum process in the USA works.
 So, we are going to explain every step of the asylum seeker application process, asylum eligibility, the documentation and evidence, the asylum interview and screening process, and more. We will also answer some of your frequently asked questions about the asylum process in the US.
-Are you seeking asylum in the USA? Consult with an experienced immigration lawyer in Orange, CA for free. [Call to schedule an appointment](tel:+1-714-877-5840) .
+Are you seeking asylum in the USA? Consult with an experienced immigration lawyer in Orange, CA for free. [Call to schedule an appointment](tel:+1-714-923-7190) .
 
 ## Breaking Down the Application for Asylum Process
 
@@ -125,7 +125,7 @@ If the case is denied and the decision is final, the applicant:
 * or is deported/removed by the authorities.
 Let us represent you in the immigration court to make sure the evidence and testimonies are compelling enough.
 
- [Call to discuss your case more](tel:+1-714-877-5840)
+ [Call to discuss your case more](tel:+1-714-923-7190)
 
 #### FAQs Regarding Asylum Application in the US
 
@@ -180,14 +180,14 @@ No. The individual must be physically present in the US when applying for asylum
 Yes. After residing in the United States for a certain period of time and meeting some other requirements, refugees can obtain their green card or permanent residency. Then, after a period of time, they can obtain their US citizenship through the naturalization process.
 For more information see  [Paths to Become a US Citizen](https://www.tuanlelaw.com/citizenship-naturalization/become-a-us-citizen)  and  [A Guide to Naturalization Process](https://www.tuanlelaw.com/citizenship-naturalization/naturalization-filing-form-n-400) .
 The Law Office of Tuan Le offers a 30-minute free legal consultation to asylum seekers in the United States.
-[Call for more information.](tel:+1-714-877-5840)
+[Call for more information.](tel:+1-714-923-7190)
 
 #### Hire Our Accomplished Asylum Lawyer in Orange, CA
 
  [[cta]]
 
 We have discussed the intricate process of the application for asylum in the US. Dealing with legal issues can be daunting even for residents, let alone asylum seekers who are not completely familiar with legal procedures and even the English language.
-To make sure all the difficulties you are going through to achieve refugee status will pay off, hire Mr. Tuan Le, an experienced immigration lawyer in Orange, CA, to guide you through every step of the process. Call [(714) 877-5840](tel:+1-714-877-5840) to schedule an appointment.`,
+To make sure all the difficulties you are going through to achieve refugee status will pay off, hire Mr. Tuan Le, an experienced immigration lawyer in Orange, CA, to guide you through every step of the process. Call [(714) 923-7190](tel:+1-714-923-7190) to schedule an appointment.`,
   },
   {
     slug: `asylum-humanitarian-relief/asylum/asylum-seekers-rights-and-challenges`,
@@ -208,7 +208,7 @@ To make sure all the difficulties you are going through to achieve refugee statu
     readTime: `29 min read`,
     serviceBody: `As we are becoming more and more globalized, migration is also becoming more and more widespread. Nowadays, people decide to move to another country for various reasons. Most pursue legal migration by applying for a visa, while others do not have the chance to go through lengthy processes and have to leave their home country as soon as possible. These are called **asylum seekers**.
 Each country treats asylum seekers differently based on their law. In this article, we will discuss **asylum seeker rights and challenges** in the United States. We will see what **Medical, legal, and social services** are available to them. There are also some **support organizations** that help them overcome some of the challenges they are facing.
-Enjoy a **30-minute free consultation** with an experienced lawyer in Orange, California. [Call for more information](tel:+1-714-877-5840).
+Enjoy a **30-minute free consultation** with an experienced lawyer in Orange, California. [Call for more information](tel:+1-714-923-7190).
 
 ## Who Is an Asylum Seeker?
 'Asylum seeker' is a term used to refer to a person who has fled his/her home country and is seeking protection in another country. Under international law, any individual has the right to protect himself by seeking asylum in another country.
@@ -253,7 +253,7 @@ According to the non-refoulement principle, asylum seekers who are going to face
 
 #### Legal Representation
 Asylum seekers can hire an attorney to assist and represent them throughout the asylum application process. There are even some organizations and private immigration lawyers that offer low-cost or pro bono legal services to them. However, the government is not responsible for providing any legal representation for asylum seekers.
-Hire an accomplished immigration attorney to guide you in every step of your asylum application process. [Call to schedule an appointment](tel:+1-714-877-5840).
+Hire an accomplished immigration attorney to guide you in every step of your asylum application process. [Call to schedule an appointment](tel:+1-714-923-7190).
 
 
 
@@ -316,7 +316,7 @@ In addition, their kids usually have a lot of challenges accessing education whi
 Besides all these, in some communities, asylum seekers suffer from discrimination and stigmatization which can make the whole process intolerable for them. Besides, they need to manage the distressing emotions and anxiety due to instability, uncertainty, and fear of deportation.
 Therefore, getting help from support organizations and legal counseling seem necessary for making the situation easier and the processing time shorter.
 Get help from an immigration lawyer in California to overcome some of these challenges more easily and avoid delays in the application process.
-[CALL NOW!](tel:+1-714-877-5840)
+[CALL NOW!](tel:+1-714-923-7190)
 
 #### Support Organizations for Asylum Seekers
 Fortunately, there are various support organizations and NGOs for asylum seekers across the country. We have tried to categorize some of the most important ones here based on the services and supports they offer. Please note that some of these organizations provide services in different categories.
@@ -360,7 +360,7 @@ Find better shelters and improve your living conditions with the help of the org
 
 #### Consult with an Immigration Attorney in Orange, CA
 As we have discussed in this article, there are both benefits and challenges on the way of asylum seekers in the United States. Besides, the interview process, the documentation requirements, and other steps of the application can be confusing, especially for a newcomer who is not familiar with not only the English language but also the immigration laws and regulations in each state.
-So, the [Law Office of Tuan Le](#about-us) is here to provide legal assistance to asylum seekers in Orange, California. You can even have a free consultation with our accomplished immigration lawyer. Call  [714-877-5840](tel:+1-714-877-5840) for more information.`,
+So, the [Law Office of Tuan Le](#about-us) is here to provide legal assistance to asylum seekers in Orange, California. You can even have a free consultation with our accomplished immigration lawyer. Call  [714-923-7190](tel:+1-714-923-7190) for more information.`,
   },
   {
     slug: `asylum-humanitarian-relief`,
@@ -447,7 +447,7 @@ Reliable resources are essential to keep abreast of immigration policy changes. 
 like border control, immigration detention, and family separation.
 Are you affected by immigration policies? You're not alone. Tuan Le Law Office can help clarify your legal status and
 guide you through the path to reform. Stand with us as we strive for a future where every individual has access to the
-rights and resources they need. Reach out to us at [714-877-5840](tel:+1-714-877-5840)
+rights and resources they need. Reach out to us at [714-923-7190](tel:+1-714-923-7190)
 
 #### Living in Constant Fear: The Daily Realities of Undocumented Life
 
@@ -528,7 +528,7 @@ evidence can strengthen your position when seeking future opportunities.
 With immigration policies in a state of flux, staying informed about changes is imperative. Understanding your options
 will equip you to adapt to new scenarios, ensuring you're ready for whatever comes next.
 At Tuan Le Law Office, your journey towards a brighter future begins today. Cast off the weight of worry and call us
-at [714-877-5840](tel:+1-714-877-5840) for a consultation. Together, well set sail toward a future filled with hope and
+at [714-923-7190](tel:+1-714-923-7190) for a consultation. Together, well set sail toward a future filled with hope and
 security.
 
 #### Advocating for Change: Empowering Undocumented Immigrants
@@ -618,7 +618,7 @@ immigration attorney can empower you to understand your rights, explore potentia
 chart a course toward a more secure future.
 Tuan Le Law Office in Orange County, CA, is dedicated to providing comprehensive legal support to undocumented
 immigrants. Our team of experienced attorneys possesses the legal expertise to help you navigate the intricacies of
-immigration law. Don't hesitate to reach out to us at [714-877-5840](tel:+1-714-877-5840) for a consultation. Together, we
+immigration law. Don't hesitate to reach out to us at [714-923-7190](tel:+1-714-923-7190) for a consultation. Together, we
 can work towards a brighter future.`,
   },
   {
@@ -690,7 +690,7 @@ The same rule might apply to those with only one U.S. citizen parent. If they we
 Those born to a U.S. citizen parent between October 10, 1952, to November 14, 1986, should also meet the above-mentioned criteria but there is a difference. The citizen parent must have lived in the U.S. for a minimum of 10 years, 5 years of which must have been after the age of 14.
 If you meet these requirements, you can apply for the U.S. citizenship certificate by filing *Form N-600, Application for Certificate of Citizenship.* The fee for filing this form is currently $1170. Those who are serving in the U.S. military are exempt from it. Click [here](https://www.uscis.gov/n-600) to submit it online.
 Need help with filling out Form N-600? Schedule an appointment to meet our citizenship attorney in Orange County, CA.
-[Get Started!](tel:+1-714-877-5840)
+[Get Started!](tel:+1-714-923-7190)
 
 #### What Is Naturalization in Becoming a U.S. Citizen?
 Eligible immigrants living in the U.S. can apply for U.S. citizenship through the naturalization process. The process can take a minimum of a year and a half up to two years depending on your location. During this time, you have to go through different steps, including filing Form N-400, a civics test, an English test, an interview, the oath of allegiance, etc.
@@ -745,7 +745,7 @@ To apply for naturalization and go through Its steps, you are not required to hi
 * you can save time,
 * you do not have to worry about the language barrier if you are not fluent in English or are not familiar with legal terms.
 *The Law Office of tuan le*in Orange County is here to help you become a U.S. citizen. Our experienced naturalization attorney provides you legal assistance in knowing if you are eligible or not, how and when to apply, what kind of proof and documentation you need for each step, how to pass the exams and the interview successfully if you can be exempt from the exam or fees, and any other help you will need on this long journey.
-Give us a call at [(714) 877-5840](tel:+1-714-877-5840) or fill out the form below so we contact you.`,
+Give us a call at [(714) 923-7190](tel:+1-714-923-7190) or fill out the form below so we contact you.`,
   },
   {
     slug: `citizenship-naturalization/naturalization-filing-form-n-400`,
@@ -775,7 +775,7 @@ To successfully pass each step and get your citizenship, you should learn about 
 and knowledge. Read on to get more familiar with the path ahead of you.
 Aspiring US citizens are recommended to consult with a citizenship lawyer to make sure their application will be
 approved. Call for a free consultation.here.
-[Get Started!](tel:+1-714-877-5840)
+[Get Started!](tel:+1-714-923-7190)
 
 ## Naturalization Process, a Step-by-Step Explanation
 
@@ -850,7 +850,7 @@ If you have decided to fill out the Form N-400 by yourself, keep the following t
 * Review your form before submission and make sure you have signed the form.
   A naturalization lawyer knows how to fill out the form and gather the required documents in the way the USCIS prefers.
   Schedule an appointment to visit our citizenship lawyer in Orange County, CA.here.
-  [Get Started!](tel:+1-714-877-5840)
+  [Get Started!](tel:+1-714-923-7190)
 
 #### Biometrics Requirement
 
@@ -922,7 +922,7 @@ citizen. If you lose it, you will have to pay for the replacement and go through
   other errors before leaving the premise. If you find anything, you should inform the officials there.
 
 Do you still have questions about the naturalization steps? Contact a green card lawyer now.
-[Get Started!](tel:+1-714-877-5840)
+[Get Started!](tel:+1-714-923-7190)
 
 #### Timeline of the Naturalization Process
 
@@ -959,7 +959,7 @@ The law office of Tuan Le, Orange County, CA, offers you a step-by-step guide th
 process. Going through all these complicated steps with our experienced citizenship attorney on your side will make you
 feel relaxed and confident. He knows what it takes to pass these steps and become a US citizen.
 There is no need to be worried about the documents, filling out forms, the interview, the tests, etc., just give us a
-call at [(714) 877-5840](tel:+1-714-877-5840) and schedule an appointment. We will celebrate your citizenship together!`,
+call at [(714) 923-7190](tel:+1-714-923-7190) and schedule an appointment. We will celebrate your citizenship together!`,
   },
   {
     slug: `deportation-defense/immigration-court-defense-strategies`,
@@ -990,7 +990,7 @@ To make you more familiar with defense strategies in immigration court and help 
 in a court session, we are reviewing the most practical immigration court defense strategies that can help you win in
 simple words.
 **Are you trying to prepare for your upcoming immigration court hearing? Get free advice from an experienced immigration
-lawyer with a [phone call](tel:+1-714-877-5840).**
+lawyer with a [phone call](tel:+1-714-923-7190).**
 
 ## Immigration Court System in the United States
 
@@ -1126,7 +1126,7 @@ You should pay 110$ for an immigration appeal to the BIA and the process can tak
 If you decide to waive your right to appeal, you must leave the US immediately. So, consult with your immigration lawyer
 about your options before the judgment is issued.
 **Are you looking for a highly-skilled lawyer in immigration court proceedings? Mr. Tuan Le is our accomplished
-immigration attorney in Orange County, CA.[Call to schedule an appointment](tel:+1-714-877-5840).**
+immigration attorney in Orange County, CA.[Call to schedule an appointment](tel:+1-714-923-7190).**
 
 #### Get Help with Your Immigration Court Hearings
 
@@ -1140,7 +1140,7 @@ immigration court hearings and assist you in understanding the procedure, the op
 and planning a strong defense strategy.
 You may also need advice about the naturalization process, family-based immigration, employment-based immigration, and
 other types of immigration and visas. Whatever you need, our professional team is here for you.
-Call us at [(714) 877-5840](tel:+1-714-877-5840) to schedule an appointment. You can also fill out the form below, we will
+Call us at [(714) 923-7190](tel:+1-714-923-7190) to schedule an appointment. You can also fill out the form below, we will
 reach out to you.`,
   },
   {
@@ -1173,7 +1173,7 @@ Office in Orange, CA,](#about-us) who are dedicated to securing favorable outcom
 variety of relief options. The article is a valuable resource for individuals and legal professionals alike, emphasizing
 due process and the vigorous protection of non-citizen rights.
 Take the first step towards building a strong defense and securing your future in the United States with Tuan Le, in
-Orange, CA. [Call now](tel:+1-714-877-5840) to schedule a consultation and explore your options.
+Orange, CA. [Call now](tel:+1-714-923-7190) to schedule a consultation and explore your options.
 
 ## Understanding Deportation Law: The Legal Framework of Removal Proceedings
 
@@ -1289,7 +1289,7 @@ push for universal legal representation highlights the importance of due process
 immigrants to assert their rights fully.
 Don't let the threat of deportation determine your future. The right legal representation is your strongest ally in the
 fight to remain in the United States. If you or a loved one are facing removal proceedings, act now to secure the
-expertise of a dedicated immigration attorney. [Call now](tel:+1-714-877-5840)
+expertise of a dedicated immigration attorney. [Call now](tel:+1-714-923-7190)
 
 #### Common Grounds for Deportation
 
@@ -1449,7 +1449,7 @@ humanitarian angle to build a strong defense. Their advocacy extends to appeals,
 immigrants.
 For those in need of such legal assistance, Tuan Le Law Office stands ready to offer Its services. With a deep
 understanding of immigration law and a commitment to their clients, they are well-equipped to
-help. [Reach out to Tuan Le Law Office](tel:+1-714-877-5840) for a consultation and take the first step towards a
+help. [Reach out to Tuan Le Law Office](tel:+1-714-923-7190) for a consultation and take the first step towards a
 strong defense.`,
   },
   {
@@ -1531,7 +1531,7 @@ At the Law Office of Tuan Le, we give each of our clients personalized attention
 Our immigration attorney has represented a wide variety of immigration matters for individuals and won removal proceedings. Through our immigration law experience, commitment to each case, and our resilience, we have also helped numerous clients legally stay in the United States.
 
 #### Talk to an Immigration Attorney
-[The Law Office of Tuan Le](#about-us) offers you the most essential thing that you expect of an immigration lawyer – honesty and integrity. Since 2010, Mr. Tuan Le has represented clients across the United States in numerous immigration matters. He has therefore helped them stay in the US legally. If you are struggling to find the most ideal solution to your specific immigration issue or facing a removal proceeding, give our office a [quick phone call and schedule your consultation](tel:+1-714-877-5840) right away.`,
+[The Law Office of Tuan Le](#about-us) offers you the most essential thing that you expect of an immigration lawyer – honesty and integrity. Since 2010, Mr. Tuan Le has represented clients across the United States in numerous immigration matters. He has therefore helped them stay in the US legally. If you are struggling to find the most ideal solution to your specific immigration issue or facing a removal proceeding, give our office a [quick phone call and schedule your consultation](tel:+1-714-923-7190) right away.`,
   },
   {
     slug: `resources/a-path-to-legalization-for-undocumented-immigrants`,
@@ -1577,7 +1577,7 @@ Some efforts over the past year have succeeded in reversing hardline measures fr
 The most sweeping impact of the Biden presidency in immigration policy can be seen in the new approaches to interior immigration enforcement or the way Immigration and Customs Enforcement makes arrests.
 While the prior administration openly explained an enforcement crackdown as a necessary means of deterrence, Biden's security officials have terminated long-term family detention and discontinued workplace raids. ICE arrests have been cut in half compared to the final year of the Trump presidency and the detained immigrant population is the lowest since 1999.
 But at the border, it's how the administration has managed new waves of unauthorized migration where the administration has faced immense challenges and objections from a wide range of political perspectives.
-[Call the Law Office of Tuan Le](tel:+1-714-877-5840) if you want to consult about your immigration process into the United States.`,
+[Call the Law Office of Tuan Le](tel:+1-714-923-7190) if you want to consult about your immigration process into the United States.`,
   },
   {
     slug: `resources/common-immigration-questions-answered-immigration-lawyer`,
@@ -1598,12 +1598,12 @@ But at the border, it's how the administration has managed new waves of unauthor
     readTime: `26 min read`,
     serviceBody: `Every day, at our law office in Orange, CA, we receive many questions about different aspects of US immigration law and policy, which isn't surprising given the complexity of the immigration process in the USA and the ever-changing nature of the policies here. So, our experienced immigration attorney is answering some of the most common immigration questions in simple words in this article to help you make better sense of the legal process.
 Whether you're seeking a US visa, green card, or citizenship, the Law Office of Tuan Le in Orange, CA, is here to help you take confident steps forward.
-Get started with a [free consultation](tel:+1-714-877-5840) today!**
+Get started with a [free consultation](tel:+1-714-923-7190) today!**
 
 ## 12 US Common Immigration Questions Answered
 The complicated laws, overwhelming and time-consuming paperwork, and unfamiliar legal terms make many applicants feel lost in the process. However, you're not alone. A trustworthy immigration lawyer can easily handle your case and be by your side throughout the whole process.
 We've compiled the top immigration law questions we receive and answered them below to save you some time and help you understand your options more clearly.
-If you can't find the answers you're looking for, feel free to call us at [(714) 877 5840](tel:+1-714-877-5840) for a free consultation.
+If you can't find the answers you're looking for, feel free to call us at [(714) 923 7190](tel:+1-714-923-7190) for a free consultation.
 
 ### 1. How Can I Get a Green Card?
 To apply for your [ lawful permanent residency or Green Card](https://www.uscis.gov/green-card), you have a few options:
@@ -1682,13 +1682,13 @@ In most cases, the answer is yes. If you apply and [get an EAD (Employment Autho
 Depending on the case, personal circumstances, and the service center, the processing times vary greatly, from a few months to a few years.
 You can see an [estimate of USCIS's different case processing times here](https://egov.uscis.gov/processing-times/).
 Looking for an experienced immigration attorney in Orange, CA? The Law Office of Tuan Le will be by your side every step of the way.**
-[Call now to schedule an appointment.](tel:+1-714-877-5840)
+[Call now to schedule an appointment.](tel:+1-714-923-7190)
 
 #### How Can a US Immigration Lawyer Help You?
 In any country and language, understanding legal options and policies, filing paperwork, and attending court hearings, trials, and embassy interviews are confusing and complicated unless you have a good handle on the law and its language.
 So, as a foreigner in the US, especially if English isn't your first language, it's almost impossible to go through such legal processes without a problem all alone. That's why, to avoid costly mistakes, deportation risk, or any other similar issues, you'll need a certified immigration lawyer by your side.
 Mr. Tuan Le, in Orange, California, is an experienced lawyer in different visa applications, green card applications, naturalization, asylum application, immigration court, and other legal matters non-native individuals in the US might face.
-You can call [(714) 877 5840](tel:+1-714-877-5840) or fill out the contact form and start with a free 30-minute consultation.`,
+You can call [(714) 923 7190](tel:+1-714-923-7190) or fill out the contact form and start with a free 30-minute consultation.`,
   },
   {
     slug: `resources/coronavirus-cases-increased-among-detained-immigrants`,
@@ -1712,7 +1712,7 @@ The number of coronavirus cases among immigrants in detention centers has increa
 ICE monitored and isolated 1,766 immigrants due to confirmed COVID-19 infections, which is a sixfold jump from January 3, when there were 285 active cases.
 8% of the 22,000 immigrants ICE is currently holding in its network of 200 detention centers, county jails, and for-profit prisons have coronavirus. ICE has reported 11 coronavirus-related deaths of detainees.
 The officials said they expected this surge due to the Omicron variant. Many immigration activists worry about ICE's detainee vaccination campaign, a significant vaccine refusal rate, frequent facility-to-facility transfers, and the agency's decision to keep thousands of immigrants with underlying medical conditions in detention.
-[Call the Law Office of Tuan Le](tel:+1-714-877-5840) if you think you have issues with your immigration process and want to be represented by an experienced immigration lawyer.`,
+[Call the Law Office of Tuan Le](tel:+1-714-923-7190) if you think you have issues with your immigration process and want to be represented by an experienced immigration lawyer.`,
   },
   {
     slug: `resources/dhs-stops-releasing-migrants-without-court-date`,
@@ -1767,7 +1767,7 @@ eligible, to get your work permit (also known as EAD) to present to employers as
 authorized to work in this country. This can happen by filing Form I-765, Application for Employment Authorization,
 whether online or by mail.
 Before applying for an EAD, you should know if you are eligible to avoid wasting time and money. Read on to find out or
-simply give us a call at [(714) 877 5840](tel:+1-714-877-5840) for a free consultation with an immigration attorney.
+simply give us a call at [(714) 923 7190](tel:+1-714-923-7190) for a free consultation with an immigration attorney.
 
 ### Eligibility for Filing Form I-765
 
@@ -1786,7 +1786,7 @@ Students visas do not usually allow them to work while studying . Although, ther
   granted a work permit.
 * J1 visa holders dependents (spouses and children) are also qualified for application for employment authorization.
 * Individuals who study at vocational schools can get an EAD to get more training.
-  For more details call us at [(714) 877 5840](tel:+1-714-877-5840) for a consultation.
+  For more details call us at [(714) 923 7190](tel:+1-714-923-7190) for a consultation.
 
 #### Asylees and Refugees and Their Dependents
 
@@ -1893,7 +1893,7 @@ The required documents to request an EAD include:
   Based on your status, you might need some of these documents. However, individuals from Guatemala and El Salvador,
   asylum applicants, and CNMI-only investors spouses may be needed to present additional documents.
   Check out the [USCIS website](https://www.uscis.gov/i-765) for more details or pick up your phone and consult with our
-  immigration attorney at [(714) 877 5840](tel:+1-714-877-5840).
+  immigration attorney at [(714) 923 7190](tel:+1-714-923-7190).
 
 #### How to Apply for Employment Authorization Using Form I-765?
 
@@ -1970,7 +1970,7 @@ If you need to file form I-765, Application for Employment Authorization, you ca
 guide you throughout the process. Our law office has handled numerous immigration cases is fully experienced in such
 matters.
 Although our office is located in Orange County, California, our office can take your case no matter where you are in
-the United States. Call us at [(714) 877 5840](tel:+1-714-877-5840) to schedule an appointment or get half an hour of free
+the United States. Call us at [(714) 923 7190](tel:+1-714-923-7190) to schedule an appointment or get half an hour of free
 consultation.`,
   },
   {
@@ -1992,7 +1992,7 @@ consultation.`,
     readTime: `31 min read`,
     serviceBody: `Applying for a U.S. visa, green card, or citizenship through the United States Citizenship and Immigration Services (USCIS) can feel like watching paint dry-especially when you're racing against time. Whether you're chasing a work visa deadline, reuniting with family, or securing permanent residency, delays can turn an already stressful process into a nightmare. Fortunately, you don't have to sit idly by. With the right strategies, you *can* learn how to speed up your immigration case and sidestep unnecessary holdups.
 In this comprehensive guide, we'll walk you through 6 proven tips to expedite your USCIS case-whether it's a visa application, green card petition, or naturalization process. These actionable steps will save you time, reduce stress, and boost your chances of approval. Plus, we'll break down the factors that slow USCIS down and answer your burning questions about fast-tracking your case.
-Ready to take control and get results faster? [Call](tel:+1-714-877-5840) the Law Office of Tuan Le in Orange, CA, for a free consultation today-our experienced immigration lawyer is here to help you every step of the way.
+Ready to take control and get results faster? [Call](tel:+1-714-923-7190) the Law Office of Tuan Le in Orange, CA, for a free consultation today-our experienced immigration lawyer is here to help you every step of the way.
 
 ## Common Causes of USCIS Delays: What Slows Down Your Case?
 Before we dive into how to speed up your immigration case, it's worth understanding why delays happen in the first place. The U.S. immigration system is complex, and processing times can stretch from weeks to years depending on a variety of factors. Knowing these obstacles upfront empowers you to anticipate issues, avoid pitfalls, and take proactive steps to keep your case on track.
@@ -2059,7 +2059,7 @@ Here's how they help:
 * **Faster RFE Responses:** Attorneys know how to tackle RFEs quickly and correctly.
 * **Expedite Expertise:** They can identify when you qualify for premium or expedited processing and handle the paperwork.
 * **Peace of Mind:** With a pro in your corner, you can focus on life instead of stressing over forms.
-Immigration law is a maze-complex rules, endless forms, and shifting deadlines can trip up even the savviest applicants. A lawyer navigates it all, boosting your odds of approval while cutting wait times. Ready to dodge common pitfalls? Schedule a consultation with us today at [(714) 877-5840](tel:+1-714-877-5840).
+Immigration law is a maze-complex rules, endless forms, and shifting deadlines can trip up even the savviest applicants. A lawyer navigates it all, boosting your odds of approval while cutting wait times. Ready to dodge common pitfalls? Schedule a consultation with us today at [(714) 923-7190](tel:+1-714-923-7190).
 
 #### FAQs About Speeding Up Your Immigration Case
 Got questions about how to speed up your immigration case? We've got answers. Here's what our clients ask most often:
@@ -2101,7 +2101,7 @@ Not necessarily. Filing early helps if you beat a backlog or policy change, but 
 
 #### Why Choose the Law Office of Tuan Le in Orange, CA?
 When it comes to speeding up your immigration case, experience matters. At the [Law Office of Tuan Le](#about-us) in Orange, CA, we've helped countless clients fast-track their visa applications, green card petitions, naturalization processes, work permits, asylum cases, and more. Our seasoned immigration attorney knows the ins and outs of USCIS, delivering tailored strategies to cut through red tape and get results.
-Don't let delays derail your dreams. Call us at [(714) 877-5840](tel:+1-714-877-5840) or fill out our contact form today-your faster future starts with one conversation. From initial filing to final approval, we're here to make your USCIS journey smoother, quicker, and stress-free.
+Don't let delays derail your dreams. Call us at [(714) 923-7190](tel:+1-714-923-7190) or fill out our contact form today-your faster future starts with one conversation. From initial filing to final approval, we're here to make your USCIS journey smoother, quicker, and stress-free.
 
 #### Final Thoughts: Take Charge of Your Immigration Timeline
 The USCIS process doesn't have to be a waiting game. By submitting flawless applications, leveraging premium or expedited processing, responding to RFEs promptly, staying informed, and enlisting expert help, you can master how to speed up your immigration case. Each step brings you closer to your goal-whether it's a new job, a reunited family, or U.S. citizenship.
@@ -2162,7 +2162,7 @@ status. Whether you are applying for a visa, permanent residency,
 or [naturalization](https://www.tuanlelaw.com/citizenship-naturalization/become-a-us-citizen), our experienced immigration
 attorney can help ensure your paperwork is completed correctly.
 If you want to avoid unnecessary delays and legal complications,
-schedule [a free 30-minute consultation](tel:+1-714-877-5840) today with our expert immigration lawyer in Orange, CA.
+schedule [a free 30-minute consultation](tel:+1-714-923-7190) today with our expert immigration lawyer in Orange, CA.
 
 ### Avoid Leaving Blank Fields on Immigration Paperwork
 
@@ -2234,7 +2234,7 @@ renewals, advance parole, or visa extensions, is essential for avoiding legal in
 Missing a deadline can have long-term consequences, including the denial of immigration benefits and removal proceedings
 in extreme cases. To ensure compliance and prevent delays, The Law Office of Tuan Le provides expert legal guidance and
 comprehensive case tracking.
-If you need assistance meeting USCIS deadlines or responding to an RFE,[ contact us](tel:+1-714-877-5840) today for a
+If you need assistance meeting USCIS deadlines or responding to an RFE,[ contact us](tel:+1-714-923-7190) today for a
 free consultation to keep your immigration process on track.
 
 #### Ensuring Correct Fee Payment for Immigration Form Submissions
@@ -2306,7 +2306,7 @@ To stay organized and ensure easy access to your immigration records, follow the
   adjustments of status, or naturalization petitions. If USCIS issues an RFE or an audit, having a well-organized copy
   of your previous submissions will help you respond quickly and accurately, preventing further delays.
   If you need assistance with organizing your immigration documents, preparing a well-structured submission, or
-  responding to USCIS inquiries, [The Law Office of Tuan Le](tel:+1-714-877-5840) is here to help. Our experienced
+  responding to USCIS inquiries, [The Law Office of Tuan Le](tel:+1-714-923-7190) is here to help. Our experienced
   immigration attorney can guide you through the entire process, ensuring that your paperwork is complete, accurate, and
   properly stored for future reference.
 
@@ -2407,7 +2407,7 @@ the [USCIS Case Status Tool](https://egov.uscis.gov/casestatus/landing.do). To c
   assistance to determine the best course of action.
   Navigating the immigration process can be challenging, but avoiding mistakes and staying informed can significantly
   improve your chances of a smooth application experience. If you have any concerns about your
-  application, [The Law Office of Tuan Le ](tel:+1-714-877-5840) is here to help.
+  application, [The Law Office of Tuan Le ](tel:+1-714-923-7190) is here to help.
 
 #### Get Legal Advice from an Experienced Immigration Lawyer in Orange, CA
 
@@ -2447,7 +2447,7 @@ be and are committed to guiding you every step of the way. In this article, well
 detailed checklist, and expert advice on how to strengthen your immigration case. you'll learn how to avoid common
 mistakes and how to present a well-organized, complete application that will put you on the right track. Don't let paperwork errors delay your dreams. If you want to ensure your immigration application is strong and
 error-free, call Tuan Le Law
-at [714-877-5840](tel:+1-714-877-5840)to schedule a consultation with the best immigration lawyer near you in Orange
+at [714-923-7190](tel:+1-714-923-7190)to schedule a consultation with the best immigration lawyer near you in Orange
 County, CA
 
 ## Understanding the Immigration Application Process
@@ -2572,7 +2572,7 @@ Many green card applicants are required to attend an in-person interview with a 
 you will be asked questions regarding your application. It's important to review your entire application beforehand and
 be prepared to answer questions related to your personal history, employment, and reasons for applying By following these steps and staying organized, you can successfully navigate the green card application process.
 At [Tuan Le Law](#contact), we guide you through each phase, ensuring your application is completed
-correctly and submitted on time Ready to take the next step? Call at [714-877-5840](tel:+1-714-877-5840) to get professional legal help for your
+correctly and submitted on time Ready to take the next step? Call at [714-923-7190](tel:+1-714-923-7190) to get professional legal help for your
 immigration application.
 
 #### Immigration Interview Preparation Tip
@@ -2755,7 +2755,7 @@ The Scott Insurance discriminated requested that the person present a specific d
 The justice department also found that the insurance company routinely discriminated against non-U.S. citizens by failing to consider and hire them due to their citizenship status.
 The anti-discrimination provision of the Immigration and Nationality Act (INA) protects U.S. citizens, non-U.S. citizen nationals, refugees, asylees, and recent lawful permanent residents from hiring discrimination based on their citizenship status.
 Under the settlement, Scott Insurance will pay $9,500 in civil penalties to the United States, and up to $70,000 in back pay to affected workers. Scott Insurance will also have to train employees on the requirements of the INA's anti-discrimination provision.
-[Call the Law Office of Tuan Le](tel:+1-714-877-5840) in Orange, CA if you have been discriminated by any company and need legal advice.`,
+[Call the Law Office of Tuan Le](tel:+1-714-923-7190) in Orange, CA if you have been discriminated by any company and need legal advice.`,
   },
   {
     slug: `resources/new-immigration-guidelines`,
@@ -2872,7 +2872,7 @@ For conditional residents who want to stay outside of the United States for a ye
 The factors behind this shortage might be the fear of infection, child care, or worker burnout, but less immigration has played a big role here. There were more than 1 million immigrants in 2016, which has declined to 247,000 immigrants this past year.
 Some industries have been hit harder because of this shortage, i.e. jobs that immigrants tend to fill, including serving industries, serving food, and construction jobs. It doesn't mean that all construction workers are immigrants, but it makes it harder for employees to find job seekers.
 Another reason for worker shortages is that native-born workers seek a higher wage and do not accept the low-wage jobs despite immigrants.
-If you want to migrate to the United States, [call the Law Office of Tuan Le](tel:+1-714-877-5840) to have an immigration consultation.`,
+If you want to migrate to the United States, [call the Law Office of Tuan Le](tel:+1-714-923-7190) to have an immigration consultation.`,
   },
   {
     slug: `resources/u-s-immigration-agency-to-bring-back-the-nation-of-immigrants-label`,
@@ -2895,7 +2895,7 @@ If you want to migrate to the United States, [call the Law Office of Tuan Le](te
 The Trump administration statement read, "U.S. Citizenship and Immigration Services administers the nation's lawful immigration system, safeguarding its integrity and promise by efficiently and fairly adjudicating requests for immigration benefits while protecting Americans, securing the homeland, and honoring our values."
 The new mission statement brings back the "nation of immigrants" label, calling the U.S. "a nation of welcome and possibility". It reflects the Biden administration's "commitment to an immigration system that is accessible and humane."
 The Biden administration replaced the Trump-era mission statement with a shorter, though significantly different one: "USCIS upholds America's promise as a nation of welcome and possibility with fairness, integrity, and respect for all we serve."
-If you are in need of an immigration consultation, [call the Law Office of Tuan Le](tel:+1-714-877-5840) in Orange, CA.`,
+If you are in need of an immigration consultation, [call the Law Office of Tuan Le](tel:+1-714-923-7190) in Orange, CA.`,
   },
   {
     slug: `resources/undocumented-immigrants-left-helpless`,
@@ -2918,7 +2918,7 @@ If you are in need of an immigration consultation, [call the Law Office of Tuan 
 Months later, the government has not been able to complete the processing began at the border, showing how ill-prepared the system was for the surge and creating a practical and political quagmire for the Biden administration.
 Migrants were arrested crossing the southwest border illegally [more than two million times](https://www.nytimes.com/2021/10/22/us/politics/border-crossings-immigration-record-high.html) between December 2020 and December 2021 – [the largest number](https://www.nytimes.com/2021/03/16/us/politics/biden-immigration.html) since at least 1960 – more than 400,000 of them were released into the country for a variety of reasons during Mr. Biden's first year in office.
 These migrants were instructed to register with Immigrations and Customs Enforcement within 60 days to complete the process the border officials started. But in some parts of the country, local ICE offices were overwhelmed and unable to give them appointments.
-If you are willing to immigrate to the United States and need some advice, [call the law office of Tuan Le](tel:+1-714-877-5840).`,
+If you are willing to immigrate to the United States and need some advice, [call the law office of Tuan Le](tel:+1-714-923-7190).`,
   },
   {
     slug: `resources/us-immigration-policy-2025`,
@@ -2939,7 +2939,7 @@ If you are willing to immigrate to the United States and need some advice, [call
     readTime: `29 min read`,
     serviceBody: `If you're planning to immigrate to the United States in 2025, understanding the potential changes in immigration policies is crucial. With a new administration led by President-elect Donald Trump, significant shifts in U.S. immigration laws are expected. These changes could impact individuals and businesses navigating the complex immigration system.
 Based on past policies during Trump's first term and recent developments, experts anticipate updates that may tighten visa requirements, affect asylum seekers, and reshape employment-based immigration. This blog explores the most critical updates and predictions for U.S. immigration policy in 2025, offering insights to help you stay informed and prepared.
-Whether you're applying for a visa, seeking asylum, or managing a business dependent on immigrant labor, knowing what to expect can help you avoid delays and legal challenges. At Tuan Le Law, our experienced immigration attorney is here to guide you through these uncertainties at [714-877-5840](tel:+1-714-877-5840).
+Whether you're applying for a visa, seeking asylum, or managing a business dependent on immigrant labor, knowing what to expect can help you avoid delays and legal challenges. At Tuan Le Law, our experienced immigration attorney is here to guide you through these uncertainties at [714-923-7190](tel:+1-714-923-7190).
 
 ## Why 2025 Marks a Turning Point for U.S. Immigration Policy
 The year 2025 is expected to bring pivotal changes to U.S. immigration policy, largely driven by a combination of political, economic, and global factors. With the inauguration of President-elect Donald Trump, immigration policy is poised to reflect the administration's "America First" priorities, which emphasize tighter border security and stricter immigration enforcement. Below are the key factors that make 2025 a critical year for reshaping U.S. immigration laws and regulations.
@@ -3000,7 +3000,7 @@ Given the uncertainty surrounding the implementation of Project 2025, preparatio
 
 #### Expert Guidance to Navigate the Changes
 At Tuan Le Law, we understand the challenges posed by shifting immigration policies. Whether you're concerned about deportations, visa applications, or asylum eligibility, our experienced immigration attorney is here to provide personalized legal assistance.
-[Call us](tel:+1-714-877-5840) today or fill out our online form to schedule a free consultation. With the right support, you can navigate the complexities of U.S. immigration law in 2025 with confidence and clarity.
+[Call us](tel:+1-714-923-7190) today or fill out our online form to schedule a free consultation. With the right support, you can navigate the complexities of U.S. immigration law in 2025 with confidence and clarity.
 Staying prepared and seeking professional legal help can make all the difference as these anticipated changes unfold.
 
 #### FAQs About U.S. Immigration Policy in 2025
@@ -3040,7 +3040,7 @@ Staying informed is crucial. Follow updates from reliable sources like governmen
 
 #### Need Help with U.S. Immigration in 2025? We're Here for You
 At Tuan Le Law, we specialize in helping individuals, families, and businesses navigate the complexities of U.S. immigration law. Whether you're concerned about changes to visa requirements, asylum applications, or family sponsorships, our experienced attorney is here to provide personalized guidance.
-[Call us](tel:+1-714-877-5840) today for a free consultation and ensure you're fully prepared for the upcoming shifts in U.S. immigration policy. Let us help you achieve your immigration goals with clarity and confidence.`,
+[Call us](tel:+1-714-923-7190) today for a free consultation and ensure you're fully prepared for the upcoming shifts in U.S. immigration policy. Let us help you achieve your immigration goals with clarity and confidence.`,
   },
   {
     slug: `us-immigrant-visas/consular-processing`,
@@ -3072,7 +3072,7 @@ the steps and requirements, and the potential benefits and challenges of this me
 the U.S. and avoid common pitfalls.
 **Our expert immigration lawyer will help you get a U.S. green card, no matter where you are. The Law Office of Tuan Le
 in Orange, CA, offers a 30-minute free legal consultation to anyone who wants to apply for consular
-processing.[Call us today at (714) 877-5840](tel:+1-714-877-5840)
+processing.[Call us today at (714) 923-7190](tel:+1-714-923-7190)
 or [fill out the form to schedule your appointment](#contact) fill out the form to schedule your appointment.**
 
 ## **Are You Eligible for Consular Processing?**
@@ -3196,7 +3196,7 @@ packet to the US Customs and Border Protection (CBP) officer at the entry point 
 check you and decide if you can become a permanent resident in the US. This will be the final step to get permanent
 resident status.
 **Hire the best immigration attorney to guide you through every step of your consular processing
-application. [Call to schedule an appointment](tel:+1-714-877-5840).**
+application. [Call to schedule an appointment](tel:+1-714-923-7190).**
 
 #### **Pros and Cons of Consular Processing**
 
@@ -3308,7 +3308,7 @@ and health and criminal screenings. Therefore, before choosing this method, you 
 and consult with an expert immigration lawyer.
 [The Law Office of Tuan Le](#about-us) in Orange, CA, can help you with your consular
 processing application and guide you through the process step by
-step. [Call us now for a free 30-minute consultation](tel:+1-714-877-5840).`,
+step. [Call us now for a free 30-minute consultation](tel:+1-714-923-7190).`,
   },
   {
     slug: `us-immigrant-visas/diversity-visa-lottery/visa-application`,
@@ -3329,7 +3329,7 @@ step. [Call us now for a free 30-minute consultation](tel:+1-714-877-5840).`,
     readTime: `10 min read`,
     serviceBody: `Have you ever dreamed of living and working in the United States? The Diversity Visa (DV) Lottery Program presents a unique pathway to make that dream a reality. Each year, the U.S. government grants a limited number of Green Cards to applicants from countries with historically low immigration rates. However, securing a spot isn't just about luck - you need a flawless application, timely submission, and careful attention to detail to maximize your chances.
 At [Tuan Le Law Office in Orange County, CA](#about-us), we specialize in helping applicants navigate the complexities of the [Diversity Visa Lottery](https://dvprogram.state.gov/) process. In this guide, well provide expert tips for a successful Diversity Visa application, including how to avoid common mistakes like incomplete documentation and incorrect photos - issues that often lead to disqualification.
-Don't leave your future to chance! For professional guidance and personalized support, contact Tuan Le Law Office today at [714-877-5840](tel:+1-714-877-5840) and take the first step toward securing your American dream.
+Don't leave your future to chance! For professional guidance and personalized support, contact Tuan Le Law Office today at [714-923-7190](tel:+1-714-923-7190) and take the first step toward securing your American dream.
 
 ## Understanding the Diversity Visa Lottery Program
 
@@ -3347,7 +3347,7 @@ But Here is the catch: While the selection is random, your application must be 1
 #### Who is Eligible for the Diversity Visa Lottery?
 To qualify for the DV Lottery, applicants must meet these core requirements:
 Country of Birth  :  Must be from an eligible country with low immigration rates to the U.S. Education  :  Must have at least a high school diploma, or It's equivalent. Work Experience  :  If you Don't meet the education requirement, you must have two years of work experience within the last five years in an occupation requiring specialized training. Admissibility  :  Must pass background checks, including health, criminal, and security screenings required by U.S. immigration laws.
-Expert Tip: Not sure if you qualify? Tuan Le Law Office can assess your eligibility and guide you through the process to avoid costly mistakes. Call [714-877-5840](tel:+1-714-877-5840) today for a free consultation!
+Expert Tip: Not sure if you qualify? Tuan Le Law Office can assess your eligibility and guide you through the process to avoid costly mistakes. Call [714-923-7190](tel:+1-714-923-7190) today for a free consultation!
 
 #### Why Accuracy & Timing Matter in Your Diversity Visa Application
 
@@ -3366,7 +3366,7 @@ Submitting your application correctly is just as important as being eligible. Ma
 
 #### Keep Your Confirmation Number Safe
  :  After submission, you'll receive a unique confirmation code. Without it, you won't be able to check your results.
-Want to boost your chances? Avoid the most common pitfalls and get expert legal support from Tuan Le Law Office. Call [714-877-5840](tel:+1-714-877-5840) now to secure your future in the U.S.!
+Want to boost your chances? Avoid the most common pitfalls and get expert legal support from Tuan Le Law Office. Call [714-923-7190](tel:+1-714-923-7190) now to secure your future in the U.S.!
 
 #### Step-by-Step Guide to the Diversity Visa Lottery Application
 
@@ -3374,7 +3374,7 @@ Want to boost your chances? Avoid the most common pitfalls and get expert legal 
 
 Applying for the Diversity Visa (DV) Lottery can seem overwhelming, but with the right guidance, you can navigate the process smoothly and avoid costly mistakes. Whether you're applying for the first time or trying again after an unsuccessful attempt, following the correct steps is crucial.
 At Tuan Le Law Office in Orange County, CA, we've helped countless applicants increase their chances of winning the Diversity Visa Lottery by ensuring their applications meet all U.S. immigration requirements. In this section, we break down the application process step by step so you can apply with confidence.
-Need expert help? Call [714-877-5840](tel:+1-714-877-5840) today for a consultation and let us guide you through the process!
+Need expert help? Call [714-923-7190](tel:+1-714-923-7190) today for a consultation and let us guide you through the process!
 
 #### How to Apply for the Diversity Visa (Green Card) Lottery
 
@@ -3444,14 +3444,14 @@ Thousands of applicants miss their chance each year due to simple errors. Avoid 
 #### Seek Professional Assistance
  :  Unsure about eligibility or documentation? Consult an immigration expert to guide you through the process.
 
-Want to maximize your chances? At Tuan Le Law Office, we specialize in helping applicants navigate the Diversity Visa process successfully. Call [714-877-5840](tel:+1-714-877-5840) today for expert support and Let's make your American dream a reality!
+Want to maximize your chances? At Tuan Le Law Office, we specialize in helping applicants navigate the Diversity Visa process successfully. Call [714-923-7190](tel:+1-714-923-7190) today for expert support and Let's make your American dream a reality!
 
 #### Final Thoughts
 
 
 
 Winning the Diversity Visa Lottery is a life-changing opportunity, but success depends on more than luck. A small mistake can jeopardize your entire application, so It's critical to follow the correct process, submit accurate information, and meet all requirements.
-Ready to apply? Let Tuan Le Law Office handle the complexities of your application and increase your chances of success. Call [714-877-5840](tel:+1-714-877-5840) today for a consultation and take the first step toward securing your U.S. Green Card!
+Ready to apply? Let Tuan Le Law Office handle the complexities of your application and increase your chances of success. Call [714-923-7190](tel:+1-714-923-7190) today for a consultation and take the first step toward securing your U.S. Green Card!
 
 #### How to Avoid Disqualification & Increase Your Chances of Winning the Diversity Visa Lottery
 
@@ -3512,7 +3512,7 @@ At Tuan Le Law Office, we specialize in helping immigrants achieve their America
 #### Tips for a Successful Diversity Visa Application: Expert Guidance to Maximize Your Chances
 
 
-The Diversity Visa (DV) Lottery is a golden opportunity to secure a U.S. Green Card, but the journey from application to approval requires precision, accuracy, and preparation. With thousands of applicants disqualified each year due to avoidable mistakes, having expert guidance can significantly increase your chances of success. At Tuan Le Law Office in Orange County, CA, we specialize in helping applicants navigate the DV Lottery process with ease. From ensuring your application is error-free to preparing for your visa interview, our legal experts are here to support you every step of the way. Want to maximize your chances? Call [714-877-5840](tel:+1-714-877-5840) today for a consultation with our immigration experts!
+The Diversity Visa (DV) Lottery is a golden opportunity to secure a U.S. Green Card, but the journey from application to approval requires precision, accuracy, and preparation. With thousands of applicants disqualified each year due to avoidable mistakes, having expert guidance can significantly increase your chances of success. At Tuan Le Law Office in Orange County, CA, we specialize in helping applicants navigate the DV Lottery process with ease. From ensuring your application is error-free to preparing for your visa interview, our legal experts are here to support you every step of the way. Want to maximize your chances? Call [714-923-7190](tel:+1-714-923-7190) today for a consultation with our immigration experts!
 
 #### Why Expert Guidance Matters for Your Diversity Visa Application
 
@@ -3530,7 +3530,7 @@ Many applicants miss the deadline due to technical errors or late entries. With 
 
 #### Interview Preparation & Visa Success
 If selected, your visa interview is the final hurdle. Immigration lawyers help you prepare for common questions and gather the right documents to avoid delays or denials.
-Want a smooth, stress-free application process? Contact Tuan Le Law Office at [714-877-5840](tel:+1-714-877-5840) for professional assistance.
+Want a smooth, stress-free application process? Contact Tuan Le Law Office at [714-923-7190](tel:+1-714-923-7190) for professional assistance.
 
 #### Frequently Asked Questions (FAQs) About the Diversity Visa Lottery
 
@@ -3572,7 +3572,7 @@ Consult an immigration expert for application review.
 
 Winning the Diversity Visa Lottery is an exciting opportunity, but it requires attention to detail, proper documentation, and thorough preparation. Don't risk disqualification due to avoidable mistakes - seek professional assistance to maximize your chances.
 At Tuan Le Law Office, we are dedicated to helping Diversity Visa applicants successfully navigate the process. Whether you need help with your application, photo compliance, or visa interview preparation, our team is ready to assist you.
-Take control of your future today! Call [714-877-5840](tel:+1-714-877-5840) for a consultation, and Let's work together to secure your U.S. Green Card.`,
+Take control of your future today! Call [714-923-7190](tel:+1-714-923-7190) for a consultation, and Let's work together to secure your U.S. Green Card.`,
   },
   {
     slug: `us-immigrant-visas/employment-based-immigration/eb-1/b-1-visa-permitted-activities`,
@@ -3610,7 +3610,7 @@ This article provides a comprehensive overview of the B-1 visa permitted activit
 importance of understanding these limitations to avoid legal issues such as visa revocation and future entry bans.
 If you find yourself in a challenging situation like the one described, it's crucial to seek professional legal advice
 to navigate the complexities of B-1 visa regulations. For expert guidance and support, consider reaching out
-to [Tuan Le Law in Orange, CA](#about-us). Call us at [714-877-5840](tel:+1-714-877-5840).
+to [Tuan Le Law in Orange, CA](#about-us). Call us at [714-923-7190](tel:+1-714-923-7190).
 
 ## **Importance of Understanding Permitted Activities and Restrictions**
 
@@ -3704,7 +3704,7 @@ well-prepared and meet all the requirements for their business visit to the Unit
   Attend the visa interview at the scheduled time. Be prepared to answer questions about your trip, your background, and
   your ties to your home country.
   Ready to start your B-1 Visa application? Don't wait! Begin by contacting the [*Law Office of Tuan
-  Le*](tel:+1-714-877-5840) specializing in business and employment immigration to help you navigate the complexities of
+  Le*](tel:+1-714-923-7190) specializing in business and employment immigration to help you navigate the complexities of
   U.S. immigration laws efficiently and effectively.
 
 #### **Required Documentation**
@@ -3825,7 +3825,7 @@ and conduct business internationally.
 Seeking legal advice is advisable whenever you are unsure about the activities permitted under your B-1 visa or if you
 encounter any issues during your stay. Don't hesitate to seek professional legal advice. For expert guidance and
 support, reach out to [Tuan Le Law in Orange, CA. ](https://www.tuanlelaw.com/us-immigrant-visas)Call us
-at [714-877-5840](tel:+1-714-877-5840). Remember, it's better to be safe than sorry when it comes to your visa status.
+at [714-923-7190](tel:+1-714-923-7190). Remember, it's better to be safe than sorry when it comes to your visa status.
 
 The information provided on this page or article does not, and is not intended to, constitute legal advice; instead, all
 information, content, and materials available on this page or article are for general informational purposes only.
@@ -3860,7 +3860,7 @@ type of visa includes a few categories. Each of these subcategories sets out a f
 groups of candidates.
 In this EB-1 visas guide, you will learn about Its categories, requirements, EB-1 visa eligibility, It's benefits, how
 to apply for an EB-1 visa, and more. Read on to find out if you are eligible for this highly regarded immigrant visa.
-[Have an immigration consultation](tel:+1-714-877-5840) with our accomplished immigration attorney. You will find out
+[Have an immigration consultation](tel:+1-714-923-7190) with our accomplished immigration attorney. You will find out
 which type of US work visa is suitable for you.
 
 ## Different Categories and Qualifications of EB-1 Visas
@@ -3914,7 +3914,7 @@ Therefore, their US employer must be willing to petition for them to transfer th
 their U.S.-based branches. To learn more about this petition requirements
 see [here](https://www.uscis.gov/policy-manual/volume-6-part-f-chapter-4).
 Preparing your EB-1 visa evidence and documentation to conform with the USCIS requirements might require some
-experience. Ask a competent immigration lawyer for some help and [advice by phone call](tel:+1-714-877-5840).
+experience. Ask a competent immigration lawyer for some help and [advice by phone call](tel:+1-714-923-7190).
 
 #### EB-1 Visa Application Process
 
@@ -3994,7 +3994,7 @@ The documents needed for the EB-1 application process include
 * Any records of criminal background.
   Also, keep in mind that you might be required to provide more documents.
   **Ask your questions about EB-1 visa green card sponsorship right now. Our full-service law office is here to assist
-  you with [a free 30-minute consultation.](tel:+1-714-877-5840)**
+  you with [a free 30-minute consultation.](tel:+1-714-923-7190)**
 
 #### EB-1 Visa Application Fees
 
@@ -4042,7 +4042,7 @@ also speed up the process.
 The Law Office of Tuan Le is located in Orange County, CA. With years of experience, we are ready to help you with any
 type of visa planning, naturalization process, immigration consultation, green card application, and other immigration
 services.
-Contact us with a [phone call](tel:+1-714-877-5840) or through the [form below](#contact).`,
+Contact us with a [phone call](tel:+1-714-923-7190) or through the [form below](#contact).`,
   },
   {
     slug: `us-immigrant-visas/employment-based-immigration/eb-2/apply-for-the-b2-visa-by-yourself`,
@@ -4076,7 +4076,7 @@ To get a certain type of visa, one must meet some criteria and specifications to
 * Your purpose of traveling to the US must be one of these:*going on a vacation; going on visiting tours in different cities; visiting someone, such as a family member or a friend; taking part in some social events (like a concert); medical purposes; take part in an unpaid sport or music event, such as a contest, as an athlete or a musician; participate in short-term learning courses for which you will not get any credit.*
 * You have to be able to prove the fact that you can support yourself financially while staying in the US.
 * You have to be able to prove that you WILL leave the US as soon as your visa expires.
-If you do not meet the above-mentioned criteria, or you are still in doubt, give us a call for a free consultation at [(714) 877 5840](http://+1-714-877-5840) to see which type of visa you need to apply for Some common purposes for which you cannot use a B2 visa include:
+If you do not meet the above-mentioned criteria, or you are still in doubt, give us a call for a free consultation at [(714) 923 7190](http://+1-714-923-7190) to see which type of visa you need to apply for Some common purposes for which you cannot use a B2 visa include:
 * Study
 * Work, whether long-term or paid professional performances
 * Airplanes or ship crewmember
@@ -4103,7 +4103,7 @@ To complete this form, you will need the following information and documents:
 * Your family members simple biographical information
 * A recent photo (digital format). Your photo should comply with U.S. government standards. Read the guideline [here](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos.html).
 The U.S. Bureau of Consular Affairs has published an exemplar as a detailed step-by-step guide for how to fill out Form DS-160. You can download the PDF file from the [official USCIS resources](https://ceac.state.gov/GenNIV/).
-If you still need help with this form, we are here for you. Contact us at [(714) 877 5840](tel:+1-714-877-5840).
+If you still need help with this form, we are here for you. Contact us at [(714) 923 7190](tel:+1-714-923-7190).
 
 #### Step 2: Pay the Fees
 Although filling out Form DS-160 is free, you have to pay the B2 visa application fee. As mentioned earlier, it is $160. You should also pay the visa issuance fees if required.
@@ -4183,7 +4183,7 @@ Absolutely. It is not a law, but healthcare in the U.S. is too expensive. If you
 
 
 The Law Office of Tuan Le, Orange County, California, is here to help you with your visa needs. Our experienced team is ready to give you legal advice and consultation regarding the B2 visa application and extension. Moreover, no matter at which U.S. embassy or consulate you need to apply for the B2 visa interview, our accomplished immigration attorney can handle your case professionally to make this path easy and stress-free for you.
-Call us at [(714) 877 5840](tel:+1-714-877-5840) to schedule an appointment or get a 30-minute free consultation.`,
+Call us at [(714) 923 7190](tel:+1-714-923-7190) to schedule an appointment or get a 30-minute free consultation.`,
   },
   {
     slug: `us-immigrant-visas/employment-based-immigration/eb-2/national-interest-waiver`,
@@ -4210,7 +4210,7 @@ article, we will review EB-2 NIW requirements, eligibility criteria, the applica
 evidence, costs, tips, and anything else you should know to help you achieve your NIW green card.
 Do you need legal advice regarding your green card application? Consult with our experienced immigration attorney in
 Orange County, California for free.
-[Get Started](tel:+1-714-877-5840)
+[Get Started](tel:+1-714-923-7190)
 
 ## What Is the National Interest Waiver or NIW?
 
@@ -4224,7 +4224,7 @@ Read on to find out if you are qualified for an EB-2 NIW or not.
 
 ### EB-2 Visa Types
 
-[Like](tel:+1714-877-5840)[EB-1 Visas,](https://www.tuanlelaw.com/us-immigrant-visas/employment-based-immigration/eb-1/eb-1-visas-requirements)
+[Like](tel:+1714-923-7190)[EB-1 Visas,](https://www.tuanlelaw.com/us-immigrant-visas/employment-based-immigration/eb-1/eb-1-visas-requirements)
 EB-2 visas are also available for foreigners who wish to work in the United States. They are considered second
 preference workers (EB-1 visa holders are the first priority) and they need to be professionals with advanced degrees or
 exceptional abilities.
@@ -4324,7 +4324,7 @@ Above all, avoid any inaccurate information or claims that you cannot support by
 denied.
 Do you need legal advice regarding your green card application? Consult with our experienced immigration attorney in
 Orange County, California for free.
-[Get Started](tel:+1-714-877-5840)
+[Get Started](tel:+1-714-923-7190)
 
 #### How Much Does It Cost to Apply for an EB-2 National Interest Waiver?
 
@@ -4397,7 +4397,7 @@ Yes. The application and all the documentation are sent via mail to the USCIS. Y
 which can be done in any US consulates or embassies.
 Do you need legal advice regarding your green card application? Consult with our experienced immigration attorney in
 Orange County, California for free.
-[Get Started](tel:+1-714-877-5840)
+[Get Started](tel:+1-714-923-7190)
 
 #### Hire an NIW Lawyer to Increase Your Chance of Approval
 
@@ -4409,7 +4409,7 @@ evidence is strong enough to support your case you are highly recommended to con
 attorney.
 The Law Office of Tuan Le in Orange, CA not only offers you great professional help in every step of your National
 Interest Waiver application, but also a 30-minute free consultation to discuss your case or ask your questions. Give us
-a call at [(714) 877-5840](tel:+1-714-877-5840) or fill in the form below, and we will get back to you.`,
+a call at [(714) 923-7190](tel:+1-714-923-7190) or fill in the form below, and we will get back to you.`,
   },
   {
     slug: `us-immigrant-visas/employment-based-immigration/eb-2`,
@@ -4435,7 +4435,7 @@ In this article, we will discuss the EB-2 visa requirements and eligibility, and
 will answer some of your FAQs about EB-2 visas.
 Filing for a US employment visa can be a complicated and frustrating process. Have an experienced immigration lawyer by
 your side.
-[Call for a 30-minute free consultation with our accomplished immigration attorney.](tel:+1-714-877-5840)
+[Call for a 30-minute free consultation with our accomplished immigration attorney.](tel:+1-714-923-7190)
 
 ## What Are EB-2 Employment-Based Visas?
 
@@ -4582,7 +4582,7 @@ are any green cards available for your category.
 There are a lot of challenges for EB-2 visa applicants, but hiring an accomplished immigration lawyer can help you
 navigate the application process effectively.
 Our law office is here for employers and foreign nationals seeking EB-2 visas in Orange County, CA.
-[CALL NOW!](tel:+1-714-877-5840)
+[CALL NOW!](tel:+1-714-923-7190)
 
 #### FAQs about EB-2 Employment-Based Visas
 
@@ -4621,7 +4621,7 @@ We have explored different possibilities to get EB-2 employment-based visas. Whe
 EB-2A, EB-2B, or EB-2 NIW, the Law Office of Tuan Le can help you through every step of the process.
 Our team specializes in immigration matters and with our experience you do not have to worry about what to do next and
 how to prepare yourself for each step of the application or EB-2 visa extension.
-To talk to our accomplished visa attorney, call us at [714-877-5840](tel:+1-714-877-5840) or fill in the form below.`,
+To talk to our accomplished visa attorney, call us at [714-923-7190](tel:+1-714-923-7190) or fill in the form below.`,
   },
   {
     slug: `us-immigrant-visas/employment-based-immigration/h-1b/h1-b-visa-requirements`,
@@ -4665,7 +4665,7 @@ knowledge. This means jobs in science, medicine, engineering, and other speciali
 
 Both the job and the applicant must meet some criteria to be eligible for an H1B visa. Otherwise, you need to consider
 other visa types. An experienced immigration attorney can help you in these situations.
-Call us at [(714) 877-5840](tel:+1-714-877-5840) for a free consultation with an H1B visa lawyer.
+Call us at [(714) 923-7190](tel:+1-714-923-7190) for a free consultation with an H1B visa lawyer.
 
 #### H1B Visa Requirements for the Applicant
 
@@ -4775,7 +4775,7 @@ of applying for an H1B visa, you need to pay attention to some key dates.
 An H1B visa initially lasts for 3 years with the option to extend it for another 3 years. However, it can be extended
 under some conditions even after the first 6 years. For example, when an H1B visa holder works only seasonally or lives
 abroad for more than half of the year.
-If you think you are exempt, call our H1B visa lawyer at [(714) 877-5840](tel:+1-714-877-5840) to learn what you need to
+If you think you are exempt, call our H1B visa lawyer at [(714) 923-7190](tel:+1-714-923-7190) to learn what you need to
 do to get your visa extended.
 
 #### How Much Does Registering and Applying for the H1B Visa Cost?
@@ -4829,7 +4829,7 @@ you may be able to extend your H1B visa even after the first 6 years.
 Whether you are an applicant or an employer, the H1B visa process can be confusing, and you need a law expert to help
 you with it. In this way, you will avoid getting rejected for technical reasons. Our accomplished H1B visa lawyer Orange
 County, CA can help you at any stage of the process or for the extension. If you are not in the region, you can always
-call us at [(714) 877-5840](tel:+1-714-877-5840) for a free consultation about the H1B visa requirements and application.
+call us at [(714) 923-7190](tel:+1-714-923-7190) for a free consultation about the H1B visa requirements and application.
 Check out our [other blog here](/us-immigrant-visas/employment-based-immigration/eb-2) to learn more about other
 types of visas suitable for employees.`,
   },
@@ -4860,7 +4860,7 @@ In this article, with the help of our H1B visa lawyer, we will explore the optio
 will compare US H1B and Canada PR to assist both current H1B holders and those who wish to become economic migrants to
 make the right decision.
 **Are you looking for an accomplished immigration lawyer in Orange County, CA? Our law office is here for
-you. [Call to schedule an appointment.](tel:+1-714-877-5840)**
+you. [Call to schedule an appointment.](tel:+1-714-923-7190)**
 
 ## An Introduction to US H1B Visa
 
@@ -5013,7 +5013,7 @@ right choice based on your case. Besides, you can save a lot of time because you
 well, and you do not have to worry about the documents and forms you need to prepare.
 The Law Office of Tuan Le can provide you with such services in Orange County, California. You can also get a free
 30-minute consultation with our accomplished visa lawyer.
-Call [(714-877-5840)](tel:+1-714-877-5840) to schedule an appointment or fill out the form below. We will get in touch
+Call [(714-923-7190)](tel:+1-714-923-7190) to schedule an appointment or fill out the form below. We will get in touch
 with you.`,
   },
   {
@@ -5035,7 +5035,7 @@ with you.`,
     readTime: `9 min read`,
     serviceBody: `Navigating the K-1 visa process can feel overwhelming, with Its maze of paperwork, strict deadlines, and complex legal language. But it doesn't have to be this way. The K-1 visa, commonly known as the fiancé(e) visa, allows U.S. citizens to bring their foreign fiancé(e) to the United States to marry. However, understanding the detailed steps of the K-1 visa process is essential to avoid potential delays or denials. At [Tuan Le Law Office in Orange, California](#about-us), we specialize in making this process straightforward, ensuring your love story continues without unnecessary obstacles.
 This guide will walk you through each phase of the K-1 visa process, from determining your eligibility to preparing for the interview. you'll discover how to apply for a K-1 visa, what documents you'll need, the K-1 visa timeline for 2025, and crucial details about the interview process. Whether you're curious about the K-1 visa cost, approval rates, or common pitfalls to avoid, we've got you covered. Let's explore the K-1 visa process together and take the necessary steps to turn your dream of reuniting with your fiancé(e) into a reality.
-Ready to make your love story official? Contact Tuan Le Law Office in Orange, California, at [714-877-5840](tel:+1-714-877-5840) to schedule a consultation with our experienced immigration lawyer today. Don't let paperwork stand in the way of your happiness - let us guide you every step of the way.
+Ready to make your love story official? Contact Tuan Le Law Office in Orange, California, at [714-923-7190](tel:+1-714-923-7190) to schedule a consultation with our experienced immigration lawyer today. Don't let paperwork stand in the way of your happiness - let us guide you every step of the way.
 
 ## Understanding the K-1 Visa Process
 
@@ -5199,7 +5199,7 @@ Certain medical conditions may result in inadmissibility. The foreign fiancé(e)
 To qualify for the K-1 visa, you must prove your genuine intent to marry within 90 days of entering the U.S. Providing wedding plans, venue bookings, or invitations helps establish this.
 
 #### Pro Tip: Ensure all documents are accurate, consistent, and complete. Any discrepancies can lead to delays or denials.
-Whether you're just starting your application or need help addressing a denial, our experienced immigration lawyer is ready to assist. Call Tuan Le Law Office at [714-877-5840](tel:+1-714-877-5840) today to schedule your consultation now!
+Whether you're just starting your application or need help addressing a denial, our experienced immigration lawyer is ready to assist. Call Tuan Le Law Office at [714-923-7190](tel:+1-714-923-7190) today to schedule your consultation now!
 
 #### **K-1 Visa vs. Marriage Visa: Which is Right for You?**
 
@@ -5305,7 +5305,7 @@ especially when immigration concerns arise. Our dedicated legal team specializes
   future are safeguarded.
   We are committed to helping families overcome these hurdles with compassion and clarity.
   Facing child custody challenges involving immigration status? Don't navigate this alone - call Tuan Le Law at
-  [(714) 877 5840](tel:+1-714-877-5840) today to schedule a consultation and get the support you deserve.
+  [(714) 923 7190](tel:+1-714-923-7190) today to schedule a consultation and get the support you deserve.
 
 #### The Impact of Immigration Status on Child Custody
 
@@ -5393,7 +5393,7 @@ knowledge and experience. Without expert legal guidance, parents risk:
   At Tuan Le Law, we work tirelessly to support immigrant families, ensuring their parental rights are protected while
   crafting solutions that safeguard the child's best interests.
   Need help navigating child custody disputes involving immigration concerns? Contact Tuan Le Law in Orange County today
-  at [(714) 877 5840](tel:+1-714-877-5840) for a consultation and expert legal support tailored to your situation.
+  at [(714) 923 7190](tel:+1-714-923-7190) for a consultation and expert legal support tailored to your situation.
 
 #### 3. Navigating Legal Challenges: Immigration Status and Child Custody
 
@@ -5479,7 +5479,7 @@ attorneys. Legal experts can:
   Our team ensures you have the resources, strategies, and legal representation needed to protect your parental rights
   and prioritize your child's future.
   Facing immigration and child custody challenges? Don't navigate this difficult process alone. Call Tuan Le Law
-  at [(714) 877 5840](tel:+1-714-877-5840) today to schedule a consultation and gain clarity, support, and strong
+  at [(714) 923 7190](tel:+1-714-923-7190) today to schedule a consultation and gain clarity, support, and strong
   legal advocacy tailored to your unique situation.
 
 #### Legal Support for Parents: Protecting Parental Rights Amid Immigration Challenges
@@ -5575,7 +5575,7 @@ can protect your rights and prioritize your child's well-being. At Tuan Le Law i
 * Develop custom custody agreements that address immigration concerns while safeguarding the child's stability.
 * Provide compassionate support and expert legal representation to guide you through every step of the process.
   Don't leave your future and your child's well-being to chance. Call Tuan Le Law today at *
-  *[(714) 877 5840](tel:+1-714-877-5840)** to schedule a consultation and gain the clarity, support, and advocacy you
+  *[(714) 923 7190](tel:+1-714-923-7190)** to schedule a consultation and gain the clarity, support, and advocacy you
   need.
 
 #### Cost Considerations and Legal Fees for Immigration and Family Law Services
@@ -5679,7 +5679,7 @@ While legal fees can feel daunting, understanding the cost structure and explori
 make representation accessible to more families. At **Tuan Le Law**, we believe every parent deserves fair legal
 advocacy, regardless of financial circumstances.
 **Facing child custody or immigration challenges?** Contact **Tuan Le Law** today at
-*[(714) 877 5840](tel:+1-714-877-5840)* for a consultation. Our team will provide expert legal support tailored to your
+*[(714) 923 7190](tel:+1-714-923-7190)* for a consultation. Our team will provide expert legal support tailored to your
 needs, with transparent costs and flexible solutions.
 ![featuring a courthouse with a parent and child in the foreground](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default-Ymr17fTvRcljN3kl7uK0gyA3LE6PQI.jpg
 
@@ -5735,7 +5735,7 @@ Navigating child custody disputes involving **immigration status** can be challe
 County, CA, we specialize in protecting your **parental rights** while prioritizing your child's stability. Our team
 combines expertise in **family law** and **immigration law** to provide tailored solutions, address deportation
 concerns, and guide you through every step with clarity and compassion. **Call Tuan Le Law
-at [(714) 877 5840](tel:+1-714-877-5840)** today for a consultation and secure the support you need to protect your
+at [(714) 923 7190](tel:+1-714-923-7190)** today for a consultation and secure the support you need to protect your
 family's future.`,
   },
   {
@@ -5765,7 +5765,7 @@ common challenges, such as proving the validity of your marriage, meeting the in
 processing times. In this article, we will explain how to avoid these pitfalls and ensure a successful outcome by hiring
 a marriage immigration lawyer.
 Don't let the complexity of the immigration system discourage you from pursuing your dream of living in the U.S. with
-your spouse.[Contact us today](tel:+1-714-877-5840) and get a free consultation with an experienced marriage immigration
+your spouse.[Contact us today](tel:+1-714-923-7190) and get a free consultation with an experienced marriage immigration
 lawyer in Orange County, CA
 
 ## Types Of Marriage Visas For The USA
@@ -5872,7 +5872,7 @@ they will decide on your application and notify you by mail or online. If approv
 mail in a few weeks. The process can take 9 to 15 months or longer, based on your case and other factors.
 Adjustment of status can be a complicated and lengthy process, but you Don't have to do it alone. At the Law Office of
 tuan le, we have the experience and expertise to help you get your green card through marriage. You can reach us by
-phone at [714-877-5840](tel:+1-714-877-5840).
+phone at [714-923-7190](tel:+1-714-923-7190).
 ![Illustration of green card application process for marriage-based immigration](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default-Ymr17fTvRcljN3kl7uK0gyA3LE6PQI.jpg
 
 #### Conditional Permanent Residence
@@ -5963,7 +5963,7 @@ selecting the appropriate visa, preparing and filing the forms and documents, av
 representing you in the interviews and appeals.
 At the Law Office of tuan le, We have the competence and proficiency to handle any marriage visa case, no matter how
 challenging. Don't let the immigration system prevent you from pursuing your dream. Contact us today and get
-a [free consultation](tel:+1-714-877-5840) with our marriage immigration
+a [free consultation](tel:+1-714-923-7190) with our marriage immigration
 lawyer,[Tuan Le,](#about-us) in Orange County, CA`,
   },
   {
@@ -5994,7 +5994,7 @@ various visa types, underscoring the need for expert legal advice to smoothly tr
 ensure family reunification.
 Are you ready to reunite with your family in the United States? The dedicated lawyer at Tuan Le Law Office is here to
 guide you through the family immigration visa process. With our expertise, well ensure that your loved ones can join you
-in the U.S. legally and with ease. [Contact](tel:+1-714-877-5840)Tuan Le Law Office today.
+in the U.S. legally and with ease. [Contact](tel:+1-714-923-7190)Tuan Le Law Office today.
 
 ## **What Is Family-based immigration?**
 
@@ -6126,7 +6126,7 @@ In summary, the application process for bringing parents to the United States or
 requires careful attention to details to ensure a successful family reunification immigration experience.
 For personalized guidance and support through each stage of the application, consider reaching out to our legal expert
 who can help you navigate the complexities of the immigration. Start your application now and pave the way for your
-family s future. Call us today at [714-877-5840](tel:+1-714-877-5840)
+family s future. Call us today at [714-923-7190](tel:+1-714-923-7190)
 or [fill out the form to schedule your appointment](#contact)
 
 #### **Steps After Visa Approval**
@@ -6474,7 +6474,7 @@ Immigration Enforcement in the First Nine Months of the Second Trump Administrat
     readTime: `6 min read`,
     serviceBody: `If you receive a Request for Evidence (RFE) from USCIS, you generally have up to 12 weeks (84 days), plus three days if it was mailed, to respond, and the deadline cannot be extended. An RFE is not a denial. It means USCIS needs more documents before deciding. Respond completely, on time, in a single submission, and with the original RFE notice on top.
 
-**Received an RFE and the clock is ticking? The Law Office of Tuan Le in Orange, CA, offers a 30-minute free legal consultation. [Call us today at (714) 877-5840](tel:+1-714-877-5840) or [fill out the form to schedule your appointment](#contact).**
+**Received an RFE and the clock is ticking? The Law Office of Tuan Le in Orange, CA, offers a 30-minute free legal consultation. [Call us today at (714) 923-7190](tel:+1-714-923-7190) or [fill out the form to schedule your appointment](#contact).**
 
 ## What an RFE Means
 
@@ -6606,7 +6606,7 @@ Follow the delivery instructions in the notice. Most RFE responses must be maile
 
 Tuan Le Law helps clients with visas, citizenship, asylum, and deportation defense. Review our guidance on [preparing a strong immigration application](/resources/how-to-prepare-strong-immigration-application-tips), how to [expedite a USCIS case](/resources/expedite-uscis-case), and [common immigration questions](/resources/common-immigration-questions-answered-immigration-lawyer).
 
-If you received an RFE, call [(714) 877-5840](tel:+17148775840) to discuss your deadline and next steps. This article is general information, not legal advice.`,
+If you received an RFE, call [(714) 923-7190](tel:+17149237190) to discuss your deadline and next steps. This article is general information, not legal advice.`,
   },
   {
     slug: `us-immigrant-visas`,
@@ -6630,7 +6630,7 @@ On the other hand, immigrant visas are for those who wish to live in the United 
 Choosing the right visa can feel overwhelming due to the variety of options available. This guide will walk you through the different types of U.S. immigrant visas, eligibility requirements, and how to determine the best pathway for your situation.
 
 ### Need Help Navigating the Complex Visa Process?
-If you're looking to apply for an immigrant visa or change your current status, our skilled immigration attorney in Orange, CA, is here to guide you every step of the way. [Call today](tel:+1-714-877-5840) for a free consultation and take the first step toward making your American dream a reality.
+If you're looking to apply for an immigrant visa or change your current status, our skilled immigration attorney in Orange, CA, is here to guide you every step of the way. [Call today](tel:+1-714-923-7190) for a free consultation and take the first step toward making your American dream a reality.
 
 #### Overview of U.S. Immigrant Visas: Your Path to Permanent Residency
 If you're ready to make the United States your permanent home, understanding the types of U.S. immigrant visas available is a crucial first step. These visas not only allow you to live and work in the U.S. indefinitely but also serve as the pathway to obtaining a Green Card and eventually applying for U.S. citizenship.
@@ -6702,7 +6702,7 @@ For individuals who invest significantly in a U.S. business that creates jobs fo
 ### #
 Take the Next Step in Your U.S. Career
 The employment-based visa process requires careful planning, proper documentation, and often, employer sponsorship. Small errors can lead to unnecessary delays or denials. Ensure your application is handled professionally by contacting our experienced [immigration attorney in Orange County, CA.](#about-us)
-[Call today](tel:+1-714-877-5840) to schedule a free consultation and get expert guidance tailored to your situation.
+[Call today](tel:+1-714-923-7190) to schedule a free consultation and get expert guidance tailored to your situation.
 
 #### Diversity Visa Lottery: Your Chance to Win a Green Card
 
@@ -6812,7 +6812,7 @@ Consulting with an immigration attorney can help you determine the best course o
 #### **Simplify the Visa Process with Expert Assistance**
 Applying for a U.S. immigrant visa involves detailed documentation, accurate form submissions, and adherence to strict timelines. Mistakes can lead to significant delays or denials.
 At the [Law Office of Tuan Le](#contact-us) in Orange County, CA, we specialize in guiding individuals and families through the visa process. Whether you're applying for the first time, seeking a renewal, or need help with complex cases, we're here to help.
-[Call us today](tel:+1-714-877-5840) for a free consultation and take the first step toward securing your U.S. visa.`,
+[Call us today](tel:+1-714-923-7190) for a free consultation and take the first step toward securing your U.S. visa.`,
   },
   {
     slug: `us-nonimmigrant-visas/student-visas/f-1-student-visa`,
@@ -6837,7 +6837,7 @@ embassy interview. With the help of our immigration lawyer, we walk you through 
 F-1 student visa application.
 Our reputable law office has solid experience in such cases.
 Schedule an appointment there.
-[Get Started!](tel:+1-714-877-5840)
+[Get Started!](tel:+1-714-923-7190)
 
 ## Who Needs an F-1 Visa?
 
@@ -6981,7 +6981,7 @@ Besides preparing the documents and your answers, you should follow the advice b
 * Stay calm and confident (but avoid drinking alcohol).
 * Sometimes interviews start a bit later than the scheduled time, so be prepared for a possible delay.
   Still not sure how to apply? Get your free 30-minute consultation with an experienced immigration lawyer now
-  [Get Started!](tel:+1-714-877-5840)
+  [Get Started!](tel:+1-714-923-7190)
 
 #### Other Questions and Concerns Regarding the F-1 Visa
 
@@ -7029,7 +7029,7 @@ frustrating. You should also know what proofs are good enough to convince the co
 your home country, and you genuinely intend to leave the U.S. after your course is over, or the proof of your financial
 sufficiency. But you can put your mind at ease by getting advice from our accomplished immigration attorney who has
 helped numerous students with their F-1 student visa application process.
-The Law Office of Tuan Le, in Orange County, is always here for you. Contact us at [(714) 877-5840](tel:+1-714-877-5840)
+The Law Office of Tuan Le, in Orange County, is always here for you. Contact us at [(714) 923-7190](tel:+1-714-923-7190)
 to make an appointment with our immigration lawyer.`,
   },
   {
@@ -7082,7 +7082,7 @@ understanding visa requirements and eligibility criteria is essential for succes
 Get Personalized Help from an Immigration Expert
 Determining which U.S. visa is best for your needs doesn't have to be stressful. Our team at The Law Office of Tuan Le
 specializes in assisting clients with all types of visa applications, extensions, and changes of status.
-[Contact us](tel:+1-714-877-5840) today for a free 30-minute consultation and let our experienced immigration lawyer in
+[Contact us](tel:+1-714-923-7190) today for a free 30-minute consultation and let our experienced immigration lawyer in
 Orange County, CA, guide you through your U.S. visa application journey.
 
 #### Understanding U.S. Visa Categories: Immigrant vs. Nonimmigrant Visas
@@ -7153,7 +7153,7 @@ Determining the right visa type begins with clearly identifying your goals:
   At The Law Office of Tuan Le, we specialize in providing personalized assistance for all visa categories. Whether
   you're applying for a nonimmigrant visa to visit, study, or work, or an immigrant visa to reunite with family or
   secure permanent residency, we are here to guide you every step of the way.
-  [Contact us ](tel:+1-714-877-5840)today for a free consultation and take the first step toward achieving your U.S.
+  [Contact us ](tel:+1-714-923-7190)today for a free consultation and take the first step toward achieving your U.S.
   immigration goals.
 
 #### Overview of U.S. Nonimmigrant Visas: Finding the Right Fit for Your Journey
@@ -7290,7 +7290,7 @@ Each U.S. nonimmigrant visa comes with specific eligibility criteria and restric
 critical to ensure your purpose aligns with U.S. immigration laws and to avoid unnecessary delays or complications.
 At The Law Office of Tuan Le, we offer personalized assistance to help you navigate the complexities of U.S. visa
 applications.
-[Call now](tel:+1-714-877-5840) for a free 30-minute consultation with our experienced immigration attorney in Orange
+[Call now](tel:+1-714-923-7190) for a free 30-minute consultation with our experienced immigration attorney in Orange
 County, CA, and take the first step toward your U.S. visa journey!
 
 #### Call Now for Expert Assistance with Your U.S. Visa Application
@@ -7336,7 +7336,7 @@ for you to access professional legal services when you need them most.
 Contact Us Today for a Free Consultation
 Don't let the complexities of U.S. visa applications hold you back. Whether you're applying for the first time,
 extending your visa, or exploring new opportunities, were here to guide you every step of the way.
-Call us now at [(714) 877 5840](tel:+1-714-877-5840) or fill out our online contact form to schedule your free 30-minute
+Call us now at [(714) 923 7190](tel:+1-714-923-7190) or fill out our online contact form to schedule your free 30-minute
 consultation with an experienced immigration attorney.
 
 #### FAQs About U.S. Visa Assistance
@@ -7374,7 +7374,7 @@ No, the B-2 tourist visa does not allow you to work in the U.S. If you intend to
 At The Law Office of Tuan Le, were dedicated to helping you achieve your U.S. immigration goals with confidence and
 clarity. With our expert guidance, you can navigate the visa process seamlessly and focus on your plans for the
 future.
-[Call now](tel:+1-714-877-5840) or schedule your consultation online to get started on your U.S. visa journey today!`,
+[Call now](tel:+1-714-923-7190) or schedule your consultation online to get started on your U.S. visa journey today!`,
   },
   {
     slug: `us-visas`,
@@ -7403,7 +7403,7 @@ immigration lawyers stand by your side.
 This article offers an overview of how these legal professionals can assist with various immigration-related matters,
 from visas to citizenship, helping you to get through the process and settle down in the United States.
 For expert guidance on US citizenship,[Contact](#contact) the tuan le Law Office. Specializing in USCIS processes, Tuan
-Lee offers personalized support for your immigration goals. Reach out at [714-877-5840](tel:+1-714-877-5840) for a
+Lee offers personalized support for your immigration goals. Reach out at [714-923-7190](tel:+1-714-923-7190) for a
 consultation.
 
 ## Immigration Lawyers Role in US Law Navigation
@@ -7483,7 +7483,7 @@ the best immigration lawyer. Their expertise in US immigration laws and B1/B2 vi
 that every clients case is a well-crafted appeal ready to challenge USCIS decisions.
 **Embark on your journey to immigration success with Tuna Lee Law Office, where you're not just a case number, but a VIP
 deserving of the red carpet treatment. Forget the daunting paperwork and legal intricacies - just dial
-**[714-877-5840](tel:+1-714-877-5840)** and let us roll out the red carpet to your dreams. Your journey begins with a
+**[714-923-7190](tel:+1-714-923-7190)** and let us roll out the red carpet to your dreams. Your journey begins with a
 single call.**
 
 #### Achieving Permanent Residence with Immigration Lawyer

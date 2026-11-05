@@ -163,7 +163,7 @@ export default function Header({
             <div className="hidden lg:flex items-center gap-16">
               <MainNav className="flex" customTextColor={variant === 'light' ? 'text-[#030E1A]' : undefined} />
               <a
-                href="tel:(714) 877 5840"
+                href="tel:(714) 923 7190"
                 className={`group inline-flex items-center justify-center gap-4 font-inter-tight font-semibold uppercase transition-colors rounded-md bg-transparent border-2 px-6 py-4 text-base h-12 whitespace-nowrap ${variant === 'light'
                   ? 'border-[#49535D] text-[#071C32] hover:bg-[#E55B1E] active:bg-[#E55B1E] hover:border-[#E55B1E] active:border-[#E55B1E] hover:text-white active:text-white'
                   : 'border-white text-white hover:bg-[#E55B1E] hover:border-[#E55B1E] hover:text-white active:bg-[#E55B1E] active:border-[#E55B1E] active:text-white'
@@ -236,7 +236,7 @@ export default function Header({
             {/* Buttons at Bottom */}
             <div className="flex flex-col gap-4 px-4 mt-8">
               <a
-                href="tel:(714) 877 5840"
+                href="tel:(714) 923 7190"
                 className="group flex justify-center items-center gap-4 font-inter-tight font-semibold uppercase transition-colors rounded-md border-2 border-white text-white hover:bg-white hover:text-[#00356E] active:bg-[#E55B1E] active:border-[#E55B1E] active:text-white py-3 text-lg whitespace-nowrap self-stretch"
                 onClick={toggleMobileMenu}
               >

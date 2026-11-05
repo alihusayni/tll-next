@@ -26,7 +26,7 @@ article, we will review EB-2 NIW requirements, eligibility criteria, the applica
 evidence, costs, tips, and anything else you should know to help you achieve your NIW green card.
 Do you need legal advice regarding your green card application? Consult with our experienced immigration attorney in
 Orange County, California for free.
-[Get Started](tel:+1-714-877-5840)
+[Get Started](tel:+1-714-923-7190)
 
 ## What Is the National Interest Waiver or NIW?
 
@@ -40,7 +40,7 @@ Read on to find out if you are qualified for an EB-2 NIW or not.
 
 ### EB-2 Visa Types
 
-[Like](tel:+1714-877-5840)[EB-1 Visas,](https://www.tuanlelaw.com/us-immigrant-visas/employment-based-immigration/eb-1/eb-1-visas-requirements)
+[Like](tel:+1714-923-7190)[EB-1 Visas,](https://www.tuanlelaw.com/us-immigrant-visas/employment-based-immigration/eb-1/eb-1-visas-requirements)
 EB-2 visas are also available for foreigners who wish to work in the United States. They are considered second
 preference workers (EB-1 visa holders are the first priority) and they need to be professionals with advanced degrees or
 exceptional abilities.
@@ -140,7 +140,7 @@ Above all, avoid any inaccurate information or claims that you cannot support by
 denied.
 Do you need legal advice regarding your green card application? Consult with our experienced immigration attorney in
 Orange County, California for free.
-[Get Started](tel:+1-714-877-5840)
+[Get Started](tel:+1-714-923-7190)
 
 #### How Much Does It Cost to Apply for an EB-2 National Interest Waiver?
 
@@ -213,7 +213,7 @@ Yes. The application and all the documentation are sent via mail to the USCIS. Y
 which can be done in any US consulates or embassies.
 Do you need legal advice regarding your green card application? Consult with our experienced immigration attorney in
 Orange County, California for free.
-[Get Started](tel:+1-714-877-5840)
+[Get Started](tel:+1-714-923-7190)
 
 #### Hire an NIW Lawyer to Increase Your Chance of Approval
 
@@ -225,4 +225,4 @@ evidence is strong enough to support your case you are highly recommended to con
 attorney.
 The Law Office of Tuan Le in Orange, CA not only offers you great professional help in every step of your National
 Interest Waiver application, but also a 30-minute free consultation to discuss your case or ask your questions. Give us
-a call at [(714) 877-5840](tel:+1-714-877-5840) or fill in the form below, and we will get back to you.
+a call at [(714) 923-7190](tel:+1-714-923-7190) or fill in the form below, and we will get back to you.

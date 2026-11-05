@@ -53,10 +53,10 @@ Beyond the paperwork, we see the life you’re building. We are honored to help 
                   Phone
                 </h3>
                 <Link
-                  href="tel:(714) 877 5840"
+                  href="tel:(714) 923 7190"
                   className="font-inter text-base text-[#071C32] hover:text-[#e55b1e] transition-colors"
                 >
-                  (714) 877 5840
+                  (714) 923 7190
                 </Link>
               </div>
             </div>

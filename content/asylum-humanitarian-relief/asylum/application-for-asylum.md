@@ -21,7 +21,7 @@ For many years, the United States has been one of the most popular destinations 
 Many asylum seekers prefer to have an immigration lawyer by their side to guide them through the asylum application process and help them understand the US asylum law and asylum seekers rights. This professional help greatly improves their chance of getting approved.
 But, even if you hire an immigration attorney, it is crucial for you to know how the asylum process in the USA works.
 So, we are going to explain every step of the asylum seeker application process, asylum eligibility, the documentation and evidence, the asylum interview and screening process, and more. We will also answer some of your frequently asked questions about the asylum process in the US.
-Are you seeking asylum in the USA? Consult with an experienced immigration lawyer in Orange, CA for free. [Call to schedule an appointment](tel:+1-714-877-5840) .
+Are you seeking asylum in the USA? Consult with an experienced immigration lawyer in Orange, CA for free. [Call to schedule an appointment](tel:+1-714-923-7190) .
 
 ## Breaking Down the Application for Asylum Process
 
@@ -92,7 +92,7 @@ If the case is denied and the decision is final, the applicant:
 * or is deported/removed by the authorities.
 Let us represent you in the immigration court to make sure the evidence and testimonies are compelling enough.
 
- [Call to discuss your case more](tel:+1-714-877-5840)
+ [Call to discuss your case more](tel:+1-714-923-7190)
 
 #### FAQs Regarding Asylum Application in the US
 
@@ -147,11 +147,11 @@ No. The individual must be physically present in the US when applying for asylum
 Yes. After residing in the United States for a certain period of time and meeting some other requirements, refugees can obtain their green card or permanent residency. Then, after a period of time, they can obtain their US citizenship through the naturalization process.
 For more information see  [Paths to Become a US Citizen](https://www.tuanlelaw.com/citizenship-naturalization/become-a-us-citizen)  and  [A Guide to Naturalization Process](https://www.tuanlelaw.com/citizenship-naturalization/naturalization-filing-form-n-400) .
 The Law Office of Tuan Le offers a 30-minute free legal consultation to asylum seekers in the United States.
-[Call for more information.](tel:+1-714-877-5840)
+[Call for more information.](tel:+1-714-923-7190)
 
 #### Hire Our Accomplished Asylum Lawyer in Orange, CA
 
  [[cta]]
 
 We have discussed the intricate process of the application for asylum in the US. Dealing with legal issues can be daunting even for residents, let alone asylum seekers who are not completely familiar with legal procedures and even the English language.
-To make sure all the difficulties you are going through to achieve refugee status will pay off, hire Mr. Tuan Le, an experienced immigration lawyer in Orange, CA, to guide you through every step of the process. Call [(714) 877-5840](tel:+1-714-877-5840) to schedule an appointment.
+To make sure all the difficulties you are going through to achieve refugee status will pay off, hire Mr. Tuan Le, an experienced immigration lawyer in Orange, CA, to guide you through every step of the process. Call [(714) 923-7190](tel:+1-714-923-7190) to schedule an appointment.

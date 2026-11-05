@@ -56,7 +56,7 @@ status. Whether you are applying for a visa, permanent residency,
 or [naturalization](https://www.tuanlelaw.com/citizenship-naturalization/become-a-us-citizen), our experienced immigration
 attorney can help ensure your paperwork is completed correctly.
 If you want to avoid unnecessary delays and legal complications,
-schedule [a free 30-minute consultation](tel:+1-714-877-5840) today with our expert immigration lawyer in Orange, CA.
+schedule [a free 30-minute consultation](tel:+1-714-923-7190) today with our expert immigration lawyer in Orange, CA.
 
 ### Avoid Leaving Blank Fields on Immigration Paperwork
 
@@ -128,7 +128,7 @@ renewals, advance parole, or visa extensions, is essential for avoiding legal in
 Missing a deadline can have long-term consequences, including the denial of immigration benefits and removal proceedings
 in extreme cases. To ensure compliance and prevent delays, The Law Office of Tuan Le provides expert legal guidance and
 comprehensive case tracking.
-If you need assistance meeting USCIS deadlines or responding to an RFE,[ contact us](tel:+1-714-877-5840) today for a
+If you need assistance meeting USCIS deadlines or responding to an RFE,[ contact us](tel:+1-714-923-7190) today for a
 free consultation to keep your immigration process on track.
 
 #### Ensuring Correct Fee Payment for Immigration Form Submissions
@@ -200,7 +200,7 @@ To stay organized and ensure easy access to your immigration records, follow the
   adjustments of status, or naturalization petitions. If USCIS issues an RFE or an audit, having a well-organized copy
   of your previous submissions will help you respond quickly and accurately, preventing further delays.
   If you need assistance with organizing your immigration documents, preparing a well-structured submission, or
-  responding to USCIS inquiries, [The Law Office of Tuan Le](tel:+1-714-877-5840) is here to help. Our experienced
+  responding to USCIS inquiries, [The Law Office of Tuan Le](tel:+1-714-923-7190) is here to help. Our experienced
   immigration attorney can guide you through the entire process, ensuring that your paperwork is complete, accurate, and
   properly stored for future reference.
 
@@ -301,7 +301,7 @@ the [USCIS Case Status Tool](https://egov.uscis.gov/casestatus/landing.do). To c
   assistance to determine the best course of action.
   Navigating the immigration process can be challenging, but avoiding mistakes and staying informed can significantly
   improve your chances of a smooth application experience. If you have any concerns about your
-  application, [The Law Office of Tuan Le ](tel:+1-714-877-5840) is here to help.
+  application, [The Law Office of Tuan Le ](tel:+1-714-923-7190) is here to help.
 
 #### Get Legal Advice from an Experienced Immigration Lawyer in Orange, CA
 

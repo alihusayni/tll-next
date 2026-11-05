@@ -31,7 +31,7 @@ Office in Orange, CA,](#about-us) who are dedicated to securing favorable outcom
 variety of relief options. The article is a valuable resource for individuals and legal professionals alike, emphasizing
 due process and the vigorous protection of non-citizen rights.
 Take the first step towards building a strong defense and securing your future in the United States with Tuan Le, in
-Orange, CA. [Call now](tel:+1-714-877-5840) to schedule a consultation and explore your options.
+Orange, CA. [Call now](tel:+1-714-923-7190) to schedule a consultation and explore your options.
 
 ## Understanding Deportation Law: The Legal Framework of Removal Proceedings
 
@@ -147,7 +147,7 @@ push for universal legal representation highlights the importance of due process
 immigrants to assert their rights fully.
 Don't let the threat of deportation determine your future. The right legal representation is your strongest ally in the
 fight to remain in the United States. If you or a loved one are facing removal proceedings, act now to secure the
-expertise of a dedicated immigration attorney. [Call now](tel:+1-714-877-5840)
+expertise of a dedicated immigration attorney. [Call now](tel:+1-714-923-7190)
 
 #### Common Grounds for Deportation
 
@@ -307,5 +307,5 @@ humanitarian angle to build a strong defense. Their advocacy extends to appeals,
 immigrants.
 For those in need of such legal assistance, Tuan Le Law Office stands ready to offer Its services. With a deep
 understanding of immigration law and a commitment to their clients, they are well-equipped to
-help. [Reach out to Tuan Le Law Office](tel:+1-714-877-5840) for a consultation and take the first step towards a
+help. [Reach out to Tuan Le Law Office](tel:+1-714-923-7190) for a consultation and take the first step towards a
 strong defense.

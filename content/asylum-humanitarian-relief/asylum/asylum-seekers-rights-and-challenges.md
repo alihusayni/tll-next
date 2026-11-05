@@ -19,7 +19,7 @@ readTime: "29 min read"
 ---
 As we are becoming more and more globalized, migration is also becoming more and more widespread. Nowadays, people decide to move to another country for various reasons. Most pursue legal migration by applying for a visa, while others do not have the chance to go through lengthy processes and have to leave their home country as soon as possible. These are called **asylum seekers**.
 Each country treats asylum seekers differently based on their law. In this article, we will discuss **asylum seeker rights and challenges** in the United States. We will see what **Medical, legal, and social services** are available to them. There are also some **support organizations** that help them overcome some of the challenges they are facing.
-Enjoy a **30-minute free consultation** with an experienced lawyer in Orange, California. [Call for more information](tel:+1-714-877-5840).
+Enjoy a **30-minute free consultation** with an experienced lawyer in Orange, California. [Call for more information](tel:+1-714-923-7190).
 
 ## Who Is an Asylum Seeker?
 'Asylum seeker' is a term used to refer to a person who has fled his/her home country and is seeking protection in another country. Under international law, any individual has the right to protect himself by seeking asylum in another country.
@@ -64,7 +64,7 @@ According to the non-refoulement principle, asylum seekers who are going to face
 
 #### Legal Representation
 Asylum seekers can hire an attorney to assist and represent them throughout the asylum application process. There are even some organizations and private immigration lawyers that offer low-cost or pro bono legal services to them. However, the government is not responsible for providing any legal representation for asylum seekers.
-Hire an accomplished immigration attorney to guide you in every step of your asylum application process. [Call to schedule an appointment](tel:+1-714-877-5840).
+Hire an accomplished immigration attorney to guide you in every step of your asylum application process. [Call to schedule an appointment](tel:+1-714-923-7190).
 
 
 
@@ -127,7 +127,7 @@ In addition, their kids usually have a lot of challenges accessing education whi
 Besides all these, in some communities, asylum seekers suffer from discrimination and stigmatization which can make the whole process intolerable for them. Besides, they need to manage the distressing emotions and anxiety due to instability, uncertainty, and fear of deportation.
 Therefore, getting help from support organizations and legal counseling seem necessary for making the situation easier and the processing time shorter.
 Get help from an immigration lawyer in California to overcome some of these challenges more easily and avoid delays in the application process.
-[CALL NOW!](tel:+1-714-877-5840)
+[CALL NOW!](tel:+1-714-923-7190)
 
 #### Support Organizations for Asylum Seekers
 Fortunately, there are various support organizations and NGOs for asylum seekers across the country. We have tried to categorize some of the most important ones here based on the services and supports they offer. Please note that some of these organizations provide services in different categories.
@@ -171,4 +171,4 @@ Find better shelters and improve your living conditions with the help of the org
 
 #### Consult with an Immigration Attorney in Orange, CA
 As we have discussed in this article, there are both benefits and challenges on the way of asylum seekers in the United States. Besides, the interview process, the documentation requirements, and other steps of the application can be confusing, especially for a newcomer who is not familiar with not only the English language but also the immigration laws and regulations in each state.
-So, the [Law Office of Tuan Le](#about-us) is here to provide legal assistance to asylum seekers in Orange, California. You can even have a free consultation with our accomplished immigration lawyer. Call  [714-877-5840](tel:+1-714-877-5840) for more information.
+So, the [Law Office of Tuan Le](#about-us) is here to provide legal assistance to asylum seekers in Orange, California. You can even have a free consultation with our accomplished immigration lawyer. Call  [714-923-7190](tel:+1-714-923-7190) for more information.

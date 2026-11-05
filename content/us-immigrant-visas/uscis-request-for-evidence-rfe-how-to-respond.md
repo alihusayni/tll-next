@@ -22,7 +22,7 @@ featured: false
 
 If you receive a Request for Evidence (RFE) from USCIS, you generally have up to 12 weeks (84 days), plus three days if it was mailed, to respond, and the deadline cannot be extended. An RFE is not a denial. It means USCIS needs more documents before deciding. Respond completely, on time, in a single submission, and with the original RFE notice on top.
 
-**Received an RFE and the clock is ticking? The Law Office of Tuan Le in Orange, CA, offers a 30-minute free legal consultation. [Call us today at (714) 877-5840](tel:+1-714-877-5840) or [fill out the form to schedule your appointment](#contact).**
+**Received an RFE and the clock is ticking? The Law Office of Tuan Le in Orange, CA, offers a 30-minute free legal consultation. [Call us today at (714) 923-7190](tel:+1-714-923-7190) or [fill out the form to schedule your appointment](#contact).**
 
 ## What an RFE Means
 
@@ -154,4 +154,4 @@ Follow the delivery instructions in the notice. Most RFE responses must be maile
 
 Tuan Le Law helps clients with visas, citizenship, asylum, and deportation defense. Review our guidance on [preparing a strong immigration application](/resources/how-to-prepare-strong-immigration-application-tips), how to [expedite a USCIS case](/resources/expedite-uscis-case), and [common immigration questions](/resources/common-immigration-questions-answered-immigration-lawyer).
 
-If you received an RFE, call [(714) 877-5840](tel:+17148775840) to discuss your deadline and next steps. This article is general information, not legal advice.
+If you received an RFE, call [(714) 923-7190](tel:+17149237190) to discuss your deadline and next steps. This article is general information, not legal advice.

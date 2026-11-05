@@ -28,7 +28,7 @@ common challenges, such as proving the validity of your marriage, meeting the in
 processing times. In this article, we will explain how to avoid these pitfalls and ensure a successful outcome by hiring
 a marriage immigration lawyer.
 Don't let the complexity of the immigration system discourage you from pursuing your dream of living in the U.S. with
-your spouse.[Contact us today](tel:+1-714-877-5840) and get a free consultation with an experienced marriage immigration
+your spouse.[Contact us today](tel:+1-714-923-7190) and get a free consultation with an experienced marriage immigration
 lawyer in Orange County, CA
 
 ## Types Of Marriage Visas For The USA
@@ -135,7 +135,7 @@ they will decide on your application and notify you by mail or online. If approv
 mail in a few weeks. The process can take 9 to 15 months or longer, based on your case and other factors.
 Adjustment of status can be a complicated and lengthy process, but you Don't have to do it alone. At the Law Office of
 tuan le, we have the experience and expertise to help you get your green card through marriage. You can reach us by
-phone at [714-877-5840](tel:+1-714-877-5840).
+phone at [714-923-7190](tel:+1-714-923-7190).
 ![Illustration of green card application process for marriage-based immigration](https://qxwyml8xuwxdgws0.public.blob.vercel-storage.com/tuanlelaw/assets/articles/default-Ymr17fTvRcljN3kl7uK0gyA3LE6PQI.jpg
 
 #### Conditional Permanent Residence
@@ -226,5 +226,5 @@ selecting the appropriate visa, preparing and filing the forms and documents, av
 representing you in the interviews and appeals.
 At the Law Office of tuan le, We have the competence and proficiency to handle any marriage visa case, no matter how
 challenging. Don't let the immigration system prevent you from pursuing your dream. Contact us today and get
-a [free consultation](tel:+1-714-877-5840) with our marriage immigration
+a [free consultation](tel:+1-714-923-7190) with our marriage immigration
 lawyer,[Tuan Le,](#about-us) in Orange County, CA

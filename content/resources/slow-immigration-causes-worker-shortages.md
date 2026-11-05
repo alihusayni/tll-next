@@ -21,4 +21,4 @@ International immigration has decreased since 2016. Part of it is because of the
 The factors behind this shortage might be the fear of infection, child care, or worker burnout, but less immigration has played a big role here. There were more than 1 million immigrants in 2016, which has declined to 247,000 immigrants this past year.
 Some industries have been hit harder because of this shortage, i.e. jobs that immigrants tend to fill, including serving industries, serving food, and construction jobs. It doesn't mean that all construction workers are immigrants, but it makes it harder for employees to find job seekers.
 Another reason for worker shortages is that native-born workers seek a higher wage and do not accept the low-wage jobs despite immigrants.
-If you want to migrate to the United States, [call the Law Office of Tuan Le](tel:+1-714-877-5840) to have an immigration consultation.
+If you want to migrate to the United States, [call the Law Office of Tuan Le](tel:+1-714-923-7190) to have an immigration consultation.

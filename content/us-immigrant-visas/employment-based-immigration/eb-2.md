@@ -25,7 +25,7 @@ In this article, we will discuss the EB-2 visa requirements and eligibility, and
 will answer some of your FAQs about EB-2 visas.
 Filing for a US employment visa can be a complicated and frustrating process. Have an experienced immigration lawyer by
 your side.
-[Call for a 30-minute free consultation with our accomplished immigration attorney.](tel:+1-714-877-5840)
+[Call for a 30-minute free consultation with our accomplished immigration attorney.](tel:+1-714-923-7190)
 
 ## What Are EB-2 Employment-Based Visas?
 
@@ -172,7 +172,7 @@ are any green cards available for your category.
 There are a lot of challenges for EB-2 visa applicants, but hiring an accomplished immigration lawyer can help you
 navigate the application process effectively.
 Our law office is here for employers and foreign nationals seeking EB-2 visas in Orange County, CA.
-[CALL NOW!](tel:+1-714-877-5840)
+[CALL NOW!](tel:+1-714-923-7190)
 
 #### FAQs about EB-2 Employment-Based Visas
 
@@ -211,4 +211,4 @@ We have explored different possibilities to get EB-2 employment-based visas. Whe
 EB-2A, EB-2B, or EB-2 NIW, the Law Office of Tuan Le can help you through every step of the process.
 Our team specializes in immigration matters and with our experience you do not have to worry about what to do next and
 how to prepare yourself for each step of the application or EB-2 visa extension.
-To talk to our accomplished visa attorney, call us at [714-877-5840](tel:+1-714-877-5840) or fill in the form below.
+To talk to our accomplished visa attorney, call us at [714-923-7190](tel:+1-714-923-7190) or fill in the form below.

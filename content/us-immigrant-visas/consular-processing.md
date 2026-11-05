@@ -32,7 +32,7 @@ the steps and requirements, and the potential benefits and challenges of this me
 the U.S. and avoid common pitfalls.
 **Our expert immigration lawyer will help you get a U.S. green card, no matter where you are. The Law Office of Tuan Le
 in Orange, CA, offers a 30-minute free legal consultation to anyone who wants to apply for consular
-processing.[Call us today at (714) 877-5840](tel:+1-714-877-5840)
+processing.[Call us today at (714) 923-7190](tel:+1-714-923-7190)
 or [fill out the form to schedule your appointment](#contact) fill out the form to schedule your appointment.**
 
 ## **Are You Eligible for Consular Processing?**
@@ -156,7 +156,7 @@ packet to the US Customs and Border Protection (CBP) officer at the entry point 
 check you and decide if you can become a permanent resident in the US. This will be the final step to get permanent
 resident status.
 **Hire the best immigration attorney to guide you through every step of your consular processing
-application. [Call to schedule an appointment](tel:+1-714-877-5840).**
+application. [Call to schedule an appointment](tel:+1-714-923-7190).**
 
 #### **Pros and Cons of Consular Processing**
 
@@ -268,4 +268,4 @@ and health and criminal screenings. Therefore, before choosing this method, you 
 and consult with an expert immigration lawyer.
 [The Law Office of Tuan Le](#about-us) in Orange, CA, can help you with your consular
 processing application and guide you through the process step by
-step. [Call us now for a free 30-minute consultation](tel:+1-714-877-5840).
+step. [Call us now for a free 30-minute consultation](tel:+1-714-923-7190).

@@ -19,7 +19,7 @@ readTime: "29 min read"
 ---
 If you're planning to immigrate to the United States in 2025, understanding the potential changes in immigration policies is crucial. With a new administration led by President-elect Donald Trump, significant shifts in U.S. immigration laws are expected. These changes could impact individuals and businesses navigating the complex immigration system.
 Based on past policies during Trump's first term and recent developments, experts anticipate updates that may tighten visa requirements, affect asylum seekers, and reshape employment-based immigration. This blog explores the most critical updates and predictions for U.S. immigration policy in 2025, offering insights to help you stay informed and prepared.
-Whether you're applying for a visa, seeking asylum, or managing a business dependent on immigrant labor, knowing what to expect can help you avoid delays and legal challenges. At Tuan Le Law, our experienced immigration attorney is here to guide you through these uncertainties at [714-877-5840](tel:+1-714-877-5840).
+Whether you're applying for a visa, seeking asylum, or managing a business dependent on immigrant labor, knowing what to expect can help you avoid delays and legal challenges. At Tuan Le Law, our experienced immigration attorney is here to guide you through these uncertainties at [714-923-7190](tel:+1-714-923-7190).
 
 ## Why 2025 Marks a Turning Point for U.S. Immigration Policy
 The year 2025 is expected to bring pivotal changes to U.S. immigration policy, largely driven by a combination of political, economic, and global factors. With the inauguration of President-elect Donald Trump, immigration policy is poised to reflect the administration's "America First" priorities, which emphasize tighter border security and stricter immigration enforcement. Below are the key factors that make 2025 a critical year for reshaping U.S. immigration laws and regulations.
@@ -80,7 +80,7 @@ Given the uncertainty surrounding the implementation of Project 2025, preparatio
 
 #### Expert Guidance to Navigate the Changes
 At Tuan Le Law, we understand the challenges posed by shifting immigration policies. Whether you're concerned about deportations, visa applications, or asylum eligibility, our experienced immigration attorney is here to provide personalized legal assistance.
-[Call us](tel:+1-714-877-5840) today or fill out our online form to schedule a free consultation. With the right support, you can navigate the complexities of U.S. immigration law in 2025 with confidence and clarity.
+[Call us](tel:+1-714-923-7190) today or fill out our online form to schedule a free consultation. With the right support, you can navigate the complexities of U.S. immigration law in 2025 with confidence and clarity.
 Staying prepared and seeking professional legal help can make all the difference as these anticipated changes unfold.
 
 #### FAQs About U.S. Immigration Policy in 2025
@@ -120,4 +120,4 @@ Staying informed is crucial. Follow updates from reliable sources like governmen
 
 #### Need Help with U.S. Immigration in 2025? We're Here for You
 At Tuan Le Law, we specialize in helping individuals, families, and businesses navigate the complexities of U.S. immigration law. Whether you're concerned about changes to visa requirements, asylum applications, or family sponsorships, our experienced attorney is here to provide personalized guidance.
-[Call us](tel:+1-714-877-5840) today for a free consultation and ensure you're fully prepared for the upcoming shifts in U.S. immigration policy. Let us help you achieve your immigration goals with clarity and confidence.
+[Call us](tel:+1-714-923-7190) today for a free consultation and ensure you're fully prepared for the upcoming shifts in U.S. immigration policy. Let us help you achieve your immigration goals with clarity and confidence.

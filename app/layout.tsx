@@ -62,7 +62,7 @@ export default function RootLayout({
                         "name": "Tuan Le Law",
                         "description": "Professional immigration legal services specializing in visas, green cards, asylum, and citizenship applications.",
                         "url": "https://www.tuanlelaw.com",
-                        "telephone": "+1-714-877-5840",
+                        "telephone": "+1-714-923-7190",
                         "address": {
                             "@type": "PostalAddress",
                             "addressLocality": "Orange",

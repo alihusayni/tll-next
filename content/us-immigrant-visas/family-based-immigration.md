@@ -29,7 +29,7 @@ various visa types, underscoring the need for expert legal advice to smoothly tr
 ensure family reunification.
 Are you ready to reunite with your family in the United States? The dedicated lawyer at Tuan Le Law Office is here to
 guide you through the family immigration visa process. With our expertise, well ensure that your loved ones can join you
-in the U.S. legally and with ease. [Contact](tel:+1-714-877-5840)Tuan Le Law Office today.
+in the U.S. legally and with ease. [Contact](tel:+1-714-923-7190)Tuan Le Law Office today.
 
 ## **What Is Family-based immigration?**
 
@@ -161,7 +161,7 @@ In summary, the application process for bringing parents to the United States or
 requires careful attention to details to ensure a successful family reunification immigration experience.
 For personalized guidance and support through each stage of the application, consider reaching out to our legal expert
 who can help you navigate the complexities of the immigration. Start your application now and pave the way for your
-family s future. Call us today at [714-877-5840](tel:+1-714-877-5840)
+family s future. Call us today at [714-923-7190](tel:+1-714-923-7190)
 or [fill out the form to schedule your appointment](#contact)
 
 #### **Steps After Visa Approval**

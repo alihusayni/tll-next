@@ -32,7 +32,7 @@ To get a certain type of visa, one must meet some criteria and specifications to
 * Your purpose of traveling to the US must be one of these:*going on a vacation; going on visiting tours in different cities; visiting someone, such as a family member or a friend; taking part in some social events (like a concert); medical purposes; take part in an unpaid sport or music event, such as a contest, as an athlete or a musician; participate in short-term learning courses for which you will not get any credit.*
 * You have to be able to prove the fact that you can support yourself financially while staying in the US.
 * You have to be able to prove that you WILL leave the US as soon as your visa expires.
-If you do not meet the above-mentioned criteria, or you are still in doubt, give us a call for a free consultation at [(714) 877 5840](http://+1-714-877-5840) to see which type of visa you need to apply for Some common purposes for which you cannot use a B2 visa include:
+If you do not meet the above-mentioned criteria, or you are still in doubt, give us a call for a free consultation at [(714) 923 7190](http://+1-714-923-7190) to see which type of visa you need to apply for Some common purposes for which you cannot use a B2 visa include:
 * Study
 * Work, whether long-term or paid professional performances
 * Airplanes or ship crewmember
@@ -59,7 +59,7 @@ To complete this form, you will need the following information and documents:
 * Your family members simple biographical information
 * A recent photo (digital format). Your photo should comply with U.S. government standards. Read the guideline [here](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos.html).
 The U.S. Bureau of Consular Affairs has published an exemplar as a detailed step-by-step guide for how to fill out Form DS-160. You can download the PDF file from the [official USCIS resources](https://ceac.state.gov/GenNIV/).
-If you still need help with this form, we are here for you. Contact us at [(714) 877 5840](tel:+1-714-877-5840).
+If you still need help with this form, we are here for you. Contact us at [(714) 923 7190](tel:+1-714-923-7190).
 
 #### Step 2: Pay the Fees
 Although filling out Form DS-160 is free, you have to pay the B2 visa application fee. As mentioned earlier, it is $160. You should also pay the visa issuance fees if required.
@@ -139,4 +139,4 @@ Absolutely. It is not a law, but healthcare in the U.S. is too expensive. If you
 
 
 The Law Office of Tuan Le, Orange County, California, is here to help you with your visa needs. Our experienced team is ready to give you legal advice and consultation regarding the B2 visa application and extension. Moreover, no matter at which U.S. embassy or consulate you need to apply for the B2 visa interview, our accomplished immigration attorney can handle your case professionally to make this path easy and stress-free for you.
-Call us at [(714) 877 5840](tel:+1-714-877-5840) to schedule an appointment or get a 30-minute free consultation.
+Call us at [(714) 923 7190](tel:+1-714-923-7190) to schedule an appointment or get a 30-minute free consultation.

@@ -24,7 +24,7 @@ On the other hand, immigrant visas are for those who wish to live in the United 
 Choosing the right visa can feel overwhelming due to the variety of options available. This guide will walk you through the different types of U.S. immigrant visas, eligibility requirements, and how to determine the best pathway for your situation.
 
 ### Need Help Navigating the Complex Visa Process?
-If you're looking to apply for an immigrant visa or change your current status, our skilled immigration attorney in Orange, CA, is here to guide you every step of the way. [Call today](tel:+1-714-877-5840) for a free consultation and take the first step toward making your American dream a reality.
+If you're looking to apply for an immigrant visa or change your current status, our skilled immigration attorney in Orange, CA, is here to guide you every step of the way. [Call today](tel:+1-714-923-7190) for a free consultation and take the first step toward making your American dream a reality.
 
 #### Overview of U.S. Immigrant Visas: Your Path to Permanent Residency
 If you're ready to make the United States your permanent home, understanding the types of U.S. immigrant visas available is a crucial first step. These visas not only allow you to live and work in the U.S. indefinitely but also serve as the pathway to obtaining a Green Card and eventually applying for U.S. citizenship.
@@ -96,7 +96,7 @@ For individuals who invest significantly in a U.S. business that creates jobs fo
 ### #
 Take the Next Step in Your U.S. Career
 The employment-based visa process requires careful planning, proper documentation, and often, employer sponsorship. Small errors can lead to unnecessary delays or denials. Ensure your application is handled professionally by contacting our experienced [immigration attorney in Orange County, CA.](#about-us)
-[Call today](tel:+1-714-877-5840) to schedule a free consultation and get expert guidance tailored to your situation.
+[Call today](tel:+1-714-923-7190) to schedule a free consultation and get expert guidance tailored to your situation.
 
 #### Diversity Visa Lottery: Your Chance to Win a Green Card
 
@@ -206,4 +206,4 @@ Consulting with an immigration attorney can help you determine the best course o
 #### **Simplify the Visa Process with Expert Assistance**
 Applying for a U.S. immigrant visa involves detailed documentation, accurate form submissions, and adherence to strict timelines. Mistakes can lead to significant delays or denials.
 At the [Law Office of Tuan Le](#contact-us) in Orange County, CA, we specialize in guiding individuals and families through the visa process. Whether you're applying for the first time, seeking a renewal, or need help with complex cases, we're here to help.
-[Call us today](tel:+1-714-877-5840) for a free consultation and take the first step toward securing your U.S. visa.
+[Call us today](tel:+1-714-923-7190) for a free consultation and take the first step toward securing your U.S. visa.

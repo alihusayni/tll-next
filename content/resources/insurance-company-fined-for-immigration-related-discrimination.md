@@ -22,4 +22,4 @@ The Scott Insurance discriminated requested that the person present a specific d
 The justice department also found that the insurance company routinely discriminated against non-U.S. citizens by failing to consider and hire them due to their citizenship status.
 The anti-discrimination provision of the Immigration and Nationality Act (INA) protects U.S. citizens, non-U.S. citizen nationals, refugees, asylees, and recent lawful permanent residents from hiring discrimination based on their citizenship status.
 Under the settlement, Scott Insurance will pay $9,500 in civil penalties to the United States, and up to $70,000 in back pay to affected workers. Scott Insurance will also have to train employees on the requirements of the INA's anti-discrimination provision.
-[Call the Law Office of Tuan Le](tel:+1-714-877-5840) in Orange, CA if you have been discriminated by any company and need legal advice.
+[Call the Law Office of Tuan Le](tel:+1-714-923-7190) in Orange, CA if you have been discriminated by any company and need legal advice.

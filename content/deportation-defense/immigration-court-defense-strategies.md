@@ -30,7 +30,7 @@ To make you more familiar with defense strategies in immigration court and help 
 in a court session, we are reviewing the most practical immigration court defense strategies that can help you win in
 simple words.
 **Are you trying to prepare for your upcoming immigration court hearing? Get free advice from an experienced immigration
-lawyer with a [phone call](tel:+1-714-877-5840).**
+lawyer with a [phone call](tel:+1-714-923-7190).**
 
 ## Immigration Court System in the United States
 
@@ -166,7 +166,7 @@ You should pay 110$ for an immigration appeal to the BIA and the process can tak
 If you decide to waive your right to appeal, you must leave the US immediately. So, consult with your immigration lawyer
 about your options before the judgment is issued.
 **Are you looking for a highly-skilled lawyer in immigration court proceedings? Mr. Tuan Le is our accomplished
-immigration attorney in Orange County, CA.[Call to schedule an appointment](tel:+1-714-877-5840).**
+immigration attorney in Orange County, CA.[Call to schedule an appointment](tel:+1-714-923-7190).**
 
 #### Get Help with Your Immigration Court Hearings
 
@@ -180,5 +180,5 @@ immigration court hearings and assist you in understanding the procedure, the op
 and planning a strong defense strategy.
 You may also need advice about the naturalization process, family-based immigration, employment-based immigration, and
 other types of immigration and visas. Whatever you need, our professional team is here for you.
-Call us at [(714) 877-5840](tel:+1-714-877-5840) to schedule an appointment. You can also fill out the form below, we will
+Call us at [(714) 923-7190](tel:+1-714-923-7190) to schedule an appointment. You can also fill out the form below, we will
 reach out to you.

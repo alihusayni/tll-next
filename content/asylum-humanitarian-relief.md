@@ -86,7 +86,7 @@ Reliable resources are essential to keep abreast of immigration policy changes. 
 like border control, immigration detention, and family separation.
 Are you affected by immigration policies? You're not alone. Tuan Le Law Office can help clarify your legal status and
 guide you through the path to reform. Stand with us as we strive for a future where every individual has access to the
-rights and resources they need. Reach out to us at [714-877-5840](tel:+1-714-877-5840)
+rights and resources they need. Reach out to us at [714-923-7190](tel:+1-714-923-7190)
 
 #### Living in Constant Fear: The Daily Realities of Undocumented Life
 
@@ -167,7 +167,7 @@ evidence can strengthen your position when seeking future opportunities.
 With immigration policies in a state of flux, staying informed about changes is imperative. Understanding your options
 will equip you to adapt to new scenarios, ensuring you're ready for whatever comes next.
 At Tuan Le Law Office, your journey towards a brighter future begins today. Cast off the weight of worry and call us
-at [714-877-5840](tel:+1-714-877-5840) for a consultation. Together, well set sail toward a future filled with hope and
+at [714-923-7190](tel:+1-714-923-7190) for a consultation. Together, well set sail toward a future filled with hope and
 security.
 
 #### Advocating for Change: Empowering Undocumented Immigrants
@@ -257,5 +257,5 @@ immigration attorney can empower you to understand your rights, explore potentia
 chart a course toward a more secure future.
 Tuan Le Law Office in Orange County, CA, is dedicated to providing comprehensive legal support to undocumented
 immigrants. Our team of experienced attorneys possesses the legal expertise to help you navigate the intricacies of
-immigration law. Don't hesitate to reach out to us at [714-877-5840](tel:+1-714-877-5840) for a consultation. Together, we
+immigration law. Don't hesitate to reach out to us at [714-923-7190](tel:+1-714-923-7190) for a consultation. Together, we
 can work towards a brighter future.

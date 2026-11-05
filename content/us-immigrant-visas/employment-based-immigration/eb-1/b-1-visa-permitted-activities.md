@@ -37,7 +37,7 @@ This article provides a comprehensive overview of the B-1 visa permitted activit
 importance of understanding these limitations to avoid legal issues such as visa revocation and future entry bans.
 If you find yourself in a challenging situation like the one described, it's crucial to seek professional legal advice
 to navigate the complexities of B-1 visa regulations. For expert guidance and support, consider reaching out
-to [Tuan Le Law in Orange, CA](#about-us). Call us at [714-877-5840](tel:+1-714-877-5840).
+to [Tuan Le Law in Orange, CA](#about-us). Call us at [714-923-7190](tel:+1-714-923-7190).
 
 ## **Importance of Understanding Permitted Activities and Restrictions**
 
@@ -131,7 +131,7 @@ well-prepared and meet all the requirements for their business visit to the Unit
   Attend the visa interview at the scheduled time. Be prepared to answer questions about your trip, your background, and
   your ties to your home country.
   Ready to start your B-1 Visa application? Don't wait! Begin by contacting the [*Law Office of Tuan
-  Le*](tel:+1-714-877-5840) specializing in business and employment immigration to help you navigate the complexities of
+  Le*](tel:+1-714-923-7190) specializing in business and employment immigration to help you navigate the complexities of
   U.S. immigration laws efficiently and effectively.
 
 #### **Required Documentation**
@@ -252,7 +252,7 @@ and conduct business internationally.
 Seeking legal advice is advisable whenever you are unsure about the activities permitted under your B-1 visa or if you
 encounter any issues during your stay. Don't hesitate to seek professional legal advice. For expert guidance and
 support, reach out to [Tuan Le Law in Orange, CA. ](https://www.tuanlelaw.com/us-immigrant-visas)Call us
-at [714-877-5840](tel:+1-714-877-5840). Remember, it's better to be safe than sorry when it comes to your visa status.
+at [714-923-7190](tel:+1-714-923-7190). Remember, it's better to be safe than sorry when it comes to your visa status.
 
 The information provided on this page or article does not, and is not intended to, constitute legal advice; instead, all
 information, content, and materials available on this page or article are for general informational purposes only.

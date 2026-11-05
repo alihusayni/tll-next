@@ -6,20 +6,18 @@ export async function POST(request: NextRequest) {
   const apiToken = process.env.TOL_API_TOKEN;
   const formKey = process.env.TOL_FORM_KEY;
   const requestId = process.env.TOL_REQUEST_ID;
-
-  if (!apiToken || !formKey || !requestId) {
-    console.error('Contact form: Missing TOL_API_TOKEN, TOL_FORM_KEY, or TOL_REQUEST_ID env vars');
-    return NextResponse.json(
-      { message: 'Server configuration error' },
-      { status: 500 }
-    );
+  // The TOL contact server is optional: when its env vars are missing the submission
+  // still reaches Despora (system of record) instead of failing for the visitor.
+  const tolConfigured = !!(apiToken && formKey && requestId);
+  if (!tolConfigured) {
+    console.error('Contact form: TOL_API_TOKEN / TOL_FORM_KEY / TOL_REQUEST_ID not set - skipping TOL forwarding');
   }
 
   let body: any = null;
   try {
     body = await request.json();
 
-    // --- Abandoned form handling ---
+    // --- Abandoned form handling (partial entries; TOL only, not a real submission) ---
     if (body.abandoned === true) {
       const { name, email, phone, message, website, timeElapsed, pageUrl } = body;
 
@@ -40,7 +38,7 @@ export async function POST(request: NextRequest) {
       }
 
       const hasData = !!(name || email || phone || message);
-      if (!hasData) {
+      if (!hasData || !tolConfigured) {
         return NextResponse.json({ ok: true });
       }
 
@@ -49,9 +47,9 @@ export async function POST(request: NextRequest) {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'X-API-TOKEN': apiToken,
-            'X-FORM-KEY': formKey,
-            'X-REQUEST-ID': requestId,
+            'X-API-TOKEN': apiToken!,
+            'X-FORM-KEY': formKey!,
+            'X-REQUEST-ID': requestId!,
           },
           body: JSON.stringify({
             data: {
@@ -91,41 +89,60 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ success: true });
     }
 
-    const response = await fetch(TOL_ACTION, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'X-API-TOKEN': apiToken,
-        'X-FORM-KEY': formKey,
-        'X-REQUEST-ID': requestId,
-      },
-      body: JSON.stringify({
-        data: { ...data, requestId },
-      }),
-    });
-
-    const result = await response.json();
-
-    if (!response.ok) {
-      await fetch('https://www.despora.ai/api/alerts/form-failure', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          siteName: 'Tuan Le Law',
-          pageUrl: data.pageUrl || '',
-          errorDetails: `TOL Server returned status ${response.status}: ${JSON.stringify(result)}`,
-          clientEmail: 'tuan@tuanlelaw.com',
-          leadData: data
-        })
-      }).catch(err => console.error('Failed to report failure to Despora:', err));
-
-      return NextResponse.json(
-        result,
-        { status: response.status }
-      );
+    // 1) TOL contact server (existing behavior, when configured)
+    let tolResponse: Response | null = null;
+    let tolResult: any = null;
+    let tolError = '';
+    if (tolConfigured) {
+      try {
+        tolResponse = await fetch(TOL_ACTION, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-API-TOKEN': apiToken!,
+            'X-FORM-KEY': formKey!,
+            'X-REQUEST-ID': requestId!,
+          },
+          body: JSON.stringify({
+            data: { ...data, requestId },
+          }),
+        });
+        tolResult = await tolResponse.json().catch(() => ({}));
+        if (!tolResponse.ok) tolError = `TOL Server returned status ${tolResponse.status}: ${JSON.stringify(tolResult)}`;
+      } catch (err: any) {
+        tolError = err?.message || String(err);
+      }
     }
 
-    return NextResponse.json(result);
+    // 2) Despora (every non-spam submission, never throws)
+    const desporaOk = await forwardToDespora(request, data);
+
+    if (tolConfigured && !tolError) {
+      return NextResponse.json(tolResult);
+    }
+
+    if (desporaOk) {
+      if (tolError) console.error('Contact form: TOL forwarding failed but Despora received the lead:', tolError);
+      return NextResponse.json({ success: true });
+    }
+
+    // Neither destination accepted the lead: alert as before and fail.
+    await fetch('https://www.despora.ai/api/alerts/form-failure', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        siteName: 'Tuan Le Law',
+        pageUrl: data.pageUrl || '',
+        errorDetails: tolError || 'No form destination accepted the submission (TOL not configured, Despora forward failed)',
+        clientEmail: 'tuan@tuanlelaw.com',
+        leadData: data
+      })
+    }).catch(err => console.error('Failed to report failure to Despora:', err));
+
+    return NextResponse.json(
+      tolResult && tolResponse ? tolResult : { message: 'Internal server error' },
+      { status: tolResponse && !tolResponse.ok ? tolResponse.status : 500 }
+    );
   } catch (error: any) {
     console.error('Contact form API error:', error);
     const leadData = body && (body as any).data ? (body as any).data : body;
@@ -177,3 +194,45 @@ function isSuspiciousSpam(name: any, email: any, addressOrLocation: any, message
   return score >= 2;
 }
 
+
+const TN_SOURCES = ['direct', 'organic', 'social', 'gbp', 'paid'];
+
+/**
+ * Forward a (non-spam) form submission to Despora server-side. Awaited with a
+ * ~6 s timeout; errors are only logged so the visitor's submission never fails.
+ */
+async function forwardToDespora(request: NextRequest, data: any): Promise<boolean> {
+  const key = process.env.DESPORA_FORM_KEY;
+  if (!key) {
+    console.error('Despora form forward skipped: DESPORA_FORM_KEY not set');
+    return false;
+  }
+  try {
+    const { name, email, phone, message, pageUrl, website, ...rest } = data || {};
+    const cookieSrc = request.cookies.get('_tn_src')?.value || '';
+    const source = TN_SOURCES.includes(cookieSrc) ? cookieSrc : 'direct';
+    const res = await fetch('https://www.despora.ai/api/webhook/form', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        key,
+        name: name || '',
+        email: email || '',
+        phone: phone || '',
+        message: message || '',
+        page: pageUrl || request.headers.get('referer') || '',
+        source,
+        fields: rest,
+      }),
+      signal: AbortSignal.timeout(6000),
+    });
+    if (!res.ok) {
+      console.error('Despora form forward failed with status', res.status);
+      return false;
+    }
+    return true;
+  } catch (err) {
+    console.error('Despora form forward error:', err);
+    return false;
+  }
+}
