@@ -56,7 +56,7 @@ Beyond the paperwork, we see the life you’re building. We are honored to help 
                   href="tel:(714) 877 5840"
                   className="font-inter text-base text-[#071C32] hover:text-[#e55b1e] transition-colors"
                 >
-                  (714) 584-6741
+                  (714) 877 5840
                 </Link>
               </div>
             </div>
