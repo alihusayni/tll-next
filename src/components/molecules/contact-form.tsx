@@ -126,7 +126,7 @@ export default function ContactForm() {
       }
 
       const data = await response.json();
-      if (data.message) {
+      if (data.success === true || data.message) {
         submittedRef.current = true;
         setShowSuccessPopup(true);
         setFormData({ name: '', email: '', phone: '', message: '' });
