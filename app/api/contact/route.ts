@@ -17,6 +17,16 @@ export async function POST(request: NextRequest) {
   try {
     body = await request.json();
 
+    // Despora daily form-health-check probe: acknowledge and drop. Never email the client or forward anywhere.
+    if (
+      request.headers.get('x-despora-health-check') === '1' ||
+      body?.name === '_form_health_check_' ||
+      body?.data?.name === '_form_health_check_' ||
+      body?.healthCheck === true
+    ) {
+      return NextResponse.json({ success: true, ok: true });
+    }
+
     // --- Abandoned form handling (partial entries; TOL only, not a real submission) ---
     if (body.abandoned === true) {
       const { name, email, phone, message, website, timeElapsed, pageUrl } = body;
